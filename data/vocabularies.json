@@ -1,0 +1,67 @@
+{
+  "methods": [
+    "algorithm",
+    "bounds",
+    "certificate_checking",
+    "classification",
+    "construction",
+    "counterexample",
+    "exact_computation",
+    "finite_search",
+    "formalization",
+    "model_analysis",
+    "model_construction",
+    "numerical_computation",
+    "proof",
+    "symbolic_derivation"
+  ],
+  "validation": [
+    "pure_proof",
+    "exact_computation",
+    "numerical_evidence",
+    "public_data",
+    "simple_experiment",
+    "complex_experiment"
+  ],
+  "experiment": [
+    "none_for_formal_task",
+    "public_observations_only",
+    "simple_experiment",
+    "complex_experiment",
+    "unknown"
+  ],
+  "status": [
+    "source_reports_open",
+    "open_after_scoped_check",
+    "known_result",
+    "unverified",
+    "disproved",
+    "resolved",
+    "conditional",
+    "conflicting"
+  ],
+  "priority": [
+    "priority_trial",
+    "preparation_required",
+    "exploratory",
+    "unassessed"
+  ],
+  "relations": [
+    "calibrated_by",
+    "calibrates",
+    "calibration_for",
+    "depends_on",
+    "equivalent_to",
+    "method_bridge",
+    "method_preparation",
+    "prerequisite",
+    "related_method",
+    "related_to",
+    "subproblem_of"
+  ],
+  "evidence": [
+    "untested_forecast",
+    "public_attempt_evidence",
+    "project_measured"
+  ]
+}

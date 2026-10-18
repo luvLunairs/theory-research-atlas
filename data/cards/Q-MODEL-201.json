@@ -1,0 +1,194 @@
+{
+  "id": "Q-MODEL-201",
+  "title": "Complete EFX for four additive goods agents",
+  "domain": "Mechanism design and fair allocation",
+  "cross_domains": [
+    "Computational complexity",
+    "Optimization and operations research"
+  ],
+  "kind": "literature_open",
+  "statement": "For four agents and every finite set M of indivisible goods with nonnegative additive values v_i, does there exist a complete partition X of M such that v_i(X_i)≥v_i(X_j\\{g}) for all agents i,j and every g∈X_j? The deletion quantifier includes goods of zero value to i (EFX0).",
+  "source_ids": [
+    "SRC-MODEL-201",
+    "SRC-MODEL-202"
+  ],
+  "source_locator": "Alkassar et al., Introduction and Theorem 1; He and Tao, Section 6.",
+  "status": "source_reports_open",
+  "status_basis": "The August 2026 source still reports the unrestricted four-agent question as open while proving m≤9. Targeted later searches found no general resolution; the suggested m=10 pilot has not received a separate exhaustive novelty check.",
+  "last_checked": "2026-10-14",
+  "curator_origin": false,
+  "duplicate_key": "efx0-four-additive-goods-complete",
+  "proposed_card": true,
+  "primary_domain_id": "ECON.MECH",
+  "cross_domain_ids": [
+    "CS.COMPLEX",
+    "MATH.OPT"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "revision_history": [],
+  "experimental_dependency": "none_for_formal_task",
+  "plain_summary": "Can four people always divide indivisible goods so that removing any one item from someone else's share eliminates envy? A finite number of goods still leaves infinitely many possible valuations.",
+  "assumptions": [
+    "Four agents; a finite good set; nonnegative additive values, with zeros and ties allowed.",
+    "Every good belongs to exactly one bundle. Empty bundles are allowed.",
+    "Comparisons use the potentially envious agent's valuation of both bundles. EFX0 quantifies over every removed good, including goods that agent values at zero."
+  ],
+  "scope": "The literature question allows arbitrary m. A proposed first milestone uses m=10 and one explicitly specified rational polytope of normalized valuation matrices. This restriction is curator-designed and awaits assessment; it is not a separately verified open case.",
+  "target": "Seek an existence argument for the full question or a rigorously certified counterexample. A first bounded milestone is an exact EFX0 cover for one stated continuous valuation region, or a concrete counterexample that survives exhaustive allocation checking.",
+  "success_criteria": [
+    "Write the region R as explicit rational linear inequalities in the 40 values before search; explain nonemptiness and any row normalization or symmetry reduction.",
+    "For a positive regional result, give a finite menu of complete allocations and an exact proof that every v∈R admits at least one menu allocation satisfying all EFX0 inequalities.",
+    "For a negative result, give exact rational valuations and a checkable reason every one of the 4^10 complete allocations fails EFX0.",
+    "State uncovered regions and preserve ties and zero values. A regional certificate alone does not settle all ten-good instances or the all-m question."
+  ],
+  "known_results": [
+    "SRC-MODEL-201 reports the m≤9 theorem. Its continuous-domain encoding supplies a relevant method; it does not solve unrestricted m.",
+    "SRC-MODEL-202 distinguishes additive goods, still open, from chore nonexistence and nonadditive goods counterexamples."
+  ],
+  "prerequisites": [
+    "Additive fair division and the distinction between EFX, EFX0, EF1 and partial allocation.",
+    "Linear real arithmetic, exact certificates and coverage proofs for a finite union of regions.",
+    "Symmetry reductions that preserve one common labeling of goods across all agents."
+  ],
+  "significance": "The four-agent case is a small-agent boundary of exact fair division. A new regional argument could expose reusable structure, but a collection of successful sampled allocations is not an existence theorem.",
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "Q-MODEL-206",
+      "explanation": "Restricting the value alphabet is another route into additive-goods EFX; the unrestricted four-agent and arbitrary-agent three-value questions do not imply one another directly."
+    }
+  ],
+  "requirements": {
+    "experiment": "None for the mathematical existence task. Whether people accept EFX as fair is an empirical question outside this target.",
+    "data": "Only explicitly recorded valuation constraints and any future exact candidate matrix; no preference survey is required.",
+    "compute": "First-pilot policy: one region, at most 128 menu allocations, one CPU-hour and 8 GiB memory, then stop with an unresolved region if necessary. These are proposed resource caps, not measured requirements or a promise of completion. The complete allocation space at m=10 has 4^10=1,048,576 assignments; exhaustive region coverage may require much more.",
+    "theoretical_assumptions": "Finite indivisibility, additivity, nonnegative values, complete assignment and EFX0 deletion semantics."
+  },
+  "ai_assessment": {
+    "priority": "preparation_required",
+    "rationale": "Exact linear constraints let AI propose regions and allocation menus while a separate checker tests each claim. A specialist must first judge whether the chosen region adds anything to known reductions.",
+    "dimensions": {
+      "clarity": {
+        "rating": "high",
+        "reason": "The allocation and inequality quantifiers are explicit."
+      },
+      "decomposability": {
+        "rating": "high",
+        "reason": "Encoding, region selection, allocation generation and certificate checking can be separated."
+      },
+      "methods": {
+        "rating": "high",
+        "reason": "A recent bounded existence proof supplies a concrete continuous-region method."
+      },
+      "search_or_symbolic": {
+        "rating": "high",
+        "reason": "Linear-real formulas support symbolic reasoning and solver-guided search."
+      },
+      "checkability": {
+        "rating": "medium",
+        "reason": "A finite certificate is possible, but covering continuous regions and validating the encoding require care."
+      },
+      "expertise": {
+        "rating": "high",
+        "reason": "Fair-division and computer-assisted-proof expertise are needed."
+      },
+      "significance": {
+        "rating": "high",
+        "reason": "The full target is a central small-agent existence case."
+      },
+      "verification_difficulty": {
+        "rating": "high",
+        "reason": "All valuations in the claimed region must be covered, including boundary faces."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "Novelty of any chosen ten-good subregion is unverified. Solver difficulty and generalization from local structure are unknown.",
+    "assessment_date": "2026-10-14",
+    "model_scope": "No named model evaluated; assumes tool-using AI able to manipulate exact formulas, generate auditable code and explain mathematical assumptions.",
+    "evidence_refs": []
+  },
+  "methods": [
+    "Exact linear-real encoding of allocation failures.",
+    "Counterexample-guided allocation-menu generation on a declared rational polytope.",
+    "Proof-carrying region subdivision, with independently checked branch coverage."
+  ],
+  "method_tags": [
+    "proof",
+    "finite_search",
+    "exact_computation",
+    "certificate_checking",
+    "counterexample"
+  ],
+  "validation_tags": [
+    "pure_proof",
+    "exact_computation"
+  ],
+  "obstacles": [
+    "A finite grid of values cannot prove a statement over real valuations.",
+    "Positive results can become vacuous if the selected region only contains a previously solved special class.",
+    "Symmetry choices and discarded allocation clauses can silently remove hard boundary cases."
+  ],
+  "validation": {
+    "steps": [
+      "Implement a small independent allocation checker from the displayed EFX0 inequalities, without sharing the search encoder.",
+      "For each menu allocation, reconstruct its inequalities directly from bundle membership.",
+      "Require an exact checkable proof of unsatisfiability for region-and-failure formulas; cross-checking two solvers is corroboration, not a substitute for an audited encoding.",
+      "For a putative counterexample, verify exact nonnegativity and enumerate all complete allocations independently, retaining a violated comparison for each.",
+      "Have a fair-division researcher review regional coverage and compare the resulting lemma with existing existence theorems."
+    ],
+    "human_review_difficulty": "High for a universal regional proof: the certificate checker, encoding and region cover all matter. A small concrete allocation is easy to check but does not prove existence for other values.",
+    "statement_alignment": "Removing a good from the envied bundle is essential; every good is quantified, including zero values. Unallocated goods and approximate inequalities change the target."
+  },
+  "known_attempts": [
+    "Alkassar, Fouz and Mehlhorn (2026) provide a computer-assisted proof through nine goods; their package is an external public record, not a project attempt."
+  ],
+  "unresolved_checks": [
+    "Assess the novelty and usefulness of a proposed ten-good region before running it.",
+    "Independently inspect the recent m≤9 certificate and any later version before relying on its detailed reductions.",
+    "Refresh the all-m four-agent status before any claimed solution."
+  ],
+  "epistemic_layers": {
+    "formal_validity": "The target is a theorem about idealized additive preferences. Only an aligned proof or exact counterexample supports a mathematical conclusion.",
+    "empirical_support": "No claim about measured human preferences, fairness judgments or implementation outcomes follows from the theorem."
+  },
+  "attribution": {
+    "original_authors": [
+      "Eyad Alkassar",
+      "Mahmoud Fouz",
+      "Kurt Mehlhorn",
+      "Wentao He",
+      "Biaoshuai Tao"
+    ],
+    "citation": "Alkassar, Fouz and Mehlhorn (2026), arXiv:2608.08590v1; He and Tao (2026), arXiv:2606.08872v1, Section 6. These sources document the target and recent boundary results; the ten-good regional milestone is curator-proposed.",
+    "curator_credit": "Compiled for Theory Research Atlas with AI assistance."
+  },
+  "judgments": {
+    "difficulty": {
+      "rating": "high",
+      "basis": "The complete target is an unresolved existence problem. A bounded search does not establish the general statement.",
+      "evidence": "editorial_estimate_not_measured"
+    },
+    "correctness": {
+      "status": "no_project_answer",
+      "basis": "The literature supports the question; no project answer has been submitted for review."
+    },
+    "novelty": {
+      "status": "requires_future_literature_review",
+      "basis": "The all-m question is source-reported open. Neither the selected ten-good region nor any future certificate is claimed novel without a fresh literature comparison."
+    },
+    "significance": {
+      "rating": "high",
+      "basis": "The four-agent case is a small-agent boundary of exact fair division. A new regional argument could expose reusable structure, but a collection of successful sampled allocations is not an existence theorem."
+    }
+  },
+  "status_search": {
+    "queries": [],
+    "checked_sources": [
+      "SRC-MODEL-201",
+      "SRC-MODEL-202"
+    ],
+    "result": "The August 2026 source still reports the unrestricted four-agent question as open while proving m≤9. Targeted later searches found no general resolution; the suggested m=10 pilot has not received a separate exhaustive novelty check.",
+    "limitations": "Dated primary-source checks and targeted later-work searches cannot establish that no unpublished or newly posted solution exists. Refresh the literature before claiming progress."
+  }
+}

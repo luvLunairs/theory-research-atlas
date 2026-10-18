@@ -1,0 +1,183 @@
+{
+  "id": "Q-MATH-101",
+  "title": "Exact finite satisfiability for a small monadic fragment",
+  "domain": "Finite model theory",
+  "cross_domains": [
+    "Computability",
+    "Proof assistants"
+  ],
+  "kind": "known_result_calibration",
+  "statement": "For a closed, equality-free first-order formula with k <= 3 unary predicates, no functions or constants, at most 40 syntax-tree nodes and quantifier nesting at most 4, decide satisfiability over nonempty finite domains. Reproduce the predicate-type reduction to nonempty subsets of {0,1}^k, then return a satisfying model or an exhaustive rejection certificate. The size limits are curator-defined calibration conditions.",
+  "source_ids": [
+    "SRC-MATH-101"
+  ],
+  "source_locator": "SRC-MATH-101, Section 5.1, Lemmas 36 and 38 (printed p. 17); Section 2.4 and Definition 14 fix the logical setting.",
+  "status": "known_result",
+  "status_basis": "The source proves decidability for a broader unary-predicate fragment. The bounded certificate task is an editorial specialization of that known result.",
+  "last_checked": "2026-10-14",
+  "curator_origin": true,
+  "duplicate_key": "exact-finite-satisfiability-for-a-small-monadic-fragment",
+  "proposed_card": true,
+  "primary_domain_id": "LOGIC.MODEL",
+  "cross_domain_ids": [
+    "LOGIC.RECUR",
+    "LOGIC.TYPE"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "relations": [],
+  "experimental_dependency": "none_for_formal_task",
+  "revision_history": [],
+  "plain_summary": "Decide whether a small formula about unary properties can hold in a finite structure, and make every positive or negative answer independently checkable.",
+  "assumptions": [
+    "Classical first-order semantics with a nonempty finite domain.",
+    "Only atoms P_i(x), Boolean connectives and first-order quantifiers are admitted; equality, constants, function symbols and predicates of other arities are excluded.",
+    "The input is a closed formula; k <= 3 counts distinct predicate symbols. Syntax-tree size counts every atom, connective and quantifier once.",
+    "The 40-node and nesting-depth-4 limits are curator-defined bounds for individual inputs; exhaustive enumeration of all formulas is not required."
+  ],
+  "scope": "A reproducible calibration for each input in the stated fragment, with a proof of the decision procedure. This does not address general finite satisfiability, nor monadic logic with equality.",
+  "target": "Produce a syntax checker, a predicate-type completeness argument, an exact finite-model evaluator, and independently checkable output certificates.",
+  "success_criteria": [
+    "Reject inputs outside the stated grammar and limits.",
+    "Justify by structural induction that collapsing elements with the same predicate truth vector preserves the truth of every allowed formula.",
+    "For satisfiable input, provide a nonempty type-domain and its predicate interpretation; for unsatisfiable input, account for every nonempty subset of the type space.",
+    "Use an independent checker or separately reviewed implementation to evaluate the output certificate; state any proof-assistant axioms if formalization is used."
+  ],
+  "known_results": [
+    "Kirst and Larchey-Wendling, Lemma 38, reduce the relevant finite satisfiability problem to Boolean predicate types; Lemma 36 supplies decidability on a fixed finite domain."
+  ],
+  "prerequisites": [
+    "First-order syntax, binding and environments",
+    "Induction on formulas",
+    "Finite truth tables and exact enumeration"
+  ],
+  "significance": "A controlled way to assess whether an assistant preserves quantifier scope and model assumptions while producing evidence for both satisfiable and unsatisfiable cases. Its research value is preparatory.",
+  "requirements": {
+    "experiment": "None; the objects and semantics are mathematical.",
+    "data": "Formula inputs and generated certificates only; no empirical or proprietary data.",
+    "compute": "At k=3 there are 8 predicate types and 255 nonempty subsets. Evaluating a formula also branches over quantified assignments. These are combinatorial sizes, not measured time or memory; exhaustive formula generation is out of scope.",
+    "theoretical_assumptions": "Classical nonempty-domain semantics for an equality-free relational fragment. Any formal proof must connect its binder representation and evaluation function to these semantics."
+  },
+  "ai_assessment": {
+    "priority": "priority_trial",
+    "rationale": "The type space is small, the semantic reduction is documented, and certificates can be checked independently. The useful challenge is preserving the statement through its encoding, not discovering an unknown theorem.",
+    "dimensions": {
+      "clarity": {
+        "rating": "high",
+        "reason": "The grammar, size limits and output obligations are explicit."
+      },
+      "decomposability": {
+        "rating": "high",
+        "reason": "Parsing, semantic reduction, evaluator and certificate checker can be reviewed separately."
+      },
+      "methods": {
+        "rating": "high",
+        "reason": "The inspected paper provides the finite-type decision argument."
+      },
+      "search_or_symbolic": {
+        "rating": "high",
+        "reason": "The remaining model space is finite and exactly representable."
+      },
+      "checkability": {
+        "rating": "high",
+        "reason": "Positive models and complete finite rejections can be checked without trusting the proposing model."
+      },
+      "expertise": {
+        "rating": "medium",
+        "reason": "Binding and semantic invariance require logical care despite the small domains."
+      },
+      "significance": {
+        "rating": "low",
+        "reason": "This reproduces a known fragment result; value lies in reliable preparation."
+      },
+      "verification_difficulty": {
+        "rating": "medium",
+        "reason": "A faulty translation of quantifiers or accidental equality support can invalidate an otherwise exhaustive search."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "No model performance has been measured. Familiar textbook content may be recalled rather than independently derived; such success would not establish research ability.",
+    "assessment_date": "2026-10-14",
+    "model_scope": "No named model evaluated; assumes tool-using AI with first-order logic, exact enumeration and optional proof-assistant support.",
+    "evidence_refs": []
+  },
+  "methods": [
+    "Structural induction on formulas",
+    "Canonical predicate-type domains",
+    "Exact evaluation and exhaustive certificates",
+    "Optional proof-assistant formalization"
+  ],
+  "method_tags": [
+    "proof",
+    "model_construction",
+    "finite_search",
+    "exact_computation",
+    "certificate_checking",
+    "formalization"
+  ],
+  "validation_tags": [
+    "pure_proof",
+    "exact_computation"
+  ],
+  "obstacles": [
+    "Including equality breaks the proposed one-representative-per-type argument.",
+    "Variable capture or an incorrect empty-domain convention can silently change satisfiability.",
+    "Exhaustive rejection is only meaningful after the small-model reduction is proved."
+  ],
+  "validation": {
+    "steps": [
+      "Review the formal grammar and its nonempty-domain convention against the cited source.",
+      "Check preservation of satisfaction under the type projection, including both quantifiers.",
+      "Re-evaluate each reported witness or rejection certificate from the original formula.",
+      "If a proof assistant is used, inspect the exact theorem statement and trusted dependencies."
+    ],
+    "human_review_difficulty": "Moderate: the model enumeration is small, but the semantic proof and binder encoding need an experienced reader.",
+    "statement_alignment": "The source uses a more general constructive setting; this task restricts it to a fixed classical equality-free fragment. No claim is made for equality, constants or arbitrary first-order signatures."
+  },
+  "known_attempts": [
+    "The cited paper reports a Coq development of finite-model-theoretic results. Its artifact has not been rerun for this task."
+  ],
+  "unresolved_checks": [
+    "Select a public, versioned formula corpus or document a small new corpus before any evaluation.",
+    "Confirm availability and compatibility of the source's formal artifact before choosing it as a dependency."
+  ],
+  "attribution": {
+    "original_authors": [
+      "Dominik Kirst",
+      "Dominique Larchey-Wendling"
+    ],
+    "citation": "Kirst and Larchey-Wendling (2021), Trakhtenbrot's Theorem in Coq: Finite Model Theory through the Constructive Lens, arXiv:2104.14445v1, Lemmas 36 and 38. The bounded task protocol is an editorial specialization.",
+    "curator_credit": "Compiled for Theory Research Atlas with AI assistance."
+  },
+  "status_search": {
+    "queries": [],
+    "checked_sources": [
+      "SRC-MATH-101"
+    ],
+    "result": "The finite-fragment result is explicitly proved in the inspected source. The card is a calibration task.",
+    "limitations": "The check concerns the cited statement and local scope, not all implementations or later formal-library developments."
+  },
+  "epistemic_layers": {
+    "formal_validity": "A successful answer must prove the type reduction and validate each certificate under the stated grammar.",
+    "empirical_support": "No claim about an empirical system is involved."
+  },
+  "judgments": {
+    "difficulty": {
+      "rating": "medium",
+      "basis": "Semantic induction and a small exact evaluator are required, with no unknown theorem targeted.",
+      "evidence": "editorial_estimate_not_measured"
+    },
+    "correctness": {
+      "status": "no_project_answer",
+      "basis": "No candidate answer has been submitted or independently reviewed."
+    },
+    "novelty": {
+      "status": "not_claimed",
+      "basis": "The mathematical result is established; the bounded reproduction protocol is not a claim of a new theorem."
+    },
+    "significance": {
+      "rating": "low",
+      "basis": "Useful as a test of dependable logical translation and certificates."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+name: "Correct an entry"
+description: "Report a typo, broken link, factual error or possible resolution."
+title: "[Correction] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Give the location and correction. For a typo or broken link, a sentence is enough. No coding or research record is needed.
+  - type: input
+    id: target
+    attributes:
+      label: "Entry or page"
+      description: "Paste the link or entry ID and identify the passage."
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: "Correction and evidence"
+      description: "What should change? For factual changes, link the source and exact passage, with author, date and when you checked it. Say what it supports, what remains unchecked and whether it covers the whole question. Credit others and note reuse restrictions where relevant."
+    validations:
+      required: true
+  - type: textarea
+    id: submission_review
+    attributes:
+      label: "AI assistance and checks (if used)"
+      description: "Briefly name the tool/model if known, its role and actual checks, or link an existing note. Unknown model details are acceptable for maintenance and source curation. If you add a proof, research idea or independent scientific conclusion, include the research assistance note required by the AI policy."
+  - type: markdown
+    attributes:
+      value: |
+        Maintenance and faithful source corrections have no research model restriction. New scientific reasoning follows the [AI research rules](https://github.com/luvLunairs/theory-research-atlas/blob/main/docs/ai-contributions.md#submission-routes): non-recommended or unidentified contributions require full-text human review of the scientific content and supporting material, then manual submission of the whole contribution. Automation always needs authorization and the [final-version recheck](https://github.com/luvLunairs/theory-research-atlas/blob/main/AGENTS.md#required-recheck).
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: "Contribution terms"
+      options:
+        - label: "I may share this material under the [contribution terms](https://github.com/luvLunairs/theory-research-atlas/blob/main/CONTRIBUTING.md#evidence-and-attribution) and [licenses](https://github.com/luvLunairs/theory-research-atlas/blob/main/LICENSE.md). I have supplied required credit and disclosures, identified unchecked claims and followed the review and submission rules."
+          required: true

@@ -1,0 +1,192 @@
+{
+  "id": "Q-MATH-001",
+  "title": "Reproduce the exact Ramsey number R(3,3)=6",
+  "domain": "Combinatorics",
+  "cross_domains": [
+    "Graph theory",
+    "Theoretical computer science"
+  ],
+  "kind": "known_result_calibration",
+  "statement": "Show that every red/blue coloring of the unordered edges of K6 contains a monochromatic triangle, and exhibit a red/blue coloring of K5 without one. Produce an independently checkable finite certificate alongside a human-readable proof.",
+  "source_ids": [
+    "SRC-MATH-001",
+    "SRC-MATH-014"
+  ],
+  "source_locator": "DS1.18 section 2.1(a,d); Kiem–Pokutta–Spiegel section 1 identifies R(3,3)=6.",
+  "status": "known_result",
+  "status_basis": "Established theorem cited by the current dynamic survey and the inspected research paper. This is a proposed reproduction, not a new open problem.",
+  "last_checked": "2026-10-13",
+  "curator_origin": false,
+  "duplicate_key": "math:ramsey:2colors:triangle:exact6",
+  "proposed_card": true,
+  "plain_summary": "A tiny, established graph-coloring theorem makes a transparent starting benchmark for testing future search-to-certificate workflows.",
+  "assumptions": [
+    "Finite simple undirected complete graphs; no loops or multiple edges.",
+    "Exactly one of two available colors is assigned to each unordered pair; either color may be unused.",
+    "A triangle consists of three distinct vertices; all three edges must share the same color."
+  ],
+  "scope": "Known-result reproduction at five and six vertices only. Any success is a calibration result, not new mathematics or evidence of competence on open Ramsey cases.",
+  "target": "Produce both the lower-bound witness and universal upper-bound argument, plus a reproducible exact certificate format.",
+  "success_criteria": [
+    "Supply an edge list or adjacency encoding for a valid five-vertex witness.",
+    "Give a logically complete proof for all six-vertex colorings.",
+    "If enumeration is used, account for all 2^15 colorings with an explicit encoding/completeness argument and independently checked triangle witnesses.",
+    "Record future tools, versions, logs, and human interventions; do not infer a general AI success rate from this one result."
+  ],
+  "known_results": [
+    "R(3,3)=6 is an established result, cited in SRC-MATH-014 section 1; SRC-MATH-001 section 2.1 discusses its history and critical graphs."
+  ],
+  "prerequisites": [
+    "Complete graphs and edge colorings",
+    "Pigeonhole principle",
+    "Finite enumeration and independent verification"
+  ],
+  "significance": "Low novelty, high workflow value: it tests statement translation, lower versus upper bounds, exact enumeration, and auditable evidence on a case humans can inspect.",
+  "relations": [
+    {
+      "type": "calibrates",
+      "target": "Q-MATH-003",
+      "explanation": "Shares edge-coloring/certificate concepts, but the four-color research problem has vastly larger search and proof costs."
+    }
+  ],
+  "requirements": {
+    "experiment": "None; a mathematical statement.",
+    "data": "No external data required; source metadata and generated certificates only.",
+    "compute": "Estimated ordinary laptop CPU and modest memory for a future run. The full six-vertex space has 32,768 colorings; this is a combinatorial size, not a measured runtime or budget.",
+    "theoretical_assumptions": "Ordinary finite combinatorics; a future formal proof must state any axioms and encoding lemmas."
+  },
+  "ai_assessment": {
+    "priority": "priority_trial",
+    "rationale": "A clear, finite target and short independent checks make this useful for calibrating a workflow before harder research. This is not a prediction of novel discovery.",
+    "dimensions": {
+      "clarity": {
+        "rating": "high",
+        "reason": "Both inequalities and the finite object class are explicit."
+      },
+      "decomposability": {
+        "rating": "high",
+        "reason": "Construction, proof, enumeration, and checker are separate deliverables."
+      },
+      "methods": {
+        "rating": "high",
+        "reason": "Elementary proof and finite-search methods are well documented."
+      },
+      "search_or_symbolic": {
+        "rating": "high",
+        "reason": "A compact exact encoding is available."
+      },
+      "checkability": {
+        "rating": "high",
+        "reason": "A person can inspect the proof and five-vertex witness; enumeration is small."
+      },
+      "expertise": {
+        "rating": "low",
+        "reason": "Basic discrete mathematics suffices, with some programming review for certificates."
+      },
+      "significance": {
+        "rating": "low",
+        "reason": "The theorem is elementary and already known; the value is calibration."
+      },
+      "verification_difficulty": {
+        "rating": "low",
+        "reason": "Remaining risks are encoding and enumeration-completeness errors."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "No model was run. A successful reproduction would measure this task only and may reflect training familiarity.",
+    "assessment_date": "2026-10-13",
+    "model_scope": "No named model evaluated; assumes tool-using AI with basic graph theory and exact programming capability.",
+    "evidence_refs": []
+  },
+  "methods": [
+    "Proof",
+    "Construction",
+    "Finite search",
+    "Exact computation",
+    "Optional proof-assistant formalization"
+  ],
+  "obstacles": [
+    "Off-by-one confusion between the Ramsey threshold and witness size.",
+    "A passing checker cannot establish universal coverage unless the enumeration is proved complete.",
+    "Memorized proof reproduction is not evidence of novel reasoning."
+  ],
+  "validation": {
+    "steps": [
+      "Human reviewer matches graph/color definitions to the literature statement.",
+      "Check every triangle of the five-vertex witness using an independent implementation.",
+      "Review the upper-bound proof directly; if computational, verify the enumeration map and all emitted certificates.",
+      "If formalized, compare the formal theorem and assumptions to this exact statement."
+    ],
+    "human_review_difficulty": "Low for mathematical reasoning; moderate only if the implementation hides enumeration or certificate assumptions.",
+    "statement_alignment": "Both R(3,3)>5 and R(3,3)<=6 are required. A single good coloring or tests on sampled colorings cannot establish equality."
+  },
+  "known_attempts": [
+    "The current Ramsey survey records established treatments; this project has performed no reproduction."
+  ],
+  "unresolved_checks": [
+    "Choose future certificate serialization and checker language.",
+    "Decide whether formal proof is desired in addition to a short human proof.",
+    "No runtime, cost, success-rate, or model comparison data exist yet."
+  ],
+  "attribution": {
+    "original_authors": [
+      "Stanisław P. Radziszowski (survey)",
+      "Aldo Kiem",
+      "Sebastian Pokutta",
+      "Christoph Spiegel (research exposition used for the known value)"
+    ],
+    "citation": "Cite Radziszowski, Small Ramsey Numbers, DS1, revision 18 (2026), section 2.1; and Kiem, Pokutta, Spiegel, arXiv:2312.08049v1 (2023), section 1. These are consulted sources, not a claim about sole historical priority.",
+    "curator_credit": "Compiled for Theory Research Atlas with AI assistance."
+  },
+  "status_search": {
+    "queries": [],
+    "checked_sources": [
+      "SRC-MATH-001",
+      "SRC-MATH-014"
+    ],
+    "result": "The exact value is an established result in the inspected sources; the project task is calibration.",
+    "limitations": "No search for all historical proofs or full formal-library inventory was performed."
+  },
+  "primary_domain_id": "MATH.COMB.EXT",
+  "cross_domain_ids": [
+    "CS.ALG"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "method_tags": [
+    "proof",
+    "construction",
+    "finite_search",
+    "exact_computation",
+    "certificate_checking"
+  ],
+  "validation_tags": [
+    "pure_proof",
+    "exact_computation"
+  ],
+  "experimental_dependency": "none_for_formal_task",
+  "epistemic_layers": {
+    "formal_validity": "The card specifies a mathematical task under its stated assumptions; no project proof or certificate has been checked.",
+    "empirical_support": "No empirical claim is made."
+  },
+  "judgments": {
+    "difficulty": {
+      "rating": "low_to_medium",
+      "basis": "A clear, finite target and short independent checks make this useful for calibrating a workflow before harder research. This is not a prediction of novel discovery.",
+      "evidence": "editorial_estimate_not_measured"
+    },
+    "correctness": {
+      "status": "no_project_answer",
+      "basis": "The cited literature supports the problem statement. No project answer has been submitted for review."
+    },
+    "novelty": {
+      "status": "not_claimed",
+      "basis": "The target is a known result; no originality is claimed for the selected scope. Any later novelty claim requires a literature check."
+    },
+    "significance": {
+      "rating": "low",
+      "basis": "Low novelty, high workflow value: it tests statement translation, lower versus upper bounds, exact enumeration, and auditable evidence on a case humans can inspect."
+    }
+  },
+  "revision_history": []
+}

@@ -1,0 +1,195 @@
+{
+  "id": "Q-FORMAL-103",
+  "title": "Check twisted-state spectra on Kuramoto cycle networks",
+  "domain": "Dynamics on networks and collective behavior",
+  "cross_domains": [
+    "Dynamical systems",
+    "Spectral graph theory"
+  ],
+  "kind": "known_result_calibration",
+  "statement": "For the simple undirected cycle C_n, n >= 3, consider theta_dot_j = sin(theta_(j-1)-theta_j) + sin(theta_(j+1)-theta_j), with indices modulo n and phases modulo 2 pi. Reproduce the equilibrium and Jacobian spectrum for theta_j = 2 pi q j/n, 0 <= q <= floor(n/2), and classify linear stability modulo uniform rotation. Build an exact sign table only for 3 <= n <= 20. Extra zero eigenvalues must be labeled inconclusive for nonlinear stability. The finite range is curator chosen.",
+  "source_ids": [
+    "SRC-FORMAL-104",
+    "SRC-FORMAL-106"
+  ],
+  "source_locator": "Townsend et al., equations (4)-(5) and Section II.1; McRae, Section 1.2",
+  "status": "known_result",
+  "status_basis": "The spectrum is a known result in the opened paper. Later work preserves the distinction between second-order criticality and nonlinear stability. No table or simulation has been produced by this project.",
+  "last_checked": "2026-10-14",
+  "curator_origin": true,
+  "duplicate_key": "homogeneous-kuramoto-cycle-twisted-state-spectrum",
+  "proposed_card": true,
+  "primary_domain_id": "NET.DYNAMICS",
+  "cross_domain_ids": [
+    "MATH.DYN",
+    "MATH.COMB"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "plain_summary": "A ring of identical oscillators supports synchronized and twisted phase patterns. A known spectrum provides a compact test of instability, stability up to common rotation, and cases where linearization cannot decide.",
+  "assumptions": [
+    "Use a simple undirected cycle, n >= 3, identical frequencies removed by a rotating frame, and unit positive edge coupling.",
+    "The phase ODE has no noise, delay, inertia or frequency heterogeneity.",
+    "Commonly rotated configurations represent the same relative-phase state.",
+    "Use the dynamics Jacobian; a potential-Hessian sign convention must be translated explicitly."
+  ],
+  "scope": "Reproduce the general cycle formula, then classify signs only for 3 <= n <= 20 and 0 <= q <= floor(n/2). Other graphs, all-equilibrium classification and nonlinear degenerate-case analysis are outside scope.",
+  "target": "The known spectral derivation, exact finite sign certificates and an explicit treatment of rotational symmetry.",
+  "success_criteria": [
+    "Verify that the proposed twisted configuration is an equilibrium for the stated edges.",
+    "Recover J_q = -cos(2 pi q/n) L_Cn and eigenvalues 2 cos(2 pi q/n)(cos(2 pi r/n)-1), r = 0,...,n-1.",
+    "Separate the rotational zero eigenvalue from any additional zeros.",
+    "Justify finite-table signs exactly, without treating near-zero floating values as certificates.",
+    "A positive eigenvalue establishes instability. All nonrotational eigenvalues negative support asymptotic stability modulo rotation; extra zeros remain inconclusive for nonlinear stability."
+  ],
+  "known_results": [
+    "The source supplies the twisted equilibria and circulant Jacobian, including the nearest-neighbor cycle specialization.",
+    "Rotational symmetry contributes a necessary zero mode.",
+    "Later work distinguishes second-order critical points from stable nonlinear equilibria."
+  ],
+  "prerequisites": [
+    "Smooth ODE linearization and stability modulo symmetry.",
+    "Cycle Laplacians and Fourier eigenvectors.",
+    "Exact trigonometric signs or certified algebraic-number calculations."
+  ],
+  "significance": "Creates a transparent baseline for network stability studies and prevents local numerical spectra from being mistaken for global synchronization proofs.",
+  "relations": [
+    {
+      "type": "calibration_for",
+      "target": "Q-FORMAL-104",
+      "explanation": "Cycle spectra prepare local-stability methods used in connectivity studies, but do not settle the dense-network threshold or nonlinear degenerate cases."
+    }
+  ],
+  "requirements": {
+    "experiment": "None for the idealized ODE calculation. Physical or biological comparisons require separate observations or experiments.",
+    "data": "Cycle edges, n and q; no empirical time series.",
+    "compute": "Symbolic differentiation and matrices of order at most twenty for the finite table. Exact trigonometric reasoning avoids numerical optimization. The bounds are chosen for inspectability; no runtime, cost or success rate has been measured.",
+    "theoretical_assumptions": "Homogeneous first-order phase coupling on a fixed unweighted undirected cycle. Unequal frequencies, amplitude dynamics, noise and delays are outside this model."
+  },
+  "ai_assessment": {
+    "priority": "priority_trial",
+    "rationale": "The known formula and a bounded exact table independently check symbolic reasoning and symmetry handling without relying on trajectories as proof.",
+    "dimensions": {
+      "clarity": {
+        "rating": "high",
+        "reason": "The ODE, equilibria, spectral target and finite range are explicit."
+      },
+      "decomposability": {
+        "rating": "high",
+        "reason": "Equilibrium checking, differentiation, diagonalization and sign classification are separate."
+      },
+      "methods": {
+        "rating": "high",
+        "reason": "The paper gives an explicit formula and standard circulant-matrix methods."
+      },
+      "search_or_symbolic": {
+        "rating": "high",
+        "reason": "Differentiation and exact signs suit symbolic tools."
+      },
+      "checkability": {
+        "rating": "high",
+        "reason": "The analytic formula and small cases allow independent review."
+      },
+      "expertise": {
+        "rating": "medium",
+        "reason": "A dynamics reviewer must handle the symmetry quotient and degenerate cases."
+      },
+      "significance": {
+        "rating": "medium",
+        "reason": "This is a verification baseline rather than a new synchronization result."
+      },
+      "verification_difficulty": {
+        "rating": "medium",
+        "reason": "The algebra is compact, but a wrong stability interpretation would overstate the result."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "No model calculation or simulation has been tested. Degenerate cases intentionally receive no nonlinear verdict.",
+    "assessment_date": "2026-10-14",
+    "model_scope": "No named model evaluated; assumes a tool-using AI that can read mathematical sources, produce inspectable symbolic work and code, and work with a human domain reviewer.",
+    "evidence_refs": []
+  },
+  "methods": [
+    "Symbolic differentiation",
+    "Fourier diagonalization",
+    "Exact sign classification"
+  ],
+  "method_tags": [
+    "proof",
+    "symbolic_derivation",
+    "exact_computation",
+    "classification",
+    "model_analysis"
+  ],
+  "validation_tags": [
+    "pure_proof",
+    "exact_computation"
+  ],
+  "obstacles": [
+    "Incorrect cycle edge counting at small n.",
+    "Dropping or misinterpreting the rotational zero mode.",
+    "Rounding an exact zero into a positive or negative value.",
+    "Inferring global synchronization from selected twisted equilibria."
+  ],
+  "validation": {
+    "steps": [
+      "Check adjacency and derivative signs against the ODE.",
+      "Independently derive the Jacobian and compare it with the Laplacian.",
+      "Check Fourier eigenvalues and exact finite sign certificates.",
+      "Review every stability label and the limits for extra-zero cases."
+    ],
+    "human_review_difficulty": "Moderate: short symbolic work is inspectable, but local, orbital and global behavior require dynamics expertise.",
+    "statement_alignment": "The result concerns only the stated twisted equilibria. It is not an all-equilibrium classification, empirical prediction or global synchronization guarantee."
+  },
+  "known_attempts": [
+    "Townsend, Stillman and Strogatz analyze these spectra in the literature. No independent atlas computation or AI trial is recorded."
+  ],
+  "unresolved_checks": [
+    "Select a representation for exact trigonometric signs before implementation.",
+    "Have a reviewer approve terminology for asymptotic stability modulo rotation."
+  ],
+  "attribution": {
+    "original_authors": [
+      "Alex Townsend",
+      "Michael Stillman",
+      "Steven H. Strogatz",
+      "Andrew D. McRae"
+    ],
+    "citation": "Townsend, A., Stillman, M., and Strogatz, S. H. (2020 version), Dense networks that do not synchronize and sparse ones that do, arXiv:1906.10627v4, Section II. Later context: McRae, A. D. (2026 version), arXiv:2503.18801v2, Sections 1.2 and 3.4.",
+    "curator_credit": "Compiled for Theory Research Atlas with AI assistance."
+  },
+  "status_search": {
+    "checked_sources": [
+      "SRC-FORMAL-104",
+      "SRC-FORMAL-106"
+    ],
+    "result": "The original spectrum and cycle specialization were checked alongside the 2026 distinction between stable equilibria and second-order critical points.",
+    "limitations": "This known-result calibration does not resolve degenerate nonlinear dynamics. Later-work searches are not a complete audit of all graph families.",
+    "queries": []
+  },
+  "epistemic_layers": {
+    "formal_validity": "The spectrum and conditional stability labels concern the homogeneous phase model with the stated symmetry convention.",
+    "empirical_support": "The calculation does not establish behavior of measured physical, biological or social networks."
+  },
+  "revision_history": [],
+  "experimental_dependency": "none_for_formal_task",
+  "judgments": {
+    "difficulty": {
+      "rating": "medium",
+      "basis": "The known formula and a bounded exact table independently check symbolic reasoning and symmetry handling without relying on trajectories as proof.",
+      "evidence": "editorial_estimate_not_measured"
+    },
+    "correctness": {
+      "status": "no_project_answer",
+      "basis": "The cited literature supports the calibration target. No project answer has been submitted for review."
+    },
+    "novelty": {
+      "status": "not_claimed",
+      "basis": "This is a known-result calibration. The chosen bounds and presentation are not claims of scientific novelty."
+    },
+    "significance": {
+      "rating": "medium",
+      "basis": "Creates a transparent baseline for network stability studies and prevents local numerical spectra from being mistaken for global synchronization proofs."
+    }
+  }
+}

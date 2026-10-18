@@ -1,0 +1,194 @@
+{
+  "id": "Q-FORMAL-203",
+  "title": "The sharp triple rendezvous bound for binary synchronizing automata",
+  "domain": "Algorithms and data structures",
+  "cross_domains": [
+    "Combinatorics and discrete mathematics"
+  ],
+  "kind": "literature_open",
+  "statement": "For each n≥6, is the maximum, over synchronizing complete n-state automata with two letters, of T3(A)=min{|w| : there exists S⊆Q, |S|=3, |δ(S,w)|=1} equal to floor(4n/3)?",
+  "source_ids": [
+    "SRC-FORMAL-203",
+    "SRC-FORMAL-204",
+    "SRC-FORMAL-201"
+  ],
+  "source_locator": "Zhang, §7, Conjecture 7.1; supplement Question S9.1 and §S1 finite ranges.",
+  "status": "source_reports_open",
+  "status_basis": "A September 2026 preprint explicitly poses this conjecture after constructing matching examples. Its reported finite enumerations do not settle all n; no later general proof or counterexample was located in the scoped check.",
+  "last_checked": "2026-10-14",
+  "curator_origin": false,
+  "duplicate_key": "the-sharp-triple-rendezvous-bound-for-binary-synchronizing-automata",
+  "proposed_card": true,
+  "primary_domain_id": "CS.ALG",
+  "cross_domain_ids": [
+    "MATH.COMB"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "plain_summary": "How long must a resettable two-letter machine wait before some three starting states can be brought together? A recent construction reaches floor(4n/3); the matching upper bound is still conjectural.",
+  "assumptions": [
+    "The automaton is complete, deterministic, synchronizing and has exactly two input letters.",
+    "T3 minimizes over both the word and the choice of three distinct starting states.",
+    "The conjecture starts at n=6; the reported n=5 exception is excluded."
+  ],
+  "scope": "The full target is the binary conjecture for every n≥6. Curator-proposed first milestone, pending review: study at most 1,000 n=13 automata with one permutation letter and one rank-12 letter, chosen outside or explicitly compared with the 18 permutation cycle types already checked in the cited supplement. This is a bounded exploratory sample, not a claim that every untested cycle type is a separately established open problem.",
+  "target": "Find an instance with T3≥18 at n=13, or prove a matching bound for an explicitly defined additional class.",
+  "success_criteria": [
+    "A counterexample must give two transition maps, a synchronization witness and exact distance evidence for every triple.",
+    "A new subclass upper bound must state all hypotheses and supply an all-instance proof; observed maxima are insufficient.",
+    "Publishable partial evidence would include an exact, independently checkable census of a declared finite class with sound isomorphism reductions. A sample is labelled as a sample.",
+    "Stop at 1,000 checked instances or the resource ceiling, and preserve the enumeration boundary and unresolved cases."
+  ],
+  "known_results": [
+    "Zhang's September 2026 preprint claims constructions with T3=floor(4n/3) for every n≥9.",
+    "It reports all binary cases through n=10, the permutation/rank-(n−1) class through n=12, and only 18 cycle types at n=13.",
+    "Earlier work asks for a linear bound in general; the new construction does not supply a universal upper bound."
+  ],
+  "prerequisites": [
+    "Pair and triple subset automata.",
+    "Breadth-first search and distance potentials.",
+    "Permutation cycle types, transformation rank and synchronization tests."
+  ],
+  "significance": "The first collision among three states is a basic component of synchronization bounds. A certified violation of the proposed sharp bound, or a genuinely new structural case, would clarify the extremal mechanism.",
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "Q-FORMAL-202",
+      "explanation": "Merging a specified state with some partner differs from minimizing over all triples; the source explains why the minima can diverge."
+    }
+  ],
+  "requirements": {
+    "experiment": "No physical experiment.",
+    "data": "Two explicit transition maps per instance; published cycle-type coverage must be consulted to avoid duplicating a known case.",
+    "compute": "For n=13, the graph of nonempty subsets of size at most three has 13+78+286=377 vertices. This bounds the checker graph, not the number of machines to search. Proposed ceilings are 1,000 instances, 512 MiB memory and four elapsed hours. Stop before exceeding any ceiling; no run or timing has been measured.",
+    "theoretical_assumptions": "The first milestone additionally restricts the letter ranks; conclusions from that class do not establish the full binary conjecture."
+  },
+  "ai_assessment": {
+    "priority": "preparation_required",
+    "rationale": "A small certificate graph makes candidate verification attractive, but the recent preprint and its finite-coverage table need review before choosing an untested class. The bounded search is an untested proposal, not a prediction of solving the full conjecture.",
+    "dimensions": {
+      "clarity": {
+        "rating": "high",
+        "reason": "The minimum over triples and words gives a precise integer target."
+      },
+      "decomposability": {
+        "rating": "high",
+        "reason": "Instances, cycle types and structural subclasses can be separated."
+      },
+      "methods": {
+        "rating": "high",
+        "reason": "The cited papers supply subset graphs, potentials and explicit constructions."
+      },
+      "search_or_symbolic": {
+        "rating": "high",
+        "reason": "Integer distance calculations and symbolic family descriptions fit available tools."
+      },
+      "checkability": {
+        "rating": "high",
+        "reason": "At n=13 the complete relevant subset graph has only 377 vertices."
+      },
+      "expertise": {
+        "rating": "medium",
+        "reason": "The finite checker is straightforward, while identifying new structural classes requires automata expertise."
+      },
+      "significance": {
+        "rating": "high",
+        "reason": "A sharp-bound counterexample or proof changes a specific current conjecture."
+      },
+      "verification_difficulty": {
+        "rating": "medium",
+        "reason": "Checking a finite instance is light; certification of exhaustive generation and family proofs is harder."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "The sharp conjecture and finite classifications come from a recent preprint and have not been independently reproduced. Existing constructions may already explain all behavior in the proposed sample.",
+    "assessment_date": "2026-10-14",
+    "model_scope": "No named model evaluated; assumes a tool-using AI capable of integer graph algorithms, with a separate checker and human review of theorem scope.",
+    "evidence_refs": []
+  },
+  "methods": [
+    "Reverse breadth-first distances from singleton subsets.",
+    "Shortest merging words and integer lower-bound potentials.",
+    "Cycle-type restricted search and structural case analysis."
+  ],
+  "method_tags": [
+    "finite_search",
+    "construction",
+    "counterexample",
+    "certificate_checking",
+    "proof"
+  ],
+  "validation_tags": [
+    "exact_computation",
+    "pure_proof"
+  ],
+  "obstacles": [
+    "Exhausting all transition maps remains costly despite the small checker.",
+    "A long word for one chosen triple does not lower-bound the easiest triple.",
+    "Some apparently new restricted classes are already covered by supplement theorems."
+  ],
+  "validation": {
+    "steps": [
+      "Verify each letter map and its rank; verify a reset word or synchronization independently.",
+      "Construct every nonempty subset of size at most three and all letter edges.",
+      "Compute distances to singleton sets; take the minimum over all triples and attach a word attaining it.",
+      "Independently verify lower-distance inequalities or repeat exact graph search; audit claimed exhaustive generation separately.",
+      "Check the supplement's complete hypotheses before claiming a new class or cycle-type result."
+    ],
+    "human_review_difficulty": "Low to moderate for one finite certificate; high for exhaustive classification or a universal theorem.",
+    "statement_alignment": "The target minimizes over all triples, not a prescribed triple. The n=13 rank restriction and sample cap belong only to the curator-proposed initial milestone."
+  },
+  "known_attempts": [
+    "The September preprint reports finite enumerations and links an accompanying code archive; no archive has been executed in this project."
+  ],
+  "unresolved_checks": [
+    "Independently audit the recent construction and finite-coverage claims before treating them as settled infrastructure.",
+    "Compare proposed n=13 cycle types with supplement §S1 and the restricted-class theorems.",
+    "Check for subsequent corrections or extensions before any claim of novelty."
+  ],
+  "attribution": {
+    "original_authors": [
+      "Enkai Zhang",
+      "Natalie Behague",
+      "Robert Johnson"
+    ],
+    "citation": "Zhang, The triple rendezvous time of a synchronizing automaton can be floor(4n/3), arXiv:2609.19173v1 (2026), Conjecture 7.1; Behague and Johnson, Electronic Journal of Combinatorics 29(3), P3.41 (2022).",
+    "curator_credit": "Compiled for Theory Research Atlas with AI assistance."
+  },
+  "status_search": {
+    "queries": [],
+    "checked_sources": [
+      "SRC-FORMAL-203",
+      "SRC-FORMAL-201",
+      "SRC-FORMAL-204",
+      "SRC-FORMAL-205"
+    ],
+    "result": "The September paper explicitly leaves the sharp binary bound open; the October paper proves a different specified-state family result.",
+    "limitations": "Very recent sources carry correction risk. No later general resolution was located, but the check is not exhaustive."
+  },
+  "epistemic_layers": {
+    "formal_validity": "Exact subset distances establish a finite T3 value. Extending finite evidence to every n needs a mathematical proof.",
+    "empirical_support": "No physical-world claim is made; reported external computations remain unreplicated evidence."
+  },
+  "judgments": {
+    "difficulty": {
+      "rating": "high",
+      "basis": "The general bound is difficult; the limited checker is small and well specified.",
+      "evidence": "editorial_estimate_not_measured"
+    },
+    "correctness": {
+      "status": "no_project_answer",
+      "basis": "No candidate machine or theorem has been produced or tested."
+    },
+    "novelty": {
+      "status": "requires_future_literature_review",
+      "basis": "Published finite ranges are recorded; any additional class or example requires comparison with the supplement and later work."
+    },
+    "significance": {
+      "rating": "high",
+      "basis": "The target is a sharp extremal question with an explicit recent lower construction."
+    }
+  },
+  "experimental_dependency": "none_for_formal_task",
+  "revision_history": []
+}

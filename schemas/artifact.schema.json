@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Retained artifact reference",
+  "description": "A versioned evidence reference. Local files are checked by SHA-256; external contents are not authenticated by the offline validator.",
+  "type": "object",
+  "properties": {
+    "reference": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Repository-relative file path or HTTP(S) URL, matching an artifact reference in the record."
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Exact retained revision, release, archive version or other description identifying the evidence examined."
+    },
+    "sha256": {
+      "type": ["string", "null"],
+      "pattern": "^sha256:[0-9a-f]{64}$",
+      "description": "Required digest of retained local file bytes; optional for an external URL. An external digest is a declaration, not an offline content check."
+    }
+  },
+  "required": ["reference", "version", "sha256"],
+  "additionalProperties": false
+}

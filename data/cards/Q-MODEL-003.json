@@ -1,0 +1,187 @@
+{
+  "id": "Q-MODEL-003",
+  "title": "Enumerate equilibria of a supplied rational bimatrix game",
+  "domain": "Noncooperative game theory",
+  "cross_domains": [
+    "Algorithms",
+    "Polyhedral geometry"
+  ],
+  "kind": "known_result_calibration",
+  "statement": "Given rational m by n payoff matrices with m,n <= 3 and a certified nondegeneracy assumption, reproduce support enumeration and output every Nash equilibrium with exact best-response certificates. Degenerate inputs must be flagged for a separate full-set treatment.",
+  "source_ids": [
+    "SRC-MODEL-007"
+  ],
+  "source_locator": "von Stengel Section 2, Definition 2, Propositions 1 and 3, Algorithm 4; Section 7",
+  "status": "known_result",
+  "status_basis": "The opened author survey gives support enumeration and explains its nondegeneracy requirement. The <=3 restriction is a curator-selected calibration scope.",
+  "last_checked": "2026-10-13",
+  "curator_origin": true,
+  "duplicate_key": "bimatrix-nondegenerate-support-enumeration",
+  "proposed_card": true,
+  "plain_summary": "Find every pair of mixed strategies that are best responses to one another in a small, fully specified mathematical game. The task tests complete case coverage and detection of inputs outside the algorithm scope; it makes no dynamical-stability claim.",
+  "assumptions": [
+    "Two players, simultaneous finite normal-form game and expected-utility maximization.",
+    "Independent mixed strategies and rational payoff matrices of dimensions at most 3 by 3.",
+    "Nondegeneracy: for either player, every mixed strategy with support size k gives the opponent at most k pure best responses. Certify this over all mixed strategies, not merely equilibria or sampled points.",
+    "The task concerns equilibria of the stated game, not predictions about actual people."
+  ],
+  "scope": "Nondegenerate rational bimatrix games only. Initial example: the source's equation (3), A=[[3,3],[2,5],[0,6]], B=[[3,2],[2,4],[3,0]]. Use degenerate examples only to check that the method identifies inputs outside its assumptions, not to claim the same enumeration algorithm is complete there.",
+  "target": "All equilibria with exact support and best-response certificates plus an explanation of completeness under nondegeneracy.",
+  "success_criteria": [
+    "Document rational input and prove or independently certify the required nondegeneracy condition.",
+    "Enumerate support pairs and retain exact feasibility decisions.",
+    "Check nonnegativity, unit sums, on-support equality and off-support payoff inequalities.",
+    "Compare with the known source example while retaining the independent completeness argument.",
+    "Route degenerate cases to a separate set-valued method; do not silently omit continua or unequal-support cases."
+  ],
+  "known_results": [
+    "Von Stengel Proposition 1 characterizes best responses by support and maximum payoff.",
+    "Algorithm 4 enumerates all equilibria for a nondegenerate game; later sections describe degeneracy and full equilibrium sets."
+  ],
+  "prerequisites": [
+    "Expected payoffs and mixed strategies.",
+    "Rational linear systems and inequalities.",
+    "Combinatorics of supports and the precise definition of nondegeneracy."
+  ],
+  "significance": "A compact calibration for exhaustive reasoning, exact certificates and assumption handling. Larger market or mechanism models would need different inputs and substantive economic justification.",
+  "relations": [],
+  "requirements": {
+    "experiment": "None for equilibrium computation. Behavioral interpretation requires a separate empirical study.",
+    "data": "Only declared payoff matrices; no personal, market or experimental data are needed.",
+    "compute": "At most 3 by 3 matrices with a declared bit-length bound to be set in the trial. Small support enumeration is a plausible local workload; no time, cost or success measurements exist.",
+    "theoretical_assumptions": "Finite complete-information normal-form game; risk-neutral expected utility as represented by supplied payoffs; nondegeneracy for the selected algorithm."
+  },
+  "ai_assessment": {
+    "priority": "priority_trial",
+    "rationale": "A finite support search and exact certificates permit independent checking. The source's fully specified example makes the trial transferable without inventing new economic claims.",
+    "dimensions": {
+      "clarity": {
+        "rating": "high",
+        "reason": "Inputs, outputs and equilibrium inequalities are explicit."
+      },
+      "decomposability": {
+        "rating": "high",
+        "reason": "Check hypotheses, enumerate supports, solve, validate and prove completeness separately."
+      },
+      "methods": {
+        "rating": "high",
+        "reason": "An opened author survey supplies definitions, algorithm and example."
+      },
+      "search_or_symbolic": {
+        "rating": "high",
+        "reason": "Finite enumeration and rational linear algebra are directly applicable."
+      },
+      "checkability": {
+        "rating": "high",
+        "reason": "Every candidate can be verified using payoff inequalities."
+      },
+      "expertise": {
+        "rating": "medium",
+        "reason": "Game-theory review is needed for nondegeneracy and completeness, not just algebra."
+      },
+      "significance": {
+        "rating": "medium",
+        "reason": "Valuable correctness calibration; no novel equilibrium result or behavioral prediction."
+      },
+      "verification_difficulty": {
+        "rating": "medium",
+        "reason": "Checking one equilibrium is simple; certifying the whole list and rejecting degenerate inputs is harder."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "No named model or solver was run. Reproducing familiar examples may reflect memorization. General bimatrix complexity cannot be inferred from the small trial.",
+    "assessment_date": "2026-10-13",
+    "model_scope": "No named model evaluated; assumes tool-using AI with literature retrieval, exact algebra or rational linear algebra, code generation, and access to a human domain reviewer.",
+    "evidence_refs": []
+  },
+  "methods": [
+    "finite search",
+    "exact computation",
+    "algorithm reproduction",
+    "classification"
+  ],
+  "obstacles": [
+    "Solving indifference equations but forgetting profitable off-support deviations.",
+    "Equating supports without establishing nondegeneracy.",
+    "Returning one equilibrium when all were requested.",
+    "Floating-point tolerances hide zero probabilities or ties.",
+    "Mistaking a model equilibrium for a descriptive or normative recommendation."
+  ],
+  "validation": {
+    "steps": [
+      "Freeze payoff orientation and all rational entries.",
+      "Certify nondegeneracy with a complete method appropriate to the small game.",
+      "Check every support case and every reported rational certificate using independently written checks.",
+      "Compare the example with the source while auditing omitted cases.",
+      "Have a reviewer inspect completeness and economic scope separately."
+    ],
+    "human_review_difficulty": "Moderate: arithmetic can be automated, but a game theorist should confirm hypothesis certification and all-equilibria completeness.",
+    "statement_alignment": "An exact best-response certificate validates the listed pair. Completeness needs the enumeration theorem and its nondegeneracy hypothesis; checking pairs alone is insufficient."
+  },
+  "known_attempts": [
+    "Von Stengel (2021) Section 2 contains an explicit worked 3 by 2 example. This literature reproduction is not a project experiment."
+  ],
+  "unresolved_checks": [
+    "Set an input numerator/denominator bit-length bound before benchmarking resource use.",
+    "Select and review the independent nondegeneracy check.",
+    "A future extension to degenerate games must represent equilibrium continua and cite the relevant full-set method."
+  ],
+  "attribution": {
+    "original_authors": [
+      "Bernhard von Stengel (inspected algorithm exposition)",
+      "John Nash (equilibrium concept)"
+    ],
+    "citation": "von Stengel, B. (2021). Finding Nash Equilibria of Two-Player Games. arXiv:2102.04580, Section 2, Proposition 1, Algorithm 4 and equation (3).",
+    "curator_credit": "Compiled for Theory Research Atlas with AI assistance."
+  },
+  "status_search": {
+    "queries": [],
+    "checked_sources": [
+      "SRC-MODEL-007"
+    ],
+    "result": "Full Section 2 and later section descriptions were inspected. Established algorithm and worked example make this a known-result calibration.",
+    "limitations": "No solver, example reproduction or AI performance evaluation was executed."
+  },
+  "epistemic_layers": {
+    "formal_validity": "An equilibrium is a mathematical best-response statement under the declared payoff and behavior model.",
+    "empirical_support": "No evidence is provided that real agents know the game, maximize expected utility or select these equilibria. The card offers no policy or behavioral forecast."
+  },
+  "revision_history": [],
+  "primary_domain_id": "ECON.GAME",
+  "cross_domain_ids": [
+    "CS.ALG",
+    "MATH.OPT"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "method_tags": [
+    "algorithm",
+    "proof",
+    "exact_computation",
+    "certificate_checking"
+  ],
+  "validation_tags": [
+    "pure_proof",
+    "exact_computation"
+  ],
+  "experimental_dependency": "none_for_formal_task",
+  "judgments": {
+    "difficulty": {
+      "rating": "low_to_medium",
+      "basis": "A finite support search and exact certificates permit independent checking. The source's fully specified example makes the trial transferable without inventing new economic claims.",
+      "evidence": "editorial_estimate_not_measured"
+    },
+    "correctness": {
+      "status": "no_project_answer",
+      "basis": "The cited literature supports the problem statement. No project answer has been submitted for review."
+    },
+    "novelty": {
+      "status": "not_claimed",
+      "basis": "The target is a known result; no originality is claimed for the selected scope. Any later novelty claim requires a literature check."
+    },
+    "significance": {
+      "rating": "medium",
+      "basis": "A compact calibration for exhaustive reasoning, exact certificates and assumption handling. Larger market or mechanism models would need different inputs and substantive economic justification."
+    }
+  }
+}

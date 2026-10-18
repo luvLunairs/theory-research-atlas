@@ -1,0 +1,183 @@
+{
+  "id": "Q-FORMAL-001",
+  "title": "Reproduce Huang's hypercube degree theorem",
+  "domain": "Computational complexity",
+  "cross_domains": [
+    "Discrete mathematics",
+    "Formal verification"
+  ],
+  "kind": "known_result_calibration",
+  "statement": "Reconstruct a proof that every induced subgraph on 2^(n-1)+1 vertices of the n-dimensional hypercube has maximum degree at least sqrt(n), for every integer n >= 1.",
+  "source_ids": [
+    "SRC-FORMAL-002",
+    "SRC-FORMAL-005"
+  ],
+  "source_locator": "SRC-FORMAL-002, Theorem 1.1 and Section 2",
+  "status": "known_result",
+  "status_basis": "Huang's proof is explicit; the 2012 open-list entry is superseded. Reproduction is calibration, not a new solution.",
+  "last_checked": "2026-10-13",
+  "curator_origin": false,
+  "duplicate_key": "reproduce-huang-s-hypercube-degree-theorem",
+  "proposed_card": true,
+  "plain_summary": "More than half of a Boolean cube forces a vertex with many selected neighbors. A published short proof makes this useful for checking whether a research workflow can preserve a theorem's quantifiers and produce a reviewable proof.",
+  "assumptions": [
+    "n is an integer at least 1.",
+    "The graph is the undirected n-dimensional binary hypercube with edges at Hamming distance one.",
+    "The selected graph is induced and has exactly 2^(n-1)+1 vertices.",
+    "Classical real linear algebra, including eigenvalue interlacing, is allowed."
+  ],
+  "scope": "Known-theorem reproduction. First reconstruct the mathematical argument for all n. A formal proof-assistant version is optional and requires a separate environment choice; small numerical checks alone do not complete this task.",
+  "target": "A self-contained proof document with a dependency ledger; optionally a machine-checked formalization with the same statement.",
+  "success_criteria": [
+    "A specialist accepts the proof with all lemmas and quantifiers explicit.",
+    "The induced-subgraph condition and vertex threshold agree with Theorem 1.1.",
+    "Any formal artifact declares axioms and dependencies and is checked by an independent trusted kernel.",
+    "The result is labeled reproduction throughout."
+  ],
+  "known_results": [
+    "Huang's Theorem 1.1 proves this statement; Theorems 1.4–1.5 connect it to sensitivity.",
+    "The 2012 problem-list entry is historical evidence, not an open problem to solve again."
+  ],
+  "prerequisites": [
+    "Graphs and hypercubes",
+    "Real symmetric matrices",
+    "Eigenvalues and principal-submatrix interlacing",
+    "Inductive block-matrix construction"
+  ],
+  "significance": "A compact cross-domain calibration for proof reconstruction, citation accuracy and statement alignment. Its scientific novelty is zero unless a separately reviewed extension is proposed.",
+  "relations": [],
+  "requirements": {
+    "experiment": "none",
+    "data": "The cited paper and mathematical definitions only; no empirical dataset.",
+    "compute": "Symbolic proof first. Optional small matrices grow as 2^n by 2^n; never materialize large cubes merely because no experiment is needed. Formalization cost unknown; no run or time estimate exists.",
+    "theoretical_assumptions": "Finite simple graphs and classical real linear algebra. Formal foundations and allowed axioms must be recorded if formalized."
+  },
+  "ai_assessment": {
+    "priority": "priority_trial",
+    "rationale": "Useful first calibration because the target and reference proof are explicit and errors can be localized to linear-algebra lemmas. This predicts auditability, not research discovery or model success.",
+    "dimensions": {
+      "clarity": {
+        "rating": "high",
+        "reason": "The graph, threshold and desired bound are fixed."
+      },
+      "decomposability": {
+        "rating": "high",
+        "reason": "Separate signed-matrix construction, spectrum, interlacing and degree bound."
+      },
+      "methods": {
+        "rating": "high",
+        "reason": "An accessible primary proof supplies a reference."
+      },
+      "search_or_symbolic": {
+        "rating": "medium",
+        "reason": "Symbolic block-matrix reasoning is useful; brute-force graph search is unnecessary."
+      },
+      "checkability": {
+        "rating": "high",
+        "reason": "A human can compare a short derivation to the reference theorem."
+      },
+      "expertise": {
+        "rating": "medium",
+        "reason": "Linear algebra and graph-theoretic proof review are needed."
+      },
+      "significance": {
+        "rating": "medium",
+        "reason": "High workflow-calibration value; no new theorem is sought."
+      },
+      "verification_difficulty": {
+        "rating": "medium",
+        "reason": "Submatrix dimensions and eigenvalue ordering are subtle despite a short statement."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "No model has been tested. Familiarity with the published proof may contaminate any discovery-style benchmark; this is intentionally a reproduction benchmark.",
+    "assessment_date": "2026-10-13",
+    "model_scope": "No named model evaluated; assumes tool-using AI with source retrieval, symbolic reasoning and optional access to a proof assistant.",
+    "evidence_refs": []
+  },
+  "methods": [
+    "proof reconstruction",
+    "symbolic derivation",
+    "formal verification"
+  ],
+  "obstacles": [
+    "An attractive but wrong eigenvalue-index argument can look convincing.",
+    "Checking a few values of n cannot establish a universal theorem.",
+    "A formalization can prove a weakened statement if the translation is not audited."
+  ],
+  "validation": {
+    "steps": [
+      "Freeze the reference version and restate all definitions.",
+      "Review each lemma independently, especially matrix dimensions and signs.",
+      "Check the final statement against Theorem 1.1 rather than the paper's historical conjecture wording.",
+      "If formalized, record proof-assistant/library versions and inspect the theorem and axioms after kernel checking."
+    ],
+    "human_review_difficulty": "Moderate; a reviewer needs spectral graph theory or linear algebra. Automated acceptance alone does not validate the source-to-formal-statement translation.",
+    "statement_alignment": "A proof about non-induced subgraphs, another vertex threshold, or finite tested dimensions is not this task."
+  },
+  "known_attempts": [
+    "Huang 2019 provides the known solution. No project attempt has been made; no specific AI reproduction is claimed."
+  ],
+  "unresolved_checks": [
+    "Whether an existing formalization can be reused should be searched before a later attempt.",
+    "Choose a proof assistant only if formalization is in scope; no toolchain has been selected."
+  ],
+  "attribution": {
+    "original_authors": [
+      "Hao Huang",
+      "Nisan and Szegedy (original sensitivity problem)",
+      "Chung, Füredi, Graham and Seymour (earlier cube work)"
+    ],
+    "citation": "Hao Huang (2019), Induced subgraphs of hypercubes and a proof of the Sensitivity Conjecture, arXiv:1907.00847v2, Theorem 1.1.",
+    "curator_credit": "Compiled for Theory Research Atlas with AI assistance."
+  },
+  "status_search": {
+    "queries": [],
+    "checked_sources": [
+      "SRC-FORMAL-002",
+      "SRC-FORMAL-005"
+    ],
+    "result": "Original statement and explicit proof inspected. The candidate is a known result, so no current-open claim is made.",
+    "limitations": "No formal-library census or erratum search across all indexes."
+  },
+  "primary_domain_id": "CS.COMPLEX",
+  "cross_domain_ids": [
+    "MATH.COMB",
+    "LOGIC.TYPE"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "method_tags": [
+    "proof",
+    "symbolic_derivation",
+    "formalization"
+  ],
+  "validation_tags": [
+    "pure_proof"
+  ],
+  "experimental_dependency": "none_for_formal_task",
+  "epistemic_layers": {
+    "formal_validity": "The card specifies a mathematical task under its stated assumptions; no project proof or certificate has been checked.",
+    "empirical_support": "No empirical claim is made."
+  },
+  "judgments": {
+    "difficulty": {
+      "rating": "low_to_medium",
+      "basis": "Useful first calibration because the target and reference proof are explicit and errors can be localized to linear-algebra lemmas. This predicts auditability, not research discovery or model success.",
+      "evidence": "editorial_estimate_not_measured"
+    },
+    "correctness": {
+      "status": "no_project_answer",
+      "basis": "The cited literature supports the problem statement. No project answer has been submitted for review."
+    },
+    "novelty": {
+      "status": "not_claimed",
+      "basis": "The target is a known result; no originality is claimed for the selected scope. Any later novelty claim requires a literature check."
+    },
+    "significance": {
+      "rating": "medium",
+      "basis": "A compact cross-domain calibration for proof reconstruction, citation accuracy and statement alignment. Its scientific novelty is zero unless a separately reviewed extension is proposed."
+    }
+  },
+  "revision_history": []
+}

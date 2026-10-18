@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Source Map",
+  "type": "object",
+  "properties": {
+    "source_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "domain_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "mapping_basis": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "source_id",
+    "domain_ids",
+    "mapping_basis"
+  ],
+  "additionalProperties": false
+}

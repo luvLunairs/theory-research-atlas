@@ -1,0 +1,49 @@
+name: "Propose a problem or source"
+description: "Suggest an identifiable question or a useful source."
+title: "[Proposal] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Check for an existing entry, then describe your suggestion in ordinary prose. A source suggestion needs only its link and relevance. Missing details may be marked unknown; maintainers organize accepted suggestions.
+  - type: dropdown
+    id: origin
+    attributes:
+      label: "What are you suggesting?"
+      options:
+        - "Literature problem"
+        - "Curator-proposed subproblem or direction; pending review"
+        - "Known-result reproduction or calibration"
+        - "Source directory addition"
+    validations:
+      required: true
+  - type: textarea
+    id: statement
+    attributes:
+      label: "Question or source"
+      description: "Describe one question and its assumptions, or the source and why it is useful. Related entries, possible methods and resource needs are welcome if known."
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "Source and current status"
+      description: "Give the source link and, for a problem, its author and exact passage or problem number. Include dates when known. Distinguish the source's status claim from checks you performed; unknown is acceptable. For an original proposal, cite related work or say none identified. Credit others and note reuse restrictions."
+    validations:
+      required: true
+  - type: textarea
+    id: submission_review
+    attributes:
+      label: "AI assistance and checks (if used)"
+      description: "Briefly name the tool/model if known, its role and actual source checks, or link an existing note. Unknown model details are acceptable for source curation. Original subproblems, methods and scientific conclusions need the research assistance note required by the AI policy."
+  - type: markdown
+    attributes:
+      value: |
+        Suggesting a source or accurately reporting its question has no research model restriction. Original research ideas follow the [AI research rules](https://github.com/luvLunairs/theory-research-atlas/blob/main/docs/ai-contributions.md#submission-routes): non-recommended or unidentified contributions require full-text human review of the scientific content and supporting material, then manual submission of the whole contribution. Automation always needs authorization and the [final-version recheck](https://github.com/luvLunairs/theory-research-atlas/blob/main/AGENTS.md#required-recheck).
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: "Contribution terms"
+      options:
+        - label: "I may share this material under the [contribution terms](https://github.com/luvLunairs/theory-research-atlas/blob/main/CONTRIBUTING.md#evidence-and-attribution) and [licenses](https://github.com/luvLunairs/theory-research-atlas/blob/main/LICENSE.md). I have supplied required credit and disclosures, identified unchecked claims and followed the review and submission rules."
+          required: true

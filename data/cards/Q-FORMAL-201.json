@@ -1,0 +1,196 @@
+{
+  "id": "Q-FORMAL-201",
+  "title": "A linear bound for avoiding a specified automaton state",
+  "domain": "Algorithms and data structures",
+  "cross_domains": [
+    "Combinatorics and discrete mathematics"
+  ],
+  "kind": "literature_open",
+  "statement": "For every complete deterministic strongly connected synchronizing automaton A=(Q,Σ,δ), with n=|Q| ≥ 2, and every q∈Q, does there exist w∈Σ* of length at most 2n−2 such that q∉δ(Q,w)?",
+  "source_ids": [
+    "SRC-FORMAL-210",
+    "SRC-FORMAL-202",
+    "SRC-FORMAL-201"
+  ],
+  "source_locator": "Kisielewicz–Kowalski–Szykuła, §3, Conjecture 5; Szykuła, §2.2, Conjecture 2.",
+  "status": "source_reports_open",
+  "status_basis": "The original formulation supplies the essential strong-connectivity condition. The 2026 survey still presents the avoiding bound as a conjecture; no general resolution was found in the scoped later-source check.",
+  "last_checked": "2026-10-14",
+  "curator_origin": false,
+  "duplicate_key": "a-linear-bound-for-avoiding-a-specified-automaton-state",
+  "proposed_card": true,
+  "primary_domain_id": "CS.ALG",
+  "cross_domain_ids": [
+    "MATH.COMB"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "plain_summary": "A resettable finite machine can be driven away from a chosen state. The question is whether fewer than twice as many input symbols as states always suffice. A single small counterexample would be decisive; an unsuccessful sample search would not establish the bound.",
+  "assumptions": [
+    "Transitions are total and deterministic; the alphabet is finite.",
+    "The automaton is strongly connected and synchronizing, and n≥2.",
+    "Avoiding q means excluding q from the image of every possible starting state under the same word."
+  ],
+  "scope": "The literature question ranges over all n and alphabets. Curator-proposed first milestone, pending review: inspect at most 1,000 explicitly recorded binary automata with 12≤n≤14, including perturbations of extremal constructions, and compute the exact avoiding distance of every state. This sample limit and choice of sizes are not a literature-established open subcase; novelty of an individual sampled configuration is unverified.",
+  "target": "Seek an exact counterexample to 2n−2, or a structural lemma for a clearly specified family that improves understanding of the avoiding mechanism.",
+  "success_criteria": [
+    "A counterexample must include its transition table, evidence of strong connectivity and synchronization, a specified state, and a checkable certificate that no word of length ≤2n−2 avoids it.",
+    "A positive theorem must state the complete family assumptions and prove the bound for all its members; finite samples alone do not qualify.",
+    "A completed bounded exploration must identify the tested instances and exclusions. Stop at the declared sample or resource limit; report an incomplete search without an absence claim beyond the checked set."
+  ],
+  "known_results": [
+    "The original KKS conjecture includes strong connectivity; omitting it admits unavoidably fixed sink states.",
+    "Ferens–Szykuła–Vorel give extremal avoiding constructions and report binary checks through 11 states.",
+    "The 2026 survey records a quadratic general upper bound, (n−2)(n−1)+2, and retains the linear-bound conjecture."
+  ],
+  "prerequisites": [
+    "Actions of words on subsets of a finite set.",
+    "Strong connectivity, synchronization and breadth-first search.",
+    "Distinguishing shortest avoiding words from shortest reset words."
+  ],
+  "significance": "Avoiding-word bounds feed into bounds for synchronization. A new extremal construction or a rigorous structural lemma would have broader value than another unqualified random sample.",
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "Q-FORMAL-208",
+      "explanation": "The avoiding-or-compressing lemma supplies a related route to upper bounds."
+    },
+    {
+      "type": "related_to",
+      "target": "Q-FORMAL-202",
+      "explanation": "Specified-state merging is a different invariant; its short certificates may suggest methods but do not answer avoidance."
+    }
+  ],
+  "requirements": {
+    "experiment": "No physical experiment is needed for the formal question.",
+    "data": "Use explicit transition tables and cited constructions. No external observational dataset is required.",
+    "compute": "For one n-state instance, exact image-subset exploration uses at most 2^n subsets; at n=14 this is 16,384 possible subsets. Checking one instance is finite, while exhaustive enumeration of all transition tables is much larger. Proposed stop limits are 1,000 instances, 512 MiB memory and four elapsed hours, whichever is reached first. These are proposed ceilings, not measured requirements or performance claims.",
+    "theoretical_assumptions": "Results concern total deterministic automata satisfying the stated graph and synchronization hypotheses, with no probabilistic or physical-machine assumption."
+  },
+  "ai_assessment": {
+    "priority": "preparation_required",
+    "rationale": "Transition-table generation and exact distance checks are well specified, but useful family selection needs an automata specialist and the general conjecture is difficult.",
+    "dimensions": {
+      "clarity": {
+        "rating": "high",
+        "reason": "The quantified word-length inequality and admissible machines are explicit."
+      },
+      "decomposability": {
+        "rating": "high",
+        "reason": "Individual machines and structural families can be treated separately."
+      },
+      "methods": {
+        "rating": "high",
+        "reason": "Subset search, extremal constructions and linear-algebraic bounds are documented."
+      },
+      "search_or_symbolic": {
+        "rating": "high",
+        "reason": "Small transition tables admit exact search and inspectable certificates."
+      },
+      "checkability": {
+        "rating": "high",
+        "reason": "A claimed finite counterexample can be checked independently with integer operations."
+      },
+      "expertise": {
+        "rating": "high",
+        "reason": "Novel family selection and universal upper bounds require specialist knowledge."
+      },
+      "significance": {
+        "rating": "high",
+        "reason": "A valid counterexample or new general bound changes the synchronization picture."
+      },
+      "verification_difficulty": {
+        "rating": "medium",
+        "reason": "Finite witnesses are direct; a family theorem requires a separate mathematical audit."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "No AI attempt has been evaluated. Modest instance verification does not imply that a counterexample exists or is likely to be found; the proposed sizes may contain no useful new behavior.",
+    "assessment_date": "2026-10-14",
+    "model_scope": "No named model evaluated; assumes a tool-using AI can write finite-state search code and work with an independent checker under human supervision.",
+    "evidence_refs": []
+  },
+  "methods": [
+    "Exact image-subset breadth-first search.",
+    "Certified distances or closed reachable layers up to the proposed bound.",
+    "Perturbation of sourced extremal constructions, followed by structural proof."
+  ],
+  "method_tags": [
+    "finite_search",
+    "counterexample",
+    "certificate_checking",
+    "proof"
+  ],
+  "validation_tags": [
+    "exact_computation",
+    "pure_proof"
+  ],
+  "obstacles": [
+    "The number of automata grows far faster than the cost of checking one automaton.",
+    "State relabeling and redundant letters can create misleading apparent novelty.",
+    "A short reset word is not a certificate that an avoiding word is shortest."
+  ],
+  "validation": {
+    "steps": [
+      "Check transition totality, strong connectivity and a supplied reset word.",
+      "Recompute δ(S,a) in an independent implementation, beginning from Q.",
+      "Verify all reachable images through length 2n−2 before accepting a violation; also record a shortest avoiding word to demonstrate finiteness.",
+      "Compare any family lemma and extremal example with the cited papers before making a novelty claim."
+    ],
+    "human_review_difficulty": "Moderate for a single transition table and independently reproduced distance; high for a universal structural theorem.",
+    "statement_alignment": "Retain the strong-connectivity hypothesis of the original conjecture. The bounded sampling milestone is exploratory and does not cover all binary automata of those sizes."
+  },
+  "known_attempts": [
+    "The 2016 and 2021 papers report finite exhaustive checks and explicit constructions; their computations have not been rerun here."
+  ],
+  "unresolved_checks": [
+    "Confirm that any proposed sample family lies outside published classifications and later exhaustive checks.",
+    "The 2026 survey wording differs from the original by omitting strong connectivity; the original hypothesis governs this card."
+  ],
+  "attribution": {
+    "original_authors": [
+      "Andrzej Kisielewicz",
+      "Jakub Kowalski",
+      "Marek Szykuła"
+    ],
+    "citation": "Kisielewicz, Kowalski and Szykuła, Experiments with Synchronizing Automata (2016), §3, Conjecture 5; see also Ferens, Szykuła and Vorel (2021) and Szykuła (2026).",
+    "curator_credit": "Compiled for Theory Research Atlas with AI assistance."
+  },
+  "status_search": {
+    "queries": [],
+    "checked_sources": [
+      "SRC-FORMAL-210",
+      "SRC-FORMAL-202",
+      "SRC-FORMAL-201",
+      "SRC-FORMAL-204",
+      "SRC-FORMAL-205"
+    ],
+    "result": "The scoped check found the avoiding conjecture retained in the 2026 survey; the later preprints address other synchronization invariants.",
+    "limitations": "This establishes a dated source-reported open question, not an exhaustive proof that no resolution exists. Finite-source claims await independent review."
+  },
+  "epistemic_layers": {
+    "formal_validity": "An exact counterexample disproves the quantified bound; an upper-bound proof must cover every admitted machine.",
+    "empirical_support": "No claim about a physical controller follows from this automata theorem. Computational samples are finite mathematical evidence only."
+  },
+  "judgments": {
+    "difficulty": {
+      "rating": "high",
+      "basis": "General progress is difficult even though individual small instances can be checked exactly.",
+      "evidence": "editorial_estimate_not_measured"
+    },
+    "correctness": {
+      "status": "no_project_answer",
+      "basis": "The question and verification plan have been curated; no answer or search result is claimed."
+    },
+    "novelty": {
+      "status": "requires_future_literature_review",
+      "basis": "The main question is sourced; the small exploration is curator-proposed and its outcomes require comparison with prior computations."
+    },
+    "significance": {
+      "rating": "high",
+      "basis": "Avoiding thresholds are connected to synchronization upper bounds."
+    }
+  },
+  "experimental_dependency": "none_for_formal_task",
+  "revision_history": []
+}

@@ -1,0 +1,504 @@
+[
+  {
+    "id": "MILLENNIUM-01",
+    "collection": "millennium",
+    "number": 1,
+    "title": "Birch and Swinnerton-Dyer",
+    "scope": "Arithmetic of elliptic curves and special L-values.",
+    "status": "open",
+    "status_basis": "Clay retains the unsolved classification.",
+    "problem_ids": [
+      "Q-LAND-302"
+    ],
+    "source_ids": [
+      "SRC-LAND-301",
+      "SRC-LAND-303"
+    ],
+    "source_locator": "Clay collection status list; linked official description where applicable.",
+    "last_checked": "2026-10-14"
+  },
+  {
+    "id": "MILLENNIUM-02",
+    "collection": "millennium",
+    "number": 2,
+    "title": "Hodge",
+    "scope": "Algebraic cycles representing rational Hodge classes.",
+    "status": "open",
+    "status_basis": "Clay retains the unsolved classification.",
+    "problem_ids": [
+      "Q-LAND-303"
+    ],
+    "source_ids": [
+      "SRC-LAND-301",
+      "SRC-LAND-304"
+    ],
+    "source_locator": "Clay collection status list; linked official description where applicable.",
+    "last_checked": "2026-10-14"
+  },
+  {
+    "id": "MILLENNIUM-03",
+    "collection": "millennium",
+    "number": 3,
+    "title": "Navier-Stokes",
+    "scope": "Existence and regularity alternatives for three-dimensional incompressible flow.",
+    "status": "claimed_resolution_under_review",
+    "status_basis": "Clay reports an apparent settlement under evaluation; final acceptance is not recorded.",
+    "problem_ids": [
+      "Q-LAND-305"
+    ],
+    "source_ids": [
+      "SRC-LAND-301",
+      "SRC-LAND-306",
+      "SRC-MATH-015"
+    ],
+    "source_locator": "Clay collection status list; linked official description where applicable.",
+    "last_checked": "2026-10-14"
+  },
+  {
+    "id": "MILLENNIUM-04",
+    "collection": "millennium",
+    "number": 4,
+    "title": "P versus NP",
+    "scope": "Deterministic versus nondeterministic polynomial time.",
+    "status": "open",
+    "status_basis": "Clay retains the unsolved classification.",
+    "problem_ids": [
+      "Q-LAND-304"
+    ],
+    "source_ids": [
+      "SRC-LAND-301",
+      "SRC-LAND-305"
+    ],
+    "source_locator": "Clay collection status list; linked official description where applicable.",
+    "last_checked": "2026-10-14"
+  },
+  {
+    "id": "MILLENNIUM-05",
+    "collection": "millennium",
+    "number": 5,
+    "title": "Poincare",
+    "scope": "Closed simply connected topological three-manifolds and the three-sphere.",
+    "status": "resolved",
+    "status_basis": "Clay places this problem in its solved category; it is historical context, not a new open candidate.",
+    "problem_ids": [],
+    "source_ids": [
+      "SRC-LAND-301"
+    ],
+    "source_locator": "Clay collection status list; linked official description where applicable.",
+    "last_checked": "2026-10-14"
+  },
+  {
+    "id": "MILLENNIUM-06",
+    "collection": "millennium",
+    "number": 6,
+    "title": "Riemann hypothesis",
+    "scope": "Nontrivial zeros of the Riemann zeta function.",
+    "status": "open",
+    "status_basis": "Clay retains the unsolved classification.",
+    "problem_ids": [
+      "Q-LAND-301"
+    ],
+    "source_ids": [
+      "SRC-LAND-301",
+      "SRC-LAND-302"
+    ],
+    "source_locator": "Clay collection status list; linked official description where applicable.",
+    "last_checked": "2026-10-14"
+  },
+  {
+    "id": "MILLENNIUM-07",
+    "collection": "millennium",
+    "number": 7,
+    "title": "Yang-Mills existence and mass gap",
+    "scope": "Rigorous four-dimensional quantum Yang-Mills theory with positive mass gap.",
+    "status": "open",
+    "status_basis": "Clay retains the unsolved classification.",
+    "problem_ids": [
+      "Q-MODEL-004"
+    ],
+    "source_ids": [
+      "SRC-LAND-301"
+    ],
+    "source_locator": "Clay collection status list; linked official description where applicable.",
+    "last_checked": "2026-10-14"
+  },
+  {
+    "id": "HILBERT-01",
+    "collection": "hilbert",
+    "number": 1,
+    "title": "Continuum hypothesis",
+    "scope": "Does 2^aleph_0=aleph_1? Hilbert also asked whether the real numbers can be well ordered; that component follows from the axiom of choice in ZFC.",
+    "status": "independence",
+    "status_basis": "The continuum hypothesis is independent of ZFC, assuming its consistency. The well-ordering component is a theorem of ZFC; the two claims must not share an undifferentiated open label.",
+    "problem_ids": [],
+    "source_ids": [
+      "SRC-LAND-307",
+      "SRC-LAND-308"
+    ],
+    "source_locator": "Hilbert, Problem 1; recent overview, matching numbered paragraph. Additional scope qualifications use the linked specialist source.",
+    "last_checked": "2026-10-14"
+  },
+  {
+    "id": "HILBERT-02",
+    "collection": "hilbert",
+    "number": 2,
+    "title": "Consistency of arithmetic",
+    "scope": "Foundations and allowed methods for consistency proofs.",
+    "status": "formulation_dependent",
+    "status_basis": "Formal-system restrictions are decisive after Godel.",
+    "problem_ids": [],
+    "source_ids": [
+      "SRC-LAND-307",
+      "SRC-LAND-308"
+    ],
+    "source_locator": "Hilbert, Problem 2; recent overview, matching numbered paragraph. Additional scope qualifications use the linked specialist source.",
+    "last_checked": "2026-10-14"
+  },
+  {
+    "id": "HILBERT-03",
+    "collection": "hilbert",
+    "number": 3,
+    "title": "Scissors congruence of tetrahedra",
+    "scope": "Equal volume versus finite dissection and reassembly.",
+    "status": "resolved",
+    "status_basis": "Dehn supplied a negative answer.",
+    "problem_ids": [],
+    "source_ids": [
+      "SRC-LAND-307",
+      "SRC-LAND-308"
+    ],
+    "source_locator": "Hilbert, Problem 3; recent overview, matching numbered paragraph. Additional scope qualifications use the linked specialist source.",
+    "last_checked": "2026-10-14"
+  },
+  {
+    "id": "HILBERT-04",
+    "collection": "hilbert",
+    "number": 4,
+    "title": "Straight lines as shortest paths",
+    "scope": "Geometries and metrics with straight-line geodesics.",
+    "status": "formulation_dependent",
+    "status_basis": "The intended class of metrics matters.",
+    "problem_ids": [],
+    "source_ids": [
+      "SRC-LAND-307",
+      "SRC-LAND-308"
+    ],
+    "source_locator": "Hilbert, Problem 4; recent overview, matching numbered paragraph. Additional scope qualifications use the linked specialist source.",
+    "last_checked": "2026-10-14"
+  },
+  {
+    "id": "HILBERT-05",
+    "collection": "hilbert",
+    "number": 5,
+    "title": "Continuous transformation groups",
+    "scope": "Relations between topological groups and Lie groups.",
+    "status": "formulation_dependent",
+    "status_basis": "The standard locally Euclidean group case is resolved.",
+    "problem_ids": [],
+    "source_ids": [
+      "SRC-LAND-307",
+      "SRC-LAND-308"
+    ],
+    "source_locator": "Hilbert, Problem 5; recent overview, matching numbered paragraph. Additional scope qualifications use the linked specialist source.",
+    "last_checked": "2026-10-14"
+  },
+  {
+    "id": "HILBERT-06",
+    "collection": "hilbert",
+    "number": 6,
+    "title": "Axiomatization of physics",
+    "scope": "Axioms and limiting relations for physical theories.",
+    "status": "broad_program",
+    "status_basis": "No single theorem exhausts this program.",
+    "problem_ids": [],
+    "source_ids": [
+      "SRC-LAND-307",
+      "SRC-LAND-308"
+    ],
+    "source_locator": "Hilbert, Problem 6; recent overview, matching numbered paragraph. Additional scope qualifications use the linked specialist source.",
+    "last_checked": "2026-10-14"
+  },
+  {
+    "id": "HILBERT-07",
+    "collection": "hilbert",
+    "number": 7,
+    "title": "Transcendence of algebraic powers",
+    "scope": "Algebraic bases other than zero and one raised to algebraic irrational powers.",
+    "status": "resolved",
+    "status_basis": "Gelfond-Schneider resolves the classical statement.",
+    "problem_ids": [],
+    "source_ids": [
+      "SRC-LAND-307",
+      "SRC-LAND-308"
+    ],
+    "source_locator": "Hilbert, Problem 7; recent overview, matching numbered paragraph. Additional scope qualifications use the linked specialist source.",
+    "last_checked": "2026-10-14"
+  },
+  {
+    "id": "HILBERT-08",
+    "collection": "hilbert",
+    "number": 8,
+    "title": "Prime numbers and zeta zeros",
+    "scope": "Riemann hypothesis, additive prime representations and prime gaps.",
+    "status": "partly_open",
+    "status_basis": "Several explicitly stated prime problems remain open.",
+    "problem_ids": [
+      "Q-LAND-301",
+      "Q-LAND-306",
+      "Q-LAND-307"
+    ],
+    "source_ids": [
+      "SRC-LAND-307",
+      "SRC-LAND-308"
+    ],
+    "source_locator": "Hilbert, Problem 8; recent overview, matching numbered paragraph. Additional scope qualifications use the linked specialist source.",
+    "last_checked": "2026-10-14"
+  },
+  {
+    "id": "HILBERT-09",
+    "collection": "hilbert",
+    "number": 9,
+    "title": "General reciprocity laws",
+    "scope": "Reciprocity across algebraic number fields.",
+    "status": "formulation_dependent",
+    "status_basis": "Class-field results leave broader interpretations.",
+    "problem_ids": [],
+    "source_ids": [
+      "SRC-LAND-307",
+      "SRC-LAND-308"
+    ],
+    "source_locator": "Hilbert, Problem 9; recent overview, matching numbered paragraph. Additional scope qualifications use the linked specialist source.",
+    "last_checked": "2026-10-14"
+  },
+  {
+    "id": "HILBERT-10",
+    "collection": "hilbert",
+    "number": 10,
+    "title": "Diophantine decidability over the integers",
+    "scope": "A general algorithm for integer solutions of polynomial equations.",
+    "status": "resolved",
+    "status_basis": "Undecidability answers the original integer question.",
+    "problem_ids": [],
+    "source_ids": [
+      "SRC-LAND-307",
+      "SRC-LAND-308"
+    ],
+    "source_locator": "Hilbert, Problem 10; recent overview, matching numbered paragraph. Additional scope qualifications use the linked specialist source.",
+    "last_checked": "2026-10-14"
+  },
+  {
+    "id": "HILBERT-11",
+    "collection": "hilbert",
+    "number": 11,
+    "title": "Quadratic forms over number fields",
+    "scope": "Representation and equivalence of quadratic forms with algebraic coefficients.",
+    "status": "formulation_dependent",
+    "status_basis": "Classical local-global theory resolves central cases.",
+    "problem_ids": [],
+    "source_ids": [
+      "SRC-LAND-307",
+      "SRC-LAND-308"
+    ],
+    "source_locator": "Hilbert, Problem 11; recent overview, matching numbered paragraph. Additional scope qualifications use the linked specialist source.",
+    "last_checked": "2026-10-14"
+  },
+  {
+    "id": "HILBERT-12",
+    "collection": "hilbert",
+    "number": 12,
+    "title": "Explicit class-field constructions",
+    "scope": "Generate abelian extensions using suitably specified arithmetic special values.",
+    "status": "partly_open",
+    "status_basis": "General analytic constructions remain formulation-sensitive. Existing p-adic constructions must not be relabeled as missing; the formulation needs specialist refinement.",
+    "problem_ids": [],
+    "source_ids": [
+      "SRC-LAND-307",
+      "SRC-LAND-308",
+      "SRC-LAND-311"
+    ],
+    "source_locator": "Hilbert, Problem 12; recent overview, matching numbered paragraph. Additional scope qualifications use the linked specialist source.",
+    "last_checked": "2026-10-14"
+  },
+  {
+    "id": "HILBERT-13",
+    "collection": "hilbert",
+    "number": 13,
+    "title": "Functions of two variables and degree-seven equations",
+    "scope": "Distinguish continuous superposition from towers of algebraic functions.",
+    "status": "partly_open",
+    "status_basis": "Continuous superposition is resolved; algebraic questions remain.",
+    "problem_ids": [
+      "Q-LAND-308",
+      "Q-LAND-309",
+      "Q-LAND-310"
+    ],
+    "source_ids": [
+      "SRC-LAND-307",
+      "SRC-LAND-308",
+      "SRC-LAND-309"
+    ],
+    "source_locator": "Hilbert, Problem 13; recent overview, matching numbered paragraph. Additional scope qualifications use the linked specialist source.",
+    "last_checked": "2026-10-14"
+  },
+  {
+    "id": "HILBERT-14",
+    "collection": "hilbert",
+    "number": 14,
+    "title": "Finite generation of invariants",
+    "scope": "Finite generation for rings in the scope of the original question.",
+    "status": "resolved",
+    "status_basis": "Nagata supplied a counterexample.",
+    "problem_ids": [],
+    "source_ids": [
+      "SRC-LAND-307",
+      "SRC-LAND-308"
+    ],
+    "source_locator": "Hilbert, Problem 14; recent overview, matching numbered paragraph. Additional scope qualifications use the linked specialist source.",
+    "last_checked": "2026-10-14"
+  },
+  {
+    "id": "HILBERT-15",
+    "collection": "hilbert",
+    "number": 15,
+    "title": "Foundations of Schubert calculus",
+    "scope": "Rigorous enumerative intersection calculations.",
+    "status": "formulation_dependent",
+    "status_basis": "Foundational scope and completeness remain interpretation-dependent.",
+    "problem_ids": [],
+    "source_ids": [
+      "SRC-LAND-307",
+      "SRC-LAND-308"
+    ],
+    "source_locator": "Hilbert, Problem 15; recent overview, matching numbered paragraph. Additional scope qualifications use the linked specialist source.",
+    "last_checked": "2026-10-14"
+  },
+  {
+    "id": "HILBERT-16",
+    "collection": "hilbert",
+    "number": 16,
+    "title": "Real algebraic topology and limit cycles",
+    "scope": "Classify the topology and arrangements of real algebraic curves and surfaces, and the number and arrangement of limit cycles of planar polynomial vector fields.",
+    "status": "partly_open",
+    "status_basis": "Curve arrangements and quantitative cycle questions remain distinct. A September 2026 uniform-boundedness claim is reported as awaiting review; its primary proof has not been inspected here. No claim of settled exact bounds is made.",
+    "problem_ids": [],
+    "source_ids": [
+      "SRC-LAND-307",
+      "SRC-LAND-308",
+      "SRC-LAND-312"
+    ],
+    "source_locator": "Hilbert, Problem 16; recent overview, matching numbered paragraph. Additional scope qualifications use the linked specialist source.",
+    "last_checked": "2026-10-14"
+  },
+  {
+    "id": "HILBERT-17",
+    "collection": "hilbert",
+    "number": 17,
+    "title": "Positive polynomials and sums of squares",
+    "scope": "Represent nonnegative real polynomials by sums of squares of rational functions.",
+    "status": "resolved",
+    "status_basis": "Artin established the rational-function representation.",
+    "problem_ids": [],
+    "source_ids": [
+      "SRC-LAND-307",
+      "SRC-LAND-308"
+    ],
+    "source_locator": "Hilbert, Problem 17; recent overview, matching numbered paragraph. Additional scope qualifications use the linked specialist source.",
+    "last_checked": "2026-10-14"
+  },
+  {
+    "id": "HILBERT-18",
+    "collection": "hilbert",
+    "number": 18,
+    "title": "Congruent polyhedra and packing",
+    "scope": "Space groups, tilings by congruent polyhedra, and densest packings of equal spheres or more general congruent solids; the original text also names regular tetrahedra.",
+    "status": "formulation_dependent",
+    "status_basis": "The standard space-group, non-isohedral tiling and three-dimensional sphere-packing components have established resolutions. Those results do not settle every general-solid packing question in the original wording. Specific remaining packing targets need separate current-source review.",
+    "problem_ids": [],
+    "source_ids": [
+      "SRC-LAND-307",
+      "SRC-LAND-308"
+    ],
+    "source_locator": "Hilbert, Problem 18; recent overview, matching numbered paragraph. Additional scope qualifications use the linked specialist source.",
+    "last_checked": "2026-10-14"
+  },
+  {
+    "id": "HILBERT-19",
+    "collection": "hilbert",
+    "number": 19,
+    "title": "Regularity in variational problems",
+    "scope": "Analyticity of solutions under appropriate ellipticity and regularity assumptions.",
+    "status": "formulation_dependent",
+    "status_basis": "Resolved core cases require precise hypotheses.",
+    "problem_ids": [],
+    "source_ids": [
+      "SRC-LAND-307",
+      "SRC-LAND-308"
+    ],
+    "source_locator": "Hilbert, Problem 19; recent overview, matching numbered paragraph. Additional scope qualifications use the linked specialist source.",
+    "last_checked": "2026-10-14"
+  },
+  {
+    "id": "HILBERT-20",
+    "collection": "hilbert",
+    "number": 20,
+    "title": "Boundary value problems",
+    "scope": "Existence of variational solutions for specified boundary data.",
+    "status": "formulation_dependent",
+    "status_basis": "Existence depends on admissibility and regularity.",
+    "problem_ids": [],
+    "source_ids": [
+      "SRC-LAND-307",
+      "SRC-LAND-308"
+    ],
+    "source_locator": "Hilbert, Problem 20; recent overview, matching numbered paragraph. Additional scope qualifications use the linked specialist source.",
+    "last_checked": "2026-10-14"
+  },
+  {
+    "id": "HILBERT-21",
+    "collection": "hilbert",
+    "number": 21,
+    "title": "Differential equations with prescribed monodromy",
+    "scope": "Realize monodromy with specified singularity restrictions.",
+    "status": "formulation_dependent",
+    "status_basis": "Strong Fuchsian formulations have counterexamples.",
+    "problem_ids": [],
+    "source_ids": [
+      "SRC-LAND-307",
+      "SRC-LAND-308"
+    ],
+    "source_locator": "Hilbert, Problem 21; recent overview, matching numbered paragraph. Additional scope qualifications use the linked specialist source.",
+    "last_checked": "2026-10-14"
+  },
+  {
+    "id": "HILBERT-22",
+    "collection": "hilbert",
+    "number": 22,
+    "title": "Uniformization",
+    "scope": "Parametrization by suitable automorphic functions.",
+    "status": "formulation_dependent",
+    "status_basis": "Classical uniformization resolves a central interpretation.",
+    "problem_ids": [],
+    "source_ids": [
+      "SRC-LAND-307",
+      "SRC-LAND-308"
+    ],
+    "source_locator": "Hilbert, Problem 22; recent overview, matching numbered paragraph. Additional scope qualifications use the linked specialist source.",
+    "last_checked": "2026-10-14"
+  },
+  {
+    "id": "HILBERT-23",
+    "collection": "hilbert",
+    "number": 23,
+    "title": "Calculus of variations",
+    "scope": "Further methods and applications of variational analysis.",
+    "status": "broad_program",
+    "status_basis": "An ongoing program, not one conjecture.",
+    "problem_ids": [],
+    "source_ids": [
+      "SRC-LAND-307",
+      "SRC-LAND-308"
+    ],
+    "source_locator": "Hilbert, Problem 23; recent overview, matching numbered paragraph. Additional scope qualifications use the linked specialist source.",
+    "last_checked": "2026-10-14"
+  }
+]

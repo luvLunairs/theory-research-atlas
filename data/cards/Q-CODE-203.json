@@ -1,0 +1,194 @@
+{
+  "id": "Q-CODE-203",
+  "title": "Quaternary length-six covering codes of radius two",
+  "domain": "Coding theory",
+  "cross_domains": [
+    "Extremal and Ramsey theory"
+  ],
+  "kind": "literature_open",
+  "statement": "Determine K_4(6,2), the smallest size of a set C in {0,...,3}^6 such that every word has Hamming distance at most 2 from some member of C. No linearity or symmetry restriction is imposed. The inspected sources report 33 <= K_4(6,2) <= 48; a certified improvement of either bound is a meaningful partial result.",
+  "source_ids": [
+    "SRC-CODE-201",
+    "SRC-CODE-202"
+  ],
+  "source_locator": "SRC-CODE-201, Table 3; SRC-CODE-202, Proposition 12 and Table 2",
+  "status": "source_reports_open",
+  "status_basis": "The most recent located primary bounds leave the interval [33,48] nontrivial. A targeted search for these parameters and subsequent improvements did not locate an exact value. This is a source-based gap, not an exhaustive certification of open status. The newer quaternary construction supersedes the upper bound in the semidefinite paper.",
+  "last_checked": "2026-10-14",
+  "curator_origin": false,
+  "duplicate_key": "covering-code-K-4-6-2",
+  "proposed_card": true,
+  "primary_domain_id": "INFO.CODES",
+  "cross_domain_ids": [
+    "MATH.COMB.EXT"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "plain_summary": "Choose as few length-6 words over a 4-symbol alphabet as possible so that every possible word lies within 2 symbol changes of one chosen word. Any smaller verified cover improves a concrete finite bound.",
+  "assumptions": [
+    "The alphabet is {0,...,3}, with ordinary Hamming distance: the number of unequal coordinates.",
+    "The code is an arbitrary set, with no repeated words. Linear, additive and orbit-union constructions are optional search restrictions, not assumptions of the problem.",
+    "Covering radius means at most the stated radius; the task is not a packing or minimum-distance problem."
+  ],
+  "scope": "The exact finite parameter K_4(6,2). A proposed first milestone is a code with at most 47 words. This choice of milestone and the resource ceiling below are curator proposals, pending review; they are not a separate conjecture attributed to the source.",
+  "target": "Find and independently verify a cover of size at most 47, or obtain a rigorously certified improvement of the lower bound 33. Matching bounds would determine K_4(6,2); a one-sided improvement alone would not.",
+  "success_criteria": [
+    "For a constructive improvement, provide a machine-readable list of at most 47 distinct words and a separate exhaustive coverage checker.",
+    "For a lower-bound improvement, supply a mathematical proof or independently checkable exact certificate valid for all unrestricted codes.",
+    "Record the achieved bound and its assumptions. A failed search, an infeasible restricted ansatz or a timeout is not a lower bound.",
+    "Recheck later literature before calling any improvement new."
+  ],
+  "known_results": [
+    "The cited table or proposition reports 33 <= K_4(6,2) <= 48. These are literature claims, not bounds established by this project.",
+    "The recent explicit construction lowers the earlier upper bound from 52 to 48; the exact minimum is not supplied."
+  ],
+  "prerequisites": [
+    "Hamming distance and covering codes",
+    "Finite set covering and bitsets",
+    "Exact integer arithmetic",
+    "Certificate checking and basic computational reproducibility"
+  ],
+  "significance": "A small covering-code gap offers a concrete research output with an independently inspectable witness. The main value is an improved bound or construction principle, not the mere completion of a search.",
+  "relations": [
+    {
+      "type": "related_method",
+      "target": "Q-CODE-201",
+      "explanation": "Shares the covering-set formulation and exact witness checker; the parameter instances remain distinct mathematical questions."
+    }
+  ],
+  "experimental_dependency": "none_for_formal_task",
+  "requirements": {
+    "experiment": "No physical experiment.",
+    "data": "Generate the 4,096 words directly. Existing code constructions can be starting points if their provenance and version are recorded; no external empirical dataset is needed.",
+    "compute": "A direct witness check for 47 codewords uses at most 1,155,072 coordinate comparisons. This is an operation bound, not a measured runtime. A direct binary set-cover formulation has 4,096 variables and 4,096 covering constraints. Proposed initial ceiling: 4 CPU-hours and 8 GiB RAM, stopping sooner on a verified improvement. This is a curator-chosen exploration cap, not an estimate of the resources needed to solve the problem; no run or cost measurement has been made.",
+    "theoretical_assumptions": "Finite combinatorics with exact Hamming distance. No model of physical noise or untested empirical assumption is required."
+  },
+  "ai_assessment": {
+    "priority": "preparation_required",
+    "rationale": "The recent construction must first be checked and its restrictions understood. A bounded improvement search is then plausible, with a particularly simple independent witness test.",
+    "dimensions": {
+      "clarity": {
+        "rating": "high",
+        "reason": "A finite Hamming space, radius and cardinality determine the question exactly."
+      },
+      "decomposability": {
+        "rating": "high",
+        "reason": "Constructive upper-bound work can be separated from lower bounds and exact optimality."
+      },
+      "methods": {
+        "rating": "high",
+        "reason": "Set covering, local search, symmetry and exact optimization provide concrete tools; selecting an effective strategy remains research."
+      },
+      "search_or_symbolic": {
+        "rating": "high",
+        "reason": "A code is a finite list and each Hamming ball has an exact bitset representation."
+      },
+      "checkability": {
+        "rating": "high",
+        "reason": "A proposed upper-bound witness can be checked over all 4,096 words using integer operations."
+      },
+      "expertise": {
+        "rating": "medium",
+        "reason": "A construction checker is elementary; avoiding invalid symmetry restrictions and certifying lower bounds requires coding or optimization expertise."
+      },
+      "significance": {
+        "rating": "medium",
+        "reason": "An improved table entry is a modest, specific contribution; transferable constructions would have wider value."
+      },
+      "verification_difficulty": {
+        "rating": "low",
+        "reason": "Low for an explicit covering witness; substantially higher for a nonexistence or optimality proof."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "No model has been evaluated on this task. A small universe and an inexpensive witness checker do not imply that a better cover is easy to find or exists at the selected target size.",
+    "assessment_date": "2026-10-14",
+    "model_scope": "No named model evaluated; assumes a tool-using model able to implement finite search and integer checkers, with human review of problem encoding and novelty.",
+    "evidence_refs": []
+  },
+  "methods": [
+    "Represent each possible center by its exact Hamming-ball bitset.",
+    "Use local replacement, tabu search or exact set-cover encodings with a declared cardinality target.",
+    "Explore coordinate and symbol symmetries, documenting which restrictions may exclude valid codes.",
+    "For lower bounds, investigate exact combinatorial arguments or rigorously certified optimization duals."
+  ],
+  "method_tags": [
+    "construction",
+    "finite_search",
+    "bounds",
+    "certificate_checking"
+  ],
+  "validation_tags": [
+    "exact_computation",
+    "pure_proof"
+  ],
+  "obstacles": [
+    "The feasible space of code subsets is enormous despite the small space of words.",
+    "Greedy or local search can stall at the known bound.",
+    "An orbit restriction can hide asymmetric improvements.",
+    "Numerical SDP output alone is insufficient as a new exact lower-bound certificate."
+  ],
+  "validation": {
+    "steps": [
+      "Refresh the parameter-specific literature and record the exact source versions.",
+      "Validate the alphabet, word lengths, distinctness and claimed code size.",
+      "Independently enumerate every one of the 4,096 words and check distance to the submitted code. Record any uncovered word as a counterexample to the claimed cover.",
+      "Use a separately written checker and save the submitted witness with a content hash.",
+      "For nonexistence claims, audit encoding completeness, all symmetry reductions and the complete proof certificate; a solver status alone is insufficient.",
+      "Obtain human review of correctness and a separate comparison with the literature for novelty."
+    ],
+    "human_review_difficulty": "Low to moderate for an explicit upper-bound witness. High for unrestricted lower bounds or exact optimality.",
+    "statement_alignment": "The checker must test covering, not packing, in the full unrestricted Hamming space. Properties of one additive or symmetric code family do not settle the unrestricted minimum."
+  },
+  "known_attempts": [
+    "The inspected papers report computational bounds or constructions. Their reported runs are external research records and have not been repeated or used as AI benchmark results here."
+  ],
+  "unresolved_checks": [
+    "Confirm that no later construction or lower-bound improvement changes this exact parameter cell.",
+    "Audit the source lower-bound certificate if it is needed in a future proof of optimality.",
+    "Retrieve and independently validate any published starting construction before relying on it.",
+    "Section 7 of SRC-CODE-202 contains a potentially ambiguous statement about translation stabilizers and coset unions; no conclusion here relies on that structural claim."
+  ],
+  "attribution": {
+    "original_authors": [
+      "Dion Gijswijt",
+      "Sven Polak",
+      "Tamal Maharaj"
+    ],
+    "citation": "Gijswijt and Polak, Semidefinite lower bounds for covering codes, arXiv:2504.01932v2 (2026), SRC-CODE-201, Table 3; SRC-CODE-202, Proposition 12 and Table 2. See also Maharaj, Quaternary Preparata codes are quasi-perfect covering codes in the Hamming metric, arXiv:2610.03760v1 (2026). Earlier construction authors should be credited through the cited tables when their constructions are used.",
+    "curator_credit": "Compiled for Theory Research Atlas with AI assistance."
+  },
+  "status_search": {
+    "queries": [],
+    "checked_sources": [
+      "SRC-CODE-201",
+      "SRC-CODE-202"
+    ],
+    "result": "The inspected primary records leave a nontrivial interval. Parameter-specific searches for later exact values and improved bounds found no reliable resolution.",
+    "limitations": "The search is scoped and cannot establish absence of all later work. Recent preprint claims and numerical certificates have not been independently verified."
+  },
+  "epistemic_layers": {
+    "formal_validity": "A finite witness proves its stated covering bound only after exact checking; optimality needs a separate unrestricted lower bound.",
+    "empirical_support": "No empirical claim is involved. Heuristic success rates and AI performance are unknown."
+  },
+  "judgments": {
+    "difficulty": {
+      "rating": "high",
+      "basis": "Discovery and optimality remain difficult; witness verification is much easier than finding a better code.",
+      "evidence": "editorial_estimate_not_measured"
+    },
+    "correctness": {
+      "status": "no_project_answer",
+      "basis": "No new code or proof has been produced by this project."
+    },
+    "novelty": {
+      "status": "requires_future_literature_review",
+      "basis": "A candidate improvement must be checked against current parameter tables and later papers."
+    },
+    "significance": {
+      "rating": "medium",
+      "basis": "A precise incremental bound improvement, with greater significance if a reusable method emerges."
+    }
+  },
+  "revision_history": []
+}

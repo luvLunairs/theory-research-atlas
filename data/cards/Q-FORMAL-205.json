@@ -1,0 +1,192 @@
+{
+  "id": "Q-FORMAL-205",
+  "title": "A complete graphical criterion for the front-door formula",
+  "domain": "Causal inference and identifiability",
+  "cross_domains": [
+    "Algorithms and data structures"
+  ],
+  "kind": "literature_open",
+  "statement": "Characterize causal DAGs, allowing latent variables, and disjoint observed variable sets X, M and Y on which the unadjusted front-door functional Σ_m P(m|x*) Σ_x P(y|m,x)P(x) equals P(y|do(x*)) for every compatible causal model whose joint distribution over all observed variables is strictly positive. Here x, m and y denote joint values of the corresponding sets. The target is validity of this particular functional, not identifiability by some other formula.",
+  "source_ids": [
+    "SRC-FORMAL-107"
+  ],
+  "source_locator": "Wu–Robeva, §2.1.1 standing positivity assumption; §6, 'Concluding Remarks and Further Questions', Figure 4; Theorems 1.1, 3.5 and 3.6.",
+  "status": "source_reports_open",
+  "status_basis": "The April 2026 primary preprint explicitly leaves a necessary-and-sufficient graphical criterion open and gives examples outside its sufficient criterion. A scoped subsequent-literature search found no complete resolution; latent-variable and positivity conventions still require specialist review.",
+  "last_checked": "2026-10-14",
+  "curator_origin": false,
+  "duplicate_key": "a-complete-graphical-criterion-for-the-front-door-formula",
+  "proposed_card": true,
+  "primary_domain_id": "STAT.CAUSAL",
+  "cross_domain_ids": [
+    "CS.ALG"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "plain_summary": "The front-door formula can identify an intervention effect even with hidden confounding, but its familiar sufficient graphical conditions do not describe every graph where the formula works. The task is to find a complete graph-based rule for this specific formula.",
+  "assumptions": [
+    "A causal directed acyclic graph is supplied, with observed and latent nodes distinguished.",
+    "The general question allows disjoint observed variable sets X, M and Y; summation is over their joint values.",
+    "Compatible models obey the graph's causal factorization and intervention semantics.",
+    "Following the source's standing assumption, P(v)>0 for every joint assignment v of all observed variables. The bounded initial task imposes the stronger sufficient condition of strictly positive local conditional probability tables."
+  ],
+  "scope": "Curator-proposed first milestone, pending review: examine at most 200 acyclic graphs on three observed binary variables X,M,Y and at most two latent binary variables, up to isomorphism fixing the observed roles. For graphs outside the cited sufficient criterion, either give a positive rational countermodel or prove the formula identically for that binary parameterization. These size and cardinality restrictions are exploratory, not literature-certified open subcases.",
+  "target": "Obtain an exact small countermodel to a proposed graphical extension, or a proved new sufficient graph pattern. The long-term target remains a necessary-and-sufficient criterion for universal validity.",
+  "success_criteria": [
+    "A countermodel includes the graph, positive rational conditional tables, the observational marginal, the intervention distribution and an exact nonzero discrepancy.",
+    "A symbolic identity must be proved as a rational-function identity with denominator conditions, and labelled with its binary/cardinality restrictions.",
+    "A proposed graphical criterion requires both sufficiency and necessity proofs over the stated full model class. Finite tests or general identifiability by another formula are insufficient.",
+    "Stop at 200 graphs or the symbolic-resource ceiling. Any unresolved identity or failed search remains unclassified."
+  ],
+  "known_results": [
+    "Wu and Robeva give a sufficient criterion weaker than the classical front-door criterion.",
+    "Their §6 explicitly calls that new criterion incomplete and asks for necessary and sufficient graphical conditions.",
+    "They give a graph violating one of their sufficient conditions where the same front-door functional nevertheless remains valid."
+  ],
+  "prerequisites": [
+    "Causal DAGs, latent variables and intervention by truncated factorization.",
+    "Conditional independence, d-separation and identification versus formula validity.",
+    "Exact marginalization and symbolic rational-function identities."
+  ],
+  "significance": "A complete criterion would make the applicability of a common causal formula more transparent. Small exact models can separate plausible graph rules before an ambitious general proof.",
+  "relations": [
+    {
+      "type": "calibrated_by",
+      "target": "Q-FORMAL-105",
+      "explanation": "The existing classical front-door calibration supplies background; it is not itself an open target or a substitute for the complete criterion."
+    }
+  ],
+  "requirements": {
+    "experiment": "No experiment is needed to prove a statement about a supplied causal model. Establishing that a real system satisfies the graph is a separate empirical task.",
+    "data": "Synthetic rational conditional tables and explicit graphs only; observational data alone does not establish the assumed causal graph.",
+    "compute": "With at most five binary nodes, a single full joint table has at most 32 assignments. Symbolic expression growth can still be substantial. Proposed ceilings are 200 graphs, 100 rational parameter assignments per graph, 50,000 expanded polynomial terms per identity, 1 GiB memory and four elapsed hours. Stop at the first ceiling and retain an unresolved label. No runtime or cost has been measured.",
+    "theoretical_assumptions": "The general target retains strict positivity of the full observed joint distribution. The finite milestone fixes binary cardinalities and strictly positive local tables. A binary symbolic identity does not by itself establish universal validity for arbitrary cardinalities, additional latent variables or a real causal system."
+  },
+  "ai_assessment": {
+    "priority": "preparation_required",
+    "rationale": "Exact small models and symbolic discrepancies are inspectable, but causal semantics and universal quantifiers need a specialist before any claimed graphical theorem.",
+    "dimensions": {
+      "clarity": {
+        "rating": "high",
+        "reason": "The target functional is explicit and distinct from generic identifiability."
+      },
+      "decomposability": {
+        "rating": "high",
+        "reason": "Graphs and countermodels can be considered one at a time."
+      },
+      "methods": {
+        "rating": "high",
+        "reason": "Causal factorization, do-calculus and symbolic marginalization are available."
+      },
+      "search_or_symbolic": {
+        "rating": "high",
+        "reason": "Positive rational binary models support exact counterexample searches."
+      },
+      "checkability": {
+        "rating": "medium",
+        "reason": "A countermodel is compact; universal graphical claims require deeper reasoning."
+      },
+      "expertise": {
+        "rating": "high",
+        "reason": "Latent-variable and intervention semantics need causal-inference expertise."
+      },
+      "significance": {
+        "rating": "high",
+        "reason": "The result would clarify the scope of a standard causal functional."
+      },
+      "verification_difficulty": {
+        "rating": "high",
+        "reason": "Changing variable cardinalities, positivity or the model class can change what has been proved."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "The open question is based on a recent preprint and may overlap specialized functional-equivalence results. The bounded graph class may be completely covered by existing methods; no novelty or AI success is assumed.",
+    "assessment_date": "2026-10-14",
+    "model_scope": "No named model evaluated; assumes a tool-using AI can manipulate small causal models and exact algebra, with causal-inference review and an independent arithmetic checker.",
+    "evidence_refs": []
+  },
+  "methods": [
+    "Graph enumeration preserving observed and latent roles.",
+    "Exact rational countermodels via causal factorization.",
+    "Symbolic marginalization with explicit positivity conditions.",
+    "Do-calculus or other sound identification arguments for sufficient cases."
+  ],
+  "method_tags": [
+    "model_analysis",
+    "counterexample",
+    "symbolic_derivation",
+    "finite_search",
+    "proof"
+  ],
+  "validation_tags": [
+    "exact_computation",
+    "pure_proof"
+  ],
+  "obstacles": [
+    "Agreement on many distributions does not prove agreement on all compatible models.",
+    "A complete general identifiability algorithm may produce another functional and thus not answer the stated question.",
+    "Cardinality-restricted identities can be mistaken for graphical theorems.",
+    "Finite observational fits do not validate a causal graph."
+  ],
+  "validation": {
+    "steps": [
+      "Check graph acyclicity, observed roles, probability normalization and strict positivity.",
+      "Independently compute the joint and observed distributions from the local conditional tables.",
+      "Compute the intervention distribution by replacing the X mechanism, and separately evaluate the front-door expression.",
+      "For a countermodel, compare exact rationals; for an identity, verify the cleared-denominator polynomial and all denominator assumptions.",
+      "Have a causal-inference reviewer check the model class and whether a proof transfers beyond the binary milestone."
+    ],
+    "human_review_difficulty": "Moderate for a small countermodel; high for necessary-and-sufficient graph criteria and cardinality-independent proofs.",
+    "statement_alignment": "The question concerns universal validity of one fixed functional under the source's observed-distribution positivity assumption. A proof in the small binary family or identification by another functional is a narrower result."
+  },
+  "known_attempts": [
+    "Wu and Robeva's 2026 paper gives a generalized sufficient criterion, a necessity result and an explicit remaining gap. Its new theorems have not been independently verified here."
+  ],
+  "unresolved_checks": [
+    "Check whether later work on functional equivalence already supplies a complete criterion.",
+    "Clarify any desired restriction on treatment, mediator or outcome sets before extending the initial single-variable milestone.",
+    "Verify that any proposed new graph pattern lies outside the paper's full sufficient theorem and equivalent known criteria."
+  ],
+  "attribution": {
+    "original_authors": [
+      "Carol Wu",
+      "Elina Robeva",
+      "Judea Pearl"
+    ],
+    "citation": "Wu and Robeva, Generalization of Pearl's Front-Door Criterion, arXiv:2604.15288v1 (2026), §6. The classical front-door result is due to Judea Pearl.",
+    "curator_credit": "Compiled for Theory Research Atlas with AI assistance."
+  },
+  "status_search": {
+    "queries": [],
+    "checked_sources": [
+      "SRC-FORMAL-107"
+    ],
+    "result": "The primary preprint explicitly leaves completeness open. No later complete criterion was identified in the scoped search.",
+    "limitations": "The open-state judgment rests on the dated preprint and a limited follow-up search, not an exhaustive review of all graphical-functional-equivalence literature."
+  },
+  "epistemic_layers": {
+    "formal_validity": "Formula validity is conditional on the supplied causal graph, model class and strict positivity of the full observed joint distribution.",
+    "empirical_support": "Neither a symbolic proof nor a synthetic countermodel establishes the causal graph or intervention effect in a real population."
+  },
+  "judgments": {
+    "difficulty": {
+      "rating": "high",
+      "basis": "Small models are tractable, but complete graphical criteria require substantial causal theory.",
+      "evidence": "editorial_estimate_not_measured"
+    },
+    "correctness": {
+      "status": "no_project_answer",
+      "basis": "No graph was classified and no countermodel was computed here."
+    },
+    "novelty": {
+      "status": "requires_future_literature_review",
+      "basis": "The general question is explicitly sourced; all proposed restricted milestones and future outcomes need separate novelty review."
+    },
+    "significance": {
+      "rating": "high",
+      "basis": "A complete applicability rule would improve interpretation of a widely used causal functional."
+    }
+  },
+  "experimental_dependency": "none_for_formal_task",
+  "revision_history": []
+}

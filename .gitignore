@@ -1,0 +1,8 @@
+# Local working files and environments.
+work/
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+!.env.example

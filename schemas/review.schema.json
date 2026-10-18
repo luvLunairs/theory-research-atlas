@@ -1,0 +1,167 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Review",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^REV-[A-Za-z0-9][A-Za-z0-9_-]*$"
+    },
+    "problem_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "attempt_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reviewer": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reviewer_role": {
+      "type": "string",
+      "minLength": 1
+    },
+    "date": {
+      "type": "string",
+      "minLength": 1,
+      "format": "date"
+    },
+    "scope": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "not_reviewed": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "verdict": {
+      "type": "string",
+      "minLength": 1,
+      "enum": [
+        "pending",
+        "accepted_within_scope",
+        "changes_requested",
+        "rejected",
+        "inconclusive"
+      ]
+    },
+    "comments": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence_artifacts": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "conflicts_of_interest": {
+      "type": "string",
+      "minLength": 1
+    },
+    "revision_history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "minLength": 1,
+            "format": "date"
+          },
+          "change": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "date",
+          "change"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "reviewed_version": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Immutable version of the statement and, when applicable, attempt artifacts examined."
+    },
+    "review_type": {
+      "type": "string",
+      "enum": [
+        "problem_entry",
+        "planned_method",
+        "research_record"
+      ]
+    },
+    "statement_digest": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$",
+      "description": "Digest of the target and hypotheses examined; used to prevent changed targets from inheriting review labels."
+    },
+    "attempt_digest": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^sha256:[0-9a-f]{64}$",
+      "description": "Digest of the attempt content examined, or null for a problem-entry review."
+    },
+    "artifact_manifest": {
+      "type": "array",
+      "items": {
+        "$ref": "artifact.schema.json"
+      },
+      "minItems": 0,
+      "description": "One retained version and integrity record for each distinct artifact reference."
+    },
+    "supersedes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^REV-[A-Za-z0-9][A-Za-z0-9_-]*$"
+      },
+      "minItems": 0,
+      "uniqueItems": true,
+      "description": "Earlier review records explicitly replaced by this review; unrelated later reviews do not erase earlier conclusions."
+    }
+  },
+  "required": [
+    "id",
+    "problem_id",
+    "attempt_id",
+    "reviewer",
+    "reviewer_role",
+    "date",
+    "scope",
+    "not_reviewed",
+    "verdict",
+    "comments",
+    "evidence_artifacts",
+    "conflicts_of_interest",
+    "revision_history",
+    "reviewed_version",
+    "review_type",
+    "statement_digest",
+    "attempt_digest",
+    "artifact_manifest",
+    "supersedes"
+  ],
+  "additionalProperties": false
+}

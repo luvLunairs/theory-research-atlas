@@ -1,0 +1,440 @@
+[
+  {
+    "area": "Mathematics overall",
+    "note": {
+      "coverage": "Number theory, additive and extremal combinatorics, group theory, geometry, topology, analysis and optimization have individually located candidates as well as literature entry points.",
+      "gaps": "The collection is uneven within mathematics. Representation theory beyond groups, arithmetic geometry beyond landmark conjectures, numerical analysis and specialized PDE programs need deeper coverage and full cards.",
+      "reason": "The selection draws heavily on Kourovka, Green's collection and K3. These concentrations provide useful entry points, but numbered questions from a few collections are not a representative census of mathematical research."
+    }
+  },
+  {
+    "area": "Algebra and computer algebra",
+    "note": {
+      "coverage": "The Kourovka selections cover algorithmic groups, finite and infinite groups, group rings and related structural questions. Exact finite-field and matroid tasks provide additional entry points.",
+      "gaps": "Categories, homological algebra, noncommutative geometry and computational algebra beyond the selected sources remain thin. General group questions need modern follow-up checks.",
+      "reason": "Kourovka problem numbers and the distinction between accepted resolutions and unconfirmed claims are preserved. The selection does not exhaust the notebook or the broader algebra literature."
+    }
+  },
+  {
+    "area": "Number theory and arithmetic geometry",
+    "note": {
+      "coverage": "Classical conjectures and individually numbered additive, multiplicative and prime-distribution questions are indexed alongside selected arithmetic geometry problems.",
+      "gaps": "Automorphic forms, arithmetic statistics, effective Diophantine geometry and algorithmic number theory need further specialist sources and precise subproblems.",
+      "reason": "A finite verification supports only the inspected range; altered quantifiers or extra hypotheses can change the problem.",
+      "remaining": "The Littlewood and Lehmer problems and odd perfect numbers have explicit targets. Erdős–Straus retains conflicting proof claims, without a judgment of their correctness. New bounded tasks need a current status source and an independent verification plan."
+    }
+  },
+  {
+    "area": "Geometry and topology",
+    "note": {
+      "coverage": "Candidate records include convex and discrete geometry, knots, manifolds, surfaces, mapping classes and geometric algorithms. The K3 selections provide individually numbered topology questions.",
+      "gaps": "Higher-dimensional, equivariant and stable homotopy theory remain underrepresented. Many K3 and computational geometry entries still need later-literature checks.",
+      "reason": "Distinct notions of equivalence, smoothness and allowed geometric operations must be preserved in each statement."
+    }
+  },
+  {
+    "area": "Analysis, PDE, and dynamical systems",
+    "note": {
+      "coverage": "The directory includes classical analytic conjectures, dynamical questions, spectral problems and systems governed by differential equations.",
+      "gaps": "Harmonic analysis, operator algebras, nonlinear PDE and rigorous numerics need more full research cards and systematic status review.",
+      "reason": "Convergence, regularity and boundary assumptions must be explicit; numerical evidence does not establish a general existence theorem.",
+      "status_limits": "Caustic integrability has an explicit target. The Hilbert invariant-subspace problem retains conflicting proof claims, without a judgment of their correctness."
+    }
+  },
+  {
+    "area": "Optimization and real algebraic geometry",
+    "note": {
+      "coverage": "Finite constructions, control design and selected convex and nonconvex optimization questions connect symbolic and numerical methods.",
+      "gaps": "Polynomial optimization hierarchies, real algebraic geometry and global-complexity bounds need dedicated problem collections.",
+      "reason": "A local optimum, a numerical objective and a certified global bound are separate results."
+    }
+  },
+  {
+    "area": "Combinatorics",
+    "note": {
+      "coverage": "The index spans Ramsey theory, set systems, graph constructions, additive combinatorics and finite geometric configurations. Individually numbered questions from Green's collection cover several methods and objectives.",
+      "gaps": "Design theory, enumerative and algebraic combinatorics, extremal hypergraphs and probabilistic combinatorics remain unevenly covered.",
+      "reason": "Related parameters share evidence, but distinct quantifiers and objectives should not be collapsed. A later result may resolve one variant while leaving a neighboring question open."
+    }
+  },
+  {
+    "area": "Theoretical computer science",
+    "note": {
+      "coverage": "Complexity, computational geometry, algorithms, formal methods, rewriting and learning theory have individual candidates. Historical geometric and rewriting collections need checks for later resolutions; the absence of a solved marker is insufficient.",
+      "gaps": "Cryptographic assumptions, distributed computation, fine-grained complexity and parameterized algorithms need broader specialist review.",
+      "reason": "Input encoding, arithmetic model, randomness, approximation and worst-case versus amortized guarantees are part of the statement."
+    }
+  },
+  {
+    "area": "Logic",
+    "note": {
+      "coverage": "Model theory, computability, proof theory and set-theoretic questions are represented by source-defined targets.",
+      "gaps": "Finite model theory, constructive mathematics and independence programs need more full cards. Historical lists require careful status checks.",
+      "reason": "Independence is relative to specified axioms; a proof in a stronger theory does not automatically answer a question about a weaker one."
+    }
+  },
+  {
+    "area": "Probability",
+    "note": {
+      "coverage": "The selection includes random structures, stochastic processes, limiting behavior and explicitly posed questions from author-maintained lists.",
+      "gaps": "Stochastic analysis, interacting particle systems, random matrices and quantitative limit theory need more current specialist sources.",
+      "reason": "Finite simulation, convergence in distribution, almost-sure behavior and uniform bounds are different targets."
+    }
+  },
+  {
+    "area": "Statistical inference",
+    "note": {
+      "coverage": "Candidates include private learning, distribution testing, data selection, sequential decision theory, sample-size tradeoffs and computational limits.",
+      "gaps": "Semiparametric efficiency, adaptive inference, dependence, robust uncertainty quantification and experimental design remain unevenly covered. Some proceedings abstracts identify a target whose full assumptions still need to be recovered.",
+      "reason": "Population guarantees and finite-data benchmarks require separate assumptions and validation."
+    }
+  },
+  {
+    "area": "Information theory",
+    "note": {
+      "coverage": "Coding, entropy inequalities, source coding, distributed testing and channel-capacity questions have individual records and source locations.",
+      "gaps": "Network information theory, finite-blocklength analysis and source coding still need broader extraction and detailed cards.",
+      "reason": "Channel assumptions, blocklength limits and allowed encoders determine whether a claimed bound addresses the target."
+    }
+  },
+  {
+    "area": "Learning theory",
+    "note": {
+      "coverage": "Candidates cover DNF Fourier structure, data selection, private learning, statistical queries, tensor methods, bandits and reinforcement learning.",
+      "gaps": "Many are brief source-based records. Precise assumptions, current partial results and practical research plans need specialist review.",
+      "reason": "A statistical guarantee, a computational guarantee and empirical performance are distinct claims."
+    }
+  },
+  {
+    "area": "Quantum foundations and quantum information",
+    "note": {
+      "coverage": "Bell-correlation calibration and research candidates on entanglement, distillability and mutually unbiased bases.",
+      "source_ids": [
+        "SRC-MODEL-001",
+        "SRC-MODEL-002",
+        "SRC-MODEL-004",
+        "SRC-MODEL-018",
+        "SRC-MODEL-019"
+      ],
+      "scope": "Bell correlations, entanglement and finite-dimensional quantum structures.",
+      "remaining": "Quantum channels, fault tolerance, metrology, resource theories and many-body information need broader coverage. Finite quantum-structure targets require current primary-source status checks before detailed recommendations."
+    }
+  },
+  {
+    "area": "Quantum field theory and mathematical physics",
+    "note": {
+      "coverage": "Yang–Mills and mass-gap questions appear alongside particle-physics targets concerning the electroweak hierarchy, neutrinos and strong CP.",
+      "source_ids": [
+        "SRC-MODEL-001",
+        "SRC-MODEL-012",
+        "SRC-MODEL-013",
+        "SRC-MODEL-017"
+      ],
+      "scope": "Axiomatic construction, mass gaps and effective-field-theory assumptions.",
+      "remaining": "Yang–Mills still needs an actionable decomposition. Constructive field theory, scattering amplitudes and renormalization need broader specialist sources. A short statement does not make a Millennium problem tractable."
+    }
+  },
+  {
+    "area": "Statistical mechanics and condensed matter theory",
+    "note": {
+      "coverage": "Ising and Ornstein–Uhlenbeck calibration cards accompany candidates on many-body localization, thermalization, subdiffusion and avalanches.",
+      "source_ids": [
+        "SRC-MATH-103",
+        "SRC-MODEL-105",
+        "SRC-MODEL-106",
+        "SRC-MODEL-307",
+        "SRC-MODEL-308"
+      ],
+      "scope": "Exactly specified lattice and stochastic models with separate physical interpretation.",
+      "remaining": "Interacting systems, disorder, glasses, critical phenomena and nonequilibrium theory need deeper coverage. Simple solvable models do not represent their resource requirements.",
+      "status_limits": "The 2026 fixed-energy light-cone theorem does not establish infinite-temperature or finite-energy-density localization throughout a spin chain's spectrum."
+    }
+  },
+  {
+    "area": "Classical mechanics, fluids and plasma theory",
+    "note": {
+      "coverage": "Celestial-mechanics calibration tasks and dynamo candidates provide examples of formal dynamics and fluid models.",
+      "source_ids": [
+        "SRC-MODEL-103",
+        "SRC-MODEL-104",
+        "SRC-MODEL-309",
+        "SRC-MODEL-310"
+      ],
+      "scope": "Rotating-frame dynamics, low-Prandtl small-scale dynamos and magnetorotational instability under specified assumptions.",
+      "remaining": "Continuum mechanics, kinetic theory, turbulence and plasma models need broader coverage and detailed cards. Model closure and boundary assumptions require separate empirical evidence.",
+      "status_limits": "Low-Prandtl dynamo existence has been demonstrated in particular geometries. The retained questions concern saturation, a specified transition limit and controlled extrapolation; geometry-specific results cannot be transferred without argument."
+    }
+  },
+  {
+    "area": "Relativity, gravitation and cosmology",
+    "note": {
+      "coverage": "Candidates cover cosmic censorship, black-hole geometry, cosmological singularities, approximation limits and cosmological mechanisms.",
+      "source_ids": [
+        "SRC-MODEL-001",
+        "SRC-MODEL-002",
+        "SRC-MODEL-015",
+        "SRC-MODEL-017",
+        "SRC-MODEL-405",
+        "SRC-MODEL-411"
+      ],
+      "scope": "Spacetime geometry, gravitational dynamics, cosmological models and vacuum-energy assumptions.",
+      "remaining": "Many broad targets need specialist status reviews and precise subproblems. Formal consistency and observational adequacy require separate evidence.",
+      "status_limits": "General subextremal Kerr nonlinear stability is excluded as an open candidate because Peter Hintz's August 2026 preprint claims a solution under specified initial-data hypotheses. The proof claim requires specialist review and does not establish Penrose's large-data final-state conjecture."
+    }
+  },
+  {
+    "area": "Astronomy and celestial mechanics",
+    "note": {
+      "coverage": "Lagrange-point and Jacobi calibration tasks accompany central-configuration, choreography, variational and scattering questions.",
+      "source_ids": [
+        "SRC-MODEL-015",
+        "SRC-MODEL-103",
+        "SRC-MODEL-104",
+        "SRC-MODEL-318",
+        "SRC-MODEL-319",
+        "SRC-MODEL-401"
+      ],
+      "scope": "Newtonian few-body dynamics and selected cosmological research targets.",
+      "remaining": "Many questions in the historical celestial-mechanics collection need later-literature checks. Nonlinear stability, resonances, collisions, stellar and galactic dynamics, radiative processes and cosmological perturbations need more detailed cards. No observational dataset has received a task-specific audit.",
+      "status_limits": "The all-positive-mass planar five-body finiteness claim is a status-change lead, not an independently audited theorem. The six-body question remains a separate target."
+    }
+  },
+  {
+    "area": "Electronic structure and quantum chemistry",
+    "note": {
+      "coverage": "Questions distinguish integrated kinetic-energy bounds, local energy-density conventions, functional differentiability, thermal extensions and time-dependent existence or uniqueness.",
+      "gaps": "Excited-state methods, controlled chemical-accuracy bounds, relativistic quantum chemistry and molecular dynamics need further sources.",
+      "reason": "A mathematical result for an electronic Hamiltonian is separate from a practical approximation and from measured chemical accuracy.",
+      "status_limits": "The source discusses competing formulations and proposed answers. Later results, function spaces and physically admissible density classes must be checked individually.",
+      "source_ids": [
+        "SRC-MODEL-402"
+      ]
+    }
+  },
+  {
+    "area": "Chemical reaction networks and systems biology",
+    "note": {
+      "coverage": "Deterministic and stochastic networks are represented by structural, long-term-behavior and biological-regulation questions, together with constrained generation, graph realizability and infinite-network targets.",
+      "gaps": "Spatial reaction systems, inference of mechanisms and experimentally constrained biochemical control require more detailed treatment.",
+      "reason": "Persistence, recurrence, existence of stationary distributions and convergence are distinct assertions; empirical adequacy is separate.",
+      "status_limits": "The two-species recurrence case has an announced result. Higher-dimensional recurrence and the source's restricted binary-network theorem remain distinct.",
+      "realizability": "A conservative and thermodynamically sound stoichiometric network is not automatically a physically realizable chemical system. Chemical feasibility and experimental evidence remain separate requirements.",
+      "source_ids": [
+        "SRC-MODEL-303",
+        "SRC-MODEL-304",
+        "SRC-MODEL-410"
+      ]
+    }
+  },
+  {
+    "area": "Ecology, evolution and population genetics",
+    "note": {
+      "coverage": "Moran fixation calibration, diversity-time questions on graphs, evolutionary Ricker dynamics and ranked phylogenetic networks provide distinct targets.",
+      "source_ids": [
+        "SRC-MODEL-101",
+        "SRC-MODEL-102"
+      ],
+      "scope": "Finite-population models, ecological dynamics and combinatorial representations of evolutionary histories.",
+      "remaining": "Spatial structure, frequency dependence, coalescent theory and evolutionary games need broader sources and detailed cards. Formal results do not establish that the assumptions fit a population. Model-specific biological evidence remains necessary."
+    }
+  },
+  {
+    "area": "Development, neuroscience and multiscale biology",
+    "note": {
+      "coverage": "Candidates address visual processing, neural readout, working memory, developmental organization, biological model selection and cellular regulation.",
+      "source_ids": [
+        "SRC-MODEL-002",
+        "SRC-MODEL-008",
+        "SRC-MODEL-406",
+        "SRC-MODEL-407",
+        "SRC-MODEL-408",
+        "SRC-MODEL-409"
+      ],
+      "scope": "Pattern formation, neural dynamics, synthetic multicellularity, regulatory mechanisms and coupling between biological scales.",
+      "remaining": "Mechanistic questions need explicit models, measurable outputs and suitable data before bounded tasks can be specified. Model reduction can be formal; identifying biological mechanisms may require new experiments. Large simulations need separate resource assessment."
+    }
+  },
+  {
+    "area": "Noncooperative game theory",
+    "note": {
+      "coverage": "Bimatrix equilibrium calibration and a quitting-game candidate cover finite games and one stochastic-game question.",
+      "source_ids": [
+        "SRC-MODEL-003",
+        "SRC-MODEL-007"
+      ],
+      "scope": "Equilibrium computation, best-response geometry and approximate equilibrium in quitting games.",
+      "remaining": "Repeated, Bayesian, extensive-form and other stochastic games need broader coverage. An existence theorem alone supplies no empirical prediction."
+    }
+  },
+  {
+    "area": "Economic theory, decision theory, social choice and mechanisms",
+    "note": {
+      "coverage": "Fair-division and approval-based committee questions cover allocation, proportionality, core existence, incentives and monotonicity.",
+      "source_ids": [
+        "SRC-MODEL-002",
+        "SRC-MODEL-003",
+        "SRC-MODEL-403",
+        "SRC-MODEL-412",
+        "SRC-MODEL-601",
+        "SRC-MODEL-602",
+        "SRC-MODEL-603"
+      ],
+      "scope": "Preferences, aggregation, allocation, matching, incentives, equilibrium and dynamic macro models.",
+      "remaining": "Welfare, growth, general equilibrium and broader mechanism design need further problem sources. Numerical macroeconomic work may be costly; behavioral assumptions need empirical scrutiny.",
+      "status_limits": "Restricted preference domains, tie conventions and strengthened or weakened axioms require separate treatment. Later records include a dated open statement for EJR with committee monotonicity and unreviewed resolution claims for core committees, full justified representation and efficient Pareto-optimal committees. Consult each entry before treating its historical question as open."
+    }
+  },
+  {
+    "area": "Fair allocation: distinctions between open and resolved cases",
+    "note": {
+      "scope": "Complete four-agent goods EFX0 through nine goods and EFX for cancelable multigraph goods have positive results. These bounded or structured results are not listed as unsolved tasks. Additive-chore counterexamples exist for every n≥4, while the narrower common bi-valued question remains open.",
+      "source_ids": [
+        "SRC-MODEL-201",
+        "SRC-MODEL-207",
+        "SRC-MODEL-202"
+      ]
+    }
+  },
+  {
+    "area": "Three-agent chore cardinalities",
+    "note": {
+      "scope": "Zhang reports seven- and eight-chore existence and gives a dated open-status statement for nine. A subsequent anonymous release claims nine-chore existence but explicitly lacks established independent verification or specialist review. Nine chores is therefore not recommended as a confirmed open target; the unrestricted cardinality question is recorded separately.",
+      "source_ids": [
+        "SRC-MODEL-203",
+        "SRC-MODEL-208"
+      ]
+    }
+  },
+  {
+    "area": "Binary-marginal chores",
+    "note": {
+      "scope": "The negative binary XOS and supermodular results do not settle the remaining submodular question. A theorem for goods with binary marginal gains is not automatically a theorem for chore costs.",
+      "source_ids": [
+        "SRC-MODEL-209"
+      ]
+    }
+  },
+  {
+    "area": "Networks, complex systems and mathematical epidemiology",
+    "note": {
+      "coverage": "Higher-order representations, collective dynamics, contagion identification, congestion and synchronization have located questions.",
+      "gaps": "Network formation, temporal networks, causal interventions and epidemic control need broader sources and model-specific cards.",
+      "reason": "Representational choices and hidden interactions can affect identifiability; a successful fit alone does not establish the mechanism.",
+      "scope": "The density threshold concerns almost-everywhere convergence of homogeneous Kuramoto dynamics. The random cubic graph question is stated in terms of local minima of the potential; equivalences between stability and global convergence require proof.",
+      "remaining": "Oscillator coverage includes a cycle-spectrum calibration and the dense-network threshold. Heterogeneity, delays and inference from data need separate tasks. The inspected August 2026 paper leaves the 3/4 Kuramoto conjecture unresolved; a fresh literature check is needed before an attempt, and no current numerical lower bound is asserted.",
+      "source_ids": [
+        "SRC-FORMAL-106",
+        "SRC-MODEL-210"
+      ]
+    }
+  },
+  {
+    "area": "Earth and climate theory",
+    "note": {
+      "coverage": "Hydrological community questions and reduced climate-model tasks provide distinct entries for scaling, variability, predictability and model structure.",
+      "gaps": "Solid-Earth mechanics, geodynamo theory, atmosphere-ocean coupling and rigorous climate response remain underrepresented. Broad hydrological directions need explicit model-and-data choices.",
+      "reason": "Mathematical deductions, hindcast skill and empirical causal explanations require different evidence."
+    }
+  },
+  {
+    "area": "Mathematical physics",
+    "note": {
+      "coverage": "Spectral and non-selfadjoint operator questions supplement quantum, statistical and relativistic model problems. The historical operator collection supplies identifiable questions and named proposers.",
+      "gaps": "Integrable systems, constructive field theory, semiclassical limits and many-body spectral estimates need broader specialist coverage.",
+      "reason": "A numerical spectrum is not a spectral theorem; domains of unbounded operators and limiting procedures matter.",
+      "remaining": "Historical open labels require later-literature checks; source age alone cannot establish present status.",
+      "source_ids": [
+        "SRC-MODEL-404"
+      ]
+    }
+  },
+  {
+    "area": "Control and robust systems",
+    "note": {
+      "coverage": "Individual questions address behavioral systems, model reduction, stabilization, Lyapunov functions, switching, delay margins and geometric control.",
+      "gaps": "Most selected control questions originate in a historical problem book and need later-literature checks before research prioritization.",
+      "reason": "Formal controllability or stability under assumptions is separate from a validated engineering implementation."
+    }
+  },
+  {
+    "area": "Formal language theory",
+    "note": "One constrained-grammar reproduction supplies a formal-language entry point. Semantics, learning, processing complexity and empirical linguistic adequacy remain largely uncovered."
+  },
+  {
+    "area": "Causal identification",
+    "note": {
+      "coverage": "The front-door calibration and graphical-criterion research candidate have distinct targets under declared causal graphs.",
+      "gaps": "Estimation, sensitivity analysis and empirical causal discovery need separate entries.",
+      "source_ids": [
+        "SRC-FORMAL-107"
+      ],
+      "scope": "Q-FORMAL-205 concerns Section 6, Concluding Remarks and Further Questions, and Figure 4 of SRC-FORMAL-107. This research question is distinct from reproducing the classical front-door formula."
+    }
+  },
+  {
+    "area": "Online algorithms and formal-science gaps",
+    "note": {
+      "coverage": "Classical paging, online optimization, automata and graphical causal inference have individual entries.",
+      "gaps": "Distributed and randomized algorithms, prediction-assisted models, logic, proof theory, word equations and non-Shannon inequalities need fuller current-source review. General decision-complexity and deterministic bin-stretching entries still need full cards."
+    }
+  },
+  {
+    "area": "Finite covering codes",
+    "note": "Selected binary, ternary and quaternary covering-code gaps have exact finite witness checks. Other alphabets, mixed alphabets, covering arrays and general existence theorems remain largely unindexed. Source-reported lower bounds and recent preprint constructions need independent certificate review before use in an optimality claim."
+  },
+  {
+    "area": "Finite combinatorics and discrete geometry",
+    "note": {
+      "coverage": "Ramsey, no-three-in-line and Heilbronn targets offer finite parameters and independently checkable witnesses. Bounded milestones are curator proposals whose novelty and feasibility remain unverified.",
+      "gaps": "These entries do not cover all open Ramsey numbers, lattice configurations or Heilbronn variants. Ramsey parameters share methods but have different forbidden subgraphs and witnesses.",
+      "status_limits": "No-three-in-line size 75 is inferred from the maintained frontier gap, not explicitly certified open by an exhaustive literature audit. Heilbronn source tolerances and the strongest unrestricted upper bound require further review. The seed neighborhoods proposed in the graph cards have not been checked for prior exhaustion.",
+      "source_ids": [
+        "SRC-MATH-001"
+      ]
+    }
+  },
+  {
+    "area": "Automata",
+    "note": {
+      "scope": "The original KKS source explicitly requires strong connectivity. The 2026 survey omits it in the avoiding-state formulation; this atlas retains the original hypothesis. The general two-state avoiding conjecture is deferred because the older conjecture and newer summary require reconciliation. The indexed formulation excludes unavoidable subsets.",
+      "status_limits": "The September 2026 triple construction supersedes older lower-bound baselines and suggests a sharp binary conjecture. The October 2026 paper claims a proof for the corrected Figure 3 specified-state family, so that family is excluded from the unresolved candidates. These recent preprints require independent mathematical review."
+    }
+  },
+  {
+    "area": "Historical problem collections",
+    "note": "All seven Millennium and 23 Hilbert entries have historical status records. Solved entries do not count as open candidates. Broad programs and formulation-sensitive cases still need specialist primary-source histories and individually scoped research questions."
+  },
+  {
+    "area": "Closely related questions",
+    "note": "Graph, tournament and multiplication-table group isomorphism are related algorithmic targets, with the latter two restricted subproblems of the first. Classical and infinitary Vaught conjectures are distinct strengths. Martin's two parts have different conclusions. These links should be retained when selecting a project to avoid counting one result twice."
+  },
+  {
+    "area": "Unreviewed resolution claims",
+    "note": "The Unique Games conjecture is deferred because of the September 2026 full-resolution claim at https://github.com/openai/math/blob/main/preprints/The-Unique-Games-Theorem-September-23-2026/build/sections/00-introduction.tex. Matrix multiplication exponent 2 is deferred because of https://chinarxiv.org/items/chinaxiv-202609.00167. These claims require independent specialist review."
+  },
+  {
+    "area": "Information-theory resolution claims",
+    "note": "The Courtade–Kumar most-informative-Boolean-function conjecture is not listed as an open target because https://arxiv.org/abs/2609.24931 and https://arxiv.org/abs/2609.24184 announce complete proofs. Their validity and publication status require specialist review."
+  },
+  {
+    "area": "Corrections and withdrawals",
+    "note": "The arXiv record 2603.23561 is withdrawn and reports an incorrect Lemma 2 proof; it does not establish a solution to sample compression. The ECCC 2026/043 revision at https://eccc.weizmann.ac.il/report/2026/043/revision/1/download/ is a retraction note identifying a conditioning gap, so its claimed multilinear-branching-program barrier is not used."
+  },
+  {
+    "area": "Remaining breadth gaps",
+    "note": "Every main domain has multiple primary records, but many subfields still have only entry sources or provisional outlines. Set-theoretic independence, numerical analysis, cryptography, solid-Earth theory and cognitive science beyond neural modeling remain priorities for broader source review."
+  },
+  {
+    "area": "Physical mechanisms and formal models",
+    "note": "Mathematical model questions, mechanism identification and observational tensions have different success criteria. Conditional derivations, model comparison and existing-data analysis can support bounded theoretical work. Identifying the actual physical or biological mechanism may require new observations or complex experiments. Each proposed model or restricted subproblem needs its own novelty and evidence review; a broad unresolved question does not establish either."
+  },
+  {
+    "area": "Status, assessment and research readiness",
+    "note": {
+      "evidence": "A located source statement, a dated resolution search and a scientific review establish different things. Historical open labels and unreviewed proof claims are recorded with their limits. None establishes that no later resolution exists. Source-defined variants retain their relationship to the broader question.",
+      "assessment": "Difficulty and AI-role profiles are dated, untested forecasts. No named model has been evaluated. Profiles with insufficient evidence retain an unknown rating; source inspection and a profile do not replace a full methods assessment or a signed scientific review.",
+      "resources": "Small witnesses can be easy to check while exhaustive searches remain expensive. Proposed resource ceilings are stop rules, not measured costs or predictions of success. No success rate, runtime or expenditure has been measured.",
+      "next_steps": "Before an attempt, check the exact definitions, remaining parameter regimes, current status, significance and independent verification plan. Curator-proposed restrictions on agents, items, graphs or computation are possible first steps whose separate novelty and feasibility remain unverified."
+    }
+  }
+]

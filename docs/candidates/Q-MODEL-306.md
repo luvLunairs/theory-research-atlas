@@ -1,0 +1,52 @@
+# Local-to-global stability for periodic evolutionary Ricker dynamics
+
+[Browse](../README.md) · [Results](../results.md) · [Contribute](../../CONTRIBUTING.md)
+
+**Q-MODEL-306 · Candidate outline.**
+
+[Suggest a correction](https://github.com/luvLunairs/theory-research-atlas/issues/new?template=correction.yml&title=%5BCorrection%5D+Q-MODEL-306%3A+Local-to-global+stability+for+periodic+evolutionary+Ricker+dynamics&target=Q-MODEL-306) · [Share progress](https://github.com/luvLunairs/theory-research-atlas/issues/new?template=research-progress.yml&title=%5BResearch%5D+Q-MODEL-306%3A+Local-to-global+stability+for+periodic+evolutionary+Ricker+dynamics&target=Q-MODEL-306)
+
+For equation (1), x'=x exp(alpha(t)−u^2/2−c0 x), u'=(1−s)u−c1 s x, take p-periodic 0<alpha(t)<1, p≥2, c0>0, c1≠0 and 0<s<2. Establish or refute Conjecture 2: a locally asymptotically stable positive p-cycle is globally asymptotically stable on the intended biological domain. The precise global basin is not established in this index and must be recovered from the cited theorem and its original proof before an attempt.
+
+**Origin:** Literature-origin question. **Curator-designed scope:** No.
+
+**Current status:** Source reports open. **Last checked:** 2026-10-14.
+
+**Status basis:** The paper states this conjecture beyond its small-perturbation theorem. No later resolution was located in the scoped title/author search. The printed reference to system (3) is retained as a single-species specialization.
+
+**Statement check:** Source located. **Status check:** Source report only.
+
+**Source date and freshness:** Recorded source years: SRC-MODEL-302: 2024. The last-checked date records the scope described in the status basis; it is not a comprehensive literature-search date.
+
+**Scope limits:** The statement and locator identify the candidate. A full assumption set and verification protocol remain to be documented.
+
+**Information still needed**
+
+- Specify the assumptions, candidate methods, resource requirements and independent verification steps for a concrete research task.
+
+**Primary branch:** [Ecology and population dynamics](../domains/bio.md#bio-eco). **Related branches:** [Evolution, population genetics and phylogenetics](../domains/bio.md#bio-evol), [Dynamical systems and ergodic theory](../domains/math.md#math-dyn).
+
+**Sources:** [Open Problems and Conjectures in the Evolutionary Periodic Ricker Competition Model](../sources.md#src-model-302).
+
+**Exact locator:** Section 4.1 Conjecture 2; equation (1), equivalently the single-species case of equation (3).
+
+**Potential difficulty:** High. Low-dimensional formulas allow symbolic analysis, but local stability does not control remote invariant sets or all periodic forcings.
+
+**Possible AI role:** An assistant could derive return-map derivatives, search for Lyapunov functions and identify rigorously isolatable counterexample regions.
+
+**Verification burden:** High. Require exact parameter hypotheses and a global trapping argument or a certified counterexample; plotted trajectories are insufficient.
+
+**Resource expectations:** Experiment: none for the stated mathematical model. Data: public definitions and any generated certificates. Computation: small examples may fit ordinary hardware; the general proof has no defensible runtime or cost estimate. Mathematical validity would not establish empirical adequacy. Any ecological interpretation additionally requires data on trait dynamics and competition coefficients.
+
+**Assessment:** 2026-10-14; untested forecast. **Uncertainty:** No named model was evaluated. This is a method-based forecast, not a measured success rate; a narrower task and a specialist literature check are required before a research attempt. The source's domain conventions need specialist clarification.
+
+**Further work:** define a scoped target, resource requirements and a verification plan before developing a full card. **Human review:** Pending.
+
+<details>
+<summary>Structured records</summary>
+
+[Candidate data](../../data/candidates.json) · [Check records](../../data/candidate-checks.json)
+
+</details>
+
+[Back to the index](../candidates.md)

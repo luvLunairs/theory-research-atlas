@@ -1,0 +1,188 @@
+{
+  "id": "Q-FORMAL-002",
+  "title": "Audit finite-sample split likelihood-ratio coverage in a Bernoulli model",
+  "domain": "Statistical theory",
+  "cross_domains": [
+    "Probability theory",
+    "Exact computation"
+  ],
+  "kind": "known_result_calibration",
+  "statement": "Specialize universal inference to iid Bernoulli(p), a prespecified split of 20 observations into two groups of 10, training estimator q=(K1+1)/12, and alpha=1/20. Reproduce the all-p coverage proof and exact rejection probabilities on p in {1/10,...,9/10}.",
+  "source_ids": [
+    "SRC-FORMAL-003",
+    "SRC-FORMAL-010"
+  ],
+  "source_locator": "SRC-FORMAL-003, Section 2, Theorem 1; finite parameters chosen for calibration",
+  "status": "known_result",
+  "status_basis": "The guarantee follows from the published theorem under its assumptions. The finite Bernoulli benchmark is a curator-selected reproduction protocol; no calculation has been run.",
+  "last_checked": "2026-10-13",
+  "curator_origin": true,
+  "duplicate_key": "audit-finite-sample-split-likelihood-ratio-coverage-in-a-bernoulli-model",
+  "proposed_card": true,
+  "plain_summary": "Train a probability estimate on one half of a small coin-flip sample and evaluate it on the other half. Check that the resulting confidence set covers the true probability at the promised rate, without replacing exact evidence by simulation.",
+  "assumptions": [
+    "Y1,...,Y20 are iid Bernoulli(p), with p in [0,1].",
+    "The first ten observations form D1 and the remaining ten form D0; the split is fixed before data are seen.",
+    "K1 and K0 are their respective success counts.",
+    "Use q=(K1+1)/12 and alpha=1/20; do not optimize either using the holdout data.",
+    "The ratio on the true distribution's support is well-defined; define endpoint confidence-set behavior explicitly.",
+    "Use the Bernoulli likelihood convention 0^0=1. Set the likelihood ratio to +infinity if its denominator is zero; the smoothed training estimator makes the numerator strictly positive. Retain T<=20 and reject only T>20."
+  ],
+  "scope": "Reproduce a known guarantee and create a small exact benchmark. The selected sample size, smoothing rule and evaluation grid are curator choices. No claim of an optimal test, new interval or real-world model adequacy is included.",
+  "target": "Prove P_p(p in C)>=19/20 for every p in [0,1], where C={theta: q^K0(1-q)^(10-K0)/[theta^K0(1-theta)^(10-K0)] <=20}; report exact rejection probabilities for nine specified rational p values.",
+  "success_criteria": [
+    "Give the all-p coverage argument with independence and conditioning explicit.",
+    "Enumerate the 121 pairs (K1,K0) for each grid value using exact arithmetic and exact strict comparison T>20.",
+    "Report rational probabilities with a reproducible independent checker.",
+    "Treat endpoint p=0 and p=1 separately rather than silently dividing by zero.",
+    "Retain this as a calibration result, even if the AI completes it."
+  ],
+  "known_results": [
+    "Universal Inference, Theorem 1, provides the finite-sample guarantee.",
+    "The SAVI review places this construction among e-value and e-process methods; fixed-split validity is not unrestricted optional-stopping validity."
+  ],
+  "prerequisites": [
+    "Bernoulli and binomial distributions",
+    "Conditional expectation",
+    "Markov's inequality",
+    "Exact rational arithmetic"
+  ],
+  "significance": "Tests the project's ability to distinguish theorem validity, numerical auditing and assumptions about data generation. It can reveal leakage and threshold-convention mistakes before harder statistical research.",
+  "relations": [],
+  "requirements": {
+    "experiment": "none",
+    "data": "No observed data required. The finite outcome space is specified mathematically.",
+    "compute": "Small finite enumeration over 121 count pairs at each of nine rational parameter values. Rational bit sizes should be logged; wall time, memory and cost have not been measured.",
+    "theoretical_assumptions": "iid Bernoulli sampling and a prespecified independent holdout split. The theorem's validity does not establish that actual observations obey this model."
+  },
+  "ai_assessment": {
+    "priority": "priority_trial",
+    "rationale": "The proof and exact finite audit provide two complementary checks with limited implementation scope. The relevant capability is disciplined conditioning and exact arithmetic, not confidence asserted by a model.",
+    "dimensions": {
+      "clarity": {
+        "rating": "high",
+        "reason": "Data model, estimator, threshold, finite grid and endpoint cases are fixed."
+      },
+      "decomposability": {
+        "rating": "high",
+        "reason": "Separate proof, count-pair probabilities, rejection decision and table audit."
+      },
+      "methods": {
+        "rating": "high",
+        "reason": "A primary theorem and a later survey supply the needed framework."
+      },
+      "search_or_symbolic": {
+        "rating": "high",
+        "reason": "Exact arithmetic and symbolic probability are directly useful."
+      },
+      "checkability": {
+        "rating": "high",
+        "reason": "Each finite result has a short rational certificate and a separate general proof."
+      },
+      "expertise": {
+        "rating": "medium",
+        "reason": "A statistician should review leakage, support and coverage arguments."
+      },
+      "significance": {
+        "rating": "medium",
+        "reason": "Calibration has methodological value; there is no novelty claim."
+      },
+      "verification_difficulty": {
+        "rating": "medium",
+        "reason": "Small enumeration is easy, but it cannot replace the proof for all p."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "No implementation, empirical success rate or model comparison exists. A later protocol change, especially repeated split selection, may invalidate the reference guarantee.",
+    "assessment_date": "2026-10-13",
+    "model_scope": "No named model evaluated; assumes tool-using AI capable of elementary probability proofs and exact-arithmetic programming.",
+    "evidence_refs": []
+  },
+  "methods": [
+    "proof reconstruction",
+    "exact computation",
+    "symbolic derivation"
+  ],
+  "obstacles": [
+    "Reusing holdout data to choose q breaks the conditioning argument.",
+    "Floating-point comparisons near T=20 can misclassify outcomes.",
+    "Checking nine values of p is not an all-p coverage proof.",
+    "Returning an interval hull is different from returning the exact confidence set."
+  ],
+  "validation": {
+    "steps": [
+      "Derive the conditional expectation bound at the true parameter.",
+      "Verify the sample-count mass formula using binomial coefficients independently.",
+      "Use exact rational arithmetic to compare the test statistic with 20.",
+      "Sum rejection masses separately for each specified p and cross-check with a second implementation or manual cases.",
+      "Review the p=0 and p=1 support cases and document the confidence-set endpoint convention."
+    ],
+    "human_review_difficulty": "Moderate; probability review is necessary despite a small program.",
+    "statement_alignment": "Report a fixed-sample guarantee under iid sampling. Do not claim optional-stopping safety or empirical coverage in an unspecified real dataset."
+  },
+  "known_attempts": [
+    "Published universal-inference theorem; no project code, simulations or model attempt have been run."
+  ],
+  "unresolved_checks": [
+    "An independent reviewer should confirm whether the benchmark's reproduction depth is sufficient before attempting power optimization.",
+    "Any extension to repeated splits, dependence or misspecification requires a separate problem record and proof."
+  ],
+  "attribution": {
+    "original_authors": [
+      "Larry Wasserman",
+      "Aaditya Ramdas",
+      "Sivaraman Balakrishnan"
+    ],
+    "citation": "Wasserman, Ramdas and Balakrishnan (2020), Universal Inference, PNAS 117(29), 16880–16890; arXiv:1912.11436v4, Theorem 1.",
+    "curator_credit": "Compiled for Theory Research Atlas with AI assistance."
+  },
+  "status_search": {
+    "queries": [],
+    "checked_sources": [
+      "SRC-FORMAL-003",
+      "SRC-FORMAL-010"
+    ],
+    "result": "The exact primary theorem and proof were inspected. The later review identifies the method. This is a known-result specialization.",
+    "limitations": "No search for every existing Bernoulli implementation or benchmarking protocol; novelty is not asserted."
+  },
+  "primary_domain_id": "STAT.INFER",
+  "cross_domain_ids": [
+    "PROB.FOUND"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "method_tags": [
+    "proof",
+    "exact_computation",
+    "symbolic_derivation"
+  ],
+  "validation_tags": [
+    "pure_proof",
+    "exact_computation"
+  ],
+  "experimental_dependency": "none_for_formal_task",
+  "epistemic_layers": {
+    "formal_validity": "The card specifies a mathematical task under its stated assumptions; no project proof or certificate has been checked.",
+    "empirical_support": "No empirical claim is made. For statistical models, real-data model adequacy would require separate evidence."
+  },
+  "judgments": {
+    "difficulty": {
+      "rating": "low_to_medium",
+      "basis": "The proof and exact finite audit provide two complementary checks with limited implementation scope. The relevant capability is disciplined conditioning and exact arithmetic, not confidence asserted by a model.",
+      "evidence": "editorial_estimate_not_measured"
+    },
+    "correctness": {
+      "status": "no_project_answer",
+      "basis": "The cited literature supports the problem statement. No project answer has been submitted for review."
+    },
+    "novelty": {
+      "status": "not_claimed",
+      "basis": "The target is a known result; no originality is claimed for the selected scope. Any later novelty claim requires a literature check."
+    },
+    "significance": {
+      "rating": "medium",
+      "basis": "Tests the project's ability to distinguish theorem validity, numerical auditing and assumptions about data generation. It can reveal leakage and threshold-convention mistakes before harder statistical research."
+    }
+  },
+  "revision_history": []
+}

@@ -1,0 +1,215 @@
+{
+  "id": "Q-FORMAL-003",
+  "title": "Build a bounded exact copy-lemma certificate census",
+  "domain": "Information theory",
+  "cross_domains": [
+    "Exact computation",
+    "Polyhedral computation"
+  ],
+  "kind": "curator_proposed",
+  "statement": "For five original finite random variables X1,...,X5 and one conditional copy X6 of X1 over (X2,X3), enumerate sums of at most three distinct elemental six-variable Shannon inequalities, each with coefficient 1 or 2. Use exactly the four marginal entropy equalities H(6,S)=H(1,S) for S subset of {2,3}, including the empty set, and I(6;1,4,5|2,3)=0. Determine which sums eliminate all coordinates involving X6 after adding rational combinations of those five equality rows; retain exact certificates and canonical projected inequalities.",
+  "source_ids": [
+    "SRC-FORMAL-004",
+    "SRC-FORMAL-016"
+  ],
+  "source_locator": "SRC-FORMAL-004, Section 6, Definition 24 and Lemma 27 (full copy and restriction), Section 6.3 Claims 31-32, and Problem 6; bounded protocol is curator-proposed",
+  "status": "unverified",
+  "status_basis": "The copy-lemma encoding is supported by Csirmaz's Definition 24 and Lemma 27. The finite three-row, coefficient-{1,2} search is curator-proposed; neither its novelty nor its ability to yield a non-Shannon consequence has been established. The two-variable conditioning avoids the singleton obstruction only.",
+  "last_checked": "2026-10-14",
+  "curator_origin": true,
+  "duplicate_key": "build-a-bounded-exact-copy-lemma-certificate-census",
+  "proposed_card": true,
+  "plain_summary": "Create a tiny, explicitly bounded laboratory for checking information inequalities. The output is a collection of exact derivation certificates, including an honest record if every result is already implied by elementary inequalities.",
+  "assumptions": [
+    "All original random variables have finite alphabets; H is ordinary Shannon entropy with H(empty)=0.",
+    "(X6,X2,X3) has the same joint distribution as (X1,X2,X3), and X6 is conditionally independent of (X1,X4,X5) given (X2,X3). No independence or deterministic relationship between X2 and X3 is imposed.",
+    "The search uses exactly six variables, one auxiliary conditional copy, support size at most three and integer weights in {1,2}.",
+    "A proof certificate may add arbitrary rational multiples of exactly the five listed copy equality rows. Any additional equality derived using Shannon inequalities must be expanded into the original rows and counted against the support and coefficient limits.",
+    "No numerical vector is presumed entropic merely because it satisfies Shannon inequalities."
+  ],
+  "scope": "Curator-proposed, pending peer assessment. A bounded precursor to larger information-inequality exploration; it does not claim to start an unexplored field or solve the full entropy-region problem.",
+  "target": "An exact census, for the stated finite search, of projected inequalities and derivation certificates. Distinguish trivial, Shannon-implied and potentially non-Shannon consequences; all novelty claims require a separate literature audit.",
+  "success_criteria": [
+    "Specify H_T as the joint entropy of the variables indexed by a nonempty subset T of {1,...,6}, with H_empty=0. Generate the elemental rows H(i|{1,...,6} minus {i}) >= 0 and I(i;j|K) >= 0 for i<j and K subset of {1,...,6} minus {i,j}, without duplicates.",
+    "Use exactly four marginal rows H6-H1=0, H26-H12=0, H36-H13=0, H236-H123=0, and the conditional-independence row H236+H12345-H23-H123456=0. These encode H(6,S)=H(1,S) for all four S subsets of {2,3} and I(6;1,4,5|2,3)=0.",
+    "For each sum of one, two or three distinct elemental rows with weights 1 or 2, solve exactly whether adding equality rows cancels every coordinate containing 6.",
+    "Normalize retained nonzero projected integer vectors by positive common factor while preserving the inequality sign; retain exact derivation coefficients.",
+    "Classify Shannon implication over the original five variables using exact certificates, not floating-point solver status.",
+    "If the bounded census yields no new inequality, report that limited negative result without extrapolating to deeper copies or larger supports."
+  ],
+  "known_results": [
+    "SRC-FORMAL-004, Definition 24 and Lemma 27, licenses this A={1} copy over D={2,3}: construct a full copy of E={1,4,5} conditional on D and restrict to the copy X6 of X1.",
+    "SRC-FORMAL-004, Claim 32, guarantees a polymatroid copy when |D| is 1 or |N|-1, precluding a non-Shannon consequence from those cases. Here |N|=5 and |D|=2, so that claim gives no blanket obstruction.",
+    "SRC-FORMAL-004, Claim 31, still gives an obstruction on the subclass H23=H2+H3: all polymatroids satisfying that extra condition admit the copy. Independence of X2 and X3 is not an assumption of this proposal.",
+    "A 2026 paper already reports systematic five-variable inequalities from a different MEM construction; baseline certificates are not presumed novel."
+  ],
+  "prerequisites": [
+    "Entropy and conditional mutual information",
+    "Polyhedral cones and rational linear algebra",
+    "Linear programming dual certificates",
+    "Copy-lemma semantics"
+  ],
+  "significance": "Potentially useful research infrastructure for separating numerical search from verifiable derivation. Scientific significance of this particular small census is uncertain and requires specialist review.",
+  "relations": [
+    {
+      "type": "method_preparation",
+      "target": "Q-FORMAL-004",
+      "explanation": "Certificate skills could support exclusions of particular rays, but this finite census does not classify all rays."
+    },
+    {
+      "type": "related_method",
+      "target": "Q-FORMAL-005",
+      "explanation": "A fixed single-copy search says nothing decisive about the unrestricted comparison of MEM and iterated copy methods."
+    }
+  ],
+  "requirements": {
+    "experiment": "none",
+    "data": "Mathematical constraints and the cited publications. Public code from the 2026 article is a possible later comparison resource, not an ingested dataset.",
+    "compute": "Six variables produce 63 nonempty entropy coordinates. There are 6 + choose(6,2)*2^4 = 246 elemental Shannon rows; candidate sums grow combinatorially with support. Stream and deduplicate, record exact arithmetic bit growth, and impose a later measured resource cap. No CPU/GPU time or monetary budget is estimated.",
+    "theoretical_assumptions": "Finite Shannon entropy, valid conditional-copy extension, nonnegative coefficients on inequalities, unrestricted rational coefficients only on equalities. No claim about quantum entropy or differential entropy."
+  },
+  "ai_assessment": {
+    "priority": "preparation_required",
+    "rationale": "The finite specification supports exact checking and automated generation. Usefulness within the stated support and coefficient limits remains unverified; an information theorist should assess these limits and existing coverage before execution.",
+    "dimensions": {
+      "clarity": {
+        "rating": "high",
+        "reason": "Variables, constraints, support limit and coefficient set are explicit."
+      },
+      "decomposability": {
+        "rating": "high",
+        "reason": "Separate semantic encoding, enumeration, elimination, normalization and implication checking."
+      },
+      "methods": {
+        "rating": "high",
+        "reason": "Copy-lemma and polyhedral methods are documented."
+      },
+      "search_or_symbolic": {
+        "rating": "high",
+        "reason": "Finite search and rational certificates are the central workflow."
+      },
+      "checkability": {
+        "rating": "high",
+        "reason": "Each retained inequality can be checked by exact vector arithmetic."
+      },
+      "expertise": {
+        "rating": "high",
+        "reason": "An expert must verify the extension semantics and distinguish non-Shannon validity from novelty."
+      },
+      "significance": {
+        "rating": "unknown",
+        "reason": "The bounded task may generate only elementary consequences; value depends on later review."
+      },
+      "verification_difficulty": {
+        "rating": "medium",
+        "reason": "Certificate arithmetic is mechanical; statement alignment and novelty are harder."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "High uncertainty about usefulness, output count, runtime and novelty. No theorem or computation establishing a non-Shannon output within support at most three and coefficients in {1,2} has been checked. Claim 31 covers degenerate conditioning subclasses; recent five-variable work also narrows what can count as progress.",
+    "assessment_date": "2026-10-13",
+    "model_scope": "No named model evaluated; assumes tool-using AI can generate rational linear-algebra code and independently check derivation certificates under expert supervision.",
+    "evidence_refs": []
+  },
+  "methods": [
+    "finite search",
+    "exact computation",
+    "symbolic derivation",
+    "classification"
+  ],
+  "obstacles": [
+    "A sign error in conditional mutual information invalidates every derived certificate.",
+    "A floating-point LP can mislabel redundancy near a face.",
+    "The finite search may generate only Shannon consequences.",
+    "No result for one copy or one coefficient bound implies a result for all iterated copies.",
+    "Naive enumeration and rational coefficient growth may consume substantial memory."
+  ],
+  "validation": {
+    "steps": [
+      "Have a reviewer derive the five equality rows from Definition 24 and Lemma 27 with N={1,2,3,4,5}, E={1,4,5}, D={2,3}, A={1} and A'={6}; handle zero-probability conditioning events without division by zero.",
+      "Confirm that no hidden independence assumption activates Claim 31 and that any derived equality is expanded before checking the fixed support and coefficient limits.",
+      "Check every original Shannon row and every retained derivation using an independent exact vector checker.",
+      "Record rejected candidates and completeness of the bounded enumeration.",
+      "Verify redundancy with rational conic certificates or verified separating vectors.",
+      "Compare surviving candidates against known inequalities and the 2026 MEM work before suggesting novelty.",
+      "Report execution logs and measured resource use after an attempt has run."
+    ],
+    "human_review_difficulty": "High for semantic alignment and novelty; moderate for exact certificates.",
+    "statement_alignment": "A certificate proves a universal entropy inequality only when all auxiliary variables are justified by an extension lemma. Failure to derive one in this finite search does not establish independence from Shannon plus arbitrary copies."
+  },
+  "known_attempts": [
+    "Csirmaz and Csirmaz's 2026 paper reports related five-variable computational and theoretical work. No claim that its algorithm is identical to this bounded protocol.",
+    "No project attempt or model trial has been made."
+  ],
+  "unresolved_checks": [
+    "No proof or certificate establishes whether the three-row coefficient restriction can yield any non-Shannon inequality.",
+    "No novelty comparison of hypothetical output against known five-variable inequalities has been performed."
+  ],
+  "attribution": {
+    "original_authors": [
+      "Zhang and Yeung (origin of the non-Shannon copy construction, as credited in the survey)",
+      "Laszlo Csirmaz",
+      "Elod P. Csirmaz"
+    ],
+    "citation": "Csirmaz (2025), Exploring the entropic region, arXiv:2509.12439v1, Definition 24, Lemma 27 and Section 6.3 Claims 31-32; Csirmaz and Csirmaz (2026), Information Inequalities for Five Random Variables, arXiv:2512.23316v2. The bounded census and its conditioning set are curator-proposed.",
+    "curator_credit": "Compiled for Theory Research Atlas with AI assistance."
+  },
+  "status_search": {
+    "queries": [
+      "\"Information Inequalities for Five Random Variables\" \"copy\""
+    ],
+    "checked_sources": [
+      "SRC-FORMAL-004",
+      "SRC-FORMAL-016"
+    ],
+    "result": "The copy-lemma encoding is supported by Csirmaz's Definition 24 and Lemma 27. The finite three-row, coefficient-{1,2} search is curator-proposed; neither its novelty nor its ability to yield a non-Shannon consequence has been established. The two-variable conditioning avoids the singleton obstruction only.",
+    "limitations": "No proof or certificate establishes whether the three-row coefficient restriction can yield any non-Shannon inequality. No novelty comparison of hypothetical output against known five-variable inequalities has been performed."
+  },
+  "primary_domain_id": "INFO.ENTROPY",
+  "cross_domain_ids": [
+    "MATH.OPT"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "method_tags": [
+    "finite_search",
+    "exact_computation",
+    "symbolic_derivation",
+    "classification",
+    "certificate_checking"
+  ],
+  "validation_tags": [
+    "pure_proof",
+    "exact_computation"
+  ],
+  "experimental_dependency": "none_for_formal_task",
+  "epistemic_layers": {
+    "formal_validity": "The card specifies a mathematical task under its stated assumptions; no project proof or certificate has been checked.",
+    "empirical_support": "No empirical claim is made."
+  },
+  "judgments": {
+    "difficulty": {
+      "rating": "medium",
+      "basis": "The finite specification supports exact checking and automated generation. Usefulness within the stated support and coefficient limits remains unverified; an information theorist should assess these limits and existing coverage before execution.",
+      "evidence": "editorial_estimate_not_measured"
+    },
+    "correctness": {
+      "status": "no_project_answer",
+      "basis": "The cited literature supports the problem statement. No project answer has been submitted for review."
+    },
+    "novelty": {
+      "status": "not_claimed",
+      "basis": "This is a curator-proposed bounded search specification. Neither the packaging nor any potential output is claimed novel; compare future certificates and projected inequalities with known Shannon consequences and existing copy-lemma results before asserting new information."
+    },
+    "significance": {
+      "rating": "unknown",
+      "basis": "Potentially useful research infrastructure for separating numerical search from verifiable derivation. Scientific significance of this particular small census is uncertain and requires specialist review."
+    }
+  },
+  "revision_history": [
+    {
+      "date": "2026-10-14",
+      "change": "Compared the statement and status evidence with the dated literature check; updated source references and remaining information gaps. No research attempt or signed review is recorded."
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "id": "Q-FORMAL-104",
+  "title": "Determine the sharp connectivity threshold for homogeneous Kuramoto synchronization",
+  "domain": "Dynamics on networks and collective behavior",
+  "cross_domains": [
+    "Dynamical systems",
+    "Extremal graph theory"
+  ],
+  "kind": "literature_open",
+  "statement": "For finite simple undirected graphs with identical natural frequencies and unit positive edge coupling, let mu_c be the infimum of thresholds guaranteeing convergence to the all-in-phase state from almost every initial phase configuration whenever minimum degree/(n-1) exceeds the threshold. Determine whether mu_c = 3/4. This concerns nonlinear almost-everywhere global synchronization, not merely the absence of positive eigenvalues at selected equilibria.",
+  "source_ids": [
+    "SRC-FORMAL-104",
+    "SRC-FORMAL-105",
+    "SRC-FORMAL-106"
+  ],
+  "source_locator": "Kassabov et al., abstract and Sections I, VI; McRae (2026 v2), Section 3.4.3",
+  "status": "source_reports_open",
+  "status_basis": "The 2021 paper proves the upper bound; the August 2026 follow-up still calls sharpness conjectural. Targeted later-work searches found no resolution. This is a dated source-supported status, not an exhaustive novelty audit. No historical lower bound is asserted as current.",
+  "last_checked": "2026-10-14",
+  "curator_origin": false,
+  "duplicate_key": "kuramoto-critical-connectivity-three-quarters",
+  "proposed_card": true,
+  "primary_domain_id": "NET.DYNAMICS",
+  "cross_domain_ids": [
+    "MATH.DYN",
+    "MATH.COMB.EXT"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "revision_history": [],
+  "experimental_dependency": "none_for_formal_task",
+  "plain_summary": "How dense must a network be to make identical phase oscillators synchronize from almost all starting phases? Three quarters of all possible neighbors is sufficient; proving that this universal threshold cannot be lowered remains open.",
+  "assumptions": [
+    "A finite simple undirected graph with n≥2, adjacency A_ij∈{0,1}, no loops, and minimum-degree density delta(G)/(n−1).",
+    "Identical natural frequencies are removed by a rotating frame; theta_dot_i=sum_j A_ij sin(theta_j−theta_i). Coupling is positive and unweighted.",
+    "Phases lie on a torus. Uniform phase rotation is a symmetry; stability statements must be interpreted after quotienting that direction.",
+    "Global synchronization means convergence to equal phases from almost every initial phase, with respect to torus Lebesgue measure."
+  ],
+  "scope": "The literature target ranges over all finite graphs. A curator-proposed first milestone explores connected circulants with 8≤n≤32 and twisted equilibria theta_j=2pi qj/n, 1≤q<n. At most 1,000 declared (graph,q) pairs are considered. This family and cap are not asserted novel or sufficient to settle the threshold.",
+  "target": "Develop a proof of sharpness or a stronger universal synchronization theorem. A bounded first deliverable is a fully checkable stable nonsynchronized equilibrium certificate or a precisely delimited list of inconclusive or unstable cases.",
+  "success_criteria": [
+    "Record the graph, connectivity, degree, phase pattern and exact equilibrium equations.",
+    "To certify a useful local obstruction, prove the Jacobian is strictly negative definite on the complement of the uniform-rotation vector. Explain why this gives an open basin and defeats almost-everywhere synchronization.",
+    "If any additional eigenvalue is zero, report nonlinear stability as unresolved unless a separate nonlinear argument is supplied.",
+    "Report the achieved degree density exactly and compare it with prior constructions. A finite example or failed search does not establish mu_c=3/4."
+  ],
+  "known_results": [
+    "Kassabov, Strogatz and Townsend prove the sufficient 3/4 density threshold.",
+    "McRae's August 2026 Section 3.4.3 still describes sharpness as conjectural.",
+    "Townsend, Stillman and Strogatz provide explicit circulant constructions and spectra. Examples approaching 3/4 with marginal second-order conditions are not automatically stable nonlinear obstructions."
+  ],
+  "prerequisites": [
+    "Kuramoto gradient dynamics, equilibria and stability modulo a continuous symmetry.",
+    "Circulant matrices, Fourier diagonalization and exact algebraic or certified interval arithmetic.",
+    "The difference between an equilibrium, a local minimum, a second-order critical point and almost-everywhere convergence."
+  ],
+  "significance": "A sharp threshold would connect graph density with a global nonlinear property. Small certified constructions can guide a structural argument, but duplicating a known family does not improve the bound.",
+  "relations": [
+    {
+      "type": "calibrated_by",
+      "target": "Q-FORMAL-103",
+      "explanation": "The cycle-spectrum task checks phase conventions and treatment of zero eigenvalues before extending to general circulants."
+    },
+    {
+      "type": "related_to",
+      "target": "Q-MODEL-207",
+      "explanation": "Random cubic synchronization is a different asymptotic question; it does not follow from a high minimum-degree criterion."
+    }
+  ],
+  "requirements": {
+    "experiment": "None for the homogeneous graph model. Testing real oscillator networks requires measured frequencies, coupling, noise and model adequacy.",
+    "data": "Explicit adjacency matrices and exact phase parameters; no observed time series is required.",
+    "compute": "Suggested pilot cap: 1,000 (graph,q) pairs, n≤32, one CPU-hour and 8 GiB memory, with timeouts marked unresolved. These are proposed limits, not benchmarks. Small circulant spectra support inexpensive numerical filtering, but exact sign certificates and proofs about all graph sizes may be substantially harder.",
+    "theoretical_assumptions": "Identical frequencies, unit positive symmetric coupling, deterministic sine interaction, finite simple graphs and almost-everywhere initial phases."
+  },
+  "ai_assessment": {
+    "priority": "preparation_required",
+    "rationale": "AI can suggest graph families and derive spectra while exact arithmetic checks stability. Expert review must prevent a marginal linear condition from being mistaken for a nonlinear obstruction.",
+    "dimensions": {
+      "clarity": {
+        "rating": "high",
+        "reason": "The graph class, dynamics and degree normalization are explicit."
+      },
+      "decomposability": {
+        "rating": "high",
+        "reason": "Graph generation, equilibrium verification and spectral certification are separate tasks."
+      },
+      "methods": {
+        "rating": "high",
+        "reason": "The sources give explicit circulant methods and sharp sufficient criteria."
+      },
+      "search_or_symbolic": {
+        "rating": "high",
+        "reason": "Small structured graphs admit finite search and symbolic eigenvalue calculations."
+      },
+      "checkability": {
+        "rating": "medium",
+        "reason": "Strict spectral certificates are checkable; degenerate equilibria require nonlinear analysis."
+      },
+      "expertise": {
+        "rating": "high",
+        "reason": "Dynamical systems and extremal graph expertise are needed."
+      },
+      "significance": {
+        "rating": "high",
+        "reason": "The threshold is a meaningful global synchronization question."
+      },
+      "verification_difficulty": {
+        "rating": "high",
+        "reason": "Linear degeneracies and the all-graph quantifier are serious obstacles."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "The small circulant family may only recover known examples. No model has been tested and no likelihood of improving the bound is claimed.",
+    "assessment_date": "2026-10-14",
+    "model_scope": "No named model evaluated; assumes tool-using AI able to manipulate exact formulas, generate auditable code and explain mathematical assumptions.",
+    "evidence_refs": []
+  },
+  "methods": [
+    "Symmetry-guided graph construction and twisted equilibria.",
+    "Exact Fourier spectra over cyclotomic fields, or rigorous interval enclosures with justified sign separation.",
+    "Independent rational or algebraic certificates for the reduced Jacobian.",
+    "Minimal-obstruction analysis and nonlinear normal-form arguments when strict stability fails."
+  ],
+  "method_tags": [
+    "construction",
+    "finite_search",
+    "symbolic_derivation",
+    "exact_computation",
+    "proof",
+    "model_analysis"
+  ],
+  "validation_tags": [
+    "pure_proof",
+    "exact_computation"
+  ],
+  "obstacles": [
+    "Absence of positive Jacobian eigenvalues does not establish nonlinear attraction when additional zero eigenvalues occur.",
+    "A few stable examples cannot prove sharpness without a sequence approaching the threshold.",
+    "A theorem about local minima needs careful comparison with the dynamical almost-everywhere definition."
+  ],
+  "validation": {
+    "steps": [
+      "Reconstruct A from the saved edge list, verify simplicity, symmetry and connectivity, and compute delta(G)/(n−1) exactly.",
+      "Check every equilibrium residual using exact trigonometric identities; floating-point cancellation is insufficient.",
+      "Construct J_ij=A_ij cos(theta_j−theta_i) off diagonal and J_ii=−sum_(j≠i)J_ij independently from the search routine.",
+      "Verify the rotation zero mode and exact strict negativity on its orthogonal complement with a separate algebraic or certified-interval implementation.",
+      "Explain the nonlinear implication of strict reduced stability, and have a dynamics specialist audit any extra-zero case.",
+      "Compare any claimed density improvement or graph family against the cited constructions and later literature before naming it new."
+    ],
+    "human_review_difficulty": "Medium for a strict finite-dimensional certificate after conventions are fixed; high for marginal equilibria, graph-size limits or a universal threshold proof.",
+    "statement_alignment": "Retain unit symmetric coupling, identical frequencies, density divided by n−1 and almost-everywhere convergence. Stable nonuniform equilibria are sufficient obstructions; marginal critical points alone are not."
+  },
+  "known_attempts": [
+    "The 2020 circulant constructions, the 2021 density theorem and the 2026 normalized-Laplacian analysis are external records. No project search or simulation has been run."
+  ],
+  "unresolved_checks": [
+    "Establish whether a proposed finite family or density has already been classified.",
+    "Determine nonlinear behavior separately whenever the reduced Jacobian is singular.",
+    "Refresh lower-bound constructions before any bound-improvement claim; no historical lower bound is designated current."
+  ],
+  "epistemic_layers": {
+    "formal_validity": "Any certificate establishes a fact only for the specified homogeneous Kuramoto equations and graph. Strict reduced stability has a mathematical local-basin interpretation.",
+    "empirical_support": "Real synchronization depends on frequency mismatch, weights, noise and the adequacy of sine coupling. This formal task supplies no observational or experimental support for those assumptions."
+  },
+  "attribution": {
+    "original_authors": [
+      "Alex Townsend",
+      "Michael Stillman",
+      "Steven H. Strogatz",
+      "Martin Kassabov",
+      "Andrew D. McRae"
+    ],
+    "citation": "Townsend, Stillman and Strogatz (2020), arXiv:1906.10627v4; Kassabov, Strogatz and Townsend (2021), arXiv:2105.11406v1; McRae (2026 revision), arXiv:2503.18801v2, Sections 3.4.3–3.4.4. The capped circulant pilot is curator-proposed.",
+    "curator_credit": "Compiled for Theory Research Atlas with AI assistance."
+  },
+  "judgments": {
+    "difficulty": {
+      "rating": "high",
+      "basis": "The complete target is an unresolved existence problem. A bounded search does not establish the general statement.",
+      "evidence": "editorial_estimate_not_measured"
+    },
+    "correctness": {
+      "status": "no_project_answer",
+      "basis": "The literature supports the question; no project answer has been submitted for review."
+    },
+    "novelty": {
+      "status": "requires_future_literature_review",
+      "basis": "Sharpness is source-reported open. Novelty of a small search family, finite obstruction or improved bound requires an independent literature comparison."
+    },
+    "significance": {
+      "rating": "high",
+      "basis": "A sharp threshold would connect graph density with a global nonlinear property. Small certified constructions can guide a structural argument, but duplicating a known family does not improve the bound."
+    }
+  },
+  "status_search": {
+    "queries": [],
+    "checked_sources": [
+      "SRC-FORMAL-104",
+      "SRC-FORMAL-105",
+      "SRC-FORMAL-106"
+    ],
+    "result": "The 2021 paper proves the upper bound; the August 2026 follow-up still calls sharpness conjectural. Targeted later-work searches found no resolution. This is a dated source-supported status, not an exhaustive novelty audit. No historical lower bound is asserted as current.",
+    "limitations": "Dated primary-source checks and targeted later-work searches cannot establish that no unpublished or newly posted solution exists. Refresh the literature before claiming progress."
+  }
+}

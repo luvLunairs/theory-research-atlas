@@ -1,0 +1,191 @@
+{
+  "id": "Q-MODEL-102",
+  "title": "Recover the linear stability threshold of triangular Lagrange points",
+  "domain": "Celestial dynamics",
+  "cross_domains": [
+    "Dynamical systems",
+    "Classical mechanics"
+  ],
+  "kind": "known_result_calibration",
+  "statement": "In the planar circular restricted three-body problem with unit primary separation, unit angular speed and mass fractions 1−mu and mu, 0<mu≤1/2, reproduce the linearized characteristic polynomial at L4 and L5: lambda^4+lambda^2+(27/4)mu(1−mu). Establish bounded solutions of the linearized system for 0<mu<mu_R and linear instability for mu_R<mu≤1/2, where mu_R=(1−sqrt(23/27))/2. Exclude mu=mu_R, and do not claim nonlinear stability.",
+  "source_ids": [
+    "SRC-MODEL-103",
+    "SRC-MODEL-104"
+  ],
+  "source_locator": "Fitzpatrick, Stability of Lagrange points, equations (9.73)–(9.88); Co-rotating frame, equations (9.22)–(9.30).",
+  "status": "known_result",
+  "status_basis": "The author text provides the characteristic equation and mass criterion. The card explicitly restricts their interpretation to the nondegenerate linearized planar problem.",
+  "last_checked": "2026-10-14",
+  "curator_origin": true,
+  "duplicate_key": "cr3bp-l4-l5-linear-threshold-calibration",
+  "proposed_card": true,
+  "primary_domain_id": "ASTRO.DYN",
+  "cross_domain_ids": [
+    "MATH.DYN",
+    "PHYS.CLASSICAL"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "plain_summary": "Reproduce the textbook mass-ratio threshold at which small planar disturbances of the triangular Lagrange equilibria cease to remain bounded in the linearized model. The task deliberately stops before nonlinear or real-system stability.",
+  "assumptions": [
+    "Two point-mass primaries follow circular orbits, while the third body has negligible mass and does not influence them.",
+    "Use a uniformly rotating planar frame, separation 1, angular speed 1 and total normalized primary mass 1; the masses are 1−mu and mu with 0<mu≤1/2.",
+    "The primaries are at (−mu,0) and (1−mu,0). Define r_1^2=(x+mu)^2+y^2 and r_2^2=(x−1+mu)^2+y^2.",
+    "Omega=(x^2+y^2)/2+(1−mu)/r_1+mu/r_2, with x_ddot−2y_dot=Omega_x and y_ddot+2x_dot=Omega_y.",
+    "L4 and L5 are (1/2−mu, ±sqrt(3)/2); the critical parameter mu_R is excluded from the stability assertion."
+  ],
+  "scope": "Planar, infinitesimal disturbances of the triangular equilibria in an ideal circular restricted model, away from the critical mass. No collision dynamics, eccentric primary orbits or nonlinear perturbation theorem.",
+  "target": "An exact Jacobian, determinant certificate and parameter analysis distinguishing bounded linearized motion from exponential linear instability.",
+  "success_criteria": [
+    "Verify both equilibrium coordinates directly in the rotating equations.",
+    "Construct the first-order 4-by-4 linearization in a declared state order and derive its characteristic polynomial exactly.",
+    "Use q=lambda^2 to establish two distinct negative q roots below the threshold and the unstable spectrum above it.",
+    "Explain why distinct imaginary eigenvalues yield bounded solutions of this linear system; do not infer nonlinear Lyapunov stability.",
+    "State explicitly that equality at mu_R is excluded because repeated eigenvalues require additional analysis."
+  ],
+  "known_results": [
+    "Fitzpatrick's equation (9.87) gives the triangular-point spectral polynomial and equation (9.88) gives the mass criterion.",
+    "The linear calculation alone does not control nonlinear resonances, finite disturbances or neglected forces."
+  ],
+  "prerequisites": [
+    "Linearization of autonomous differential equations and exact determinants.",
+    "Eigenvalues, diagonalizability and the distinction between linear and nonlinear stability.",
+    "Rotating-frame Newtonian mechanics."
+  ],
+  "significance": "A manageable continuous-dynamics calibration for sign conventions, parameter inequalities and the scope of a stability theorem. It supports careful celestial-model reasoning without claiming a new orbit or astrophysical prediction.",
+  "relations": [
+    {
+      "type": "related_method",
+      "target": "Q-MODEL-105",
+      "explanation": "Both use the same rotating restricted model. The Jacobi integral checks a conserved quantity rather than local equilibrium stability."
+    }
+  ],
+  "requirements": {
+    "experiment": "None for the exact linearization. Assessing real Trojan objects or mission trajectories would require additional forces, initial conditions and observations.",
+    "data": "No observational catalog; only the stated dimensionless model.",
+    "compute": "One exact 4-by-4 determinant with an algebraic parameter and quadratic discriminant analysis. A local symbolic environment is a plausible resource class; no runtime or cost has been measured.",
+    "theoretical_assumptions": "Newtonian point masses, circular prescribed primaries, zero-mass third body, planar motion and infinitesimal perturbations."
+  },
+  "ai_assessment": {
+    "priority": "priority_trial",
+    "rationale": "The symbolic target is short enough for an independent determinant check, while its interpretation tests a frequent overstatement about stability.",
+    "dimensions": {
+      "clarity": {
+        "rating": "high",
+        "reason": "Equations, coordinates, parameter domain and excluded threshold are explicit."
+      },
+      "decomposability": {
+        "rating": "high",
+        "reason": "Equilibrium substitution, Jacobian construction and spectral reasoning are separable."
+      },
+      "methods": {
+        "rating": "high",
+        "reason": "The author text provides the reference linearization and threshold."
+      },
+      "search_or_symbolic": {
+        "rating": "high",
+        "reason": "Exact differentiation and determinants avoid a numerical eigenvalue sweep."
+      },
+      "checkability": {
+        "rating": "high",
+        "reason": "A polynomial identity and elementary inequalities can be checked independently."
+      },
+      "expertise": {
+        "rating": "medium",
+        "reason": "A mechanics or dynamical-systems reviewer must check coordinate conventions and stability language."
+      },
+      "significance": {
+        "rating": "medium",
+        "reason": "Useful for disciplined model analysis, with no new celestial result sought."
+      },
+      "verification_difficulty": {
+        "rating": "medium",
+        "reason": "The algebra is small, but spectrum, bounded linear motion and nonlinear stability must remain distinct."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "No model was tested. Familiarity with the classical result can conceal a wrong sign or an unjustified nonlinear conclusion.",
+    "assessment_date": "2026-10-14",
+    "model_scope": "No named model evaluated; assumes tool-using AI with symbolic differentiation, exact polynomial algebra and access to a dynamical-systems reviewer.",
+    "evidence_refs": []
+  },
+  "methods": [
+    "Exact linearization in rotating coordinates",
+    "Symbolic determinant calculation",
+    "Parameter-dependent spectral analysis"
+  ],
+  "method_tags": [
+    "symbolic_derivation",
+    "exact_computation",
+    "proof",
+    "model_analysis"
+  ],
+  "validation_tags": [
+    "pure_proof",
+    "exact_computation"
+  ],
+  "obstacles": [
+    "Mixing Omega with the source's negative potential U, or reversing a Coriolis sign.",
+    "Treating imaginary eigenvalues alone as sufficient in a repeated-eigenvalue case.",
+    "Reporting nonlinear or indefinitely stable physical trajectories from a linear calculation."
+  ],
+  "validation": {
+    "steps": [
+      "Translate the source notation mu_2=mu, mu_1=1−mu and Omega=−U.",
+      "Differentiate the declared potential, check each equilibrium and form the 4-by-4 matrix.",
+      "Independently expand det(lambda I−A) and compare its coefficients with the stated polynomial.",
+      "Check discriminant signs, nonzero roots and diagonalizability in the strict stable interval.",
+      "Review every stability sentence for its linear, planar and model-conditional scope."
+    ],
+    "human_review_difficulty": "Moderate: the determinant is easy to reproduce, while precise stability implications require dynamical-systems knowledge.",
+    "statement_alignment": "The certificate concerns bounded solutions of the linearized equation for strict parameter intervals. It is not a theorem about nonlinear trajectories or a real astronomical system."
+  },
+  "known_attempts": [
+    "Fitzpatrick's author-maintained text derives the classical triangular-equilibrium linear stability criterion."
+  ],
+  "unresolved_checks": [
+    "The critical mass case needs a separate repeated-root and Jordan-form analysis if added later.",
+    "No nonlinear stability theorem or observational application has been evaluated."
+  ],
+  "attribution": {
+    "original_authors": [
+      "Richard Fitzpatrick (inspected exposition)"
+    ],
+    "citation": "Fitzpatrick, R. Introduction to Celestial Mechanics, 2nd Edition, Chapter 9: Co-rotating frame and Stability of Lagrange points. University of Texas at Austin, undated online text. https://farside.ph.utexas.edu/teaching/celestial/Celestial/node86.html.",
+    "curator_credit": "Compiled for Theory Research Atlas with AI assistance."
+  },
+  "status_search": {
+    "queries": [],
+    "checked_sources": [
+      "SRC-MODEL-103",
+      "SRC-MODEL-104"
+    ],
+    "result": "The opened author text derives the known characteristic equation and strict mass criterion; the task is a reproduction.",
+    "limitations": "No independent symbolic derivation was run. The source's broader prose is not used as evidence for nonlinear stability."
+  },
+  "epistemic_layers": {
+    "formal_validity": "The target follows from linearizing the explicitly stated circular restricted model. A valid determinant establishes only that mathematical model's local linear behavior.",
+    "empirical_support": "No real system is validated. Eccentricity, finite secondary effects, non-gravitational forces and observations matter before any physical stability inference."
+  },
+  "judgments": {
+    "difficulty": {
+      "rating": "medium",
+      "basis": "A small exact matrix calculation is paired with nontrivial interpretation of spectral stability and degenerate cases.",
+      "evidence": "editorial_estimate_not_measured"
+    },
+    "correctness": {
+      "status": "no_project_answer",
+      "basis": "The cited sources support the mathematical target. No project answer has been submitted or independently reviewed."
+    },
+    "novelty": {
+      "status": "not_claimed",
+      "basis": "A known-result calibration with curator-selected checks; no new theorem or empirical finding is claimed."
+    },
+    "significance": {
+      "rating": "medium",
+      "basis": "A manageable continuous-dynamics calibration for sign conventions, parameter inequalities and the scope of a stability theorem. It supports careful celestial-model reasoning without claiming a new orbit or astrophysical prediction."
+    }
+  },
+  "experimental_dependency": "none_for_formal_task",
+  "revision_history": []
+}

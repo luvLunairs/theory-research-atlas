@@ -1,0 +1,209 @@
+{
+  "id": "Q-MODEL-002",
+  "title": "Certify deficiency-zero hypotheses for small reaction networks",
+  "domain": "Chemical reaction network theory",
+  "cross_domains": [
+    "Systems biology",
+    "Graph theory",
+    "Dynamical systems"
+  ],
+  "kind": "known_result_calibration",
+  "statement": "For a finite supplied network of mass-action reactions, compute delta = number_of_complexes - number_of_linkage_classes - rank(stoichiometric_matrix), test weak reversibility, and issue a traceable applicability certificate for the deficiency-zero theorem. Begin with at most four species, six complexes and ten reactions; these limits are curator chosen.",
+  "source_ids": [
+    "SRC-MODEL-005",
+    "SRC-MODEL-006",
+    "SRC-MODEL-016"
+  ],
+  "source_locator": "ACK Definitions 2.1-2.4 and Theorem 3.1; Baez theorem",
+  "status": "known_result",
+  "status_basis": "The theorem and hypotheses are verified in the opened sources. The finite input limits and certificate task are curator-designed calibration work.",
+  "last_checked": "2026-10-13",
+  "curator_origin": true,
+  "duplicate_key": "deficiency-zero-applicability-certificate",
+  "proposed_card": true,
+  "plain_summary": "Turn a reaction diagram into a checkable explanation of whether a known structural theorem applies. This links chemistry and biology to graph algorithms and exact linear algebra without treating a model as an observed mechanism.",
+  "assumptions": [
+    "Finite set of species and distinct nonnegative-integer stoichiometric complexes.",
+    "Deterministic, autonomous mass-action kinetics with strictly positive fixed rate constants.",
+    "The theorem applies on positive stoichiometric compatibility classes; stability is relative to the class.",
+    "Duplicate reactions and self-loops must have an explicitly documented normalization convention."
+  ],
+  "scope": "Curator-chosen inputs up to four species, six complexes and ten directed reactions. Include A+B <-> C and C <-> D as one fully specified example network, with positive rate symbols; this fixture is proposed and has not been run.",
+  "target": "An exact structural certificate with the theorem's supported conclusion, or a precise report of failed hypotheses.",
+  "success_criteria": [
+    "Produce a canonical complex list, incidence data, stoichiometric matrix and exact rank certificate.",
+    "Produce connected-component and directed-return-path certificates for linkage count and weak reversibility.",
+    "Compute deficiency exactly and state the theorem only when all hypotheses apply.",
+    "If a hypothesis fails, report inapplicability rather than infer instability or nonexistence.",
+    "Separate structural certification from identifying whether the network represents a real chemical or biological system."
+  ],
+  "known_results": [
+    "ACK Theorem 3.1 states uniqueness of the equilibrium in each positive compatibility class and local asymptotic stability relative to that class for weakly reversible deficiency-zero mass-action networks.",
+    "Baez gives a complementary existence proof through linear algebra. Feinberg's directory records historical sources and corrections."
+  ],
+  "prerequisites": [
+    "Directed graphs and strongly connected components.",
+    "Exact rank, conservation laws and stoichiometric subspaces.",
+    "Mass-action ODEs, complex balance and relative local stability."
+  ],
+  "significance": "Provides a reusable hypothesis-checking baseline for model sciences. It can prevent invalid theorem transfers and supports later comparisons of reaction-network structures.",
+  "relations": [
+    {
+      "type": "prerequisite",
+      "target": "Q-MODEL-012",
+      "explanation": "A structural certificate can establish the hypotheses used to obtain a complex-balanced deterministic equilibrium before the stochastic product-form task."
+    },
+    {
+      "type": "method_bridge",
+      "target": "Q-MODEL-014",
+      "explanation": "Structural perturbation studies need reliable recomputation of graph and rank invariants."
+    }
+  ],
+  "requirements": {
+    "experiment": "None for the graph-and-theorem certificate. Validating rates, well-mixing and the proposed mechanism requires separate data or experiments.",
+    "data": "A complete reaction list with species ordering and kinetic convention. No new empirical data for this calibration.",
+    "compute": "Small exact integer matrices and graph traversals under the declared input bounds. Local laptop-class work is an untested planning assumption; larger symbolic equilibrium computations are outside scope.",
+    "theoretical_assumptions": "Mass action, positive rates and positive compatibility classes. Does not transfer automatically to delays, spatial PDEs, stochastic dynamics, non-mass-action kinetics or time-varying forcing."
+  },
+  "ai_assessment": {
+    "priority": "preparation_required",
+    "rationale": "The structural part is well suited to generated code and exact certificates, but a reviewer must first approve representation conventions and the limited theorem conclusion.",
+    "dimensions": {
+      "clarity": {
+        "rating": "high",
+        "reason": "Finite input and the applicable theorem are explicit."
+      },
+      "decomposability": {
+        "rating": "high",
+        "reason": "Parsing, graph structure, rank and theorem matching are separable."
+      },
+      "methods": {
+        "rating": "high",
+        "reason": "Author resources and a primary paper state the required concepts."
+      },
+      "search_or_symbolic": {
+        "rating": "high",
+        "reason": "Exact linear algebra and graph algorithms apply directly."
+      },
+      "checkability": {
+        "rating": "high",
+        "reason": "Certificates can be independently recomputed at the proposed small sizes."
+      },
+      "expertise": {
+        "rating": "medium",
+        "reason": "A CRNT reviewer must distinguish complex balance and detailed balance and assess kinetic assumptions."
+      },
+      "significance": {
+        "rating": "medium",
+        "reason": "Reusable verification baseline; no new reaction-network theorem is claimed."
+      },
+      "verification_difficulty": {
+        "rating": "medium",
+        "reason": "Structural checks are modest; scope errors in stability claims are more subtle."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "No AI or implementation has been tested. Small input bounds are chosen for inspectability and do not estimate success rates.",
+    "assessment_date": "2026-10-13",
+    "model_scope": "No named model evaluated; assumes tool-using AI with literature retrieval, exact algebra or rational linear algebra, code generation, and access to a human domain reviewer.",
+    "evidence_refs": []
+  },
+  "methods": [
+    "classification",
+    "exact computation",
+    "graph algorithms",
+    "proof application"
+  ],
+  "obstacles": [
+    "Treating species as complexes or counting duplicate complexes twice.",
+    "Floating-point rank errors.",
+    "Confusing reversibility, weak reversibility, detailed balance and complex balance.",
+    "Changing local stability into a global-attraction claim.",
+    "Assuming that theorem inapplicability implies a negative dynamical result."
+  ],
+  "validation": {
+    "steps": [
+      "Review the input reaction semantics and deduplication convention.",
+      "Compare complex and species matrices with the supplied diagram.",
+      "Check exact rank and graph witnesses independently.",
+      "Verify each hypothesis against the cited theorem and retain its positivity and relative-stability clauses.",
+      "Review any biological or chemical interpretation separately."
+    ],
+    "human_review_difficulty": "Moderate for a CRNT specialist; a graph or linear-algebra reviewer can check only the structural layer.",
+    "statement_alignment": "The certificate establishes theorem applicability, not global attraction, empirical adequacy, or a complete classification of all possible dynamics."
+  },
+  "known_attempts": [
+    "Existing theorem and proofs are documented by Horn, Jackson, Feinberg, Baez and ACK. No project implementation or model trial exists."
+  ],
+  "unresolved_checks": [
+    "Approve the small input format and example network before execution.",
+    "Check the version of any theorem used for an expanded global-convergence claim; this card deliberately makes no such claim.",
+    "The empirical validity of any future supplied network requires independent review."
+  ],
+  "attribution": {
+    "original_authors": [
+      "Fritz Horn",
+      "Roy Jackson",
+      "Martin Feinberg",
+      "John Baez",
+      "David F. Anderson",
+      "Gheorghe Craciun",
+      "Thomas G. Kurtz"
+    ],
+    "citation": "Theorem source: Anderson, D. F., Craciun, G., and Kurtz, T. G. (2010), Product-form stationary distributions for deficiency zero chemical reaction networks, arXiv:0803.3042v4, Section 3.2. Historical references and author credit: Feinberg, Chemical Reaction Network Theory (Ohio State); Baez (2012), Network Theory Part 24.",
+    "curator_credit": "Compiled for Theory Research Atlas with AI assistance."
+  },
+  "status_search": {
+    "queries": [],
+    "checked_sources": [
+      "SRC-MODEL-005",
+      "SRC-MODEL-006",
+      "SRC-MODEL-016"
+    ],
+    "result": "The full theorem statement, structural definitions and author bibliography were opened and compared. It is an established-result calibration.",
+    "limitations": "No implementation or mathematical experiment was executed. Original 1972 articles were credited through the author directory, not claimed as fully read."
+  },
+  "epistemic_layers": {
+    "formal_validity": "Conditional structural theorem application can be certified under mass-action assumptions.",
+    "empirical_support": "Real chemistry and cell biology may violate ideal mixing, closure, rate and scale assumptions; this task supplies no empirical confirmation."
+  },
+  "revision_history": [],
+  "primary_domain_id": "CHEM.REACTION",
+  "cross_domain_ids": [
+    "BIO.SYSTEMS",
+    "MATH.DYN",
+    "MATH.COMB"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "method_tags": [
+    "proof",
+    "exact_computation",
+    "model_analysis",
+    "certificate_checking"
+  ],
+  "validation_tags": [
+    "pure_proof",
+    "exact_computation"
+  ],
+  "experimental_dependency": "none_for_formal_task",
+  "judgments": {
+    "difficulty": {
+      "rating": "medium",
+      "basis": "The structural part is well suited to generated code and exact certificates, but a reviewer must first approve representation conventions and the limited theorem conclusion.",
+      "evidence": "editorial_estimate_not_measured"
+    },
+    "correctness": {
+      "status": "no_project_answer",
+      "basis": "The cited literature supports the problem statement. No project answer has been submitted for review."
+    },
+    "novelty": {
+      "status": "not_claimed",
+      "basis": "The target is a known result; no originality is claimed for the selected scope. Any later novelty claim requires a literature check."
+    },
+    "significance": {
+      "rating": "medium",
+      "basis": "Provides a reusable hypothesis-checking baseline for model sciences. It can prevent invalid theorem transfers and supports later comparisons of reaction-network structures."
+    }
+  }
+}

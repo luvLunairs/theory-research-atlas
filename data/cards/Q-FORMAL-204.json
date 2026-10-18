@@ -1,0 +1,200 @@
+{
+  "id": "Q-FORMAL-204",
+  "title": "The optimal randomized stretch for two online bins",
+  "domain": "Randomized, online and distributed algorithms",
+  "cross_domains": [
+    "Optimization and operations research"
+  ],
+  "kind": "literature_open",
+  "statement": "Determine inf_A sup_I E[max(L1(A,I),L2(A,I))], where I ranges over finite positive real item sequences that fit offline into two unit-capacity bins, A assigns each arriving item irrevocably before seeing the next, and I is fixed independently of A's random bits. Can the reported interval [7/6,5/4] be narrowed?",
+  "source_ids": [
+    "SRC-FORMAL-206",
+    "SRC-FORMAL-207",
+    "SRC-FORMAL-209"
+  ],
+  "source_locator": "Lhomme–Catusse–Brauner, randomized paper §§2–4.2; later convergence paper §1.",
+  "status": "source_reports_open",
+  "status_basis": "The randomized paper gives distinct lower and upper bounds. The author publication list and later computational-method paper were checked; no closing of this randomized gap was identified. The later paper primarily concerns deterministic algorithms.",
+  "last_checked": "2026-10-14",
+  "curator_origin": false,
+  "duplicate_key": "the-optimal-randomized-stretch-for-two-online-bins",
+  "proposed_card": true,
+  "primary_domain_id": "CS.RANDOM",
+  "cross_domain_ids": [
+    "MATH.OPT"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "plain_summary": "Items arrive one at a time and must immediately be assigned to one of two bins. They could have fit in two unit bins if their future sizes were known. How much extra load is unavoidable when the online algorithm may randomize?",
+  "assumptions": [
+    "Every input is a finite sequence of strictly positive real sizes with an explicit offline packing into two unit bins.",
+    "Assignments are irrevocable and depend only on revealed items, prior assignments and private randomness.",
+    "The adversary is oblivious: its full input is fixed independently of the algorithm's random bits.",
+    "The objective is the expectation of the maximum final load, then the worst case over inputs; changing the order of these operations changes the problem."
+  ],
+  "scope": "Curator-proposed first milestone, pending review: search a declared pool of at most 200 input sequences, each of length at most eight and with sizes in {1/8,2/8,…,1}. Seek a rational probability distribution on that pool whose expected load exceeds 7/6 for every deterministic online policy. The pool and grid are exploratory restrictions; their potential to improve the known lower bound is unverified.",
+  "target": "Produce a compact exact lower-bound certificate exceeding the cited baseline, or an exact value for the explicitly limited game with a clear statement of its limited scope.",
+  "success_criteria": [
+    "A genuine improvement must lower-bound every deterministic history-consistent policy on the selected input distribution, not merely a chosen library of heuristics.",
+    "Supply rational input probabilities, offline packing witnesses and an exact independently checked proof of the minimum expected cost over all policies.",
+    "A restricted-game optimum no larger than 7/6 is a bounded negative result only. It neither proves optimality for the full problem nor rules out stronger distributions.",
+    "Stop if the complete game representation exceeds 20,000 history states or the stated memory/time cap. Do not silently prune legal online actions."
+  ],
+  "known_results": [
+    "The randomized paper reports lower bound 7/6 and an algorithm with expected stretch at most 5/4 for two bins.",
+    "Its stronger 29/24 lower bound concerns the restricted class M2 and cannot replace 7/6 for unrestricted randomization.",
+    "Finite-grid lower bounds and all-real-input upper bounds require different arguments."
+  ],
+  "prerequisites": [
+    "Competitive analysis with oblivious adversaries.",
+    "Finite zero-sum games, rational linear programming and dual certificates.",
+    "Online information constraints and offline feasibility of a packing."
+  ],
+  "significance": "A small certified distribution can improve a general online lower bound while remaining inspectable. It also tests whether the current gap can be approached with compact adversarial examples.",
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "Q-FORMAL-210",
+      "explanation": "M2 restricts the algorithm's randomization and has a different lower bound."
+    },
+    {
+      "type": "method_bridge",
+      "target": "Q-FORMAL-206",
+      "explanation": "Both use finite adversarial certificates, but deterministic and randomized information structures differ."
+    }
+  ],
+  "requirements": {
+    "experiment": "No physical experiment.",
+    "data": "A finite list of rational item sequences and offline packings; no empirical dataset.",
+    "compute": "The input pool is capped at 200 sequences of at most eight items. Build the complete online-history representation for that pool only, stopping before 20,000 history states, 1 GiB memory or four elapsed hours. Exact arithmetic can be substantially costlier than floating-point search. These are proposed limits, not measured costs; a small grid is not a guarantee of a small policy space.",
+    "theoretical_assumptions": "The finite-distribution lower bound uses the minimax/Yao principle with the stated oblivious adversary. The checker must range over all deterministic online policies allowed by the shared-prefix information structure."
+  },
+  "ai_assessment": {
+    "priority": "preparation_required",
+    "rationale": "Finite games offer exact certificates and a bounded entry point, but a game model that leaks future input information or omits policies yields invalid bounds.",
+    "dimensions": {
+      "clarity": {
+        "rating": "high",
+        "reason": "The cost, adversary and feasible input sequences are explicit."
+      },
+      "decomposability": {
+        "rating": "high",
+        "reason": "One can investigate small rational supports before seeking a general algorithm."
+      },
+      "methods": {
+        "rating": "high",
+        "reason": "The source gives game and linear-programming approaches."
+      },
+      "search_or_symbolic": {
+        "rating": "high",
+        "reason": "Rational optimization and finite-history search are suitable."
+      },
+      "checkability": {
+        "rating": "medium",
+        "reason": "Certificates can be exact, but their game semantics require careful review."
+      },
+      "expertise": {
+        "rating": "high",
+        "reason": "Online-algorithm and minimax expertise is needed to validate the quantifiers."
+      },
+      "significance": {
+        "rating": "high",
+        "reason": "Any strict certified improvement applies to the unrestricted randomized problem."
+      },
+      "verification_difficulty": {
+        "rating": "high",
+        "reason": "A numerical LP optimum is insufficient; complete policy coverage and exact feasibility must be established."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "The small proposed support may be incapable of improving 7/6. No search, runtime, model performance or success probability has been measured.",
+    "assessment_date": "2026-10-14",
+    "model_scope": "No named model evaluated; assumes a tool-using AI can formulate finite games and rational certificates, with an independent verifier and human review of adversary semantics.",
+    "evidence_refs": []
+  },
+  "methods": [
+    "Rational distributions on finite feasible input pools.",
+    "History-consistent game formulations and exact dynamic programming.",
+    "Linear-programming search followed by rational reconstruction and certificate checks."
+  ],
+  "method_tags": [
+    "finite_search",
+    "bounds",
+    "exact_computation",
+    "certificate_checking",
+    "algorithm"
+  ],
+  "validation_tags": [
+    "exact_computation",
+    "pure_proof"
+  ],
+  "obstacles": [
+    "Enumerating policies directly grows exponentially.",
+    "Restricting algorithms to a heuristic library invalidates a general lower bound.",
+    "An adaptive adversary can prove a different and easier statement than the required oblivious-adversary result.",
+    "A finite-grid algorithm does not automatically handle arbitrary real item sizes."
+  ],
+  "validation": {
+    "steps": [
+      "Check every input size, every rational distribution weight, normalization and every offline packing.",
+      "Verify identical observed histories impose the same policy choices; hidden future items cannot enter the policy state.",
+      "Recompute the minimum expected load over all deterministic policies in the finite support game using an independent exact method.",
+      "Check any LP dual or dynamic-programming certificate in rational arithmetic.",
+      "Apply the lower-bound transfer argument explicitly; compare the resulting rational value with 7/6."
+    ],
+    "human_review_difficulty": "High for the reduction from a computational game to the randomized online claim; lower for arithmetic once the game is sound.",
+    "statement_alignment": "The milestone restricts the adversary's support, not the algorithm's policy class. Its lower bound transfers to the full problem; a restricted-game upper bound does not."
+  },
+  "known_attempts": [
+    "Lhomme, Catusse and Brauner provide computational bounds and an explicit randomized upper construction. These external results have not been reproduced here."
+  ],
+  "unresolved_checks": [
+    "Confirm the exact finite-game formulation against the source before implementation.",
+    "Recheck later publications for improved numerical bounds before interpreting an improvement.",
+    "Determine whether the proposed grid already appears in the source's computational data."
+  ],
+  "attribution": {
+    "original_authors": [
+      "Antoine Lhomme",
+      "Nicolas Catusse",
+      "Nadia Brauner"
+    ],
+    "citation": "Lhomme, Catusse and Brauner, Computational bounds on randomized algorithms for online bin stretching, arXiv:2405.19071 (2024), §§2–4.",
+    "curator_credit": "Compiled for Theory Research Atlas with AI assistance."
+  },
+  "status_search": {
+    "queries": [],
+    "checked_sources": [
+      "SRC-FORMAL-206",
+      "SRC-FORMAL-207",
+      "SRC-FORMAL-209"
+    ],
+    "result": "The inspected randomized paper retains a two-bin gap; the later convergence paper and author list did not supply a resolution.",
+    "limitations": "Later deterministic results cannot by themselves certify the randomized frontier. The search did not establish exhaustive coverage of all 2026 work."
+  },
+  "epistemic_layers": {
+    "formal_validity": "A valid finite oblivious input distribution lower-bounds the full randomized optimum only when all admissible online policies are covered.",
+    "empirical_support": "Performance on sampled inputs is not a worst-case bound. No application workload or practical scheduling benefit is asserted."
+  },
+  "judgments": {
+    "difficulty": {
+      "rating": "high",
+      "basis": "Small exact games are approachable; a stronger general bound may require larger support or new ideas.",
+      "evidence": "editorial_estimate_not_measured"
+    },
+    "correctness": {
+      "status": "no_project_answer",
+      "basis": "No game was solved and no bound was computed in this project."
+    },
+    "novelty": {
+      "status": "requires_future_literature_review",
+      "basis": "The literature gap is sourced; the restricted support is curator-proposed and may reproduce existing computations."
+    },
+    "significance": {
+      "rating": "high",
+      "basis": "An exact lower-bound improvement would narrow a concrete online-optimization gap."
+    }
+  },
+  "experimental_dependency": "none_for_formal_task",
+  "revision_history": []
+}

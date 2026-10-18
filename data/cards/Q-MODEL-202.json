@@ -1,0 +1,195 @@
+{
+  "id": "Q-MODEL-202",
+  "title": "Complete EFX for more than four common bi-valued chore agents",
+  "domain": "Mechanism design and fair allocation",
+  "cross_domains": [
+    "Computational complexity",
+    "Optimization and operations research"
+  ],
+  "kind": "literature_open",
+  "statement": "For every n≥5, finite chore set M and common real ratio r>2, with additive costs c_i(g)∈{1,r} for every agent i and chore g, must there be a complete partition X with c_i(X_i\\{g})≤c_i(X_j) for all i,j and every g∈X_i? Empty bundles impose no deletion comparison. No Pareto-optimality condition is required.",
+  "source_ids": [
+    "SRC-MODEL-202",
+    "SRC-MODEL-206"
+  ],
+  "source_locator": "He and Tao, Section 2, start of Section 5 and Section 6; Garg and Murhekar, abstract.",
+  "status": "source_reports_open",
+  "status_basis": "He and Tao explicitly leave the more-than-four-agent common bi-valued case open. Their r≤2 case works for any n; m≤2n is also known. No later general resolution was located. Particular bounded pilots may already be known.",
+  "last_checked": "2026-10-14",
+  "curator_origin": false,
+  "duplicate_key": "efx-common-bivalued-chores-n-ge5",
+  "proposed_card": true,
+  "primary_domain_id": "ECON.MECH",
+  "cross_domain_ids": [
+    "CS.COMPLEX",
+    "MATH.OPT"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "revision_history": [],
+  "experimental_dependency": "none_for_formal_task",
+  "plain_summary": "When every chore is either cheap or expensive for each person, and everyone uses the same two cost levels, can five or more people always obtain exact EFX fairness? The positive four-person result gives a concrete structural starting point.",
+  "assumptions": [
+    "n≥5, finitely many chores, and a common ratio r>2 with each c_i(g) equal to 1 or r.",
+    "Costs add over bundles. Each chore is assigned once; empty bundles are permitted.",
+    "For chores, delete from the envious agent's own bundle. Fairness alone is required; Pareto optimality is not assumed."
+  ],
+  "scope": "The source question permits all n≥5, m and r>2. A curator-proposed first pilot fixes n=5, m=11 and r=3, sampling at most 100 explicitly listed cost-pattern multisets. This pilot's separate novelty and openness have not been established; it is not exhaustive over the literature problem.",
+  "target": "Find a general construction, a reusable structural lemma beyond known cases, or an exact counterexample. The bounded pilot is intended to identify such structure and record precisely which instances were examined.",
+  "success_criteria": [
+    "For each tested pattern multiset, store the complete five-by-eleven matrix and either an exact EFX allocation or an explicit unresolved outcome.",
+    "A claimed counterexample must include a complete, independently verified exclusion of all 5^11 allocations; a search timeout is not nonexistence.",
+    "A proposed structural lemma must state its entire input class and prove every comparison for that class.",
+    "Do not infer universal existence from sampled success or claim novelty for a fixed small case without checking earlier theorems."
+  ],
+  "known_results": [
+    "He and Tao prove common bi-valued EFX for four agents and describe an all-n construction when r≤2.",
+    "Garg and Murhekar report the exact m≤2n boundary. Their general 2-EFX theorem does not solve exact EFX.",
+    "He and Tao's incompatibility with Pareto optimality for some bi-valued instances is not an EFX nonexistence theorem."
+  ],
+  "prerequisites": [
+    "Additive chore allocation, EFX deletion semantics and common versus personalized values.",
+    "Finite constraint search and exact integer arithmetic.",
+    "The item-type decomposition and insertion arguments in the four-agent proof."
+  ],
+  "significance": "This restricted cost model isolates a surviving exact-fairness question after general additive chores were shown to fail. A small counterexample or a structural extension would clarify the true boundary.",
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "Q-MODEL-203",
+      "explanation": "Both concern chore EFX, but this question restricts costs and allows more agents; the three-agent question permits arbitrary nonnegative costs."
+    }
+  ],
+  "requirements": {
+    "experiment": "None for the formal allocation question. Actual workload, strategic reporting and perceived fairness require separate evidence.",
+    "data": "A future pilot uses fully specified matrices with entries 1 or 3; no external dataset is needed.",
+    "compute": "Suggested first cap: 100 cost-pattern multisets, one CPU-hour and 8 GiB total memory, stopping unresolved instances explicitly. These are proposed limits, not timing estimates. There are 2^55 labeled five-by-eleven cost matrices and 5^11=48,828,125 allocations per fixed matrix; exhaustive global search is not described as cheap.",
+    "theoretical_assumptions": "Common cost levels, positivity, additivity, indivisibility and complete allocation. The ratio and pilot dimensions are curator choices."
+  },
+  "ai_assessment": {
+    "priority": "preparation_required",
+    "rationale": "First check whether the proposed five-agent, eleven-chore, ratio-three pilot is covered by an existing special-case theorem, and select a useful unresolved class. Exact integer checks could then support AI-generated cost patterns and proposed extensions of the four-agent structure.",
+    "dimensions": {
+      "clarity": {
+        "rating": "high",
+        "reason": "Both the open target and the limited pilot specify their quantifiers."
+      },
+      "decomposability": {
+        "rating": "high",
+        "reason": "Pattern generation, allocation search and proof checking are separable."
+      },
+      "methods": {
+        "rating": "medium",
+        "reason": "Four-agent methods are available, but their extension is uncertain."
+      },
+      "search_or_symbolic": {
+        "rating": "high",
+        "reason": "Fixed-ratio costs allow exact combinatorial constraint search."
+      },
+      "checkability": {
+        "rating": "medium",
+        "reason": "An allocation is cheap to verify; absence of any allocation is much harder."
+      },
+      "expertise": {
+        "rating": "high",
+        "reason": "A specialist must judge structural generalization and known subclasses."
+      },
+      "significance": {
+        "rating": "high",
+        "reason": "The target separates exact fairness from known general impossibility."
+      },
+      "verification_difficulty": {
+        "rating": "high",
+        "reason": "Universal existence and exhaustive nonexistence need more than heuristic search."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "The n=5,m=11,r=3 pilot may have known positive structure. No AI success, runtime or cost has been measured, and the general n≥5 problem may resist finite experimentation.",
+    "assessment_date": "2026-10-14",
+    "model_scope": "No named model evaluated; assumes tool-using AI able to manipulate exact formulas, generate auditable code and explain mathematical assumptions.",
+    "evidence_refs": []
+  },
+  "methods": [
+    "Cost-pattern hypergraphs, recording for each chore the set of agents for whom it is cheap.",
+    "SAT or integer-constraint allocation search with exact checking.",
+    "Insertion lemmas, balanced assignments and minimal-counterexample reasoning."
+  ],
+  "method_tags": [
+    "construction",
+    "counterexample",
+    "finite_search",
+    "proof",
+    "exact_computation",
+    "certificate_checking"
+  ],
+  "validation_tags": [
+    "pure_proof",
+    "exact_computation"
+  ],
+  "obstacles": [
+    "There are 32 possible cheap-agent subsets per chore already for five agents.",
+    "Finding an allocation on every sampled input offers no universal guarantee.",
+    "Changing from common to personalized ratios, or adding Pareto optimality, produces a different question."
+  ],
+  "validation": {
+    "steps": [
+      "Compute every bundle cost independently from the saved integer matrix.",
+      "Check every ordered agent pair and every owned-chore deletion, including comparisons to empty bundles.",
+      "Use a checker written separately from the allocation-search code. For no-solution claims, require complete enumeration or a proof object with an audited translation.",
+      "Audit any symmetry reduction as a bijection on allocations and cost patterns; retain a record of omitted but equivalent cases.",
+      "Have a fair-division reviewer compare any candidate lemma with the m≤2n, r≤2 and four-agent results."
+    ],
+    "human_review_difficulty": "Individual positive allocations are straightforward; negative instances and structural lemmas require exhaustive coverage and expert review.",
+    "statement_alignment": "All costs use the same {1,r}; the chore is removed from the owner's bundle. EF1, approximate EFX, partial allocations and EFX plus efficiency do not answer this target."
+  },
+  "known_attempts": [
+    "He and Tao's four-agent proof and Garg and Murhekar's approximation framework are external mathematical work. No project trial is recorded."
+  ],
+  "unresolved_checks": [
+    "Check whether the proposed n=5,m=11,r=3 pilot is already covered by a known special-case theorem.",
+    "Review the four-agent insertion lemmas before applying them to five agents.",
+    "Refresh common bi-valued status and compare any proposed counterexample with existing public records."
+  ],
+  "epistemic_layers": {
+    "formal_validity": "An exact result concerns the stated finite cost model. The mathematical meaning of costs and deletion fairness is fixed by the assumptions.",
+    "empirical_support": "No evidence about real workloads or people's preferences is inferred. Using the model operationally would require separate empirical and institutional review."
+  },
+  "attribution": {
+    "original_authors": [
+      "Wentao He",
+      "Biaoshuai Tao",
+      "Jugal Garg",
+      "Aniket Murhekar"
+    ],
+    "citation": "He and Tao (2026), arXiv:2606.08872v1, Sections 5–6; Garg and Murhekar (2026), AAAI 40(20), 16922–16929, doi:10.1609/aaai.v40i20.38738. The five-agent pilot is curator-proposed.",
+    "curator_credit": "Compiled for Theory Research Atlas with AI assistance."
+  },
+  "judgments": {
+    "difficulty": {
+      "rating": "high",
+      "basis": "The complete target is an unresolved existence problem. A bounded search does not establish the general statement.",
+      "evidence": "editorial_estimate_not_measured"
+    },
+    "correctness": {
+      "status": "no_project_answer",
+      "basis": "The literature supports the question; no project answer has been submitted for review."
+    },
+    "novelty": {
+      "status": "requires_future_literature_review",
+      "basis": "The source poses common bi-valued existence for more than four agents. The selected pilot and future outputs require separate novelty review."
+    },
+    "significance": {
+      "rating": "high",
+      "basis": "This restricted cost model isolates a surviving exact-fairness question after general additive chores were shown to fail. A small counterexample or a structural extension would clarify the true boundary."
+    }
+  },
+  "status_search": {
+    "queries": [],
+    "checked_sources": [
+      "SRC-MODEL-202",
+      "SRC-MODEL-206"
+    ],
+    "result": "He and Tao explicitly leave the more-than-four-agent common bi-valued case open. Their r≤2 case works for any n; m≤2n is also known. No later general resolution was located. Particular bounded pilots may already be known.",
+    "limitations": "Dated primary-source checks and targeted later-work searches cannot establish that no unpublished or newly posted solution exists. Refresh the literature before claiming progress."
+  }
+}

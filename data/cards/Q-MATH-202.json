@@ -1,0 +1,190 @@
+{
+  "id": "Q-MATH-202",
+  "title": "A triangle-free 40-vertex graph with independence number at most nine",
+  "domain": "Ramsey theory",
+  "cross_domains": [
+    "Algorithms"
+  ],
+  "kind": "literature_open",
+  "statement": "Does a finite simple undirected graph G on exactly 40 vertices exist with no triangle and no independent set of ten vertices? A positive witness proves R(3,10)=41; a complete impossibility proof proves R(3,10)=40, using the established interval 40 <= R(3,10) <= 41.",
+  "source_ids": [
+    "SRC-MATH-001",
+    "SRC-MATH-202",
+    "SRC-MATH-206"
+  ],
+  "source_locator": "DS1 revision 18, Table Ia and Section 2.1(d); Angeltveit, Theorem 1.1 and Section 7.",
+  "status": "open_after_scoped_check",
+  "status_basis": "The 2024 theorem and the survey dated 2026-04-24 leave exactly two values. A scoped search for a later resolution found none in authoritative sources as of 2026-10-14.",
+  "last_checked": "2026-10-14",
+  "curator_origin": false,
+  "duplicate_key": "a-triangle-free-40-vertex-graph-with-independence-number-at-most-nine",
+  "proposed_card": true,
+  "primary_domain_id": "MATH.COMB.EXT",
+  "cross_domain_ids": [
+    "CS.ALG"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "relations": [],
+  "experimental_dependency": "none_for_formal_task",
+  "revision_history": [],
+  "epistemic_layers": {
+    "formal_validity": "Only a checked finite witness or a proof covering the declared space establishes the mathematical claim.",
+    "empirical_support": "No physical model, empirical data or experiment is needed."
+  },
+  "judgments": {
+    "difficulty": {
+      "rating": "high",
+      "basis": "The unrestricted target is a research frontier; a bounded trial has no assured outcome.",
+      "evidence": "editorial_estimate_not_measured"
+    },
+    "correctness": {
+      "status": "no_project_answer",
+      "basis": "No project candidate solution has been submitted or independently reviewed."
+    },
+    "novelty": {
+      "status": "requires_future_literature_review",
+      "basis": "Future results must be checked against live sources and existing computational records."
+    },
+    "significance": {
+      "rating": "high",
+      "basis": "A positive witness resolves R(3,10), using the established upper bound."
+    }
+  },
+  "plain_summary": "One 40-vertex graph could decide which of two remaining values is R(3,10). Checking such a graph is easier than proving that every graph fails.",
+  "assumptions": [
+    "The graph is simple, undirected and has exactly 40 vertices.",
+    "An independent set contains no graph edge; it is a clique in the complement.",
+    "No degree pattern, automorphism or source seed is assumed in the unrestricted statement."
+  ],
+  "scope": "The remaining existence question for R(3,10). The proposed first milestone is a curator-selected neighborhood search, without a claim that those neighborhoods are themselves unsolved.",
+  "target": "Construct a triangle-free 40-vertex graph with independence number at most nine. Proposed milestone: select at most 20 attributed 39-vertex source graphs, add one vertex with free adjacency, and permit at most four edge toggles among the original vertices.",
+  "success_criteria": [
+    "Supply a complete graph serialization passing independent triangle and independent-ten-set checks.",
+    "Identify the seeds before searching; count edge changes on unordered pairs among the original 39 vertices only.",
+    "Cap the proposed trial at 8 CPU-hours and 16 GiB RAM. Retain witnesses, checked certificates and unresolved cases; these caps are planning choices, not measured performance.",
+    "UNSAT within selected seed neighborhoods is only a restricted result. Universal nonexistence requires an exhaustive decomposition covering all 40-vertex graphs."
+  ],
+  "known_results": [
+    "Angeltveit's theorem, retained by the 2026 survey, leaves R(3,10) in {40,41}.",
+    "The survey describes a very large partial collection at order 39; a small selected seed set is not exhaustive.",
+    "Survey Section 2.1(i) excludes a lower-bound improvement from a circulant graph at this order."
+  ],
+  "prerequisites": [
+    "Ramsey graphs",
+    "Exact clique and independent-set algorithms",
+    "SAT certificates",
+    "Reproducible seed selection"
+  ],
+  "significance": "A positive witness determines an exact Ramsey number. A failed neighborhood search has narrower value and needs a novelty check before being called progress.",
+  "requirements": {
+    "experiment": "None.",
+    "data": "Attributed 39-vertex graph files from the author collection or paper records; validate and identify every selected seed.",
+    "compute": "Proposed cap: 8 CPU-hours and 16 GiB RAM, at most 20 seeds. There are 780 possible edges. Triangle checking is small; excluding independent ten-sets needs exact branch-and-bound or a checked SAT certificate. No runtime guarantee is made.",
+    "theoretical_assumptions": "Finite graph theory and the cited 40-to-41 interval. Every seed or edit restriction belongs only to the proposed trial."
+  },
+  "ai_assessment": {
+    "priority": "preparation_required",
+    "rationale": "There is a decisive compact witness, but existing extensive searches make an arbitrary small neighborhood uncertain. Validate the checker and justify seed selection first.",
+    "dimensions": {
+      "clarity": {
+        "rating": "high",
+        "reason": "Fixed order and two forbidden substructures specify the task."
+      },
+      "decomposability": {
+        "rating": "high",
+        "reason": "Seed validation, encoding, search and certification separate."
+      },
+      "methods": {
+        "rating": "high",
+        "reason": "The primary paper and survey describe gluing, enumeration and constructions."
+      },
+      "search_or_symbolic": {
+        "rating": "high",
+        "reason": "Adjacency variables admit exact finite constraints."
+      },
+      "checkability": {
+        "rating": "medium",
+        "reason": "The graph is small, but ruling out independent ten-sets requires exact computation."
+      },
+      "expertise": {
+        "rating": "high",
+        "reason": "Useful restrictions require Ramsey and exhaustive-search expertise."
+      },
+      "significance": {
+        "rating": "high",
+        "reason": "A witness settles the remaining two-valued exact-number question."
+      },
+      "verification_difficulty": {
+        "rating": "medium",
+        "reason": "Positive verification is bounded; global nonexistence is much harder."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "No model or proposed neighborhood has been tested. Published computations support the relevance of search, not the likelihood of success under this cap.",
+    "assessment_date": "2026-10-14",
+    "model_scope": "No named model evaluated; assumes tool-using AI with graph algorithms, exact SAT formulations and certificate handling.",
+    "evidence_refs": []
+  },
+  "methods": [
+    "Seed extension with a declared edge-edit budget",
+    "SAT with forbidden-subset constraints",
+    "Lazy forbidden-subset cuts",
+    "Exact clique search in the complement"
+  ],
+  "method_tags": [
+    "construction",
+    "bounds",
+    "finite_search",
+    "certificate_checking"
+  ],
+  "validation_tags": [
+    "exact_computation",
+    "pure_proof",
+    "public_data"
+  ],
+  "obstacles": [
+    "Selected seeds cover only a small part of the known population.",
+    "An independent-set routine that stops early cannot certify the bound.",
+    "Unsound symmetry breaking can remove valid graphs.",
+    "Unverified historical web claims are not evidence of an exact value."
+  ],
+  "validation": {
+    "steps": [
+      "Parse the witness independently and check order, symmetry and zero diagonal.",
+      "Enumerate triangles independently.",
+      "Use exact complement clique search or a separately checked UNSAT certificate to exclude a ten-clique.",
+      "Check the graph directly, not just the searcher's clauses.",
+      "Report restricted negative results with their seed list and edit radius."
+    ],
+    "human_review_difficulty": "Moderate for a graph with independent code and certificates; very high for universal nonexistence.",
+    "statement_alignment": "A 40-vertex witness plus the established upper bound gives 41. A failed restricted search gives no exact Ramsey value."
+  },
+  "known_attempts": [
+    "Angeltveit's Section 7 contains a partial order-39 census; Exoo's portal links a lower-bound graph. Neither is evidence about an AI system's measured ability."
+  ],
+  "unresolved_checks": [
+    "Identify and validate seed files before a trial.",
+    "Check whether selected neighborhoods have already been exhausted.",
+    "Refresh the survey and primary result before an exact-value claim."
+  ],
+  "attribution": {
+    "original_authors": [
+      "Vigleik Angeltveit",
+      "Geoffrey Exoo",
+      "Stanisław P. Radziszowski"
+    ],
+    "citation": "Angeltveit (2024), R(3,10) <= 41, arXiv:2401.00392v2, Theorem 1.1 and Section 7; Radziszowski (2026), Small Ramsey Numbers, revision 18, Section 2.1; Exoo, Ramsey Numbers.",
+    "curator_credit": "Compiled for Theory Research Atlas with AI assistance."
+  },
+  "status_search": {
+    "queries": [],
+    "checked_sources": [
+      "SRC-MATH-001",
+      "SRC-MATH-202",
+      "SRC-MATH-206"
+    ],
+    "result": "The primary result and April 2026 survey leave two values; the scoped October resolution check found no authoritative update.",
+    "limitations": "Unpublished searches and every subsequent preprint have not been audited. Seed-neighborhood novelty is unverified."
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "id": "Q-MODEL-103",
+  "title": "Verify the Ornstein–Uhlenbeck transition law and equilibrium",
+  "domain": "Statistical physics",
+  "cross_domains": [
+    "Stochastic processes",
+    "Molecular statistical mechanics"
+  ],
+  "kind": "known_result_calibration",
+  "statement": "For the one-dimensional Itô process dX_t=−a X_t dt+sqrt(2D)dW_t, with a,D>0 and deterministic X_0=x_0, reproduce the Gaussian transition law with mean x_0 exp(−at) and variance (D/a)(1−exp(−2at)). Verify its Fokker–Planck equation, normalization, weak initial limit, Gaussian composition law and stationary density proportional to exp(−a x^2/(2D)). Check zero stationary probability current and detailed balance.",
+  "source_ids": [
+    "SRC-MODEL-105",
+    "SRC-MODEL-106"
+  ],
+  "source_locator": "Bazant lecture 14, pp.4–5 and Appendix A.1–A.2, pp.7–8; Tong, Section 3.2.2, equations (3.28)–(3.31).",
+  "status": "known_result",
+  "status_basis": "The transition and equilibrium formulas are established results in the cited lectures. The verification checklist is a curator-selected calibration task.",
+  "last_checked": "2026-10-14",
+  "curator_origin": true,
+  "duplicate_key": "ou-restoring-diffusion-kernel-equilibrium-calibration",
+  "proposed_card": true,
+  "primary_domain_id": "PHYS.STAT",
+  "cross_domain_ids": [
+    "PROB.PROCESS",
+    "CHEM.STAT"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "plain_summary": "Check a standard random process that is pulled toward the origin while experiencing noise. Its exact probability distribution offers a controlled way to verify stochastic equations, stationary distributions and equilibrium claims.",
+  "assumptions": [
+    "W_t is standard one-dimensional Brownian motion and the SDE uses the Itô convention.",
+    "a and D are fixed positive real constants; x_0 is deterministic; time is nonnegative and space is the entire real line.",
+    "The drift is restoring, −a x, and the noise coefficient is sqrt(2D); there are no boundaries, absorbing states or time-dependent parameters.",
+    "Use p_t(y|x) for the transition density from x to y; detailed balance means pi(x)p_t(y|x)=pi(y)p_t(x|y) for the stationary density pi."
+  ],
+  "scope": "The exact scalar Ornstein–Uhlenbeck model with additive Gaussian noise. No interacting-particle model, colored noise, parameter fitting or physical measurement.",
+  "target": "A matched SDE and density derivation, plus explicit checks of normalization, the weak initial condition, composition, stationarity and detailed balance.",
+  "success_criteria": [
+    "Recover the mean and variance from the integrating-factor representation and the Itô isometry.",
+    "Verify ∂_t p=a ∂_y(y p)+D ∂_yy p for t>0, with the same drift and noise normalization as the SDE.",
+    "Show normalization, nonnegative density, weak convergence to delta_x at t down to zero and Gaussian kernel composition for positive times.",
+    "Normalize the stationary Gaussian with variance D/a, check zero current j(y)=−a y pi(y)−D pi'(y), and verify detailed balance.",
+    "Explain that agreement with the mathematical equilibrium distribution does not validate a physical noise model."
+  ],
+  "known_results": [
+    "The inspected MIT lecture gives the transition mean and variance through both Fourier methods and a stochastic integrating factor.",
+    "The current form of the Fokker–Planck equation connects conservative drift with an equilibrium density under the stated boundary assumptions."
+  ],
+  "prerequisites": [
+    "Gaussian densities and convolution.",
+    "Basic Itô integration, deterministic integrating factors and the Itô isometry.",
+    "Fokker–Planck equations, probability current and weak convergence."
+  ],
+  "significance": "A continuous stochastic benchmark with several independent checks. It tests equation translation and equilibrium reasoning that also appear in molecular models, while leaving physical adequacy to separate evidence.",
+  "relations": [
+    {
+      "type": "method_preparation",
+      "target": "Q-MODEL-106",
+      "explanation": "The harmonic restoring drift provides a reference before checking the equilibrium current for a nonlinear quartic potential. Its explicit transition kernel does not transfer to that nonlinear case."
+    }
+  ],
+  "requirements": {
+    "experiment": "None for the stochastic theorem. A physical Brownian-motion interpretation would require measurements and justification of the noise and overdamped approximations.",
+    "data": "No empirical observations. All inputs are symbolic model constants and initial conditions.",
+    "compute": "Symbolic differentiation, Gaussian integration and a few exact identities. A local computer algebra environment is a plausible resource class; no simulation campaign, runtime or cost measurement is required or reported.",
+    "theoretical_assumptions": "Standard Brownian increments, Itô dynamics, constant positive coefficients and an unbounded state space with Gaussian decay."
+  },
+  "ai_assessment": {
+    "priority": "priority_trial",
+    "rationale": "The closed-form kernel can be checked by both stochastic and differential-equation routes. The main value is whether a generated derivation keeps its conventions and limiting statements consistent.",
+    "dimensions": {
+      "clarity": {
+        "rating": "high",
+        "reason": "The SDE, parameters, initial condition and required identities are explicit."
+      },
+      "decomposability": {
+        "rating": "high",
+        "reason": "Moments, density, initial limit, stationarity and reversibility have separate checks."
+      },
+      "methods": {
+        "rating": "high",
+        "reason": "The opened lectures provide two derivations and equilibrium background."
+      },
+      "search_or_symbolic": {
+        "rating": "high",
+        "reason": "Symbolic differentiation and Gaussian integral identities are a strong fit."
+      },
+      "checkability": {
+        "rating": "high",
+        "reason": "The main checks reduce to explicit formulas, with a short analytic argument for the weak limit."
+      },
+      "expertise": {
+        "rating": "medium",
+        "reason": "A stochastic-analysis reviewer should check the Itô and limiting arguments."
+      },
+      "significance": {
+        "rating": "medium",
+        "reason": "A useful continuous-model calibration, not a new stochastic theorem."
+      },
+      "verification_difficulty": {
+        "rating": "medium",
+        "reason": "Algebra is compact; weak convergence and detailed balance cannot be replaced by plotted densities."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "No AI trial was run. Correctly recalling a Gaussian formula is weaker than satisfying the full verification checklist.",
+    "assessment_date": "2026-10-14",
+    "model_scope": "No named model evaluated; assumes tool-using AI with symbolic algebra, basic stochastic calculus and human review of probability arguments.",
+    "evidence_refs": []
+  },
+  "methods": [
+    "Integrating factors and Itô isometry",
+    "Fokker–Planck verification",
+    "Gaussian convolution",
+    "Stationary-current and reversibility checks"
+  ],
+  "method_tags": [
+    "symbolic_derivation",
+    "proof",
+    "model_analysis"
+  ],
+  "validation_tags": [
+    "pure_proof",
+    "exact_computation"
+  ],
+  "obstacles": [
+    "Losing the factor of two in the noise coefficient or using an anti-restoring drift.",
+    "Confusing standard deviation with variance in the Gaussian normalization.",
+    "Treating a delta initial condition as a pointwise limit of densities.",
+    "Inferring physical fluctuation–dissipation relations from arbitrary a and D without a model interpretation."
+  ],
+  "validation": {
+    "steps": [
+      "Derive the stochastic integrating-factor solution and compute its first two moments.",
+      "Insert the resulting Gaussian into the forward equation and check normalization analytically.",
+      "Prove the weak initial limit against bounded continuous test functions and verify the Gaussian composition identity.",
+      "Compute the normalized stationary density, boundary decay and current.",
+      "Verify detailed balance by comparing both sides as functions of the two positions and time.",
+      "Have a reviewer compare all conventions with the source SDE and its Appendix A.2, rather than relying on imperfect extracted formula text."
+    ],
+    "human_review_difficulty": "Moderate: formulas are explicit, but the probability-space assumptions and weak limit need a reviewer familiar with stochastic processes.",
+    "statement_alignment": "The verified kernel must belong to the exact SDE written here. Numerical paths or moment agreement alone do not establish the density, semigroup or equilibrium interpretation."
+  },
+  "known_attempts": [
+    "MIT lecture 14 contains the known Fokker–Planck and stochastic-integral derivations; Appendix A.2 credits Geraint Jones.",
+    "Tong's kinetic-theory notes develop the probability-current and equilibrium interpretation."
+  ],
+  "unresolved_checks": [
+    "Select a symbolic checker and specify which analytic steps remain for human review.",
+    "If a physical application is proposed, separately identify mobility, temperature and the evidence supporting the noise model."
+  ],
+  "attribution": {
+    "original_authors": [
+      "Martin Z. Bazant (lecturer)",
+      "Kirill Titievsky (scribe)",
+      "Geraint Jones (stochastic derivation)",
+      "David Tong (supporting exposition)"
+    ],
+    "citation": "Bazant, M. Z., lecture 14, Applications in Statistical Mechanics, notes by K. Titievsky, March 29, 2005, Appendix A.2 by G. Jones, March 30, 2005; MIT OpenCourseWare 18.366 Fall 2006. Tong, D. (2012). Kinetic Theory, Section 3: Stochastic Processes.",
+    "curator_credit": "Compiled for Theory Research Atlas with AI assistance."
+  },
+  "status_search": {
+    "queries": [],
+    "checked_sources": [
+      "SRC-MODEL-105",
+      "SRC-MODEL-106"
+    ],
+    "result": "The transition law and equilibrium relation are established in the opened lecture texts. This is a calibration target, with no open-problem status.",
+    "limitations": "No project derivation, symbolic verification or stochastic simulation has been performed. The model's empirical validity was not assessed."
+  },
+  "epistemic_layers": {
+    "formal_validity": "The result is an exact theorem about the declared scalar Itô process and its transition density.",
+    "empirical_support": "No claim is made that a physical particle, molecule or measurement follows this SDE; such use requires independent evidence about drift, noise and time scales."
+  },
+  "judgments": {
+    "difficulty": {
+      "rating": "medium",
+      "basis": "The closed form is elementary, but the full checklist spans stochastic integrals, a PDE, weak convergence and reversibility.",
+      "evidence": "editorial_estimate_not_measured"
+    },
+    "correctness": {
+      "status": "no_project_answer",
+      "basis": "The cited sources support the mathematical target. No project answer has been submitted or independently reviewed."
+    },
+    "novelty": {
+      "status": "not_claimed",
+      "basis": "A known-result calibration with curator-selected checks; no new theorem or empirical finding is claimed."
+    },
+    "significance": {
+      "rating": "medium",
+      "basis": "A continuous stochastic benchmark with several independent checks. It tests equation translation and equilibrium reasoning that also appear in molecular models, while leaving physical adequacy to separate evidence."
+    }
+  },
+  "experimental_dependency": "none_for_formal_task",
+  "revision_history": []
+}

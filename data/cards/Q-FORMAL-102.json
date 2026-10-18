@@ -1,0 +1,184 @@
+{
+  "id": "Q-FORMAL-102",
+  "title": "Verify the equal-block language of a locally constrained tree-adjoining grammar",
+  "domain": "Formal language and grammar theory",
+  "cross_domains": [
+    "Parsing algorithms",
+    "Proof and formalization"
+  ],
+  "kind": "known_result_calibration",
+  "statement": "Reproduce the nonempty string-language claim in Vijay-Shankar and Joshi, Example 2.5: the locally constrained TAG generates exactly a^n b^n c^n for integers n >= 1 when empty yields are excluded. Transcribe its elementary trees, preserve null-adjoining restrictions at auxiliary roots and feet, prove both language inclusions, and provide derivations for n = 1,...,6. Record separately whether the initial tree admits the empty word. The finite example range is curator chosen.",
+  "source_ids": [
+    "SRC-FORMAL-103"
+  ],
+  "source_locator": "Section 2.1 and Example 2.5, printed pages 84-85",
+  "status": "known_result",
+  "status_basis": "The source presents the equal-block construction with local adjoining constraints. This reproduces that construction, not an unrestricted-TAG claim or an empirical claim about language.",
+  "last_checked": "2026-10-14",
+  "curator_origin": true,
+  "duplicate_key": "locally-constrained-tag-equal-three-block-language",
+  "proposed_card": true,
+  "primary_domain_id": "COG.LANG",
+  "cross_domain_ids": [
+    "CS.ALG",
+    "LOGIC.PROOF"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "plain_summary": "A small formal grammar coordinates three equal blocks of symbols. Making its local restrictions explicit lets readers check strings and derivations without confusing a grammar model with evidence about human language.",
+  "assumptions": [
+    "Use ordered rooted elementary trees and the adjoining operation defined in Section 2.1 of the source.",
+    "An auxiliary tree has a distinguished foot with the same nonterminal as its root; local restrictions follow the source's inheritance rules.",
+    "Read terminal yields left to right, with distinct symbols a, b, c; record the empty word separately.",
+    "The target is weak generative capacity of this grammar, not equivalence of tree structures or psychological models."
+  ],
+  "scope": "One fixed grammar, Example 2.5. The proof concerns all nonempty yields; six short derivations are finite illustrations. Unrestricted label matching is not an acceptable replacement for local adjoining constraints.",
+  "target": "A faithful grammar transcription, both directions of the language-equality proof, and node-addressed derivation records.",
+  "success_criteria": [
+    "Identify elementary trees, terminal order, foot nodes and every local restriction against the original diagram.",
+    "Prove that every completed nonempty derivation yields a^n b^n c^n for some n >= 1.",
+    "Prove that every such string has a permitted derivation; a finite sample is insufficient.",
+    "Record derivations for n = 1 through 6 with elementary-tree identifiers and adjoining addresses.",
+    "State the empty-word convention separately and explain why dropping local restrictions changes the task."
+  ],
+  "known_results": [
+    "Example 2.5 supplies a locally constrained TAG for equal ordered blocks.",
+    "The preceding source discussion separates this constrained construction from the earlier unrestricted adjoining definition.",
+    "The paper distinguishes string-language equality from equality of assigned structural descriptions."
+  ],
+  "prerequisites": [
+    "Ordered trees, terminal yields and structural induction.",
+    "Adjoining versus substitution and context-free rewriting.",
+    "Weak and strong generative capacity; the role of formal grammars in linguistic modeling."
+  ],
+  "significance": "Provides a small benchmark where formal-language semantics matter. It supports later grammar comparisons while separating expressibility from processing and acquisition claims.",
+  "relations": [],
+  "requirements": {
+    "experiment": "None for language equality. Processing, acceptability and acquisition claims need independent linguistic or cognitive evidence.",
+    "data": "Original elementary-tree diagrams and local-constraint definitions; no corpus or participant data.",
+    "compute": "Small symbolic trees and six derivation records; no parser training. Local execution should suffice for this bounded presentation, but nothing has been timed. General grammar induction or exhaustive unrestricted derivation search would be different tasks.",
+    "theoretical_assumptions": "The exact adjoining semantics determine the language. Successful formal reproduction would not establish psychological realism."
+  },
+  "ai_assessment": {
+    "priority": "preparation_required",
+    "rationale": "Symbolic assistance fits the inductive target and short examples, but a reviewer should first approve transcription of the scanned grammar and its node restrictions.",
+    "dimensions": {
+      "clarity": {
+        "rating": "high",
+        "reason": "A specific grammar and two language inclusions define success."
+      },
+      "decomposability": {
+        "rating": "high",
+        "reason": "Transcription, derivation checking and inductive proof are separable."
+      },
+      "methods": {
+        "rating": "high",
+        "reason": "The source construction and tree induction provide standard methods."
+      },
+      "search_or_symbolic": {
+        "rating": "high",
+        "reason": "Node-addressed trees allow explicit local checks."
+      },
+      "checkability": {
+        "rating": "medium",
+        "reason": "Short derivations are easy to inspect; language equality still requires proof."
+      },
+      "expertise": {
+        "rating": "medium",
+        "reason": "A formal-language reviewer must confirm TAG conventions and weak versus strong equivalence."
+      },
+      "significance": {
+        "rating": "medium",
+        "reason": "The known result is useful for precise grammar comparisons."
+      },
+      "verification_difficulty": {
+        "rating": "medium",
+        "reason": "A parser may accept sample strings while implementing the wrong constraints."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "No transcription, parser or proof has been executed or reviewed. Scanned notation and differing TAG conventions are the main preparation risks.",
+    "assessment_date": "2026-10-14",
+    "model_scope": "No named model evaluated; assumes a tool-using AI that can read mathematical sources, produce inspectable symbolic work and code, and work with a human domain reviewer.",
+    "evidence_refs": []
+  },
+  "methods": [
+    "Grammar transcription",
+    "Inductive proof",
+    "Derivation certificate checking"
+  ],
+  "method_tags": [
+    "proof",
+    "formalization",
+    "construction",
+    "certificate_checking"
+  ],
+  "validation_tags": [
+    "pure_proof",
+    "exact_computation"
+  ],
+  "obstacles": [
+    "Treating a foot as a terminal or allowing adjoining at a prohibited node.",
+    "Checking sample yields instead of universal language inclusions.",
+    "Confusing string equality with tree-set equality.",
+    "Turning a formal example into a claim about human language processing."
+  ],
+  "validation": {
+    "steps": [
+      "Compare every tree and constraint directly with Example 2.5.",
+      "Check short derivations with a rule checker separate from the generator.",
+      "Review the inductive invariant and construction for arbitrary positive n.",
+      "Check the empty-word case and language-equality scope."
+    ],
+    "human_review_difficulty": "Moderate: the small trees are inspectable, but local restrictions and their inheritance require formal-language expertise.",
+    "statement_alignment": "This reproduces one constrained grammar's nonempty string language. It does not establish the same claim for unrestricted TAGs, classify TAG languages or test a cognitive theory."
+  },
+  "known_attempts": [
+    "The original paper presents the construction and example adjoining steps. No project derivation checker or model trial exists."
+  ],
+  "unresolved_checks": [
+    "A human reader should approve the scanned tree transcription and empty-word convention before implementation.",
+    "Any comparison with a modern TAG library must specify how it encodes local constraints."
+  ],
+  "attribution": {
+    "original_authors": [
+      "K. Vijay-Shankar",
+      "Aravind K. Joshi"
+    ],
+    "citation": "Vijay-Shankar, K., and Joshi, A. K. (1985), Some Computational Properties of Tree Adjoining Grammars, Proceedings of the 23rd Annual Meeting of the ACL, pages 82-93, Section 2.1 and Example 2.5. DOI: 10.3115/981210.981221.",
+    "curator_credit": "Compiled for Theory Research Atlas with AI assistance."
+  },
+  "status_search": {
+    "checked_sources": [
+      "SRC-FORMAL-103"
+    ],
+    "result": "The original construction, local-constraint definitions and archive bibliographic record were inspected. This is an established construction selected for reproduction.",
+    "limitations": "This is not an open-problem status claim. An executable transcription still needs human review; empirical adequacy and equivalence to modern grammar libraries were not checked.",
+    "queries": []
+  },
+  "epistemic_layers": {
+    "formal_validity": "The proof concerns a precisely interpreted tree-rewriting system and terminal yields.",
+    "empirical_support": "Equal-block expressibility alone supplies no evidence about language distributions, human memory or acquisition."
+  },
+  "revision_history": [],
+  "experimental_dependency": "none_for_formal_task",
+  "judgments": {
+    "difficulty": {
+      "rating": "medium",
+      "basis": "Symbolic assistance fits the inductive target and short examples, but a reviewer should first approve transcription of the scanned grammar and its node restrictions.",
+      "evidence": "editorial_estimate_not_measured"
+    },
+    "correctness": {
+      "status": "no_project_answer",
+      "basis": "The cited literature supports the calibration target. No project answer has been submitted for review."
+    },
+    "novelty": {
+      "status": "not_claimed",
+      "basis": "This is a known-result calibration. The chosen bounds and presentation are not claims of scientific novelty."
+    },
+    "significance": {
+      "rating": "medium",
+      "basis": "Provides a small benchmark where formal-language semantics matter. It supports later grammar comparisons while separating expressibility from processing and acquisition claims."
+    }
+  }
+}

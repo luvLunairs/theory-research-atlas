@@ -1,0 +1,191 @@
+{
+  "id": "Q-MATH-204",
+  "title": "Improve the lower bound for R(4,6) with a 36-vertex graph",
+  "domain": "Ramsey theory",
+  "cross_domains": [
+    "Algorithms"
+  ],
+  "kind": "literature_open",
+  "statement": "Does there exist a finite simple undirected graph on exactly 36 vertices having neither a clique of four vertices nor an independent set of six vertices? A witness proves R(4,6) >= 37; ruling out all such graphs would prove R(4,6)=36.",
+  "source_ids": [
+    "SRC-MATH-001",
+    "SRC-MATH-203",
+    "SRC-MATH-206"
+  ],
+  "source_locator": "DS1 revision 18, Table Ia for the lower bound and Table Ib for the improved upper bound; Exoo's R(4,6) collection.",
+  "status": "open_after_scoped_check",
+  "status_basis": "The 2026 survey gives 36 <= R(4,6) <= 40, with the upper bound in Table Ib rather than the older Table Ia entry. The author collection supplies 35-vertex witnesses. No authoritative later resolution was located in a scoped check on 2026-10-14.",
+  "last_checked": "2026-10-14",
+  "curator_origin": false,
+  "duplicate_key": "improve-the-lower-bound-for-r-4-6-with-a-36-vertex-graph",
+  "proposed_card": true,
+  "primary_domain_id": "MATH.COMB.EXT",
+  "cross_domain_ids": [
+    "CS.ALG"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "relations": [],
+  "experimental_dependency": "none_for_formal_task",
+  "revision_history": [],
+  "epistemic_layers": {
+    "formal_validity": "Only a checked finite witness or a proof covering the declared space establishes the mathematical claim.",
+    "empirical_support": "No physical model, empirical data or experiment is needed."
+  },
+  "judgments": {
+    "difficulty": {
+      "rating": "high",
+      "basis": "The unrestricted target is a research frontier; a bounded trial has no assured outcome.",
+      "evidence": "editorial_estimate_not_measured"
+    },
+    "correctness": {
+      "status": "no_project_answer",
+      "basis": "No project candidate solution has been submitted or independently reviewed."
+    },
+    "novelty": {
+      "status": "requires_future_literature_review",
+      "basis": "Future results must be checked against live sources and existing computational records."
+    },
+    "significance": {
+      "rating": "medium",
+      "basis": "A verified improvement would resolve a finite case or tighten a recognized extremal bound."
+    }
+  },
+  "plain_summary": "Find a graph on 36 vertices in which neither four vertices are all joined nor six vertices are all mutually unjoined. Its complete correctness check involves fewer than two million small subsets.",
+  "assumptions": [
+    "The graph is simple, undirected and has exactly 36 vertices.",
+    "A K_4 means all six edges among four vertices are present; an independent six-set means all fifteen edges among six vertices are absent.",
+    "An optional edit neighborhood is not assumed to contain every possible solution."
+  ],
+  "scope": "A one-vertex improvement of the constructive bound for R(4,6). The proposed first milestone uses public 35-vertex graphs as seeds; the novelty of that restricted search is not established.",
+  "target": "Construct a 36-vertex (4,6)-graph. Curator-proposed milestone: use Exoo's 37 listed 35-vertex graphs, add one freely adjacent vertex, and allow at most four changes to edges among the original vertices.",
+  "success_criteria": [
+    "Supply a complete 36-vertex adjacency record with no K_4 and no independent six-set, checked by an independent program.",
+    "Identify and validate the 37 seeds; define the edit budget on unordered pairs among the original 35 vertices.",
+    "Cap the proposed search at 8 CPU-hours and 16 GiB RAM. These are resource limits for an experiment, not an estimate of the cost of resolving the problem.",
+    "Preserve checked witnesses and restricted UNSAT certificates. A timeout or a failed neighborhood search does not imply R(4,6)=36."
+  ],
+  "known_results": [
+    "The 2026 survey gives 36 <= R(4,6) <= 40; its stronger upper bound appears in Table Ib.",
+    "Exoo's collection contains 37 constructions at order 35, rather than an exhaustive classification of all such graphs.",
+    "The survey excludes an improved lower bound from circulant graphs at this order, so a cyclic-only restriction is unsuitable."
+  ],
+  "prerequisites": [
+    "Ramsey graph definitions",
+    "Exact finite graph checking",
+    "SAT or constraint optimization",
+    "Reproducible graph files"
+  ],
+  "significance": "A valid 36-vertex graph improves a longstanding lower bound by one. A full nonexistence proof would determine the number exactly, but is far beyond the proposed local search.",
+  "requirements": {
+    "experiment": "None.",
+    "data": "The 37 attributed graph files linked by SRC-MATH-203. Their source and content identifiers should accompany any extension result.",
+    "compute": "Proposed cap: 8 CPU-hours and 16 GiB RAM for all seeds together. The witness has 630 possible edges; independent brute-force verification examines C(36,4)=58,905 four-sets and C(36,6)=1,947,792 six-sets. Search and global nonexistence can be far more expensive.",
+    "theoretical_assumptions": "Ordinary finite graph theory. The seed list and four-edge radius define a curator-proposed restricted experiment only."
+  },
+  "ai_assessment": {
+    "priority": "priority_trial",
+    "rationale": "The proposed bounded construction trial has reusable attributed seeds and a transparent independent checker. The recommendation concerns reviewability and controlled scope, not an expectation of solving the full problem.",
+    "dimensions": {
+      "clarity": {
+        "rating": "high",
+        "reason": "Fixed vertex count and two forbidden subsets are explicit."
+      },
+      "decomposability": {
+        "rating": "high",
+        "reason": "Seed validation, extension generation and witness verification are independent components."
+      },
+      "methods": {
+        "rating": "high",
+        "reason": "Published constructions and a maintained survey support concrete graph-search approaches."
+      },
+      "search_or_symbolic": {
+        "rating": "high",
+        "reason": "The problem has a direct Boolean encoding and exact local predicates."
+      },
+      "checkability": {
+        "rating": "high",
+        "reason": "Every forbidden four-set and six-set can be checked by a separate small program."
+      },
+      "expertise": {
+        "rating": "medium",
+        "reason": "Implementing the checker is elementary; useful search design needs combinatorial experience."
+      },
+      "significance": {
+        "rating": "medium",
+        "reason": "A witness advances a recognized small Ramsey bound."
+      },
+      "verification_difficulty": {
+        "rating": "low",
+        "reason": "A positive graph has a transparent exhaustive checker; this rating does not apply to a global impossibility claim."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "No model or seed neighborhood has been tested. Existing expert searches may already have covered these neighborhoods, and success within the proposed cap is unknown.",
+    "assessment_date": "2026-10-14",
+    "model_scope": "No named model evaluated; assumes tool-using AI with exact graph algorithms, SAT encodings and reproducible solver inputs.",
+    "evidence_refs": []
+  },
+  "methods": [
+    "One-vertex seed extension with bounded edge changes",
+    "SAT or local search with forbidden-subgraph penalties",
+    "Independent subset enumeration",
+    "Checked certificates for explicitly restricted neighborhoods"
+  ],
+  "method_tags": [
+    "construction",
+    "bounds",
+    "finite_search",
+    "certificate_checking"
+  ],
+  "validation_tags": [
+    "exact_computation",
+    "pure_proof",
+    "public_data"
+  ],
+  "obstacles": [
+    "The known seed collection is small and not exhaustive.",
+    "Search may rediscover an already checked neighborhood.",
+    "The complementary color convention can be accidentally reversed.",
+    "A wrong proof of symmetry breaking can invalidate a negative result."
+  ],
+  "validation": {
+    "steps": [
+      "Independently parse and validate the 36-vertex simple graph.",
+      "Enumerate all four-subsets and reject complete ones.",
+      "Enumerate all six-subsets and reject independent ones.",
+      "Confirm the lower-bound implication is R(4,6) >= 37, not >= 36.",
+      "For a negative neighborhood result, check the encoding, seeds, edit radius and certificate separately."
+    ],
+    "human_review_difficulty": "Low for a positive witness; high for an unrestricted impossibility proof. Restricted failures need precise scope and provenance.",
+    "statement_alignment": "A 36-vertex witness improves the Ramsey lower bound to 37. Only ruling out every 36-vertex graph would prove the exact value 36."
+  },
+  "known_attempts": [
+    "Exoo publishes 37 order-35 constructions; the 2026 survey cites improved upper-bound computations. These records motivate a finite construction task without implying AI performance."
+  ],
+  "unresolved_checks": [
+    "Fetch and independently validate the individual seed files before a trial.",
+    "Check whether four-edge extension neighborhoods have already been exhausted.",
+    "Confirm the live survey bounds before describing a result as an improvement."
+  ],
+  "attribution": {
+    "original_authors": [
+      "Geoffrey Exoo",
+      "Vigleik Angeltveit",
+      "Brendan McKay",
+      "Stanisław P. Radziszowski"
+    ],
+    "citation": "Exoo (2012), R(4,6) Colorings, 37 constructions of K_35; Radziszowski (2026), Small Ramsey Numbers, revision 18, Tables Ia and Ib, which credits the upper-bound computations to Angeltveit and McKay.",
+    "curator_credit": "Compiled for Theory Research Atlas with AI assistance."
+  },
+  "status_search": {
+    "queries": [],
+    "checked_sources": [
+      "SRC-MATH-001",
+      "SRC-MATH-203",
+      "SRC-MATH-206"
+    ],
+    "result": "The 2026 survey retains the interval 36 to 40; the author's collection provides order-35 seeds. A scoped October search found no authoritative later improvement or resolution.",
+    "limitations": "Individual seed files and the cited upper-bound computation have not been rerun. Unpublished searches may cover the proposed milestone."
+  }
+}

@@ -1,0 +1,56 @@
+name: "Submit a scoped review"
+description: "Review one citation, claim or research result."
+title: "[Review] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A review may cover just one citation or claim. Describe an examination you actually performed and its limits. The [review guide](https://github.com/luvLunairs/theory-research-atlas/blob/main/docs/review-guide.md) provides specialist criteria when needed.
+  - type: textarea
+    id: target
+    attributes:
+      label: "Material reviewed"
+      description: "Link the entry or research record. Identify the exact text or attachment examined: a dated saved copy or fixed revision is enough. For a short passage, paste it with the page link and reading date."
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "Scope, checks and findings"
+      description: "What did you examine, how and with what result? Cite exact passages or artifact locations. Name exclusions, objections and unresolved questions. If relying on a machine check, link it and say what you additionally examined; an automated check is not human review. Credit sources and note reuse restrictions."
+    validations:
+      required: true
+  - type: dropdown
+    id: finding
+    attributes:
+      label: "Conclusion within that scope"
+      options:
+        - "Accepted within scope"
+        - "Changes requested"
+        - "Rejected with reasons"
+        - "Inconclusive"
+    validations:
+      required: true
+  - type: input
+    id: reviewer
+    attributes:
+      label: "Reviewer and date"
+      description: "Give your name or handle, review date, role and relationship to the work. Name others only with their agreement."
+    validations:
+      required: true
+  - type: textarea
+    id: submission_review
+    attributes:
+      label: "AI assistance and checks (if used)"
+      description: "For scientific judgments and their supporting code and evidence, give each contributing model's service-supplied identity, available version/settings, dates, role and affected material. Include applicable human screening, manual submitter and final-version recheck, or link one existing note. For citation checks or meaning-preserving presentation alone, a brief tool/model, role and checks note is enough; unknown details are acceptable."
+  - type: markdown
+    attributes:
+      value: |
+        Checking whether a citation matches its source is source curation; judging an argument's correctness is a scientific contribution. Under the [AI policy](https://github.com/luvLunairs/theory-research-atlas/blob/main/docs/ai-contributions.md#submission-routes), any non-recommended or unidentified contribution to scientific content or its supporting code and evidence requires full-text human review of that material and manual submission of the whole contribution, even after review. Source curation has no research model restriction. Automation always needs authorization and the [final-version recheck](https://github.com/luvLunairs/theory-research-atlas/blob/main/AGENTS.md#required-recheck).
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: "Contribution terms"
+      options:
+        - label: "I may share this material under the [contribution terms](https://github.com/luvLunairs/theory-research-atlas/blob/main/CONTRIBUTING.md#evidence-and-attribution) and [licenses](https://github.com/luvLunairs/theory-research-atlas/blob/main/LICENSE.md). I have supplied required credit and disclosures, identified unchecked claims and followed the review and submission rules."
+          required: true

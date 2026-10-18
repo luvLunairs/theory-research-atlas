@@ -1,0 +1,29 @@
+name: "Report a rights concern"
+description: "Notify the founder about possible infringement, missing permission or attribution."
+title: "[Rights] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Report possible infringement, missing permission or attribution under [Rights concerns](https://github.com/luvLunairs/theory-research-atlas/blob/main/LICENSE.md#rights-concerns). You do not need to license disputed material or complete research or AI disclosures.
+
+        Repository readers can see your report. Do not include confidential documents or personal contact details; ask for a private way to provide sensitive evidence.
+  - type: textarea
+    id: material
+    attributes:
+      label: "Affected material"
+      description: "Give a file path, entry ID, link or passage that identifies the material."
+    validations:
+      required: true
+  - type: textarea
+    id: concern
+    attributes:
+      label: "Concern and supporting information"
+      description: "Explain the rights, permission or attribution concern. Include relevant source links or other non-sensitive information when available."
+    validations:
+      required: true
+  - type: textarea
+    id: requested_action
+    attributes:
+      label: "Requested correction (optional)"
+      description: "Describe the correction or other action you are requesting. You may instead ask for a private way to provide further details."

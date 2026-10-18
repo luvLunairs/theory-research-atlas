@@ -1,0 +1,183 @@
+{
+  "id": "Q-MATH-102",
+  "title": "Exact mixing certificates for small positive Markov chains",
+  "domain": "Mixing times",
+  "cross_domains": [
+    "Stochastic processes",
+    "Randomized algorithms"
+  ],
+  "kind": "known_result_calibration",
+  "statement": "Given a rational row-stochastic matrix P of order 2 <= n <= 6 with every entry positive and every reduced denominator at most 100, compute its stationary probability row vector pi and tau = max_(i,j) (1/2) sum_k |P_ik-P_jk|. Certify d(t) = max_i ||P^t(i,.)-pi||_TV <= tau^t for every integer t >= 1, and return an integer T >= 1 with tau^T <= 1/100. Supply exact row-coupling certificates and a general argument, not only sampled trajectories.",
+  "source_ids": [
+    "SRC-MATH-102"
+  ],
+  "source_locator": "SRC-MATH-102, Proposition 4.7, Lemmas 4.11-4.12 and Corollary 5.3.",
+  "status": "known_result",
+  "status_basis": "The cited textbook gives the coupling and submultiplicativity facts from which the stated certificate follows. Matrix-size, denominator and tolerance limits are curator-defined calibration conditions.",
+  "last_checked": "2026-10-14",
+  "curator_origin": true,
+  "duplicate_key": "exact-mixing-certificates-for-small-positive-markov-chains",
+  "proposed_card": true,
+  "primary_domain_id": "PROB.MIX",
+  "cross_domain_ids": [
+    "PROB.PROCESS",
+    "CS.RANDOM"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "relations": [],
+  "experimental_dependency": "none_for_formal_task",
+  "revision_history": [],
+  "plain_summary": "Turn a small exact transition matrix into a checkable guarantee on how quickly its probability distributions approach equilibrium.",
+  "assumptions": [
+    "The input is an n-by-n rational matrix, 2 <= n <= 6, with positive entries, row sums exactly one and reduced denominators at most 100.",
+    "Time is discrete; row distributions evolve as mu P.",
+    "Total variation is one half of the sum of absolute coordinate differences.",
+    "The target bound concerns every integer t >= 1; the fixed tolerance is 1/100. If tau=0, T=1 is admissible."
+  ],
+  "scope": "Individual matrices satisfying the stated bounds. Strict positivity avoids reducibility, periodicity and a one-step coefficient equal to one; sparse chains require a separately specified extension.",
+  "target": "An exact certificate package for stationarity, maximal one-step couplings, the contraction factor and an integer mixing bound.",
+  "success_criteria": [
+    "Verify positivity, rational input limits and stochastic row sums exactly.",
+    "Return a nonnegative normalized row vector pi with pi P=pi and explain uniqueness under strict positivity.",
+    "Provide a rational coupling for each pair of rows with the correct marginals and mismatch probability equal to their total variation distance.",
+    "Prove the all-time inequality using the source's submultiplicativity or a coalescing coupling, then certify tau^T <= 1/100 with rational arithmetic."
+  ],
+  "known_results": [
+    "The textbook's Lemmas 4.11-4.12 bound distance to equilibrium by a submultiplicative pairwise distance; Proposition 4.7 and Corollary 5.3 give the coupling route."
+  ],
+  "prerequisites": [
+    "Finite Markov chains and stationary distributions",
+    "Total variation distance",
+    "Exact linear algebra and probability couplings"
+  ],
+  "significance": "A compact bridge between probabilistic arguments and exact certificates. It tests whether an assistant distinguishes a rigorous uniform bound from simulation-based evidence.",
+  "requirements": {
+    "experiment": "No physical experiment or stochastic simulation is required.",
+    "data": "An explicit rational transition matrix; no observed trajectories or external data.",
+    "compute": "Rational linear algebra on matrices of order at most 6 and coupling tables of order at most 6 by 6. Rational bit lengths can grow when certifying large T; resource estimates should be recorded for selected inputs before execution.",
+    "theoretical_assumptions": "A finite homogeneous discrete-time Markov chain with a strictly positive stochastic matrix. This is a model-internal assertion, not an estimate of an unknown transition law."
+  },
+  "ai_assessment": {
+    "priority": "priority_trial",
+    "rationale": "The proof decomposes into established coupling facts and exact arithmetic checks. Small input dimensions allow independent review while retaining an all-time probabilistic claim.",
+    "dimensions": {
+      "clarity": {
+        "rating": "high",
+        "reason": "The admissible matrix class, norm and required inequality are specified."
+      },
+      "decomposability": {
+        "rating": "high",
+        "reason": "Input checking, stationarity, couplings and the infinite-time argument are separable."
+      },
+      "methods": {
+        "rating": "high",
+        "reason": "The inspected textbook supplies both coupling and submultiplicativity approaches."
+      },
+      "search_or_symbolic": {
+        "rating": "high",
+        "reason": "Linear systems and finite couplings admit rational certificates."
+      },
+      "checkability": {
+        "rating": "high",
+        "reason": "A second exact checker can verify the finite objects; the short general argument is reviewable."
+      },
+      "expertise": {
+        "rating": "medium",
+        "reason": "Stationarity and coupling must be interpreted correctly; simulation intuition is insufficient."
+      },
+      "significance": {
+        "rating": "low",
+        "reason": "The bound is known and may be loose; the task mainly develops trustworthy probabilistic tools."
+      },
+      "verification_difficulty": {
+        "rating": "medium",
+        "reason": "The main risk is mistaking several checked times for an all-time proof or mixing up row and column conventions."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "No model has been tested. A compact matrix does not ensure a sharp bound or small rational intermediates.",
+    "assessment_date": "2026-10-14",
+    "model_scope": "No named model evaluated; assumes tool-using AI with finite probability, coupling arguments and exact rational computation.",
+    "evidence_refs": []
+  },
+  "methods": [
+    "Maximal coupling construction",
+    "Submultiplicativity of pairwise total variation",
+    "Exact linear algebra",
+    "Independent rational certificate checking"
+  ],
+  "method_tags": [
+    "proof",
+    "bounds",
+    "construction",
+    "exact_computation",
+    "certificate_checking"
+  ],
+  "validation_tags": [
+    "pure_proof",
+    "exact_computation"
+  ],
+  "obstacles": [
+    "The coefficient can be close to one, giving a conservative bound.",
+    "Floating-point stationarity residuals do not prove exact stationarity.",
+    "A coupling must have the specified marginals at each step and remain together after meeting if the coalescence argument is used."
+  ],
+  "validation": {
+    "steps": [
+      "Check every input constraint and the row-distribution convention.",
+      "Recompute pi P, normalization and nonnegativity with exact fractions.",
+      "Verify row-coupling marginal sums and mismatch probabilities independently.",
+      "Review the induction or coupling argument for all integer times and check the final rational inequality at T."
+    ],
+    "human_review_difficulty": "Moderate: finite arithmetic is straightforward; the passage from one-step certificates to all times needs a probability-trained reviewer.",
+    "statement_alignment": "The textbook applies broadly; the bounded task deliberately assumes strict positivity. It does not claim the displayed upper bound is the exact mixing time or infer P from data."
+  },
+  "known_attempts": [
+    "The cited text presents the underlying classical arguments. No specific matrix output is asserted here."
+  ],
+  "unresolved_checks": [
+    "Choose representative matrices, including identical-row and slowly contracting examples, before making performance comparisons.",
+    "Any extension to chains with zero entries needs a new irreducibility, aperiodicity and multi-step analysis."
+  ],
+  "attribution": {
+    "original_authors": [
+      "David A. Levin",
+      "Yuval Peres",
+      "Elizabeth L. Wilmer"
+    ],
+    "citation": "Levin, Peres and Wilmer (2009), Markov Chains and Mixing Times, first edition, Chapter 4 and Sections 5.1-5.2. Input limits and certificate packaging are editorial choices.",
+    "curator_credit": "Compiled for Theory Research Atlas with AI assistance."
+  },
+  "status_search": {
+    "queries": [],
+    "checked_sources": [
+      "SRC-MATH-102"
+    ],
+    "result": "The contraction tools are established textbook results. This card specifies a bounded exact reproduction.",
+    "limitations": "No claim is made about optimal mixing-time estimation, all later refinements or actual solver performance."
+  },
+  "epistemic_layers": {
+    "formal_validity": "Certificates and proof must establish the bound for the exact supplied matrix.",
+    "empirical_support": "Applying the bound to measured systems would require separate evidence that their transition law is adequately represented by this fixed matrix."
+  },
+  "judgments": {
+    "difficulty": {
+      "rating": "medium",
+      "basis": "The task combines finite exact calculations with a uniform probabilistic proof.",
+      "evidence": "editorial_estimate_not_measured"
+    },
+    "correctness": {
+      "status": "no_project_answer",
+      "basis": "No candidate answer has been submitted or independently reviewed."
+    },
+    "novelty": {
+      "status": "not_claimed",
+      "basis": "The mathematical result is established; the bounded reproduction protocol is not a claim of a new theorem."
+    },
+    "significance": {
+      "rating": "low",
+      "basis": "The main benefit is reliable preparation for more difficult mixing-time questions."
+    }
+  }
+}

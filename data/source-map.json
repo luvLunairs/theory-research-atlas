@@ -1,0 +1,2834 @@
+[
+  {
+    "source_id": "SRC-BASE-001",
+    "domain_ids": [
+      "MATH",
+      "LOGIC"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-BASE-002",
+    "domain_ids": [
+      "PHYS",
+      "MPHY"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-BASE-003",
+    "domain_ids": [
+      "MATH",
+      "CS",
+      "PHYS",
+      "CHEM",
+      "BIO",
+      "EARTH",
+      "ENG",
+      "ECON",
+      "COG"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-BASE-004",
+    "domain_ids": [
+      "ECON"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-BASE-005",
+    "domain_ids": [
+      "CS",
+      "LOGIC",
+      "PROB",
+      "STAT",
+      "INFO",
+      "PHYS",
+      "MPHY",
+      "BIO",
+      "NET",
+      "EARTH",
+      "ASTRO"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-BASE-006",
+    "domain_ids": [
+      "CS"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-BASE-007",
+    "domain_ids": [
+      "MATH.ANAL",
+      "MATH.DYN",
+      "MATH.OPT",
+      "MATH.NUMER",
+      "PROB",
+      "STAT",
+      "ENG.INVERSE"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-BASE-008",
+    "domain_ids": [
+      "ENG.CONTROL",
+      "ENG.ROBUST"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-BASE-009",
+    "domain_ids": [
+      "COG.NEURO"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-BASE-010",
+    "domain_ids": [
+      "EARTH.CLIMATE",
+      "MATH.NUMER"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-BASE-011",
+    "domain_ids": [
+      "PHYS.CLASSICAL",
+      "PHYS.FLUID",
+      "PHYS.QUANT",
+      "PHYS.COND",
+      "PHYS.STAT",
+      "PHYS.FIELD",
+      "PHYS.GRAV",
+      "PHYS.OPTICS",
+      "ASTRO.COSMO",
+      "BIO.ECO"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-BASE-012",
+    "domain_ids": [
+      "ECON.GAME",
+      "ECON.DECISION",
+      "ECON.EQUIL",
+      "COG.DECISION"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-BASE-013",
+    "domain_ids": [
+      "MATH.OPT",
+      "ENG.ROBUST"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-BASE-014",
+    "domain_ids": [
+      "MATH.GEOM.ALG",
+      "MATH.ALG.COMM"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MATH-001",
+    "domain_ids": [
+      "MATH.COMB.EXT"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MATH-002",
+    "domain_ids": [
+      "MATH.COMB.EXT"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MATH-003",
+    "domain_ids": [
+      "MATH.COMB.EXT"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MATH-004",
+    "domain_ids": [
+      "MATH"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MATH-005",
+    "domain_ids": [
+      "MATH.TOP.LOW"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MATH-006",
+    "domain_ids": [
+      "MATH.ALG",
+      "CS.ALG",
+      "MATH.NUM"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MATH-007",
+    "domain_ids": [
+      "MATH.DYN",
+      "MATH.ANAL.PDE",
+      "MATH.GEOM.DIFF"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MATH-008",
+    "domain_ids": [
+      "MATH.OPT",
+      "MATH.GEOM"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MATH-009",
+    "domain_ids": [
+      "MATH.NUM",
+      "MATH.GEOM.ALG"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MATH-010",
+    "domain_ids": [
+      "MATH.ANAL.HARM"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MATH-011",
+    "domain_ids": [
+      "MATH.GEOM"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MATH-012",
+    "domain_ids": [
+      "MATH.OPT",
+      "MATH.GEOM"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MATH-013",
+    "domain_ids": [
+      "MATH.COMB.EXT"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MATH-014",
+    "domain_ids": [
+      "MATH.COMB.EXT",
+      "MATH.OPT"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MATH-015",
+    "domain_ids": [
+      "MATH.ANAL.PDE",
+      "PHYS.FLUID"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-FORMAL-001",
+    "domain_ids": [
+      "CS",
+      "LOGIC",
+      "STAT",
+      "INFO"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-FORMAL-002",
+    "domain_ids": [
+      "CS.COMPLEX",
+      "MATH.COMB"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-FORMAL-003",
+    "domain_ids": [
+      "STAT.INFER"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-FORMAL-004",
+    "domain_ids": [
+      "INFO.ENTROPY"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-FORMAL-005",
+    "domain_ids": [
+      "CS.COMPLEX",
+      "CS.LEARN",
+      "PROB.DISCRETE"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-FORMAL-006",
+    "domain_ids": [
+      "PROB.DISCRETE"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-FORMAL-007",
+    "domain_ids": [
+      "CS.COMPLEX.CIRCUIT",
+      "CS.ALG"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-FORMAL-008",
+    "domain_ids": [
+      "INFO.CODES",
+      "MATH.GEOM"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-FORMAL-009",
+    "domain_ids": [
+      "LOGIC.PROOF",
+      "LOGIC.RECUR"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-FORMAL-010",
+    "domain_ids": [
+      "STAT.INFER",
+      "PROB.PROCESS"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-FORMAL-011",
+    "domain_ids": [
+      "LOGIC.RECUR",
+      "LOGIC.PROOF"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-FORMAL-012",
+    "domain_ids": [
+      "CS.LEARN",
+      "STAT.LEARN"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-FORMAL-013",
+    "domain_ids": [
+      "CS.COMPLEX",
+      "INFO.ENTROPY"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-FORMAL-014",
+    "domain_ids": [
+      "PROB.MIX",
+      "CS.RANDOM"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-FORMAL-015",
+    "domain_ids": [
+      "LOGIC.TYPE",
+      "LOGIC.CAT"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-FORMAL-016",
+    "domain_ids": [
+      "INFO.ENTROPY",
+      "MATH.OPT"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-001",
+    "domain_ids": [
+      "PHYS",
+      "MPHY"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-004",
+    "domain_ids": [
+      "PHYS.QUANT",
+      "INFO.QUANT",
+      "MATH.OPT"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-005",
+    "domain_ids": [
+      "CHEM.REACTION",
+      "BIO.SYSTEMS"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-006",
+    "domain_ids": [
+      "CHEM.REACTION",
+      "BIO.SYSTEMS"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-007",
+    "domain_ids": [
+      "ECON.GAME",
+      "CS.ALG"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-008",
+    "domain_ids": [
+      "BIO.SYSTEMS",
+      "BIO.EVOL",
+      "BIO.ECO",
+      "BIO.DEV"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage. The cited models and research questions belong to these branches."
+  },
+  {
+    "source_id": "SRC-MODEL-009",
+    "domain_ids": [
+      "CHEM.QUANT",
+      "PHYS.COND"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-010",
+    "domain_ids": [
+      "NET.DYNAMICS",
+      "BIO.EPID",
+      "PROB.PROCESS"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-011",
+    "domain_ids": [
+      "EARTH.CLIMATE",
+      "MATH.DYN"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-012",
+    "domain_ids": [
+      "MPHY.QFT",
+      "PHYS.FIELD"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-013",
+    "domain_ids": [
+      "MPHY.QFT",
+      "PHYS.FIELD"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-014",
+    "domain_ids": [
+      "EARTH"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-015",
+    "domain_ids": [
+      "ASTRO"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-016",
+    "domain_ids": [
+      "CHEM.REACTION",
+      "BIO.SYSTEMS",
+      "PROB.PROCESS"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-017",
+    "domain_ids": [
+      "ASTRO.COSMO",
+      "PHYS.GRAV",
+      "PHYS.FIELD"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-018",
+    "domain_ids": [
+      "INFO.QUANT",
+      "PHYS.QUANT"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-019",
+    "domain_ids": [
+      "INFO.QUANT",
+      "MATH.ANAL.FUNC"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MATH-101",
+    "domain_ids": [
+      "LOGIC.MODEL",
+      "LOGIC.RECUR",
+      "LOGIC.TYPE"
+    ],
+    "mapping_basis": "Finite satisfiability, decidability and its formalization are directly treated in the inspected paper."
+  },
+  {
+    "source_id": "SRC-MATH-102",
+    "domain_ids": [
+      "PROB.MIX",
+      "PROB.PROCESS",
+      "CS.RANDOM"
+    ],
+    "mapping_basis": "The inspected chapters treat finite Markov chains, total variation, coupling and convergence bounds."
+  },
+  {
+    "source_id": "SRC-MATH-103",
+    "domain_ids": [
+      "MPHY.STAT",
+      "PHYS.STAT",
+      "PROB.DISCRETE"
+    ],
+    "mapping_basis": "The inspected theorem concerns a discrete Gibbs model and its rigorous thermodynamic limit."
+  },
+  {
+    "source_id": "SRC-MATH-104",
+    "domain_ids": [
+      "MATH.ALG.COMM",
+      "MATH.COMB.ENUM"
+    ],
+    "mapping_basis": "Section 1 connects toric-ideal generation to moves on collections of matroid bases."
+  },
+  {
+    "source_id": "SRC-MATH-105",
+    "domain_ids": [
+      "MATH.ALG.COMM",
+      "MATH.GEOM.ALG",
+      "MATH.COMB.ENUM"
+    ],
+    "mapping_basis": "The inspected argument connects matroid polytopes, toric ideals and triangulations."
+  },
+  {
+    "source_id": "SRC-MATH-106",
+    "domain_ids": [
+      "MATH.ANAL.FUNC",
+      "MATH.ANAL.PDE",
+      "MPHY.SPECTRAL"
+    ],
+    "mapping_basis": "The boundary-value chapter supplies an explicit spectral example and eigenfunction completeness."
+  },
+  {
+    "source_id": "SRC-MATH-107",
+    "domain_ids": [
+      "MATH.GEOM.DIFF",
+      "MATH.TOP",
+      "MATH.NUMER"
+    ],
+    "mapping_basis": "The selected exercises connect discrete curvature with Euler characteristic and distinguish numerical tests."
+  },
+  {
+    "source_id": "SRC-FORMAL-101",
+    "domain_ids": [
+      "ENG.CONTROL",
+      "ENG.ROBUST",
+      "MATH.OPT"
+    ],
+    "mapping_basis": "The inspected definitions, theorem statements or problem discussion directly concern these branches; this association does not imply complete branch coverage."
+  },
+  {
+    "source_id": "SRC-FORMAL-102",
+    "domain_ids": [
+      "ENG.CONTROL",
+      "ENG.ROBUST"
+    ],
+    "mapping_basis": "The inspected definitions, theorem statements or problem discussion directly concern these branches; this association does not imply complete branch coverage."
+  },
+  {
+    "source_id": "SRC-FORMAL-103",
+    "domain_ids": [
+      "COG.LANG",
+      "CS.ALG"
+    ],
+    "mapping_basis": "The inspected definitions, theorem statements or problem discussion directly concern these branches; this association does not imply complete branch coverage."
+  },
+  {
+    "source_id": "SRC-FORMAL-104",
+    "domain_ids": [
+      "NET.DYNAMICS",
+      "MATH.DYN",
+      "MATH.COMB"
+    ],
+    "mapping_basis": "The inspected definitions, theorem statements or problem discussion directly concern these branches; this association does not imply complete branch coverage."
+  },
+  {
+    "source_id": "SRC-FORMAL-105",
+    "domain_ids": [
+      "NET.DYNAMICS",
+      "MATH.DYN",
+      "MATH.COMB.EXT"
+    ],
+    "mapping_basis": "The inspected definitions, theorem statements or problem discussion directly concern these branches; this association does not imply complete branch coverage."
+  },
+  {
+    "source_id": "SRC-FORMAL-106",
+    "domain_ids": [
+      "NET.DYNAMICS",
+      "MATH.OPT"
+    ],
+    "mapping_basis": "The inspected definitions, theorem statements or problem discussion directly concern these branches; this association does not imply complete branch coverage."
+  },
+  {
+    "source_id": "SRC-FORMAL-107",
+    "domain_ids": [
+      "STAT.CAUSAL"
+    ],
+    "mapping_basis": "The inspected definitions, theorem statements or problem discussion directly concern these branches; this association does not imply complete branch coverage."
+  },
+  {
+    "source_id": "SRC-FORMAL-108",
+    "domain_ids": [
+      "CS.RANDOM",
+      "CS.ALG"
+    ],
+    "mapping_basis": "The inspected definitions, theorem statements or problem discussion directly concern these branches; this association does not imply complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-101",
+    "domain_ids": [
+      "BIO.EVOL",
+      "PROB.PROCESS"
+    ],
+    "mapping_basis": "Fixation probabilities link population genetics to finite-state stochastic models."
+  },
+  {
+    "source_id": "SRC-MODEL-102",
+    "domain_ids": [
+      "BIO.EVOL",
+      "NET.STRUCT"
+    ],
+    "mapping_basis": "Evolutionary fixation in well-mixed and randomly structured populations; the candidate uses the baseline process."
+  },
+  {
+    "source_id": "SRC-MODEL-103",
+    "domain_ids": [
+      "ASTRO.DYN",
+      "MATH.DYN"
+    ],
+    "mapping_basis": "Local stability of equilibria in a celestial-mechanics model."
+  },
+  {
+    "source_id": "SRC-MODEL-104",
+    "domain_ids": [
+      "ASTRO.DYN",
+      "PHYS.CLASSICAL"
+    ],
+    "mapping_basis": "Rotating-frame dynamics, conserved quantities and accessible regions."
+  },
+  {
+    "source_id": "SRC-MODEL-105",
+    "domain_ids": [
+      "PHYS.STAT",
+      "PROB.PROCESS",
+      "CHEM.STAT"
+    ],
+    "mapping_basis": "Continuous stochastic dynamics and thermal equilibrium."
+  },
+  {
+    "source_id": "SRC-MODEL-106",
+    "domain_ids": [
+      "PHYS.STAT",
+      "CHEM.STAT",
+      "PROB.PROCESS"
+    ],
+    "mapping_basis": "Overdamped diffusion, probability currents and equilibrium distributions."
+  },
+  {
+    "source_id": "SRC-MODEL-107",
+    "domain_ids": [
+      "BIO.DEV",
+      "CHEM.REACTION",
+      "MATH.ANAL.PDE"
+    ],
+    "mapping_basis": "Reaction–diffusion models and linear pattern-forming instabilities."
+  },
+  {
+    "source_id": "SRC-BASE-015",
+    "domain_ids": [
+      "MATH",
+      "LOGIC",
+      "LOGIC.MODEL",
+      "PROB",
+      "PROB.MIX",
+      "MPHY",
+      "MPHY.STAT"
+    ],
+    "mapping_basis": "Top-level organization and selected entries were checked directly; local branches group research tasks and are not equivalent MSC codes."
+  },
+  {
+    "source_id": "SRC-CODE-201",
+    "domain_ids": [
+      "INFO.CODES",
+      "MATH.COMB.EXT"
+    ],
+    "mapping_basis": "Covering-code definitions, finite parameter bounds and construction resources connect coding theory with extremal combinatorics; no complete coverage is claimed."
+  },
+  {
+    "source_id": "SRC-CODE-202",
+    "domain_ids": [
+      "INFO.CODES",
+      "MATH.COMB.EXT"
+    ],
+    "mapping_basis": "Covering-code definitions, finite parameter bounds and construction resources connect coding theory with extremal combinatorics; no complete coverage is claimed."
+  },
+  {
+    "source_id": "SRC-CODE-203",
+    "domain_ids": [
+      "INFO.CODES",
+      "MATH.COMB.EXT"
+    ],
+    "mapping_basis": "Covering-code definitions, finite parameter bounds and construction resources connect coding theory with extremal combinatorics; no complete coverage is claimed."
+  },
+  {
+    "source_id": "SRC-MATH-201",
+    "domain_ids": [
+      "MATH.GEOM",
+      "MATH.COMB.EXT",
+      "CS.ALG"
+    ],
+    "mapping_basis": "The inspected source states the mathematical problem or supplies its bounds, constructions and unresolved cases."
+  },
+  {
+    "source_id": "SRC-MATH-202",
+    "domain_ids": [
+      "MATH.COMB.EXT",
+      "CS.ALG"
+    ],
+    "mapping_basis": "The inspected source states the mathematical problem or supplies its bounds, constructions and unresolved cases."
+  },
+  {
+    "source_id": "SRC-MATH-203",
+    "domain_ids": [
+      "MATH.COMB.EXT",
+      "CS.ALG"
+    ],
+    "mapping_basis": "The inspected source states the mathematical problem or supplies its bounds, constructions and unresolved cases."
+  },
+  {
+    "source_id": "SRC-MATH-204",
+    "domain_ids": [
+      "MATH.GEOM",
+      "MATH.OPT",
+      "MATH.NUMER"
+    ],
+    "mapping_basis": "The inspected source states the mathematical problem or supplies its bounds, constructions and unresolved cases."
+  },
+  {
+    "source_id": "SRC-MATH-205",
+    "domain_ids": [
+      "MATH.GEOM",
+      "MATH.OPT",
+      "MATH.NUMER"
+    ],
+    "mapping_basis": "The inspected source states the mathematical problem or supplies its bounds, constructions and unresolved cases."
+  },
+  {
+    "source_id": "SRC-MATH-206",
+    "domain_ids": [
+      "MATH.COMB.EXT",
+      "CS.ALG"
+    ],
+    "mapping_basis": "The inspected source states the mathematical problem or supplies its bounds, constructions and unresolved cases."
+  },
+  {
+    "source_id": "SRC-FORMAL-201",
+    "domain_ids": [
+      "CS.ALG",
+      "MATH.COMB"
+    ],
+    "mapping_basis": "The cited sections concern the mathematical objects and algorithmic questions of these branches."
+  },
+  {
+    "source_id": "SRC-FORMAL-202",
+    "domain_ids": [
+      "CS.ALG",
+      "MATH.COMB"
+    ],
+    "mapping_basis": "The cited sections concern the mathematical objects and algorithmic questions of these branches."
+  },
+  {
+    "source_id": "SRC-FORMAL-203",
+    "domain_ids": [
+      "CS.ALG",
+      "MATH.COMB"
+    ],
+    "mapping_basis": "The cited sections concern the mathematical objects and algorithmic questions of these branches."
+  },
+  {
+    "source_id": "SRC-FORMAL-204",
+    "domain_ids": [
+      "CS.ALG",
+      "MATH.COMB"
+    ],
+    "mapping_basis": "The cited sections concern the mathematical objects and algorithmic questions of these branches."
+  },
+  {
+    "source_id": "SRC-FORMAL-205",
+    "domain_ids": [
+      "CS.ALG",
+      "MATH.COMB"
+    ],
+    "mapping_basis": "The cited sections concern the mathematical objects and algorithmic questions of these branches."
+  },
+  {
+    "source_id": "SRC-FORMAL-206",
+    "domain_ids": [
+      "CS.RANDOM",
+      "MATH.OPT"
+    ],
+    "mapping_basis": "The cited sections concern the mathematical objects and algorithmic questions of these branches."
+  },
+  {
+    "source_id": "SRC-FORMAL-207",
+    "domain_ids": [
+      "CS.RANDOM",
+      "MATH.OPT"
+    ],
+    "mapping_basis": "The cited sections concern the mathematical objects and algorithmic questions of these branches."
+  },
+  {
+    "source_id": "SRC-FORMAL-208",
+    "domain_ids": [
+      "CS.RANDOM",
+      "MATH.OPT"
+    ],
+    "mapping_basis": "The cited sections concern the mathematical objects and algorithmic questions of these branches."
+  },
+  {
+    "source_id": "SRC-FORMAL-209",
+    "domain_ids": [
+      "CS.RANDOM",
+      "MATH.OPT"
+    ],
+    "mapping_basis": "The cited sections concern the mathematical objects and algorithmic questions of these branches."
+  },
+  {
+    "source_id": "SRC-FORMAL-210",
+    "domain_ids": [
+      "CS.ALG",
+      "MATH.COMB"
+    ],
+    "mapping_basis": "The cited sections concern the mathematical objects and algorithmic questions of these branches."
+  },
+  {
+    "source_id": "SRC-MODEL-201",
+    "domain_ids": [
+      "ECON.MECH"
+    ],
+    "mapping_basis": "Definitions, existence boundaries and algorithmic questions in fair allocation."
+  },
+  {
+    "source_id": "SRC-MODEL-202",
+    "domain_ids": [
+      "ECON.MECH"
+    ],
+    "mapping_basis": "Definitions, existence boundaries and algorithmic questions in fair allocation."
+  },
+  {
+    "source_id": "SRC-MODEL-203",
+    "domain_ids": [
+      "ECON.MECH"
+    ],
+    "mapping_basis": "Definitions, existence boundaries and algorithmic questions in fair allocation."
+  },
+  {
+    "source_id": "SRC-MODEL-204",
+    "domain_ids": [
+      "ECON.MECH"
+    ],
+    "mapping_basis": "Definitions, existence boundaries and algorithmic questions in fair allocation."
+  },
+  {
+    "source_id": "SRC-MODEL-205",
+    "domain_ids": [
+      "ECON.MECH"
+    ],
+    "mapping_basis": "Definitions, existence boundaries and algorithmic questions in fair allocation."
+  },
+  {
+    "source_id": "SRC-MODEL-206",
+    "domain_ids": [
+      "ECON.MECH"
+    ],
+    "mapping_basis": "Definitions, existence boundaries and algorithmic questions in fair allocation."
+  },
+  {
+    "source_id": "SRC-MODEL-207",
+    "domain_ids": [
+      "ECON.MECH"
+    ],
+    "mapping_basis": "Definitions, existence boundaries and algorithmic questions in fair allocation."
+  },
+  {
+    "source_id": "SRC-MODEL-208",
+    "domain_ids": [
+      "ECON.MECH"
+    ],
+    "mapping_basis": "Definitions, existence boundaries and algorithmic questions in fair allocation."
+  },
+  {
+    "source_id": "SRC-MODEL-209",
+    "domain_ids": [
+      "ECON.MECH"
+    ],
+    "mapping_basis": "Definitions, existence boundaries and algorithmic questions in fair allocation."
+  },
+  {
+    "source_id": "SRC-MODEL-210",
+    "domain_ids": [
+      "NET.DYNAMICS",
+      "MATH.DYN"
+    ],
+    "mapping_basis": "A problem collection supplies explicit phase-synchronization conjectures."
+  },
+  {
+    "source_id": "SRC-LAND-301",
+    "domain_ids": [
+      "MATH",
+      "CS.COMPLEX",
+      "MPHY.QFT"
+    ],
+    "mapping_basis": "The inspected passage states a question or documents its historical or current status."
+  },
+  {
+    "source_id": "SRC-LAND-302",
+    "domain_ids": [
+      "MATH.NUM.ANALYTIC"
+    ],
+    "mapping_basis": "The inspected passage states a question or documents its historical or current status."
+  },
+  {
+    "source_id": "SRC-LAND-303",
+    "domain_ids": [
+      "MATH.NUM",
+      "MATH.GEOM.ALG"
+    ],
+    "mapping_basis": "The inspected passage states a question or documents its historical or current status."
+  },
+  {
+    "source_id": "SRC-LAND-304",
+    "domain_ids": [
+      "MATH.GEOM.ALG",
+      "MATH.TOP"
+    ],
+    "mapping_basis": "The inspected passage states a question or documents its historical or current status."
+  },
+  {
+    "source_id": "SRC-LAND-305",
+    "domain_ids": [
+      "CS.COMPLEX"
+    ],
+    "mapping_basis": "The inspected passage states a question or documents its historical or current status."
+  },
+  {
+    "source_id": "SRC-LAND-306",
+    "domain_ids": [
+      "MATH.ANAL.PDE",
+      "PHYS.FLUID"
+    ],
+    "mapping_basis": "The inspected passage states a question or documents its historical or current status."
+  },
+  {
+    "source_id": "SRC-LAND-307",
+    "domain_ids": [
+      "MATH",
+      "LOGIC",
+      "PHYS"
+    ],
+    "mapping_basis": "The inspected passage states a question or documents its historical or current status."
+  },
+  {
+    "source_id": "SRC-LAND-308",
+    "domain_ids": [
+      "MATH",
+      "LOGIC"
+    ],
+    "mapping_basis": "The inspected passage states a question or documents its historical or current status."
+  },
+  {
+    "source_id": "SRC-LAND-309",
+    "domain_ids": [
+      "MATH.ALG",
+      "MATH.GEOM.ALG"
+    ],
+    "mapping_basis": "The inspected passage states a question or documents its historical or current status."
+  },
+  {
+    "source_id": "SRC-LAND-310",
+    "domain_ids": [
+      "MATH.NUM.ANALYTIC"
+    ],
+    "mapping_basis": "The inspected passage states a question or documents its historical or current status."
+  },
+  {
+    "source_id": "SRC-LAND-311",
+    "domain_ids": [
+      "MATH.NUM"
+    ],
+    "mapping_basis": "The inspected passage states a question or documents its historical or current status."
+  },
+  {
+    "source_id": "SRC-LAND-312",
+    "domain_ids": [
+      "MATH.DYN"
+    ],
+    "mapping_basis": "The inspected passage states a question or documents its historical or current status."
+  },
+  {
+    "source_id": "SRC-MATH-301",
+    "domain_ids": [
+      "MATH.ALG.REP",
+      "MATH.NUM",
+      "MATH.ALG",
+      "LOGIC.RECUR",
+      "LOGIC.MODEL"
+    ],
+    "mapping_basis": "The inspected sections directly discuss these subjects; this is a source association, not complete coverage. Explicit group-theoretic and decision-problem statements in the selected numbered entries."
+  },
+  {
+    "source_id": "SRC-MATH-302",
+    "domain_ids": [
+      "MATH.COMB.EXT",
+      "MATH.NUM.ANALYTIC",
+      "MATH.ANAL.HARM",
+      "PROB.DISCRETE",
+      "MATH.NUM",
+      "PROB.MIX"
+    ],
+    "mapping_basis": "The inspected sections directly discuss these subjects; this is a source association, not complete coverage. Selected additive-combinatorial, analytic, and random-structure questions."
+  },
+  {
+    "source_id": "SRC-MATH-303",
+    "domain_ids": [
+      "MATH.TOP.LOW",
+      "MATH.TOP",
+      "MATH.GEOM.DIFF",
+      "MATH.GEOM.ALG",
+      "MATH.DYN",
+      "LOGIC.RECUR"
+    ],
+    "mapping_basis": "The inspected sections directly discuss these subjects; this is a source association, not complete coverage. Selected surface-topology, mapping-class-group, geometric and decision questions."
+  },
+  {
+    "source_id": "SRC-MATH-304",
+    "domain_ids": [
+      "MATH.NUM"
+    ],
+    "mapping_basis": "The inspected sections directly discuss these subjects; this is a source association, not complete coverage."
+  },
+  {
+    "source_id": "SRC-MATH-305",
+    "domain_ids": [
+      "MATH.NUM"
+    ],
+    "mapping_basis": "The inspected sections directly discuss these subjects; this is a source association, not complete coverage."
+  },
+  {
+    "source_id": "SRC-MATH-306",
+    "domain_ids": [
+      "MATH.NUM.ANALYTIC",
+      "MATH.DYN"
+    ],
+    "mapping_basis": "The inspected sections directly discuss these subjects; this is a source association, not complete coverage."
+  },
+  {
+    "source_id": "SRC-MATH-307",
+    "domain_ids": [
+      "MATH.ANAL.FUNC"
+    ],
+    "mapping_basis": "The inspected sections directly discuss these subjects; this is a source association, not complete coverage."
+  },
+  {
+    "source_id": "SRC-MATH-308",
+    "domain_ids": [
+      "MATH.DYN",
+      "MATH.GEOM.DIFF"
+    ],
+    "mapping_basis": "The inspected sections directly discuss these subjects; this is a source association, not complete coverage."
+  },
+  {
+    "source_id": "SRC-MATH-309",
+    "domain_ids": [
+      "MATH.DYN",
+      "MATH.GEOM.DIFF"
+    ],
+    "mapping_basis": "The inspected sections directly discuss these subjects; this is a source association, not complete coverage."
+  },
+  {
+    "source_id": "SRC-MATH-310",
+    "domain_ids": [
+      "MATH.NUM"
+    ],
+    "mapping_basis": "The inspected sections directly discuss these subjects; this is a source association, not complete coverage."
+  },
+  {
+    "source_id": "SRC-MATH-311",
+    "domain_ids": [
+      "MATH.NUM"
+    ],
+    "mapping_basis": "The inspected sections directly discuss these subjects; this is a source association, not complete coverage."
+  },
+  {
+    "source_id": "SRC-MATH-312",
+    "domain_ids": [
+      "MATH.TOP.LOW"
+    ],
+    "mapping_basis": "The inspected sections directly discuss these subjects; this is a source association, not complete coverage."
+  },
+  {
+    "source_id": "SRC-MATH-313",
+    "domain_ids": [
+      "MATH.ANAL.FUNC"
+    ],
+    "mapping_basis": "The inspected sections directly discuss these subjects; this is a source association, not complete coverage."
+  },
+  {
+    "source_id": "SRC-MATH-314",
+    "domain_ids": [
+      "MATH.NUM"
+    ],
+    "mapping_basis": "The inspected sections directly discuss these subjects; this is a source association, not complete coverage."
+  },
+  {
+    "source_id": "SRC-FORMAL-301",
+    "domain_ids": [
+      "CS.COMPLEX",
+      "CS.COMPLEX.CIRCUIT",
+      "CS.RANDOM"
+    ],
+    "mapping_basis": "Sections 5.2.1–5.2.2, 7.2, 12.4 and 14.2; Conjectures 5.4, 7.8, 12.21 and 14.8; discussion following Open Problem 5.8."
+  },
+  {
+    "source_id": "SRC-FORMAL-302",
+    "domain_ids": [
+      "CS.RANDOM"
+    ],
+    "mapping_basis": "Abstract and section 1.1."
+  },
+  {
+    "source_id": "SRC-FORMAL-303",
+    "domain_ids": [
+      "CS.COMPLEX.CIRCUIT"
+    ],
+    "mapping_basis": "Abstract and introduction on elusive functions and Valiant's hypothesis."
+  },
+  {
+    "source_id": "SRC-FORMAL-304",
+    "domain_ids": [
+      "CS.ALG",
+      "CS.COMPLEX"
+    ],
+    "mapping_basis": "Abstract; introduction, especially the first three paragraphs and related work."
+  },
+  {
+    "source_id": "SRC-FORMAL-305",
+    "domain_ids": [
+      "CS.COMPLEX.CIRCUIT"
+    ],
+    "mapping_basis": "Abstract and section I: MCSP input and conditional hardness theorem."
+  },
+  {
+    "source_id": "SRC-FORMAL-306",
+    "domain_ids": [
+      "CS.COMPLEX.CIRCUIT",
+      "CS.LEARN"
+    ],
+    "mapping_basis": "Abstract, assumptions and final comparison with Hirahara–Ilango."
+  },
+  {
+    "source_id": "SRC-FORMAL-307",
+    "domain_ids": [
+      "CS.LEARN",
+      "STAT.LEARN",
+      "CS.CRYPTO",
+      "MATH.OPT"
+    ],
+    "mapping_basis": "Sections 3.1–3.3 and 5.1; section 3.1 footnote 3."
+  },
+  {
+    "source_id": "SRC-FORMAL-308",
+    "domain_ids": [
+      "LOGIC.PROOF",
+      "CS.COMPLEX.CIRCUIT"
+    ],
+    "mapping_basis": "Sections 1.1–1.3; Theorem 16."
+  },
+  {
+    "source_id": "SRC-FORMAL-309",
+    "domain_ids": [
+      "LOGIC.PROOF",
+      "CS.COMPLEX"
+    ],
+    "mapping_basis": "Introduction, questions Q1–Q2 and section 1.2.2."
+  },
+  {
+    "source_id": "SRC-FORMAL-310",
+    "domain_ids": [
+      "STAT.LEARN",
+      "CS.LEARN"
+    ],
+    "mapping_basis": "Section 2, Definition 2.1 and sample-compression conjecture; ALT 2025 version at https://proceedings.mlr.press/v272/attias25a.html."
+  },
+  {
+    "source_id": "SRC-FORMAL-311",
+    "domain_ids": [
+      "STAT.LEARN"
+    ],
+    "mapping_basis": "Current version v4, withdrawal comment and submission history; v1 carried a sample-compression claim."
+  },
+  {
+    "source_id": "SRC-FORMAL-312",
+    "domain_ids": [
+      "CS.CRYPTO",
+      "CS.LEARN"
+    ],
+    "mapping_basis": "Abstract and revision 1 of 8 September 2026."
+  },
+  {
+    "source_id": "SRC-FORMAL-313",
+    "domain_ids": [
+      "CS.LEARN"
+    ],
+    "mapping_basis": "Abstract and sections 1.2, 1.3 and 7."
+  },
+  {
+    "source_id": "SRC-FORMAL-314",
+    "domain_ids": [
+      "LOGIC.MODEL",
+      "LOGIC.SET"
+    ],
+    "mapping_basis": "Introduction before section 1; sections 3 and 4."
+  },
+  {
+    "source_id": "SRC-FORMAL-315",
+    "domain_ids": [
+      "LOGIC.RECUR",
+      "LOGIC.SET"
+    ],
+    "mapping_basis": "Version 3, section 1.1 formal statement; section 1.2 known cases."
+  },
+  {
+    "source_id": "SRC-FORMAL-316",
+    "domain_ids": [
+      "LOGIC.RECUR",
+      "CS.LEARN"
+    ],
+    "mapping_basis": "Dated 14 June 2025; section 1.3, page 5 and footnote 2."
+  },
+  {
+    "source_id": "SRC-FORMAL-317",
+    "domain_ids": [
+      "INFO.ENTROPY"
+    ],
+    "mapping_basis": "Abstract and section 1, pages 1–2."
+  },
+  {
+    "source_id": "SRC-FORMAL-318",
+    "domain_ids": [
+      "INFO.SHANNON"
+    ],
+    "mapping_basis": "Introduction, capacity definition and discussion of the remaining uncertainty."
+  },
+  {
+    "source_id": "SRC-FORMAL-319",
+    "domain_ids": [
+      "CS.COMPLEX",
+      "INFO.COMPLEX"
+    ],
+    "mapping_basis": "Abstract and introduction."
+  },
+  {
+    "source_id": "SRC-FORMAL-320",
+    "domain_ids": [
+      "INFO.COMPLEX",
+      "CS.COMPLEX"
+    ],
+    "mapping_basis": "Abstract and introduction."
+  },
+  {
+    "source_id": "SRC-FORMAL-321",
+    "domain_ids": [
+      "CS.ALG"
+    ],
+    "mapping_basis": "Abstract; section 1.1; Theorem 1 and section 2 weight conventions."
+  },
+  {
+    "source_id": "SRC-MODEL-301",
+    "domain_ids": [
+      "BIO.EVOL",
+      "NET.DYNAMICS",
+      "PROB.DISCRETE"
+    ],
+    "mapping_basis": "The cited sections provide research questions or delimit relevant partial results; this association does not imply complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-302",
+    "domain_ids": [
+      "BIO.ECO",
+      "BIO.EVOL",
+      "MATH.DYN"
+    ],
+    "mapping_basis": "The cited sections provide research questions or delimit relevant partial results; this association does not imply complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-303",
+    "domain_ids": [
+      "CHEM.REACTION",
+      "BIO.SYSTEMS",
+      "PROB.PROCESS"
+    ],
+    "mapping_basis": "The cited sections provide research questions or delimit relevant partial results; this association does not imply complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-304",
+    "domain_ids": [
+      "CHEM.REACTION",
+      "PROB.PROCESS"
+    ],
+    "mapping_basis": "The cited sections provide research questions or delimit relevant partial results; this association does not imply complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-305",
+    "domain_ids": [
+      "ECON.GAME"
+    ],
+    "mapping_basis": "The cited sections provide research questions or delimit relevant partial results; this association does not imply complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-306",
+    "domain_ids": [
+      "ECON.GAME"
+    ],
+    "mapping_basis": "The cited sections provide research questions or delimit relevant partial results; this association does not imply complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-307",
+    "domain_ids": [
+      "PHYS.COND",
+      "PHYS.STAT",
+      "PHYS.QUANT"
+    ],
+    "mapping_basis": "The cited sections provide research questions or delimit relevant partial results; this association does not imply complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-308",
+    "domain_ids": [
+      "PHYS.COND",
+      "PHYS.QUANT"
+    ],
+    "mapping_basis": "The cited sections provide research questions or delimit relevant partial results; this association does not imply complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-309",
+    "domain_ids": [
+      "PHYS.FLUID",
+      "ASTRO.PLASMA",
+      "EARTH.FLUID"
+    ],
+    "mapping_basis": "The cited sections provide research questions or delimit relevant partial results; this association does not imply complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-310",
+    "domain_ids": [
+      "PHYS.FLUID",
+      "ASTRO.PLASMA"
+    ],
+    "mapping_basis": "The cited sections provide research questions or delimit relevant partial results; this association does not imply complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-311",
+    "domain_ids": [
+      "PHYS.FIELD",
+      "ASTRO.COSMO"
+    ],
+    "mapping_basis": "The cited sections provide research questions or delimit relevant partial results; this association does not imply complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-312",
+    "domain_ids": [
+      "PHYS.FIELD"
+    ],
+    "mapping_basis": "The cited sections provide research questions or delimit relevant partial results; this association does not imply complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-313",
+    "domain_ids": [
+      "PHYS.FIELD",
+      "ASTRO.COSMO"
+    ],
+    "mapping_basis": "The cited sections provide research questions or delimit relevant partial results; this association does not imply complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-314",
+    "domain_ids": [
+      "ASTRO.COSMO",
+      "PHYS.FIELD"
+    ],
+    "mapping_basis": "The cited sections provide research questions or delimit relevant partial results; this association does not imply complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-315",
+    "domain_ids": [
+      "ASTRO.COSMO",
+      "PHYS.GRAV"
+    ],
+    "mapping_basis": "The cited sections provide research questions or delimit relevant partial results; this association does not imply complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-316",
+    "domain_ids": [
+      "ASTRO.COSMO"
+    ],
+    "mapping_basis": "The cited sections provide research questions or delimit relevant partial results; this association does not imply complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-317",
+    "domain_ids": [
+      "ASTRO.COSMO"
+    ],
+    "mapping_basis": "The cited sections provide research questions or delimit relevant partial results; this association does not imply complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-318",
+    "domain_ids": [
+      "ASTRO.DYN",
+      "PHYS.CLASSICAL",
+      "MATH.DYN"
+    ],
+    "mapping_basis": "The cited sections provide research questions or delimit relevant partial results; this association does not imply complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-319",
+    "domain_ids": [
+      "ASTRO.DYN",
+      "MATH.DYN"
+    ],
+    "mapping_basis": "The cited sections provide research questions or delimit relevant partial results; this association does not imply complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-320",
+    "domain_ids": [
+      "PHYS.COND",
+      "PHYS.STAT",
+      "PHYS.QUANT"
+    ],
+    "mapping_basis": "A later scope check for transport and localization; discrete-time dynamics must not be substituted for a static Hamiltonian."
+  },
+  {
+    "source_id": "SRC-FORMAL-322",
+    "domain_ids": [
+      "CS.LEARN",
+      "STAT.LEARN"
+    ],
+    "mapping_basis": "Sections 1.2 and 2.2; journal version, JCSS 68(2), 2004."
+  },
+  {
+    "source_id": "SRC-FORMAL-323",
+    "domain_ids": [
+      "CS.LEARN",
+      "STAT.LEARN"
+    ],
+    "mapping_basis": "Abstract and introduction."
+  },
+  {
+    "source_id": "SRC-CROSS-401",
+    "domain_ids": [
+      "ENG.CONTROL",
+      "ENG.ROBUST",
+      "ENG.INVERSE"
+    ],
+    "mapping_basis": "The indexed questions concern the models and methods defined in these branches."
+  },
+  {
+    "source_id": "SRC-CROSS-402",
+    "domain_ids": [
+      "EARTH.ENV",
+      "EARTH.CLIMATE"
+    ],
+    "mapping_basis": "The indexed questions concern the models and methods defined in these branches."
+  },
+  {
+    "source_id": "SRC-CROSS-403",
+    "domain_ids": [
+      "NET.DYNAMICS",
+      "NET.STRUCT",
+      "NET.INFER",
+      "COG.NEURO"
+    ],
+    "mapping_basis": "The indexed questions concern the models and methods defined in these branches."
+  },
+  {
+    "source_id": "SRC-CROSS-404",
+    "domain_ids": [
+      "COG.NEURO",
+      "COG.DECISION"
+    ],
+    "mapping_basis": "The indexed questions concern the models and methods defined in these branches."
+  },
+  {
+    "source_id": "SRC-CROSS-405",
+    "domain_ids": [
+      "NET.DYNAMICS"
+    ],
+    "mapping_basis": "The indexed questions concern the models and methods defined in these branches."
+  },
+  {
+    "source_id": "SRC-MATH-401",
+    "domain_ids": [
+      "PROB.MIX"
+    ],
+    "mapping_basis": "Primary subject is the probability law, asymptotics, or stochastic dynamics of the explicitly defined model."
+  },
+  {
+    "source_id": "SRC-MATH-402",
+    "domain_ids": [
+      "PROB.DISCRETE"
+    ],
+    "mapping_basis": "Primary subject is the probability law, asymptotics, or stochastic dynamics of the explicitly defined model."
+  },
+  {
+    "source_id": "SRC-MATH-403",
+    "domain_ids": [
+      "PROB.DISCRETE"
+    ],
+    "mapping_basis": "Primary subject is the probability law, asymptotics, or stochastic dynamics of the explicitly defined model."
+  },
+  {
+    "source_id": "SRC-MATH-404",
+    "domain_ids": [
+      "PROB.PROCESS"
+    ],
+    "mapping_basis": "Primary subject is the probability law, asymptotics, or stochastic dynamics of the explicitly defined model."
+  },
+  {
+    "source_id": "SRC-MATH-405",
+    "domain_ids": [
+      "PROB.MIX"
+    ],
+    "mapping_basis": "Primary subject is the probability law, asymptotics, or stochastic dynamics of the explicitly defined model."
+  },
+  {
+    "source_id": "SRC-MATH-406",
+    "domain_ids": [
+      "PROB.DISCRETE"
+    ],
+    "mapping_basis": "Primary subject is the probability law, asymptotics, or stochastic dynamics of the explicitly defined model."
+  },
+  {
+    "source_id": "SRC-MATH-407",
+    "domain_ids": [
+      "MATH.COMB.EXT"
+    ],
+    "mapping_basis": "Exact unique-sum representation convention and extremal additive-set bounds."
+  },
+  {
+    "source_id": "SRC-MATH-408",
+    "domain_ids": [
+      "MATH.COMB.EXT"
+    ],
+    "mapping_basis": "Claimed solution of the finite sums-and-products Ramsey question."
+  },
+  {
+    "source_id": "SRC-MATH-409",
+    "domain_ids": [
+      "MATH.NUM"
+    ],
+    "mapping_basis": "Claim about the density of a recursively defined additive sequence."
+  },
+  {
+    "source_id": "SRC-MATH-410",
+    "domain_ids": [
+      "MATH.COMB.EXT"
+    ],
+    "mapping_basis": "Partition regularity of the Pythagorean equation and its pair restriction."
+  },
+  {
+    "source_id": "SRC-FORMAL-401",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-402",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-403",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-404",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-405",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-406",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-407",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-408",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-409",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-410",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-411",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-412",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-413",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-414",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-415",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-416",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-417",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-418",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-419",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-420",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-421",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-422",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-423",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-424",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-425",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-426",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-427",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-428",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-429",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-430",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-431",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-432",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-433",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-434",
+    "domain_ids": [
+      "STAT.CAUSAL"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-435",
+    "domain_ids": [
+      "STAT.INFER",
+      "STAT.LEARN"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-436",
+    "domain_ids": [
+      "STAT.INFER"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-437",
+    "domain_ids": [
+      "STAT.LEARN"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-438",
+    "domain_ids": [
+      "STAT.INFER"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-439",
+    "domain_ids": [
+      "STAT.LEARN"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-440",
+    "domain_ids": [
+      "STAT.COMPUTE"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-441",
+    "domain_ids": [
+      "STAT.LEARN"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-442",
+    "domain_ids": [
+      "STAT.INFER"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-443",
+    "domain_ids": [
+      "STAT.LEARN"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-444",
+    "domain_ids": [
+      "STAT.LEARN"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-445",
+    "domain_ids": [
+      "INFO.ENTROPY",
+      "INFO.SHANNON"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-446",
+    "domain_ids": [
+      "INFO.SHANNON"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-447",
+    "domain_ids": [
+      "INFO.SHANNON"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-448",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-449",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-450",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-451",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-452",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-453",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-454",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-455",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-456",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-457",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-458",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-459",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-460",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-461",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-462",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-463",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-464",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-465",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-466",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-467",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-468",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-469",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-470",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-471",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-472",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-473",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-474",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-475",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-476",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-477",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-478",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-479",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-480",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-481",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-482",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-483",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-484",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-485",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-486",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-487",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-488",
+    "domain_ids": [
+      "CS.ALG"
+    ],
+    "mapping_basis": "The source explicitly poses the indexed question in this research branch."
+  },
+  {
+    "source_id": "SRC-FORMAL-489",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The introduction explicitly restates Dürer's original edge-unfolding question and its reported status."
+  },
+  {
+    "source_id": "SRC-MODEL-401",
+    "domain_ids": [
+      "MPHY.SPECTRAL"
+    ],
+    "mapping_basis": "Operator spectra, bases and mathematical wave evolution."
+  },
+  {
+    "source_id": "SRC-MODEL-402",
+    "domain_ids": [
+      "CHEM.QUANT",
+      "MPHY.SPECTRAL"
+    ],
+    "mapping_basis": "Foundations of electronic density functionals and their approximations."
+  },
+  {
+    "source_id": "SRC-MODEL-403",
+    "domain_ids": [
+      "ECON.SOCIAL",
+      "ECON.MECH"
+    ],
+    "mapping_basis": "Approval-based representation, collective choice and computational axioms."
+  },
+  {
+    "source_id": "SRC-MODEL-404",
+    "domain_ids": [
+      "ASTRO.DYN"
+    ],
+    "mapping_basis": "The cited models and research questions belong to these branches."
+  },
+  {
+    "source_id": "SRC-MODEL-405",
+    "domain_ids": [
+      "PHYS.GRAV",
+      "ASTRO.COSMO"
+    ],
+    "mapping_basis": "The cited models and research questions belong to these branches."
+  },
+  {
+    "source_id": "SRC-MODEL-406",
+    "domain_ids": [
+      "BIO.DEV",
+      "BIO.SYSTEMS"
+    ],
+    "mapping_basis": "The cited models and research questions belong to these branches."
+  },
+  {
+    "source_id": "SRC-MODEL-408",
+    "domain_ids": [
+      "BIO.EVOL"
+    ],
+    "mapping_basis": "The cited models and research questions belong to these branches."
+  },
+  {
+    "source_id": "SRC-MODEL-409",
+    "domain_ids": [
+      "BIO.SYSTEMS",
+      "BIO.MOL"
+    ],
+    "mapping_basis": "The cited models and research questions belong to these branches."
+  },
+  {
+    "source_id": "SRC-MODEL-410",
+    "domain_ids": [
+      "CHEM.REACTION",
+      "CHEM.MATERIAL"
+    ],
+    "mapping_basis": "The cited models and research questions belong to these branches."
+  },
+  {
+    "source_id": "SRC-MODEL-411",
+    "domain_ids": [
+      "PHYS.GRAV"
+    ],
+    "mapping_basis": "The cited models and research questions belong to these branches."
+  },
+  {
+    "source_id": "SRC-MODEL-412",
+    "domain_ids": [
+      "ECON.SOCIAL"
+    ],
+    "mapping_basis": "The cited models and research questions belong to these branches."
+  },
+  {
+    "source_id": "SRC-CROSS-601",
+    "domain_ids": [
+      "ENG"
+    ],
+    "mapping_basis": "Relevant result or review compared with the cited historical question; scope is limited to the inspected passages."
+  },
+  {
+    "source_id": "SRC-CROSS-602",
+    "domain_ids": [
+      "ENG"
+    ],
+    "mapping_basis": "Relevant result or review compared with the cited historical question; scope is limited to the inspected passages."
+  },
+  {
+    "source_id": "SRC-CROSS-603",
+    "domain_ids": [
+      "ENG"
+    ],
+    "mapping_basis": "Relevant result or review compared with the cited historical question; scope is limited to the inspected passages."
+  },
+  {
+    "source_id": "SRC-CROSS-604",
+    "domain_ids": [
+      "ENG"
+    ],
+    "mapping_basis": "Relevant result or review compared with the cited historical question; scope is limited to the inspected passages."
+  },
+  {
+    "source_id": "SRC-CROSS-605",
+    "domain_ids": [
+      "ENG"
+    ],
+    "mapping_basis": "Relevant result or review compared with the cited historical question; scope is limited to the inspected passages."
+  },
+  {
+    "source_id": "SRC-CROSS-606",
+    "domain_ids": [
+      "ENG"
+    ],
+    "mapping_basis": "Relevant result or review compared with the cited historical question; scope is limited to the inspected passages."
+  },
+  {
+    "source_id": "SRC-CROSS-607",
+    "domain_ids": [
+      "EARTH"
+    ],
+    "mapping_basis": "Relevant result or review compared with the cited historical question; scope is limited to the inspected passages."
+  },
+  {
+    "source_id": "SRC-CROSS-608",
+    "domain_ids": [
+      "EARTH"
+    ],
+    "mapping_basis": "Relevant result or review compared with the cited historical question; scope is limited to the inspected passages."
+  },
+  {
+    "source_id": "SRC-CROSS-609",
+    "domain_ids": [
+      "EARTH"
+    ],
+    "mapping_basis": "Relevant result or review compared with the cited historical question; scope is limited to the inspected passages."
+  },
+  {
+    "source_id": "SRC-CROSS-610",
+    "domain_ids": [
+      "COG"
+    ],
+    "mapping_basis": "Relevant result or review compared with the cited historical question; scope is limited to the inspected passages."
+  },
+  {
+    "source_id": "SRC-CROSS-611",
+    "domain_ids": [
+      "COG"
+    ],
+    "mapping_basis": "Relevant result or review compared with the cited historical question; scope is limited to the inspected passages."
+  },
+  {
+    "source_id": "SRC-CROSS-612",
+    "domain_ids": [
+      "COG"
+    ],
+    "mapping_basis": "Relevant result or review compared with the cited historical question; scope is limited to the inspected passages."
+  },
+  {
+    "source_id": "SRC-CROSS-613",
+    "domain_ids": [
+      "COG"
+    ],
+    "mapping_basis": "Relevant result or review compared with the cited historical question; scope is limited to the inspected passages."
+  },
+  {
+    "source_id": "SRC-CROSS-614",
+    "domain_ids": [
+      "NET"
+    ],
+    "mapping_basis": "Relevant result or review compared with the cited historical question; scope is limited to the inspected passages."
+  },
+  {
+    "source_id": "SRC-CROSS-615",
+    "domain_ids": [
+      "COG"
+    ],
+    "mapping_basis": "Partial modelling progress relevant to intermediate visual feature representations."
+  },
+  {
+    "source_id": "SRC-MATH-601",
+    "domain_ids": [
+      "LOGIC.RECUR"
+    ],
+    "mapping_basis": "The inspected statement or follow-up result directly bears on the candidate in this subject area; this mapping does not imply complete coverage."
+  },
+  {
+    "source_id": "SRC-MATH-602",
+    "domain_ids": [
+      "PROB.MIX"
+    ],
+    "mapping_basis": "The inspected statement or follow-up result directly bears on the candidate in this subject area; this mapping does not imply complete coverage."
+  },
+  {
+    "source_id": "SRC-MATH-603",
+    "domain_ids": [
+      "PROB.DISCRETE"
+    ],
+    "mapping_basis": "The inspected statement or follow-up result directly bears on the candidate in this subject area; this mapping does not imply complete coverage."
+  },
+  {
+    "source_id": "SRC-MATH-606",
+    "domain_ids": [
+      "PROB.DISCRETE"
+    ],
+    "mapping_basis": "The inspected statement or follow-up result directly bears on the candidate in this subject area; this mapping does not imply complete coverage."
+  },
+  {
+    "source_id": "SRC-MATH-607",
+    "domain_ids": [
+      "MATH.GEOM.DIFF"
+    ],
+    "mapping_basis": "The inspected statement or follow-up result directly bears on the candidate in this subject area; this mapping does not imply complete coverage."
+  },
+  {
+    "source_id": "SRC-MATH-608",
+    "domain_ids": [
+      "MATH.GEOM.ALG"
+    ],
+    "mapping_basis": "The inspected statement or follow-up result directly bears on the candidate in this subject area; this mapping does not imply complete coverage."
+  },
+  {
+    "source_id": "SRC-MATH-609",
+    "domain_ids": [
+      "MATH.TOP.LOW"
+    ],
+    "mapping_basis": "The inspected statement or follow-up result directly bears on the candidate in this subject area; this mapping does not imply complete coverage."
+  },
+  {
+    "source_id": "SRC-MATH-610",
+    "domain_ids": [
+      "MATH.COMB.EXT"
+    ],
+    "mapping_basis": "The inspected statement or follow-up result directly bears on the candidate in this subject area; this mapping does not imply complete coverage."
+  },
+  {
+    "source_id": "SRC-MATH-611",
+    "domain_ids": [
+      "MATH.COMB.EXT"
+    ],
+    "mapping_basis": "The inspected statement or follow-up result directly bears on the candidate in this subject area; this mapping does not imply complete coverage."
+  },
+  {
+    "source_id": "SRC-MATH-612",
+    "domain_ids": [
+      "MATH.COMB.EXT"
+    ],
+    "mapping_basis": "The inspected statement or follow-up result directly bears on the candidate in this subject area; this mapping does not imply complete coverage."
+  },
+  {
+    "source_id": "SRC-MATH-604",
+    "domain_ids": [
+      "PROB.DISCRETE"
+    ],
+    "mapping_basis": "The inspected statement or follow-up result directly bears on the candidate in this subject area; this mapping does not imply complete coverage."
+  },
+  {
+    "source_id": "SRC-MATH-605",
+    "domain_ids": [
+      "PROB.DISCRETE"
+    ],
+    "mapping_basis": "The inspected statement or follow-up result directly bears on the candidate in this subject area; this mapping does not imply complete coverage."
+  },
+  {
+    "source_id": "SRC-MATH-613",
+    "domain_ids": [
+      "MATH.DYN"
+    ],
+    "mapping_basis": "The inspected statement or follow-up result directly bears on the candidate in this subject area; this mapping does not imply complete coverage."
+  },
+  {
+    "source_id": "SRC-FORMAL-601",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The inspected source informs the statement or status of this indexed question."
+  },
+  {
+    "source_id": "SRC-FORMAL-602",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The inspected source informs the statement or status of this indexed question."
+  },
+  {
+    "source_id": "SRC-FORMAL-603",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The inspected source informs the statement or status of this indexed question."
+  },
+  {
+    "source_id": "SRC-FORMAL-604",
+    "domain_ids": [
+      "INFO.QUANT"
+    ],
+    "mapping_basis": "The inspected source informs the statement or status of this indexed question."
+  },
+  {
+    "source_id": "SRC-FORMAL-605",
+    "domain_ids": [
+      "INFO.QUANT"
+    ],
+    "mapping_basis": "The inspected source informs the statement or status of this indexed question."
+  },
+  {
+    "source_id": "SRC-FORMAL-606",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The inspected source informs the statement or status of this indexed question."
+  },
+  {
+    "source_id": "SRC-FORMAL-607",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The inspected source informs the statement or status of this indexed question."
+  },
+  {
+    "source_id": "SRC-FORMAL-608",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The inspected source informs the statement or status of this indexed question."
+  },
+  {
+    "source_id": "SRC-FORMAL-609",
+    "domain_ids": [
+      "STAT.CAUSAL"
+    ],
+    "mapping_basis": "The inspected source informs the statement or status of this indexed question."
+  },
+  {
+    "source_id": "SRC-FORMAL-610",
+    "domain_ids": [
+      "STAT.INFER",
+      "STAT.LEARN"
+    ],
+    "mapping_basis": "The inspected source informs the statement or status of this indexed question."
+  },
+  {
+    "source_id": "SRC-FORMAL-611",
+    "domain_ids": [
+      "STAT.INFER"
+    ],
+    "mapping_basis": "The inspected source informs the statement or status of this indexed question."
+  },
+  {
+    "source_id": "SRC-FORMAL-612",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The inspected source informs the statement or status of this indexed question."
+  },
+  {
+    "source_id": "SRC-FORMAL-613",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The inspected source informs the statement or status of this indexed question."
+  },
+  {
+    "source_id": "SRC-FORMAL-614",
+    "domain_ids": [
+      "INFO.SHANNON"
+    ],
+    "mapping_basis": "The inspected source informs the statement or status of this indexed question."
+  },
+  {
+    "source_id": "SRC-FORMAL-615",
+    "domain_ids": [
+      "CS.ALG"
+    ],
+    "mapping_basis": "The inspected source informs the statement or status of this indexed question."
+  },
+  {
+    "source_id": "SRC-FORMAL-616",
+    "domain_ids": [
+      "INFO.SHANNON"
+    ],
+    "mapping_basis": "The inspected source informs the statement or status of this indexed question."
+  },
+  {
+    "source_id": "SRC-FORMAL-617",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The inspected source informs the statement or status of this indexed question."
+  },
+  {
+    "source_id": "SRC-FORMAL-618",
+    "domain_ids": [
+      "CS.SEMANTICS"
+    ],
+    "mapping_basis": "The inspected source informs the statement or status of this indexed question."
+  },
+  {
+    "source_id": "SRC-MODEL-601",
+    "domain_ids": [
+      "ECON.SOCIAL"
+    ],
+    "mapping_basis": "Association with the candidate scope supported by the inspected source; not complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-602",
+    "domain_ids": [
+      "ECON.SOCIAL"
+    ],
+    "mapping_basis": "Association with the candidate scope supported by the inspected source; not complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-603",
+    "domain_ids": [
+      "ECON.SOCIAL"
+    ],
+    "mapping_basis": "Association with the candidate scope supported by the inspected source; not complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-604",
+    "domain_ids": [
+      "ECON.SOCIAL"
+    ],
+    "mapping_basis": "Association with the candidate scope supported by the inspected source; not complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-605",
+    "domain_ids": [
+      "ECON.SOCIAL"
+    ],
+    "mapping_basis": "Association with the candidate scope supported by the inspected source; not complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-606",
+    "domain_ids": [
+      "ECON.SOCIAL"
+    ],
+    "mapping_basis": "Association with the candidate scope supported by the inspected source; not complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-607",
+    "domain_ids": [
+      "MPHY.SPECTRAL"
+    ],
+    "mapping_basis": "Association with the candidate scope supported by the inspected source; not complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-608",
+    "domain_ids": [
+      "MPHY.SPECTRAL"
+    ],
+    "mapping_basis": "Association with the candidate scope supported by the inspected source; not complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-609",
+    "domain_ids": [
+      "MPHY.SPECTRAL"
+    ],
+    "mapping_basis": "Association with the candidate scope supported by the inspected source; not complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-610",
+    "domain_ids": [
+      "PHYS.GRAV"
+    ],
+    "mapping_basis": "Association with the candidate scope supported by the inspected source; not complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-611",
+    "domain_ids": [
+      "PHYS.GRAV"
+    ],
+    "mapping_basis": "Association with the candidate scope supported by the inspected source; not complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-612",
+    "domain_ids": [
+      "PHYS.GRAV"
+    ],
+    "mapping_basis": "Association with the candidate scope supported by the inspected source; not complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-613",
+    "domain_ids": [
+      "PHYS.GRAV"
+    ],
+    "mapping_basis": "Association with the candidate scope supported by the inspected source; not complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-614",
+    "domain_ids": [
+      "BIO.EVOL"
+    ],
+    "mapping_basis": "Association with the candidate scope supported by the inspected source; not complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-615",
+    "domain_ids": [
+      "ASTRO.DYN"
+    ],
+    "mapping_basis": "Association with the candidate scope supported by the inspected source; not complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-616",
+    "domain_ids": [
+      "ASTRO.DYN"
+    ],
+    "mapping_basis": "Association with the candidate scope supported by the inspected source; not complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-617",
+    "domain_ids": [
+      "BIO.DEV"
+    ],
+    "mapping_basis": "Association with the candidate scope supported by the inspected source; not complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-618",
+    "domain_ids": [
+      "MPHY.SPECTRAL"
+    ],
+    "mapping_basis": "Association with the candidate scope supported by the inspected source; not complete branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-619",
+    "domain_ids": [
+      "CHEM.QUANT"
+    ],
+    "mapping_basis": "Association with the candidate scope supported by the inspected source; not complete branch coverage."
+  },
+  {
+    "source_id": "SRC-REVIEW-801",
+    "domain_ids": [
+      "COG.NEURO"
+    ],
+    "mapping_basis": "A primary study of task-optimized auditory cortical models and their empirical limits."
+  },
+  {
+    "source_id": "SRC-REVIEW-802",
+    "domain_ids": [
+      "COG.NEURO"
+    ],
+    "mapping_basis": "Author-provided model parameters and an inference demonstration supporting auditory-model inspection."
+  },
+  {
+    "source_id": "SRC-REVIEW-803",
+    "domain_ids": [
+      "CS.GEOM",
+      "CS.COMPLEX"
+    ],
+    "mapping_basis": "Triangulation objectives, computational hardness and geometric optimization methods."
+  },
+  {
+    "source_id": "SRC-REVIEW-701",
+    "domain_ids": [
+      "CS.ALG"
+    ],
+    "mapping_basis": "Direct evidence for the statement, publication status or reproducibility resources of Q-FORMAL-500."
+  },
+  {
+    "source_id": "SRC-REVIEW-702",
+    "domain_ids": [
+      "CS.ALG"
+    ],
+    "mapping_basis": "Direct evidence for the statement, publication status or reproducibility resources of Q-FORMAL-500."
+  },
+  {
+    "source_id": "SRC-REVIEW-703",
+    "domain_ids": [
+      "STAT.CAUSAL"
+    ],
+    "mapping_basis": "Direct evidence for the statement, publication status or reproducibility resources of Q-FORMAL-435."
+  },
+  {
+    "source_id": "SRC-REVIEW-704",
+    "domain_ids": [
+      "PROB.DISCRETE"
+    ],
+    "mapping_basis": "Direct evidence for the statement, publication status or reproducibility resources of Q-MATH-425."
+  },
+  {
+    "source_id": "SRC-REVIEW-901",
+    "domain_ids": [
+      "MATH.GEOM",
+      "MATH.OPT",
+      "MATH.NUMER"
+    ],
+    "mapping_basis": "The inspected passages provide constructions, numerical optimization results and certification limits for the finite geometric problem."
+  }
+]

@@ -1,0 +1,70 @@
+name: "Share research progress"
+description: "Share an idea, attempt, failure, partial result or candidate answer."
+title: "[Research] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Any indexed question can receive an update. Describe your work here or attach dated notes or a PDF in a text field. Link existing evidence instead of copying it; maintainers handle the structured record.
+  - type: textarea
+    id: target
+    attributes:
+      label: "Question addressed"
+      description: "Paste the entry link or ID. Add the date you read it and copy the exact claim addressed, or link a saved statement."
+    validations:
+      required: true
+  - type: dropdown
+    id: outcome
+    attributes:
+      label: "Contribution type"
+      options:
+        - "Proposed approach; no execution"
+        - "Work in progress"
+        - "Unsuccessful attempt"
+        - "Known-result reproduction"
+        - "Partial result"
+        - "Candidate answer awaiting review"
+        - "Correction or retraction of an earlier record"
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: "Work and outcome"
+      description: "State the claim, assumptions and scope, sources of the method, what you did and what followed. Separate planned work from actual results, numerical evidence from proof, and theoretical assumptions from empirical support. Link any earlier record being revised."
+    validations:
+      required: true
+  - type: textarea
+    id: artifacts
+    attributes:
+      label: "Evidence, checks and credit"
+      description: "Attach or link your dated argument or other evidence. Give actual checks and their limits, or a checking plan for an idea. Add relevant reproduction steps, tools, data, resources and human help; mark costs as measured, estimated or unknown. Credit sources and contributors, note reuse restrictions and leave unexamined novelty unverified."
+    validations:
+      required: true
+  - type: dropdown
+    id: ai_disclosure
+    attributes:
+      label: "AI assistance in scientific content"
+      description: "Include scientific reasoning, results and supporting code or evidence. Presentation-only assistance that preserves meaning is excluded; disclose its role below."
+      options:
+        - "No AI contribution to scientific content"
+        - "Recommended or recognized configurations only"
+        - "Includes a non-recommended or unidentified model"
+    validations:
+      required: true
+  - type: textarea
+    id: submission_review
+    attributes:
+      label: "AI assistance and checks (if used)"
+      description: "For scientific content and its supporting code and evidence, give each contributing model's service-supplied identity, available version/settings, dates, role and affected material. Include applicable human screening, manual submitter and final-version recheck, or link one existing note. For meaning-preserving presentation or source curation alone, a brief tool/model, role and checks note is enough; unknown details are acceptable."
+  - type: markdown
+    attributes:
+      value: |
+        **AI-assisted scientific content:** Under the [AI policy](https://github.com/luvLunairs/theory-research-atlas/blob/main/docs/ai-contributions.md#submission-routes), any non-recommended or unidentified contribution, including mixed workflows, requires full-text human review of the scientific content and supporting material, then manual submission of the whole contribution; automation is prohibited even after review. Maintenance and faithful source curation have no research model restriction. Automation always needs authorization and the [final-version recheck](https://github.com/luvLunairs/theory-research-atlas/blob/main/AGENTS.md#required-recheck).
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: "Contribution terms"
+      options:
+        - label: "I may share this material under the [contribution terms](https://github.com/luvLunairs/theory-research-atlas/blob/main/CONTRIBUTING.md#evidence-and-attribution) and [licenses](https://github.com/luvLunairs/theory-research-atlas/blob/main/LICENSE.md). I have supplied required credit and disclosures, identified unchecked claims and followed the review and submission rules."
+          required: true

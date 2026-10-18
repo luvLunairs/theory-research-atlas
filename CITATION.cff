@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Cite the atlas entry and revision you used, and cite the original research separately. See docs/reuse-and-citation.md for attribution guidance."
+title: Theory Research Atlas
+type: dataset
+version: 0.1.0-dev
+authors:
+  - family-names: luvLunairs
+    alias: luvLunairs
+    website: https://github.com/luvLunairs
+  - name: Theory Research Atlas contributors
+contact:
+  - family-names: luvLunairs
+    alias: luvLunairs
+    website: https://github.com/luvLunairs
+abstract: "A collection of theoretical research questions, sources, verification plans and research records for work with AI. Entries distinguish literature status, research progress and the scope of review."
+keywords:
+  - theoretical science
+  - open problems
+  - research curation
+  - AI-assisted research

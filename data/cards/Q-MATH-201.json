@@ -1,0 +1,183 @@
+{
+  "id": "Q-MATH-201",
+  "title": "A 150-point no-three-in-line configuration on a 75 by 75 grid",
+  "domain": "Discrete geometry",
+  "cross_domains": [
+    "Extremal combinatorics",
+    "Algorithms"
+  ],
+  "kind": "literature_open",
+  "statement": "Does there exist S contained in {0,...,74}^2 with |S|=150 such that (x_j-x_i)(y_k-y_i)-(x_k-x_i)(y_j-y_i) is nonzero for every three distinct points of S? A construction attains the row-count upper bound; an impossibility proof must cover all configurations.",
+  "source_ids": [
+    "SRC-MATH-201"
+  ],
+  "source_locator": "Introduction and maintained frontier entries for n=71,73,74,76; summary-table date 2026-09-11.",
+  "status": "open_after_scoped_check",
+  "status_basis": "The author-maintained frontier records all sizes 2 through 74 and size 76, but no size 75. Searches for a size-75 construction or impossibility result found no authoritative resolution by 2026-10-14. This is an open-status inference from a dated frontier gap, not an explicit theorem of open status.",
+  "last_checked": "2026-10-14",
+  "curator_origin": false,
+  "duplicate_key": "a-150-point-no-three-in-line-configuration-on-a-75-by-75-grid",
+  "proposed_card": true,
+  "primary_domain_id": "MATH.GEOM",
+  "cross_domain_ids": [
+    "MATH.COMB.EXT",
+    "CS.ALG"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "relations": [],
+  "experimental_dependency": "none_for_formal_task",
+  "revision_history": [],
+  "epistemic_layers": {
+    "formal_validity": "Only a checked finite witness or a proof covering the declared space establishes the mathematical claim.",
+    "empirical_support": "No physical model, empirical data or experiment is needed."
+  },
+  "judgments": {
+    "difficulty": {
+      "rating": "high",
+      "basis": "The unrestricted target is a research frontier; a bounded trial has no assured outcome.",
+      "evidence": "editorial_estimate_not_measured"
+    },
+    "correctness": {
+      "status": "no_project_answer",
+      "basis": "No project candidate solution has been submitted or independently reviewed."
+    },
+    "novelty": {
+      "status": "requires_future_literature_review",
+      "basis": "Future results must be checked against live sources and existing computational records."
+    },
+    "significance": {
+      "rating": "medium",
+      "basis": "A verified improvement would resolve a finite case or tighten a recognized extremal bound."
+    }
+  },
+  "plain_summary": "Place 150 lattice points on a 75 by 75 board so that no straight line contains three. A finite output is easy to check independently, although finding it may be hard.",
+  "assumptions": [
+    "Coordinates are integers from 0 to 74 inclusive.",
+    "Collinearity includes every slope, not just rows, columns and main diagonals.",
+    "All points must be distinct; a tolerance-based drawing is insufficient."
+  ],
+  "scope": "The unrestricted size-75 existence question. A separately proposed first milestone examines half-turn invariant configurations; this is a curator-designed restriction, not a reduction of the whole problem.",
+  "target": "Find a 150-point witness, or prove none exists. First milestone: encode configurations invariant under (x,y) -> (74-x,74-y), provide the exact constraints, and conduct one capped search.",
+  "success_criteria": [
+    "Supply all 150 integer pairs and pass an independently written determinant checker.",
+    "For the proposed milestone, require two points in every row and column, half-turn invariance, and at most two points on every grid line; declare any further restrictions.",
+    "Cap the proposed milestone at 8 CPU-hours and 16 GiB RAM. These are chosen limits, not measured requirements or predicted time to success.",
+    "A checked UNSAT certificate for the restricted encoding establishes only absence in that subclass. A timeout establishes neither existence nor nonexistence."
+  ],
+  "known_results": [
+    "The maintained source records constructions at all sizes 2 through 74 and at 76; size 75 is absent in the inspected frontier.",
+    "The elementary row argument gives at most 150 points. No independently audited best sub-150 value is asserted."
+  ],
+  "prerequisites": [
+    "Integer determinant geometry",
+    "SAT or constraint programming",
+    "Symmetry and orbit constraints"
+  ],
+  "significance": "A witness closes a gap below the largest recorded solved board. An obstruction for a precisely specified symmetry class may guide searches, subject to a separate novelty check.",
+  "requirements": {
+    "experiment": "None.",
+    "data": "Self-contained. Optional attributed configurations and encodings come from Flammenkamp's database.",
+    "compute": "Proposed cap: 8 CPU-hours and 16 GiB RAM. The grid has 5,625 positions. A positive witness needs C(150,3)=551,300 exact triple checks. Full impossibility may require much larger resources.",
+    "theoretical_assumptions": "Euclidean collinearity of integer points. Half-turn symmetry is a voluntary search restriction, not a theorem about optimal configurations."
+  },
+  "ai_assessment": {
+    "priority": "priority_trial",
+    "rationale": "Priority applies to the bounded construction experiment: its output is precise and independently checkable. It does not predict that the frontier target will be solved.",
+    "dimensions": {
+      "clarity": {
+        "rating": "high",
+        "reason": "The board, point count and predicate are explicit."
+      },
+      "decomposability": {
+        "rating": "high",
+        "reason": "Encoding, symmetry, search and checking separate naturally."
+      },
+      "methods": {
+        "rating": "high",
+        "reason": "The source documents constraint searches and reusable symmetry records."
+      },
+      "search_or_symbolic": {
+        "rating": "high",
+        "reason": "The predicates are finite exact integer constraints."
+      },
+      "checkability": {
+        "rating": "high",
+        "reason": "A positive witness requires a modest number of determinant checks."
+      },
+      "expertise": {
+        "rating": "medium",
+        "reason": "Search design needs experience; the witness checker is elementary."
+      },
+      "significance": {
+        "rating": "medium",
+        "reason": "A witness fills an actively maintained finite frontier gap."
+      },
+      "verification_difficulty": {
+        "rating": "medium",
+        "reason": "Positive checking is simple; UNSAT needs an encoding proof and certificate audit."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "No model or search has been evaluated. Easy checking gives no estimate of success probability, and the frontier can change quickly.",
+    "assessment_date": "2026-10-14",
+    "model_scope": "No named model evaluated; assumes tool-using AI able to implement integer constraints, reason about symmetry and produce inspectable solver inputs.",
+    "evidence_refs": []
+  },
+  "methods": [
+    "SAT or constraint programming with line-capacity constraints",
+    "Half-turn orbit variables",
+    "Local search guided by collinear triples",
+    "Independent integer determinant checking"
+  ],
+  "method_tags": [
+    "construction",
+    "finite_search",
+    "exact_computation",
+    "certificate_checking"
+  ],
+  "validation_tags": [
+    "exact_computation",
+    "pure_proof"
+  ],
+  "obstacles": [
+    "A symmetry restriction may remove every solution.",
+    "Checking only familiar slopes changes the problem.",
+    "Existing unpublished searches may cover the restricted case.",
+    "A 149-point output is not automatically a new record; the database primarily records full configurations."
+  ],
+  "validation": {
+    "steps": [
+      "Check count, distinctness and coordinate bounds independently.",
+      "Enumerate every triple with exact integer arithmetic and reject zero determinants.",
+      "For a solver proof, reconstruct the constraints and use an independent certificate verifier.",
+      "Refresh the source before a novelty claim."
+    ],
+    "human_review_difficulty": "Low for a positive witness; high for a global impossibility proof.",
+    "statement_alignment": "The main statement covers all configurations; the half-turn milestone cannot establish unrestricted nonexistence."
+  },
+  "known_attempts": [
+    "The maintained collection attributes recent frontier constructions to Thomas Prellberg, Mitchell Riley and Marijn Heule; it lists no size-75 solution."
+  ],
+  "unresolved_checks": [
+    "Refresh the latest table.",
+    "Determine whether the proposed symmetry case has already been exhausted.",
+    "Audit sub-150 records before claiming a lower-count improvement."
+  ],
+  "attribution": {
+    "original_authors": [
+      "Henry Ernest Dudeney",
+      "Achim Flammenkamp"
+    ],
+    "citation": "Flammenkamp, The No-Three-in-Line Problem, maintained database, table updated 2026-09-11, accessed 2026-10-14. Historical credit to Dudeney follows the source; the 1906 original was not inspected.",
+    "curator_credit": "Compiled for Theory Research Atlas with AI assistance."
+  },
+  "status_search": {
+    "queries": [],
+    "checked_sources": [
+      "SRC-MATH-201"
+    ],
+    "result": "The maintained September frontier leaves a size-75 gap; the scoped October search found no authoritative resolution.",
+    "limitations": "Missing records do not certify universal open status. Unpublished constructions or restricted-case impossibility results may exist."
+  }
+}

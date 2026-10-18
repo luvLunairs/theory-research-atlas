@@ -1,0 +1,4201 @@
+[
+  {
+    "id": "MATH",
+    "parent_id": null,
+    "title": "Mathematics",
+    "definition": "Abstract structures, spaces, quantities and transformations.",
+    "boundary": "Formal questions; applications cross-link to their model domain.",
+    "objects": [
+      "groups",
+      "manifolds",
+      "equations",
+      "graphs"
+    ],
+    "related_ids": [],
+    "classification_source_ids": [
+      "SRC-BASE-001",
+      "SRC-BASE-015"
+    ],
+    "external_mapping": {
+      "relation": "inspired_by",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Retain theoretical research tasks; decide experimental and resource requirements per problem.",
+    "methods": [
+      "proof",
+      "model_analysis"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "A navigation umbrella, not a claim that all constituent research has been surveyed."
+  },
+  {
+    "id": "LOGIC",
+    "parent_id": null,
+    "title": "Logic and foundations",
+    "definition": "Formal reasoning, definability and foundational systems.",
+    "boundary": "Metamathematical claims specify their ambient logic and axioms.",
+    "objects": [
+      "theories",
+      "proofs",
+      "models",
+      "types"
+    ],
+    "related_ids": [],
+    "classification_source_ids": [
+      "SRC-BASE-001",
+      "SRC-BASE-015"
+    ],
+    "external_mapping": {
+      "relation": "inspired_by",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Retain theoretical research tasks; decide experimental and resource requirements per problem.",
+    "methods": [
+      "proof",
+      "model_analysis"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "A navigation umbrella, not a claim that all constituent research has been surveyed."
+  },
+  {
+    "id": "CS",
+    "parent_id": null,
+    "title": "Theoretical computer science",
+    "definition": "Possibility, cost and correctness of computation.",
+    "boundary": "Deployment engineering is outside scope unless it yields a formal research question.",
+    "objects": [
+      "algorithms",
+      "circuits",
+      "protocols"
+    ],
+    "related_ids": [],
+    "classification_source_ids": [
+      "SRC-BASE-005",
+      "SRC-FORMAL-001"
+    ],
+    "external_mapping": {
+      "relation": "inspired_by",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Retain theoretical research tasks; decide experimental and resource requirements per problem.",
+    "methods": [
+      "proof",
+      "model_analysis"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "A navigation umbrella, not a claim that all constituent research has been surveyed."
+  },
+  {
+    "id": "PROB",
+    "parent_id": null,
+    "title": "Probability theory",
+    "definition": "Mathematical laws of random objects and processes.",
+    "boundary": "Distributional assumptions are distinct from empirical fit.",
+    "objects": [
+      "random walks",
+      "measures",
+      "percolation"
+    ],
+    "related_ids": [],
+    "classification_source_ids": [
+      "SRC-BASE-005"
+    ],
+    "external_mapping": {
+      "relation": "inspired_by",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Retain theoretical research tasks; decide experimental and resource requirements per problem.",
+    "methods": [
+      "proof",
+      "model_analysis"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "A navigation umbrella, not a claim that all constituent research has been surveyed."
+  },
+  {
+    "id": "STAT",
+    "parent_id": null,
+    "title": "Statistical and learning theory",
+    "definition": "Guarantees for inference, decisions and learning from observations.",
+    "boundary": "Benchmarks alone do not establish general statistical guarantees.",
+    "objects": [
+      "estimators",
+      "tests",
+      "risk",
+      "identifiability"
+    ],
+    "related_ids": [],
+    "classification_source_ids": [
+      "SRC-BASE-005"
+    ],
+    "external_mapping": {
+      "relation": "inspired_by",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Retain theoretical research tasks; decide experimental and resource requirements per problem.",
+    "methods": [
+      "proof",
+      "model_analysis"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "A navigation umbrella, not a claim that all constituent research has been surveyed."
+  },
+  {
+    "id": "INFO",
+    "parent_id": null,
+    "title": "Information and coding theory",
+    "definition": "Limits of communication, representation and information processing.",
+    "boundary": "Physical implementations link to physics and engineering.",
+    "objects": [
+      "channels",
+      "codes",
+      "entropy regions"
+    ],
+    "related_ids": [],
+    "classification_source_ids": [
+      "SRC-BASE-005"
+    ],
+    "external_mapping": {
+      "relation": "inspired_by",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Retain theoretical research tasks; decide experimental and resource requirements per problem.",
+    "methods": [
+      "proof",
+      "model_analysis"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "A navigation umbrella, not a claim that all constituent research has been surveyed."
+  },
+  {
+    "id": "PHYS",
+    "parent_id": null,
+    "title": "Theoretical physics",
+    "definition": "Mathematical models and principles proposed for physical systems.",
+    "boundary": "Derivation under assumptions is separate from empirical confirmation.",
+    "objects": [
+      "fields",
+      "matter",
+      "spacetime",
+      "particles"
+    ],
+    "related_ids": [],
+    "classification_source_ids": [
+      "SRC-BASE-002"
+    ],
+    "external_mapping": {
+      "relation": "inspired_by",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Retain theoretical research tasks; decide experimental and resource requirements per problem.",
+    "methods": [
+      "proof",
+      "model_analysis"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "A navigation umbrella, not a claim that all constituent research has been surveyed."
+  },
+  {
+    "id": "MPHY",
+    "parent_id": null,
+    "title": "Mathematical physics",
+    "definition": "Rigorous analysis of structures and models motivated by physics.",
+    "boundary": "Primary placement follows the theorem target; physics relevance is cross-linked.",
+    "objects": [
+      "operators",
+      "measures",
+      "Hamiltonians"
+    ],
+    "related_ids": [],
+    "classification_source_ids": [
+      "SRC-BASE-002"
+    ],
+    "external_mapping": {
+      "relation": "inspired_by",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Retain theoretical research tasks; decide experimental and resource requirements per problem.",
+    "methods": [
+      "proof",
+      "model_analysis"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "A navigation umbrella, not a claim that all constituent research has been surveyed."
+  },
+  {
+    "id": "CHEM",
+    "parent_id": null,
+    "title": "Theoretical chemistry and materials",
+    "definition": "Models of molecular structure, reactions and material behavior.",
+    "boundary": "A model calculation cannot certify a real compound or reaction without evidence.",
+    "objects": [
+      "electronic states",
+      "reaction networks",
+      "lattices"
+    ],
+    "related_ids": [],
+    "classification_source_ids": [
+      "SRC-BASE-003"
+    ],
+    "external_mapping": {
+      "relation": "inspired_by",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Retain theoretical research tasks; decide experimental and resource requirements per problem.",
+    "methods": [
+      "proof",
+      "model_analysis"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "A navigation umbrella, not a claim that all constituent research has been surveyed."
+  },
+  {
+    "id": "BIO",
+    "parent_id": null,
+    "title": "Theoretical biology",
+    "definition": "Formal models of living systems across scales.",
+    "boundary": "Biological realism and empirical identification require separate review.",
+    "objects": [
+      "populations",
+      "cells",
+      "networks",
+      "sequences"
+    ],
+    "related_ids": [],
+    "classification_source_ids": [
+      "SRC-BASE-005"
+    ],
+    "external_mapping": {
+      "relation": "inspired_by",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Retain theoretical research tasks; decide experimental and resource requirements per problem.",
+    "methods": [
+      "proof",
+      "model_analysis"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "A navigation umbrella, not a claim that all constituent research has been surveyed."
+  },
+  {
+    "id": "ECON",
+    "parent_id": null,
+    "title": "Economics and game theory",
+    "definition": "Formal models of allocation, incentives, strategic behavior and institutions.",
+    "boundary": "Model theorems do not establish behavioral or policy validity.",
+    "objects": [
+      "games",
+      "markets",
+      "preferences",
+      "mechanisms"
+    ],
+    "related_ids": [],
+    "classification_source_ids": [
+      "SRC-BASE-004"
+    ],
+    "external_mapping": {
+      "relation": "inspired_by",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Retain theoretical research tasks; decide experimental and resource requirements per problem.",
+    "methods": [
+      "proof",
+      "model_analysis"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "A navigation umbrella, not a claim that all constituent research has been surveyed."
+  },
+  {
+    "id": "NET",
+    "parent_id": null,
+    "title": "Networks and complex systems",
+    "definition": "Collective behavior arising from interactions and structure.",
+    "boundary": "Application-specific claims link to biology, economics or physics.",
+    "objects": [
+      "graphs",
+      "coupled units",
+      "cascades"
+    ],
+    "related_ids": [],
+    "classification_source_ids": [
+      "SRC-BASE-005"
+    ],
+    "external_mapping": {
+      "relation": "inspired_by",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Retain theoretical research tasks; decide experimental and resource requirements per problem.",
+    "methods": [
+      "proof",
+      "model_analysis"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "A navigation umbrella, not a claim that all constituent research has been surveyed."
+  },
+  {
+    "id": "EARTH",
+    "parent_id": null,
+    "title": "Earth, climate and environmental theory",
+    "definition": "Mathematical models of Earth and environmental processes.",
+    "boundary": "Inference about Earth requires observations beyond internal model consistency.",
+    "objects": [
+      "circulation",
+      "waves",
+      "climate feedbacks"
+    ],
+    "related_ids": [],
+    "classification_source_ids": [
+      "SRC-BASE-003",
+      "SRC-MODEL-014"
+    ],
+    "external_mapping": {
+      "relation": "inspired_by",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Retain theoretical research tasks; decide experimental and resource requirements per problem.",
+    "methods": [
+      "proof",
+      "model_analysis"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "A navigation umbrella, not a claim that all constituent research has been surveyed."
+  },
+  {
+    "id": "ASTRO",
+    "parent_id": null,
+    "title": "Astrophysics and cosmology theory",
+    "definition": "Models of astronomical systems and cosmic evolution.",
+    "boundary": "Observational adequacy is distinct from analytical solvability.",
+    "objects": [
+      "orbits",
+      "stars",
+      "cosmological perturbations"
+    ],
+    "related_ids": [],
+    "classification_source_ids": [
+      "SRC-BASE-002",
+      "SRC-MODEL-015"
+    ],
+    "external_mapping": {
+      "relation": "inspired_by",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Retain theoretical research tasks; decide experimental and resource requirements per problem.",
+    "methods": [
+      "proof",
+      "model_analysis"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "A navigation umbrella, not a claim that all constituent research has been surveyed."
+  },
+  {
+    "id": "ENG",
+    "parent_id": null,
+    "title": "Control and theoretical engineering",
+    "definition": "General mathematical limits and design principles for engineered systems.",
+    "boundary": "Prototype construction and product deployment are deferred.",
+    "objects": [
+      "controllers",
+      "inverse problems",
+      "signals"
+    ],
+    "related_ids": [],
+    "classification_source_ids": [
+      "SRC-BASE-003"
+    ],
+    "external_mapping": {
+      "relation": "inspired_by",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Retain theoretical research tasks; decide experimental and resource requirements per problem.",
+    "methods": [
+      "proof",
+      "model_analysis"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "A navigation umbrella, not a claim that all constituent research has been surveyed."
+  },
+  {
+    "id": "COG",
+    "parent_id": null,
+    "title": "Formal cognition and language",
+    "definition": "Explicit computational or mathematical models of cognition and language.",
+    "boundary": "Unconstrained speculation and clinical claims are outside the current index.",
+    "objects": [
+      "neural codes",
+      "grammars",
+      "decision models"
+    ],
+    "related_ids": [],
+    "classification_source_ids": [
+      "SRC-BASE-003"
+    ],
+    "external_mapping": {
+      "relation": "inspired_by",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Retain theoretical research tasks; decide experimental and resource requirements per problem.",
+    "methods": [
+      "proof",
+      "model_analysis"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "A navigation umbrella, not a claim that all constituent research has been surveyed."
+  },
+  {
+    "id": "MATH.ALG",
+    "parent_id": "MATH",
+    "title": "Algebra",
+    "definition": "Operations, symmetries and algebraic structures.",
+    "boundary": "Arithmetic geometry cross-links to number theory.",
+    "objects": [
+      "groups",
+      "rings",
+      "modules",
+      "representations"
+    ],
+    "related_ids": [
+      "MATH.NUM",
+      "MATH.GEOM"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-001",
+      "SRC-BASE-015"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "construction",
+      "classification",
+      "symbolic_derivation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "MATH.ALG.COMM",
+    "parent_id": "MATH.ALG",
+    "title": "Commutative and homological algebra",
+    "definition": "Ideals, modules and derived algebraic invariants.",
+    "boundary": "Categorical foundations link to logic.",
+    "objects": [
+      "ideals",
+      "resolutions",
+      "homology"
+    ],
+    "related_ids": [
+      "LOGIC.CAT"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-001",
+      "SRC-BASE-015"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "symbolic_derivation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "MATH.ALG.REP",
+    "parent_id": "MATH.ALG",
+    "title": "Groups and representation theory",
+    "definition": "Group structure and linear actions.",
+    "boundary": "Lie-theoretic physical applications link to physics.",
+    "objects": [
+      "finite groups",
+      "characters",
+      "Lie algebras"
+    ],
+    "related_ids": [
+      "PHYS.FIELD"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-001",
+      "SRC-BASE-015"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "classification",
+      "exact_computation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "MATH.NUM",
+    "parent_id": "MATH",
+    "title": "Number theory and arithmetic geometry",
+    "definition": "Arithmetic of integers, fields and arithmetic varieties.",
+    "boundary": "Pure geometric structure remains linked to geometry.",
+    "objects": [
+      "primes",
+      "Diophantine equations",
+      "elliptic curves"
+    ],
+    "related_ids": [
+      "MATH.ALG",
+      "MATH.GEOM"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-001",
+      "SRC-BASE-015"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "construction",
+      "bounds",
+      "exact_computation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "MATH.NUM.ANALYTIC",
+    "parent_id": "MATH.NUM",
+    "title": "Analytic number theory",
+    "definition": "Analytic methods for arithmetic quantities.",
+    "boundary": "Numerical zero searches are evidence for finite ranges only.",
+    "objects": [
+      "L-functions",
+      "prime counts",
+      "exponential sums"
+    ],
+    "related_ids": [
+      "MATH.ANAL"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-001",
+      "SRC-BASE-015"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "bounds",
+      "numerical_computation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "MATH.GEOM",
+    "parent_id": "MATH",
+    "title": "Geometry",
+    "definition": "Metric, differential and algebraic structures on spaces.",
+    "boundary": "Topological invariants cross-link rather than duplicate.",
+    "objects": [
+      "varieties",
+      "metrics",
+      "curvature"
+    ],
+    "related_ids": [
+      "MATH.TOP"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-001",
+      "SRC-BASE-015"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "classification",
+      "construction"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "MATH.GEOM.ALG",
+    "parent_id": "MATH.GEOM",
+    "title": "Algebraic geometry",
+    "definition": "Geometric objects defined through algebraic equations.",
+    "boundary": "Arithmetic base-field conditions must be explicit.",
+    "objects": [
+      "schemes",
+      "moduli",
+      "birational maps"
+    ],
+    "related_ids": [
+      "MATH.NUM",
+      "MATH.ALG"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-001",
+      "SRC-BASE-015"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "symbolic_derivation",
+      "classification"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "MATH.GEOM.DIFF",
+    "parent_id": "MATH.GEOM",
+    "title": "Differential and symplectic geometry",
+    "definition": "Smooth and symplectic structures and their invariants.",
+    "boundary": "Analytic existence questions may primarily belong to PDE.",
+    "objects": [
+      "manifolds",
+      "geodesics",
+      "symplectic forms"
+    ],
+    "related_ids": [
+      "MATH.ANAL.PDE",
+      "MPHY.CLASSICAL"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-001",
+      "SRC-BASE-015"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "construction"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "MATH.TOP",
+    "parent_id": "MATH",
+    "title": "Topology",
+    "definition": "Continuity, deformation and global invariants of spaces.",
+    "boundary": "Computable invariants do not automatically classify objects.",
+    "objects": [
+      "knots",
+      "homotopy groups",
+      "complexes"
+    ],
+    "related_ids": [
+      "MATH.GEOM",
+      "LOGIC.CAT"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-001",
+      "SRC-BASE-015"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "classification",
+      "finite_search"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "MATH.TOP.LOW",
+    "parent_id": "MATH.TOP",
+    "title": "Low-dimensional topology",
+    "definition": "Topology of knots and low-dimensional manifolds.",
+    "boundary": "Finite census checks require completeness certificates.",
+    "objects": [
+      "knots",
+      "three-manifolds",
+      "four-manifolds"
+    ],
+    "related_ids": [
+      "CS.GEOM"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-001",
+      "SRC-BASE-015"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "finite_search",
+      "exact_computation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "MATH.COMB",
+    "parent_id": "MATH",
+    "title": "Combinatorics and discrete mathematics",
+    "definition": "Finite or discrete configurations and their structure.",
+    "boundary": "Random models link to probability and network applications.",
+    "objects": [
+      "graphs",
+      "set systems",
+      "matroids"
+    ],
+    "related_ids": [
+      "PROB.DISCRETE",
+      "CS.ALG"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-001",
+      "SRC-BASE-015"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "construction",
+      "counterexample",
+      "finite_search"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "MATH.COMB.EXT",
+    "parent_id": "MATH.COMB",
+    "title": "Extremal and Ramsey theory",
+    "definition": "Thresholds forcing or excluding finite configurations.",
+    "boundary": "Search results must state order, labeling and symmetry scope.",
+    "objects": [
+      "colorings",
+      "hypergraphs",
+      "set families"
+    ],
+    "related_ids": [
+      "INFO.CODES"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-001",
+      "SRC-BASE-015"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "bounds",
+      "finite_search",
+      "certificate_checking"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "MATH.COMB.ENUM",
+    "parent_id": "MATH.COMB",
+    "title": "Enumerative and algebraic combinatorics",
+    "definition": "Counting structures and studying combinatorial algebra.",
+    "boundary": "Observed sequences require proof before extrapolation.",
+    "objects": [
+      "generating functions",
+      "tableaux",
+      "designs"
+    ],
+    "related_ids": [
+      "MATH.ALG"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-001",
+      "SRC-BASE-015"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "symbolic_derivation",
+      "exact_computation",
+      "proof"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "MATH.ANAL",
+    "parent_id": "MATH",
+    "title": "Analysis",
+    "definition": "Limits, functions, operators and continuous structures.",
+    "boundary": "Applications keep model and boundary conditions explicit.",
+    "objects": [
+      "function spaces",
+      "operators",
+      "integrals"
+    ],
+    "related_ids": [
+      "MPHY.SPECTRAL"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-001",
+      "SRC-BASE-015"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "bounds",
+      "symbolic_derivation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "MATH.ANAL.PDE",
+    "parent_id": "MATH.ANAL",
+    "title": "Differential equations and variational analysis",
+    "definition": "Existence, regularity and structure of ODE/PDE solutions.",
+    "boundary": "Numerical trajectories cannot settle unrestricted existence.",
+    "objects": [
+      "weak solutions",
+      "boundary problems",
+      "energies"
+    ],
+    "related_ids": [
+      "PHYS.FLUID",
+      "ENG.CONTROL"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-001",
+      "SRC-BASE-015"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "bounds",
+      "numerical_computation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "MATH.ANAL.HARM",
+    "parent_id": "MATH.ANAL",
+    "title": "Harmonic, real and complex analysis",
+    "definition": "Transforms, analytic functions and analytic inequalities.",
+    "boundary": "Computer algebra identities require domain and branch checks.",
+    "objects": [
+      "Fourier transforms",
+      "holomorphic functions",
+      "measures"
+    ],
+    "related_ids": [
+      "INFO.SIGNAL"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-001",
+      "SRC-BASE-015"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "bounds",
+      "symbolic_derivation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "MATH.ANAL.FUNC",
+    "parent_id": "MATH.ANAL",
+    "title": "Functional and operator analysis",
+    "definition": "Infinite-dimensional spaces and maps between them.",
+    "boundary": "Finite truncations need error control.",
+    "objects": [
+      "Banach spaces",
+      "spectra",
+      "operator algebras"
+    ],
+    "related_ids": [
+      "MPHY.SPECTRAL",
+      "INFO.QUANT"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-001",
+      "SRC-BASE-015"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "bounds"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "MATH.DYN",
+    "parent_id": "MATH",
+    "title": "Dynamical systems and ergodic theory",
+    "definition": "Long-term behavior under repeated evolution.",
+    "boundary": "Finite-time stability is separate from asymptotic guarantees.",
+    "objects": [
+      "flows",
+      "maps",
+      "invariant measures"
+    ],
+    "related_ids": [
+      "PROB.PROCESS",
+      "NET.DYNAMICS"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-001",
+      "SRC-BASE-015"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "model_analysis",
+      "numerical_computation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "MATH.OPT",
+    "parent_id": "MATH",
+    "title": "Optimization and operations research",
+    "definition": "Optimal values, algorithms and structural bounds.",
+    "boundary": "Application objectives require separate justification.",
+    "objects": [
+      "convex programs",
+      "integer programs",
+      "transport"
+    ],
+    "related_ids": [
+      "CS.ALG",
+      "ENG.CONTROL"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-001",
+      "SRC-BASE-015"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "bounds",
+      "algorithm",
+      "certificate_checking"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "MATH.NUMER",
+    "parent_id": "MATH",
+    "title": "Numerical analysis and scientific computation",
+    "definition": "Approximation schemes with error, stability and complexity guarantees.",
+    "boundary": "Floating-point agreement is not exact computation.",
+    "objects": [
+      "solvers",
+      "discretizations",
+      "condition numbers"
+    ],
+    "related_ids": [
+      "ENG.INVERSE",
+      "STAT.UQ"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-001",
+      "SRC-BASE-015"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "algorithm",
+      "numerical_computation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "LOGIC.SET",
+    "parent_id": "LOGIC",
+    "title": "Set theory and independence",
+    "definition": "Sets, infinities and relative consistency.",
+    "boundary": "State axiom systems and consistency-strength qualifications.",
+    "objects": [
+      "forcing",
+      "large cardinals",
+      "inner models"
+    ],
+    "related_ids": [
+      "MATH.TOP"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-001",
+      "SRC-BASE-015"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "model_construction"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "LOGIC.MODEL",
+    "parent_id": "LOGIC",
+    "title": "Model theory",
+    "definition": "Structures defined by formal theories.",
+    "boundary": "Distinguish elementary equivalence from isomorphism.",
+    "objects": [
+      "definability",
+      "stability",
+      "valued fields"
+    ],
+    "related_ids": [
+      "MATH.ALG"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-001",
+      "SRC-BASE-015"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "classification"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "LOGIC.PROOF",
+    "parent_id": "LOGIC",
+    "title": "Proof theory and constructive logic",
+    "definition": "Proof systems and their strength or computational content.",
+    "boundary": "Proof length depends on the chosen formal system.",
+    "objects": [
+      "sequent calculi",
+      "ordinal analyses",
+      "constructive proofs"
+    ],
+    "related_ids": [
+      "CS.COMPLEX"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-001",
+      "SRC-BASE-015"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "formalization"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "LOGIC.TYPE",
+    "parent_id": "LOGIC",
+    "title": "Type theory and formal verification",
+    "definition": "Typed foundations and mechanically checked reasoning.",
+    "boundary": "Kernel success still requires statement alignment and trusted-base review.",
+    "objects": [
+      "dependent types",
+      "proof assistants",
+      "specifications"
+    ],
+    "related_ids": [
+      "CS.SEMANTICS"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-001",
+      "SRC-BASE-015"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "formalization",
+      "certificate_checking"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "LOGIC.RECUR",
+    "parent_id": "LOGIC",
+    "title": "Computability and degree theory",
+    "definition": "Computable sets, reductions and undecidability.",
+    "boundary": "An uncomputable general task can have computable restricted instances.",
+    "objects": [
+      "Turing degrees",
+      "reducibilities",
+      "randomness"
+    ],
+    "related_ids": [
+      "CS.COMPLEX",
+      "PROB.FOUND"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-001",
+      "SRC-BASE-015"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "construction"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "LOGIC.CAT",
+    "parent_id": "LOGIC",
+    "title": "Category theory and categorical foundations",
+    "definition": "Compositional structures and relationships between mathematical theories.",
+    "boundary": "Category size and universe assumptions must be explicit.",
+    "objects": [
+      "functors",
+      "higher categories",
+      "toposes"
+    ],
+    "related_ids": [
+      "MATH.ALG",
+      "MATH.TOP"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-001",
+      "SRC-BASE-015"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "formalization"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "CS.ALG",
+    "parent_id": "CS",
+    "title": "Algorithms and data structures",
+    "definition": "Correctness and resource bounds of computational procedures.",
+    "boundary": "Practical speed claims require separate reproducible benchmarks.",
+    "objects": [
+      "graph algorithms",
+      "approximation",
+      "data structures"
+    ],
+    "related_ids": [
+      "MATH.OPT"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005",
+      "SRC-FORMAL-001"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "algorithm",
+      "proof",
+      "bounds"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "CS.COMPLEX",
+    "parent_id": "CS",
+    "title": "Computational complexity",
+    "definition": "Time, space, randomness and proof resources required by problems.",
+    "boundary": "Conditional lower bounds retain their assumptions.",
+    "objects": [
+      "complexity classes",
+      "circuits",
+      "reductions"
+    ],
+    "related_ids": [
+      "LOGIC.PROOF",
+      "INFO.COMPLEX"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005",
+      "SRC-FORMAL-001"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "bounds",
+      "construction"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "CS.COMPLEX.CIRCUIT",
+    "parent_id": "CS.COMPLEX",
+    "title": "Circuit and algebraic complexity",
+    "definition": "Limits of restricted computational representations.",
+    "boundary": "Bounds for a restricted model do not settle general complexity.",
+    "objects": [
+      "Boolean circuits",
+      "arithmetic circuits",
+      "formulas"
+    ],
+    "related_ids": [
+      "MATH.ALG"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005",
+      "SRC-FORMAL-001"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "bounds",
+      "counterexample"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "CS.RANDOM",
+    "parent_id": "CS",
+    "title": "Randomized, online and distributed algorithms",
+    "definition": "Computation with uncertainty, arrival order or distributed information.",
+    "boundary": "Adversary, synchronization and failure assumptions are essential.",
+    "objects": [
+      "streaming",
+      "consensus",
+      "competitive ratios"
+    ],
+    "related_ids": [
+      "PROB",
+      "ECON.GAME"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005",
+      "SRC-FORMAL-001"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "algorithm",
+      "proof",
+      "finite_search"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "CS.CRYPTO",
+    "parent_id": "CS",
+    "title": "Cryptographic foundations",
+    "definition": "Formal security and constructions under explicit hardness models.",
+    "boundary": "Implementations and operational attacks are outside this theoretical index.",
+    "objects": [
+      "reductions",
+      "commitments",
+      "secure protocols"
+    ],
+    "related_ids": [
+      "INFO",
+      "CS.COMPLEX"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005",
+      "SRC-FORMAL-001"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "construction"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "CS.SEMANTICS",
+    "parent_id": "CS",
+    "title": "Programming languages and verification theory",
+    "definition": "Meaning, specification and correctness of programs.",
+    "boundary": "Verifying a model does not automatically verify deployed software.",
+    "objects": [
+      "automata",
+      "program logics",
+      "type systems"
+    ],
+    "related_ids": [
+      "LOGIC.TYPE"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005",
+      "SRC-FORMAL-001"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "formalization",
+      "algorithm"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "CS.GEOM",
+    "parent_id": "CS",
+    "title": "Computational geometry and topology",
+    "definition": "Algorithms for geometric and topological objects.",
+    "boundary": "Exact predicates and degeneracy handling must be specified.",
+    "objects": [
+      "arrangements",
+      "triangulations",
+      "persistent homology"
+    ],
+    "related_ids": [
+      "MATH.GEOM",
+      "MATH.TOP"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005",
+      "SRC-FORMAL-001"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "algorithm",
+      "exact_computation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "CS.LEARN",
+    "parent_id": "CS",
+    "title": "Computational learning theory",
+    "definition": "Learnability and computational costs of learning.",
+    "boundary": "Statistical accuracy and optimization tractability are distinct.",
+    "objects": [
+      "PAC models",
+      "query learning",
+      "sample complexity"
+    ],
+    "related_ids": [
+      "STAT.LEARN",
+      "INFO"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005",
+      "SRC-FORMAL-001"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "bounds",
+      "algorithm"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "CS.QUANT",
+    "parent_id": "CS",
+    "title": "Quantum computation theory",
+    "definition": "Algorithms and complexity using quantum information primitives.",
+    "boundary": "Ideal quantum algorithms do not certify hardware feasibility.",
+    "objects": [
+      "query models",
+      "quantum circuits",
+      "simulation"
+    ],
+    "related_ids": [
+      "INFO.QUANT",
+      "PHYS.QUANT"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005",
+      "SRC-FORMAL-001"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "algorithm",
+      "bounds"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "PROB.FOUND",
+    "parent_id": "PROB",
+    "title": "Probability foundations and limit theory",
+    "definition": "Measure-theoretic probability and asymptotic laws.",
+    "boundary": "Limit claims specify topology and dependence assumptions.",
+    "objects": [
+      "probability measures",
+      "concentration",
+      "convergence"
+    ],
+    "related_ids": [
+      "STAT.ASYM"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "bounds"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "PROB.PROCESS",
+    "parent_id": "PROB",
+    "title": "Stochastic processes and stochastic analysis",
+    "definition": "Random evolution in discrete or continuous time.",
+    "boundary": "Simulation is not proof of almost-sure or distributional claims.",
+    "objects": [
+      "martingales",
+      "diffusions",
+      "stochastic PDE"
+    ],
+    "related_ids": [
+      "MATH.ANAL.PDE"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "model_analysis"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "PROB.DISCRETE",
+    "parent_id": "PROB",
+    "title": "Discrete probability and random structures",
+    "definition": "Random combinatorial objects and their phase behavior.",
+    "boundary": "Finite samples do not certify asymptotic thresholds.",
+    "objects": [
+      "random graphs",
+      "percolation",
+      "random walks"
+    ],
+    "related_ids": [
+      "NET.STRUCT",
+      "MATH.COMB"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "bounds",
+      "finite_search"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "PROB.MIX",
+    "parent_id": "PROB",
+    "title": "Markov chains, mixing and interacting systems",
+    "definition": "Convergence and collective behavior of stochastic dynamics.",
+    "boundary": "Stationarity and practical mixing must be checked separately.",
+    "objects": [
+      "mixing times",
+      "spin systems",
+      "particle systems"
+    ],
+    "related_ids": [
+      "MPHY.STAT",
+      "STAT.COMPUTE"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005",
+      "SRC-BASE-015"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "bounds",
+      "numerical_computation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "STAT.INFER",
+    "parent_id": "STAT",
+    "title": "Inference and decision theory",
+    "definition": "Valid estimation, testing and decisions under explicit models.",
+    "boundary": "Data collection, model choice and inference assumptions are separate.",
+    "objects": [
+      "confidence sets",
+      "risk",
+      "hypothesis tests"
+    ],
+    "related_ids": [
+      "PROB.FOUND",
+      "ECON.DECISION"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "bounds",
+      "counterexample"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "STAT.ASYM",
+    "parent_id": "STAT",
+    "title": "Asymptotic and nonparametric theory",
+    "definition": "Large-sample and flexible-model guarantees.",
+    "boundary": "Asymptotics alone do not justify finite-sample use.",
+    "objects": [
+      "efficiency",
+      "minimax rates",
+      "semiparametric models"
+    ],
+    "related_ids": [
+      "PROB.FOUND"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "bounds"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "STAT.CAUSAL",
+    "parent_id": "STAT",
+    "title": "Causal inference and identifiability",
+    "definition": "Conditions permitting inference about interventions.",
+    "boundary": "Causal assumptions are not generally established by observational fit.",
+    "objects": [
+      "causal graphs",
+      "counterfactuals",
+      "partial identification"
+    ],
+    "related_ids": [
+      "BIO.EPID",
+      "ECON.METRICS"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "counterexample",
+      "model_analysis"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "STAT.LEARN",
+    "parent_id": "STAT",
+    "title": "Statistical learning and high-dimensional theory",
+    "definition": "Generalization and inference in complex models.",
+    "boundary": "Separate distributional guarantees from selected benchmark outcomes.",
+    "objects": [
+      "regression",
+      "generalization",
+      "sparsity"
+    ],
+    "related_ids": [
+      "CS.LEARN"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "bounds",
+      "construction"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "STAT.COMPUTE",
+    "parent_id": "STAT",
+    "title": "Bayesian and computational statistics",
+    "definition": "Posterior reasoning and algorithms for statistical computation.",
+    "boundary": "Prior adequacy and algorithmic convergence are distinct.",
+    "objects": [
+      "posterior measures",
+      "MCMC",
+      "variational approximations"
+    ],
+    "related_ids": [
+      "PROB.MIX"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "algorithm",
+      "numerical_computation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "STAT.UQ",
+    "parent_id": "STAT",
+    "title": "Uncertainty quantification and robust inference",
+    "definition": "Propagation and control of uncertainty and misspecification.",
+    "boundary": "Numerical, sampling and structural uncertainties remain separate.",
+    "objects": [
+      "robust sets",
+      "sensitivity",
+      "inverse uncertainty"
+    ],
+    "related_ids": [
+      "EARTH.CLIMATE",
+      "ENG.INVERSE"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "bounds",
+      "model_analysis",
+      "numerical_computation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "INFO.SHANNON",
+    "parent_id": "INFO",
+    "title": "Classical information theory",
+    "definition": "Limits of reliable communication and compression.",
+    "boundary": "Channel assumptions and asymptotic regime must be explicit.",
+    "objects": [
+      "capacity",
+      "rate-distortion",
+      "source coding"
+    ],
+    "related_ids": [
+      "STAT",
+      "PROB"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "bounds",
+      "construction"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "INFO.ENTROPY",
+    "parent_id": "INFO",
+    "title": "Entropy inequalities and information geometry",
+    "definition": "Constraints on information quantities and distributions.",
+    "boundary": "Shannon-type certificates cover only their specified cone.",
+    "objects": [
+      "entropy regions",
+      "divergences",
+      "graphical models"
+    ],
+    "related_ids": [
+      "MATH.OPT",
+      "STAT.INFER"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "certificate_checking",
+      "symbolic_derivation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "INFO.CODES",
+    "parent_id": "INFO",
+    "title": "Coding theory",
+    "definition": "Error-correcting and combinatorial codes.",
+    "boundary": "Distinguish existence, efficient encoding and efficient decoding.",
+    "objects": [
+      "linear codes",
+      "lattices",
+      "designs"
+    ],
+    "related_ids": [
+      "MATH.COMB",
+      "CS.ALG"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "construction",
+      "bounds",
+      "finite_search"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "INFO.QUANT",
+    "parent_id": "INFO",
+    "title": "Quantum information theory",
+    "definition": "Information constraints for quantum states and channels.",
+    "boundary": "Mathematical state models require separate physical validation.",
+    "objects": [
+      "entanglement",
+      "quantum channels",
+      "Bell inequalities"
+    ],
+    "related_ids": [
+      "PHYS.QUANT",
+      "CS.QUANT"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "bounds",
+      "certificate_checking"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "INFO.COMPLEX",
+    "parent_id": "INFO",
+    "title": "Communication complexity and distributed information",
+    "definition": "Communication required to perform distributed tasks.",
+    "boundary": "Specify shared randomness, interaction and error model.",
+    "objects": [
+      "protocols",
+      "information complexity",
+      "direct sums"
+    ],
+    "related_ids": [
+      "CS.COMPLEX",
+      "CS.RANDOM"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "bounds"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "INFO.SIGNAL",
+    "parent_id": "INFO",
+    "title": "Signal processing theory",
+    "definition": "Mathematical recovery and representation of signals.",
+    "boundary": "Empirical sensor models and theoretical recoverability differ.",
+    "objects": [
+      "sampling",
+      "sparse recovery",
+      "filtering"
+    ],
+    "related_ids": [
+      "ENG.INVERSE",
+      "MATH.ANAL.HARM"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "algorithm",
+      "bounds"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "PHYS.CLASSICAL",
+    "parent_id": "PHYS",
+    "title": "Classical mechanics and continuum theory",
+    "definition": "Dynamics of particles, deformable bodies and continua.",
+    "boundary": "Idealizations and constitutive laws need separate evidence.",
+    "objects": [
+      "Lagrangians",
+      "elasticity",
+      "kinetic equations"
+    ],
+    "related_ids": [
+      "MPHY.CLASSICAL"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-002"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "symbolic_derivation",
+      "model_analysis"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "PHYS.FLUID",
+    "parent_id": "PHYS",
+    "title": "Fluid and plasma theory",
+    "definition": "Models for fluids, turbulence and charged media.",
+    "boundary": "Laboratory relevance can require complex experiments.",
+    "objects": [
+      "Navier-Stokes",
+      "MHD",
+      "kinetic plasma models"
+    ],
+    "related_ids": [
+      "MATH.ANAL.PDE",
+      "EARTH.FLUID"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-002"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "numerical_computation",
+      "model_analysis"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "PHYS.QUANT",
+    "parent_id": "PHYS",
+    "title": "Quantum theory and foundations",
+    "definition": "Quantum dynamics, measurement models and foundational constraints.",
+    "boundary": "Operational evidence is distinct from axiomatic deduction.",
+    "objects": [
+      "states",
+      "observables",
+      "open systems"
+    ],
+    "related_ids": [
+      "INFO.QUANT",
+      "MPHY.SPECTRAL"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-002"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "symbolic_derivation",
+      "exact_computation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "PHYS.FIELD",
+    "parent_id": "PHYS",
+    "title": "Quantum field, particle and nuclear theory",
+    "definition": "Field-based models of elementary and composite matter.",
+    "boundary": "Perturbative or effective assumptions must be retained.",
+    "objects": [
+      "gauge theories",
+      "scattering",
+      "effective theories"
+    ],
+    "related_ids": [
+      "MPHY.QFT"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-002"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "symbolic_derivation",
+      "bounds",
+      "numerical_computation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "PHYS.COND",
+    "parent_id": "PHYS",
+    "title": "Condensed matter and materials theory",
+    "definition": "Collective phases and excitations of many-body matter.",
+    "boundary": "Model phases are distinct from material identification.",
+    "objects": [
+      "lattice systems",
+      "topological phases",
+      "transport"
+    ],
+    "related_ids": [
+      "CHEM.MATERIAL",
+      "MPHY.STAT"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-002"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "model_analysis",
+      "numerical_computation",
+      "bounds"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "PHYS.STAT",
+    "parent_id": "PHYS",
+    "title": "Statistical and nonequilibrium physics",
+    "definition": "Macroscopic behavior from microscopic models.",
+    "boundary": "Thermodynamic and long-time limits may not commute.",
+    "objects": [
+      "ensembles",
+      "phase transitions",
+      "entropy production"
+    ],
+    "related_ids": [
+      "MPHY.STAT",
+      "NET.DYNAMICS"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-002"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "model_analysis",
+      "numerical_computation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "PHYS.GRAV",
+    "parent_id": "PHYS",
+    "title": "Gravitation and spacetime theory",
+    "definition": "Geometric and field models of gravitating systems.",
+    "boundary": "Consistency under field equations is not observational confirmation.",
+    "objects": [
+      "Einstein equations",
+      "horizons",
+      "perturbations"
+    ],
+    "related_ids": [
+      "ASTRO.COSMO",
+      "MATH.GEOM.DIFF"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-002"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "symbolic_derivation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "PHYS.OPTICS",
+    "parent_id": "PHYS",
+    "title": "Optics, waves and atomic theory",
+    "definition": "Models of radiation, atoms and wave-matter interaction.",
+    "boundary": "Device performance requires additional experimental evidence.",
+    "objects": [
+      "wave equations",
+      "atoms",
+      "photonic modes"
+    ],
+    "related_ids": [
+      "INFO.SIGNAL",
+      "CHEM.QUANT"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-002"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "symbolic_derivation",
+      "numerical_computation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "MPHY.SPECTRAL",
+    "parent_id": "MPHY",
+    "title": "Spectral and operator theory in physics",
+    "definition": "Rigorous properties of physical operators and spectra.",
+    "boundary": "Finite-matrix analogues do not settle infinite-operator claims.",
+    "objects": [
+      "Schrodinger operators",
+      "spectral gaps"
+    ],
+    "related_ids": [
+      "MATH.ANAL.FUNC"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-002"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "bounds",
+      "exact_computation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "MPHY.STAT",
+    "parent_id": "MPHY",
+    "title": "Rigorous statistical mechanics",
+    "definition": "Proofs for equilibrium and nonequilibrium statistical models.",
+    "boundary": "Real-material extrapolation is a separate claim.",
+    "objects": [
+      "Gibbs measures",
+      "spin models",
+      "thermodynamic limits"
+    ],
+    "related_ids": [
+      "PROB.MIX",
+      "PHYS.STAT"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-002",
+      "SRC-BASE-015"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "bounds"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "MPHY.QFT",
+    "parent_id": "MPHY",
+    "title": "Constructive and axiomatic field theory",
+    "definition": "Mathematical construction and consistency of field models.",
+    "boundary": "A solved lower-dimensional model is not a four-dimensional construction.",
+    "objects": [
+      "quantum fields",
+      "gauge measures",
+      "renormalization"
+    ],
+    "related_ids": [
+      "PHYS.FIELD"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-002"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "construction"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "MPHY.CLASSICAL",
+    "parent_id": "MPHY",
+    "title": "Integrable and Hamiltonian systems",
+    "definition": "Exact structure of classical and quantum dynamics.",
+    "boundary": "Integrability of a special model need not survive perturbation.",
+    "objects": [
+      "Hamiltonians",
+      "solitons",
+      "conserved quantities"
+    ],
+    "related_ids": [
+      "MATH.DYN"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-002"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "symbolic_derivation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "CHEM.QUANT",
+    "parent_id": "CHEM",
+    "title": "Quantum chemistry and electronic structure",
+    "definition": "Approximate or exact molecular electronic models.",
+    "boundary": "Basis, Hamiltonian and approximation error must be separate.",
+    "objects": [
+      "wave functions",
+      "density functionals",
+      "correlation"
+    ],
+    "related_ids": [
+      "PHYS.QUANT",
+      "MPHY.SPECTRAL"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-003"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "bounds",
+      "symbolic_derivation",
+      "numerical_computation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "CHEM.REACTION",
+    "parent_id": "CHEM",
+    "title": "Reaction-network and kinetics theory",
+    "definition": "Mathematical structure of chemical reaction systems.",
+    "boundary": "A formal reaction network need not be chemically realizable.",
+    "objects": [
+      "mass-action ODEs",
+      "stoichiometry",
+      "detailed balance"
+    ],
+    "related_ids": [
+      "BIO.SYSTEMS",
+      "MATH.DYN"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-003"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "model_analysis",
+      "exact_computation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "CHEM.STAT",
+    "parent_id": "CHEM",
+    "title": "Molecular statistical mechanics",
+    "definition": "Statistical models of molecules and molecular assemblies.",
+    "boundary": "Sampling error and model-force-field error differ.",
+    "objects": [
+      "free energy",
+      "molecular ensembles",
+      "coarse graining"
+    ],
+    "related_ids": [
+      "PHYS.STAT"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-003"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "numerical_computation",
+      "bounds"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "CHEM.MATERIAL",
+    "parent_id": "CHEM",
+    "title": "Theoretical materials and crystallography",
+    "definition": "Structure-property relations in idealized materials.",
+    "boundary": "Synthesis and characterization are deferred empirical tasks.",
+    "objects": [
+      "crystal symmetries",
+      "defects",
+      "phase diagrams"
+    ],
+    "related_ids": [
+      "PHYS.COND",
+      "MATH.GEOM"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-003"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "classification",
+      "model_analysis",
+      "numerical_computation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "BIO.EVOL",
+    "parent_id": "BIO",
+    "title": "Evolution, population genetics and phylogenetics",
+    "definition": "Formal models of inheritance, selection and descent.",
+    "boundary": "Model theorems do not establish evolutionary histories.",
+    "objects": [
+      "fitness landscapes",
+      "genealogies",
+      "phylogenetic trees"
+    ],
+    "related_ids": [
+      "PROB.PROCESS",
+      "CS.ALG"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "algorithm",
+      "model_analysis"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "BIO.ECO",
+    "parent_id": "BIO",
+    "title": "Ecology and population dynamics",
+    "definition": "Interactions, stability and diversity in populations.",
+    "boundary": "Ecological applicability depends on data and model adequacy.",
+    "objects": [
+      "food webs",
+      "coexistence",
+      "dispersal"
+    ],
+    "related_ids": [
+      "NET.STRUCT",
+      "MATH.DYN"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "model_analysis",
+      "numerical_computation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "BIO.SYSTEMS",
+    "parent_id": "BIO",
+    "title": "Systems biology and biological networks",
+    "definition": "Formal dynamics of cellular regulation and reactions.",
+    "boundary": "Parameter identification is distinct from structural analysis.",
+    "objects": [
+      "gene regulation",
+      "biochemical networks",
+      "feedback"
+    ],
+    "related_ids": [
+      "CHEM.REACTION",
+      "ENG.CONTROL"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "model_analysis"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "BIO.EPID",
+    "parent_id": "BIO",
+    "title": "Epidemic and transmission theory",
+    "definition": "Mathematical spread and control of infection models.",
+    "boundary": "Public-health recommendations are outside this theoretical project.",
+    "objects": [
+      "compartment models",
+      "thresholds",
+      "contact processes"
+    ],
+    "related_ids": [
+      "PROB.PROCESS",
+      "STAT.CAUSAL"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "model_analysis",
+      "numerical_computation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "BIO.MOL",
+    "parent_id": "BIO",
+    "title": "Molecular, structural and sequence theory",
+    "definition": "Algorithms and models for biomolecular organization.",
+    "boundary": "Predicted structure or sequence is not biological validation.",
+    "objects": [
+      "folding models",
+      "alignment",
+      "assembly"
+    ],
+    "related_ids": [
+      "CS.ALG",
+      "CHEM.QUANT"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "algorithm",
+      "bounds",
+      "numerical_computation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "BIO.DEV",
+    "parent_id": "BIO",
+    "title": "Development, morphogenesis and biomechanics",
+    "definition": "Models of pattern formation and physical organization of living tissue.",
+    "boundary": "Empirical mechanism identification needs separate evidence.",
+    "objects": [
+      "reaction-diffusion",
+      "tissue mechanics",
+      "transport"
+    ],
+    "related_ids": [
+      "MATH.ANAL.PDE",
+      "PHYS.CLASSICAL"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "model_analysis",
+      "numerical_computation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "ECON.GAME",
+    "parent_id": "ECON",
+    "title": "Game and equilibrium theory",
+    "definition": "Strategic interactions and equilibrium concepts.",
+    "boundary": "Equilibrium existence is distinct from behavior or computability.",
+    "objects": [
+      "finite games",
+      "repeated games",
+      "equilibria"
+    ],
+    "related_ids": [
+      "CS.COMPLEX",
+      "NET.DYNAMICS"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-004"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "exact_computation",
+      "algorithm"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "ECON.MECH",
+    "parent_id": "ECON",
+    "title": "Mechanism design and fair allocation",
+    "definition": "Rules for incentives and resource allocation.",
+    "boundary": "Fairness definitions and information assumptions must be explicit.",
+    "objects": [
+      "auctions",
+      "matching",
+      "fair division"
+    ],
+    "related_ids": [
+      "CS.ALG",
+      "MATH.OPT"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-004"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "construction",
+      "counterexample"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "ECON.SOCIAL",
+    "parent_id": "ECON",
+    "title": "Social choice and collective decisions",
+    "definition": "Aggregation of preferences under stated axioms.",
+    "boundary": "Formal impossibility does not select social values.",
+    "objects": [
+      "voting rules",
+      "preference profiles",
+      "judgment aggregation"
+    ],
+    "related_ids": [
+      "LOGIC",
+      "CS.ALG"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-004"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "counterexample",
+      "finite_search"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "ECON.DECISION",
+    "parent_id": "ECON",
+    "title": "Decision and utility theory",
+    "definition": "Representation and consistency of choices under uncertainty.",
+    "boundary": "Normative and descriptive interpretations remain distinct.",
+    "objects": [
+      "utility",
+      "ambiguity",
+      "preference axioms"
+    ],
+    "related_ids": [
+      "STAT.INFER"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-004"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "model_analysis"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "ECON.EQUIL",
+    "parent_id": "ECON",
+    "title": "General equilibrium and economic dynamics",
+    "definition": "Existence, efficiency and dynamics in economic model systems.",
+    "boundary": "Model calibration and policy evaluation are separate tasks.",
+    "objects": [
+      "exchange economies",
+      "growth models",
+      "markets"
+    ],
+    "related_ids": [
+      "MATH.OPT",
+      "MATH.DYN"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-004"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "model_analysis"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "ECON.METRICS",
+    "parent_id": "ECON",
+    "title": "Econometric theory",
+    "definition": "Identification and inference for economic models.",
+    "boundary": "Empirical estimates require data provenance and identification assumptions.",
+    "objects": [
+      "instruments",
+      "structural parameters",
+      "partial identification"
+    ],
+    "related_ids": [
+      "STAT.CAUSAL"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-004"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "bounds",
+      "counterexample"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "ECON.FINANCE",
+    "parent_id": "ECON",
+    "title": "Mathematical finance",
+    "definition": "Pricing and risk relations in formal market models.",
+    "boundary": "No trading or financial advice is part of this project.",
+    "objects": [
+      "martingale pricing",
+      "market incompleteness",
+      "risk measures"
+    ],
+    "related_ids": [
+      "PROB.PROCESS",
+      "STAT.UQ"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-004"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "model_analysis"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "NET.STRUCT",
+    "parent_id": "NET",
+    "title": "Network structure and random networks",
+    "definition": "Combinatorial and statistical organization of interactions.",
+    "boundary": "Observed networks and generative models are different objects.",
+    "objects": [
+      "degree sequences",
+      "motifs",
+      "random graph models"
+    ],
+    "related_ids": [
+      "MATH.COMB",
+      "PROB.DISCRETE"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "construction",
+      "bounds"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "NET.DYNAMICS",
+    "parent_id": "NET",
+    "title": "Dynamics on networks and collective behavior",
+    "definition": "Emergent behavior of interacting units.",
+    "boundary": "Finite simulations do not establish universal behavior.",
+    "objects": [
+      "synchronization",
+      "cascades",
+      "contagion"
+    ],
+    "related_ids": [
+      "MATH.DYN",
+      "BIO.ECO"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "model_analysis",
+      "numerical_computation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "NET.INFER",
+    "parent_id": "NET",
+    "title": "Network inference and multiscale structure",
+    "definition": "Recovering and reducing interaction models.",
+    "boundary": "Identifiability and predictive usefulness require separate arguments.",
+    "objects": [
+      "communities",
+      "graph limits",
+      "network reconstruction"
+    ],
+    "related_ids": [
+      "STAT.INFER",
+      "CS.ALG"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "algorithm",
+      "bounds"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "NET.COMPLEX",
+    "parent_id": "NET",
+    "title": "Complex adaptive systems",
+    "definition": "Formal models of adaptation and collective organization.",
+    "boundary": "Vague claims of emergence require an operational mathematical target.",
+    "objects": [
+      "agent models",
+      "criticality",
+      "adaptation"
+    ],
+    "related_ids": [
+      "ECON.GAME",
+      "BIO.EVOL"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-005"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "model_analysis",
+      "numerical_computation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "EARTH.FLUID",
+    "parent_id": "EARTH",
+    "title": "Geophysical fluid dynamics",
+    "definition": "Rotating and stratified fluid models relevant to Earth.",
+    "boundary": "Regime assumptions and boundary forcing must be explicit.",
+    "objects": [
+      "shallow water",
+      "ocean circulation",
+      "atmospheric waves"
+    ],
+    "related_ids": [
+      "PHYS.FLUID"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-003",
+      "SRC-MODEL-014"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "model_analysis",
+      "numerical_computation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "EARTH.CLIMATE",
+    "parent_id": "EARTH",
+    "title": "Climate dynamics and reduced models",
+    "definition": "Feedback, stability and uncertainty in climate models.",
+    "boundary": "Mathematical tipping points do not alone validate Earth-system predictions.",
+    "objects": [
+      "energy balance",
+      "feedbacks",
+      "bifurcations"
+    ],
+    "related_ids": [
+      "STAT.UQ",
+      "MATH.DYN"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-003",
+      "SRC-MODEL-014"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "model_analysis",
+      "bounds",
+      "numerical_computation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "EARTH.SOLID",
+    "parent_id": "EARTH",
+    "title": "Solid Earth and inverse geophysics",
+    "definition": "Mechanics, transport and inverse models of the solid Earth.",
+    "boundary": "Observation coverage and ill-posedness need separate treatment.",
+    "objects": [
+      "seismic inverse problems",
+      "porous transport",
+      "elasticity"
+    ],
+    "related_ids": [
+      "ENG.INVERSE",
+      "MATH.ANAL.PDE"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-003",
+      "SRC-MODEL-014"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "algorithm",
+      "model_analysis"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "EARTH.ENV",
+    "parent_id": "EARTH",
+    "title": "Environmental systems and resource models",
+    "definition": "Formal models of coupled environmental processes.",
+    "boundary": "Applied recommendations require empirical validation.",
+    "objects": [
+      "hydrology",
+      "resource dynamics",
+      "biogeochemical cycles"
+    ],
+    "related_ids": [
+      "BIO.ECO",
+      "ENG.CONTROL"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-003",
+      "SRC-MODEL-014"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "model_analysis",
+      "numerical_computation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "ASTRO.DYN",
+    "parent_id": "ASTRO",
+    "title": "Celestial dynamics",
+    "definition": "Gravitational motion and stability of astronomical systems.",
+    "boundary": "Observed system parameters are inputs with uncertainty.",
+    "objects": [
+      "N-body systems",
+      "orbital resonances",
+      "stability"
+    ],
+    "related_ids": [
+      "MATH.DYN",
+      "PHYS.CLASSICAL"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-002",
+      "SRC-MODEL-015"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "numerical_computation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "ASTRO.COSMO",
+    "parent_id": "ASTRO",
+    "title": "Cosmology and gravitational astrophysics",
+    "definition": "Models of cosmic evolution and compact gravitating objects.",
+    "boundary": "Parameter fitting and proof under field equations are different claims.",
+    "objects": [
+      "perturbations",
+      "black holes",
+      "cosmological models"
+    ],
+    "related_ids": [
+      "PHYS.GRAV",
+      "STAT.INFER"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-002",
+      "SRC-MODEL-015"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "symbolic_derivation",
+      "model_analysis"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "ASTRO.PLASMA",
+    "parent_id": "ASTRO",
+    "title": "Stellar and astrophysical plasma theory",
+    "definition": "Models of stars, radiation and cosmic plasmas.",
+    "boundary": "Observational tests may need existing survey data or large facilities.",
+    "objects": [
+      "stellar structure",
+      "accretion",
+      "magnetized plasma"
+    ],
+    "related_ids": [
+      "PHYS.FLUID",
+      "PHYS.OPTICS"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-002",
+      "SRC-MODEL-015"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "model_analysis",
+      "numerical_computation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "ENG.CONTROL",
+    "parent_id": "ENG",
+    "title": "Control, estimation and systems theory",
+    "definition": "Steering and identifying dynamical systems under constraints.",
+    "boundary": "Controller proofs depend on plant and disturbance assumptions.",
+    "objects": [
+      "stability",
+      "observability",
+      "controllability"
+    ],
+    "related_ids": [
+      "MATH.OPT",
+      "MATH.DYN"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-003"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "algorithm",
+      "certificate_checking"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "ENG.INVERSE",
+    "parent_id": "ENG",
+    "title": "Inverse problems and imaging theory",
+    "definition": "Recovering hidden quantities from indirect measurements.",
+    "boundary": "Uniqueness, stability and practical recovery are distinct.",
+    "objects": [
+      "tomography",
+      "regularization",
+      "inverse PDE"
+    ],
+    "related_ids": [
+      "STAT.UQ",
+      "INFO.SIGNAL"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-003"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "bounds",
+      "algorithm"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "ENG.ROBUST",
+    "parent_id": "ENG",
+    "title": "Robust design and verification",
+    "definition": "Guaranteed behavior under model uncertainty and constraints.",
+    "boundary": "Hardware certification and deployment are deferred.",
+    "objects": [
+      "reachability",
+      "robust optimization",
+      "certificates"
+    ],
+    "related_ids": [
+      "CS.SEMANTICS",
+      "MATH.OPT"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-003"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "certificate_checking"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "COG.NEURO",
+    "parent_id": "COG",
+    "title": "Theoretical neuroscience",
+    "definition": "Formal models of neurons, coding and learning dynamics.",
+    "boundary": "Neural realism requires evidence beyond a solvable model.",
+    "objects": [
+      "spiking models",
+      "population codes",
+      "plasticity"
+    ],
+    "related_ids": [
+      "BIO.SYSTEMS",
+      "INFO"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-003"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "model_analysis",
+      "proof",
+      "numerical_computation"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "COG.LANG",
+    "parent_id": "COG",
+    "title": "Formal language and grammar theory",
+    "definition": "Mathematical representations of syntax and language structure.",
+    "boundary": "Psycholinguistic adequacy requires separate empirical support.",
+    "objects": [
+      "grammars",
+      "automata",
+      "compositional semantics"
+    ],
+    "related_ids": [
+      "CS.SEMANTICS",
+      "LOGIC"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-003"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "proof",
+      "algorithm"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  },
+  {
+    "id": "COG.DECISION",
+    "parent_id": "COG",
+    "title": "Computational cognition and rationality",
+    "definition": "Formal accounts of learning, reasoning and decisions.",
+    "boundary": "Behavioral or consciousness claims need empirical and conceptual review.",
+    "objects": [
+      "Bayesian cognition",
+      "bounded rationality",
+      "decision models"
+    ],
+    "related_ids": [
+      "ECON.DECISION",
+      "STAT.LEARN"
+    ],
+    "classification_source_ids": [
+      "SRC-BASE-003"
+    ],
+    "external_mapping": {
+      "relation": "local_editorial_refinement",
+      "exact_equivalence": false
+    },
+    "disposition": "include_task_screened",
+    "rationale": "Include precisely stated theoretical tasks; screen resources and evidence per record.",
+    "methods": [
+      "model_analysis",
+      "proof"
+    ],
+    "validation_options": [
+      "pure_proof",
+      "exact_computation",
+      "numerical_evidence",
+      "public_data",
+      "simple_experiment",
+      "complex_experiment"
+    ],
+    "coverage_note": "Research-source, candidate and card coverage are counted independently in docs/coverage.md."
+  }
+]

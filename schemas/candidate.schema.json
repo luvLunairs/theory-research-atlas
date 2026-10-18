@@ -1,0 +1,138 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Candidate",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^Q-[A-Z]+-[0-9]{3}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "domain": {
+      "type": "string",
+      "minLength": 1
+    },
+    "cross_domains": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "kind": {
+      "type": "string",
+      "minLength": 1,
+      "enum": [
+        "literature_open",
+        "curator_proposed",
+        "known_result_calibration"
+      ]
+    },
+    "statement": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "source_locator": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1,
+      "enum": [
+        "source_reports_open",
+        "open_after_scoped_check",
+        "known_result",
+        "unverified",
+        "disproved",
+        "resolved",
+        "conditional",
+        "conflicting"
+      ]
+    },
+    "status_basis": {
+      "type": "string",
+      "minLength": 1
+    },
+    "last_checked": {
+      "type": "string",
+      "minLength": 1,
+      "format": "date"
+    },
+    "curator_origin": {
+      "type": "boolean"
+    },
+    "duplicate_key": {
+      "type": "string",
+      "minLength": 1
+    },
+    "proposed_card": {
+      "type": "boolean"
+    },
+    "primary_domain_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "cross_domain_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "curation_level": {
+      "type": "string",
+      "minLength": 1,
+      "enum": [
+        "B",
+        "C"
+      ]
+    },
+    "human_review_status": {
+      "type": "string",
+      "minLength": 1,
+      "enum": [
+        "pending",
+        "reviewed_changes_requested",
+        "reviewed_accepted"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "title",
+    "domain",
+    "cross_domains",
+    "kind",
+    "statement",
+    "source_ids",
+    "source_locator",
+    "status",
+    "status_basis",
+    "last_checked",
+    "curator_origin",
+    "duplicate_key",
+    "proposed_card",
+    "primary_domain_id",
+    "cross_domain_ids",
+    "curation_level",
+    "human_review_status"
+  ],
+  "additionalProperties": false
+}

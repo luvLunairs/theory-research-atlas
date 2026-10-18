@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Project",
+  "description": "Collection identity, record format version, evidence date and research activity counts.",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "0.10.0"
+    },
+    "collection_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "as_of": {
+      "type": "string",
+      "format": "date"
+    },
+    "research_attempts_run": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "model_evaluations_run": {
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "required": [
+    "schema_version",
+    "collection_version",
+    "title",
+    "as_of",
+    "research_attempts_run",
+    "model_evaluations_run"
+  ],
+  "additionalProperties": false
+}

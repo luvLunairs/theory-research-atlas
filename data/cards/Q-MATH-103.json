@@ -1,0 +1,185 @@
+{
+  "id": "Q-MATH-103",
+  "title": "Transfer-matrix calibration for the one-dimensional Ising model",
+  "domain": "Mathematical statistical mechanics",
+  "cross_domains": [
+    "Statistical physics",
+    "Discrete probability"
+  ],
+  "kind": "known_result_calibration",
+  "statement": "For N >= 3 periodic spins s_i in {-1,+1}, finite beta >= 0 and real h, define Z_N = sum_s exp(beta sum_(i=1)^N s_i s_(i+1) + h sum_(i=1)^N s_i), with s_(N+1)=s_1. Reproduce the transfer-matrix formula for Z_N and prove that psi(beta,h) = lim_(N->infinity) N^-1 log Z_N exists and is real-analytic in h for each finite beta. Here beta and h are dimensionless parameters; the task concerns this nearest-neighbor model.",
+  "source_ids": [
+    "SRC-MATH-103"
+  ],
+  "source_locator": "SRC-MATH-103, Section 3.3, Theorem 3.9 and proof, equations (3.10)-(3.11), pp. 90-92.",
+  "status": "known_result",
+  "status_basis": "The theorem and its transfer-matrix proof are present in the inspected author chapter. Reproducing them would be calibration, not a new model solution.",
+  "last_checked": "2026-10-14",
+  "curator_origin": false,
+  "duplicate_key": "transfer-matrix-calibration-for-the-one-dimensional-ising-model",
+  "proposed_card": true,
+  "primary_domain_id": "MPHY.STAT",
+  "cross_domain_ids": [
+    "PHYS.STAT",
+    "PROB.DISCRETE"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "relations": [],
+  "experimental_dependency": "none_for_formal_task",
+  "revision_history": [],
+  "plain_summary": "Recover an exact equilibrium formula for a chain of interacting two-state spins and explain why this idealized model has no singularity in the field at finite temperature.",
+  "assumptions": [
+    "The spin space is {-1,+1}^N with N >= 3 and periodic boundary conditions.",
+    "Only uniform nearest-neighbor interactions and a uniform real field enter the specified exponential weight.",
+    "beta is a finite nonnegative dimensionless coupling and h is a dimensionless real field. A physical field would require a stated conversion convention.",
+    "Take N to infinity with beta and h fixed; zero-temperature or joint limits are outside the task."
+  ],
+  "scope": "The one-dimensional nearest-neighbor ferromagnetic Ising model with the exact partition function in the statement. No extension to higher dimensions, long-range interactions or materials is implied.",
+  "target": "A complete transfer-matrix derivation of the finite-volume partition function and limiting pressure, including the analytic domain of the result.",
+  "success_criteria": [
+    "Construct a two-by-two transfer matrix and show that its cyclic product counts each interaction and field contribution exactly once.",
+    "Derive the eigenvalue formula and justify passage from the finite trace to the limiting logarithmic pressure.",
+    "Prove real analyticity in h for every fixed finite beta >= 0 and show that the zero-field derivative of the pressure vanishes.",
+    "Optionally verify the finite-volume identity by exact symbolic enumeration for N=3 through 8; label these checks as supporting checks rather than a proof of the limit."
+  ],
+  "known_results": [
+    "Friedli and Velenik's Theorem 3.9 gives the exact pressure; its proof uses a transfer matrix. Section 3.9 records the older origins of the pressure and transfer-matrix calculations."
+  ],
+  "prerequisites": [
+    "Finite partition functions",
+    "Two-by-two matrix eigenvalues",
+    "Real analytic functions and limits",
+    "Distinction between a model parameter and a measured physical quantity"
+  ],
+  "significance": "A useful calibration for symbolic statistical mechanics: boundary conditions, parameter conventions, dominant eigenvalues and limiting operations all matter despite the small matrix.",
+  "requirements": {
+    "experiment": "None to establish the formal identity. Claims about a particular material would need independent empirical work.",
+    "data": "No empirical data; the complete model is specified by N, beta and h.",
+    "compute": "Symbolic manipulation of a two-by-two matrix is sufficient for the proof. Optional finite checks contain 2^N spin assignments for each chosen N; no runtime has been measured.",
+    "theoretical_assumptions": "Equilibrium Gibbs weights for the stated classical periodic lattice model. The thermodynamic limit holds the finite dimensionless parameters fixed."
+  },
+  "ai_assessment": {
+    "priority": "priority_trial",
+    "rationale": "The source provides an exact model and a short route to the answer. It offers independently checkable symbolic steps while exposing common errors in boundary conditions and limits.",
+    "dimensions": {
+      "clarity": {
+        "rating": "high",
+        "reason": "The finite-volume weights, parameter domain and limiting procedure are explicit."
+      },
+      "decomposability": {
+        "rating": "high",
+        "reason": "Matrix construction, spectrum, limit and analyticity can be assessed separately."
+      },
+      "methods": {
+        "rating": "high",
+        "reason": "An authoritative chapter contains the theorem and proof."
+      },
+      "search_or_symbolic": {
+        "rating": "high",
+        "reason": "A two-state transfer matrix is well suited to exact symbolic algebra."
+      },
+      "checkability": {
+        "rating": "high",
+        "reason": "Human algebraic review and optional finite enumeration provide complementary checks."
+      },
+      "expertise": {
+        "rating": "medium",
+        "reason": "The formula alone is insufficient; a reviewer must check parameter and limit conventions."
+      },
+      "significance": {
+        "rating": "low",
+        "reason": "This is a classical solved model used to prepare for harder mathematical-physics tasks."
+      },
+      "verification_difficulty": {
+        "rating": "medium",
+        "reason": "Choosing a square-root branch and interchanging limits or derivatives can introduce subtle mistakes."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "The task has not been tested on any model. A correct recalled formula would not demonstrate the ability to reason through the derivation or validate a new model.",
+    "assessment_date": "2026-10-14",
+    "model_scope": "No named model evaluated; assumes tool-using AI with symbolic algebra, elementary spectral theory and equilibrium statistical mechanics.",
+    "evidence_refs": []
+  },
+  "methods": [
+    "Transfer-matrix construction",
+    "Symbolic characteristic polynomial",
+    "Dominant-eigenvalue analysis",
+    "Exact finite enumeration as an optional cross-check"
+  ],
+  "method_tags": [
+    "proof",
+    "symbolic_derivation",
+    "model_analysis",
+    "exact_computation"
+  ],
+  "validation_tags": [
+    "pure_proof",
+    "exact_computation"
+  ],
+  "obstacles": [
+    "A misplaced field factor may give the right zero-field formula but the wrong general expression.",
+    "The finite-beta analyticity statement does not justify exchanging beta->infinity with other limits.",
+    "Numerical smoothness on a grid cannot establish real analyticity."
+  ],
+  "validation": {
+    "steps": [
+      "Expand the cyclic matrix product and match it term by term to the declared partition function.",
+      "Check the characteristic polynomial, eigenvalues and their magnitude ordering throughout the parameter domain.",
+      "Review the logarithmic-limit argument and positivity conditions before taking derivatives.",
+      "Separate mathematical conclusions from any proposed interpretation as a physical material."
+    ],
+    "human_review_difficulty": "Moderate: the algebra is short, but the parameter conventions and limiting claims need a mathematical-physics reader.",
+    "statement_alignment": "The theorem is used for one dimension and finite beta only. The card asks for model-internal pressure analyticity, not empirical confirmation of a universal absence of phase transitions."
+  },
+  "known_attempts": [
+    "The source gives a full textbook derivation and cites Ising's original calculation and Kramers-Wannier's transfer-matrix approach."
+  ],
+  "unresolved_checks": [
+    "If the result is formalized, specify the real-analysis library and check the branch and positivity lemmas.",
+    "If physical units are introduced later, document the relation between beta, the coupling energy, temperature and the field parameter."
+  ],
+  "attribution": {
+    "original_authors": [
+      "Ernst Ising",
+      "Hendrik A. Kramers",
+      "Gregory H. Wannier",
+      "Sacha Friedli",
+      "Yvan Velenik"
+    ],
+    "citation": "Friedli and Velenik (2017), Statistical Mechanics of Lattice Systems, Chapter 3, Theorem 3.9 and Section 3.9. Historical credit follows that chapter; the original historical papers were not directly inspected.",
+    "curator_credit": "Compiled for Theory Research Atlas with AI assistance."
+  },
+  "status_search": {
+    "queries": [],
+    "checked_sources": [
+      "SRC-MATH-103"
+    ],
+    "result": "The exact result and proof are stated in the inspected author chapter; this is a known-result calibration.",
+    "limitations": "The check is confined to the declared nearest-neighbor model and does not survey general one-dimensional systems."
+  },
+  "epistemic_layers": {
+    "formal_validity": "A successful derivation establishes properties of the specified Gibbs model under fixed finite parameters.",
+    "empirical_support": "No material data were examined. Whether any physical system satisfies these assumptions is a separate empirical question."
+  },
+  "judgments": {
+    "difficulty": {
+      "rating": "medium",
+      "basis": "The symbolic calculation is small but the limiting and analytic claims need careful justification.",
+      "evidence": "editorial_estimate_not_measured"
+    },
+    "correctness": {
+      "status": "no_project_answer",
+      "basis": "No candidate answer has been submitted or independently reviewed."
+    },
+    "novelty": {
+      "status": "not_claimed",
+      "basis": "The mathematical result is established; a reproduction would not be a new theorem."
+    },
+    "significance": {
+      "rating": "low",
+      "basis": "A classical example useful for assessing reliable symbolic and model-based reasoning."
+    }
+  }
+}

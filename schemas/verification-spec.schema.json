@@ -1,0 +1,293 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Verification specification",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^VSPEC-[A-Za-z0-9][A-Za-z0-9_-]*$"
+    },
+    "problem_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "statement_digest": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+    "method": {
+      "type": "string",
+      "enum": [
+        "exact_counterexample",
+        "lean_proof",
+        "finite_construction",
+        "finite_exhaustion"
+      ]
+    },
+    "claim": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "target_artifacts": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "checker": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_artifacts": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "name",
+        "version",
+        "source_artifacts"
+      ],
+      "additionalProperties": false
+    },
+    "environment_artifacts": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "protocol_artifacts": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "trust": {
+      "type": "object",
+      "properties": {
+        "arithmetic": {
+          "type": "string",
+          "enum": [
+            "exact",
+            "certified_interval",
+            "ordinary_floating_point",
+            "not_applicable"
+          ]
+        },
+        "allowed_axioms": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "allow_native_decide": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "arithmetic",
+        "allowed_axioms",
+        "allow_native_decide"
+      ],
+      "additionalProperties": false
+    },
+    "approval": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "pending",
+            "approved",
+            "rejected",
+            "withdrawn"
+          ]
+        },
+        "reviewer": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "reviewer_role": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "human_maintainer",
+            "human_domain_reviewer",
+            null
+          ]
+        },
+        "date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "specification_digest": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        },
+        "scope": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "target_correspondence",
+              "checker_protocol",
+              "trust_basis"
+            ]
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "evidence_artifacts": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "notes": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "status",
+        "reviewer",
+        "reviewer_role",
+        "date",
+        "specification_digest",
+        "scope",
+        "evidence_artifacts",
+        "notes"
+      ],
+      "additionalProperties": false
+    },
+    "evidence_artifacts": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "artifact_manifest": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "reference": {
+            "type": "string",
+            "minLength": 1
+          },
+          "version": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^sha256:[0-9a-f]{64}$"
+          }
+        },
+        "required": [
+          "reference",
+          "version",
+          "sha256"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "revision_history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "change": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "date",
+          "change"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "id",
+    "problem_id",
+    "statement_digest",
+    "method",
+    "claim",
+    "scope",
+    "target_artifacts",
+    "checker",
+    "environment_artifacts",
+    "protocol_artifacts",
+    "trust",
+    "approval",
+    "evidence_artifacts",
+    "artifact_manifest",
+    "revision_history"
+  ],
+  "additionalProperties": false,
+  "description": "A fixed verification target, checker and trust basis, with separately recorded human approval. Metadata is not authentication."
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Candidate evidence and information gaps",
+  "type": "object",
+  "properties": {
+    "problem_id": {"type": "string", "minLength": 1},
+    "statement_check": {"enum": ["source_located", "needs_clarification"]},
+    "status_check": {"enum": ["source_report_only", "later_literature_checked", "not_checked"]},
+    "source_date_note": {"type": "string", "minLength": 1},
+    "missing_information": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+    "scope_note": {"type": "string", "minLength": 1}
+  },
+  "required": ["problem_id", "statement_check", "status_check", "source_date_note", "missing_information", "scope_note"],
+  "additionalProperties": false
+}

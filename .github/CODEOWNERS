@@ -1,0 +1,19 @@
+# Maintainer review for validation, contribution terms and collection metadata.
+# Use this ownership map for manual review when automatic requests are unavailable.
+/.github/ @luvLunairs
+/scripts/ @luvLunairs
+/schemas/ @luvLunairs
+/LICENSES/ @luvLunairs
+/LICENSE.md @luvLunairs
+/GOVERNANCE.md @luvLunairs
+/CONTRIBUTING.md @luvLunairs
+/AGENTS.md @luvLunairs
+/docs/ai-contributions.md @luvLunairs
+/docs/evidence-policy.md @luvLunairs
+/docs/review-guide.md @luvLunairs
+/CITATION.cff @luvLunairs
+/data/project.json @luvLunairs
+/data/verification-specs/ @luvLunairs
+/data/verifications/ @luvLunairs
+/docs/machine-verification.md @luvLunairs
+/docs/maintaining.md @luvLunairs

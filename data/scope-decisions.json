@@ -1,0 +1,50 @@
+[
+  {
+    "id": "SCOPE-001",
+    "task_class": "Formal proof, construction or exact certificate",
+    "decision": "include",
+    "reason": "Can be evaluated without new physical observations; computational cost remains independently assessed."
+  },
+  {
+    "id": "SCOPE-002",
+    "task_class": "Numerical model analysis with controlled error",
+    "decision": "include",
+    "reason": "Can inform a model question; must distinguish numerical evidence from proof and assess compute separately."
+  },
+  {
+    "id": "SCOPE-003",
+    "task_class": "Reanalysis of accessible public data",
+    "decision": "include_conditional",
+    "reason": "Requires provenance, access/license checks, identifiability and appropriate statistical validation."
+  },
+  {
+    "id": "SCOPE-004",
+    "task_class": "Simple physical experiment",
+    "decision": "defer",
+    "reason": "Potentially in scope with a concrete protocol, equipment list, cost and independent replication plan. No experiment has been run."
+  },
+  {
+    "id": "SCOPE-005",
+    "task_class": "New complex experiment, field campaign, clinical or wet-lab validation",
+    "decision": "defer",
+    "reason": "Keep associated theoretical tasks; new empirical work lies outside the current scope."
+  },
+  {
+    "id": "SCOPE-006",
+    "task_class": "Execution of an unbounded computational campaign",
+    "decision": "defer",
+    "reason": "Difficult or expensive questions may be indexed. An investigation needs a concrete protocol, resource budget and stopping rules."
+  },
+  {
+    "id": "SCOPE-007",
+    "task_class": "Unfalsifiable speculation or an undefined universal question",
+    "decision": "exclude_current_index",
+    "reason": "Needs a precise claim, credible source and a meaningful validation criterion before admission."
+  },
+  {
+    "id": "SCOPE-008",
+    "task_class": "Purely descriptive historical, clinical, engineering or policy deliverable",
+    "decision": "exclude_current_index",
+    "reason": "Not a theoretical research question under this project scope; formal subproblems may be admitted separately."
+  }
+]

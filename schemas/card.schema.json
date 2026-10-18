@@ -1,0 +1,865 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Card",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^Q-[A-Z]+-[0-9]{3}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "domain": {
+      "type": "string",
+      "minLength": 1
+    },
+    "cross_domains": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "kind": {
+      "type": "string",
+      "minLength": 1,
+      "enum": [
+        "literature_open",
+        "curator_proposed",
+        "known_result_calibration"
+      ]
+    },
+    "statement": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "source_locator": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "type": "string",
+      "minLength": 1,
+      "enum": [
+        "source_reports_open",
+        "open_after_scoped_check",
+        "known_result",
+        "unverified",
+        "disproved",
+        "resolved",
+        "conditional",
+        "conflicting"
+      ]
+    },
+    "status_basis": {
+      "type": "string",
+      "minLength": 1
+    },
+    "last_checked": {
+      "type": "string",
+      "minLength": 1,
+      "format": "date"
+    },
+    "curator_origin": {
+      "type": "boolean"
+    },
+    "duplicate_key": {
+      "type": "string",
+      "minLength": 1
+    },
+    "proposed_card": {
+      "type": "boolean"
+    },
+    "primary_domain_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "cross_domain_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "curation_level": {
+      "type": "string",
+      "minLength": 1,
+      "enum": [
+        "B",
+        "C"
+      ]
+    },
+    "human_review_status": {
+      "type": "string",
+      "minLength": 1,
+      "enum": [
+        "pending",
+        "reviewed_changes_requested",
+        "reviewed_accepted"
+      ]
+    },
+    "plain_summary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "assumptions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "target": {
+      "type": "string",
+      "minLength": 1
+    },
+    "success_criteria": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "known_results": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "significance": {
+      "type": "string",
+      "minLength": 1
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "minLength": 1,
+            "enum": [
+              "calibrated_by",
+              "calibrates",
+              "calibration_for",
+              "depends_on",
+              "equivalent_to",
+              "method_bridge",
+              "method_preparation",
+              "prerequisite",
+              "related_method",
+              "related_to",
+              "subproblem_of"
+            ]
+          },
+          "target": {
+            "type": "string",
+            "minLength": 1
+          },
+          "explanation": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "type",
+          "target",
+          "explanation"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "requirements": {
+      "type": "object",
+      "properties": {
+        "experiment": {
+          "type": "string",
+          "minLength": 1
+        },
+        "data": {
+          "type": "string",
+          "minLength": 1
+        },
+        "compute": {
+          "type": "string",
+          "minLength": 1
+        },
+        "theoretical_assumptions": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "experiment",
+        "data",
+        "compute",
+        "theoretical_assumptions"
+      ],
+      "additionalProperties": false
+    },
+    "ai_assessment": {
+      "type": "object",
+      "properties": {
+        "priority": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "priority_trial",
+            "preparation_required",
+            "exploratory",
+            "unassessed"
+          ]
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1
+        },
+        "dimensions": {
+          "type": "object",
+          "properties": {
+            "clarity": {
+              "type": "object",
+              "properties": {
+                "rating": {
+                  "type": "string",
+                  "minLength": 1,
+                  "enum": [
+                    "low",
+                    "medium",
+                    "high",
+                    "unknown"
+                  ]
+                },
+                "reason": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "rating",
+                "reason"
+              ],
+              "additionalProperties": false
+            },
+            "decomposability": {
+              "type": "object",
+              "properties": {
+                "rating": {
+                  "type": "string",
+                  "minLength": 1,
+                  "enum": [
+                    "low",
+                    "medium",
+                    "high",
+                    "unknown"
+                  ]
+                },
+                "reason": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "rating",
+                "reason"
+              ],
+              "additionalProperties": false
+            },
+            "methods": {
+              "type": "object",
+              "properties": {
+                "rating": {
+                  "type": "string",
+                  "minLength": 1,
+                  "enum": [
+                    "low",
+                    "medium",
+                    "high",
+                    "unknown"
+                  ]
+                },
+                "reason": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "rating",
+                "reason"
+              ],
+              "additionalProperties": false
+            },
+            "search_or_symbolic": {
+              "type": "object",
+              "properties": {
+                "rating": {
+                  "type": "string",
+                  "minLength": 1,
+                  "enum": [
+                    "low",
+                    "medium",
+                    "high",
+                    "unknown"
+                  ]
+                },
+                "reason": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "rating",
+                "reason"
+              ],
+              "additionalProperties": false
+            },
+            "checkability": {
+              "type": "object",
+              "properties": {
+                "rating": {
+                  "type": "string",
+                  "minLength": 1,
+                  "enum": [
+                    "low",
+                    "medium",
+                    "high",
+                    "unknown"
+                  ]
+                },
+                "reason": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "rating",
+                "reason"
+              ],
+              "additionalProperties": false
+            },
+            "expertise": {
+              "type": "object",
+              "properties": {
+                "rating": {
+                  "type": "string",
+                  "minLength": 1,
+                  "enum": [
+                    "low",
+                    "medium",
+                    "high",
+                    "unknown"
+                  ]
+                },
+                "reason": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "rating",
+                "reason"
+              ],
+              "additionalProperties": false
+            },
+            "significance": {
+              "type": "object",
+              "properties": {
+                "rating": {
+                  "type": "string",
+                  "minLength": 1,
+                  "enum": [
+                    "low",
+                    "medium",
+                    "high",
+                    "unknown"
+                  ]
+                },
+                "reason": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "rating",
+                "reason"
+              ],
+              "additionalProperties": false
+            },
+            "verification_difficulty": {
+              "type": "object",
+              "properties": {
+                "rating": {
+                  "type": "string",
+                  "minLength": 1,
+                  "enum": [
+                    "low",
+                    "medium",
+                    "high",
+                    "unknown"
+                  ]
+                },
+                "reason": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "rating",
+                "reason"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "clarity",
+            "decomposability",
+            "methods",
+            "search_or_symbolic",
+            "checkability",
+            "expertise",
+            "significance",
+            "verification_difficulty"
+          ],
+          "additionalProperties": false
+        },
+        "evidence_level": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "untested_forecast",
+            "public_attempt_evidence",
+            "project_measured"
+          ]
+        },
+        "uncertainty": {
+          "type": "string",
+          "minLength": 1
+        },
+        "assessment_date": {
+          "type": "string",
+          "minLength": 1,
+          "format": "date"
+        },
+        "model_scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true,
+          "description": "Attempt IDs for project measurements, or inspected source IDs for public-attempt evidence; empty for forecasts."
+        }
+      },
+      "required": [
+        "priority",
+        "rationale",
+        "dimensions",
+        "evidence_level",
+        "uncertainty",
+        "assessment_date",
+        "model_scope",
+        "evidence_refs"
+      ],
+      "additionalProperties": false
+    },
+    "methods": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "method_tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "enum": [
+          "algorithm",
+          "bounds",
+          "certificate_checking",
+          "classification",
+          "construction",
+          "counterexample",
+          "exact_computation",
+          "finite_search",
+          "formalization",
+          "model_analysis",
+          "model_construction",
+          "numerical_computation",
+          "proof",
+          "symbolic_derivation"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "validation_tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "enum": [
+          "pure_proof",
+          "exact_computation",
+          "numerical_evidence",
+          "public_data",
+          "simple_experiment",
+          "complex_experiment"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "experimental_dependency": {
+      "type": "string",
+      "minLength": 1,
+      "enum": [
+        "none_for_formal_task",
+        "public_observations_only",
+        "simple_experiment",
+        "complex_experiment",
+        "unknown"
+      ]
+    },
+    "obstacles": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "validation": {
+      "type": "object",
+      "properties": {
+        "steps": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "human_review_difficulty": {
+          "type": "string",
+          "minLength": 1
+        },
+        "statement_alignment": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "steps",
+        "human_review_difficulty",
+        "statement_alignment"
+      ],
+      "additionalProperties": false
+    },
+    "known_attempts": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "unresolved_checks": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "attribution": {
+      "type": "object",
+      "properties": {
+        "original_authors": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "citation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "curator_credit": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "original_authors",
+        "citation",
+        "curator_credit"
+      ],
+      "additionalProperties": false
+    },
+    "status_search": {
+      "type": "object",
+      "properties": {
+        "queries": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "checked_sources": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "result": {
+          "type": "string",
+          "minLength": 1
+        },
+        "limitations": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "queries",
+        "checked_sources",
+        "result",
+        "limitations"
+      ],
+      "additionalProperties": false
+    },
+    "epistemic_layers": {
+      "type": "object",
+      "properties": {
+        "formal_validity": {
+          "type": "string",
+          "minLength": 1
+        },
+        "empirical_support": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "formal_validity",
+        "empirical_support"
+      ],
+      "additionalProperties": false
+    },
+    "judgments": {
+      "type": "object",
+      "properties": {
+        "difficulty": {
+          "type": "object",
+          "properties": {
+            "rating": {
+              "type": "string",
+              "minLength": 1,
+              "enum": [
+                "low",
+                "low_to_medium",
+                "medium",
+                "high",
+                "unknown"
+              ]
+            },
+            "basis": {
+              "type": "string",
+              "minLength": 1
+            },
+            "evidence": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "rating",
+            "basis",
+            "evidence"
+          ],
+          "additionalProperties": false
+        },
+        "correctness": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "type": "string",
+              "minLength": 1
+            },
+            "basis": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "status",
+            "basis"
+          ],
+          "additionalProperties": false
+        },
+        "novelty": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "type": "string",
+              "minLength": 1
+            },
+            "basis": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "status",
+            "basis"
+          ],
+          "additionalProperties": false
+        },
+        "significance": {
+          "type": "object",
+          "properties": {
+            "rating": {
+              "type": "string",
+              "minLength": 1,
+              "enum": [
+                "low",
+                "medium",
+                "high",
+                "unknown"
+              ]
+            },
+            "basis": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "rating",
+            "basis"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "difficulty",
+        "correctness",
+        "novelty",
+        "significance"
+      ],
+      "additionalProperties": false
+    },
+    "revision_history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "minLength": 1,
+            "format": "date"
+          },
+          "change": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "date",
+          "change"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    }
+  },
+  "required": [
+    "id",
+    "title",
+    "domain",
+    "cross_domains",
+    "kind",
+    "statement",
+    "source_ids",
+    "source_locator",
+    "status",
+    "status_basis",
+    "last_checked",
+    "curator_origin",
+    "duplicate_key",
+    "proposed_card",
+    "primary_domain_id",
+    "cross_domain_ids",
+    "curation_level",
+    "human_review_status",
+    "plain_summary",
+    "assumptions",
+    "scope",
+    "target",
+    "success_criteria",
+    "known_results",
+    "prerequisites",
+    "significance",
+    "relations",
+    "requirements",
+    "ai_assessment",
+    "methods",
+    "method_tags",
+    "validation_tags",
+    "experimental_dependency",
+    "obstacles",
+    "validation",
+    "known_attempts",
+    "unresolved_checks",
+    "attribution",
+    "status_search",
+    "epistemic_layers",
+    "judgments",
+    "revision_history"
+  ],
+  "additionalProperties": false
+}

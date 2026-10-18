@@ -1,0 +1,150 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Taxonomy Node",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[A-Z]+(?:\\.[A-Z]+)*$"
+    },
+    "parent_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "definition": {
+      "type": "string",
+      "minLength": 1
+    },
+    "boundary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "objects": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "related_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "classification_source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "external_mapping": {
+      "type": "object",
+      "properties": {
+        "relation": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "inspired_by",
+            "local_editorial_refinement"
+          ]
+        },
+        "exact_equivalence": {
+          "const": false
+        }
+      },
+      "required": [
+        "relation",
+        "exact_equivalence"
+      ],
+      "additionalProperties": false
+    },
+    "disposition": {
+      "type": "string",
+      "minLength": 1,
+      "enum": [
+        "include_task_screened",
+        "defer",
+        "exclude_current_index"
+      ]
+    },
+    "rationale": {
+      "type": "string",
+      "minLength": 1
+    },
+    "methods": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "enum": [
+          "algorithm",
+          "bounds",
+          "certificate_checking",
+          "classification",
+          "construction",
+          "counterexample",
+          "exact_computation",
+          "finite_search",
+          "formalization",
+          "model_analysis",
+          "model_construction",
+          "numerical_computation",
+          "proof",
+          "symbolic_derivation"
+        ]
+      },
+      "minItems": 1
+    },
+    "validation_options": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "enum": [
+          "pure_proof",
+          "exact_computation",
+          "numerical_evidence",
+          "public_data",
+          "simple_experiment",
+          "complex_experiment"
+        ]
+      },
+      "minItems": 1
+    },
+    "coverage_note": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "id",
+    "parent_id",
+    "title",
+    "definition",
+    "boundary",
+    "objects",
+    "related_ids",
+    "classification_source_ids",
+    "external_mapping",
+    "disposition",
+    "rationale",
+    "methods",
+    "validation_options",
+    "coverage_note"
+  ],
+  "additionalProperties": false
+}

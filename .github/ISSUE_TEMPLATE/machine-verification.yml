@@ -1,0 +1,76 @@
+name: "Request machine verification"
+description: "Propose a fixed checking specification or submit a certificate."
+title: "[Verification] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use the [machine verification guide](https://github.com/luvLunairs/theory-research-atlas/blob/main/docs/machine-verification.md) for this specialist route. A human approves the exact target and checker before an authorized independent rerun can establish **Machine checked**. You may link existing records; a request is not approval.
+  - type: dropdown
+    id: request
+    attributes:
+      label: "Request"
+      options:
+        - "Propose a verification specification"
+        - "Submit a certificate for an approved specification"
+        - "Report an independent verification run"
+        - "Correct or challenge a specification or run"
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: "Verification kind"
+      options:
+        - "Exact counterexample"
+        - "Lean proof"
+        - "Finite construction"
+        - "Finite exhaustion"
+    validations:
+      required: true
+  - type: textarea
+    id: target
+    attributes:
+      label: "Target and specification"
+      description: "Give the problem ID, plus the attempt ID for a certificate or run. Link the approved specification version and human approval, or mark Pending and state the claim, definitions, assumptions, scope and source. Changes to the target or procedure need renewed approval."
+    validations:
+      required: true
+  - type: textarea
+    id: artifacts
+    attributes:
+      label: "Certificate, procedure and credit"
+      description: "Link the retained certificate, checker and environment at exact versions with SHA-256 hashes. Give command, inputs, expected output and resource limits. For a proposal, explain the trust assumptions and why the check establishes the claim; mark missing evidence. Lean requires the guide's target and axiom checks, not compilation alone. Credit proofs, ideas, code, data and contributors; note reuse terms."
+    validations:
+      required: true
+  - type: textarea
+    id: run
+    attributes:
+      label: "Independent run, if performed"
+      description: "Link its verification record, or identify the actual operator, date, relationship to the contributor, checked versions, logs and hashes, outcomes and limits. Separate self-checks from independent reruns. Machine checked establishes neither human review, novelty, empirical support nor a broader solution; leave unperformed runs blank."
+  - type: dropdown
+    id: ai_disclosure
+    attributes:
+      label: "AI assistance in scientific content"
+      description: "Include scientific reasoning, results and supporting code or evidence. Presentation-only assistance that preserves meaning is excluded; disclose its role below."
+      options:
+        - "No AI contribution to scientific content"
+        - "Recommended or recognized configurations only"
+        - "Includes a non-recommended or unidentified model"
+    validations:
+      required: true
+  - type: textarea
+    id: submission_review
+    attributes:
+      label: "AI assistance and checks (if used)"
+      description: "For scientific content and its supporting code and evidence, give each contributing model's service-supplied identity, available version/settings, dates, role and affected material. Include applicable human screening, manual submitter and final-version recheck, or link one existing note. For presentation-only edits that preserve meaning, a brief tool/model, role and checks note is enough; unknown details are acceptable."
+  - type: markdown
+    attributes:
+      value: |
+        **AI-assisted scientific content:** Under the [AI policy](https://github.com/luvLunairs/theory-research-atlas/blob/main/docs/ai-contributions.md#submission-routes), any non-recommended or unidentified contribution, including mixed workflows, requires full-text human review of the scientific content and supporting material, then manual submission of the whole contribution; automation is prohibited even after review. Presentation that preserves meaning has no research model restriction. Automation always needs authorization and the [final-version recheck](https://github.com/luvLunairs/theory-research-atlas/blob/main/AGENTS.md#required-recheck). Machine verification does not waive the scientific submission rules.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: "Contribution terms"
+      options:
+        - label: "I may share this material under the [contribution terms](https://github.com/luvLunairs/theory-research-atlas/blob/main/CONTRIBUTING.md#evidence-and-attribution) and [licenses](https://github.com/luvLunairs/theory-research-atlas/blob/main/LICENSE.md). I have supplied required credit and disclosures, identified unchecked claims and followed the review and submission rules."
+          required: true

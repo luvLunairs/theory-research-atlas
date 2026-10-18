@@ -1,0 +1,189 @@
+{
+  "id": "Q-FORMAL-101",
+  "title": "Check common quadratic Lyapunov certificates for small matrix polytopes",
+  "domain": "Control, estimation and systems theory",
+  "cross_domains": [
+    "Robust design and verification",
+    "Convex optimization"
+  ],
+  "kind": "known_result_calibration",
+  "statement": "Given 1-4 rational matrices A_i of a common dimension d <= 4, a rational symmetric P, and rational alpha > 0, verify exactly that P and every residual -(A_i^T P + P A_i + 2 alpha P) are positive definite. If accepted, supply the conditional exponential-decay certificate for xdot = A(t)x with arbitrary measurable A(t) in their convex hull. Rejection does not imply instability. The input bounds and strict-residual convention define a curator-proposed calibration.",
+  "source_ids": [
+    "SRC-FORMAL-101",
+    "SRC-FORMAL-102"
+  ],
+  "source_locator": "Boyd et al., Section 5.1, equations (5.8) and (5.17)",
+  "status": "known_result",
+  "status_basis": "The common-quadratic criterion and decay implication are established in the opened monograph. This task checks supplied witnesses, without claiming a new theorem or complete stability decision procedure.",
+  "last_checked": "2026-10-14",
+  "curator_origin": true,
+  "duplicate_key": "small-polytopic-ldi-common-quadratic-certificate",
+  "proposed_card": true,
+  "primary_domain_id": "ENG.CONTROL",
+  "cross_domain_ids": [
+    "ENG.ROBUST",
+    "MATH.OPT"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "plain_summary": "A proposed stability argument can be checked through a few exact matrices. The useful output is a certificate with explicit assumptions, including an explanation of what an unsuccessful check does not establish.",
+  "assumptions": [
+    "Continuous-time homogeneous dynamics on a real finite-dimensional state space, without forcing, resets, delays or stochastic terms.",
+    "A(t) is measurable and belongs to the compact convex hull of the fixed vertex matrices; solutions are interpreted as absolutely continuous.",
+    "One common P and one fixed positive alpha must satisfy every vertex condition.",
+    "Inputs are exact rationals; dimensions, denominators and symmetry are checked first."
+  ],
+  "scope": "At most four vertices and dimension at most four. Each input numerator and positive denominator has at most 64 bits. These are proposed limits for readable certificates, not measured performance guarantees. Searching for P or optimizing alpha is outside the required task.",
+  "target": "An independently checkable rational certificate for a sufficient exponential-stability condition, or a precise account of failed certificate conditions.",
+  "success_criteria": [
+    "Retain the rational input and verify dimensions, denominators and symmetry.",
+    "Provide exact positive-definiteness witnesses for P and every residual, such as positive leading principal minors.",
+    "Justify extension from the vertices to every convex combination and to the derivative along a measurable matrix trajectory.",
+    "State the resulting decay estimate for V(x)=x^T P x and the corresponding Euclidean norm estimate, retaining dependence on the conditioning of P.",
+    "A failed or non-strict test rejects this supplied certificate; it does not establish instability or rule out another certificate."
+  ],
+  "known_results": [
+    "The common-quadratic polytopic criterion reduces an inequality over the matrix convex hull to finitely many vertex inequalities.",
+    "If Vdot <= -2 alpha V, then V(x(t)) <= exp(-2 alpha t) V(x(0)).",
+    "General stability does not imply the existence of a common quadratic certificate."
+  ],
+  "prerequisites": [
+    "Exact rational arithmetic and positive-definite matrices.",
+    "Lyapunov functions, linear differential inclusions and uniform decay.",
+    "The distinction between a sufficient witness and a complete decision procedure."
+  ],
+  "significance": "Creates a compact verification baseline for control theory and guards against overclaiming from numerical optimization or failed witness searches.",
+  "relations": [],
+  "requirements": {
+    "experiment": "None for the conditional certificate. Evidence that a physical plant stays inside the uncertainty set requires separate measurements.",
+    "data": "Rational vertex matrices, a proposed P and positive alpha; no observational dataset.",
+    "compute": "Exact determinants of matrices of order at most four with bounded rational inputs. Laptop-class execution is an untested planning assumption; larger dimensions and certificate synthesis may be much harder.",
+    "theoretical_assumptions": "Continuous-time dynamics, the uncertainty set and the common quadratic form are theorem premises, not conclusions inferred from data."
+  },
+  "ai_assessment": {
+    "priority": "priority_trial",
+    "rationale": "A finite exact acceptance test separates algebra from theorem application. Priority refers to a possible calibration trial, not demonstrated AI performance.",
+    "dimensions": {
+      "clarity": {
+        "rating": "high",
+        "reason": "Input matrices and acceptance inequalities are explicit."
+      },
+      "decomposability": {
+        "rating": "high",
+        "reason": "Input checking, matrix certificates and the decay argument can be reviewed separately."
+      },
+      "methods": {
+        "rating": "high",
+        "reason": "Established matrix and Lyapunov methods apply directly."
+      },
+      "search_or_symbolic": {
+        "rating": "high",
+        "reason": "Small rational matrix arithmetic fits symbolic tools; unbounded synthesis is unnecessary."
+      },
+      "checkability": {
+        "rating": "high",
+        "reason": "Every finite witness can be recomputed independently."
+      },
+      "expertise": {
+        "rating": "medium",
+        "reason": "A control reviewer must confirm the uncertainty and time conventions."
+      },
+      "significance": {
+        "rating": "medium",
+        "reason": "The contribution is verification practice rather than a new theorem."
+      },
+      "verification_difficulty": {
+        "rating": "medium",
+        "reason": "The algebra is compact; confusing quadratic stability with general stability is a material risk."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "No model, solver or supplied certificate has been tested. Exact arithmetic does not establish empirical adequacy.",
+    "assessment_date": "2026-10-14",
+    "model_scope": "No named model evaluated; assumes a tool-using AI that can read mathematical sources, produce inspectable symbolic work and code, and work with a human domain reviewer.",
+    "evidence_refs": []
+  },
+  "methods": [
+    "Exact matrix arithmetic",
+    "Lyapunov proof application",
+    "Certificate checking"
+  ],
+  "method_tags": [
+    "proof",
+    "exact_computation",
+    "certificate_checking",
+    "model_analysis"
+  ],
+  "validation_tags": [
+    "pure_proof",
+    "exact_computation"
+  ],
+  "obstacles": [
+    "Using floating-point eigenvalues as exact positivity witnesses.",
+    "Checking different P matrices for different vertices.",
+    "Dropping the alpha term, reversing a sign, or silently switching to discrete time.",
+    "Treating certificate rejection as an instability proof."
+  ],
+  "validation": {
+    "steps": [
+      "Compare the uncertainty model and time convention with the source.",
+      "Independently recompute residuals and positivity witnesses.",
+      "Review convexity and the almost-everywhere derivative argument.",
+      "Check the decay estimate and review physical interpretation separately."
+    ],
+    "human_review_difficulty": "Moderate: mechanical algebra checks are short, but a control specialist should approve theorem-to-model alignment.",
+    "statement_alignment": "Only the declared common-quadratic sufficient condition is certified. No synthesis, optimal decay rate, empirical robustness or general instability result follows."
+  },
+  "known_attempts": [
+    "The cited authors develop the underlying theory and numerical methods. No project implementation or model trial is recorded."
+  ],
+  "unresolved_checks": [
+    "Choose and record actual certificate fixtures before a trial.",
+    "Have a control reviewer confirm the positivity convention and norm estimate."
+  ],
+  "attribution": {
+    "original_authors": [
+      "Stephen Boyd",
+      "Laurent El Ghaoui",
+      "Eric Feron",
+      "Venkataramanan Balakrishnan",
+      "Qinping Yang"
+    ],
+    "citation": "Boyd, S., El Ghaoui, L., Feron, E., and Balakrishnan, V. (1994), Linear Matrix Inequalities in System and Control Theory, SIAM, Chapter 5. Related work: Boyd, S., and Yang, Q. (1989), International Journal of Control 49(6), 2215-2240.",
+    "curator_credit": "Compiled for Theory Research Atlas with AI assistance."
+  },
+  "status_search": {
+    "checked_sources": [
+      "SRC-FORMAL-101",
+      "SRC-FORMAL-102"
+    ],
+    "result": "The criterion, vertex reduction and decay-rate condition were checked in the author-hosted monograph; the earlier paper supplies historical context.",
+    "limitations": "This establishes literature status of the theorem, not correctness of a future certificate. Later certificate families were not exhaustively surveyed.",
+    "queries": []
+  },
+  "epistemic_layers": {
+    "formal_validity": "An accepted witness entails a conditional decay guarantee for the specified differential inclusion.",
+    "empirical_support": "The certificate does not establish that a physical system is linear, unforced or contained in the supplied uncertainty set."
+  },
+  "revision_history": [],
+  "experimental_dependency": "none_for_formal_task",
+  "judgments": {
+    "difficulty": {
+      "rating": "medium",
+      "basis": "A finite exact acceptance test separates algebra from theorem application. Priority refers to a possible calibration trial, not demonstrated AI performance.",
+      "evidence": "editorial_estimate_not_measured"
+    },
+    "correctness": {
+      "status": "no_project_answer",
+      "basis": "The cited literature supports the calibration target. No project answer has been submitted for review."
+    },
+    "novelty": {
+      "status": "not_claimed",
+      "basis": "This is a known-result calibration. The chosen bounds and presentation are not claims of scientific novelty."
+    },
+    "significance": {
+      "rating": "medium",
+      "basis": "Creates a compact verification baseline for control theory and guards against overclaiming from numerical optimization or failed witness searches."
+    }
+  }
+}

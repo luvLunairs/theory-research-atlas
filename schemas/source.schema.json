@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Source",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^SRC-[A-Z]+-[0-9]{3}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "year": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1
+    },
+    "url": {
+      "type": "string",
+      "minLength": 1,
+      "format": "uri"
+    },
+    "source_type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "domains": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "locator": {
+      "type": "string",
+      "minLength": 1
+    },
+    "accessed": {
+      "type": "string",
+      "minLength": 1,
+      "format": "date"
+    },
+    "verification": {
+      "type": "string",
+      "minLength": 1,
+      "enum": [
+        "opened",
+        "pending",
+        "blocked"
+      ]
+    },
+    "supports": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "limitations": {
+      "type": "string",
+      "minLength": 1
+    },
+    "role": {
+      "type": "string",
+      "minLength": 1,
+      "enum": [
+        "classification",
+        "research_entry"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "title",
+    "authors",
+    "year",
+    "url",
+    "source_type",
+    "domains",
+    "locator",
+    "accessed",
+    "verification",
+    "supports",
+    "limitations",
+    "role"
+  ],
+  "additionalProperties": false
+}

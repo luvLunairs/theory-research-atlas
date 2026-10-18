@@ -1,0 +1,191 @@
+{
+  "id": "Q-MODEL-001",
+  "title": "Reproduce the CHSH optimum with an exact certificate",
+  "domain": "Quantum foundations",
+  "cross_domains": [
+    "Optimization",
+    "Quantum information"
+  ],
+  "kind": "known_result_calibration",
+  "statement": "For a bipartite quantum state and local Hermitian observables A0,A1,B0,B1 with eigenvalues in {-1,+1}, reproduce the universal bound |<A0 tensor B0>+<A0 tensor B1>+<A1 tensor B0>-<A1 tensor B1>| <= 2 sqrt(2), including an attaining realization and an exact upper-bound certificate.",
+  "source_ids": [
+    "SRC-MODEL-004"
+  ],
+  "source_locator": "Wehner Section 2, PDF pp.4-5",
+  "status": "known_result",
+  "status_basis": "The inspected source supplies a proof and attaining certificate. The project proposes a reproduction task, not a new bound.",
+  "last_checked": "2026-10-13",
+  "curator_origin": true,
+  "duplicate_key": "chsh-tsirelson-exact-reproduction",
+  "proposed_card": true,
+  "plain_summary": "Rebuild a standard limit on quantum correlations in a form another person can check exactly. This calibrates statement translation and certificate checking before unfamiliar Bell problems are considered.",
+  "assumptions": [
+    "A normalized positive quantum state on a tensor-product bipartite Hilbert space.",
+    "Each of two local observables per party is Hermitian and squares to identity; the operators act on their own tensor factors.",
+    "Expectations use the same state and the displayed sign convention; this task adopts the tensor-product formulation."
+  ],
+  "scope": "Universal bound under the stated quantum model; a finite-dimensional attaining example; exact 4 by 4 Gram-matrix certificate. No experimental analysis.",
+  "target": "A reproducible derivation and independently checkable exact upper- and lower-bound certificates for an already known result.",
+  "success_criteria": [
+    "Define the CHSH expression and all normalization conventions explicitly.",
+    "Provide an exact feasible Gram matrix and dual witness with matching objective values, or a complete independently checked operator proof plus an attaining construction.",
+    "Explain why the certificate concerns every allowed state and observable, not only sampled numerical examples.",
+    "Record any discrepancy between source notation, generated mathematics and checking code."
+  ],
+  "known_results": [
+    "Wehner Section 2 proves the optimum 2 sqrt(2) by semidefinite duality; Section 3 extends the method to a family of chained inequalities.",
+    "The result is a known theorem, so reproduction success has no mathematical novelty."
+  ],
+  "prerequisites": [
+    "Tensor products, density operators and Hermitian matrices.",
+    "Positive semidefinite matrices, Gram matrices and weak duality.",
+    "Exact arithmetic over Q(sqrt(2)) or an equivalent symbolic representation."
+  ],
+  "significance": "Useful as a compact calibration of proof-certificate discipline and normalization handling. Its scientific value here is workflow reliability, not a new quantum bound.",
+  "relations": [
+    {
+      "type": "method_bridge",
+      "target": "Q-MODEL-007",
+      "explanation": "Both use exact Gram constraints, but MUB existence is a different and much harder problem; calibration success supplies no evidence that it is easy."
+    }
+  ],
+  "requirements": {
+    "experiment": "None for the mathematical reproduction. Physical realization and loophole analysis would be separate experimental tasks.",
+    "data": "No empirical dataset; use the cited mathematical definitions.",
+    "compute": "A few fixed 4 by 4 exact matrices. A standard local symbolic or rational-algebra environment is a plausible resource class; no runtime or monetary estimate has been measured.",
+    "theoretical_assumptions": "Quantum tensor-product model and dichotomic projective observables as stated. A broader measurement or operator-algebra model requires a new alignment check."
+  },
+  "ai_assessment": {
+    "priority": "priority_trial",
+    "rationale": "A fixed operator-proof calibration with an attaining construction is a useful priority trial. If the alternative SDP route is chosen, first resolve the documented source transcription hazards and normalization alignment. No trial results have been recorded.",
+    "dimensions": {
+      "clarity": {
+        "rating": "high",
+        "reason": "Objective and operator assumptions can be fixed completely."
+      },
+      "decomposability": {
+        "rating": "high",
+        "reason": "Separate formulation, witness construction, exact checking and interpretation."
+      },
+      "methods": {
+        "rating": "high",
+        "reason": "The opened paper provides an explicit proof route."
+      },
+      "search_or_symbolic": {
+        "rating": "high",
+        "reason": "Small algebraic matrices fit symbolic checking; no large search is required."
+      },
+      "checkability": {
+        "rating": "high",
+        "reason": "Exact feasibility and objective equality can be inspected independently."
+      },
+      "expertise": {
+        "rating": "medium",
+        "reason": "Quantum notation and SDP duality need a qualified reviewer."
+      },
+      "significance": {
+        "rating": "medium",
+        "reason": "Strong calibration value but no new theorem is sought."
+      },
+      "verification_difficulty": {
+        "rating": "medium",
+        "reason": "Numerical agreement is easy; the universal-to-finite certificate translation needs careful review."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "No model was tested. Memorization may dominate reproduction, so success must not be advertised as novel reasoning or frontier capability.",
+    "assessment_date": "2026-10-13",
+    "model_scope": "No named model evaluated; assumes tool-using AI with literature retrieval, exact algebra or rational linear algebra, code generation, and access to a human domain reviewer.",
+    "evidence_refs": []
+  },
+  "methods": [
+    "symbolic derivation",
+    "exact computation",
+    "semidefinite duality",
+    "proof reproduction"
+  ],
+  "obstacles": [
+    "Losing a factor of two when translating the quadratic objective.",
+    "Confusing a numerical lower bound with a universal upper bound.",
+    "Using the wrong tensor ordering or silently changing allowed observables.",
+    "A source itself can contain a typographical inconsistency; independent algebra remains necessary."
+  ],
+  "validation": {
+    "steps": [
+      "Freeze the precise statement and tensor ordering.",
+      "Derive the Gram objective and dual using one normalization throughout.",
+      "Check diagonal constraints and positive semidefiniteness exactly, with a second checking path where possible.",
+      "Check matching objectives and a valid quantum realization.",
+      "Have a reviewer compare the certificate theorem with the original physical assumptions.",
+      "Justify extension from the source pure-state representation to every density operator in the declared scope, or use a direct operator argument that covers the full state class."
+    ],
+    "human_review_difficulty": "Moderate: a linear-algebra reviewer can inspect certificates, but a quantum-information reviewer should confirm statement alignment.",
+    "statement_alignment": "A valid SDP calculation proves the original bound only after the representation theorem or direct operator reduction is justified; a finite realization demonstrates attainability."
+  },
+  "known_attempts": [
+    "Published proof: Stephanie Wehner (2006), Section 2. This is a literature record, not an AI attempt or a project experiment."
+  ],
+  "unresolved_checks": [
+    "Inspect the apparent omitted 1/2 in one feasibility sentence on PDF p.5 against the displayed dual and the version of record before creating test calculations.",
+    "Select the exact-checking environment and reviewer; neither has been tested or appointed.",
+    "Compare the apparent PSD-definition and Gram-diagonal transcription anomalies with the original PDF and journal version before copying any formulas into test calculations. These are source-quality flags, not a disproof of the bound."
+  ],
+  "attribution": {
+    "original_authors": [
+      "Boris S. Tsirelson (original bound, credited by the inspected paper)",
+      "Stephanie Wehner (inspected SDP exposition)"
+    ],
+    "citation": "Wehner, S. (2006). Tsirelson bounds for generalized Clauser-Horne-Shimony-Holt inequalities. Physical Review A 73, 022110. https://doi.org/10.1103/PhysRevA.73.022110",
+    "curator_credit": "Compiled for Theory Research Atlas with AI assistance."
+  },
+  "status_search": {
+    "queries": [],
+    "checked_sources": [
+      "SRC-MODEL-004"
+    ],
+    "result": "Inspected full Section 2 and arXiv journal/version metadata; known-result reproduction, not an open-status claim.",
+    "limitations": "No independent recreation, code execution or proof validation was performed."
+  },
+  "epistemic_layers": {
+    "formal_validity": "The target is a mathematical implication of stated quantum assumptions; a reproduced certificate would support this layer only.",
+    "empirical_support": "The card neither reviews Bell experiments nor concludes that the assumptions describe a particular apparatus. Empirical validity is outside this task."
+  },
+  "revision_history": [],
+  "primary_domain_id": "PHYS.QUANT",
+  "cross_domain_ids": [
+    "INFO.QUANT",
+    "MATH.OPT"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "method_tags": [
+    "proof",
+    "symbolic_derivation",
+    "exact_computation",
+    "certificate_checking"
+  ],
+  "validation_tags": [
+    "pure_proof",
+    "exact_computation"
+  ],
+  "experimental_dependency": "none_for_formal_task",
+  "judgments": {
+    "difficulty": {
+      "rating": "low_to_medium",
+      "basis": "Exact small certificates make errors inspectable, and the literature supplies a clear target. Priority is only for a future calibration trial after human review.",
+      "evidence": "editorial_estimate_not_measured"
+    },
+    "correctness": {
+      "status": "no_project_answer",
+      "basis": "The cited literature supports the problem statement. No project answer has been submitted for review."
+    },
+    "novelty": {
+      "status": "not_claimed",
+      "basis": "The target is a known result; no originality is claimed for the selected scope. Any later novelty claim requires a literature check."
+    },
+    "significance": {
+      "rating": "medium",
+      "basis": "Useful as a compact calibration of proof-certificate discipline and normalization handling. Its scientific value here is workflow reliability, not a new quantum bound."
+    }
+  }
+}

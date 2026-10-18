@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Research profile",
+  "type": "object",
+  "properties": {
+    "problem_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "difficulty_basis": {
+      "type": "string",
+      "minLength": 1
+    },
+    "ai_role": {
+      "type": "string",
+      "minLength": 1
+    },
+    "verification_basis": {
+      "type": "string",
+      "minLength": 1
+    },
+    "resource_expectation": {
+      "type": "string",
+      "minLength": 1
+    },
+    "uncertainty": {
+      "type": "string",
+      "minLength": 1
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "frontier",
+        "unknown"
+      ]
+    },
+    "verification_burden": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "unknown"
+      ]
+    },
+    "assessment_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "evidence_level": {
+      "const": "untested_forecast",
+      "type": "string"
+    }
+  },
+  "required": [
+    "problem_id",
+    "difficulty_basis",
+    "ai_role",
+    "verification_basis",
+    "resource_expectation",
+    "uncertainty",
+    "difficulty",
+    "verification_burden",
+    "assessment_date",
+    "evidence_level"
+  ],
+  "additionalProperties": false
+}
