@@ -2,6 +2,103 @@
 import datetime as dt
 import hashlib
 import json
+from pathlib import Path
+
+from artifact_integrity import validate_record_artifacts
+
+
+ROOT = Path(__file__).resolve().parents[1]
+SCREENING_TARGET_FIELDS = (
+    'problem_id', 'statement_version', 'target', 'assumptions', 'success_criteria',
+    'outcome_kind', 'outcome', 'model', 'environment', 'candidate_answer_artifacts',
+)
+SCREENING_LABELS = {
+    'not_recorded': 'Preliminary screening not recorded',
+    'stale': 'Preliminary screening concerns an earlier or different version',
+    'invalid': 'Preliminary-screening evidence needs attention',
+    'changes_requested': 'Preliminary screening: changes requested',
+    'limited': 'Limited preliminary screening recorded',
+    'recommended_ai': 'Recommended-model contributor checks recorded',
+    'recommended_ai_human': 'Recommended-model contributor checks + reported human preliminary pass',
+    'human_preliminary': 'Human preliminary pass reported',
+}
+
+
+def screening_target_digest(attempt):
+    """Bind screening to its claim and AI provenance, without hashing itself."""
+    value = {key: attempt[key] for key in SCREENING_TARGET_FIELDS}
+    encoded = json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(',', ':')).encode('utf-8')
+    return 'sha256:' + hashlib.sha256(encoded).hexdigest()
+
+
+def _screening_errors(attempt, cutoff=None):
+    """Check declarations; old target/artifact bindings are valid retained history."""
+    screening = attempt.get('preliminary_screening')
+    if screening is None:
+        return []
+    errors = []
+    prefix = f'{attempt["id"]}: preliminary screening'
+    manifest = {item['reference']: item for item in attempt['artifact_manifest']}
+    if cutoff and screening['date'] > cutoff:
+        errors.append(f'{prefix} has a future date')
+    if attempt['started_at'] and screening['date'] < dt.datetime.fromisoformat(
+            attempt['started_at'].replace('Z', '+00:00')).astimezone(dt.timezone.utc).date().isoformat():
+        errors.append(f'{prefix} predates the attempt')
+    if attempt['status'] == 'planned' or not attempt['candidate_answer_artifacts']:
+        errors.append(f'{prefix} requires an executed attempt and result artifacts')
+    refs = [item['reference'] for item in screening['result_artifacts']]
+    if len(refs) != len(set(refs)):
+        errors.append(f'{prefix} repeats a bound result reference')
+    for ref in screening['evidence_artifacts']:
+        if ref not in attempt['process_artifacts'] or ref not in manifest:
+            errors.append(f'{prefix} evidence must be a manifested process artifact: {ref}')
+        elif manifest[ref]['sha256'] is None:
+            errors.append(f'{prefix} evidence requires a SHA-256 digest: {ref}')
+    if screening['ai_basis'] == 'no_ai' and screening['ai_check_status'] == 'completed':
+        errors.append(f'{prefix} cannot report AI checks with no AI basis')
+    if screening['ai_basis'] == 'recommended_only' and not attempt['model']['name']:
+        errors.append(f'{prefix} recommended-AI basis requires recorded model identity')
+    return errors
+
+
+def preliminary_screening_state(attempt, root=ROOT):
+    """Describe recorded screening, never scientific correctness or approval.
+
+    Callers validate record schemas first. Local retained bytes are checked here
+    as well so direct rendering cannot inherit a positive label from changed files.
+    Remote hashes remain declarations, as in ordinary artifact validation.
+    """
+    screening = attempt.get('preliminary_screening')
+    if screening is None:
+        return 'not_recorded'
+    if _screening_errors(attempt):
+        return 'invalid'
+    manifest = {item['reference']: item for item in attempt['artifact_manifest']}
+    bound = {item['reference']: item for item in screening['result_artifacts']}
+    if (screening['target_digest'] != screening_target_digest(attempt)
+            or not set(attempt['candidate_answer_artifacts']).issubset(bound)
+            or not set(screening['evidence_artifacts']).issubset(bound)
+            or any(manifest.get(ref) != item for ref, item in bound.items())):
+        return 'stale'
+    references = set(bound) | set(screening['evidence_artifacts'])
+    retained = {'id': attempt['id'], 'process_artifacts': sorted(references),
+                'artifact_manifest': [manifest[ref] for ref in sorted(references)]}
+    if validate_record_artifacts(retained, root):
+        return 'invalid'
+    if screening['human_preliminary_status'] == 'changes_requested':
+        return 'changes_requested'
+    recommended = (screening['ai_basis'] == 'recommended_only'
+                   and screening['ai_check_status'] == 'completed')
+    if recommended:
+        return ('recommended_ai_human' if screening['human_preliminary_status'] == 'passed'
+                else 'recommended_ai')
+    if screening['human_preliminary_status'] == 'passed':
+        return 'human_preliminary'
+    return 'limited' if screening['ai_check_status'] == 'completed' else 'not_recorded'
+
+
+def preliminary_screening_label(attempt, root=ROOT):
+    return SCREENING_LABELS[preliminary_screening_state(attempt, root)]
 
 
 def statement_digest(card):
@@ -71,6 +168,7 @@ def validate_research_records(dataset):
         errors.append('attempt and review IDs must be distinct')
 
     for aid, attempt in attempts.items():
+        errors.extend(_screening_errors(attempt, cutoff))
         start, end = timestamp(attempt['started_at']), timestamp(attempt['ended_at'])
         status = attempt['status']
         terminal = status in {'completed', 'stopped', 'failed'}

@@ -1,6 +1,6 @@
 # Data model
 
-Data-format version: **0.10.0**. Collection version: **0.1.0-dev**. These identify the data contract and the collection edition respectively. JSON records are authoritative; Markdown indexes and cards are generated. The schemas use JSON Schema Draft 2020-12. The local validator implements the subset used by these schemas and rejects unsupported keywords.
+Data-format version: **0.11.0**. Collection version: **0.1.0-dev**. These identify the data contract and the collection edition respectively. JSON records are authoritative; Markdown indexes and cards are generated. The schemas use JSON Schema Draft 2020-12. The local validator implements the subset used by these schemas and rejects unsupported keywords.
 
 For reading, start at [Browse the atlas](README.md). Subject pages and backlinks are views of the same records, not additional sources or problems.
 
@@ -114,6 +114,19 @@ Incomplete drafts belong in `work/`. Fields beginning with `TODO:` cannot enter 
 Project counts are checked against the records. `research_attempts_run` counts started attempts of all purposes, including unfinished and unsuccessful work; `model_evaluations_run` counts the subset whose purpose is `model_evaluation`. Planned work contributes to neither count.
 
 The brief candidate profiles remain forecasts. A full card's AI assessment can cite `public_attempt_evidence` using inspected source IDs and described public attempts, or `project_measured` using terminal local attempt IDs with model identifiers and process artifacts. Put those references in `evidence_refs`; leave it empty for `untested_forecast`. Evidence links establish traceability, not scientific correctness or a general success rate.
+
+## Preliminary-screening contract
+
+An attempt may include `preliminary_screening`; omission means no structured preliminary screening is recorded. This optional object is separate from `review_ids`, `human_review_status` and machine verification. It contains:
+
+- `recorded_by`, `date`, nonempty `scope` and `limitations`, plus nonempty `evidence_artifacts`. Each evidence reference must already be a `process_artifacts` entry with a SHA-256 in the attempt's `artifact_manifest`. The evidence identifies the humans, actual AI configurations, roles, checks and any unreported details; these declarations require maintainer assessment.
+- `ai_basis`: `recommended_only`, `other_or_unknown` or `no_ai`; `ai_check_status`: `completed` or `not_recorded`; `human_preliminary_status`: `passed`, `changes_requested` or `not_recorded`. Recommended-only means all substantive AI contributors meet the cited policy, including delegated work and any documented maintainer recognition. The validator does not infer eligibility from a model name. `no_ai` cannot accompany completed AI checks.
+- `target_digest`, computed by `screening_target_digest` in [research_records.py](../scripts/research_records.py). It hashes the canonical JSON object containing exactly `problem_id`, `statement_version`, `target`, `assumptions`, `success_criteria`, `outcome_kind`, `outcome`, `model`, `environment` and `candidate_answer_artifacts`, using the SHA-256 serialization convention below. It excludes the screening metadata and therefore does not hash itself.
+- Nonempty `result_artifacts`, containing the examined `reference`, `version` and nonnull `sha256` for every candidate-answer artifact, every `evidence_artifacts` reference and every supporting artifact within screening scope. For a current stage, these must exactly match the current artifact manifest. This also binds the preliminary-screening note itself; do not put that note's own digest inside the note. List relevant proof dependencies explicitly. A bound package manifest is useful evidence, but this feature does not recursively inspect files named inside that manifest.
+
+An executed attempt with result artifacts is required. Changed target fields, new unbound candidate artifacts, or changed/missing bound result or supporting manifest entries yield an earlier-version stage. Retained older bindings are allowed as history. Invalid evidence associations fail validation; missing or altered local bytes prevent a current positive display. Remote hashes remain declarations and are not fetched or authenticated. A report requesting changes never yields a positive preliminary stage. The renderer displays the declaration, scope, limitations and evidence separately from actual scoped reviews; no numeric confidence or academic-review tier is inferred. See the [screening vocabulary](review-guide.md#preliminary-screening).
+
+Changing screening metadata changes the ordinary `attempt_digest`, conservatively making existing attempt reviews earlier-version reviews. It does not alter the existing review or verification contracts. Keep previous screening reports and explain replacements in `revision_history`.
 
 ## Review contract
 

@@ -108,7 +108,7 @@ class VerificationRenderingTests(unittest.TestCase):
         self.assertIn('Machine checked', pages[f'docs/candidates/{card["id"]}.md'])
         self.assertIn('Machine checked', pages['docs/attempts/ATT-TEST.md'])
         self.assertIn('Machine verification and scope', pages['docs/results.md'])
-        self.assertIn('Current human review scope', pages['docs/results.md'])
+        self.assertIn('Current formal human review scope', pages['docs/results.md'])
         self.assertIn('Recorded attempts: 1 · Recorded reviews: 0', pages['docs/progress.md'])
         other = next(c for c in data['candidates'] if c['id'] != card['id'])
         self.assertNotIn('## Machine verification', pages[f'docs/candidates/{other["id"]}.md'])

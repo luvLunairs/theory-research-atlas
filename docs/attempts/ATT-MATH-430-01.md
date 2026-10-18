@@ -17,6 +17,47 @@ Complete analytic candidate for the two-seed subproblem, with a strict audit and
 - Only two seeds are covered, whereas Q-MATH-430 permits arbitrary finite seeds.
 - The publication is a documented selection of the local archive; omitted historical numerical material is not a proof premise.
 
+## Preliminary screening
+
+Recommended-model contributor checks + reported human preliminary pass.
+
+**Recorded by:** luvLunairs (maintainer report, recorded with Codex assistance). **Date:** 2026-10-18.
+
+| Declaration | Recorded value |
+| --- | --- |
+| AI basis | Recommended only |
+| AI contributor checks | Completed |
+| Human preliminary screening | Passed |
+
+**Scope**
+
+- Recorded same-team contributor readings and reproducibility checks of the two-seed candidate package at original PR head 592d34a72ef95a8df9d479507a11855159335d92.
+- Maintainer-reported preliminary human pass and editorial inclusion authorization, reaffirmed on 18 October 2026.
+- Recommended-configuration basis: retained service identifier gpt-6-astra, effort ultra, and explicit maintainer recognition; this is workflow provenance, not a correctness guarantee.
+
+**Screening limitations**
+
+- AI checks were performed by the contributing team and are not independent verification.
+- The human preliminary reading scope, full-text coverage, specialist qualifications and independence were not supplied.
+- Academic verification, formal verification, novelty and significance remain unestablished; no human proof-acceptance or machine-verification verdict is assigned.
+- Only the two-seed subproblem is claimed; the broader arbitrary finite-seed conjecture remains unchanged.
+
+**Evidence**
+
+| Artifact | Retained version |
+| --- | --- |
+| [research/ATT-MATH-430-01-screening/2026-10-18.md](<../../research/ATT-MATH-430-01-screening/2026-10-18.md>) | 2026-10-18-preliminary-screening-v1 |
+| [research/ATT-MATH-430-01/assistance-and-checks.md](<../../research/ATT-MATH-430-01/assistance-and-checks.md>) | 2026-10-18-publication-v1 |
+| [research/ATT-MATH-430-01/model-provenance.json](<../../research/ATT-MATH-430-01/model-provenance.json>) | 2026-10-18-publication-v1 |
+| [research/ATT-MATH-430-01/submission-authorization.md](<../../research/ATT-MATH-430-01/submission-authorization.md>) | 2026-10-18-publication-v1 |
+| [research/ATT-MATH-430-01/submission-checks.md](<../../research/ATT-MATH-430-01/submission-checks.md>) | 2026-10-18-publication-v1 |
+
+**Bound result, supporting and screening artifacts:** 73. Exact references, versions and hashes are retained in the [structured record](../../data/attempts/ATT-MATH-430-01.json).
+
+**Examined target digest:** `sha256:bcb4986313983950e63af828132f9dd5e424e6c267a7a4565796dc216191a095`.
+
+This procedural stage is not a correctness probability, independent review or scientific approval. See the scoped reviews and machine verification below. [Screening policy](../review-guide.md#preliminary-screening).
+
 ## Target and verification
 
 For every pair of positive integers f<g, the greedy sequence starting with exactly f,g and excluding sums of two different actual earlier selected integers has an eventually periodic characteristic function, hence eventually periodic successive gaps.
@@ -44,7 +85,7 @@ For every pair of positive integers f<g, the greedy sequence starting with exact
 
 - Stop an upload if exact-version checks or authorization are missing.
 - Preserve any unresolved proof gap or failed extension; do not infer a general result from added enumeration.
-- Do not merge or assign human-review or machine-verification approval.
+- Do not merge without explicit current authorization and final revision checks; do not infer scientific human-review or machine-verification approval from preliminary screening.
 
 ## Contributors
 
@@ -191,11 +232,13 @@ None recorded.
 | [research/ATT-MATH-430-01/source-map.json](<../../research/ATT-MATH-430-01/source-map.json>) | 2026-10-18-publication-v1 |
 | [research/ATT-MATH-430-01/submission-authorization.md](<../../research/ATT-MATH-430-01/submission-authorization.md>) | 2026-10-18-publication-v1 |
 | [research/ATT-MATH-430-01/submission-checks.md](<../../research/ATT-MATH-430-01/submission-checks.md>) | 2026-10-18-publication-v1 |
+| [research/ATT-MATH-430-01-screening/2026-10-18.md](<../../research/ATT-MATH-430-01-screening/2026-10-18.md>) | 2026-10-18-preliminary-screening-v1 |
 
 ### Human help
 
 - The maintainer directed the task and reported preliminary review without finding an error; full-text coverage and independence were not supplied.
 - The maintainer explicitly recognized GPT-6 Astra Ultra as meeting repository requirements and authorized automated upload; exact service fields were separately recovered.
+- On 18 October 2026 the maintainer reaffirmed a preliminary human pass and authorized editorial merging, expressly with academic verification pending; the exact scope and complete-text coverage remain unspecified. See the separately retained preliminary-screening note.
 
 ### Candidate answer artifacts
 
@@ -1166,6 +1209,19 @@ https://arxiv.org/html/2609.16843v1
 
 Not recorded.
 
+
+**Reference:**
+
+research/ATT-MATH-430-01-screening/2026-10-18.md
+
+**Version:**
+
+2026-10-18-preliminary-screening-v1
+
+**Sha256:**
+
+sha256:6cbe3d96f02dcf957c0d2edf7dbf2b81419e582bc4a79a1f98501318c226d6e4
+
 ## Resources
 
 ### Requirements
@@ -1258,12 +1314,13 @@ No verification recorded.
 
 Verification applies only to the certified scope and versions; human review and novelty remain separate. [Policy](../machine-verification.md).
 
-**Current attempt digest:** `sha256:c689cc259e6ac071187528127b22bc8c49f4128a28b2d4c708e22591803e39c3`.
+**Current attempt digest:** `sha256:8a830b89f5954bb1d7965c5047864219e0b26dc11d98e0d1881b3afc848f410e`.
 
 ## Revisions
 
 | Date | Change |
 | --- | --- |
 | 2026-10-18 | Submitted the audited two-seed analytic candidate, with original/publication digest mapping, recovered model provenance, maintainer authorization, qualified source credit and preserved failures. No approval or broader problem-status change. |
+| 2026-10-18 | Recorded version-bound recommended-model contributor screening and the maintainer-reported human preliminary pass, with academic verification pending. Editorial merge authorization is recorded separately; the original 71-file scientific package, candidate outcome, broader problem status and formal review/verification states are unchanged. |
 
 [Structured record](../../data/attempts/ATT-MATH-430-01.json)

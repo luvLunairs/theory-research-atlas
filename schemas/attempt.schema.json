@@ -443,6 +443,40 @@
       ],
       "additionalProperties": false
     },
+    "preliminary_screening": {
+      "type": "object",
+      "description": "Optional attributed preliminary screening, separate from scientific review and verification. Preserve stale bindings as history.",
+      "properties": {
+        "target_digest": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+        "result_artifacts": {
+          "type": "array", "minItems": 1,
+          "description": "Screened candidate answers, supporting artifacts and screening evidence; each entry copies the examined manifest version and digest.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "reference": {"type": "string", "minLength": 1},
+              "version": {"type": "string", "minLength": 1},
+              "sha256": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"}
+            },
+            "required": ["reference", "version", "sha256"],
+            "additionalProperties": false
+          }
+        },
+        "evidence_artifacts": {
+          "type": "array", "minItems": 1, "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1}
+        },
+        "ai_basis": {"type": "string", "enum": ["recommended_only", "other_or_unknown", "no_ai"]},
+        "ai_check_status": {"type": "string", "enum": ["completed", "not_recorded"]},
+        "human_preliminary_status": {"type": "string", "enum": ["passed", "changes_requested", "not_recorded"]},
+        "recorded_by": {"type": "string", "minLength": 1},
+        "date": {"type": "string", "format": "date"},
+        "scope": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+        "limitations": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}
+      },
+      "required": ["target_digest", "result_artifacts", "evidence_artifacts", "ai_basis", "ai_check_status", "human_preliminary_status", "recorded_by", "date", "scope", "limitations"],
+      "additionalProperties": false
+    },
     "artifact_manifest": {
       "type": "array",
       "items": {

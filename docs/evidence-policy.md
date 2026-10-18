@@ -58,6 +58,8 @@ Model output is a contribution artifact, not an authoritative source for a theor
 
 Full-text submission screening is distinct from mathematical verification and independent review. Record checks actually performed and leave unexamined claims unresolved.
 
+Optional [preliminary-screening stages](review-guide.md#preliminary-screening) describe the checks recorded for a particular result version. Recommended-AI contributor checks and a reported human preliminary pass can be displayed together, with their scope and limitations. These are procedural descriptions, not calibrated confidence levels or scientific verdicts. They do not change problem status, human-review status, submission eligibility or machine verification. Specialist academic review remains a separate, attributable scoped review; neither model identity nor preliminary screening establishes it.
+
 ## Match validation to the claim
 
 Universal claims need a proof with explicit premises. Finite computational claims need exact arithmetic and independent checks; an exhaustive search also needs a complete instance generator, justified symmetry reductions and a defined search space.

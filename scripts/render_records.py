@@ -2,7 +2,8 @@
 from urllib.parse import quote
 
 from render_cards import _value, _table, _list, _human, _text
-from research_records import attempt_digest, current_attempt_reviews, unsuperseded_reviews, statement_digest
+from research_records import (attempt_digest, current_attempt_reviews, unsuperseded_reviews,
+                              statement_digest, preliminary_screening_label)
 from render_verifications import ROOT, verification_summary
 
 
@@ -13,6 +14,7 @@ def render_records(dataset, root=ROOT):
     targets = {c['id']: c for c in [*dataset['candidates'], *dataset['cards']]}
     attempts = {a['id']: a for a in dataset['attempts']}
     retained_reviews = {r['id'] for r in unsuperseded_reviews(dataset)}
+    screening_labels = {a['id']: preliminary_screening_label(a, root) for a in dataset['attempts']}
 
     def review_version(r):
         if r['id'] not in retained_reviews:
@@ -41,6 +43,24 @@ def render_records(dataset, root=ROOT):
         text += f'**Execution:** {_human(a["status"])}. **Outcome:** {_human(a["outcome_kind"])}. **Purpose:** {_human(a["purpose"])}.\n\n'
         text += '## Reported outcome\n\n' + a['outcome'] + '\n\n'
         text += '**Limitations**\n\n' + _list(a['limitations'])
+        text += '## Preliminary screening\n\n' + screening_labels[a['id']] + '.\n\n'
+        screening = a.get('preliminary_screening')
+        if screening:
+            text += f'**Recorded by:** {_text(screening["recorded_by"])}. **Date:** {screening["date"]}.\n\n'
+            text += _table(['Declaration', 'Recorded value'], [
+                ('AI basis', _human(screening['ai_basis'])),
+                ('AI contributor checks', _human(screening['ai_check_status'])),
+                ('Human preliminary screening', _human(screening['human_preliminary_status']))])
+            text += '**Scope**\n\n' + _list(screening['scope'])
+            text += '**Screening limitations**\n\n' + _list(screening['limitations'])
+            text += '**Evidence**\n\n' + artifacts({
+                'artifact_manifest': a['artifact_manifest'],
+                'evidence_artifacts': screening['evidence_artifacts']}, 'evidence_artifacts')
+            text += (f'**Bound result, supporting and screening artifacts:** {len(screening["result_artifacts"])}. '
+                     f'Exact references, versions and hashes are retained in the [structured record](../../data/attempts/{a["id"]}.json).\n\n')
+            text += '**Examined target digest:** `' + screening['target_digest'] + '`.\n\n'
+        text += ('This procedural stage is not a correctness probability, independent review or scientific approval. '
+                 'See the scoped reviews and machine verification below. [Screening policy](../review-guide.md#preliminary-screening).\n\n')
         text += '## Target and verification\n\n' + a['target'] + '\n\n'
         text += '**Statement version:** ' + a['statement_version'] + '\n\n'
         for field in ['assumptions', 'success_criteria', 'verification_plan', 'stopping_conditions']:
@@ -106,10 +126,11 @@ def render_records(dataset, root=ROOT):
         rows = []
         for a in sorted(findings, key=lambda a: max(r['date'] for r in a['revision_history']), reverse=True):
             reviews = current_attempt_reviews(dataset, a)
-            review_text = '; '.join(f'[{r["id"]}](reviews/{r["id"]}.md): {_human(r["verdict"])} ({"; ".join(r["scope"])})' for r in reviews) or 'No review of the current result recorded'
+            review_text = '; '.join(f'[{r["id"]}](reviews/{r["id"]}.md): {_human(r["verdict"])} ({"; ".join(r["scope"])})' for r in reviews) or 'No formal review of the current result recorded'
             credit = '; '.join(person['name'] for person in a['contributors'])
-            rows.append((f'[{a["id"]}](attempts/{a["id"]}.md)', problem_link(a['problem_id']), credit, _human(a['outcome_kind']), a['outcome'], review_text, verification_summary(dataset, a['id'], root=root)))
-        text += _table(['Record', 'Question', 'Contributors', 'Contribution', 'Reported finding', 'Current human review scope', 'Machine verification and scope'], rows)
+            rows.append((f'[{a["id"]}](attempts/{a["id"]}.md)', problem_link(a['problem_id']), credit, _human(a['outcome_kind']), a['outcome'], screening_labels[a['id']], review_text, verification_summary(dataset, a['id'], root=root)))
+        text += _table(['Record', 'Question', 'Contributors', 'Contribution', 'Reported finding', 'Preliminary screening', 'Current formal human review scope', 'Machine verification and scope'], rows)
+        text += 'Preliminary screening describes attributed checks, not correctness confidence or specialist academic acceptance. [Screening policy](review-guide.md#preliminary-screening).\n\n'
         text += 'A scoped acceptance does not establish novelty or all aspects of correctness. Corrections and retractions remain visible alongside the affected records.\n\n'
     text += ('[All attempts and reviews](progress.md) include unsuccessful work and known-result reproductions. '
              'Every candidate can receive a research record; a full card is optional.\n\n')

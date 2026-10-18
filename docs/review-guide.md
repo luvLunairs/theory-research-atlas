@@ -20,6 +20,25 @@ Disclose AI assistance under the [AI policy](ai-contributions.md). Checking what
 
 Find a bounded task in [pending checks](pending-checks.md). Consult the [source notes and examples](quality-checks.md) only when they help with your target.
 
+## Preliminary screening
+
+An attempt may record a preliminary-screening note before specialist academic review. Attribute the report, identify the exact target and result files, describe what was checked and retain the evidence. State whether AI checks came from the contributing team. A human preliminary pass must identify the human and the reported scope in the evidence; do not infer full-text coverage, independence or professional expertise. If those details were not supplied, say so.
+
+The displayed stage is derived from the optional record and its current version bindings:
+
+| Stage | Meaning |
+| --- | --- |
+| Preliminary screening not recorded | No structured record is available, or it records no completed checks or human preliminary conclusion |
+| Limited preliminary screening recorded | Checks are recorded, but the recommended-AI or human-pass conditions below are not established |
+| Recommended-model contributor checks recorded | Completed checks and recommended configurations for all substantive AI assistance are documented, including delegated work |
+| Recommended-model contributor checks + reported human preliminary pass | The preceding contributor checks and an attributed human preliminary pass are recorded for the same bound result |
+| Human preliminary pass reported | A human preliminary pass is recorded without asserting recommended-AI checks |
+| Preliminary screening: changes requested | The preliminary report requests changes; no positive preliminary stage is displayed |
+
+Earlier or different versions and evidence needing attention receive explicit labels instead of a current positive stage. Preserve previous reports when revising screening. These stages describe review progress, not low, medium or high probabilities of correctness. A non-recommended or unidentified model is not evidence that an argument is wrong. Model provenance and applicable submission restrictions remain governed by the [AI policy](ai-contributions.md).
+
+**Specialist academic review** is shown through the existing scoped-review records, separately from preliminary screening. Record the responsible human's expertise, relationship to the work, scope, verdict, examined version and evidence. A generic acceptance, code review or professional title does not automatically establish academic acceptance of the argument. Same-team checks remain same-team checks; preliminary screening never creates an independent-review claim, changes `human_review_status` or earns a machine-verification label. Repository checks validate bindings and declarations, not the authenticity or adequacy of a reported review.
+
 ## Review machine-checkable work
 
 The [machine verification policy](machine-verification.md) separates approval of the claim and checker from checking each certificate. For a new specification, assess statement alignment, definitions, assumptions, trusted components, acceptance rules and invalid-input handling. Record the approved version and limits. A changed target, procedure or trust basis needs renewed approval.

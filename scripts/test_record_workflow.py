@@ -77,7 +77,7 @@ class RecordWorkflowTests(unittest.TestCase):
         self.attempt['outcome'] = 'Changed synthetic claim.'
         self.assertEqual(current_attempt_reviews(self.data, self.attempt), [])
         self.assertEqual(validate_dataset(self.data), [])
-        self.assertIn('No review of the current result recorded', render_records(self.data)['docs/results.md'])
+        self.assertIn('No formal review of the current result recorded', render_records(self.data)['docs/results.md'])
 
     def test_later_different_scope_does_not_erase_an_objection(self):
         self.execute()
