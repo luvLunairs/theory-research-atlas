@@ -1,0 +1,937 @@
+{
+  "version": "2026-10-18-publication-v1",
+  "files": [
+    {
+      "source": "work/greedy-analytic-20261018/even-multiples/a1-first-seed-four.md",
+      "destination": "contents/greedy-analytic-20261018/even-multiples/a1-first-seed-four.md",
+      "source_sha256": "72782a2d09740cdc32a98b6691f0fb899c239cb95b50b9f4240c89fc0c256123",
+      "published_sha256": "5d1c710edbe18782ffe071ebe7232620ca5806568f59540bb553d80b5cba96b1",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-20261018/even-multiples/boundary-arithmetic-tables.md",
+      "destination": "contents/greedy-analytic-20261018/even-multiples/boundary-arithmetic-tables.md",
+      "source_sha256": "fb98bc5a1fb8ed51adfceb495b58b17439ac11f00b8b23e152acc4d258180a39",
+      "published_sha256": "032531ecb84571372ff7c9fa001b3f9ed03bfd9935b8d863d397f2d67a84dfb0",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-20261018/even-multiples/boundary-lifetime-tables.md",
+      "destination": "contents/greedy-analytic-20261018/even-multiples/boundary-lifetime-tables.md",
+      "source_sha256": "fd63bc4147c25f74652d1eeb0f3fb55f6b8d576c1ab3586fddf68bf811cfea3e",
+      "published_sha256": "bd34c950818dded43059007bc80b59bb5a40f7a75991af3824b596820b6fb5e4",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-20261018/even-multiples/f4-coverage-tables.md",
+      "destination": "contents/greedy-analytic-20261018/even-multiples/f4-coverage-tables.md",
+      "source_sha256": "3fdfa6bcb2586fc8ac621889eab0fb1de562f6354a1fcaa9e89dfae09e37cf33",
+      "published_sha256": "f11715653f215b86a79ba591bbcf0ac7102b52d438fbc3e9525b735ebe14c106",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-20261018/even-multiples/f4-zero-coverage.md",
+      "destination": "contents/greedy-analytic-20261018/even-multiples/f4-zero-coverage.md",
+      "source_sha256": "82b8777b1b66df1a27ed6836b900ca23388907b669e0269d9907da95cb87cd82",
+      "published_sha256": "1a56e47a85da807157f61ebce8b59fd16efd10418cec3a9bdeabcad9d1fe0a42",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-20261018/even-multiples/proof.md",
+      "destination": "contents/greedy-analytic-20261018/even-multiples/proof.md",
+      "source_sha256": "7b873d57515c6973a13c4cfbfb26588c63dfeb88ba792344818319a734257603",
+      "published_sha256": "125d85b085f36f87e8b94a6f0cea2ae8a5d1502baadc25ac9525b8ea406ba42e",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-20261018/even-multiples/small-boundaries.md",
+      "destination": "contents/greedy-analytic-20261018/even-multiples/small-boundaries.md",
+      "source_sha256": "0256808bc32e1b087ebbe5be7f07a48423f13c591a01b8000b8d79ad012d702e",
+      "published_sha256": "80afe9bb1518fdcfcb896a9acb4cd93e073a9e5a965922c287c5baf455410871",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-20261018/finite-small.md",
+      "destination": "contents/greedy-analytic-20261018/finite-small.md",
+      "source_sha256": "1b44f75e8d6e3f188562eb9aa3e096a19b58fa5714c0e775b3be7123ad81e1ea",
+      "published_sha256": "6c5e0fd5032f543c446784c37a90ad9b917ef51adb2a08795b1bbb205ac8337f",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-20261018/lifetime-lemma.md",
+      "destination": "contents/greedy-analytic-20261018/lifetime-lemma.md",
+      "source_sha256": "c579644cbd31f06f4cd145b6756144afb60cede04a2b1858cc12c4de816757df",
+      "published_sha256": "02f65fe66b1914b4e373835ec753bb3ce180a246aeb5a2a86814a53b598bcb79",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-20261018/literature.md",
+      "destination": "contents/greedy-analytic-20261018/literature.md",
+      "source_sha256": "75633239ff5fda38245c9c126f91577649c470c19a91c9ca49895c5efa52af95",
+      "published_sha256": "e3186d44abdcaf1d7b0a745464855e548756930da17268a8c212edc73dff7c3b",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Qualify construction attribution without changing any mathematical claim.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-20261018/plateau-corner.md",
+      "destination": "contents/greedy-analytic-20261018/plateau-corner.md",
+      "source_sha256": "e708f0ad9b5abedbfc97af5e99925c677e1ceed65e2e09b02e4753ab837b31f1",
+      "published_sha256": "2c52f953af4439550644fccad701e0a6e1dd141565d2ef12731eee22f7f8b07f",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-20261018/small-domain-extensions.md",
+      "destination": "contents/greedy-analytic-20261018/small-domain-extensions.md",
+      "source_sha256": "608905fabea235a8559649952184d6efb655d8639178a449702f70cd95ad6183",
+      "published_sha256": "a2ec0ac1acba7d86d6d0dee6988d47a34ff6dbdd93bfbfa595286aa41a82c8ed",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-20261018/small/f2-three-blocks.md",
+      "destination": "contents/greedy-analytic-20261018/small/f2-three-blocks.md",
+      "source_sha256": "bfd5c4a873a76ed9f9b87c8414f3388f360d5d5c14179d4f049724d2bd2a4aec",
+      "published_sha256": "ea4ad837369941372a8e1e93e70206aa122ccbff1df1303b27273ea9b0a30afb",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Apply the already-audited disjointness wording correction from errata.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-20261018/small/f2-two-classes.md",
+      "destination": "contents/greedy-analytic-20261018/small/f2-two-classes.md",
+      "source_sha256": "58952ebfe91bbeae69171c3cb1c3fb0ca427f0cffd630546da0699eb045d9d01",
+      "published_sha256": "f9996ea35a167c96b41572450b8695961a4164a81b4ae8f9527d2cc597b029bc",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-20261018/small/f3-one.md",
+      "destination": "contents/greedy-analytic-20261018/small/f3-one.md",
+      "source_sha256": "6f4777f5bd7f0e50e7c3dc802814251b1f3b4a5d231d9a1cfc4e6b26d6e746ca",
+      "published_sha256": "6ab8c834b35e4a4e5949caf111baf4288ad6212855df1cfdec3e522695c3ce88",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-20261018/small/f3-zero.md",
+      "destination": "contents/greedy-analytic-20261018/small/f3-zero.md",
+      "source_sha256": "4c9f03d478e233f60c1bcc4343ea8da511f14c8a748e90d35e83874bfe23b243",
+      "published_sha256": "1ce7d5aa6a194e612f7b3d6d17cd6345765b5f8b1e68b49fecade06a45ba5a7b",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Apply the already-audited actual-distinctness wording correction from errata.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-20261018/small/f4-zero-exclusion.md",
+      "destination": "contents/greedy-analytic-20261018/small/f4-zero-exclusion.md",
+      "source_sha256": "4237e9a50d8e498c8c678c1754ba2b417d9fb8b934ca8ed98155efb6b6b60ce1",
+      "published_sha256": "a1476c4d6e56f8e64c702728fbfbe12b553b8522a563a2f269f10e7674672e22",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Apply the already-audited first/second seed wording correction from errata.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-20261018/upper/boundary.md",
+      "destination": "contents/greedy-analytic-20261018/upper/boundary.md",
+      "source_sha256": "4cad3877ec2d42c63f0302d5a320816ac86a25ef450e982da5a22172ba73cc99",
+      "published_sha256": "4b3dcb40bd6dc0e34e1c5dbe1ce5ee5fcff7d5c3f13a46887d2102cbb5b0f6bf",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-20261018/upper/f4-fixed-tables.md",
+      "destination": "contents/greedy-analytic-20261018/upper/f4-fixed-tables.md",
+      "source_sha256": "cb663dce7dae696006e4188d3222530d1d5863397c256d72fba9da40d4a32b55",
+      "published_sha256": "3a3dfe043a6b44b6fa58ff5f2f7df5780f56166c7b38753b88e95a31ebdece91",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-20261018/upper/f4-fixed.md",
+      "destination": "contents/greedy-analytic-20261018/upper/f4-fixed.md",
+      "source_sha256": "8ed17855451e3c9f828111f4dc4cbef439730f50a4d873f64494a3d49daf1c30",
+      "published_sha256": "bdaef14a21f960be589b03407dae5ed73bc01cf0561792c32d82f1f3f2166734",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-20261018/upper/rays.md",
+      "destination": "contents/greedy-analytic-20261018/upper/rays.md",
+      "source_sha256": "852bfee1c131977539214be8c9f7794ec4485e16070da1124220065a73b48407",
+      "published_sha256": "6384fdb129fc67a6006d03a2cfa8d3e6cf00aa84991b1344b2a9b5d33f6d0130",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-audit-20261018/assistance-and-checks.md",
+      "destination": "contents/greedy-analytic-audit-20261018/assistance-and-checks.md",
+      "source_sha256": "cbae54890021b2774ebda789f901793f28cdc306b3bc01829c1dffcacae38b75",
+      "published_sha256": "a1e48b45f5679bf2d5d0976ef004acc3a25edf00a792090683b98e666b6b65fd",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Remove local installation/checkout path; retain runtime version and original source digest.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-audit-20261018/contribution.md",
+      "destination": "contents/greedy-analytic-audit-20261018/contribution.md",
+      "source_sha256": "b7b1d9c836667bc25a97ab46ff47cb1fc81fc4a3ff4b5059716cd7b16cd8fdcc",
+      "published_sha256": "0d4a918b92f721b984e659d10622295e8cfe2477f2c8eea90965cebde2b57b78",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-audit-20261018/errata.md",
+      "destination": "contents/greedy-analytic-audit-20261018/errata.md",
+      "source_sha256": "0d805ac7e36cf1bac7ea5a6b935e9070b96389a7572b6b5b612180ebf9212893",
+      "published_sha256": "37270c19a41521590263f505c27d9556585ab8d76a5bf06f9c5f9f07e667831c",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-audit-20261018/findings.md",
+      "destination": "contents/greedy-analytic-audit-20261018/findings.md",
+      "source_sha256": "d96ca8c3104b8f22c51da319af12408cd7037dd9dfaafe3143a1ee77820361f9",
+      "published_sha256": "45751e22b2b9584eba162e9b580ebe25cc86396670f6e9c4c719ad0f3d41b6ca",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-audit-20261018/four/anchor-compression.md",
+      "destination": "contents/greedy-analytic-audit-20261018/four/anchor-compression.md",
+      "source_sha256": "87c375c2a856c6819750417eb3ec0d15800e82f5e825014663618792fc181341",
+      "published_sha256": "d4d066912ca18b1e6d687f42478f5701c62c3d63a8df79817a71487da9f4c1c9",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-audit-20261018/four/audit.md",
+      "destination": "contents/greedy-analytic-audit-20261018/four/audit.md",
+      "source_sha256": "a8a20f4b9a88d59fbc12c4e7a9facb6e55ffaeb1143c63431452833d80a04f2b",
+      "published_sha256": "c746cc52dad1e64b16dddb7884ed0e327dbb0b903fdb4bd76b5dbe143c09250e",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-audit-20261018/four/check_printed.py",
+      "destination": "contents/greedy-analytic-audit-20261018/four/check_printed.py",
+      "source_sha256": "fa1760cdaa7074eab830567ddff21c48c81589fe5f7c0def9dd9ae3a15bc7a48",
+      "published_sha256": "fa1760cdaa7074eab830567ddff21c48c81589fe5f7c0def9dd9ae3a15bc7a48",
+      "changes": []
+    },
+    {
+      "source": "work/greedy-analytic-audit-20261018/four/printed-results.json",
+      "destination": "contents/greedy-analytic-audit-20261018/four/printed-results.json",
+      "source_sha256": "e8ba742bda6f2cf87c8f073800e700d351ffda85b17f16dc8a8fd55f8ea38072",
+      "published_sha256": "e8ba742bda6f2cf87c8f073800e700d351ffda85b17f16dc8a8fd55f8ea38072",
+      "changes": []
+    },
+    {
+      "source": "work/greedy-analytic-audit-20261018/framework-checks.json",
+      "destination": "contents/greedy-analytic-audit-20261018/framework-checks.json",
+      "source_sha256": "b6eaf9876553e0df6027ef789d7156312a03c393387ef987501a98e6b5bd4f04",
+      "published_sha256": "b6eaf9876553e0df6027ef789d7156312a03c393387ef987501a98e6b5bd4f04",
+      "changes": []
+    },
+    {
+      "source": "work/greedy-analytic-audit-20261018/framework.md",
+      "destination": "contents/greedy-analytic-audit-20261018/framework.md",
+      "source_sha256": "194b05937267a6a90c6b680fc1b17cdd7be3c129d8c2e4bf2fae74bba877a4b4",
+      "published_sha256": "8f1c3eb77827f4dd587e3c027008f1aba124895f1ac5f45ec76edd7f490e4d26",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Correct historical attribution: distinguish the recent two-seed formulation from Queneau's earlier construction.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-audit-20261018/framework_checks.py",
+      "destination": "contents/greedy-analytic-audit-20261018/framework_checks.py",
+      "source_sha256": "8f95c8b57d813c8daa47ad2396fd6e3c823927b49bdbf7d7e8b0a3414427d192",
+      "published_sha256": "8f95c8b57d813c8daa47ad2396fd6e3c823927b49bdbf7d7e8b0a3414427d192",
+      "changes": []
+    },
+    {
+      "source": "work/greedy-analytic-audit-20261018/known-small-boundaries.md",
+      "destination": "contents/greedy-analytic-audit-20261018/known-small-boundaries.md",
+      "source_sha256": "e3590425f979f01e8898a4759648993982bbd2ee5742039db9cd0ccc5edf3eed",
+      "published_sha256": "2cdac5435fdfd74eadd6dc28d5b5759190faf8451c41dfb73588ec6d36691a52",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-audit-20261018/large/audit.md",
+      "destination": "contents/greedy-analytic-audit-20261018/large/audit.md",
+      "source_sha256": "c74eb4a92452a9549418bc95bc16fb1705dbc314eeb2bc2d81a7c8c6c1380005",
+      "published_sha256": "c887cdaa0b8a04769c357c2d3043fa55ff0fe6af7d15fa1a5a93a2b5ad0d85eb",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-audit-20261018/large/lemmas.md",
+      "destination": "contents/greedy-analytic-audit-20261018/large/lemmas.md",
+      "source_sha256": "5fb94babf9f6756fcd471726f0fd1bc7a0ff2e36b4d5b48a4543a45b2d55702d",
+      "published_sha256": "1c96d7ab74752a72876cc34423fa46b7a72b4fb50136767700af26e21a8c51f9",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-audit-20261018/literature.md",
+      "destination": "contents/greedy-analytic-audit-20261018/literature.md",
+      "source_sha256": "faa64afd6eddb5dcbfd0da6a730c35404dbf204cdc7fb9d9238610cc0fc88502",
+      "published_sha256": "56b8fe4fd8eeacb1e96d92fdb16516ab0826ec99be5e53c509b778ec80cc2ba9",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-audit-20261018/manuscript.md",
+      "destination": "contents/greedy-analytic-audit-20261018/manuscript.md",
+      "source_sha256": "e10bf14c708bf4b14aaed65a46823f14d5af13e7250453d829a6231a8c273cb2",
+      "published_sha256": "7a3eb6bd288b74619860d0a1b6cbca928cd373f28675ac7493c6bd7ebcc9d468",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Update submission-stage wording; retain candidate status and all mathematical statements.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-audit-20261018/root-audit.md",
+      "destination": "contents/greedy-analytic-audit-20261018/root-audit.md",
+      "source_sha256": "52ff3d978d7015321359ba4c7fde02e50109fca5decb6b235d2e9115d1137bad",
+      "published_sha256": "75d42e5200822f16c547b92dec9071450dea22c771ae82dd71ad55fce91dac9b",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-audit-20261018/small/audit.md",
+      "destination": "contents/greedy-analytic-audit-20261018/small/audit.md",
+      "source_sha256": "35f49ecfd1d8a5ceb9f242b60cd6f63d47a747b206d8378621eb2db0e8408431",
+      "published_sha256": "ee82022c5b8ec65491c6fddeb41953bcc59765d59fc041ccd259d8b2d8294be9",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Remove local installation/checkout path; retain runtime version and original source digest.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-audit-20261018/small/f3-zero-tail.md",
+      "destination": "contents/greedy-analytic-audit-20261018/small/f3-zero-tail.md",
+      "source_sha256": "7f202d6b53e8264f4c1e8f5c3220b64d6805cd3e05206ec1769e7b3ce662e8a0",
+      "published_sha256": "2bd0576faf55fa01e955aa8a9037ca44541ef0a4bedd357f3762838ab0aa462b",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-audit-20261018/small/printed-results.json",
+      "destination": "contents/greedy-analytic-audit-20261018/small/printed-results.json",
+      "source_sha256": "a84303a29abd7d0a7203534d75cd552100c9dd9578e7d01b2c7d3ae513d1c1f3",
+      "published_sha256": "a84303a29abd7d0a7203534d75cd552100c9dd9578e7d01b2c7d3ae513d1c1f3",
+      "changes": []
+    },
+    {
+      "source": "work/greedy-analytic-audit-20261018/small/printed_audit.py",
+      "destination": "contents/greedy-analytic-audit-20261018/small/printed_audit.py",
+      "source_sha256": "8dfcb098562c01ad86e404f27debca8aa00b2b7c587b488b65e2ff6f58d6e84f",
+      "published_sha256": "8dfcb098562c01ad86e404f27debca8aa00b2b7c587b488b65e2ff6f58d6e84f",
+      "changes": []
+    },
+    {
+      "source": "work/greedy-analytic-audit-20261018/target.md",
+      "destination": "contents/greedy-analytic-audit-20261018/target.md",
+      "source_sha256": "63fed2a4903b34a71ca5f705d8b49a6973824a905da8ffc221620616b5c97f7e",
+      "published_sha256": "4f43d8e6cb4329750080fb9d3ce8148fa433c39be4a2568f516831c4ffb11541",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-comprehensive-20261018/a1/boundary.md",
+      "destination": "contents/greedy-comprehensive-20261018/a1/boundary.md",
+      "source_sha256": "dc4fff7236efd13cfb1ec1fbfc647157188c7b1e8f150bc3dcf02e8d1f693902",
+      "published_sha256": "bc9d797c89fcdb6beda78b0d537ffc26524124a04adda32311e3b766348f3c47",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-comprehensive-20261018/a1/proof.md",
+      "destination": "contents/greedy-comprehensive-20261018/a1/proof.md",
+      "source_sha256": "665a56f1e317c03f5a353e16a4f21bbcc6a4b3c750790e99f6b4a9cfc869e50b",
+      "published_sha256": "e85bfc5204632ae88bb60107cf16d46454436a1da5726e2dad1b71685304de02",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-families-20261018/j12/proof.md",
+      "destination": "contents/greedy-families-20261018/j12/proof.md",
+      "source_sha256": "1fb4a11d23f6b3c54b7b7212482534d3537193f95f605eda9fa945dd0f0840bb",
+      "published_sha256": "4fcf21093e46eb6c5d7d4426633fd39dd209ccdf10b06620063a0eeafb0364e9",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-lower-20261018/endpoint-proof.md",
+      "destination": "contents/greedy-lower-20261018/endpoint-proof.md",
+      "source_sha256": "f0f6595541bed37f958d3042a0f1a43b29b2567f695e18f7b00fe1aee48d66c3",
+      "published_sha256": "eaa04ac1c47ec9a6401c432d07d2bfb948343eb3d2fd66ab453ea02dc3c9423d",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-lower-20261018/literature/source-check.md",
+      "destination": "contents/greedy-lower-20261018/literature/source-check.md",
+      "source_sha256": "c82f344ddd018c9f8b9a0d6a9f11954e9821b4beda0d11386f3384a8fe1374b8",
+      "published_sha256": "2d1905fe3362c330baae65b695244ec65497ff75c225f9e521588c800f7973ad",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-lower-20261018/lower/proof.md",
+      "destination": "contents/greedy-lower-20261018/lower/proof.md",
+      "source_sha256": "37869c5d0f046630877277526f7b6abdde369a672811eec017702cb2dbd82487",
+      "published_sha256": "14c686fcc0683fdf80e6301cf1dd908602a2db0d981c147bda6c385f485d890b",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-proof-audit-20261018/core-lemmas.md",
+      "destination": "contents/greedy-proof-audit-20261018/core-lemmas.md",
+      "source_sha256": "091019116e6ea16c11c634e0ca207f8f283a82555e8739bc9493e9e73f33095c",
+      "published_sha256": "55cba71a58108bdfcfa7eb715151656fd03aeb0d7fa2809c42c208bd32345a86",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Credit the Calkin–Finch continuation lineage as reported in the inspected companion paper; clarify nonpremise status.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-proof-audit-20261018/literature.md",
+      "destination": "contents/greedy-proof-audit-20261018/literature.md",
+      "source_sha256": "123f4f152826c457a2ee76ea1964765af2099f813bee61fa2b91143138b243b7",
+      "published_sha256": "851890d126b5b8a42cd85d4d46b37449c260ddaff9985ce118adf00389eb7202",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-proof-audit-20261018/lower-lemma.md",
+      "destination": "contents/greedy-proof-audit-20261018/lower-lemma.md",
+      "source_sha256": "f12f58cae1f48e3e9180e54632c33c57a10364aab6e7ae2f84fe53692c4ea36e",
+      "published_sha256": "2e9d9d5406e72698d008287b1ab18839a5ca7c4e9bd34da49ef1bdc312100619",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-proof-audit-20261018/midpoint-lemma.md",
+      "destination": "contents/greedy-proof-audit-20261018/midpoint-lemma.md",
+      "source_sha256": "35ccebbf0da2fbd96151597b9fd60643600659c5b800021021c602b4db90c83f",
+      "published_sha256": "886cb1d1cbd6579ce41dddcb7126e55cd9f15a8df03d37835ba62637c29a0324",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-proof-audit-20261018/upper-audit.md",
+      "destination": "contents/greedy-proof-audit-20261018/upper-audit.md",
+      "source_sha256": "3653a687edd574ad0ddc2ddd86a54408caff5c4307e0d5ab1ac392db39e1ccd1",
+      "published_sha256": "a8c23d1aca816ea97447ded63572b51b7dfb0a512a8e4cf77c79bc571b461377",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-unified-20261018/odd-multiple-proof.md",
+      "destination": "contents/greedy-unified-20261018/odd-multiple-proof.md",
+      "source_sha256": "f5c508d9d7562015bb998f3f6fffbb97ebddcd086e570421d49f30065b1b6627",
+      "published_sha256": "0801f18c05be85949e53092caa28fc6b14f4688ccb6badf263c8aeb5d0759b92",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-upper-20261018/compatibility.md",
+      "destination": "contents/greedy-upper-20261018/compatibility.md",
+      "source_sha256": "1416b25d62306438e705c30969f580a299d8391aeeacb156a2b6913506d12920",
+      "published_sha256": "d1bb542b1c83a8fcca42babeab51f7b5c59ade7785336d179c32bc21fce94e61",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-upper-20261018/upper1/proof.md",
+      "destination": "contents/greedy-upper-20261018/upper1/proof.md",
+      "source_sha256": "3ba64be838cf746ae7308f72fd3051cafa50fe759a001e8b7cbeeb15d5d4bc60",
+      "published_sha256": "172503818e2d957fc5d2f62f9a978cb35ff3e3b963b1193cd112bf77665d5cea",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/greedy-upper-20261018/upper2/proof.md",
+      "destination": "contents/greedy-upper-20261018/upper2/proof.md",
+      "source_sha256": "21becd61d994fe36cde9a0fd8fbf82fc98c1e13f970caf7aee6359cf042e3ffb",
+      "published_sha256": "29af494493db7f3c0a1af03cc87cc70805a29b1aeccc24dc1d24f40e8c816ad3",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    },
+    {
+      "source": "work/research-batch-20261018/sequence/source-search.md",
+      "destination": "contents/research-batch-20261018/sequence/source-search.md",
+      "source_sha256": "d41d4c376a2bb450bc76f5f71e170600ff64124686d25e22e7fd96ebcd77397e",
+      "published_sha256": "0ae6cb88f0d2fd2749eba11d873af9ab49768b15b938ce6bec71b43e8d11d20b",
+      "changes": [
+        "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
+        "Add publication-context banner; original source version remains identified."
+      ]
+    }
+  ],
+  "omitted_links": [
+    {
+      "source": "work/greedy-small-seeds-20261018/f4/tables.md",
+      "source_sha256": "7f01b25e65c091ca1b5b9cd7744881d3877eebfc6cef595f810dadffe647a230",
+      "linked_from": [
+        "work/greedy-analytic-20261018/even-multiples/f4-zero-coverage.md",
+        "work/greedy-analytic-20261018/small/f4-zero-exclusion.md"
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-20261018/even-multiples/f4_coverage_derive.py",
+      "source_sha256": "6171c70767446651150ac5441ed7b955e9cbf1ff271fa2fbd09a3d8d88f86351",
+      "linked_from": [
+        "work/greedy-analytic-20261018/even-multiples/f4-zero-coverage.md"
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-20261018/even-multiples/f4-coverage-derived.json",
+      "source_sha256": "df2ffa11f9ae0420a7ef1f748c46de8b219d3572b2e5e28749bfe88391a53857",
+      "linked_from": [
+        "work/greedy-analytic-20261018/even-multiples/f4-zero-coverage.md"
+      ]
+    },
+    {
+      "source": "work/greedy-offsets-20261018/mechanism/proof.md",
+      "source_sha256": "b25b3f18861e57b39e7edaefd34d5d41b0135c3253e143132bc04e30a4c5f880",
+      "linked_from": [
+        "work/greedy-analytic-20261018/even-multiples/proof.md"
+      ]
+    },
+    {
+      "source": "work/greedy-offsets-20261018/mechanism/boundary.md",
+      "source_sha256": "c221c79570aed0a22fc865f8312ef44a8ef901d06b87a87fb8c2fa0b26136d69",
+      "linked_from": [
+        "work/greedy-analytic-20261018/even-multiples/proof.md"
+      ]
+    },
+    {
+      "source": "work/greedy-small-seeds-20261018/f3/proof.md",
+      "source_sha256": "2d9bbbb3149ad93b312b039d6d5337780f9a91da3df345f22f61e1d723f231d6",
+      "linked_from": [
+        "work/greedy-analytic-20261018/even-multiples/small-boundaries.md",
+        "work/greedy-analytic-20261018/small/f3-one.md",
+        "work/greedy-analytic-20261018/small/f3-zero.md"
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-20261018/even-multiples/boundary_lifetimes.py",
+      "source_sha256": "fc8d3601a69776427c0f7636a2dbf1dadba69d0b117660e46334832b81586a97",
+      "linked_from": [
+        "work/greedy-analytic-20261018/even-multiples/small-boundaries.md"
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-20261018/even-multiples/boundary-lifetimes.json",
+      "source_sha256": "61f188a91f2e80a09080edadbdc2d26d55b9589225ae613bbba2cd97c1235fea",
+      "linked_from": [
+        "work/greedy-analytic-20261018/even-multiples/small-boundaries.md"
+      ]
+    },
+    {
+      "source": "work/greedy-small-seeds-20261018/f12/proof.md",
+      "source_sha256": "c9bdc76d28874c66903cca0fd99c689fc5b7fe0e09c261881abdea9d3a599d87",
+      "linked_from": [
+        "work/greedy-analytic-20261018/finite-small.md",
+        "work/greedy-analytic-20261018/small/f2-three-blocks.md",
+        "work/greedy-analytic-20261018/small/f2-two-classes.md"
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-20261018/finite_small.py",
+      "source_sha256": "d7fe599905adbec780b6b4de210a0d9f58fc1bee758d1f1a16e3dcf1977fcb0b",
+      "linked_from": [
+        "work/greedy-analytic-20261018/finite-small.md"
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-20261018/finite-small.json",
+      "source_sha256": "d644db6f4e23595d5b507bea635422867b568eb5c8e10e81415379079e0b1c9b",
+      "linked_from": [
+        "work/greedy-analytic-20261018/finite-small.md"
+      ]
+    },
+    {
+      "source": "work/greedy-upper-20261018/plateau-boundary/proof.md",
+      "source_sha256": "8ae2ee83fde4c5a96e9ae464d30f309829069f489b9e27a579b940417f778614",
+      "linked_from": [
+        "work/greedy-analytic-20261018/plateau-corner.md"
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-20261018/manuscript.md",
+      "source_sha256": "d22b8c0f15fe18083b3ebe8abb416b0ce7364b7b3244071aecdc2ff377d83f30",
+      "linked_from": [
+        "work/greedy-analytic-20261018/small-domain-extensions.md",
+        "work/greedy-analytic-audit-20261018/contribution.md"
+      ]
+    },
+    {
+      "source": "work/greedy-upper-20261018/boundary-proof.md",
+      "source_sha256": "289026f61171bfe3769dcc081e4c2cf08c961b9a503902e03a3bb48d504baef2",
+      "linked_from": [
+        "work/greedy-analytic-20261018/upper/boundary.md"
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-20261018/upper/diagnostics.py",
+      "source_sha256": "6243731f98d16fb0037b3d045e4333045de265787a60220aba4be723fefb7edf",
+      "linked_from": [
+        "work/greedy-analytic-20261018/upper/boundary.md",
+        "work/greedy-analytic-20261018/upper/rays.md"
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-20261018/upper/diagnostics.json",
+      "source_sha256": "52e07faf6b9753bf7e5d58bd73f0815eb09b952ac766acddbbaec9672f42d40e",
+      "linked_from": [
+        "work/greedy-analytic-20261018/upper/boundary.md",
+        "work/greedy-analytic-20261018/upper/rays.md"
+      ]
+    },
+    {
+      "source": "work/greedy-small-seeds-20261018/f4/finite-results.json",
+      "source_sha256": "2c5af907133eb9ae52946183469a4bbf7608766272b2f898ee705f869b3946ac",
+      "linked_from": [
+        "work/greedy-analytic-20261018/upper/f4-fixed.md"
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-20261018/upper/f4_fixed.py",
+      "source_sha256": "c08bafdb556d1bc848ce7ae2b152ffa5587cb755e5ed78ad262cf53c95b2864b",
+      "linked_from": [
+        "work/greedy-analytic-20261018/upper/f4-fixed.md"
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-20261018/upper/f4-fixed-discovery.json",
+      "source_sha256": "69bfc94a114b2722a6c81e2623841337014564d849bb71f9d13151a712467e7b",
+      "linked_from": [
+        "work/greedy-analytic-20261018/upper/f4-fixed.md"
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-20261018/upper/f4_fixed_lifetimes.py",
+      "source_sha256": "5a3d0431648506c0060ee454c12c15e9383316d1dee6a7a368ce6ee426fa0d82",
+      "linked_from": [
+        "work/greedy-analytic-20261018/upper/f4-fixed.md"
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-20261018/upper/f4-fixed-report.json",
+      "source_sha256": "4d8ce041cb5e077804ec271ca7f3691d40964a88185df78e9a6ae4dca1e09977",
+      "linked_from": [
+        "work/greedy-analytic-20261018/upper/f4-fixed.md"
+      ]
+    },
+    {
+      "source": "work/greedy-upper-20261018/ray-proof.md",
+      "source_sha256": "a6f07023c2c00ca49ce72cc652ea9bea758566aac401a31e12708131d23bfd36",
+      "linked_from": [
+        "work/greedy-analytic-20261018/upper/rays.md"
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-audit-20261018/manifest.json",
+      "source_sha256": "1d1355e180e4ab76f9a0e3613c7846a747d34d72fb1d4c535234fe466149d375",
+      "linked_from": [
+        "work/greedy-analytic-audit-20261018/assistance-and-checks.md",
+        "work/greedy-analytic-audit-20261018/contribution.md"
+      ]
+    },
+    {
+      "source": "work/greedy-analytic-audit-20261018/reproduce.ps1",
+      "source_sha256": "c0505b6393dc84352d81c1cbf1803740493e23041ad09a5ad080aedc3b16e562",
+      "linked_from": [
+        "work/greedy-analytic-audit-20261018/contribution.md"
+      ]
+    },
+    {
+      "source": "work/greedy-comprehensive-20261018/certificate-method.md",
+      "source_sha256": "adafb1a625ee1047a6825c28d8321fc15c93f29a053448a22a986ebba4179141",
+      "linked_from": [
+        "work/greedy-comprehensive-20261018/a1/proof.md"
+      ]
+    },
+    {
+      "source": "work/greedy-comprehensive-20261018/strip-lemma.md",
+      "source_sha256": "18ce507a3c83ccffe293e68890a59164b0c770b0a8ebb3995e27fb700de1bb80",
+      "linked_from": [
+        "work/greedy-comprehensive-20261018/a1/proof.md",
+        "work/greedy-proof-audit-20261018/core-lemmas.md"
+      ]
+    },
+    {
+      "source": "work/greedy-comprehensive-20261018/partition-results.json",
+      "source_sha256": "38efca0135ae127c75a004170c34121ed45974b1386fa1fea4cdf25d7b392166",
+      "linked_from": [
+        "work/greedy-comprehensive-20261018/a1/proof.md"
+      ]
+    },
+    {
+      "source": "work/greedy-families-20261018/literature/source-search.md",
+      "source_sha256": "76ce4c2b990de18be9f7bb1a1d456e4d6c8f0c90758a87392bf15d3b771521a2",
+      "linked_from": [
+        "work/greedy-lower-20261018/literature/source-check.md"
+      ]
+    },
+    {
+      "source": "work/greedy-general-20261018/literature/source-check.md",
+      "source_sha256": "a4704312f904a539137461722e7fb7befe57592e456ac03e8ad234f09228d028",
+      "linked_from": [
+        "work/greedy-lower-20261018/literature/source-check.md"
+      ]
+    },
+    {
+      "source": "work/greedy-small-seeds-20261018/common-proof.md",
+      "source_sha256": "53327affaf72468a68df3b50269ff8ec5edf0e418217363aa8b8f065e3f3e265",
+      "linked_from": [
+        "work/greedy-proof-audit-20261018/core-lemmas.md"
+      ]
+    },
+    {
+      "source": "work/greedy-small-seeds-20261018/literature.md",
+      "source_sha256": "e8766a7209a56eaa2135c09c81a2f5dcbba0c6affba6fd34a88a4e6b52a78944",
+      "linked_from": [
+        "work/greedy-proof-audit-20261018/literature.md"
+      ]
+    },
+    {
+      "source": "work/greedy-small-seeds-20261018/f4/lower.md",
+      "source_sha256": "58d05e2343e3fe1e1bc26789c90194ffadfd2450d7de6218678d09bfc7f6a4c3",
+      "linked_from": [
+        "work/greedy-proof-audit-20261018/lower-lemma.md"
+      ]
+    },
+    {
+      "source": "work/greedy-comprehensive-20261018/lower-band-template.md",
+      "source_sha256": "8d2167084b423ecd69d531009101760f9f4d9828f891f08890b1d7b56c1824fd",
+      "linked_from": [
+        "work/greedy-proof-audit-20261018/lower-lemma.md"
+      ]
+    },
+    {
+      "source": "work/greedy-offsets-20261018/anchored-tail.md",
+      "source_sha256": "a95f138d67a09313434bc167603d6cd88365561889bb519d9dd30d3746e82a12",
+      "linked_from": [
+        "work/greedy-proof-audit-20261018/lower-lemma.md"
+      ]
+    },
+    {
+      "source": "work/greedy-offsets-20261018/envelope.md",
+      "source_sha256": "e20453837a991d8071e91408103acb8d87d86d177dfada4fbe9e683c237fdfd4",
+      "linked_from": [
+        "work/greedy-proof-audit-20261018/lower-lemma.md"
+      ]
+    },
+    {
+      "source": "work/greedy-offsets-20261018/lower/proof.md",
+      "source_sha256": "0c17cafadc39e8afa475a618609932f270a3df7249609d35a7a166479e239d55",
+      "linked_from": [
+        "work/greedy-proof-audit-20261018/lower-lemma.md",
+        "work/greedy-upper-20261018/upper1/proof.md"
+      ]
+    },
+    {
+      "source": "work/greedy-proof-audit-20261018/lower-midpoint-audit.md",
+      "source_sha256": "7cace81e80f6c645baf00dc965395563ff24e980bf87dc91f3985f3dd157dee5",
+      "linked_from": [
+        "work/greedy-proof-audit-20261018/lower-lemma.md",
+        "work/greedy-proof-audit-20261018/midpoint-lemma.md"
+      ]
+    },
+    {
+      "source": "work/greedy-unified-20261018/structural/proof.md",
+      "source_sha256": "1c3e604da929494b27bda52ad1bdfd6599824a445ee1a9e0dccc9fbca71227dc",
+      "linked_from": [
+        "work/greedy-proof-audit-20261018/midpoint-lemma.md"
+      ]
+    },
+    {
+      "source": "work/greedy-small-seeds-20261018/midpoint/proof.md",
+      "source_sha256": "f2f4bbc73521349a43b00de444391d149e8c0c354d84570598246d1f460c02e7",
+      "linked_from": [
+        "work/greedy-proof-audit-20261018/midpoint-lemma.md"
+      ]
+    },
+    {
+      "source": "work/greedy-lower-20261018/even/proof.md",
+      "source_sha256": "a0eee3f1c2515f49b96db5cb5ba8a8fbe2cf368238802bd4bee495e5117964c3",
+      "linked_from": [
+        "work/greedy-proof-audit-20261018/upper-audit.md",
+        "work/greedy-upper-20261018/upper1/proof.md"
+      ]
+    },
+    {
+      "source": "work/greedy-upper-20261018/upper1/explore.py",
+      "source_sha256": "39fd1e41515a8b00543583dc66121142e19abf35f23b53951081c46a570f5c0f",
+      "linked_from": [
+        "work/greedy-upper-20261018/upper1/proof.md"
+      ]
+    },
+    {
+      "source": "work/greedy-upper-20261018/upper1/exploration.json",
+      "source_sha256": "81df4bd1d266447d3e6076465bea537e72d6b241aeedc186b47c1d5fbf619339",
+      "linked_from": [
+        "work/greedy-upper-20261018/upper1/proof.md"
+      ]
+    },
+    {
+      "source": "work/greedy-upper-20261018/upper1/diagnostics.py",
+      "source_sha256": "57cf2109a04fb2b2a7ad44ea8499d8f74377fd668cf06082a28185bbde74f6dd",
+      "linked_from": [
+        "work/greedy-upper-20261018/upper1/proof.md"
+      ]
+    },
+    {
+      "source": "work/greedy-upper-20261018/upper1/diagnostic-results.json",
+      "source_sha256": "b193355fd4452340c936fb078d86d7c4845182952ad40783a8469203439edcb3",
+      "linked_from": [
+        "work/greedy-upper-20261018/upper1/proof.md"
+      ]
+    },
+    {
+      "source": "work/greedy-upper-20261018/upper2/exploration.json",
+      "source_sha256": "47d61da8f1f35e559366d21d5e834e6166f1b05907d5037860687b234f49947a",
+      "linked_from": [
+        "work/greedy-upper-20261018/upper2/proof.md"
+      ]
+    },
+    {
+      "source": "work/greedy-upper-20261018/upper2/explore.py",
+      "source_sha256": "c30d5354d79a1435b4fd4f06534119f35c9e44c8f9b92d767158728dd65af6ad",
+      "linked_from": [
+        "work/greedy-upper-20261018/upper2/proof.md"
+      ]
+    },
+    {
+      "source": "work/greedy-upper-20261018/upper2/diagnostics.py",
+      "source_sha256": "6a85e06ca975ee758e2d1122fe7f3bbccc4a39255452e9b886724e6d7ed57630",
+      "linked_from": [
+        "work/greedy-upper-20261018/upper2/proof.md"
+      ]
+    },
+    {
+      "source": "work/greedy-upper-20261018/upper2/diagnostics.json",
+      "source_sha256": "b1d6072627b958e5898d8ee4c6ed17bff6f3c577942e6019b4461c69ed433da2",
+      "linked_from": [
+        "work/greedy-upper-20261018/upper2/proof.md"
+      ]
+    }
+  ]
+}

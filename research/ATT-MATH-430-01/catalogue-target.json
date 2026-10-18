@@ -1,0 +1,26 @@
+{
+  "repository_revision": "dbac8f582b101cbc31c1429b814c7a568d105923",
+  "candidate": {
+    "id": "Q-MATH-430",
+    "title": "Eventual periodicity in Queneau's greedy sequence",
+    "domain": "Number theory",
+    "cross_domains": [],
+    "kind": "literature_open",
+    "statement": "From a finite increasing positive-integer seed, repeatedly append the least larger integer not expressible as the sum of two distinct earlier terms. Are the successive gaps eventually periodic?",
+    "source_ids": [
+      "SRC-MATH-302"
+    ],
+    "source_locator": "Problem 7, comments on Queneau's variant.",
+    "status": "source_reports_open",
+    "status_basis": "Green's author-maintained collection, last updated December 2025, poses this target at Problem 7, comments on Queneau's variant. This separately stated greedy variant requires distinct summands; it is not the unique-representation Ulam rule. The numbered entry and local updates were inspected on 2026-10-14; the source date alone does not establish present openness.",
+    "last_checked": "2026-10-14",
+    "curator_origin": false,
+    "duplicate_key": "math:eventual-periodicity-in-queneau-s-greedy-sequence",
+    "proposed_card": false,
+    "primary_domain_id": "MATH.NUM",
+    "cross_domain_ids": [],
+    "curation_level": "B",
+    "human_review_status": "pending"
+  },
+  "attempt_scope": "Exactly two positive seeds f<g, strict sums of different actual earlier terms; no arbitrary finite-seed resolution is claimed."
+}

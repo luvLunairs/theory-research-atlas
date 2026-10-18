@@ -17,7 +17,11 @@ The atlas contributes an organized research directory: original summaries, subje
 
 ## Research findings
 
-No original research findings have been recorded. Source curation and documentation checks are not counted as solutions to the indexed problems.
+| Record | Question | Contributors | Contribution | Reported finding | Current human review scope | Machine verification and scope |
+| --- | --- | --- | --- | --- | --- | --- |
+| [ATT-MATH-430-01](attempts/ATT-MATH-430-01.md) | [Eventual periodicity in Queneau's greedy sequence](candidates/Q-MATH-430.md) | luvLunairs | Candidate answer | Complete analytic candidate for the two-seed subproblem, with a strict audit and unified interval/lifetime mechanisms. No unresolved gap was identified in contributor reading scopes. The proposed proof remains unverified independently; the arbitrary finite-seed catalogue problem is unchanged. | No review of the current result recorded | No verification recorded |
+
+A scoped acceptance does not establish novelty or all aspects of correctness. Corrections and retractions remain visible alongside the affected records.
 
 [All attempts and reviews](progress.md) include unsuccessful work and known-result reproductions. Every candidate can receive a research record; a full card is optional.
 

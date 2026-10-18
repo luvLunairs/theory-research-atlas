@@ -9,13 +9,13 @@ from catalog import records
 from machine_verification import specification_digest
 from new_record import draft_record, save_draft
 from research_records import attempt_digest
-from test_research_records import attempt_fixture
-from validate import ROOT, load_dataset, schema_check, validate_dataset
+from test_research_records import attempt_fixture, research_dataset_fixture
+from validate import ROOT, schema_check, validate_dataset
 
 
 class VerificationWorkflowTests(unittest.TestCase):
     def setUp(self):
-        self.data = load_dataset()
+        self.data = research_dataset_fixture()
         self.problem = next(c for c in self.data['candidates'] if c['curation_level'] == 'B')
         self.pid = self.problem['id']
 

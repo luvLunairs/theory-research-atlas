@@ -8,14 +8,14 @@ from new_record import draft_record, save_draft
 from render_indexes import render_indexes
 from render_records import render_records
 from research_records import attempt_digest, current_attempt_reviews, statement_digest
-from test_research_records import artifact_fixture, attempt_fixture
-from validate import ROOT, load_dataset, read_records, schema_check, validate_dataset
+from test_research_records import artifact_fixture, attempt_fixture, research_dataset_fixture
+from validate import ROOT, read_records, schema_check, validate_dataset
 
 
 class RecordWorkflowTests(unittest.TestCase):
     def setUp(self):
         (ROOT / 'work').mkdir(exist_ok=True)
-        self.data = load_dataset()
+        self.data = research_dataset_fixture()
         self.candidate = next(c for c in self.data['candidates'] if c['curation_level'] == 'B')
         self.attempt = attempt_fixture(self.candidate['id'])
         self.data['attempts'] = [self.attempt]
