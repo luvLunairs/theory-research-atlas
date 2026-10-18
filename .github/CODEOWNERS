@@ -13,6 +13,10 @@
 /docs/review-guide.md @luvLunairs
 /CITATION.cff @luvLunairs
 /data/project.json @luvLunairs
+/data/attempts/ @luvLunairs
+/data/reviews/ @luvLunairs
+/data/candidates.json @luvLunairs
+/data/cards/ @luvLunairs
 /data/verification-specs/ @luvLunairs
 /data/verifications/ @luvLunairs
 /docs/machine-verification.md @luvLunairs

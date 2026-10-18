@@ -22,7 +22,7 @@ Founded and maintained by [@luvLunairs](https://github.com/luvLunairs), the atla
 
 The atlas covers **16 main domains and 113 subjects and subfields**, with **371 source records, 544 candidate problems and 34 detailed cards**. Cards extend existing candidates; they are not extra problems. Entries distinguish literature claims of openness, unresolved status checks, known results and curator proposals. A source-directory link does not mean every problem in that source has been indexed.
 
-**No research attempts or model evaluations have been run by this project yet.**
+See [research progress](docs/progress.md) and [findings and attempts](docs/results.md) for current activity, evidence and review status. Model evaluations are tracked separately from ordinary research attempts.
 
 ## Evidence and reuse
 
