@@ -2,7 +2,7 @@
 
 [Browse](README.md) · [Results](results.md) · [Contribute](../CONTRIBUTING.md)
 
-**Collection updated: 2026-10-17.** 16 domains, 113 nodes, 371 source records, 544 candidates and 34 full cards. These counts do not estimate the fraction of science covered.
+**Collection updated: 2026-10-18.** 16 domains, 113 nodes, 371 source records, 544 candidates and 34 full cards. These counts do not estimate the fraction of science covered.
 
 Research sources are directly mapped to the selected node or its descendants; ancestor mappings are not inherited. Cards are included in candidate counts. Cross-linked tasks keep one primary record. Source counts include separately cited versions and cannot be summed across domains. Each source and question retains its own inspection date.
 

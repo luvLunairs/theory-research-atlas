@@ -1,0 +1,71 @@
+{
+  "fixed": [
+    {
+      "g": 24,
+      "m": 67,
+      "supported_residues": 23,
+      "exclusion_pairs": 42,
+      "coverage_witnesses": 50,
+      "all_integer_lifetimes": "exact identities matched"
+    },
+    {
+      "g": 32,
+      "m": 91,
+      "supported_residues": 33,
+      "exclusion_pairs": 106,
+      "coverage_witnesses": 71,
+      "all_integer_lifetimes": "exact identities matched"
+    },
+    {
+      "g": 40,
+      "m": 115,
+      "supported_residues": 43,
+      "exclusion_pairs": 205,
+      "coverage_witnesses": 87,
+      "all_integer_lifetimes": "exact identities matched"
+    }
+  ],
+  "uniform_coverage": {
+    "gap_rows": 103,
+    "pair_identities": 172,
+    "strict_self_pairs": 3,
+    "parameter_domain": "every integer k>=6 by affine coefficient inequalities",
+    "block_domain": "n=0..6 and every n>=7"
+  },
+  "uniform_exclusion": {
+    "domain": "all integers k>=6, exact solutions of affine collision inequalities",
+    "H_plus_R_intersections_tested": 208,
+    "transient_input_intersections_tested": 2942,
+    "possible_selected_collisions": [],
+    "failed_extension_k5": {
+      "m": 161,
+      "distinct_inputs": [
+        1006,
+        1167
+      ],
+      "selected_sum": 2173
+    }
+  },
+  "compressed_anchor": {
+    "gap_rows": 13,
+    "pair_identities": 22,
+    "domain": "k>=6, independent 2<=a<=5, 2<=b<=3, 2<=d<=5; exact linear inequalities",
+    "scope": "literal sum identities and gap joins; candidate interfaces checked in written proof"
+  },
+  "old_code_imported_or_executed": false,
+  "new_greedy_scan": false,
+  "independent_verification": false,
+  "formal_verification": false,
+  "python": "3.12.14",
+  "hashes": {
+    "greedy-analytic-20261018\\upper\\f4-fixed.md": "8ed17855451e3c9f828111f4dc4cbef439730f50a4d873f64494a3d49daf1c30",
+    "greedy-analytic-20261018\\upper\\f4-fixed-tables.md": "cb663dce7dae696006e4188d3222530d1d5863397c256d72fba9da40d4a32b55",
+    "greedy-analytic-20261018\\small\\f4-zero-exclusion.md": "4237e9a50d8e498c8c678c1754ba2b417d9fb8b934ca8ed98155efb6b6b60ce1",
+    "greedy-analytic-20261018\\even-multiples\\f4-zero-coverage.md": "82b8777b1b66df1a27ed6836b900ca23388907b669e0269d9907da95cb87cd82",
+    "greedy-analytic-20261018\\even-multiples\\f4-coverage-tables.md": "3fdfa6bcb2586fc8ac621889eab0fb1de562f6354a1fcaa9e89dfae09e37cf33",
+    "greedy-analytic-audit-20261018\\four\\anchor-compression.md": "87c375c2a856c6819750417eb3ec0d15800e82f5e825014663618792fc181341"
+  },
+  "code_sha256": "fa1760cdaa7074eab830567ddff21c48c81589fe5f7c0def9dd9ae3a15bc7a48",
+  "cpu_seconds": 0.015625,
+  "wall_seconds": 0.013689500003238209
+}

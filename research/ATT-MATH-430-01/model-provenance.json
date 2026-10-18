@@ -1,0 +1,113 @@
+{
+  "recorded_at": "2026-10-18T17:27:33.548549+00:00",
+  "source": "Service-generated local Codex session_meta and turn_context metadata, selected fields only",
+  "contributors": [
+    {
+      "role": "/root",
+      "provider": "openai",
+      "configurations": [
+        {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "observed_turns": 26,
+          "first_observed_at": "2026-10-18T08:43:27.086Z",
+          "last_observed_at": "2026-10-18T17:15:33.548Z"
+        }
+      ],
+      "build_version": null,
+      "sampling_parameters": null
+    },
+    {
+      "role": "/root/select_combinatorics",
+      "provider": "openai",
+      "configurations": [
+        {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "observed_turns": 2,
+          "first_observed_at": "2026-10-18T08:44:00.307Z",
+          "last_observed_at": "2026-10-18T08:44:04.129Z"
+        }
+      ],
+      "build_version": null,
+      "sampling_parameters": null
+    },
+    {
+      "role": "/root/select_finite",
+      "provider": "openai",
+      "configurations": [
+        {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "observed_turns": 3,
+          "first_observed_at": "2026-10-18T08:44:07.795Z",
+          "last_observed_at": "2026-10-18T08:52:37.127Z"
+        }
+      ],
+      "build_version": null,
+      "sampling_parameters": null
+    },
+    {
+      "role": "/root/select_formal",
+      "provider": "openai",
+      "configurations": [
+        {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "observed_turns": 3,
+          "first_observed_at": "2026-10-18T08:44:18.901Z",
+          "last_observed_at": "2026-10-18T08:52:31.170Z"
+        }
+      ],
+      "build_version": null,
+      "sampling_parameters": null
+    },
+    {
+      "role": "/root/sequence_j12",
+      "provider": "openai",
+      "configurations": [
+        {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "observed_turns": 29,
+          "first_observed_at": "2026-10-18T09:03:28.867Z",
+          "last_observed_at": "2026-10-18T17:16:29.968Z"
+        }
+      ],
+      "build_version": null,
+      "sampling_parameters": null
+    },
+    {
+      "role": "/root/sequence_j3",
+      "provider": "openai",
+      "configurations": [
+        {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "observed_turns": 27,
+          "first_observed_at": "2026-10-18T09:03:36.466Z",
+          "last_observed_at": "2026-10-18T16:53:43.032Z"
+        }
+      ],
+      "build_version": null,
+      "sampling_parameters": null
+    },
+    {
+      "role": "/root/sequence_literature",
+      "provider": "openai",
+      "configurations": [
+        {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "observed_turns": 41,
+          "first_observed_at": "2026-10-18T09:03:18.118Z",
+          "last_observed_at": "2026-10-18T17:17:58.081Z"
+        }
+      ],
+      "build_version": null,
+      "sampling_parameters": null
+    }
+  ],
+  "excluded": "Raw conversations, private reasoning, account identifiers, session IDs, local paths and automatic permission-review infrastructure",
+  "limits": "This sanitized extraction records the inspected service fields. The publication replay does not authenticate service metadata or model capabilities. Undisclosed build and sampling details remain unknown."
+}

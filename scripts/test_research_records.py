@@ -8,6 +8,16 @@ from render_cards import render_cards
 from research_records import statement_digest, attempt_digest, current_attempt_reviews
 
 
+def research_dataset_fixture():
+    data = copy.deepcopy(load_dataset())
+    # Isolate synthetic lifecycles from real records and their run counts.
+    for key in ('attempts', 'reviews', 'verification_specs', 'verifications'):
+        data[key] = []
+    data['project']['research_attempts_run'] = 0
+    data['project']['model_evaluations_run'] = 0
+    return data
+
+
 def artifact_fixture():
     return {'reference': 'README.md', 'version': 'Synthetic fixture using the current README bytes.',
             'sha256': 'sha256:' + hashlib.sha256((ROOT / 'README.md').read_bytes()).hexdigest()}
@@ -38,7 +48,7 @@ def attempt_fixture(pid):
 
 class ResearchRecordTests(unittest.TestCase):
     def setUp(self):
-        self.data = copy.deepcopy(load_dataset())
+        self.data = research_dataset_fixture()
         self.card = self.data['cards'][0]
         self.attempt = attempt_fixture(self.card['id'])
         self.data['attempts'] = [self.attempt]

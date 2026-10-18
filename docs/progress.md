@@ -4,9 +4,15 @@
 
 This page follows research recorded in the atlas. Results from the literature remain credited in the problem cards; they are not results produced by this project.
 
-**Recorded attempts: 0 · Recorded reviews: 0.**
+**Recorded attempts: 1 · Recorded reviews: 0.**
 
-No research attempts or reviews have been recorded. The [collection and editorial contributions](results.md) are available to explore. There are no problem-solving results or measured model-performance figures to report.
+## Attempts
+
+| Problem | Attempt | Execution status | Reported outcome | Machine verification and scope |
+| --- | --- | --- | --- | --- |
+| [Eventual periodicity in Queneau's greedy sequence](candidates/Q-MATH-430.md) | [ATT-MATH-430-01](attempts/ATT-MATH-430-01.md) | Completed | Complete analytic candidate for the two-seed subproblem, with a strict audit and unified interval/lifetime mechanisms. No unresolved gap was identified in contributor reading scopes. The proposed proof remains unverified independently; the arbitrary finite-seed catalogue problem is unchanged. | No verification recorded |
+
+Execution status does not establish correctness. Follow each record for artifacts, limitations and review scope.
 
 ## Contribute a research record
 

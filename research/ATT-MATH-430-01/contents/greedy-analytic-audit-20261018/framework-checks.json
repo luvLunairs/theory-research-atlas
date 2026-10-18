@@ -1,0 +1,56 @@
+{
+  "outcome": "pass",
+  "scope": "Finite adversarial checks of written general identities; not universal proof",
+  "results": {
+    "mixed_interval_cases": 484,
+    "cylinder_cases": 16056,
+    "rectangle_cases": 280,
+    "retained_refutations": {
+      "unguarded_empty_residue_interval": {
+        "m": 3,
+        "A": [
+          0,
+          1
+        ],
+        "I": [
+          1,
+          0
+        ],
+        "actual": [],
+        "false_output": [
+          3,
+          5
+        ]
+      },
+      "singleton_interior_diagonal": {
+        "I": [
+          2,
+          2
+        ],
+        "J": [
+          1,
+          3
+        ],
+        "strict_sum": [
+          3,
+          5
+        ]
+      },
+      "invalid_f4_formula_at_k5": {
+        "m": 161,
+        "x": 1006,
+        "y": 1167,
+        "z": 2173
+      }
+    }
+  },
+  "python": "3.12.14",
+  "hashes": {
+    "framework.md": "194b05937267a6a90c6b680fc1b17cdd7be3c129d8c2e4bf2fae74bba877a4b4",
+    "framework_checks.py": "8f95c8b57d813c8daa47ad2396fd6e3c823927b49bdbf7d7e8b0a3414427d192"
+  },
+  "independent_verification": false,
+  "formal_verification": false,
+  "process_cpu_seconds": 0.046875,
+  "wall_seconds": 0.046340900007635355
+}

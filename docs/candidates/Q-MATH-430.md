@@ -44,6 +44,10 @@ From a finite increasing positive-integer seed, repeatedly append the least larg
 
 **Further work:** define a scoped target, resource requirements and a verification plan before developing a full card. **Human review:** Pending.
 
+## Research records
+
+- [ATT-MATH-430-01](../attempts/ATT-MATH-430-01.md) — Completed. Complete analytic candidate for the two-seed subproblem, with a strict audit and unified interval/lifetime mechanisms. No unresolved gap was identified in contributor reading scopes. The proposed proof remains unverified independently; the arbitrary finite-seed catalogue problem is unchanged.
+
 ## Literature checks
 
 These are editorial evidence checks, not signed expert reviews or independent proof verification.

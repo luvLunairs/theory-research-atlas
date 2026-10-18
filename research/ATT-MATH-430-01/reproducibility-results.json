@@ -1,0 +1,310 @@
+{
+  "version": "2026-10-18-portable-analytic-replay-v1",
+  "status": "passed",
+  "results": {
+    "framework": {
+      "mixed_interval_cases": 484,
+      "cylinder_cases": 16056,
+      "rectangle_cases": 280,
+      "retained_refutations": {
+        "unguarded_empty_residue_interval": {
+          "m": 3,
+          "A": [
+            0,
+            1
+          ],
+          "I": [
+            1,
+            0
+          ],
+          "actual": [],
+          "false_output": [
+            3,
+            5
+          ]
+        },
+        "singleton_interior_diagonal": {
+          "I": [
+            2,
+            2
+          ],
+          "J": [
+            1,
+            3
+          ],
+          "strict_sum": [
+            3,
+            5
+          ]
+        },
+        "invalid_f4_formula_at_k5": {
+          "m": 161,
+          "x": 1006,
+          "y": 1167,
+          "z": 2173
+        }
+      }
+    },
+    "small": {
+      "cases": [
+        {
+          "g": 12,
+          "m": 16,
+          "residues": 16,
+          "selected_residues": 7,
+          "matrix_cells": 6,
+          "nonempty_pair_lifetimes": 26,
+          "exceptional_pairs_to_core": 2,
+          "pairs_to_exceptional_targets": 4,
+          "ray_witnesses": 9,
+          "early_repairs": 1,
+          "failed_refutation_using_forbidden_diagonals": [
+            {
+              "summand_residue": 12,
+              "target_residue": 8,
+              "first_false_target_block": 1
+            },
+            {
+              "summand_residue": 12,
+              "target_residue": 8,
+              "first_false_target_block": 3
+            },
+            {
+              "summand_residue": 14,
+              "target_residue": 12,
+              "first_false_target_block": 1
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "g": 18,
+          "m": 122,
+          "residues": 122,
+          "selected_residues": 33,
+          "matrix_cells": 238,
+          "nonempty_pair_lifetimes": 554,
+          "exceptional_pairs_to_core": 7,
+          "pairs_to_exceptional_targets": 30,
+          "ray_witnesses": 89,
+          "early_repairs": 1,
+          "failed_refutation_using_forbidden_diagonals": [
+            {
+              "summand_residue": 18,
+              "target_residue": 36,
+              "first_false_target_block": 0
+            },
+            {
+              "summand_residue": 20,
+              "target_residue": 40,
+              "first_false_target_block": 0
+            },
+            {
+              "summand_residue": 40,
+              "target_residue": 80,
+              "first_false_target_block": 0
+            },
+            {
+              "summand_residue": 41,
+              "target_residue": 82,
+              "first_false_target_block": 0
+            }
+          ],
+          "status": "passed"
+        },
+        {
+          "g": 24,
+          "m": 96,
+          "residues": 96,
+          "selected_residues": 33,
+          "matrix_cells": 272,
+          "nonempty_pair_lifetimes": 553,
+          "exceptional_pairs_to_core": 18,
+          "pairs_to_exceptional_targets": 54,
+          "ray_witnesses": 63,
+          "early_repairs": 9,
+          "failed_refutation_using_forbidden_diagonals": [
+            {
+              "summand_residue": 24,
+              "target_residue": 48,
+              "first_false_target_block": 0
+            },
+            {
+              "summand_residue": 26,
+              "target_residue": 52,
+              "first_false_target_block": 0
+            },
+            {
+              "summand_residue": 52,
+              "target_residue": 8,
+              "first_false_target_block": 1
+            },
+            {
+              "summand_residue": 53,
+              "target_residue": 10,
+              "first_false_target_block": 1
+            }
+          ],
+          "status": "passed"
+        }
+      ],
+      "finite_first_seed_two": [
+        {
+          "g": 11,
+          "m": 31,
+          "triangular_rows": 9,
+          "mixed_rows": 2,
+          "initial_witnesses": 11,
+          "all_block_witnesses": 22,
+          "status": "passed"
+        },
+        {
+          "g": 12,
+          "m": 33,
+          "triangular_rows": 9,
+          "mixed_rows": 2,
+          "initial_witnesses": 12,
+          "all_block_witnesses": 24,
+          "status": "passed"
+        }
+      ]
+    },
+    "four": {
+      "fixed": [
+        {
+          "g": 24,
+          "m": 67,
+          "supported_residues": 23,
+          "exclusion_pairs": 42,
+          "coverage_witnesses": 50,
+          "all_integer_lifetimes": "exact identities matched"
+        },
+        {
+          "g": 32,
+          "m": 91,
+          "supported_residues": 33,
+          "exclusion_pairs": 106,
+          "coverage_witnesses": 71,
+          "all_integer_lifetimes": "exact identities matched"
+        },
+        {
+          "g": 40,
+          "m": 115,
+          "supported_residues": 43,
+          "exclusion_pairs": 205,
+          "coverage_witnesses": 87,
+          "all_integer_lifetimes": "exact identities matched"
+        }
+      ],
+      "uniform_coverage": {
+        "gap_rows": 103,
+        "pair_identities": 172,
+        "strict_self_pairs": 3,
+        "parameter_domain": "every integer k>=6 by affine coefficient inequalities",
+        "block_domain": "n=0..6 and every n>=7"
+      },
+      "uniform_exclusion": {
+        "domain": "all integers k>=6, exact solutions of affine collision inequalities",
+        "H_plus_R_intersections_tested": 208,
+        "transient_input_intersections_tested": 2942,
+        "possible_selected_collisions": [],
+        "failed_extension_k5": {
+          "m": 161,
+          "distinct_inputs": [
+            1006,
+            1167
+          ],
+          "selected_sum": 2173
+        }
+      },
+      "compressed_anchor": {
+        "gap_rows": 13,
+        "pair_identities": 22,
+        "domain": "k>=6, independent 2<=a<=5, 2<=b<=3, 2<=d<=5; exact linear inequalities",
+        "scope": "literal sum identities and gap joins; candidate interfaces checked in written proof"
+      }
+    }
+  },
+  "source_bindings": {
+    "work/greedy-analytic-20261018/even-multiples/boundary-arithmetic-tables.md": {
+      "destination": "contents/greedy-analytic-20261018/even-multiples/boundary-arithmetic-tables.md",
+      "source_sha256": "fb98bc5a1fb8ed51adfceb495b58b17439ac11f00b8b23e152acc4d258180a39",
+      "published_sha256": "032531ecb84571372ff7c9fa001b3f9ed03bfd9935b8d863d397f2d67a84dfb0"
+    },
+    "work/greedy-analytic-20261018/even-multiples/boundary-lifetime-tables.md": {
+      "destination": "contents/greedy-analytic-20261018/even-multiples/boundary-lifetime-tables.md",
+      "source_sha256": "fd63bc4147c25f74652d1eeb0f3fb55f6b8d576c1ab3586fddf68bf811cfea3e",
+      "published_sha256": "bd34c950818dded43059007bc80b59bb5a40f7a75991af3824b596820b6fb5e4"
+    },
+    "work/greedy-analytic-20261018/even-multiples/f4-coverage-tables.md": {
+      "destination": "contents/greedy-analytic-20261018/even-multiples/f4-coverage-tables.md",
+      "source_sha256": "3fdfa6bcb2586fc8ac621889eab0fb1de562f6354a1fcaa9e89dfae09e37cf33",
+      "published_sha256": "f11715653f215b86a79ba591bbcf0ac7102b52d438fbc3e9525b735ebe14c106"
+    },
+    "work/greedy-analytic-20261018/even-multiples/f4-zero-coverage.md": {
+      "destination": "contents/greedy-analytic-20261018/even-multiples/f4-zero-coverage.md",
+      "source_sha256": "82b8777b1b66df1a27ed6836b900ca23388907b669e0269d9907da95cb87cd82",
+      "published_sha256": "1a56e47a85da807157f61ebce8b59fd16efd10418cec3a9bdeabcad9d1fe0a42"
+    },
+    "work/greedy-analytic-20261018/finite-small.md": {
+      "destination": "contents/greedy-analytic-20261018/finite-small.md",
+      "source_sha256": "1b44f75e8d6e3f188562eb9aa3e096a19b58fa5714c0e775b3be7123ad81e1ea",
+      "published_sha256": "6c5e0fd5032f543c446784c37a90ad9b917ef51adb2a08795b1bbb205ac8337f"
+    },
+    "work/greedy-analytic-20261018/small/f4-zero-exclusion.md": {
+      "destination": "contents/greedy-analytic-20261018/small/f4-zero-exclusion.md",
+      "source_sha256": "4237e9a50d8e498c8c678c1754ba2b417d9fb8b934ca8ed98155efb6b6b60ce1",
+      "published_sha256": "a1476c4d6e56f8e64c702728fbfbe12b553b8522a563a2f269f10e7674672e22"
+    },
+    "work/greedy-analytic-20261018/upper/f4-fixed-tables.md": {
+      "destination": "contents/greedy-analytic-20261018/upper/f4-fixed-tables.md",
+      "source_sha256": "cb663dce7dae696006e4188d3222530d1d5863397c256d72fba9da40d4a32b55",
+      "published_sha256": "3a3dfe043a6b44b6fa58ff5f2f7df5780f56166c7b38753b88e95a31ebdece91"
+    },
+    "work/greedy-analytic-20261018/upper/f4-fixed.md": {
+      "destination": "contents/greedy-analytic-20261018/upper/f4-fixed.md",
+      "source_sha256": "8ed17855451e3c9f828111f4dc4cbef439730f50a4d873f64494a3d49daf1c30",
+      "published_sha256": "bdaef14a21f960be589b03407dae5ed73bc01cf0561792c32d82f1f3f2166734"
+    },
+    "work/greedy-analytic-audit-20261018/four/anchor-compression.md": {
+      "destination": "contents/greedy-analytic-audit-20261018/four/anchor-compression.md",
+      "source_sha256": "87c375c2a856c6819750417eb3ec0d15800e82f5e825014663618792fc181341",
+      "published_sha256": "d4d066912ca18b1e6d687f42478f5701c62c3d63a8df79817a71487da9f4c1c9"
+    },
+    "work/greedy-analytic-audit-20261018/four/check_printed.py": {
+      "destination": "contents/greedy-analytic-audit-20261018/four/check_printed.py",
+      "source_sha256": "fa1760cdaa7074eab830567ddff21c48c81589fe5f7c0def9dd9ae3a15bc7a48",
+      "published_sha256": "fa1760cdaa7074eab830567ddff21c48c81589fe5f7c0def9dd9ae3a15bc7a48"
+    },
+    "work/greedy-analytic-audit-20261018/framework.md": {
+      "destination": "contents/greedy-analytic-audit-20261018/framework.md",
+      "source_sha256": "194b05937267a6a90c6b680fc1b17cdd7be3c129d8c2e4bf2fae74bba877a4b4",
+      "published_sha256": "8f1c3eb77827f4dd587e3c027008f1aba124895f1ac5f45ec76edd7f490e4d26"
+    },
+    "work/greedy-analytic-audit-20261018/framework_checks.py": {
+      "destination": "contents/greedy-analytic-audit-20261018/framework_checks.py",
+      "source_sha256": "8f95c8b57d813c8daa47ad2396fd6e3c823927b49bdbf7d7e8b0a3414427d192",
+      "published_sha256": "8f95c8b57d813c8daa47ad2396fd6e3c823927b49bdbf7d7e8b0a3414427d192"
+    },
+    "work/greedy-analytic-audit-20261018/small/printed_audit.py": {
+      "destination": "contents/greedy-analytic-audit-20261018/small/printed_audit.py",
+      "source_sha256": "8dfcb098562c01ad86e404f27debca8aa00b2b7c587b488b65e2ff6f58d6e84f",
+      "published_sha256": "8dfcb098562c01ad86e404f27debca8aa00b2b7c587b488b65e2ff6f58d6e84f"
+    }
+  },
+  "source_map_sha256": "7d0ebe07419f3adf11befba522fb4fa1ff0cc84a0fbbf32e84aef230e2f35ea8",
+  "replay_sha256": "63539b369c00f625d7e053f88b6f98757e6cc59701350a0b3c2acc55d4b7b82e",
+  "independent_verification": false,
+  "formal_verification": false,
+  "new_greedy_scan": false,
+  "limits": "Same-team contributor replay of retained arithmetic and finite framework probes. Does not establish the whole proof, novelty, scientific acceptance, source authenticity, or human review.",
+  "runtime": {
+    "python": "3.12.14",
+    "implementation": "CPython",
+    "optimization": 0
+  },
+  "measurements": {
+    "process_cpu_seconds": 0.203125,
+    "wall_seconds": 0.2186651000083657
+  }
+}

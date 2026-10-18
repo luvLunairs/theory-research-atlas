@@ -1,0 +1,969 @@
+{
+  "id": "ATT-MATH-430-01",
+  "problem_id": "Q-MATH-430",
+  "statement_version": "Q-MATH-430 at repository revision dbac8f582b101cbc31c1429b814c7a568d105923; exact snapshot retained in research/ATT-MATH-430-01/catalogue-target.json",
+  "target": "For every pair of positive integers f<g, the greedy sequence starting with exactly f,g and excluding sums of two different actual earlier selected integers has an eventually periodic characteristic function, hence eventually periodic successive gaps.",
+  "assumptions": [
+    "Exactly two positive initial integers f<g; integers below g other than the seeds are skipped.",
+    "A representation requires two different actual selected integers; equal residues in different periods may be valid.",
+    "Only eventual periodicity is claimed, not minimal periods, optimal transients or arbitrary finite seed sets."
+  ],
+  "success_criteria": [
+    "Supply a logically complete written argument for every positive pair f<g, with exact parameter coverage, initial conditions and strict distinctness.",
+    "Retain counterexamples to failed extensions and reproducible arithmetic without treating finite scans as a universal proof."
+  ],
+  "verification_plan": [
+    "Independent mathematical examination of the full candidate manuscript and necessary appendices remains pending.",
+    "Replay the retained printed arithmetic using the portable runner with assertions enabled.",
+    "Recheck known-result attribution and the distinction from the broader arbitrary-seed catalogue problem."
+  ],
+  "requirements": {
+    "experiment": "No physical experiment.",
+    "data": "The cited primary papers, selected proof appendices and retained exact arithmetic tables; no external dataset is required.",
+    "compute": "Python 3.10 or later, standard library. Recorded runs used Python 3.12.14. No paid run or expanded greedy census is required for the analytic audit."
+  },
+  "purpose": "research",
+  "contributors": [
+    {
+      "name": "luvLunairs",
+      "roles": [
+        "Research direction",
+        "Preliminary human reading reported by the maintainer, scope unspecified",
+        "Publication authorization and configuration recognition"
+      ]
+    }
+  ],
+  "model": {
+    "provider": "OpenAI",
+    "name": "gpt-6-astra",
+    "version": null,
+    "capabilities": [
+      "Tool-assisted mathematical derivation and source inspection",
+      "Proof/code drafting and same-team checking; parent plus six research workers"
+    ]
+  },
+  "started_at": "2026-10-18T08:43:27.086Z",
+  "ended_at": "2026-10-18T17:34:05.104410+00:00",
+  "status": "completed",
+  "environment": {
+    "os": "Windows; PowerShell",
+    "tools": [
+      "OpenAI Codex (effort=ultra)",
+      "Python standard library",
+      "Git",
+      "Connected GitHub tools",
+      "Web source retrieval",
+      "Repository validation/render scripts"
+    ],
+    "versions": [
+      "Python 3.12.14",
+      "Service model identifier gpt-6-astra; effort ultra; undisclosed build version unknown"
+    ],
+    "code_revision": "dbac8f582b101cbc31c1429b814c7a568d105923",
+    "seeds": []
+  },
+  "input_artifacts": [
+    "research/ATT-MATH-430-01/catalogue-target.json",
+    "https://arxiv.org/html/2609.18522v1",
+    "https://arxiv.org/html/2609.16843v1"
+  ],
+  "process_artifacts": [
+    "research/ATT-MATH-430-01/assistance-and-checks.md",
+    "research/ATT-MATH-430-01/bibliography.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/even-multiples/a1-first-seed-four.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/even-multiples/boundary-arithmetic-tables.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/even-multiples/boundary-lifetime-tables.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/even-multiples/f4-coverage-tables.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/even-multiples/f4-zero-coverage.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/even-multiples/proof.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/even-multiples/small-boundaries.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/finite-small.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/lifetime-lemma.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/literature.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/plateau-corner.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/small/f2-three-blocks.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/small/f2-two-classes.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/small/f3-one.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/small/f3-zero.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/small/f4-zero-exclusion.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/small-domain-extensions.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/upper/boundary.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/upper/f4-fixed-tables.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/upper/f4-fixed.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/upper/rays.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/assistance-and-checks.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/contribution.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/errata.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/findings.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/four/anchor-compression.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/four/audit.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/four/check_printed.py",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/four/printed-results.json",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/framework-checks.json",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/framework.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/framework_checks.py",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/known-small-boundaries.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/large/audit.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/large/lemmas.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/literature.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/root-audit.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/small/audit.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/small/f3-zero-tail.md",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/small/printed-results.json",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/small/printed_audit.py",
+    "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/target.md",
+    "research/ATT-MATH-430-01/contents/greedy-comprehensive-20261018/a1/boundary.md",
+    "research/ATT-MATH-430-01/contents/greedy-comprehensive-20261018/a1/proof.md",
+    "research/ATT-MATH-430-01/contents/greedy-families-20261018/j12/proof.md",
+    "research/ATT-MATH-430-01/contents/greedy-lower-20261018/endpoint-proof.md",
+    "research/ATT-MATH-430-01/contents/greedy-lower-20261018/literature/source-check.md",
+    "research/ATT-MATH-430-01/contents/greedy-lower-20261018/lower/proof.md",
+    "research/ATT-MATH-430-01/contents/greedy-proof-audit-20261018/core-lemmas.md",
+    "research/ATT-MATH-430-01/contents/greedy-proof-audit-20261018/literature.md",
+    "research/ATT-MATH-430-01/contents/greedy-proof-audit-20261018/lower-lemma.md",
+    "research/ATT-MATH-430-01/contents/greedy-proof-audit-20261018/midpoint-lemma.md",
+    "research/ATT-MATH-430-01/contents/greedy-proof-audit-20261018/upper-audit.md",
+    "research/ATT-MATH-430-01/contents/greedy-unified-20261018/odd-multiple-proof.md",
+    "research/ATT-MATH-430-01/contents/greedy-upper-20261018/compatibility.md",
+    "research/ATT-MATH-430-01/contents/greedy-upper-20261018/upper1/proof.md",
+    "research/ATT-MATH-430-01/contents/greedy-upper-20261018/upper2/proof.md",
+    "research/ATT-MATH-430-01/contents/research-batch-20261018/sequence/source-search.md",
+    "research/ATT-MATH-430-01/lineage.md",
+    "research/ATT-MATH-430-01/manifest.json",
+    "research/ATT-MATH-430-01/model-provenance.json",
+    "research/ATT-MATH-430-01/README.md",
+    "research/ATT-MATH-430-01/replay.py",
+    "research/ATT-MATH-430-01/reproducibility-results.json",
+    "research/ATT-MATH-430-01/reproduction.md",
+    "research/ATT-MATH-430-01/source-map.json",
+    "research/ATT-MATH-430-01/submission-authorization.md",
+    "research/ATT-MATH-430-01/submission-checks.md",
+    "research/ATT-MATH-430-01-screening/2026-10-18.md"
+  ],
+  "candidate_answer_artifacts": [
+    "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/manuscript.md"
+  ],
+  "artifact_manifest": [
+    {
+      "reference": "research/ATT-MATH-430-01/assistance-and-checks.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:aac160f7a200ccd0ec67b343c90863625d24a0746c4c57528009dadb9ab897f9"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/bibliography.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:c7f3b3722adbf2a1a4002cd0ea479560ab879f21a09bbb8a3b9efbe6708b00be"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/catalogue-target.json",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:277a9d33db55da3cb8f3de61ef2f999a51cce51efa938df72386e1e8d4da243b"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/even-multiples/a1-first-seed-four.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:5d1c710edbe18782ffe071ebe7232620ca5806568f59540bb553d80b5cba96b1"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/even-multiples/boundary-arithmetic-tables.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:032531ecb84571372ff7c9fa001b3f9ed03bfd9935b8d863d397f2d67a84dfb0"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/even-multiples/boundary-lifetime-tables.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:bd34c950818dded43059007bc80b59bb5a40f7a75991af3824b596820b6fb5e4"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/even-multiples/f4-coverage-tables.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:f11715653f215b86a79ba591bbcf0ac7102b52d438fbc3e9525b735ebe14c106"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/even-multiples/f4-zero-coverage.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:1a56e47a85da807157f61ebce8b59fd16efd10418cec3a9bdeabcad9d1fe0a42"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/even-multiples/proof.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:125d85b085f36f87e8b94a6f0cea2ae8a5d1502baadc25ac9525b8ea406ba42e"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/even-multiples/small-boundaries.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:80afe9bb1518fdcfcb896a9acb4cd93e073a9e5a965922c287c5baf455410871"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/finite-small.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:6c5e0fd5032f543c446784c37a90ad9b917ef51adb2a08795b1bbb205ac8337f"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/lifetime-lemma.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:02f65fe66b1914b4e373835ec753bb3ce180a246aeb5a2a86814a53b598bcb79"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/literature.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:e3186d44abdcaf1d7b0a745464855e548756930da17268a8c212edc73dff7c3b"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/plateau-corner.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:2c52f953af4439550644fccad701e0a6e1dd141565d2ef12731eee22f7f8b07f"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/small/f2-three-blocks.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:ea4ad837369941372a8e1e93e70206aa122ccbff1df1303b27273ea9b0a30afb"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/small/f2-two-classes.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:f9996ea35a167c96b41572450b8695961a4164a81b4ae8f9527d2cc597b029bc"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/small/f3-one.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:6ab8c834b35e4a4e5949caf111baf4288ad6212855df1cfdec3e522695c3ce88"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/small/f3-zero.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:1ce7d5aa6a194e612f7b3d6d17cd6345765b5f8b1e68b49fecade06a45ba5a7b"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/small/f4-zero-exclusion.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:a1476c4d6e56f8e64c702728fbfbe12b553b8522a563a2f269f10e7674672e22"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/small-domain-extensions.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:a2ec0ac1acba7d86d6d0dee6988d47a34ff6dbdd93bfbfa595286aa41a82c8ed"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/upper/boundary.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:4b3dcb40bd6dc0e34e1c5dbe1ce5ee5fcff7d5c3f13a46887d2102cbb5b0f6bf"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/upper/f4-fixed-tables.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:3a3dfe043a6b44b6fa58ff5f2f7df5780f56166c7b38753b88e95a31ebdece91"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/upper/f4-fixed.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:bdaef14a21f960be589b03407dae5ed73bc01cf0561792c32d82f1f3f2166734"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/upper/rays.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:6384fdb129fc67a6006d03a2cfa8d3e6cf00aa84991b1344b2a9b5d33f6d0130"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/assistance-and-checks.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:a1e48b45f5679bf2d5d0976ef004acc3a25edf00a792090683b98e666b6b65fd"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/contribution.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:0d4a918b92f721b984e659d10622295e8cfe2477f2c8eea90965cebde2b57b78"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/errata.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:37270c19a41521590263f505c27d9556585ab8d76a5bf06f9c5f9f07e667831c"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/findings.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:45751e22b2b9584eba162e9b580ebe25cc86396670f6e9c4c719ad0f3d41b6ca"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/four/anchor-compression.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:d4d066912ca18b1e6d687f42478f5701c62c3d63a8df79817a71487da9f4c1c9"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/four/audit.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:c746cc52dad1e64b16dddb7884ed0e327dbb0b903fdb4bd76b5dbe143c09250e"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/four/check_printed.py",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:fa1760cdaa7074eab830567ddff21c48c81589fe5f7c0def9dd9ae3a15bc7a48"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/four/printed-results.json",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:e8ba742bda6f2cf87c8f073800e700d351ffda85b17f16dc8a8fd55f8ea38072"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/framework-checks.json",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:b6eaf9876553e0df6027ef789d7156312a03c393387ef987501a98e6b5bd4f04"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/framework.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:8f1c3eb77827f4dd587e3c027008f1aba124895f1ac5f45ec76edd7f490e4d26"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/framework_checks.py",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:8f95c8b57d813c8daa47ad2396fd6e3c823927b49bdbf7d7e8b0a3414427d192"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/known-small-boundaries.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:2cdac5435fdfd74eadd6dc28d5b5759190faf8451c41dfb73588ec6d36691a52"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/large/audit.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:c887cdaa0b8a04769c357c2d3043fa55ff0fe6af7d15fa1a5a93a2b5ad0d85eb"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/large/lemmas.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:1c96d7ab74752a72876cc34423fa46b7a72b4fb50136767700af26e21a8c51f9"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/literature.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:56b8fe4fd8eeacb1e96d92fdb16516ab0826ec99be5e53c509b778ec80cc2ba9"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/manuscript.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:7a3eb6bd288b74619860d0a1b6cbca928cd373f28675ac7493c6bd7ebcc9d468"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/root-audit.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:75d42e5200822f16c547b92dec9071450dea22c771ae82dd71ad55fce91dac9b"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/small/audit.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:ee82022c5b8ec65491c6fddeb41953bcc59765d59fc041ccd259d8b2d8294be9"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/small/f3-zero-tail.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:2bd0576faf55fa01e955aa8a9037ca44541ef0a4bedd357f3762838ab0aa462b"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/small/printed-results.json",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:a84303a29abd7d0a7203534d75cd552100c9dd9578e7d01b2c7d3ae513d1c1f3"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/small/printed_audit.py",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:8dfcb098562c01ad86e404f27debca8aa00b2b7c587b488b65e2ff6f58d6e84f"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/target.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:4f43d8e6cb4329750080fb9d3ce8148fa433c39be4a2568f516831c4ffb11541"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-comprehensive-20261018/a1/boundary.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:bc9d797c89fcdb6beda78b0d537ffc26524124a04adda32311e3b766348f3c47"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-comprehensive-20261018/a1/proof.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:e85bfc5204632ae88bb60107cf16d46454436a1da5726e2dad1b71685304de02"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-families-20261018/j12/proof.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:4fcf21093e46eb6c5d7d4426633fd39dd209ccdf10b06620063a0eeafb0364e9"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-lower-20261018/endpoint-proof.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:eaa04ac1c47ec9a6401c432d07d2bfb948343eb3d2fd66ab453ea02dc3c9423d"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-lower-20261018/literature/source-check.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:2d1905fe3362c330baae65b695244ec65497ff75c225f9e521588c800f7973ad"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-lower-20261018/lower/proof.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:14c686fcc0683fdf80e6301cf1dd908602a2db0d981c147bda6c385f485d890b"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-proof-audit-20261018/core-lemmas.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:55cba71a58108bdfcfa7eb715151656fd03aeb0d7fa2809c42c208bd32345a86"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-proof-audit-20261018/literature.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:851890d126b5b8a42cd85d4d46b37449c260ddaff9985ce118adf00389eb7202"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-proof-audit-20261018/lower-lemma.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:2e9d9d5406e72698d008287b1ab18839a5ca7c4e9bd34da49ef1bdc312100619"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-proof-audit-20261018/midpoint-lemma.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:886cb1d1cbd6579ce41dddcb7126e55cd9f15a8df03d37835ba62637c29a0324"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-proof-audit-20261018/upper-audit.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:a8c23d1aca816ea97447ded63572b51b7dfb0a512a8e4cf77c79bc571b461377"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-unified-20261018/odd-multiple-proof.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:0801f18c05be85949e53092caa28fc6b14f4688ccb6badf263c8aeb5d0759b92"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-upper-20261018/compatibility.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:d1bb542b1c83a8fcca42babeab51f7b5c59ade7785336d179c32bc21fce94e61"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-upper-20261018/upper1/proof.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:172503818e2d957fc5d2f62f9a978cb35ff3e3b963b1193cd112bf77665d5cea"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/greedy-upper-20261018/upper2/proof.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:29af494493db7f3c0a1af03cc87cc70805a29b1aeccc24dc1d24f40e8c816ad3"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/contents/research-batch-20261018/sequence/source-search.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:0ae6cb88f0d2fd2749eba11d873af9ab49768b15b938ce6bec71b43e8d11d20b"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/lineage.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:48816b4a42ed6189cb012778f8a03432c812d3185967f3816adcf2bb25098860"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/manifest.json",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:bc6978e403b04aadfd530733789c353e7ceea1052ad0e2f2ad0530df3c247575"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/model-provenance.json",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:6e349f9ebaf8574320ccab2d70e3b12d64659e886e57f5450c72d259877db029"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/README.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:cca06883127497e6ab887d5aeb0e69ff28cd9a85d9d2358d1bca15b56acba3c0"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/replay.py",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:63539b369c00f625d7e053f88b6f98757e6cc59701350a0b3c2acc55d4b7b82e"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/reproducibility-results.json",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:46bf915a170b3d1d91904439ab4cefc517b11026056b78301a42169bcd7c6661"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/reproduction.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:698d5721f6a75103af98e57789aa5b25c12c0deac23b6529c22a6ff144b779f7"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/source-map.json",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:7d0ebe07419f3adf11befba522fb4fa1ff0cc84a0fbbf32e84aef230e2f35ea8"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/submission-authorization.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:f6488d0b61816e0d5189f6bd763e9b7c2601c0a403bfdb0b587e3d086fe215ea"
+    },
+    {
+      "reference": "research/ATT-MATH-430-01/submission-checks.md",
+      "version": "2026-10-18-publication-v1",
+      "sha256": "sha256:6593a9a044ccfe0780d3eee4f6fb0d2f6d1c12c40a29e40c656f987874133cb5"
+    },
+    {
+      "reference": "https://arxiv.org/html/2609.18522v1",
+      "version": "2609.18522v1; primary text inspected on 2026-10-18",
+      "sha256": null
+    },
+    {
+      "reference": "https://arxiv.org/html/2609.16843v1",
+      "version": "2609.16843v1; primary text inspected on 2026-10-18",
+      "sha256": null
+    },
+    {
+      "reference": "research/ATT-MATH-430-01-screening/2026-10-18.md",
+      "version": "2026-10-18-preliminary-screening-v1",
+      "sha256": "sha256:6cbe3d96f02dcf957c0d2edf7dbf2b81419e582bc4a79a1f98501318c226d6e4"
+    }
+  ],
+  "planned_budget": {
+    "kind": "cap",
+    "money": {
+      "amount": null,
+      "currency": null,
+      "basis": "No paid external run authorized; inference billing not measured."
+    },
+    "compute_units": "Latest analytic audit: parent 900 process CPU seconds; each worker 300 process CPU seconds.",
+    "human_hours": null,
+    "notes": "These are stage-specific recorded caps, not a reconstructed cumulative budget for all earlier research. Peak memory was not measured."
+  },
+  "actual_use": {
+    "kind": "actual",
+    "money": {
+      "amount": null,
+      "currency": null,
+      "basis": "No invoice or complete inference-cost measurement is available."
+    },
+    "compute_units": null,
+    "human_hours": null,
+    "notes": "Per-helper actual CPU/wall timings are retained in the supporting reports. Total model compute, cumulative CPU, peak memory and human hours are unknown. Timestamps cover the task session through submission preparation, not exclusive mathematical labor."
+  },
+  "human_help": [
+    "The maintainer directed the task and reported preliminary review without finding an error; full-text coverage and independence were not supplied.",
+    "The maintainer explicitly recognized GPT-6 Astra Ultra as meeting repository requirements and authorized automated upload; exact service fields were separately recovered.",
+    "On 18 October 2026 the maintainer reaffirmed a preliminary human pass and authorized editorial merging, expressly with academic verification pending; the exact scope and complete-text coverage remain unspecified. See the separately retained preliminary-screening note."
+  ],
+  "outcome_kind": "candidate_answer",
+  "outcome": "Complete analytic candidate for the two-seed subproblem, with a strict audit and unified interval/lifetime mechanisms. No unresolved gap was identified in contributor reading scopes. The proposed proof remains unverified independently; the arbitrary finite-seed catalogue problem is unchanged.",
+  "stopping_conditions": [
+    "Stop an upload if exact-version checks or authorization are missing.",
+    "Preserve any unresolved proof gap or failed extension; do not infer a general result from added enumeration.",
+    "Do not merge without explicit current authorization and final revision checks; do not infer scientific human-review or machine-verification approval from preliminary screening."
+  ],
+  "limitations": [
+    "Candidate answer only; no independent scientific review or formal verification.",
+    "Preliminary human reading has unspecified scope and is not a signed full-text review.",
+    "The model build version and sampling settings are unknown beyond the inspected model identifier and effort.",
+    "Historical novelty, priority and significance remain unestablished; some historical originals remain uninspected.",
+    "Only two seeds are covered, whereas Q-MATH-430 permits arbitrary finite seeds.",
+    "The publication is a documented selection of the local archive; omitted historical numerical material is not a proof premise."
+  ],
+  "review_ids": [],
+  "revision_history": [
+    {
+      "date": "2026-10-18",
+      "change": "Submitted the audited two-seed analytic candidate, with original/publication digest mapping, recovered model provenance, maintainer authorization, qualified source credit and preserved failures. No approval or broader problem-status change."
+    },
+    {
+      "date": "2026-10-18",
+      "change": "Recorded version-bound recommended-model contributor screening and the maintainer-reported human preliminary pass, with academic verification pending. Editorial merge authorization is recorded separately; the original 71-file scientific package, candidate outcome, broader problem status and formal review/verification states are unchanged."
+    }
+  ],
+  "preliminary_screening": {
+    "target_digest": "sha256:bcb4986313983950e63af828132f9dd5e424e6c267a7a4565796dc216191a095",
+    "result_artifacts": [
+      {
+        "reference": "research/ATT-MATH-430-01/assistance-and-checks.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:aac160f7a200ccd0ec67b343c90863625d24a0746c4c57528009dadb9ab897f9"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/bibliography.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:c7f3b3722adbf2a1a4002cd0ea479560ab879f21a09bbb8a3b9efbe6708b00be"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/catalogue-target.json",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:277a9d33db55da3cb8f3de61ef2f999a51cce51efa938df72386e1e8d4da243b"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/even-multiples/a1-first-seed-four.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:5d1c710edbe18782ffe071ebe7232620ca5806568f59540bb553d80b5cba96b1"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/even-multiples/boundary-arithmetic-tables.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:032531ecb84571372ff7c9fa001b3f9ed03bfd9935b8d863d397f2d67a84dfb0"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/even-multiples/boundary-lifetime-tables.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:bd34c950818dded43059007bc80b59bb5a40f7a75991af3824b596820b6fb5e4"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/even-multiples/f4-coverage-tables.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:f11715653f215b86a79ba591bbcf0ac7102b52d438fbc3e9525b735ebe14c106"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/even-multiples/f4-zero-coverage.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:1a56e47a85da807157f61ebce8b59fd16efd10418cec3a9bdeabcad9d1fe0a42"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/even-multiples/proof.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:125d85b085f36f87e8b94a6f0cea2ae8a5d1502baadc25ac9525b8ea406ba42e"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/even-multiples/small-boundaries.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:80afe9bb1518fdcfcb896a9acb4cd93e073a9e5a965922c287c5baf455410871"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/finite-small.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:6c5e0fd5032f543c446784c37a90ad9b917ef51adb2a08795b1bbb205ac8337f"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/lifetime-lemma.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:02f65fe66b1914b4e373835ec753bb3ce180a246aeb5a2a86814a53b598bcb79"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/literature.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:e3186d44abdcaf1d7b0a745464855e548756930da17268a8c212edc73dff7c3b"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/plateau-corner.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:2c52f953af4439550644fccad701e0a6e1dd141565d2ef12731eee22f7f8b07f"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/small/f2-three-blocks.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:ea4ad837369941372a8e1e93e70206aa122ccbff1df1303b27273ea9b0a30afb"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/small/f2-two-classes.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:f9996ea35a167c96b41572450b8695961a4164a81b4ae8f9527d2cc597b029bc"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/small/f3-one.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:6ab8c834b35e4a4e5949caf111baf4288ad6212855df1cfdec3e522695c3ce88"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/small/f3-zero.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:1ce7d5aa6a194e612f7b3d6d17cd6345765b5f8b1e68b49fecade06a45ba5a7b"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/small/f4-zero-exclusion.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:a1476c4d6e56f8e64c702728fbfbe12b553b8522a563a2f269f10e7674672e22"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/small-domain-extensions.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:a2ec0ac1acba7d86d6d0dee6988d47a34ff6dbdd93bfbfa595286aa41a82c8ed"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/upper/boundary.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:4b3dcb40bd6dc0e34e1c5dbe1ce5ee5fcff7d5c3f13a46887d2102cbb5b0f6bf"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/upper/f4-fixed-tables.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:3a3dfe043a6b44b6fa58ff5f2f7df5780f56166c7b38753b88e95a31ebdece91"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/upper/f4-fixed.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:bdaef14a21f960be589b03407dae5ed73bc01cf0561792c32d82f1f3f2166734"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-20261018/upper/rays.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:6384fdb129fc67a6006d03a2cfa8d3e6cf00aa84991b1344b2a9b5d33f6d0130"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/assistance-and-checks.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:a1e48b45f5679bf2d5d0976ef004acc3a25edf00a792090683b98e666b6b65fd"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/contribution.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:0d4a918b92f721b984e659d10622295e8cfe2477f2c8eea90965cebde2b57b78"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/errata.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:37270c19a41521590263f505c27d9556585ab8d76a5bf06f9c5f9f07e667831c"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/findings.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:45751e22b2b9584eba162e9b580ebe25cc86396670f6e9c4c719ad0f3d41b6ca"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/four/anchor-compression.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:d4d066912ca18b1e6d687f42478f5701c62c3d63a8df79817a71487da9f4c1c9"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/four/audit.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:c746cc52dad1e64b16dddb7884ed0e327dbb0b903fdb4bd76b5dbe143c09250e"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/four/check_printed.py",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:fa1760cdaa7074eab830567ddff21c48c81589fe5f7c0def9dd9ae3a15bc7a48"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/four/printed-results.json",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:e8ba742bda6f2cf87c8f073800e700d351ffda85b17f16dc8a8fd55f8ea38072"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/framework-checks.json",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:b6eaf9876553e0df6027ef789d7156312a03c393387ef987501a98e6b5bd4f04"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/framework.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:8f1c3eb77827f4dd587e3c027008f1aba124895f1ac5f45ec76edd7f490e4d26"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/framework_checks.py",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:8f95c8b57d813c8daa47ad2396fd6e3c823927b49bdbf7d7e8b0a3414427d192"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/known-small-boundaries.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:2cdac5435fdfd74eadd6dc28d5b5759190faf8451c41dfb73588ec6d36691a52"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/large/audit.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:c887cdaa0b8a04769c357c2d3043fa55ff0fe6af7d15fa1a5a93a2b5ad0d85eb"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/large/lemmas.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:1c96d7ab74752a72876cc34423fa46b7a72b4fb50136767700af26e21a8c51f9"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/literature.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:56b8fe4fd8eeacb1e96d92fdb16516ab0826ec99be5e53c509b778ec80cc2ba9"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/manuscript.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:7a3eb6bd288b74619860d0a1b6cbca928cd373f28675ac7493c6bd7ebcc9d468"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/root-audit.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:75d42e5200822f16c547b92dec9071450dea22c771ae82dd71ad55fce91dac9b"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/small/audit.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:ee82022c5b8ec65491c6fddeb41953bcc59765d59fc041ccd259d8b2d8294be9"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/small/f3-zero-tail.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:2bd0576faf55fa01e955aa8a9037ca44541ef0a4bedd357f3762838ab0aa462b"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/small/printed-results.json",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:a84303a29abd7d0a7203534d75cd552100c9dd9578e7d01b2c7d3ae513d1c1f3"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/small/printed_audit.py",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:8dfcb098562c01ad86e404f27debca8aa00b2b7c587b488b65e2ff6f58d6e84f"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-analytic-audit-20261018/target.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:4f43d8e6cb4329750080fb9d3ce8148fa433c39be4a2568f516831c4ffb11541"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-comprehensive-20261018/a1/boundary.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:bc9d797c89fcdb6beda78b0d537ffc26524124a04adda32311e3b766348f3c47"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-comprehensive-20261018/a1/proof.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:e85bfc5204632ae88bb60107cf16d46454436a1da5726e2dad1b71685304de02"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-families-20261018/j12/proof.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:4fcf21093e46eb6c5d7d4426633fd39dd209ccdf10b06620063a0eeafb0364e9"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-lower-20261018/endpoint-proof.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:eaa04ac1c47ec9a6401c432d07d2bfb948343eb3d2fd66ab453ea02dc3c9423d"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-lower-20261018/literature/source-check.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:2d1905fe3362c330baae65b695244ec65497ff75c225f9e521588c800f7973ad"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-lower-20261018/lower/proof.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:14c686fcc0683fdf80e6301cf1dd908602a2db0d981c147bda6c385f485d890b"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-proof-audit-20261018/core-lemmas.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:55cba71a58108bdfcfa7eb715151656fd03aeb0d7fa2809c42c208bd32345a86"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-proof-audit-20261018/literature.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:851890d126b5b8a42cd85d4d46b37449c260ddaff9985ce118adf00389eb7202"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-proof-audit-20261018/lower-lemma.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:2e9d9d5406e72698d008287b1ab18839a5ca7c4e9bd34da49ef1bdc312100619"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-proof-audit-20261018/midpoint-lemma.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:886cb1d1cbd6579ce41dddcb7126e55cd9f15a8df03d37835ba62637c29a0324"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-proof-audit-20261018/upper-audit.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:a8c23d1aca816ea97447ded63572b51b7dfb0a512a8e4cf77c79bc571b461377"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-unified-20261018/odd-multiple-proof.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:0801f18c05be85949e53092caa28fc6b14f4688ccb6badf263c8aeb5d0759b92"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-upper-20261018/compatibility.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:d1bb542b1c83a8fcca42babeab51f7b5c59ade7785336d179c32bc21fce94e61"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-upper-20261018/upper1/proof.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:172503818e2d957fc5d2f62f9a978cb35ff3e3b963b1193cd112bf77665d5cea"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/greedy-upper-20261018/upper2/proof.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:29af494493db7f3c0a1af03cc87cc70805a29b1aeccc24dc1d24f40e8c816ad3"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/contents/research-batch-20261018/sequence/source-search.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:0ae6cb88f0d2fd2749eba11d873af9ab49768b15b938ce6bec71b43e8d11d20b"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/lineage.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:48816b4a42ed6189cb012778f8a03432c812d3185967f3816adcf2bb25098860"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/manifest.json",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:bc6978e403b04aadfd530733789c353e7ceea1052ad0e2f2ad0530df3c247575"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/model-provenance.json",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:6e349f9ebaf8574320ccab2d70e3b12d64659e886e57f5450c72d259877db029"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/README.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:cca06883127497e6ab887d5aeb0e69ff28cd9a85d9d2358d1bca15b56acba3c0"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/replay.py",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:63539b369c00f625d7e053f88b6f98757e6cc59701350a0b3c2acc55d4b7b82e"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/reproducibility-results.json",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:46bf915a170b3d1d91904439ab4cefc517b11026056b78301a42169bcd7c6661"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/reproduction.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:698d5721f6a75103af98e57789aa5b25c12c0deac23b6529c22a6ff144b779f7"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/source-map.json",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:7d0ebe07419f3adf11befba522fb4fa1ff0cc84a0fbbf32e84aef230e2f35ea8"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/submission-authorization.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:f6488d0b61816e0d5189f6bd763e9b7c2601c0a403bfdb0b587e3d086fe215ea"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01/submission-checks.md",
+        "version": "2026-10-18-publication-v1",
+        "sha256": "sha256:6593a9a044ccfe0780d3eee4f6fb0d2f6d1c12c40a29e40c656f987874133cb5"
+      },
+      {
+        "reference": "research/ATT-MATH-430-01-screening/2026-10-18.md",
+        "version": "2026-10-18-preliminary-screening-v1",
+        "sha256": "sha256:6cbe3d96f02dcf957c0d2edf7dbf2b81419e582bc4a79a1f98501318c226d6e4"
+      }
+    ],
+    "evidence_artifacts": [
+      "research/ATT-MATH-430-01-screening/2026-10-18.md",
+      "research/ATT-MATH-430-01/assistance-and-checks.md",
+      "research/ATT-MATH-430-01/model-provenance.json",
+      "research/ATT-MATH-430-01/submission-authorization.md",
+      "research/ATT-MATH-430-01/submission-checks.md"
+    ],
+    "ai_basis": "recommended_only",
+    "ai_check_status": "completed",
+    "human_preliminary_status": "passed",
+    "recorded_by": "luvLunairs (maintainer report, recorded with Codex assistance)",
+    "date": "2026-10-18",
+    "scope": [
+      "Recorded same-team contributor readings and reproducibility checks of the two-seed candidate package at original PR head 592d34a72ef95a8df9d479507a11855159335d92.",
+      "Maintainer-reported preliminary human pass and editorial inclusion authorization, reaffirmed on 18 October 2026.",
+      "Recommended-configuration basis: retained service identifier gpt-6-astra, effort ultra, and explicit maintainer recognition; this is workflow provenance, not a correctness guarantee."
+    ],
+    "limitations": [
+      "AI checks were performed by the contributing team and are not independent verification.",
+      "The human preliminary reading scope, full-text coverage, specialist qualifications and independence were not supplied.",
+      "Academic verification, formal verification, novelty and significance remain unestablished; no human proof-acceptance or machine-verification verdict is assigned.",
+      "Only the two-seed subproblem is claimed; the broader arbitrary finite-seed conjecture remains unchanged."
+    ]
+  }
+}

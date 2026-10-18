@@ -1,0 +1,134 @@
+{
+  "status": "passed",
+  "method": "exact interval/ray arithmetic parsed from final printed Markdown, no greedy generation",
+  "cases": [
+    {
+      "g": 12,
+      "m": 16,
+      "residues": 16,
+      "selected_residues": 7,
+      "matrix_cells": 6,
+      "nonempty_pair_lifetimes": 26,
+      "exceptional_pairs_to_core": 2,
+      "pairs_to_exceptional_targets": 4,
+      "ray_witnesses": 9,
+      "early_repairs": 1,
+      "failed_refutation_using_forbidden_diagonals": [
+        {
+          "summand_residue": 12,
+          "target_residue": 8,
+          "first_false_target_block": 1
+        },
+        {
+          "summand_residue": 12,
+          "target_residue": 8,
+          "first_false_target_block": 3
+        },
+        {
+          "summand_residue": 14,
+          "target_residue": 12,
+          "first_false_target_block": 1
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "g": 18,
+      "m": 122,
+      "residues": 122,
+      "selected_residues": 33,
+      "matrix_cells": 238,
+      "nonempty_pair_lifetimes": 554,
+      "exceptional_pairs_to_core": 7,
+      "pairs_to_exceptional_targets": 30,
+      "ray_witnesses": 89,
+      "early_repairs": 1,
+      "failed_refutation_using_forbidden_diagonals": [
+        {
+          "summand_residue": 18,
+          "target_residue": 36,
+          "first_false_target_block": 0
+        },
+        {
+          "summand_residue": 20,
+          "target_residue": 40,
+          "first_false_target_block": 0
+        },
+        {
+          "summand_residue": 40,
+          "target_residue": 80,
+          "first_false_target_block": 0
+        },
+        {
+          "summand_residue": 41,
+          "target_residue": 82,
+          "first_false_target_block": 0
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "g": 24,
+      "m": 96,
+      "residues": 96,
+      "selected_residues": 33,
+      "matrix_cells": 272,
+      "nonempty_pair_lifetimes": 553,
+      "exceptional_pairs_to_core": 18,
+      "pairs_to_exceptional_targets": 54,
+      "ray_witnesses": 63,
+      "early_repairs": 9,
+      "failed_refutation_using_forbidden_diagonals": [
+        {
+          "summand_residue": 24,
+          "target_residue": 48,
+          "first_false_target_block": 0
+        },
+        {
+          "summand_residue": 26,
+          "target_residue": 52,
+          "first_false_target_block": 0
+        },
+        {
+          "summand_residue": 52,
+          "target_residue": 8,
+          "first_false_target_block": 1
+        },
+        {
+          "summand_residue": 53,
+          "target_residue": 10,
+          "first_false_target_block": 1
+        }
+      ],
+      "status": "passed"
+    }
+  ],
+  "finite_first_seed_two": [
+    {
+      "g": 11,
+      "m": 31,
+      "triangular_rows": 9,
+      "mixed_rows": 2,
+      "initial_witnesses": 11,
+      "all_block_witnesses": 22,
+      "status": "passed"
+    },
+    {
+      "g": 12,
+      "m": 33,
+      "triangular_rows": 9,
+      "mixed_rows": 2,
+      "initial_witnesses": 12,
+      "all_block_witnesses": 24,
+      "status": "passed"
+    }
+  ],
+  "process_cpu_seconds": 0.015625,
+  "input_sha256": {
+    "work/greedy-analytic-20261018/even-multiples/boundary-lifetime-tables.md": "fd63bc4147c25f74652d1eeb0f3fb55f6b8d576c1ab3586fddf68bf811cfea3e",
+    "work/greedy-analytic-20261018/even-multiples/boundary-arithmetic-tables.md": "fb98bc5a1fb8ed51adfceb495b58b17439ac11f00b8b23e152acc4d258180a39",
+    "work/greedy-analytic-20261018/finite-small.md": "1b44f75e8d6e3f188562eb9aa3e096a19b58fa5714c0e775b3be7123ad81e1ea"
+  },
+  "checker_sha256": "8dfcb098562c01ad86e404f27debca8aa00b2b7c587b488b65e2ff6f58d6e84f",
+  "limits": "Same-team audit only; not independent or formal verification; parser/code remain part of the trust boundary."
+}
