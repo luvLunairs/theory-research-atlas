@@ -1,0 +1,200 @@
+{
+  "id": "Q-MODEL-204",
+  "title": "EFX and Pareto optimality for personalized bi-valued goods",
+  "domain": "Mechanism design and fair allocation",
+  "cross_domains": [
+    "Computational complexity",
+    "Optimization and operations research"
+  ],
+  "kind": "literature_open",
+  "statement": "For arbitrary finite numbers of agents and goods with additive values v_i(g)∈{a_i,b_i}, where each agent has its own fixed positive pair a_i>b_i>0, determine whether a complete EFX allocation always exists that is also Pareto optimal among complete allocations. EFX requires v_i(X_i)≥v_i(X_j\\{g}) for all i,j,g∈X_j; Pareto optimality excludes any allocation weakly improving every agent and strictly improving one.",
+  "source_ids": [
+    "SRC-MODEL-204",
+    "SRC-MODEL-202",
+    "SRC-IMPACT-004"
+  ],
+  "source_locator": "Jin and Tao, Sections 2-5; He and Tao, Section 6; Lin, Wu and Zhou, Theorem 3.5 and Example 3.6.",
+  "status": "source_reports_open",
+  "status_basis": "Jin and Tao pose exact simultaneous existence as open; He and Tao repeat this status. The later maximum-Nash-welfare result proves a tight approximation guarantee for that rule, not a resolution of exact EFX plus integral Pareto optimality. No later matching resolution was located.",
+  "last_checked": "2026-10-20",
+  "curator_origin": false,
+  "duplicate_key": "efx-po-personalized-bivalued-goods",
+  "proposed_card": true,
+  "primary_domain_id": "ECON.MECH",
+  "cross_domain_ids": [
+    "CS.COMPLEX",
+    "MATH.OPT"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "revision_history": [
+    {
+      "date": "2026-10-20",
+      "change": "Expanded the existing candidate into a full card and added the maximum-Nash-welfare approximation result; retained the original question and ID."
+    }
+  ],
+  "plain_summary": "Can indivisible goods always be shared so that envy disappears after removing any one good from another person's bundle, while no reassignment can benefit someone without harming another?",
+  "assumptions": [
+    "Finitely many agents and goods; every good is assigned once and values are additive.",
+    "Each agent uses its own two strictly positive values. Ratios a_i/b_i may differ between agents.",
+    "Pareto comparisons are against complete integral allocations. Fractional reallocations are outside this target."
+  ],
+  "scope": "Exact EFX together with integral Pareto optimality. EFX alone is established. Efficient computation is a further question if simultaneous existence holds; no restriction to a selected number of agents or ratio range is imposed here.",
+  "target": "Prove simultaneous existence for all such instances or give one instance in which every EFX allocation is Pareto dominated.",
+  "success_criteria": [
+    "An existence proof must satisfy both properties for the same complete allocation.",
+    "A counterexample must rule out every complete EFX allocation, not merely one algorithm's output.",
+    "State any restricted parameter class explicitly and report its result as partial progress."
+  ],
+  "known_results": [
+    "Jin and Tao prove polynomial-time EFX existence. They also characterize Pareto optimality and distinguish integral from fractional ratios in its decision complexity.",
+    "Their Section 5 shows that maximum Nash welfare can fail exact EFX and that fractional Pareto optimality can be incompatible with EFX.",
+    "Lin, Wu and Zhou report a tight 2/3-EFX guarantee for maximum Nash welfare. Tightness of that rule does not rule out another allocation satisfying exact EFX and Pareto optimality."
+  ],
+  "prerequisites": [
+    "Additive fair division, EFX and Pareto dominance.",
+    "Exact finite optimization and certificates of exhaustive coverage."
+  ],
+  "significance": "Locates the boundary between a strong fairness guarantee and efficient use of resources in a simple heterogeneous-preference model.",
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "Q-MODEL-201",
+      "explanation": "Both concern additive goods. This entry restricts each agent to two positive values and adds efficiency; the four-agent entry permits general values and requires fairness alone."
+    }
+  ],
+  "requirements": {
+    "experiment": "None for this existence question. People's acceptance of EFX is an empirical matter outside its scope.",
+    "data": "Published definitions and exact valuation matrices for any future finite study.",
+    "compute": "Unmeasured. A fixed n-agent, m-good instance has n^m complete assignments. Exact small-instance checking may be manageable; growth and general Pareto verification can be expensive.",
+    "theoretical_assumptions": "Additive, strictly positive, personalized two-value preferences and integral complete assignment."
+  },
+  "methods": [
+    "Study the source's Pareto characterization and matching-based EFX construction.",
+    "Compare any proposed result with the published failures of maximum Nash welfare and fractional-market approaches."
+  ],
+  "method_tags": [
+    "proof",
+    "construction",
+    "counterexample",
+    "finite_search",
+    "exact_computation",
+    "algorithm"
+  ],
+  "validation_tags": [
+    "pure_proof",
+    "exact_computation"
+  ],
+  "experimental_dependency": "none_for_formal_task",
+  "obstacles": [
+    "Fairness and efficiency can each hold for different allocations.",
+    "Checking one EFX witness does not establish Pareto optimality.",
+    "A fractional Pareto improvement is not necessarily an integral one."
+  ],
+  "validation": {
+    "steps": [
+      "Check positivity, the two-value condition and complete assignment.",
+      "Evaluate EFX using the potentially envious agent's values for both bundles.",
+      "For a finite negative result, give coverage of all EFX allocations and an integral Pareto dominator for each.",
+      "Independently check exact data and any symmetry or pruning argument."
+    ],
+    "human_review_difficulty": "Moderate for a small fully enumerated instance; high for a general theorem or a large exhaustive certificate.",
+    "statement_alignment": "Goods, personalized ratios and integral Pareto optimality are essential. Approximate EFX, chores or fractional efficiency answer different questions."
+  },
+  "known_attempts": [
+    "The source records failed routes through maximum Nash welfare and fractional market equilibria. No project attempt has been run."
+  ],
+  "unresolved_checks": [
+    "Refresh the literature before selecting a special case or claiming novelty.",
+    "Clarify the inconsistent manuscript and repository dates for arXiv:2610.00122v1.",
+    "Independently audit any source theorem used in a new proof."
+  ],
+  "attribution": {
+    "original_authors": [
+      "Jiarong Jin",
+      "Biaoshuai Tao"
+    ],
+    "citation": "Jin and Tao, On Pareto-Optimal and Fair Allocations with Personalized Bi-Valued Utilities, arXiv:2507.18251v2, Section 5 (WINE 2025). For the later approximation guarantee, cite Lin, Wu and Zhou, arXiv:2610.00122v1.",
+    "curator_credit": "Compiled for Theory Research Atlas with Codex assistance."
+  },
+  "ai_assessment": {
+    "priority": "preparation_required",
+    "rationale": "The problem is explicit and has reusable published arguments. Assessing a specific AI attempt requires a narrower, independently checked target.",
+    "dimensions": {
+      "clarity": {
+        "rating": "high",
+        "reason": "The source specifies the objects and quantifiers."
+      },
+      "decomposability": {
+        "rating": "medium",
+        "reason": "A selected lemma or finite instance can be checked separately; it need not settle the full problem."
+      },
+      "methods": {
+        "rating": "high",
+        "reason": "The cited papers provide concrete methods and known limitations."
+      },
+      "search_or_symbolic": {
+        "rating": "medium",
+        "reason": "Symbolic or finite computations can assist a declared task, without proving the general claim."
+      },
+      "checkability": {
+        "rating": "medium",
+        "reason": "Exact certificates help, but the claimed scope still requires proof."
+      },
+      "expertise": {
+        "rating": "high",
+        "reason": "Specialist review is needed for a new general result."
+      },
+      "significance": {
+        "rating": "high",
+        "reason": "Locates the boundary between a strong fairness guarantee and efficient use of resources in a simple heterogeneous-preference model."
+      },
+      "verification_difficulty": {
+        "rating": "high",
+        "reason": "Moderate for a small fully enumerated instance; high for a general theorem or a large exhaustive certificate."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "Editorial planning judgment only. No model, search strategy, runtime or success probability has been measured.",
+    "assessment_date": "2026-10-20",
+    "model_scope": "No model evaluated; assumes a tool-using assistant able to read the cited mathematics and preserve reproducible evidence.",
+    "evidence_refs": []
+  },
+  "epistemic_layers": {
+    "formal_validity": "Source inspection confirms the recorded formulation, not an independent proof of the cited theorems.",
+    "empirical_support": "A formal allocation guarantee does not establish that people endorse this fairness criterion or report additive preferences."
+  },
+  "judgments": {
+    "difficulty": {
+      "rating": "high",
+      "basis": "The full target requires a general argument beyond the inspected partial results.",
+      "evidence": "editorial_estimate_not_measured"
+    },
+    "correctness": {
+      "status": "no_project_answer",
+      "basis": "No project proof, counterexample or research computation is supplied."
+    },
+    "novelty": {
+      "status": "requires_future_literature_review",
+      "basis": "Any new claim needs a focused comparison at the time of submission."
+    },
+    "significance": {
+      "rating": "high",
+      "basis": "Locates the boundary between a strong fairness guarantee and efficient use of resources in a simple heterogeneous-preference model."
+    }
+  },
+  "status_search": {
+    "queries": [
+      "\"personalized\" \"bi-valued\" \"EFX\" \"Pareto\" 2026 solved",
+      "\"EFX\" \"personalized\" \"Pareto\" \"October\"",
+      "\"2507.18251\" solved"
+    ],
+    "checked_sources": [
+      "SRC-MODEL-204",
+      "SRC-MODEL-202",
+      "SRC-IMPACT-004"
+    ],
+    "result": "Jin and Tao pose exact simultaneous existence as open; He and Tao repeat this status. The later maximum-Nash-welfare result proves a tight approximation guarantee for that rule, not a resolution of exact EFX plus integral Pareto optimality. No later matching resolution was located.",
+    "limitations": "Bounded title, identifier and terminology searches; unpublished results or different terminology may be missed. No full proof audit."
+  }
+}

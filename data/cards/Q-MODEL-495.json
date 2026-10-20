@@ -1,0 +1,185 @@
+{
+  "id": "Q-MODEL-495",
+  "title": "Predictive mixed longitudinal-transverse intermittency exponents",
+  "domain": "Fluid and plasma theory",
+  "cross_domains": [
+    "Statistical and nonequilibrium physics"
+  ],
+  "kind": "literature_open",
+  "statement": "Develop a predictive description of the mixed longitudinal-transverse structure-function exponents in statistically stationary homogeneous isotropic incompressible turbulence, consistent with exact moment relations and the connection between inertial-range increments and dissipative-range gradients. State moment conventions, scaling ranges and the Reynolds-number limit.",
+  "source_ids": [
+    "SRC-PHYS-009",
+    "SRC-PHYS-010"
+  ],
+  "source_locator": "Buaria, Physical Review Fluids 11 L092601, conclusions pp.6-7 and Appendix C; Buaria and Pumir, section 9.1.",
+  "status": "open_after_scoped_check",
+  "status_basis": "The September 2026 published paper retains the missing full mixed-exponent description; the review identifies the same need. Targeted searches found no later complete resolution.",
+  "last_checked": "2026-10-20",
+  "curator_origin": false,
+  "duplicate_key": "turbulence-joint-longitudinal-transverse-intermittency-exponents",
+  "proposed_card": true,
+  "primary_domain_id": "PHYS.FLUID",
+  "cross_domain_ids": [
+    "PHYS.STAT"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "plain_summary": "Rare intense fluctuations govern turbulent mixing and dissipation. Their longitudinal and transverse statistics need a joint predictive account rather than separate fitted scaling curves.",
+  "assumptions": [
+    "Three-dimensional incompressible Navier-Stokes dynamics; specify forcing, stationarity, homogeneity and isotropy.",
+    "For separation r e, let delta u_L=[u(x+r e)-u(x)] dot e and delta u_T be one perpendicular component. Define absolute mixed moments S_p,q(r)=E[|delta u_L|^p |delta u_T|^q] for nonnegative orders with finite moments, and their inertial-range exponents by S_p,q(r)~r^zeta_p,q. Signed moments have separate conventions and may vanish by symmetry.",
+    "State the inertial-range and high-Reynolds-number assumptions; identify any additional closure or multifractal hypothesis."
+  ],
+  "scope": "A statistical prediction problem for mixed velocity increments and gradients; not a proof of Navier-Stokes global regularity.",
+  "target": "An explicit predictive account of the mixed-exponent family, or a clearly delimited partial result.",
+  "success_criteria": [
+    "Define which moments and parameter range the result covers, including symmetry-forced zero moments.",
+    "Recover the applicable signed third-moment identities without substituting absolute moments for them; distinguish proved relations from modeled closures.",
+    "For empirical claims, compare independent statistics with uncertainty and finite-Reynolds-number controls."
+  ],
+  "known_results": [
+    "Buaria provides a joint multifractal framework linking increment and gradient statistics, without closing the entire exponent family.",
+    "Published equations (18)-(19) use the 4/5 and one-transverse-component 4/15 relations; the earlier preprint's 4/3 wording should not be copied.",
+    "The paper notes that further changes of exponents at much higher Reynolds numbers cannot be excluded."
+  ],
+  "prerequisites": [
+    "Incompressible turbulence, structure functions and multifractal modeling.",
+    "Statistical convergence, Reynolds-number scaling and numerical resolution."
+  ],
+  "significance": "A reliable theory would clarify extreme-event statistics relevant to dissipation, mixing and transport. Any improvement to reduced fluid models needs separate demonstration.",
+  "relations": [],
+  "requirements": {
+    "experiment": "No new experiment is required for analytical work. Empirical validation requires suitable numerical or measured evidence.",
+    "data": "The cited DNS data are available upon reasonable request and were not publicly deposited; access has not been obtained.",
+    "compute": "Symbolic checks and analysis of selected statistics may be modest; new well-resolved high-Reynolds-number DNS is a major computing task. No costs or runtimes are measured.",
+    "theoretical_assumptions": "The declared flow class, moment definitions, scaling limit and any statistical closure must remain explicit."
+  },
+  "methods": [
+    "Statistical model analysis",
+    "Moment-identity checks",
+    "Controlled comparison with numerical statistics"
+  ],
+  "method_tags": [
+    "model_analysis",
+    "symbolic_derivation",
+    "numerical_computation"
+  ],
+  "validation_tags": [
+    "pure_proof",
+    "numerical_evidence"
+  ],
+  "experimental_dependency": "none_for_formal_task",
+  "obstacles": [
+    "Finite scaling windows can imitate asymptotic exponents.",
+    "Rare-event moments converge slowly.",
+    "Model assumptions can be mistaken for consequences of Navier-Stokes dynamics."
+  ],
+  "validation": {
+    "steps": [
+      "Check increment conventions and exact low-order identities against the published version.",
+      "List each additional statistical hypothesis and where it enters.",
+      "Separate fitting data from validation data and examine resolution, sampling, anisotropy and scaling-window sensitivity.",
+      "Retain uncertainty and alternative extrapolations rather than certifying universality from finite data."
+    ],
+    "human_review_difficulty": "High: statistical and fluid-dynamical assumptions require specialist assessment.",
+    "statement_alignment": "A successful fit or conditional closure is not a general derivation of turbulence exponents."
+  },
+  "known_attempts": [
+    "The cited articles report theoretical frameworks and numerical comparisons; this project has not reproduced them."
+  ],
+  "unresolved_checks": [
+    "Confirm access, rights and suitability of any validation data.",
+    "A low-order subproblem is Curator-proposed; pending review and a focused novelty check."
+  ],
+  "attribution": {
+    "original_authors": [
+      "Dhawal Buaria",
+      "Alain Pumir"
+    ],
+    "citation": "Buaria (2026), Physical Review Fluids 11, L092601, doi:10.1103/24bv-jqps; Buaria and Pumir (2026), Journal of Fluid Mechanics 1034, P1, doi:10.1017/jfm.2026.11494.",
+    "curator_credit": "Compiled for Theory Research Atlas with Codex assistance."
+  },
+  "status_search": {
+    "queries": [
+      "\"mixed exponents\" \"intermittency\" \"2026\"",
+      "\"Turbulence intermittency and velocity gradients\" Buaria Pumir 2026",
+      "\"mixed\" \"exponents\" \"Buaria\" \"2026\"",
+      "\"longitudinal\" \"transverse\" \"intermittency\" \"closed\" \"2026\"",
+      "\"mixed structure functions\" \"2026\" turbulence prediction",
+      "\"24bv-jqps\""
+    ],
+    "checked_sources": [
+      "SRC-PHYS-009",
+      "SRC-PHYS-010"
+    ],
+    "result": "The published discussion explicitly retains the mixed-exponent closure problem.",
+    "limitations": "No exhaustive review of every proposed intermittency model; no data access or independent reanalysis."
+  },
+  "epistemic_layers": {
+    "formal_validity": "Separate exact identities from results conditional on a multifractal or closure model.",
+    "empirical_support": "The sources report finite-Reynolds-number comparisons. No new validation or asymptotic universality claim is supplied here."
+  },
+  "revision_history": [],
+  "ai_assessment": {
+    "priority": "exploratory",
+    "rationale": "Symbolic consistency checks and comparison of statistical closures offer bounded tasks. Predicting universal exponents requires more than fitting numerical data; this proposed AI role has not been tested.",
+    "dimensions": {
+      "clarity": {
+        "rating": "medium",
+        "reason": "The exponent family is defined after conventions are fixed."
+      },
+      "decomposability": {
+        "rating": "medium",
+        "reason": "Selected moments offer narrower targets."
+      },
+      "methods": {
+        "rating": "high",
+        "reason": "The literature supplies statistical frameworks."
+      },
+      "search_or_symbolic": {
+        "rating": "high",
+        "reason": "Symbolic consistency and statistics suit tools."
+      },
+      "checkability": {
+        "rating": "medium",
+        "reason": "Finite evidence cannot settle asymptotics."
+      },
+      "expertise": {
+        "rating": "high",
+        "reason": "Fluid dynamics and statistics expertise are necessary."
+      },
+      "significance": {
+        "rating": "high",
+        "reason": "The question concerns central transport statistics."
+      },
+      "verification_difficulty": {
+        "rating": "high",
+        "reason": "Closure validity and rare-event sampling are difficult."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "No model has been evaluated; tractability, novelty and resource needs remain uncertain.",
+    "assessment_date": "2026-10-20",
+    "model_scope": "No named model evaluated; assumes a tool-using assistant with source access and specialist human review.",
+    "evidence_refs": []
+  },
+  "judgments": {
+    "difficulty": {
+      "rating": "high",
+      "basis": "Moment closure, rare-event statistics and the high-Reynolds-number limit remain unresolved; fitting a finite dataset cannot remove those difficulties.",
+      "evidence": "editorial_estimate_not_measured"
+    },
+    "correctness": {
+      "status": "no_project_answer",
+      "basis": "Source curation only; no project answer or independent proof audit."
+    },
+    "novelty": {
+      "status": "not_assessed",
+      "basis": "Any proposed partial result requires its own literature check."
+    },
+    "significance": {
+      "rating": "high",
+      "basis": "A reliable theory would clarify extreme-event statistics relevant to dissipation, mixing and transport. Any improvement to reduced fluid models needs separate demonstration."
+    }
+  }
+}

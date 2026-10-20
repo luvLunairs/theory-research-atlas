@@ -6,7 +6,7 @@ Mathematical models and principles proposed for physical systems.
 
 **Boundary:** Derivation under assumptions is separate from empirical confirmation.
 
-**Research sources: 31 · Primary tasks: 26 · Full cards: 2 · Cross-linked tasks: 32.**
+**Research sources: 43 · Primary tasks: 30 · Full cards: 6 · Cross-linked tasks: 34.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -44,6 +44,10 @@ Mathematical models and principles proposed for physical systems.
 | [Cosmic no-hair beyond homogeneous or small-data models](../candidates/Q-MODEL-468.md) | Frontier | Literature-origin question | Unverified | Outline · Q-MODEL-468 |
 | [BKL locality for generic cosmological singularities](../candidates/Q-MODEL-469.md) | Frontier | Literature-origin question | Unverified | Outline · Q-MODEL-469 |
 | [The full Mixmaster past attractor for Bianchi IX](../candidates/Q-MODEL-470.md) | Frontier | Literature-origin question | Unverified | Outline · Q-MODEL-470 |
+| [Structured resonances and avalanche diagnostics in the quasiperiodic XXZ chain](../cards/Q-MODEL-491.md) | High | Literature-origin question | Source reports open | Full card · Q-MODEL-491 |
+| [Thermodynamic pairing order in the stripe regime of the square-lattice Hubbard model](../cards/Q-MODEL-494.md) | Frontier | Literature-origin question | Source reports open | Full card · Q-MODEL-494 |
+| [Nonlinear stationary axisymmetric tidal response of Kerr black holes](../cards/Q-MODEL-492.md) | High | Literature-origin question | Open after scoped check | Full card · Q-MODEL-492 |
+| [Predictive mixed longitudinal-transverse intermittency exponents](../cards/Q-MODEL-495.md) | High | Literature-origin question | Open after scoped check | Full card · Q-MODEL-495 |
 
 <a id="sources"></a>
 
@@ -88,6 +92,18 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [Black holes galore in D>4](../sources.md#src-model-611) | Research entry | 2025 |
 | [A CMC existence result for expanding cosmological spacetimes](../sources.md#src-model-612) | Research entry | 2024 |
 | [Proof the Spacetime Penrose Inequality](../sources.md#src-model-613) | Research entry | 2025 |
+| [Thermal avalanches in a quasiperiodic XXZ model](../sources.md#src-phys-001) | Research entry | 2026 |
+| [An asymptotically solvable model of many-body critical phases: mobility edges, scars, and inverted scars](../sources.md#src-phys-002) | Research entry | 2026 |
+| [Superconductivity in the two-dimensional Hubbard model revealed by neural quantum states](../sources.md#src-phys-003) | Research entry | 2025 |
+| [Superconductivity in the t-t' Hubbard Model from Symmetry-Preserving Neural-Network Quantum States](../sources.md#src-phys-004) | Research entry | 2026 |
+| [Topological Melting of Magnetic Stripes and the Emergence of Macroscopic d-wave Superconductivity in the 2D Hubbard Model](../sources.md#src-phys-005) | Research entry | 2026 |
+| [Love numbers of black holes and compact objects](../sources.md#src-phys-006) | Research entry | 2026 |
+| [The Vanishing of the Non-linear Static Love Number of Kerr Black Holes and the Role of Symmetries](../sources.md#src-phys-007) | Research entry | 2025 |
+| [Vanishing Love Numbers of Kerr-Newman Black Holes](../sources.md#src-phys-008) | Research entry | 2026 |
+| [Joint multifractal description of small-scale turbulence: Unifying longitudinal and transverse velocity intermittency](../sources.md#src-phys-009) | Research entry | 2026 |
+| [Turbulence intermittency and velocity gradients](../sources.md#src-phys-010) | Research entry | 2026 |
+| [A passive self-correcting quantum memory in three dimensions](../sources.md#src-phys-013) | Research entry | 2026 |
+| [A thermally and perturbatively stable classical spin model in two dimensions](../sources.md#src-phys-014) | Research entry | 2026 |
 
 <a id="branches"></a>
 
@@ -95,14 +111,14 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 
 | Branch | Primary tasks | Full cards | Next step |
 | --- | --- | --- | --- |
-| [Theoretical physics](#phys) | 26 | 2 | Extend coverage and review these cards |
+| [Theoretical physics](#phys) | 30 | 6 | Extend coverage and review these cards |
 | [Classical mechanics and continuum theory](#phys-classical) | 0 | 0 | Identify well-specified questions |
-| [Fluid and plasma theory](#phys-fluid) | 1 | 0 | Develop detailed problem cards |
+| [Fluid and plasma theory](#phys-fluid) | 2 | 1 | Extend coverage and review these cards |
 | [Quantum theory and foundations](#phys-quant) | 1 | 1 | Extend coverage and review these cards |
 | [Quantum field, particle and nuclear theory](#phys-field) | 4 | 0 | Develop detailed problem cards |
-| [Condensed matter and materials theory](#phys-cond) | 3 | 0 | Develop detailed problem cards |
+| [Condensed matter and materials theory](#phys-cond) | 5 | 2 | Extend coverage and review these cards |
 | [Statistical and nonequilibrium physics](#phys-stat) | 2 | 1 | Extend coverage and review these cards |
-| [Gravitation and spacetime theory](#phys-grav) | 15 | 0 | Develop detailed problem cards |
+| [Gravitation and spacetime theory](#phys-grav) | 16 | 1 | Extend coverage and review these cards |
 | [Optics, waves and atomic theory](#phys-optics) | 0 | 0 | Identify well-specified questions |
 
 Branch counts include descendants. Source links inside each branch below are direct mappings; umbrella sources remain available in the domain directory above.
@@ -197,11 +213,12 @@ Models for fluids, turbulence and charged media.
 
 **Representative objects:** Navier-Stokes, MHD, kinetic plasma models.
 
-**Direct source entries:** [David Tong: Lecture Notes](../sources.md#src-base-011), [Navier-Stokes Announcement](../sources.md#src-math-015), [Existence and Smoothness of the Navier-Stokes Equation](../sources.md#src-land-306), [Dynamo theories](../sources.md#src-model-309), [Strong and Weak Dynamo Regimes in Taylor-Couette Flows](../sources.md#src-model-310).
+**Direct source entries:** [David Tong: Lecture Notes](../sources.md#src-base-011), [Navier-Stokes Announcement](../sources.md#src-math-015), [Existence and Smoothness of the Navier-Stokes Equation](../sources.md#src-land-306), [Dynamo theories](../sources.md#src-model-309), [Strong and Weak Dynamo Regimes in Taylor-Couette Flows](../sources.md#src-model-310), [Joint multifractal description of small-scale turbulence: Unifying longitudinal and transverse velocity intermittency](../sources.md#src-phys-009), [Turbulence intermittency and velocity gradients](../sources.md#src-phys-010).
 
 **Primary tasks in this branch and its descendants**
 
 - [Asymptotic saturation of low-Prandtl small-scale dynamos](../candidates/Q-MODEL-314.md)
+- [Predictive mixed longitudinal-transverse intermittency exponents](../cards/Q-MODEL-495.md)
 
 **Additional cross-linked tasks**
 
@@ -270,6 +287,9 @@ Quantum dynamics, measurement models and foundational constraints.
 - [Semiclassical inverse spectra for non-self-adjoint symbols](../candidates/Q-MODEL-415.md)
 - [Critical versus subcritical heat-kernel decay](../candidates/Q-MODEL-416.md)
 - [Multiplicity defect for complex periodic Schrödinger potentials](../candidates/Q-MODEL-417.md)
+- [Structured resonances and avalanche diagnostics in the quasiperiodic XXZ chain](../cards/Q-MODEL-491.md)
+- [Thermodynamic pairing order in the stripe regime of the square-lattice Hubbard model](../cards/Q-MODEL-494.md)
+- [Three-copy undistillability of the Werner endpoint](../cards/Q-MODEL-493.md)
 
 [Back to domain tasks](#tasks) · [Branch guide](#branches)
 
@@ -354,13 +374,15 @@ Collective phases and excitations of many-body matter.
 
 **Representative objects:** lattice systems, topological phases, transport.
 
-**Direct source entries:** [David Tong: Lecture Notes](../sources.md#src-base-011), [Predictive Power of the Exact Constraints and Appropriate Norms in Density Functional Theory](../sources.md#src-model-009), [Many-Body Localization in the Age of Classical Computing](../sources.md#src-model-307), [Many-body localization for the random XXZ spin chain in fixed energy intervals](../sources.md#src-model-308), [Anomalous transport in U(1)-symmetric quantum circuits](../sources.md#src-model-320).
+**Direct source entries:** [David Tong: Lecture Notes](../sources.md#src-base-011), [Predictive Power of the Exact Constraints and Appropriate Norms in Density Functional Theory](../sources.md#src-model-009), [Many-Body Localization in the Age of Classical Computing](../sources.md#src-model-307), [Many-body localization for the random XXZ spin chain in fixed energy intervals](../sources.md#src-model-308), [Anomalous transport in U(1)-symmetric quantum circuits](../sources.md#src-model-320), [Thermal avalanches in a quasiperiodic XXZ model](../sources.md#src-phys-001), [An asymptotically solvable model of many-body critical phases: mobility edges, scars, and inverted scars](../sources.md#src-phys-002), [Superconductivity in the two-dimensional Hubbard model revealed by neural quantum states](../sources.md#src-phys-003), [Superconductivity in the t-t' Hubbard Model from Symmetry-Preserving Neural-Network Quantum States](../sources.md#src-phys-004), [Topological Melting of Magnetic Stripes and the Emergence of Macroscopic d-wave Superconductivity in the 2D Hubbard Model](../sources.md#src-phys-005).
 
 **Primary tasks in this branch and its descendants**
 
 - [A finite-energy-density many-body localized phase in the random-field XXZ chain](../candidates/Q-MODEL-310.md)
 - [Does failure of thermalization imply local integrals of motion?](../candidates/Q-MODEL-311.md)
 - [Microscopic validity of avalanche descriptions of the localization transition](../candidates/Q-MODEL-313.md)
+- [Structured resonances and avalanche diagnostics in the quasiperiodic XXZ chain](../cards/Q-MODEL-491.md)
+- [Thermodynamic pairing order in the stripe regime of the square-lattice Hubbard model](../cards/Q-MODEL-494.md)
 
 **Additional cross-linked tasks**
 
@@ -399,7 +421,7 @@ Macroscopic behavior from microscopic models.
 
 **Representative objects:** ensembles, phase transitions, entropy production.
 
-**Direct source entries:** [David Tong: Lecture Notes](../sources.md#src-base-011), [Statistical Mechanics of Lattice Systems: The Ising Model](../sources.md#src-math-103), [Lecture 14: Applications in Statistical Mechanics](../sources.md#src-model-105), [Kinetic Theory: Stochastic Processes](../sources.md#src-model-106), [Many-Body Localization in the Age of Classical Computing](../sources.md#src-model-307), [Anomalous transport in U(1)-symmetric quantum circuits](../sources.md#src-model-320).
+**Direct source entries:** [David Tong: Lecture Notes](../sources.md#src-base-011), [Statistical Mechanics of Lattice Systems: The Ising Model](../sources.md#src-math-103), [Lecture 14: Applications in Statistical Mechanics](../sources.md#src-model-105), [Kinetic Theory: Stochastic Processes](../sources.md#src-model-106), [Many-Body Localization in the Age of Classical Computing](../sources.md#src-model-307), [Anomalous transport in U(1)-symmetric quantum circuits](../sources.md#src-model-320), [Thermal avalanches in a quasiperiodic XXZ model](../sources.md#src-phys-001), [An asymptotically solvable model of many-body critical phases: mobility edges, scars, and inverted scars](../sources.md#src-phys-002), [Superconductivity in the two-dimensional Hubbard model revealed by neural quantum states](../sources.md#src-phys-003), [Superconductivity in the t-t' Hubbard Model from Symmetry-Preserving Neural-Network Quantum States](../sources.md#src-phys-004), [Topological Melting of Magnetic Stripes and the Emergence of Macroscopic d-wave Superconductivity in the 2D Hubbard Model](../sources.md#src-phys-005), [Joint multifractal description of small-scale turbulence: Unifying longitudinal and transverse velocity intermittency](../sources.md#src-phys-009), [Turbulence intermittency and velocity gradients](../sources.md#src-phys-010), [A passive self-correcting quantum memory in three dimensions](../sources.md#src-phys-013), [A thermally and perturbatively stable classical spin model in two dimensions](../sources.md#src-phys-014).
 
 **Primary tasks in this branch and its descendants**
 
@@ -412,6 +434,10 @@ Macroscopic behavior from microscopic models.
 - [Verify equilibrium for an overdamped quartic potential](../candidates/Q-MODEL-106.md)
 - [A finite-energy-density many-body localized phase in the random-field XXZ chain](../candidates/Q-MODEL-310.md)
 - [Microscopic validity of avalanche descriptions of the localization transition](../candidates/Q-MODEL-313.md)
+- [Structured resonances and avalanche diagnostics in the quasiperiodic XXZ chain](../cards/Q-MODEL-491.md)
+- [Thermodynamic pairing order in the stripe regime of the square-lattice Hubbard model](../cards/Q-MODEL-494.md)
+- [Predictive mixed longitudinal-transverse intermittency exponents](../cards/Q-MODEL-495.md)
+- [Efficient passive initialization of a three-dimensional quantum memory](../cards/Q-MODEL-496.md)
 
 [Back to domain tasks](#tasks) · [Branch guide](#branches)
 
@@ -446,7 +472,7 @@ Geometric and field models of gravitating systems.
 
 **Representative objects:** Einstein equations, horizons, perturbations.
 
-**Direct source entries:** [David Tong: Lecture Notes](../sources.md#src-base-011), [Lectures on the Cosmological Constant Problem](../sources.md#src-model-017), [Dark Energy](../sources.md#src-model-315), [Mathematical General Relativity](../sources.md#src-model-405), [Nonlinear stability of subextremal Kerr black holes](../sources.md#src-model-411), [Cosmology, the big bang and the BKL conjecture](../sources.md#src-model-610), [Black holes galore in D>4](../sources.md#src-model-611), [A CMC existence result for expanding cosmological spacetimes](../sources.md#src-model-612), [Proof the Spacetime Penrose Inequality](../sources.md#src-model-613).
+**Direct source entries:** [David Tong: Lecture Notes](../sources.md#src-base-011), [Lectures on the Cosmological Constant Problem](../sources.md#src-model-017), [Dark Energy](../sources.md#src-model-315), [Mathematical General Relativity](../sources.md#src-model-405), [Nonlinear stability of subextremal Kerr black holes](../sources.md#src-model-411), [Cosmology, the big bang and the BKL conjecture](../sources.md#src-model-610), [Black holes galore in D>4](../sources.md#src-model-611), [A CMC existence result for expanding cosmological spacetimes](../sources.md#src-model-612), [Proof the Spacetime Penrose Inequality](../sources.md#src-model-613), [Love numbers of black holes and compact objects](../sources.md#src-phys-006), [The Vanishing of the Non-linear Static Love Number of Kerr Black Holes and the Role of Symmetries](../sources.md#src-phys-007), [Vanishing Love Numbers of Kerr-Newman Black Holes](../sources.md#src-phys-008).
 
 **Primary tasks in this branch and its descendants**
 
@@ -465,6 +491,7 @@ Geometric and field models of gravitating systems.
 - [Cosmic no-hair beyond homogeneous or small-data models](../candidates/Q-MODEL-468.md)
 - [BKL locality for generic cosmological singularities](../candidates/Q-MODEL-469.md)
 - [The full Mixmaster past attractor for Bianchi IX](../candidates/Q-MODEL-470.md)
+- [Nonlinear stationary axisymmetric tidal response of Kerr black holes](../cards/Q-MODEL-492.md)
 
 **Additional cross-linked tasks**
 
@@ -575,5 +602,7 @@ These retain their primary record in another domain and are not added to this do
 | [Semiclassical inverse spectra for non-self-adjoint symbols](../candidates/Q-MODEL-415.md) | High | Literature-origin question | Unverified | Outline · Q-MODEL-415 |
 | [Critical versus subcritical heat-kernel decay](../candidates/Q-MODEL-416.md) | High | Literature-origin question | Unverified | Outline · Q-MODEL-416 |
 | [Multiplicity defect for complex periodic Schrödinger potentials](../candidates/Q-MODEL-417.md) | High | Literature-origin question | Unverified | Outline · Q-MODEL-417 |
+| [Three-copy undistillability of the Werner endpoint](../cards/Q-MODEL-493.md) | High | Literature-origin question | Source reports open | Full card · Q-MODEL-493 |
+| [Efficient passive initialization of a three-dimensional quantum memory](../cards/Q-MODEL-496.md) | High | Literature-origin question | Source reports open | Full card · Q-MODEL-496 |
 
 [Back to all domains](../README.md) · [Full outline](../taxonomy.md) · [Coverage gaps](../coverage.md)

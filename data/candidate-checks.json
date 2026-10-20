@@ -206,12 +206,13 @@
   {
     "problem_id": "Q-FORMAL-010",
     "statement_check": "source_located",
-    "status_check": "source_report_only",
-    "source_date_note": "Recorded source years: SRC-FORMAL-007: 2014. The last-checked date records the scope described in the status basis; it is not a comprehensive literature-search date.",
+    "status_check": "later_literature_checked",
+    "source_date_note": "Survey from 2014; 2026 conference papers and the September 2026 depth-four note inspected on 20 October 2026. Computational conventions checked against the 2013 thesis and the 2023 Theory of Computing paper.",
     "missing_information": [
-      "Specify the assumptions, candidate methods, resource requirements and independent verification steps for a concrete research task."
+      "A focused current-status check for any chosen restricted class, including the suggested read-five specialization.",
+      "Independent review of source proofs and any later proposed algorithm."
     ],
-    "scope_note": "The statement and locator identify the candidate. A full assumption set and verification protocol remain to be documented."
+    "scope_note": "The canonical entry now specifies binary-encoded rational circuits of polynomial formal degree and polynomial bit complexity. Restricted results retain their own models; read-five status is not asserted."
   },
   {
     "problem_id": "Q-FORMAL-011",
@@ -282,12 +283,13 @@
   {
     "problem_id": "Q-MODEL-005",
     "statement_check": "source_located",
-    "status_check": "source_report_only",
-    "source_date_note": "Recorded source years: SRC-MODEL-018: 2022, SRC-MODEL-019: 2026. The last-checked date records the scope described in the status basis; it is not a comprehensive literature-search date.",
+    "status_check": "later_literature_checked",
+    "source_date_note": "Original question: 2022. The update inspected the 5 October 2026 Fu–Gao–Park revision, the July three-copy paper and the 4 October qutrit candidate description.",
     "missing_information": [
-      "Specify the assumptions, candidate methods, resource requirements and independent verification steps for a concrete research task."
+      "Independent specialist review of recent finite-copy proofs and claims.",
+      "A concrete all-copy approach, with resource and verification requirements."
     ],
-    "scope_note": "The statement and locator identify the candidate. A full assumption set and verification protocol remain to be documented."
+    "scope_note": "The target requires one fixed NPT state to remain undistillable for every finite copy number. Q-MODEL-493 records a three-copy endpoint question; proving it would not resolve the all-copy target."
   },
   {
     "problem_id": "Q-MODEL-006",
@@ -878,12 +880,14 @@
   {
     "problem_id": "Q-MODEL-204",
     "statement_check": "source_located",
-    "status_check": "source_report_only",
-    "source_date_note": "Recorded source years: SRC-MODEL-204: 2025, SRC-MODEL-202: 2026. The last-checked date records the scope described in the status basis; it is not a comprehensive literature-search date.",
+    "status_check": "later_literature_checked",
+    "source_date_note": "Versions and date limitations are recorded in the source catalog. Relevant passages were opened on 2026-10-20.",
     "missing_information": [
-      "Specify the assumptions, candidate methods, resource requirements and independent verification steps for a concrete research task."
+      "Refresh the literature before selecting a special case or claiming novelty.",
+      "Clarify the inconsistent manuscript and repository dates for arXiv:2610.00122v1.",
+      "Independently audit any source theorem used in a new proof."
     ],
-    "scope_note": "The statement and locator identify the candidate. A full assumption set and verification protocol remain to be documented."
+    "scope_note": "Exact EFX together with integral Pareto optimality. EFX alone is established. Efficient computation is a further question if simultaneous existence holds; no restriction to a selected number of agents or ratio range is imposed here."
   },
   {
     "problem_id": "Q-MODEL-206",
@@ -1550,12 +1554,14 @@
   {
     "problem_id": "Q-FORMAL-328",
     "statement_check": "source_located",
-    "status_check": "source_report_only",
-    "source_date_note": "Recorded source years: SRC-FORMAL-318: 2026. The last-checked date records the scope described in the status basis; it is not a comprehensive literature-search date.",
+    "status_check": "later_literature_checked",
+    "source_date_note": "Primary sources and maintained records inspected on 2026-10-20; publication and revision dates are recorded in the source entries.",
     "missing_information": [
-      "Specify the assumptions, candidate methods, resource requirements and independent verification steps for a concrete research task."
+      "Independent scrutiny of the recent preprint and complete numerical replay.",
+      "Actual availability and reuse permission for all external proof inputs.",
+      "A fresh check of precise bounds before reporting an improvement."
     ],
-    "scope_note": "The statement and locator identify the candidate. A full assumption set and verification protocol remain to be documented."
+    "scope_note": "Retains the canonical question for C(d). The source's d=1/2 case is a bounded entry point; improvement there is partial progress, not the exact capacity function."
   },
   {
     "problem_id": "Q-FORMAL-329",
@@ -5807,5 +5813,98 @@
       "Only the recorded search terms were covered; later results, different terminology, corrections and exact-scope resolutions may have been missed."
     ],
     "scope_note": "The target is a mathematical characterization or construction under the source's conservation and thermodynamic definitions. Stoichiometric consistency and molecular-graph realizability do not guarantee stable molecules or experimentally realizable reactions. Formal conservation and thermodynamic bookkeeping do not establish the physical feasibility of a reaction."
+  },
+  {
+    "problem_id": "Q-MODEL-491",
+    "statement_check": "source_located",
+    "status_check": "later_literature_checked",
+    "source_date_note": "Primary version and later inspected evidence are dated in the source records; checked on 2026-10-20.",
+    "missing_information": [
+      "Independent reproduction and confirmation of boundary conditions",
+      "Raw-data and code availability",
+      "A focused novelty check for the exact mechanism or parameter regime selected."
+    ],
+    "scope_note": "The source's quantitative mechanism question. It is not the general existence problem for many-body localization."
+  },
+  {
+    "problem_id": "Q-MODEL-494",
+    "statement_check": "source_located",
+    "status_check": "later_literature_checked",
+    "source_date_note": "Primary version and later inspected evidence are dated in the source records; checked on 2026-10-20.",
+    "missing_information": [
+      "Independent reproduction",
+      "Raw-data and software availability",
+      "Completeness of later literature and parameter matching"
+    ],
+    "scope_note": "Pairing in the source's strong-coupling stripe regime, not a complete phase diagram or a claim about every cuprate."
+  },
+  {
+    "problem_id": "Q-MODEL-492",
+    "statement_check": "source_located",
+    "status_check": "later_literature_checked",
+    "source_date_note": "Sources and relevant later publications were inspected on 2026-10-20; this is a bounded literature check.",
+    "missing_information": [
+      "Select a finite tidal order and multipole sector; this narrowing is Curator-proposed; pending review.",
+      "Check subsequent literature for that exact sector before claiming novelty."
+    ],
+    "scope_note": "The literature gap is multipolar nonlinear response and EFT matching, not the already-studied linear Kerr response."
+  },
+  {
+    "problem_id": "Q-MODEL-495",
+    "statement_check": "source_located",
+    "status_check": "later_literature_checked",
+    "source_date_note": "Sources and relevant later publications were inspected on 2026-10-20; this is a bounded literature check.",
+    "missing_information": [
+      "Confirm access, rights and suitability of any validation data.",
+      "A low-order subproblem is Curator-proposed; pending review and a focused novelty check."
+    ],
+    "scope_note": "A statistical prediction problem for mixed velocity increments and gradients; not a proof of Navier-Stokes global regularity."
+  },
+  {
+    "problem_id": "Q-MODEL-493",
+    "statement_check": "source_located",
+    "status_check": "later_literature_checked",
+    "source_date_note": "Wu and Zou, Section 1.1, equations (1)-(3); Fu, Gao and Park, Section 4; Zenodo candidate description. Source versions and dates appear in the source catalog.",
+    "missing_information": [
+      "Audit the recent sector proofs.",
+      "Inspect the d=3 candidate and its certificate.",
+      "Refresh later literature before research or submission."
+    ],
+    "scope_note": "The target quantifies over every d >= 3. A d=4 study is Curator-proposed; pending review. Its novelty requires a separate check, and a positive answer there is only partial progress."
+  },
+  {
+    "problem_id": "Q-MODEL-496",
+    "statement_check": "source_located",
+    "status_check": "later_literature_checked",
+    "source_date_note": "Balasubramanian, Davydova and Lin, Section 1.3, item 2; later classical result, abstract and Section 1. Source versions and dates appear in the source catalog.",
+    "missing_information": [
+      "Choose a precise efficiency target and permitted controls.",
+      "Audit dependencies in the memory theorem before using them.",
+      "Search for subsequent initialization results and compare their models."
+    ],
+    "scope_note": "The logical-zero preparation route explicitly discussed in the source. The open direction does not prescribe a unique efficiency threshold. Define input preparation, allowed controls and an error metric before an attempt; preparing arbitrary unknown logical states is a further claim."
+  },
+  {
+    "problem_id": "Q-FORMAL-510",
+    "statement_check": "source_located",
+    "status_check": "later_literature_checked",
+    "source_date_note": "Versions and date limitations are recorded in the source catalog. Relevant passages were opened on 2026-10-20.",
+    "missing_information": [
+      "Independent audit of the latest lower-bound proof.",
+      "Refresh later literature for the exact setting before making a novelty claim."
+    ],
+    "scope_note": "Two related rates are recorded together to prevent conflation. A known-horizon schedule may depend on N; an anytime schedule cannot depend on its future stopping time. Quadratic-only or stochastic-gradient results answer different questions."
+  },
+  {
+    "problem_id": "Q-FORMAL-511",
+    "statement_check": "source_located",
+    "status_check": "later_literature_checked",
+    "source_date_note": "Primary sources and maintained records inspected on 2026-10-20; publication and revision dates are recorded in the source entries.",
+    "missing_information": [
+      "Independent verification of any imported baseline coefficient files.",
+      "A fresh literature and catalog check before claiming a new record.",
+      "Exact recovery and field validation for any future numerical candidate."
+    ],
+    "scope_note": "The fixed-size exact tensor problem. It does not ask for the general matrix-multiplication exponent or a claim of hardware speedup."
   }
 ]

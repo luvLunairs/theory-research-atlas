@@ -4,20 +4,20 @@
 
 Each check records what was read, which formulation was compared, and what remains uncertain. A statement-only check does not establish present-day open status. A reported resolution is attributed to its source; it does not mean this project has independently verified the proof. Human review remains separate.
 
-**365 distinct questions · 376 dated literature checks.** Latest-check counts appear below; earlier findings remain in each question's history.
+**377 distinct questions · 388 dated literature checks.** Latest-check counts appear below; earlier findings remain in each question's history.
 
 | Latest check coverage | Questions |
 | --- | --- |
-| Statement and later literature | 93 |
+| Statement and later literature | 105 |
 | Statement only | 266 |
 | Access limited | 6 |
 
 | Resulting evidence status | Questions |
 | --- | --- |
 | Disproved | 1 |
-| Open after scoped check | 3 |
+| Open after scoped check | 5 |
 | Reported resolved | 5 |
-| Source reports open | 125 |
+| Source reports open | 135 |
 | Unverified | 231 |
 
 ## Resolutions and counterexamples to review
@@ -39,6 +39,7 @@ Read the source comparison before reusing these formulations.
 
 | Question | Date | Scope of correction |
 | --- | --- | --- |
+| [Q-FORMAL-010](candidates/Q-FORMAL-010.md#literature-checks) | 2026-10-20 | Retain the canonical ID and source-reported open status, with a precise polynomial bit-time target and formal-degree promise. Unit-cost large-rational operations are not an equivalent formulation. No standalone source-stated read-five question was established. |
 | [Q-MODEL-445](candidates/Q-MODEL-445.md#literature-checks) | 2026-10-15 | The classification applies to the stated parallel model and voting rules, with first-phase MES distinguished from completion by sequential Phragmén. |
 | [Q-FORMAL-466](candidates/Q-FORMAL-466.md#literature-checks) | 2026-10-15 | Czajka proves confluence for CL-pc1 with the listed rules and the convertibility condition. The unconditional and symmetric conditional systems are different targets. |
 | [Q-FORMAL-409](candidates/Q-FORMAL-409.md#literature-checks) | 2026-10-15 | The hardness result counts endpoint contacts. Polygon triangulations, Steiner vertices and approximation guarantees define separate problems. |
@@ -164,6 +165,7 @@ Read the source comparison before reusing these formulations.
 | [Q-MATH-523 · Closed hyperbolic surface subgroups in right-angled Artin groups](candidates/Q-MATH-523.md#literature-checks) | 2026-10-14 | Statement only | Matched | Source reports open |
 | [Q-MATH-524 · Rational stable commutator length in closed surface groups](candidates/Q-MATH-524.md#literature-checks) | 2026-10-14 | Statement only | Matched | Source reports open |
 | [Q-MATH-525 · Groups with sharp regularity thresholds for surface actions](candidates/Q-MATH-525.md#literature-checks) | 2026-10-14 | Statement only | Matched | Source reports open |
+| [Q-FORMAL-510 · Optimal acceleration from predetermined gradient-descent stepsizes](candidates/Q-FORMAL-510.md#literature-checks) | 2026-10-20 | Statement and later literature | Matched | Source reports open |
 
 ## Logic and foundations
 
@@ -186,6 +188,7 @@ Read the source comparison before reusing these formulations.
 
 | Question and evidence | Date | Coverage | Statement | Status |
 | --- | --- | --- | --- | --- |
+| [Q-FORMAL-010 · Deterministic polynomial-time identity testing for general arithmetic circuits](candidates/Q-FORMAL-010.md#literature-checks) | 2026-10-20 | Statement and later literature | Corrected | Source reports open |
 | [Q-FORMAL-401 · Voronoi diagrams of lines in three dimensions](candidates/Q-FORMAL-401.md#literature-checks) | 2026-10-14 | Statement only | Matched | Unverified |
 | [Q-FORMAL-402 · Near-linear exact Euclidean minimum spanning trees in fixed dimension](candidates/Q-FORMAL-402.md#literature-checks) | 2026-10-14 | Statement only | Matched | Unverified |
 | [Q-FORMAL-403 · Optimal complexity of exact planar Euclidean matching](candidates/Q-FORMAL-403.md#literature-checks) | 2026-10-14 | Statement only | Matched | Unverified |
@@ -266,6 +269,7 @@ Read the source comparison before reusing these formulations.
 | [Q-FORMAL-503 · Partial-Maltsev SAT below meet-in-the-middle](candidates/Q-FORMAL-503.md#literature-checks) | 2026-10-14 | Statement only | Matched | Unverified |
 | [Q-FORMAL-504 · Linear nonredundancy of constraint languages](candidates/Q-FORMAL-504.md#literature-checks) | 2026-10-14 | Statement only | Matched | Unverified |
 | [Q-FORMAL-505 · Polynomial kernels for Boolean MinCSP](candidates/Q-FORMAL-505.md#literature-checks) | 2026-10-14 | Statement only | Matched | Unverified |
+| [Q-FORMAL-511 · A rank-47 decomposition for 4x4 matrix multiplication in characteristic zero](candidates/Q-FORMAL-511.md#literature-checks) | 2026-10-20 | Statement and later literature | Matched | Source reports open |
 
 ## Probability theory
 
@@ -309,7 +313,9 @@ Read the source comparison before reusing these formulations.
 | Question and evidence | Date | Coverage | Statement | Status |
 | --- | --- | --- | --- | --- |
 | [Q-FORMAL-003 · Build a bounded exact copy-lemma certificate census](candidates/Q-FORMAL-003.md#literature-checks) | 2026-10-14 | Statement and later literature | Matched | Unverified |
+| [Q-MODEL-005 · NPT bound entanglement](candidates/Q-MODEL-005.md#literature-checks) | 2026-10-20 | Statement and later literature | Matched | Source reports open |
 | [Q-MODEL-006 · Two-copy distillability of the two-ququart Werner boundary state](candidates/Q-MODEL-006.md#literature-checks) | 2026-10-14 | Statement and later literature | Matched | Unverified |
+| [Q-FORMAL-328 · Exact capacity of the independent binary deletion channel](candidates/Q-FORMAL-328.md#literature-checks) | 2026-10-20 | Statement and later literature | Matched | Source reports open |
 | [Q-FORMAL-449 · Local-to-global tensorization](candidates/Q-FORMAL-449.md#literature-checks) | 2026-10-17 | Statement only | Needs clarification | Unverified |
 | [Q-FORMAL-450 · Source coding with information masking](candidates/Q-FORMAL-450.md#literature-checks) | 2026-10-14 | Statement only | Needs clarification | Unverified |
 | [Q-FORMAL-451 · Binary-source distributed testing](candidates/Q-FORMAL-451.md#literature-checks) | 2026-10-14 | Statement only | Needs clarification | Unverified |
@@ -320,6 +326,8 @@ Read the source comparison before reusing these formulations.
 | [Q-FORMAL-456 · General broadcast-channel capacity](candidates/Q-FORMAL-456.md#literature-checks) | 2026-10-14 | Statement only | Matched | Unverified |
 | [Q-FORMAL-457 · General relay-channel capacity](candidates/Q-FORMAL-457.md#literature-checks) | 2026-10-14 | Statement only | Matched | Unverified |
 | [Q-FORMAL-458 · Exact Gaussian interference-channel capacity](candidates/Q-FORMAL-458.md#literature-checks) | 2026-10-14 | Statement and later literature | Matched | Unverified |
+| [Q-MODEL-493 · Three-copy undistillability of the Werner endpoint](candidates/Q-MODEL-493.md#literature-checks) | 2026-10-20 | Statement and later literature | Matched | Source reports open |
+| [Q-MODEL-496 · Efficient passive initialization of a three-dimensional quantum memory](candidates/Q-MODEL-496.md#literature-checks) | 2026-10-20 | Statement and later literature | Matched | Source reports open |
 
 ## Theoretical physics
 
@@ -340,6 +348,10 @@ Read the source comparison before reusing these formulations.
 | [Q-MODEL-468 · Cosmic no-hair beyond homogeneous or small-data models](candidates/Q-MODEL-468.md#literature-checks) | 2026-10-14 | Statement and later literature | Needs clarification | Unverified |
 | [Q-MODEL-469 · BKL locality for generic cosmological singularities](candidates/Q-MODEL-469.md#literature-checks) | 2026-10-14 | Statement and later literature | Needs clarification | Unverified |
 | [Q-MODEL-470 · The full Mixmaster past attractor for Bianchi IX](candidates/Q-MODEL-470.md#literature-checks) | 2026-10-14 | Statement and later literature | Needs clarification | Unverified |
+| [Q-MODEL-491 · Structured resonances and avalanche diagnostics in the quasiperiodic XXZ chain](candidates/Q-MODEL-491.md#literature-checks) | 2026-10-20 | Statement and later literature | Matched | Source reports open |
+| [Q-MODEL-494 · Thermodynamic pairing order in the stripe regime of the square-lattice Hubbard model](candidates/Q-MODEL-494.md#literature-checks) | 2026-10-20 | Statement and later literature | Matched | Source reports open |
+| [Q-MODEL-492 · Nonlinear stationary axisymmetric tidal response of Kerr black holes](candidates/Q-MODEL-492.md#literature-checks) | 2026-10-20 | Statement and later literature | Matched | Open after scoped check |
+| [Q-MODEL-495 · Predictive mixed longitudinal-transverse intermittency exponents](candidates/Q-MODEL-495.md#literature-checks) | 2026-10-20 | Statement and later literature | Matched | Open after scoped check |
 
 ## Mathematical physics
 
@@ -413,6 +425,7 @@ Read the source comparison before reusing these formulations.
 
 | Question and evidence | Date | Coverage | Statement | Status |
 | --- | --- | --- | --- | --- |
+| [Q-MODEL-204 · EFX and Pareto optimality for personalized bi-valued goods](candidates/Q-MODEL-204.md#literature-checks) | 2026-10-20 | Statement and later literature | Matched | Source reports open |
 | [Q-MODEL-433 · Nonempty core in approval-based committee elections](candidates/Q-MODEL-433.md#literature-checks) | 2026-10-14 | Statement and later literature | Matched | Unverified |
 | [Q-MODEL-434 · Polynomial-time full justified representation](candidates/Q-MODEL-434.md#literature-checks) | 2026-10-14 | Statement and later literature | Matched | Unverified |
 | [Q-MODEL-435 · Efficient proportional and Pareto-optimal committees](candidates/Q-MODEL-435.md#literature-checks) | 2026-10-14 | Statement and later literature | Needs clarification | Unverified |

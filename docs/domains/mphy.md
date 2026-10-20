@@ -6,7 +6,7 @@ Rigorous analysis of structures and models motivated by physics.
 
 **Boundary:** Primary placement follows the theorem target; physics relevance is cross-linked.
 
-**Research sources: 11 · Primary tasks: 19 · Full cards: 1 · Cross-linked tasks: 40.**
+**Research sources: 14 · Primary tasks: 19 · Full cards: 1 · Cross-linked tasks: 41.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -61,6 +61,9 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [Systems of Dilated Functions: completeness, minimality, basisness](../sources.md#src-model-608) | Research entry | 2016 |
 | [Pseudomodes for Schrödinger operators with complex potentials](../sources.md#src-model-609) | Research entry | 2019 |
 | [A proof of the Davies–Levitin lens conjecture for the indefinite tridiagonal pencil](../sources.md#src-model-618) | Research entry | 2026 |
+| [Love numbers of black holes and compact objects](../sources.md#src-phys-006) | Research entry | 2026 |
+| [The Vanishing of the Non-linear Static Love Number of Kerr Black Holes and the Role of Symmetries](../sources.md#src-phys-007) | Research entry | 2025 |
+| [Vanishing Love Numbers of Kerr-Newman Black Holes](../sources.md#src-phys-008) | Research entry | 2026 |
 
 <a id="branches"></a>
 
@@ -86,7 +89,7 @@ Rigorous analysis of structures and models motivated by physics.
 
 **Representative objects:** operators, measures, Hamiltonians.
 
-**Direct source entries:** [About PhySH](../sources.md#src-base-002), [arXiv Category Taxonomy](../sources.md#src-base-005), [PhySH: Physics Subject Headings](../sources.md#src-model-001), [Mathematics Subject Classification 2020: classification list](../sources.md#src-base-015).
+**Direct source entries:** [About PhySH](../sources.md#src-base-002), [arXiv Category Taxonomy](../sources.md#src-base-005), [PhySH: Physics Subject Headings](../sources.md#src-model-001), [Mathematics Subject Classification 2020: classification list](../sources.md#src-base-015), [Love numbers of black holes and compact objects](../sources.md#src-phys-006), [The Vanishing of the Non-linear Static Love Number of Kerr Black Holes and the Role of Symmetries](../sources.md#src-phys-007), [Vanishing Love Numbers of Kerr-Newman Black Holes](../sources.md#src-phys-008).
 
 [View all primary tasks](#tasks) · [View cross-domain tasks](#cross-domain-tasks)
 
@@ -377,5 +380,6 @@ These retain their primary record in another domain and are not added to this do
 | [Cosmic no-hair beyond homogeneous or small-data models](../candidates/Q-MODEL-468.md) | Frontier | Literature-origin question | Unverified | Outline · Q-MODEL-468 |
 | [BKL locality for generic cosmological singularities](../candidates/Q-MODEL-469.md) | Frontier | Literature-origin question | Unverified | Outline · Q-MODEL-469 |
 | [The full Mixmaster past attractor for Bianchi IX](../candidates/Q-MODEL-470.md) | Frontier | Literature-origin question | Unverified | Outline · Q-MODEL-470 |
+| [Nonlinear stationary axisymmetric tidal response of Kerr black holes](../cards/Q-MODEL-492.md) | High | Literature-origin question | Open after scoped check | Full card · Q-MODEL-492 |
 
 [Back to all domains](../README.md) · [Full outline](../taxonomy.md) · [Coverage gaps](../coverage.md)

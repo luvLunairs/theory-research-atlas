@@ -44,9 +44,10 @@
   {
     "area": "Optimization and real algebraic geometry",
     "note": {
-      "coverage": "Finite constructions, control design and selected convex and nonconvex optimization questions connect symbolic and numerical methods.",
+      "coverage": "Finite constructions, control design and selected convex and nonconvex optimization questions connect symbolic and numerical methods. A detailed card covers sharp stepsize-only gradient-descent rates, separating known-horizon schedules from anytime guarantees.",
       "gaps": "Polynomial optimization hierarchies, real algebraic geometry and global-complexity bounds need dedicated problem collections.",
-      "reason": "A local optimum, a numerical objective and a certified global bound are separate results."
+      "reason": "A local optimum, a numerical objective and a certified global bound are separate results.",
+      "status_limits": "Acceleration beyond the constant-stepsize rate is already known; the indexed target is the remaining sharp-rate gap under fixed assumptions."
     }
   },
   {
@@ -60,9 +61,10 @@
   {
     "area": "Theoretical computer science",
     "note": {
-      "coverage": "Complexity, computational geometry, algorithms, formal methods, rewriting and learning theory have individual candidates. Historical geometric and rewriting collections need checks for later resolutions; the absence of a solved marker is insufficient.",
+      "coverage": "Complexity, computational geometry, algorithms, formal methods, rewriting and learning theory have individual candidates. Historical geometric and rewriting collections need checks for later resolutions; the absence of a solved marker is insufficient. Detailed cards cover exact 4x4 matrix-multiplication rank and general commutative polynomial identity testing.",
       "gaps": "Cryptographic assumptions, distributed computation, fine-grained complexity and parameterized algorithms need broader specialist review.",
-      "reason": "Input encoding, arithmetic model, randomness, approximation and worst-case versus amortized guarantees are part of the statement."
+      "reason": "Input encoding, arithmetic model, randomness, approximation and worst-case versus amortized guarantees are part of the statement.",
+      "status_limits": "Characteristic-two rank, border rank and exact characteristic-zero rank are different targets. Read-four identity testing is a known result; the status of a proposed read-five specialization remains unchecked."
     }
   },
   {
@@ -92,9 +94,10 @@
   {
     "area": "Information theory",
     "note": {
-      "coverage": "Coding, entropy inequalities, source coding, distributed testing and channel-capacity questions have individual records and source locations.",
+      "coverage": "Coding, entropy inequalities, source coding, distributed testing and channel-capacity questions have individual records and source locations. The deletion-channel capacity card includes the d=1/2 benchmark and the provenance of the reported 2026 enclosure.",
       "gaps": "Network information theory, finite-blocklength analysis and source coding still need broader extraction and detailed cards.",
-      "reason": "Channel assumptions, blocklength limits and allowed encoders determine whether a claimed bound addresses the target."
+      "reason": "Channel assumptions, blocklength limits and allowed encoders determine whether a claimed bound addresses the target.",
+      "status_limits": "The latest inspected bounds are preprint claims. Complete numerical replay depends on large proof inputs whose availability is unresolved; this project has not run the certificates."
     }
   },
   {
@@ -108,16 +111,20 @@
   {
     "area": "Quantum foundations and quantum information",
     "note": {
-      "coverage": "Bell-correlation calibration and research candidates on entanglement, distillability and mutually unbiased bases.",
+      "coverage": "Bell-correlation calibrations and entanglement candidates now include detailed cards for the three-copy Werner endpoint and initialization of a specified 3D passive quantum memory.",
       "source_ids": [
         "SRC-MODEL-001",
         "SRC-MODEL-002",
         "SRC-MODEL-004",
         "SRC-MODEL-018",
-        "SRC-MODEL-019"
+        "SRC-MODEL-019",
+        "SRC-PHYS-011",
+        "SRC-PHYS-012",
+        "SRC-PHYS-013",
+        "SRC-PHYS-014"
       ],
       "scope": "Bell correlations, entanglement and finite-dimensional quantum structures.",
-      "remaining": "Quantum channels, fault tolerance, metrology, resource theories and many-body information need broader coverage. Finite quantum-structure targets require current primary-source status checks before detailed recommendations."
+      "remaining": "Quantum channels, metrology and broader resource theories remain unevenly covered. Finite-copy undistillability does not establish NPT bound entanglement; the d=3 three-copy candidate still needs proof review. Initialization is separate from a memory-lifetime theorem."
     }
   },
   {
@@ -137,49 +144,58 @@
   {
     "area": "Statistical mechanics and condensed matter theory",
     "note": {
-      "coverage": "Ising and Ornstein–Uhlenbeck calibration cards accompany candidates on many-body localization, thermalization, subdiffusion and avalanches.",
+      "coverage": "Exactly solvable calibrations and general localization questions are supplemented by detailed quasiperiodic-avalanche and Hubbard stripe-pairing cards.",
       "source_ids": [
         "SRC-MATH-103",
         "SRC-MODEL-105",
         "SRC-MODEL-106",
         "SRC-MODEL-307",
-        "SRC-MODEL-308"
+        "SRC-MODEL-308",
+        "SRC-PHYS-001",
+        "SRC-PHYS-002",
+        "SRC-PHYS-003",
+        "SRC-PHYS-004"
       ],
       "scope": "Exactly specified lattice and stochastic models with separate physical interpretation.",
       "remaining": "Interacting systems, disorder, glasses, critical phenomena and nonequilibrium theory need deeper coverage. Simple solvable models do not represent their resource requirements.",
-      "status_limits": "The 2026 fixed-energy light-cone theorem does not establish infinite-temperature or finite-energy-density localization throughout a spin chain's spectrum."
+      "status_limits": "The 2026 fixed-energy light-cone theorem does not establish infinite-temperature or finite-energy-density localization throughout a spin chain's spectrum. Quasiperiodic resonances differ from conventional random low-disorder regions. Hubbard superconductivity reports at different hopping and doping parameters do not settle the indexed stripe regime."
     }
   },
   {
     "area": "Classical mechanics, fluids and plasma theory",
     "note": {
-      "coverage": "Celestial-mechanics calibration tasks and dynamo candidates provide examples of formal dynamics and fluid models.",
+      "coverage": "Celestial-mechanics calibration tasks and dynamo candidates provide examples of formal dynamics and fluid models. A full card addresses prediction of mixed longitudinal–transverse turbulence exponents, using the published 2026 formulation.",
       "source_ids": [
         "SRC-MODEL-103",
         "SRC-MODEL-104",
         "SRC-MODEL-309",
-        "SRC-MODEL-310"
+        "SRC-MODEL-310",
+        "SRC-PHYS-009",
+        "SRC-PHYS-010"
       ],
       "scope": "Rotating-frame dynamics, low-Prandtl small-scale dynamos and magnetorotational instability under specified assumptions.",
       "remaining": "Continuum mechanics, kinetic theory, turbulence and plasma models need broader coverage and detailed cards. Model closure and boundary assumptions require separate empirical evidence.",
-      "status_limits": "Low-Prandtl dynamo existence has been demonstrated in particular geometries. The retained questions concern saturation, a specified transition limit and controlled extrapolation; geometry-specific results cannot be transferred without argument."
+      "status_limits": "Low-Prandtl dynamo existence has been demonstrated in particular geometries. The retained questions concern saturation, a specified transition limit and controlled extrapolation; geometry-specific results cannot be transferred without argument. The mixed-exponent source does not publicly deposit its underlying simulation data. High-Reynolds-number extrapolation and exact versus closure-dependent identities need separate checks."
     }
   },
   {
     "area": "Relativity, gravitation and cosmology",
     "note": {
-      "coverage": "Candidates cover cosmic censorship, black-hole geometry, cosmological singularities, approximation limits and cosmological mechanisms.",
+      "coverage": "Candidates cover cosmic censorship, black-hole geometry, cosmological singularities, approximation limits and cosmological mechanisms. Nonlinear stationary axisymmetric Kerr tidal response has a detailed card distinguishing quadrupolar progress from all-multipole EFT matching.",
       "source_ids": [
         "SRC-MODEL-001",
         "SRC-MODEL-002",
         "SRC-MODEL-015",
         "SRC-MODEL-017",
         "SRC-MODEL-405",
-        "SRC-MODEL-411"
+        "SRC-MODEL-411",
+        "SRC-PHYS-006",
+        "SRC-PHYS-007",
+        "SRC-PHYS-008"
       ],
       "scope": "Spacetime geometry, gravitational dynamics, cosmological models and vacuum-energy assumptions.",
       "remaining": "Many broad targets need specialist status reviews and precise subproblems. Formal consistency and observational adequacy require separate evidence.",
-      "status_limits": "General subextremal Kerr nonlinear stability is excluded as an open candidate because Peter Hintz's August 2026 preprint claims a solution under specified initial-data hypotheses. The proof claim requires specialist review and does not establish Penrose's large-data final-state conjecture."
+      "status_limits": "General subextremal Kerr nonlinear stability is excluded as an open candidate because Peter Hintz's August 2026 preprint claims a solution under specified initial-data hypotheses. The proof claim requires specialist review and does not establish Penrose's large-data final-state conjecture. Linear Kerr–Newman response results do not close the nonlinear Kerr calculation. Axisymmetric data constrain only the EFT coefficients they identify."
     }
   },
   {
@@ -269,7 +285,7 @@
   {
     "area": "Economic theory, decision theory, social choice and mechanisms",
     "note": {
-      "coverage": "Fair-division and approval-based committee questions cover allocation, proportionality, core existence, incentives and monotonicity.",
+      "coverage": "Fair-division and approval-based committee questions cover allocation, proportionality, core existence, incentives and monotonicity. A detailed card separates the open EFX-plus-integral-Pareto target for personalized bi-valued goods from established fairness results.",
       "source_ids": [
         "SRC-MODEL-002",
         "SRC-MODEL-003",

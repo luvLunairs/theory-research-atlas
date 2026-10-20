@@ -1,0 +1,191 @@
+{
+  "id": "Q-MODEL-492",
+  "title": "Nonlinear stationary axisymmetric tidal response of Kerr black holes",
+  "domain": "Gravitation and spacetime theory",
+  "cross_domains": [
+    "Mathematical physics"
+  ],
+  "kind": "literature_open",
+  "statement": "Determine the nonlinear stationary axisymmetric tidal response of four-dimensional Kerr black holes across multipoles, including matching to a worldline effective field theory. Recover established quadrupolar results and identify the response coefficients accessible within axisymmetry.",
+  "source_ids": [
+    "SRC-PHYS-006",
+    "SRC-PHYS-007",
+    "SRC-PHYS-008"
+  ],
+  "source_locator": "Rodríguez et al., section 6.3.2, PDF p.112; Gounis et al., section 5.1; Chakraborty et al., introduction and final discussion.",
+  "status": "open_after_scoped_check",
+  "status_basis": "The review explicitly identifies the incomplete multipolar calculation and EFT matching. The October 2026 Kerr-Newman result concerns linear response. A targeted later-literature search found no closure of this specific gap.",
+  "last_checked": "2026-10-20",
+  "curator_origin": false,
+  "duplicate_key": "kerr-nonlinear-stationary-axisymmetric-multipolar-eft-response",
+  "proposed_card": true,
+  "primary_domain_id": "PHYS.GRAV",
+  "cross_domain_ids": [
+    "MPHY"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "plain_summary": "How does a spinning black hole respond beyond first order to a steady surrounding gravitational tide? A complete treatment must connect the spacetime solution with well-defined response coefficients.",
+  "assumptions": [
+    "Four-dimensional vacuum general relativity, with a regular Kerr event horizon and stationary axisymmetric external gravitational tides.",
+    "Specify the applied tidal moments, normalization and matching prescription; distinguish nonlinear tidal order from order in black-hole spin.",
+    "Separate conservative static response from dissipation and frequency-dependent response.",
+    "State the spin range explicitly. For subextremal calculations use |a|<M in geometrized units; an extremal limit requires its own boundary analysis."
+  ],
+  "scope": "The literature gap is multipolar nonlinear response and EFT matching, not the already-studied linear Kerr response.",
+  "target": "A controlled response calculation or theorem with explicit multipole coverage and identifiable coefficients.",
+  "success_criteria": [
+    "State which tidal orders, multipoles and spin values are covered.",
+    "Show that horizon-regular solutions satisfy the field equations and match the declared EFT.",
+    "Recover established limits and state which coefficients cannot be determined under axisymmetry."
+  ],
+  "known_results": [
+    "Gounis et al. calculate an axisymmetric quadrupolar tidal tail and make a broader vanishing claim; the later review still identifies incomplete multipolar matching.",
+    "The October Kerr-Newman preprint reports a linear conservative Love matrix, leaving beyond-linear response separate."
+  ],
+  "prerequisites": [
+    "General-relativistic perturbation theory and horizon boundary conditions.",
+    "Multipole expansions, worldline EFT and symbolic tensor calculation."
+  ],
+  "significance": "Response coefficients connect compact-object structure with inspiral modeling. The value of a bounded result depends on its new coverage and interpretation, not merely on another zero coefficient.",
+  "relations": [],
+  "requirements": {
+    "experiment": "None for a conditional GR calculation; observational tests require additional evidence.",
+    "data": "Published equations and conventions; no observational dataset is required.",
+    "compute": "A finite-order symbolic calculation may start locally, but expression growth can dominate memory. No runtime or budget has been measured.",
+    "theoretical_assumptions": "Vacuum GR, specified tidal environment and horizon regularity; only response combinations identifiable in the chosen symmetry sector."
+  },
+  "methods": [
+    "Symbolic perturbation theory",
+    "Multipolar expansion",
+    "EFT matching",
+    "Boundary and limiting-case checks"
+  ],
+  "method_tags": [
+    "symbolic_derivation",
+    "proof",
+    "model_analysis"
+  ],
+  "validation_tags": [
+    "pure_proof",
+    "exact_computation"
+  ],
+  "experimental_dependency": "none_for_formal_task",
+  "obstacles": [
+    "Gauge-dependent tails can be mistaken for physical response.",
+    "Axisymmetry may conceal independent EFT operators.",
+    "All-orders language can exceed the calculation actually established."
+  ],
+  "validation": {
+    "steps": [
+      "Check source definitions and retained perturbative orders.",
+      "Substitute derived fields into the equations and inspect horizon and axis regularity.",
+      "Audit source-response separation and EFT matching independently.",
+      "Compare the nonrotating and quadrupolar limits with the cited results."
+    ],
+    "human_review_difficulty": "High: a specialist must inspect gauge choices, operator identifiability and matching.",
+    "statement_alignment": "A finite-order calculation establishes only its stated channels and approximation; it is not a complete all-multipole or observational result."
+  },
+  "known_attempts": [
+    "The source papers provide relevant calculations; no project research attempt has been run."
+  ],
+  "unresolved_checks": [
+    "Select a finite tidal order and multipole sector; this narrowing is Curator-proposed; pending review.",
+    "Check subsequent literature for that exact sector before claiming novelty."
+  ],
+  "attribution": {
+    "original_authors": [
+      "María J. Rodríguez",
+      "Luca Santoni",
+      "Adam R. Solomon",
+      "L.-R. Gounis",
+      "A. Kehagias",
+      "A. Riotto"
+    ],
+    "citation": "Rodríguez, Santoni and Solomon (2026), arXiv:2604.08653v1, section 6.3.2; Gounis, Kehagias and Riotto, JCAP 03 (2025) 002. Credit each additional result used.",
+    "curator_credit": "Compiled for Theory Research Atlas with Codex assistance."
+  },
+  "status_search": {
+    "queries": [
+      "\"Kerr\" \"nonlinear Love\" \"2026\" \"matching\"",
+      "Kerr nonlinear Love numbers stationary axisymmetric EFT matching 2026 multipoles",
+      "\"Kerr\" \"nonlinear\" \"Love\" \"October\" \"2026\"",
+      "\"nonlinear\" \"Kerr Love\" \"2026\"",
+      "\"non-linear\" \"Kerr\" \"EFT\" \"2026\""
+    ],
+    "checked_sources": [
+      "SRC-PHYS-006",
+      "SRC-PHYS-007",
+      "SRC-PHYS-008"
+    ],
+    "result": "The scoped gap remains supported by the inspected literature.",
+    "limitations": "Targeted search, not exhaustive citation tracking or an independent audit of the source proofs."
+  },
+  "epistemic_layers": {
+    "formal_validity": "A result would hold under the stated GR and boundary assumptions.",
+    "empirical_support": "No observational test of nonlinear tidal coefficients is supplied by this entry."
+  },
+  "revision_history": [],
+  "ai_assessment": {
+    "priority": "preparation_required",
+    "rationale": "Symbolic tensor manipulation can assist finite-order field equations and matching checks. Choosing an informative sector and interpreting its coefficients require GR and EFT expertise; no AI trial has been run.",
+    "dimensions": {
+      "clarity": {
+        "rating": "medium",
+        "reason": "The gap is identifiable; a first sector needs selection."
+      },
+      "decomposability": {
+        "rating": "medium",
+        "reason": "Finite orders separate calculation and matching."
+      },
+      "methods": {
+        "rating": "high",
+        "reason": "The sources provide established perturbative tools."
+      },
+      "search_or_symbolic": {
+        "rating": "high",
+        "reason": "Tensor algebra offers a concrete assistance role."
+      },
+      "checkability": {
+        "rating": "medium",
+        "reason": "Substitution helps, but matching needs judgment."
+      },
+      "expertise": {
+        "rating": "high",
+        "reason": "GR and EFT expertise are necessary."
+      },
+      "significance": {
+        "rating": "high",
+        "reason": "Response structure supports gravitational theory."
+      },
+      "verification_difficulty": {
+        "rating": "high",
+        "reason": "Gauge and operator ambiguities complicate review."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "No model has been evaluated; tractability, novelty and resource needs remain uncertain.",
+    "assessment_date": "2026-10-20",
+    "model_scope": "No named model evaluated; assumes a tool-using assistant with source access and specialist human review.",
+    "evidence_refs": []
+  },
+  "judgments": {
+    "difficulty": {
+      "rating": "high",
+      "basis": "Nonlinear multipole coupling, gauge choices and EFT matching must be controlled together; symbolic expression growth is an additional burden.",
+      "evidence": "editorial_estimate_not_measured"
+    },
+    "correctness": {
+      "status": "no_project_answer",
+      "basis": "Source curation only; no project answer or independent proof audit."
+    },
+    "novelty": {
+      "status": "not_assessed",
+      "basis": "Any proposed partial result requires its own literature check."
+    },
+    "significance": {
+      "rating": "high",
+      "basis": "Response coefficients connect compact-object structure with inspiral modeling. The value of a bounded result depends on its new coverage and interpretation, not merely on another zero coefficient."
+    }
+  }
+}
