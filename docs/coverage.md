@@ -2,7 +2,7 @@
 
 [Browse](README.md) · [Results](results.md) · [Contribute](../CONTRIBUTING.md)
 
-**Collection updated: 2026-10-18.** 16 domains, 113 nodes, 371 source records, 544 candidates and 34 full cards. These counts do not estimate the fraction of science covered.
+**Collection updated: 2026-10-20.** 16 domains, 113 nodes, 399 source records, 552 candidates and 45 full cards. These counts do not estimate the fraction of science covered.
 
 Research sources are directly mapped to the selected node or its descendants; ancestor mappings are not inherited. Cards are included in candidate counts. Cross-linked tasks keep one primary record. Source counts include separately cited versions and cannot be summed across domains. Each source and question retains its own inspection date.
 
@@ -10,17 +10,17 @@ Research sources are directly mapped to the selected node or its descendants; an
 
 | Domain / branch | A: research sources | B + C: primary tasks | C: full cards | Next action |
 | --- | --- | --- | --- | --- |
-| [Mathematics](domains/math.md) | 96 | 157 | 8 | Extend coverage and review these cards |
+| [Mathematics](domains/math.md) | 105 | 158 | 9 | Extend coverage and review these cards |
 | [Logic and foundations](domains/logic.md) | 14 | 24 | 1 | Extend coverage and review these cards |
-| [Theoretical computer science](domains/cs.md) | 134 | 111 | 4 | Extend coverage and review these cards |
+| [Theoretical computer science](domains/cs.md) | 146 | 112 | 6 | Extend coverage and review these cards |
 | [Probability theory](domains/prob.md) | 28 | 15 | 1 | Extend coverage and review these cards |
 | [Statistical and learning theory](domains/stat.md) | 25 | 19 | 2 | Extend coverage and review these cards |
-| [Information and coding theory](domains/info.md) | 21 | 24 | 4 | Extend coverage and review these cards |
-| [Theoretical physics](domains/phys.md) | 31 | 26 | 2 | Extend coverage and review these cards |
-| [Mathematical physics](domains/mphy.md) | 11 | 19 | 1 | Extend coverage and review these cards |
+| [Information and coding theory](domains/info.md) | 26 | 26 | 7 | Extend coverage and review these cards |
+| [Theoretical physics](domains/phys.md) | 43 | 30 | 6 | Extend coverage and review these cards |
+| [Mathematical physics](domains/mphy.md) | 14 | 19 | 1 | Extend coverage and review these cards |
 | [Theoretical chemistry and materials](domains/chem.md) | 12 | 22 | 1 | Extend coverage and review these cards |
 | [Theoretical biology](domains/bio.md) | 17 | 29 | 1 | Extend coverage and review these cards |
-| [Economics and game theory](domains/econ.md) | 21 | 22 | 3 | Extend coverage and review these cards |
+| [Economics and game theory](domains/econ.md) | 22 | 22 | 4 | Extend coverage and review these cards |
 | [Networks and complex systems](domains/net.md) | 10 | 12 | 2 | Extend coverage and review these cards |
 | [Earth, climate and environmental theory](domains/earth.md) | 7 | 20 | 1 | Extend coverage and review these cards |
 | [Astrophysics and cosmology theory](domains/astro.md) | 18 | 20 | 1 | Extend coverage and review these cards |
@@ -31,13 +31,13 @@ Cross-links, full-card views and historical collection positions do not add reco
 
 | Domain | Primary records | Open-status evidence | Unverified |
 | --- | --- | --- | --- |
-| [Mathematics](domains/math.md) | 157 | 144 | 6 |
+| [Mathematics](domains/math.md) | 158 | 145 | 6 |
 | [Logic and foundations](domains/logic.md) | 24 | 22 | 0 |
-| [Theoretical computer science](domains/cs.md) | 111 | 33 | 73 |
+| [Theoretical computer science](domains/cs.md) | 112 | 34 | 73 |
 | [Probability theory](domains/prob.md) | 15 | 7 | 6 |
 | [Statistical and learning theory](domains/stat.md) | 19 | 6 | 11 |
-| [Information and coding theory](domains/info.md) | 24 | 13 | 11 |
-| [Theoretical physics](domains/phys.md) | 26 | 10 | 14 |
+| [Information and coding theory](domains/info.md) | 26 | 15 | 11 |
+| [Theoretical physics](domains/phys.md) | 30 | 14 | 14 |
 | [Mathematical physics](domains/mphy.md) | 19 | 1 | 16 |
 | [Theoretical chemistry and materials](domains/chem.md) | 22 | 1 | 17 |
 | [Theoretical biology](domains/bio.md) | 29 | 9 | 17 |
@@ -59,7 +59,7 @@ Expand a domain to inspect its branches without scrolling through the entire tax
 
 | Domain / branch | A: research sources | B + C: primary tasks | C: full cards | Next action |
 | --- | --- | --- | --- | --- |
-| [Algebra](domains/math.md#math-alg) | 6 | 46 | 1 | Extend coverage and review these cards |
+| [Algebra](domains/math.md#math-alg) | 10 | 46 | 1 | Extend coverage and review these cards |
 | [Commutative and homological algebra](domains/math.md#math-alg-comm) | 3 | 2 | 1 | Extend coverage and review these cards |
 | [Groups and representation theory](domains/math.md#math-alg-rep) | 1 | 6 | 0 | Develop detailed problem cards |
 | [Number theory and arithmetic geometry](domains/math.md#math-num) | 15 | 17 | 0 | Develop detailed problem cards |
@@ -72,18 +72,18 @@ Expand a domain to inspect its branches without scrolling through the entire tax
 | [Combinatorics and discrete mathematics](domains/math.md#math-comb) | 30 | 39 | 5 | Extend coverage and review these cards |
 | [Extremal and Ramsey theory](domains/math.md#math-comb-ext) | 20 | 39 | 5 | Extend coverage and review these cards |
 | [Enumerative and algebraic combinatorics](domains/math.md#math-comb-enum) | 2 | 0 | 0 | Identify well-specified questions |
-| [Analysis](domains/math.md#math-anal) | 11 | 7 | 0 | Develop detailed problem cards |
+| [Analysis](domains/math.md#math-anal) | 12 | 7 | 0 | Develop detailed problem cards |
 | [Differential equations and variational analysis](domains/math.md#math-anal-pde) | 5 | 1 | 0 | Develop detailed problem cards |
 | [Harmonic, real and complex analysis](domains/math.md#math-anal-harm) | 2 | 3 | 0 | Develop detailed problem cards |
-| [Functional and operator analysis](domains/math.md#math-anal-func) | 4 | 2 | 0 | Develop detailed problem cards |
+| [Functional and operator analysis](domains/math.md#math-anal-func) | 5 | 2 | 0 | Develop detailed problem cards |
 | [Dynamical systems and ergodic theory](domains/math.md#math-dyn) | 16 | 4 | 0 | Develop detailed problem cards |
-| [Optimization and operations research](domains/math.md#math-opt) | 17 | 2 | 0 | Develop detailed problem cards |
+| [Optimization and operations research](domains/math.md#math-opt) | 21 | 3 | 1 | Extend coverage and review these cards |
 | [Numerical analysis and scientific computation](domains/math.md#math-numer) | 6 | 0 | 0 | Identify well-specified questions |
 
 | Node | Classification references | Cross-linked candidates |
 | --- | --- | --- |
-| [Mathematics](domains/math.md) | 3 | 64 |
-| [Algebra](domains/math.md#math-alg) | 0 | 15 |
+| [Mathematics](domains/math.md) | 3 | 66 |
+| [Algebra](domains/math.md#math-alg) | 0 | 16 |
 | [Commutative and homological algebra](domains/math.md#math-alg-comm) | 0 | 0 |
 | [Groups and representation theory](domains/math.md#math-alg-rep) | 0 | 2 |
 | [Number theory and arithmetic geometry](domains/math.md#math-num) | 0 | 4 |
@@ -96,10 +96,10 @@ Expand a domain to inspect its branches without scrolling through the entire tax
 | [Combinatorics and discrete mathematics](domains/math.md#math-comb) | 0 | 27 |
 | [Extremal and Ramsey theory](domains/math.md#math-comb-ext) | 0 | 9 |
 | [Enumerative and algebraic combinatorics](domains/math.md#math-comb-enum) | 0 | 2 |
-| [Analysis](domains/math.md#math-anal) | 0 | 9 |
+| [Analysis](domains/math.md#math-anal) | 0 | 10 |
 | [Differential equations and variational analysis](domains/math.md#math-anal-pde) | 0 | 4 |
 | [Harmonic, real and complex analysis](domains/math.md#math-anal-harm) | 0 | 0 |
-| [Functional and operator analysis](domains/math.md#math-anal-func) | 0 | 3 |
+| [Functional and operator analysis](domains/math.md#math-anal-func) | 0 | 4 |
 | [Dynamical systems and ergodic theory](domains/math.md#math-dyn) | 0 | 12 |
 | [Optimization and operations research](domains/math.md#math-opt) | 0 | 19 |
 | [Numerical analysis and scientific computation](domains/math.md#math-numer) | 0 | 6 |
@@ -137,9 +137,9 @@ Expand a domain to inspect its branches without scrolling through the entire tax
 
 | Domain / branch | A: research sources | B + C: primary tasks | C: full cards | Next action |
 | --- | --- | --- | --- | --- |
-| [Algorithms and data structures](domains/cs.md#cs-alg) | 21 | 15 | 2 | Extend coverage and review these cards |
-| [Computational complexity](domains/cs.md#cs-complex) | 16 | 10 | 1 | Extend coverage and review these cards |
-| [Circuit and algebraic complexity](domains/cs.md#cs-complex-circuit) | 6 | 6 | 0 | Develop detailed problem cards |
+| [Algorithms and data structures](domains/cs.md#cs-alg) | 29 | 15 | 2 | Extend coverage and review these cards |
+| [Computational complexity](domains/cs.md#cs-complex) | 25 | 11 | 3 | Extend coverage and review these cards |
+| [Circuit and algebraic complexity](domains/cs.md#cs-complex-circuit) | 15 | 7 | 2 | Extend coverage and review these cards |
 | [Randomized, online and distributed algorithms](domains/cs.md#cs-random) | 9 | 6 | 1 | Extend coverage and review these cards |
 | [Cryptographic foundations](domains/cs.md#cs-crypto) | 2 | 0 | 0 | Identify well-specified questions |
 | [Programming languages and verification theory](domains/cs.md#cs-semantics) | 45 | 41 | 0 | Develop detailed problem cards |
@@ -149,8 +149,8 @@ Expand a domain to inspect its branches without scrolling through the entire tax
 
 | Node | Classification references | Cross-linked candidates |
 | --- | --- | --- |
-| [Theoretical computer science](domains/cs.md) | 4 | 48 |
-| [Algorithms and data structures](domains/cs.md#cs-alg) | 0 | 34 |
+| [Theoretical computer science](domains/cs.md) | 4 | 49 |
+| [Algorithms and data structures](domains/cs.md#cs-alg) | 0 | 35 |
 | [Computational complexity](domains/cs.md#cs-complex) | 0 | 20 |
 | [Circuit and algebraic complexity](domains/cs.md#cs-complex-circuit) | 0 | 2 |
 | [Randomized, online and distributed algorithms](domains/cs.md#cs-random) | 0 | 1 |
@@ -214,10 +214,10 @@ Expand a domain to inspect its branches without scrolling through the entire tax
 
 | Domain / branch | A: research sources | B + C: primary tasks | C: full cards | Next action |
 | --- | --- | --- | --- | --- |
-| [Classical information theory](domains/info.md#info-shannon) | 6 | 10 | 0 | Develop detailed problem cards |
+| [Classical information theory](domains/info.md#info-shannon) | 7 | 10 | 1 | Extend coverage and review these cards |
 | [Entropy inequalities and information geometry](domains/info.md#info-entropy) | 5 | 5 | 1 | Extend coverage and review these cards |
-| [Coding theory](domains/info.md#info-codes) | 4 | 5 | 3 | Extend coverage and review these cards |
-| [Quantum information theory](domains/info.md#info-quant) | 5 | 3 | 0 | Develop detailed problem cards |
+| [Coding theory](domains/info.md#info-codes) | 6 | 5 | 3 | Extend coverage and review these cards |
+| [Quantum information theory](domains/info.md#info-quant) | 8 | 5 | 2 | Extend coverage and review these cards |
 | [Communication complexity and distributed information](domains/info.md#info-complex) | 2 | 1 | 0 | Develop detailed problem cards |
 | [Signal processing theory](domains/info.md#info-signal) | 0 | 0 | 0 | Find specialist sources |
 
@@ -226,7 +226,7 @@ Expand a domain to inspect its branches without scrolling through the entire tax
 | [Information and coding theory](domains/info.md) | 2 | 2 |
 | [Classical information theory](domains/info.md#info-shannon) | 0 | 0 |
 | [Entropy inequalities and information geometry](domains/info.md#info-entropy) | 0 | 1 |
-| [Coding theory](domains/info.md#info-codes) | 0 | 0 |
+| [Coding theory](domains/info.md#info-codes) | 0 | 1 |
 | [Quantum information theory](domains/info.md#info-quant) | 0 | 1 |
 | [Communication complexity and distributed information](domains/info.md#info-complex) | 0 | 0 |
 | [Signal processing theory](domains/info.md#info-signal) | 0 | 0 |
@@ -240,23 +240,23 @@ Expand a domain to inspect its branches without scrolling through the entire tax
 | Domain / branch | A: research sources | B + C: primary tasks | C: full cards | Next action |
 | --- | --- | --- | --- | --- |
 | [Classical mechanics and continuum theory](domains/phys.md#phys-classical) | 3 | 0 | 0 | Identify well-specified questions |
-| [Fluid and plasma theory](domains/phys.md#phys-fluid) | 5 | 1 | 0 | Develop detailed problem cards |
+| [Fluid and plasma theory](domains/phys.md#phys-fluid) | 7 | 2 | 1 | Extend coverage and review these cards |
 | [Quantum theory and foundations](domains/phys.md#phys-quant) | 6 | 1 | 1 | Extend coverage and review these cards |
 | [Quantum field, particle and nuclear theory](domains/phys.md#phys-field) | 8 | 4 | 0 | Develop detailed problem cards |
-| [Condensed matter and materials theory](domains/phys.md#phys-cond) | 5 | 3 | 0 | Develop detailed problem cards |
-| [Statistical and nonequilibrium physics](domains/phys.md#phys-stat) | 6 | 2 | 1 | Extend coverage and review these cards |
-| [Gravitation and spacetime theory](domains/phys.md#phys-grav) | 9 | 15 | 0 | Develop detailed problem cards |
+| [Condensed matter and materials theory](domains/phys.md#phys-cond) | 10 | 5 | 2 | Extend coverage and review these cards |
+| [Statistical and nonequilibrium physics](domains/phys.md#phys-stat) | 15 | 2 | 1 | Extend coverage and review these cards |
+| [Gravitation and spacetime theory](domains/phys.md#phys-grav) | 12 | 16 | 1 | Extend coverage and review these cards |
 | [Optics, waves and atomic theory](domains/phys.md#phys-optics) | 1 | 0 | 0 | Identify well-specified questions |
 
 | Node | Classification references | Cross-linked candidates |
 | --- | --- | --- |
-| [Theoretical physics](domains/phys.md) | 4 | 32 |
+| [Theoretical physics](domains/phys.md) | 4 | 34 |
 | [Classical mechanics and continuum theory](domains/phys.md#phys-classical) | 0 | 3 |
 | [Fluid and plasma theory](domains/phys.md#phys-fluid) | 0 | 3 |
-| [Quantum theory and foundations](domains/phys.md#phys-quant) | 0 | 20 |
+| [Quantum theory and foundations](domains/phys.md#phys-quant) | 0 | 23 |
 | [Quantum field, particle and nuclear theory](domains/phys.md#phys-field) | 0 | 5 |
 | [Condensed matter and materials theory](domains/phys.md#phys-cond) | 0 | 1 |
-| [Statistical and nonequilibrium physics](domains/phys.md#phys-stat) | 0 | 4 |
+| [Statistical and nonequilibrium physics](domains/phys.md#phys-stat) | 0 | 8 |
 | [Gravitation and spacetime theory](domains/phys.md#phys-grav) | 0 | 4 |
 | [Optics, waves and atomic theory](domains/phys.md#phys-optics) | 0 | 0 |
 
@@ -275,7 +275,7 @@ Expand a domain to inspect its branches without scrolling through the entire tax
 
 | Node | Classification references | Cross-linked candidates |
 | --- | --- | --- |
-| [Mathematical physics](domains/mphy.md) | 4 | 40 |
+| [Mathematical physics](domains/mphy.md) | 4 | 41 |
 | [Spectral and operator theory in physics](domains/mphy.md#mphy-spectral) | 0 | 15 |
 | [Rigorous statistical mechanics](domains/mphy.md#mphy-stat) | 1 | 0 |
 | [Constructive and axiomatic field theory](domains/mphy.md#mphy-qft) | 0 | 0 |
@@ -336,7 +336,7 @@ Expand a domain to inspect its branches without scrolling through the entire tax
 | Domain / branch | A: research sources | B + C: primary tasks | C: full cards | Next action |
 | --- | --- | --- | --- | --- |
 | [Game and equilibrium theory](domains/econ.md#econ-game) | 4 | 2 | 1 | Extend coverage and review these cards |
-| [Mechanism design and fair allocation](domains/econ.md#econ-mech) | 10 | 6 | 2 | Extend coverage and review these cards |
+| [Mechanism design and fair allocation](domains/econ.md#econ-mech) | 11 | 6 | 3 | Extend coverage and review these cards |
 | [Social choice and collective decisions](domains/econ.md#econ-social) | 8 | 14 | 0 | Develop detailed problem cards |
 | [Decision and utility theory](domains/econ.md#econ-decision) | 1 | 0 | 0 | Identify well-specified questions |
 | [General equilibrium and economic dynamics](domains/econ.md#econ-equil) | 1 | 0 | 0 | Identify well-specified questions |
@@ -527,11 +527,13 @@ These notes identify the remaining work; broad portals do not fill a specialist 
 <details>
 <summary>Optimization and real algebraic geometry</summary>
 
-**Coverage:** Finite constructions, control design and selected convex and nonconvex optimization questions connect symbolic and numerical methods.
+**Coverage:** Finite constructions, control design and selected convex and nonconvex optimization questions connect symbolic and numerical methods. A detailed card covers sharp stepsize-only gradient-descent rates, separating known-horizon schedules from anytime guarantees.
 
 **Gaps:** Polynomial optimization hierarchies, real algebraic geometry and global-complexity bounds need dedicated problem collections.
 
 **Reason:** A local optimum, a numerical objective and a certified global bound are separate results.
+
+**Status limits:** Acceleration beyond the constant-stepsize rate is already known; the indexed target is the remaining sharp-rate gap under fixed assumptions.
 
 
 </details>
@@ -551,11 +553,13 @@ These notes identify the remaining work; broad portals do not fill a specialist 
 <details>
 <summary>Theoretical computer science</summary>
 
-**Coverage:** Complexity, computational geometry, algorithms, formal methods, rewriting and learning theory have individual candidates. Historical geometric and rewriting collections need checks for later resolutions; the absence of a solved marker is insufficient.
+**Coverage:** Complexity, computational geometry, algorithms, formal methods, rewriting and learning theory have individual candidates. Historical geometric and rewriting collections need checks for later resolutions; the absence of a solved marker is insufficient. Detailed cards cover exact 4x4 matrix-multiplication rank and general commutative polynomial identity testing.
 
 **Gaps:** Cryptographic assumptions, distributed computation, fine-grained complexity and parameterized algorithms need broader specialist review.
 
 **Reason:** Input encoding, arithmetic model, randomness, approximation and worst-case versus amortized guarantees are part of the statement.
+
+**Status limits:** Characteristic-two rank, border rank and exact characteristic-zero rank are different targets. Read-four identity testing is a known result; the status of a proposed read-five specialization remains unchecked.
 
 
 </details>
@@ -599,11 +603,13 @@ These notes identify the remaining work; broad portals do not fill a specialist 
 <details>
 <summary>Information theory</summary>
 
-**Coverage:** Coding, entropy inequalities, source coding, distributed testing and channel-capacity questions have individual records and source locations.
+**Coverage:** Coding, entropy inequalities, source coding, distributed testing and channel-capacity questions have individual records and source locations. The deletion-channel capacity card includes the d=1/2 benchmark and the provenance of the reported 2026 enclosure.
 
 **Gaps:** Network information theory, finite-blocklength analysis and source coding still need broader extraction and detailed cards.
 
 **Reason:** Channel assumptions, blocklength limits and allowed encoders determine whether a claimed bound addresses the target.
+
+**Status limits:** The latest inspected bounds are preprint claims. Complete numerical replay depends on large proof inputs whose availability is unresolved; this project has not run the certificates.
 
 
 </details>
@@ -623,13 +629,13 @@ These notes identify the remaining work; broad portals do not fill a specialist 
 <details>
 <summary>Quantum foundations and quantum information</summary>
 
-**Coverage:** Bell-correlation calibration and research candidates on entanglement, distillability and mutually unbiased bases.
+**Coverage:** Bell-correlation calibrations and entanglement candidates now include detailed cards for the three-copy Werner endpoint and initialization of a specified 3D passive quantum memory.
 
-**Sources:** [PhySH: Physics Subject Headings](sources.md#src-model-001), [arXiv Category Taxonomy](sources.md#src-base-005), [Tsirelson bounds for generalized Clauser-Horne-Shimony-Holt inequalities](sources.md#src-model-004), [Five Open Problems in Quantum Information Theory](sources.md#src-model-018), [On the two-copy distillability of Werner states and a new partial trace inequality](sources.md#src-model-019).
+**Sources:** [PhySH: Physics Subject Headings](sources.md#src-model-001), [arXiv Category Taxonomy](sources.md#src-base-005), [Tsirelson bounds for generalized Clauser-Horne-Shimony-Holt inequalities](sources.md#src-model-004), [Five Open Problems in Quantum Information Theory](sources.md#src-model-018), [On the two-copy distillability of Werner states and a new partial trace inequality](sources.md#src-model-019), [Sharp Plücker Geometry for Three-Copy Werner Distillation](sources.md#src-phys-011), [Three-copy undistillability of the boundary qutrit Werner state](sources.md#src-phys-012), [A passive self-correcting quantum memory in three dimensions](sources.md#src-phys-013), [A thermally and perturbatively stable classical spin model in two dimensions](sources.md#src-phys-014).
 
 **Scope:** Bell correlations, entanglement and finite-dimensional quantum structures.
 
-**Remaining:** Quantum channels, fault tolerance, metrology, resource theories and many-body information need broader coverage. Finite quantum-structure targets require current primary-source status checks before detailed recommendations.
+**Remaining:** Quantum channels, metrology and broader resource theories remain unevenly covered. Finite-copy undistillability does not establish NPT bound entanglement; the d=3 three-copy candidate still needs proof review. Initialization is separate from a memory-lifetime theorem.
 
 
 </details>
@@ -651,15 +657,15 @@ These notes identify the remaining work; broad portals do not fill a specialist 
 <details>
 <summary>Statistical mechanics and condensed matter theory</summary>
 
-**Coverage:** Ising and Ornstein–Uhlenbeck calibration cards accompany candidates on many-body localization, thermalization, subdiffusion and avalanches.
+**Coverage:** Exactly solvable calibrations and general localization questions are supplemented by detailed quasiperiodic-avalanche and Hubbard stripe-pairing cards.
 
-**Sources:** [Statistical Mechanics of Lattice Systems: The Ising Model](sources.md#src-math-103), [Lecture 14: Applications in Statistical Mechanics](sources.md#src-model-105), [Kinetic Theory: Stochastic Processes](sources.md#src-model-106), [Many-Body Localization in the Age of Classical Computing](sources.md#src-model-307), [Many-body localization for the random XXZ spin chain in fixed energy intervals](sources.md#src-model-308).
+**Sources:** [Statistical Mechanics of Lattice Systems: The Ising Model](sources.md#src-math-103), [Lecture 14: Applications in Statistical Mechanics](sources.md#src-model-105), [Kinetic Theory: Stochastic Processes](sources.md#src-model-106), [Many-Body Localization in the Age of Classical Computing](sources.md#src-model-307), [Many-body localization for the random XXZ spin chain in fixed energy intervals](sources.md#src-model-308), [Thermal avalanches in a quasiperiodic XXZ model](sources.md#src-phys-001), [An asymptotically solvable model of many-body critical phases: mobility edges, scars, and inverted scars](sources.md#src-phys-002), [Superconductivity in the two-dimensional Hubbard model revealed by neural quantum states](sources.md#src-phys-003), [Superconductivity in the t-t' Hubbard Model from Symmetry-Preserving Neural-Network Quantum States](sources.md#src-phys-004).
 
 **Scope:** Exactly specified lattice and stochastic models with separate physical interpretation.
 
 **Remaining:** Interacting systems, disorder, glasses, critical phenomena and nonequilibrium theory need deeper coverage. Simple solvable models do not represent their resource requirements.
 
-**Status limits:** The 2026 fixed-energy light-cone theorem does not establish infinite-temperature or finite-energy-density localization throughout a spin chain's spectrum.
+**Status limits:** The 2026 fixed-energy light-cone theorem does not establish infinite-temperature or finite-energy-density localization throughout a spin chain's spectrum. Quasiperiodic resonances differ from conventional random low-disorder regions. Hubbard superconductivity reports at different hopping and doping parameters do not settle the indexed stripe regime.
 
 
 </details>
@@ -667,15 +673,15 @@ These notes identify the remaining work; broad portals do not fill a specialist 
 <details>
 <summary>Classical mechanics, fluids and plasma theory</summary>
 
-**Coverage:** Celestial-mechanics calibration tasks and dynamo candidates provide examples of formal dynamics and fluid models.
+**Coverage:** Celestial-mechanics calibration tasks and dynamo candidates provide examples of formal dynamics and fluid models. A full card addresses prediction of mixed longitudinal–transverse turbulence exponents, using the published 2026 formulation.
 
-**Sources:** [Introduction to Celestial Mechanics, 2nd Edition: Stability of Lagrange points](sources.md#src-model-103), [Introduction to Celestial Mechanics, 2nd Edition: Co-rotating frame](sources.md#src-model-104), [Dynamo theories](sources.md#src-model-309), [Strong and Weak Dynamo Regimes in Taylor-Couette Flows](sources.md#src-model-310).
+**Sources:** [Introduction to Celestial Mechanics, 2nd Edition: Stability of Lagrange points](sources.md#src-model-103), [Introduction to Celestial Mechanics, 2nd Edition: Co-rotating frame](sources.md#src-model-104), [Dynamo theories](sources.md#src-model-309), [Strong and Weak Dynamo Regimes in Taylor-Couette Flows](sources.md#src-model-310), [Joint multifractal description of small-scale turbulence: Unifying longitudinal and transverse velocity intermittency](sources.md#src-phys-009), [Turbulence intermittency and velocity gradients](sources.md#src-phys-010).
 
 **Scope:** Rotating-frame dynamics, low-Prandtl small-scale dynamos and magnetorotational instability under specified assumptions.
 
 **Remaining:** Continuum mechanics, kinetic theory, turbulence and plasma models need broader coverage and detailed cards. Model closure and boundary assumptions require separate empirical evidence.
 
-**Status limits:** Low-Prandtl dynamo existence has been demonstrated in particular geometries. The retained questions concern saturation, a specified transition limit and controlled extrapolation; geometry-specific results cannot be transferred without argument.
+**Status limits:** Low-Prandtl dynamo existence has been demonstrated in particular geometries. The retained questions concern saturation, a specified transition limit and controlled extrapolation; geometry-specific results cannot be transferred without argument. The mixed-exponent source does not publicly deposit its underlying simulation data. High-Reynolds-number extrapolation and exact versus closure-dependent identities need separate checks.
 
 
 </details>
@@ -683,15 +689,15 @@ These notes identify the remaining work; broad portals do not fill a specialist 
 <details>
 <summary>Relativity, gravitation and cosmology</summary>
 
-**Coverage:** Candidates cover cosmic censorship, black-hole geometry, cosmological singularities, approximation limits and cosmological mechanisms.
+**Coverage:** Candidates cover cosmic censorship, black-hole geometry, cosmological singularities, approximation limits and cosmological mechanisms. Nonlinear stationary axisymmetric Kerr tidal response has a detailed card distinguishing quadrupolar progress from all-multipole EFT matching.
 
-**Sources:** [PhySH: Physics Subject Headings](sources.md#src-model-001), [arXiv Category Taxonomy](sources.md#src-base-005), [Unified Astronomy Thesaurus](sources.md#src-model-015), [Lectures on the Cosmological Constant Problem](sources.md#src-model-017), [Mathematical General Relativity](sources.md#src-model-405), [Nonlinear stability of subextremal Kerr black holes](sources.md#src-model-411).
+**Sources:** [PhySH: Physics Subject Headings](sources.md#src-model-001), [arXiv Category Taxonomy](sources.md#src-base-005), [Unified Astronomy Thesaurus](sources.md#src-model-015), [Lectures on the Cosmological Constant Problem](sources.md#src-model-017), [Mathematical General Relativity](sources.md#src-model-405), [Nonlinear stability of subextremal Kerr black holes](sources.md#src-model-411), [Love numbers of black holes and compact objects](sources.md#src-phys-006), [The Vanishing of the Non-linear Static Love Number of Kerr Black Holes and the Role of Symmetries](sources.md#src-phys-007), [Vanishing Love Numbers of Kerr-Newman Black Holes](sources.md#src-phys-008).
 
 **Scope:** Spacetime geometry, gravitational dynamics, cosmological models and vacuum-energy assumptions.
 
 **Remaining:** Many broad targets need specialist status reviews and precise subproblems. Formal consistency and observational adequacy require separate evidence.
 
-**Status limits:** General subextremal Kerr nonlinear stability is excluded as an open candidate because Peter Hintz's August 2026 preprint claims a solution under specified initial-data hypotheses. The proof claim requires specialist review and does not establish Penrose's large-data final-state conjecture.
+**Status limits:** General subextremal Kerr nonlinear stability is excluded as an open candidate because Peter Hintz's August 2026 preprint claims a solution under specified initial-data hypotheses. The proof claim requires specialist review and does not establish Penrose's large-data final-state conjecture. Linear Kerr–Newman response results do not close the nonlinear Kerr calculation. Axisymmetric data constrain only the EFT coefficients they identify.
 
 
 </details>
@@ -791,7 +797,7 @@ These notes identify the remaining work; broad portals do not fill a specialist 
 <details>
 <summary>Economic theory, decision theory, social choice and mechanisms</summary>
 
-**Coverage:** Fair-division and approval-based committee questions cover allocation, proportionality, core existence, incentives and monotonicity.
+**Coverage:** Fair-division and approval-based committee questions cover allocation, proportionality, core existence, incentives and monotonicity. A detailed card separates the open EFX-plus-integral-Pareto target for personalized bi-valued goods from established fairness results.
 
 **Sources:** [arXiv Category Taxonomy](sources.md#src-base-005), [JEL Classification Codes](sources.md#src-base-004), [Outlook and Research Directions, in Multi-Winner Voting with Approval Preferences](sources.md#src-model-403), [Proportional Aggregation of Preferences for Sequential Decision Making](sources.md#src-model-412), [A Polynomial-Time Rule Satisfying Full Justified Representation](sources.md#src-model-601), [Existence of the Core in Approval-Based Committee Elections](sources.md#src-model-602), [Jointly Satisfying Pareto Optimality and Justified Representation is NP-Hard in Approval-Based Multiwinner Voting](sources.md#src-model-603).
 

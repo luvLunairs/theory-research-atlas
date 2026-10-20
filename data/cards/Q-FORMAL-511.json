@@ -1,0 +1,197 @@
+{
+  "id": "Q-FORMAL-511",
+  "title": "A rank-47 decomposition for 4x4 matrix multiplication in characteristic zero",
+  "domain": "Circuit and algebraic complexity",
+  "cross_domains": [
+    "Algebra"
+  ],
+  "kind": "literature_open",
+  "statement": "Find r<=47 and linear forms L_s,R_s on complex 4x4 matrices, with coefficient matrices P_s, such that AB=sum_{s=1}^r L_s(A)R_s(B)P_s for every pair A,B. Supply exact coefficients and verify the identity. A rational construction is a stronger coefficient restriction; a characteristic-two or border-rank construction does not meet this target.",
+  "source_ids": [
+    "SRC-IMPACT-006",
+    "SRC-IMPACT-007",
+    "SRC-IMPACT-008",
+    "SRC-IMPACT-010"
+  ],
+  "source_locator": "SRC-IMPACT-006 mathematical specification; SRC-IMPACT-007 sections 4-6; SRC-IMPACT-008 Results; SRC-IMPACT-010 Commentaries.",
+  "status": "source_reports_open",
+  "status_basis": "The maintained problem page calls the target unsolved, the institutional catalog lists rank 48, and the October 2026 campaign reports no rank-47 construction. No matching resolution was found in a focused search; this does not establish a lower bound.",
+  "last_checked": "2026-10-20",
+  "curator_origin": false,
+  "duplicate_key": "algebraic-complexity:4x4-matrix-multiplication:exact-rank-le47:characteristic-zero",
+  "proposed_card": true,
+  "primary_domain_id": "CS.COMPLEX.CIRCUIT",
+  "cross_domain_ids": [
+    "MATH.ALG"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "plain_summary": "Can two 4x4 matrices be multiplied using 47 bilinear products instead of the 48 in current characteristic-zero constructions?",
+  "assumptions": [
+    "Use the exact bilinear tensor of ordinary 4x4 matrix multiplication over C; identify a more restrictive coefficient field such as Q explicitly.",
+    "Count products of an A-linear form and a B-linear form. Additions and multiplication by fixed coefficients are not part of this rank count.",
+    "The identity must hold for all inputs. Small numerical residuals and limiting border-rank decompositions are insufficient."
+  ],
+  "scope": "The fixed-size exact tensor problem. It does not ask for the general matrix-multiplication exponent or a claim of hardware speedup.",
+  "target": "An explicit exact decomposition with r<=47, with a fully specified coefficient representation.",
+  "success_criteria": [
+    "Provide all linear-form and output coefficients, ordering conventions and coefficient-field relations.",
+    "Verify every tensor coefficient exactly in an independent checker.",
+    "State whether the construction is rational or genuinely complex and assess practical implementation claims separately."
+  ],
+  "known_results": [
+    "SRC-IMPACT-007 gives a rational 48-term construction, following the complex construction; its abstract distinguishes the 47-term characteristic-two result.",
+    "SRC-IMPACT-006 still lists the complex rank-47 target as unsolved. SRC-IMPACT-010 supplies the rank-48 baseline encodings.",
+    "SRC-IMPACT-008 reports an unsuccessful October 2026 search. Failure of that search does not exclude other decompositions."
+  ],
+  "prerequisites": [
+    "Bilinear algorithms and tensor rank",
+    "Exact rational or algebraic-number arithmetic",
+    "Polynomial identity checking"
+  ],
+  "significance": "A smaller exact decomposition would improve a recognized small-size algebraic-complexity record. Its mathematical insight and practical speed need separate assessment.",
+  "relations": [],
+  "requirements": {
+    "experiment": "None for the algebraic identity.",
+    "data": "Exact baseline and proposed coefficient arrays with source attribution. Floating-point arrays require exact recovery before certification.",
+    "compute": "A fixed candidate has a finite exact checker; search cost is unconstrained and may be substantial. Coefficient growth can also make checking expensive. No project runtime or budget is measured.",
+    "theoretical_assumptions": "Characteristic zero and exact arithmetic; specify the coefficient field and any quotient-polynomial relations."
+  },
+  "ai_assessment": {
+    "priority": "preparation_required",
+    "rationale": "Exact certificates make results easier to inspect than searches. Published computational attempts provide context, but do not imply that a new construction is likely.",
+    "dimensions": {
+      "clarity": {
+        "rating": "high",
+        "reason": "The source specifies an explicit identity and term count."
+      },
+      "decomposability": {
+        "rating": "high",
+        "reason": "Coefficient generation and independent identity checking can be separated."
+      },
+      "methods": {
+        "rating": "high",
+        "reason": "Explicit baseline schemes and exact checking formats are available."
+      },
+      "search_or_symbolic": {
+        "rating": "high",
+        "reason": "Tensor identities support symbolic and computational work."
+      },
+      "checkability": {
+        "rating": "high",
+        "reason": "A finite exact coefficient certificate can establish a construction."
+      },
+      "expertise": {
+        "rating": "high",
+        "reason": "Tensor symmetries, coefficient fields and numerical recovery require expertise."
+      },
+      "significance": {
+        "rating": "medium",
+        "reason": "A recognized record; explanatory value and speed depend on the construction."
+      },
+      "verification_difficulty": {
+        "rating": "medium",
+        "reason": "Checking is localized but requires sound field arithmetic and statement alignment."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "No project research attempt or model evaluation has been performed. Published attempts do not establish a success probability for this task.",
+    "assessment_date": "2026-10-20",
+    "model_scope": "A tool-using assistant able to inspect mathematical sources and preserve exact computations; no named model or configuration evaluated.",
+    "evidence_refs": []
+  },
+  "methods": [
+    "Published tensor-decomposition representations",
+    "Exact coefficient checking",
+    "Source-based algebraic or computational searches"
+  ],
+  "method_tags": [
+    "construction",
+    "exact_computation",
+    "symbolic_derivation",
+    "finite_search"
+  ],
+  "validation_tags": [
+    "exact_computation",
+    "pure_proof"
+  ],
+  "experimental_dependency": "none_for_formal_task",
+  "obstacles": [
+    "A nonconvex search may converge only approximately.",
+    "Field-specific cancellations may not survive lifting to characteristic zero.",
+    "Search failure within a chosen ansatz is not a global rank lower bound."
+  ],
+  "validation": {
+    "steps": [
+      "Fix matrix-entry ordering and independently generate the target bilinear tensor.",
+      "Check the number of terms and exact coefficient representation.",
+      "Verify all coefficient equations over the declared field without floating-point tolerance.",
+      "Inspect source lineage and compare with published schemes; benchmark additions, memory and stability only if practical performance is claimed."
+    ],
+    "human_review_difficulty": "Moderate for a compact exact construction; much higher for an impossibility claim or a complicated coefficient field.",
+    "statement_alignment": "A characteristic-two identity, border-rank limit or faster implementation with 48 products does not establish this target."
+  },
+  "known_attempts": [
+    "The referenced public campaign supplies negative search results. Existing rank-48 constructions are baseline results, not project discoveries."
+  ],
+  "unresolved_checks": [
+    "Independent verification of any imported baseline coefficient files.",
+    "A fresh literature and catalog check before claiming a new record.",
+    "Exact recovery and field validation for any future numerical candidate."
+  ],
+  "attribution": {
+    "original_authors": [
+      "Epoch AI",
+      "Jean-Guillaume Dumas",
+      "Clément Pernet",
+      "Alexandre Sedoglavic"
+    ],
+    "citation": "Epoch AI, The Rank of the 4x4 Matrix-Multiplication Tensor (2026); Dumas, Pernet and Sedoglavic, arXiv:2506.13242v7 (2025; revised 2026-07-27). Cite the original schemes and later attempt records when using their data.",
+    "curator_credit": "Compiled for Theory Research Atlas with Codex assistance."
+  },
+  "status_search": {
+    "queries": [
+      "\"4x4\" \"rank\" \"47\" \"2026\" matrix multiplication",
+      "\"matrix multiplication\" \"rank 47\" rational 2026",
+      "\"4\" \"matrix multiplication\" \"47\" \"October 2026\"",
+      "\"2506.13242\" \"2026\" rank 47"
+    ],
+    "checked_sources": [
+      "SRC-IMPACT-006",
+      "SRC-IMPACT-007",
+      "SRC-IMPACT-008",
+      "SRC-IMPACT-010"
+    ],
+    "result": "The maintained listing and catalog retain the 47-term gap; the October attempt explicitly reports no solution.",
+    "limitations": "Focused search only. Neither coefficient files nor claimed obstructions were independently checked."
+  },
+  "epistemic_layers": {
+    "formal_validity": "An exact tensor identity establishes the declared bilinear algorithm over its coefficient field.",
+    "empirical_support": "Rank alone establishes neither numerical stability nor wall-clock improvement on hardware."
+  },
+  "judgments": {
+    "difficulty": {
+      "rating": "high",
+      "basis": "The target persists despite recent computational searches.",
+      "evidence": "Maintained problem listing and public negative attempt; no project measurement."
+    },
+    "correctness": {
+      "status": "not_assessed",
+      "basis": "No new decomposition supplied."
+    },
+    "novelty": {
+      "status": "not_assessed",
+      "basis": "No new result claimed."
+    },
+    "significance": {
+      "rating": "medium",
+      "basis": "A concrete algebraic-complexity record; insight and practical benefit must be demonstrated."
+    }
+  },
+  "revision_history": [
+    {
+      "date": "2026-10-20",
+      "change": "Recorded the exact characteristic-zero target, baseline sources and recent negative attempt."
+    }
+  ]
+}

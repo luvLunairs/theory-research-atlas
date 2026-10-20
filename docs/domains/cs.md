@@ -6,7 +6,7 @@ Possibility, cost and correctness of computation.
 
 **Boundary:** Deployment engineering is outside scope unless it yields a formal research question.
 
-**Research sources: 134 · Primary tasks: 111 · Full cards: 4 · Cross-linked tasks: 48.**
+**Research sources: 146 · Primary tasks: 112 · Full cards: 6 · Cross-linked tasks: 49.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -21,7 +21,7 @@ Possibility, cost and correctness of computation.
 | [Reproduce Huang's hypercube degree theorem](../cards/Q-FORMAL-001.md) | Medium | Known-result calibration | Known result in literature | Full card · Q-FORMAL-001 |
 | [Fourier entropy–influence conjecture](../candidates/Q-FORMAL-006.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-FORMAL-006 |
 | [Mansour's Fourier concentration conjecture for DNF](../candidates/Q-FORMAL-007.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-FORMAL-007 |
-| [Deterministic polynomial-time identity testing for general arithmetic circuits](../candidates/Q-FORMAL-010.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-FORMAL-010 |
+| [Deterministic polynomial-time identity testing for general arithmetic circuits](../cards/Q-FORMAL-010.md) | Unknown | Literature-origin question | Source reports open | Full card · Q-FORMAL-010 |
 | [Reproduce the LRU paging competitive bound with explicit initial-state terms](../candidates/Q-FORMAL-106.md) | Unknown | Known-result calibration | Known result in literature | Outline · Q-FORMAL-106 |
 | [A linear bound for avoiding a specified automaton state](../cards/Q-FORMAL-201.md) | High | Literature-origin question | Source reports open | Full card · Q-FORMAL-201 |
 | [A linear bound for merging a specified state with some other state](../candidates/Q-FORMAL-202.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-FORMAL-202 |
@@ -129,6 +129,7 @@ Possibility, cost and correctness of computation.
 | [Partial-Maltsev SAT below meet-in-the-middle](../candidates/Q-FORMAL-503.md) | Unknown | Literature-origin question | Unverified | Outline · Q-FORMAL-503 |
 | [Linear nonredundancy of constraint languages](../candidates/Q-FORMAL-504.md) | Unknown | Literature-origin question | Unverified | Outline · Q-FORMAL-504 |
 | [Polynomial kernels for Boolean MinCSP](../candidates/Q-FORMAL-505.md) | Unknown | Literature-origin question | Unverified | Outline · Q-FORMAL-505 |
+| [A rank-47 decomposition for 4x4 matrix multiplication in characteristic zero](../cards/Q-FORMAL-511.md) | High | Literature-origin question | Source reports open | Full card · Q-FORMAL-511 |
 
 <a id="sources"></a>
 
@@ -276,6 +277,18 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [FOCS 2026 accepted papers](../sources.md#src-review-701) | Research entry | 2026 |
 | [Optimal FPT-Approximability for Modular Linear Equations — institutional publication record](../sources.md#src-review-702) | Research entry | 2026 |
 | [Computing Triangulations with Minimum Stabbing Number](../sources.md#src-review-803) | Research entry | 2017 |
+| [Stronger Lower Bounds for (Non-)Anytime Acceleration of Gradient Descent](../sources.md#src-impact-001) | Research entry | 2026 |
+| [Acceleration by stepsize hedging: Silver Stepsize Schedule for smooth convex optimization](../sources.md#src-impact-002) | Research entry | 2025 |
+| [Anytime Acceleration of Gradient Descent](../sources.md#src-impact-003) | Research entry | 2025 |
+| [The Rank of the 4x4 Matrix-Multiplication Tensor](../sources.md#src-impact-006) | Research entry | 2026 |
+| [A non-commutative algorithm for multiplying 4x4 matrices using 48 non-complex multiplications](../sources.md#src-impact-007) | Research entry | 2025 |
+| [Cloudroom Math: new matrix multiplication algorithms found by AI agents](../sources.md#src-impact-008) | Research entry | 2026 |
+| [Description of fast matrix multiplication algorithm: 4 x 4 x 4](../sources.md#src-impact-010) | Research entry | Not verified |
+| [Polynomial Identity Testing for Read-4 Arithmetic Formulas](../sources.md#src-impact-011) | Research entry | 2026 |
+| [A Note on Deterministic PIT for Sigma^[3] Pi Sigma Pi^[delta] Circuits](../sources.md#src-impact-012) | Research entry | 2026 |
+| [Homomorphism Indistinguishability, Multiplicity Automata Equivalence, and Polynomial Identity Testing](../sources.md#src-impact-013) | Research entry | 2026 |
+| [Independence in Algebraic Complexity Theory](../sources.md#src-impact-014) | Research entry | 2013 |
+| [Near-Optimal Bootstrapping of Hitting Sets for Algebraic Models](../sources.md#src-impact-015) | Research entry | 2023 |
 
 <a id="branches"></a>
 
@@ -283,10 +296,10 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 
 | Branch | Primary tasks | Full cards | Next step |
 | --- | --- | --- | --- |
-| [Theoretical computer science](#cs) | 111 | 4 | Extend coverage and review these cards |
+| [Theoretical computer science](#cs) | 112 | 6 | Extend coverage and review these cards |
 | [Algorithms and data structures](#cs-alg) | 15 | 2 | Extend coverage and review these cards |
-| [Computational complexity](#cs-complex) | 10 | 1 | Extend coverage and review these cards |
-| [Circuit and algebraic complexity](#cs-complex-circuit) | 6 | 0 | Develop detailed problem cards |
+| [Computational complexity](#cs-complex) | 11 | 3 | Extend coverage and review these cards |
+| [Circuit and algebraic complexity](#cs-complex-circuit) | 7 | 2 | Extend coverage and review these cards |
 | [Randomized, online and distributed algorithms](#cs-random) | 6 | 1 | Extend coverage and review these cards |
 | [Cryptographic foundations](#cs-crypto) | 0 | 0 | Identify well-specified questions |
 | [Programming languages and verification theory](#cs-semantics) | 41 | 0 | Develop detailed problem cards |
@@ -341,7 +354,7 @@ Correctness and resource bounds of computational procedures.
 
 **Representative objects:** graph algorithms, approximation, data structures.
 
-**Direct source entries:** [Progress on Polynomial Identity Testing — II](../sources.md#src-formal-007), [Open Questions From AIM Workshop: The Computational Complexity of Polynomial Factorization](../sources.md#src-math-006), [Finding Nash Equilibria of Two-Player Games](../sources.md#src-model-007), [Some Computational Properties of Tree Adjoining Grammars](../sources.md#src-formal-103), [Amortized Efficiency of List Update and Paging Rules](../sources.md#src-formal-108), [The No-Three-in-Line Problem](../sources.md#src-math-201), [R(3,10) <= 41](../sources.md#src-math-202), [R(4,6) Colorings](../sources.md#src-math-203), [Ramsey Numbers](../sources.md#src-math-206), [Synchronizing Automata: Open Problems](../sources.md#src-formal-201), [Lower Bounds on Avoiding Thresholds](../sources.md#src-formal-202), [Synchronizing Times for k-Sets in Automata](../sources.md#src-formal-203), [The triple rendezvous time of a synchronizing automaton can be floor(4n/3)](../sources.md#src-formal-204), [The compress-with-another threshold of Szykuła's Figure 3 family](../sources.md#src-formal-205), [Experiments with Synchronizing Automata](../sources.md#src-formal-210), [Isomorphism of tournaments with bounded VC dimension](../sources.md#src-formal-304), [A deterministic (2+ε)-approximation for directed feedback vertex sets in tournaments](../sources.md#src-formal-321), [PACS 2024: Workshop on Parameterized Algorithms and Constraint Satisfaction — Open problems](../sources.md#src-formal-488), [Optimal FPT-Approximability for Modular Linear Equations](../sources.md#src-formal-615), [FOCS 2026 accepted papers](../sources.md#src-review-701), [Optimal FPT-Approximability for Modular Linear Equations — institutional publication record](../sources.md#src-review-702).
+**Direct source entries:** [Progress on Polynomial Identity Testing — II](../sources.md#src-formal-007), [Open Questions From AIM Workshop: The Computational Complexity of Polynomial Factorization](../sources.md#src-math-006), [Finding Nash Equilibria of Two-Player Games](../sources.md#src-model-007), [Some Computational Properties of Tree Adjoining Grammars](../sources.md#src-formal-103), [Amortized Efficiency of List Update and Paging Rules](../sources.md#src-formal-108), [The No-Three-in-Line Problem](../sources.md#src-math-201), [R(3,10) <= 41](../sources.md#src-math-202), [R(4,6) Colorings](../sources.md#src-math-203), [Ramsey Numbers](../sources.md#src-math-206), [Synchronizing Automata: Open Problems](../sources.md#src-formal-201), [Lower Bounds on Avoiding Thresholds](../sources.md#src-formal-202), [Synchronizing Times for k-Sets in Automata](../sources.md#src-formal-203), [The triple rendezvous time of a synchronizing automaton can be floor(4n/3)](../sources.md#src-formal-204), [The compress-with-another threshold of Szykuła's Figure 3 family](../sources.md#src-formal-205), [Experiments with Synchronizing Automata](../sources.md#src-formal-210), [Isomorphism of tournaments with bounded VC dimension](../sources.md#src-formal-304), [A deterministic (2+ε)-approximation for directed feedback vertex sets in tournaments](../sources.md#src-formal-321), [PACS 2024: Workshop on Parameterized Algorithms and Constraint Satisfaction — Open problems](../sources.md#src-formal-488), [Optimal FPT-Approximability for Modular Linear Equations](../sources.md#src-formal-615), [FOCS 2026 accepted papers](../sources.md#src-review-701), [Optimal FPT-Approximability for Modular Linear Equations — institutional publication record](../sources.md#src-review-702), [Stronger Lower Bounds for (Non-)Anytime Acceleration of Gradient Descent](../sources.md#src-impact-001), [Acceleration by stepsize hedging: Silver Stepsize Schedule for smooth convex optimization](../sources.md#src-impact-002), [Anytime Acceleration of Gradient Descent](../sources.md#src-impact-003), [Polynomial Identity Testing for Read-4 Arithmetic Formulas](../sources.md#src-impact-011), [A Note on Deterministic PIT for Sigma^[3] Pi Sigma Pi^[delta] Circuits](../sources.md#src-impact-012), [Homomorphism Indistinguishability, Multiplicity Automata Equivalence, and Polynomial Identity Testing](../sources.md#src-impact-013), [Independence in Algebraic Complexity Theory](../sources.md#src-impact-014), [Near-Optimal Bootstrapping of Hitting Sets for Algebraic Models](../sources.md#src-impact-015).
 
 **Primary tasks in this branch and its descendants**
 
@@ -369,7 +382,7 @@ Correctness and resource bounds of computational procedures.
 - [Determine the two-color Ramsey number R(5,5)](../candidates/Q-MATH-004.md)
 - [Deterministic polynomial-time dense factorization over finite fields](../candidates/Q-MATH-005.md)
 - [Sparse finite-field trinomial root decision](../candidates/Q-MATH-006.md)
-- [Deterministic polynomial-time identity testing for general arithmetic circuits](../candidates/Q-FORMAL-010.md)
+- [Deterministic polynomial-time identity testing for general arithmetic circuits](../cards/Q-FORMAL-010.md)
 - [Enumerate equilibria of a supplied rational bimatrix game](../cards/Q-MODEL-003.md)
 - [Verify the equal-block language of a locally constrained tree-adjoining grammar](../cards/Q-FORMAL-102.md)
 - [Reproduce front-door identification in a latent-confounded mediator graph](../candidates/Q-FORMAL-105.md)
@@ -397,6 +410,7 @@ Correctness and resource bounds of computational procedures.
 - [Reverse sequential PAV approximation factor](../candidates/Q-MODEL-443.md)
 - [Winner computation on voter-interval approval domains](../candidates/Q-MODEL-444.md)
 - [Parallel complexity of polynomial-time committee rules](../candidates/Q-MODEL-445.md)
+- [Optimal acceleration from predetermined gradient-descent stepsizes](../cards/Q-FORMAL-510.md)
 
 [Back to domain tasks](#tasks) · [Branch guide](#branches)
 
@@ -437,7 +451,7 @@ Time, space, randomness and proof resources required by problems.
 
 - [Reproduce Huang's hypercube degree theorem](../cards/Q-FORMAL-001.md)
 - [Fourier entropy–influence conjecture](../candidates/Q-FORMAL-006.md)
-- [Deterministic polynomial-time identity testing for general arithmetic circuits](../candidates/Q-FORMAL-010.md)
+- [Deterministic polynomial-time identity testing for general arithmetic circuits](../cards/Q-FORMAL-010.md)
 - [P versus NP](../candidates/Q-LAND-304.md)
 - [Deterministic logarithmic space for directed reachability: L versus NL](../candidates/Q-FORMAL-302.md)
 - [Superpolynomial Boolean circuit lower bounds for NP](../candidates/Q-FORMAL-303.md)
@@ -445,6 +459,7 @@ Time, space, randomness and proof resources required by problems.
 - [A superpolynomial gap between Boolean circuits and formulas](../candidates/Q-FORMAL-305.md)
 - [Valiant's VP versus VNP over the rational numbers](../candidates/Q-FORMAL-306.md)
 - [NP-completeness of ordinary MCSP under deterministic many-one reductions](../candidates/Q-FORMAL-310.md)
+- [A rank-47 decomposition for 4x4 matrix multiplication in characteristic zero](../cards/Q-FORMAL-511.md)
 
 **Additional cross-linked tasks**
 
@@ -452,7 +467,7 @@ Time, space, randomness and proof resources required by problems.
 - [Complete EFX for four additive goods agents](../cards/Q-MODEL-201.md)
 - [Complete EFX for more than four common bi-valued chore agents](../cards/Q-MODEL-202.md)
 - [Complete EFX for three additive chore agents](../candidates/Q-MODEL-203.md)
-- [EFX and Pareto optimality for personalized bi-valued goods](../candidates/Q-MODEL-204.md)
+- [EFX and Pareto optimality for personalized bi-valued goods](../cards/Q-MODEL-204.md)
 - [Exact EFX for common three-value additive goods](../candidates/Q-MODEL-206.md)
 - [Complete EFX for binary submodular chore costs](../candidates/Q-MODEL-208.md)
 - [Unconditional polynomial-time derandomization: BPP versus P](../candidates/Q-FORMAL-301.md)
@@ -502,16 +517,17 @@ Limits of restricted computational representations.
 
 **Representative objects:** Boolean circuits, arithmetic circuits, formulas.
 
-**Direct source entries:** [Progress on Polynomial Identity Testing — II](../sources.md#src-formal-007), [Mathematics and Computation](../sources.md#src-formal-301), [Arithmetic circuit lower bounds from sumset expansion](../sources.md#src-formal-303), [NP-hardness of the Minimum Circuit Size Problem from Well-Studied Assumptions](../sources.md#src-formal-305), [Non-Levin NP-Hardness of Implicit MCSP and PAC Learning under Few Assumptions](../sources.md#src-formal-306), [AC⁰[p]-Frege Cannot Efficiently Prove That Constant-Depth Algebraic Circuit Lower Bounds Are Hard](../sources.md#src-formal-308).
+**Direct source entries:** [Progress on Polynomial Identity Testing — II](../sources.md#src-formal-007), [Mathematics and Computation](../sources.md#src-formal-301), [Arithmetic circuit lower bounds from sumset expansion](../sources.md#src-formal-303), [NP-hardness of the Minimum Circuit Size Problem from Well-Studied Assumptions](../sources.md#src-formal-305), [Non-Levin NP-Hardness of Implicit MCSP and PAC Learning under Few Assumptions](../sources.md#src-formal-306), [AC⁰[p]-Frege Cannot Efficiently Prove That Constant-Depth Algebraic Circuit Lower Bounds Are Hard](../sources.md#src-formal-308), [The Rank of the 4x4 Matrix-Multiplication Tensor](../sources.md#src-impact-006), [A non-commutative algorithm for multiplying 4x4 matrices using 48 non-complex multiplications](../sources.md#src-impact-007), [Cloudroom Math: new matrix multiplication algorithms found by AI agents](../sources.md#src-impact-008), [Description of fast matrix multiplication algorithm: 4 x 4 x 4](../sources.md#src-impact-010), [Polynomial Identity Testing for Read-4 Arithmetic Formulas](../sources.md#src-impact-011), [A Note on Deterministic PIT for Sigma^[3] Pi Sigma Pi^[delta] Circuits](../sources.md#src-impact-012), [Homomorphism Indistinguishability, Multiplicity Automata Equivalence, and Polynomial Identity Testing](../sources.md#src-impact-013), [Independence in Algebraic Complexity Theory](../sources.md#src-impact-014), [Near-Optimal Bootstrapping of Hitting Sets for Algebraic Models](../sources.md#src-impact-015).
 
 **Primary tasks in this branch and its descendants**
 
-- [Deterministic polynomial-time identity testing for general arithmetic circuits](../candidates/Q-FORMAL-010.md)
+- [Deterministic polynomial-time identity testing for general arithmetic circuits](../cards/Q-FORMAL-010.md)
 - [Superpolynomial Boolean circuit lower bounds for NP](../candidates/Q-FORMAL-303.md)
 - [Are linear-size Boolean circuits possible for integer multiplication?](../candidates/Q-FORMAL-304.md)
 - [A superpolynomial gap between Boolean circuits and formulas](../candidates/Q-FORMAL-305.md)
 - [Valiant's VP versus VNP over the rational numbers](../candidates/Q-FORMAL-306.md)
 - [NP-completeness of ordinary MCSP under deterministic many-one reductions](../candidates/Q-FORMAL-310.md)
+- [A rank-47 decomposition for 4x4 matrix multiplication in characteristic zero](../cards/Q-FORMAL-511.md)
 
 **Additional cross-linked tasks**
 
@@ -902,7 +918,7 @@ These retain their primary record in another domain and are not added to this do
 | [Complete EFX for four additive goods agents](../cards/Q-MODEL-201.md) | High | Literature-origin question | Source reports open | Full card · Q-MODEL-201 |
 | [Complete EFX for more than four common bi-valued chore agents](../cards/Q-MODEL-202.md) | High | Literature-origin question | Source reports open | Full card · Q-MODEL-202 |
 | [Complete EFX for three additive chore agents](../candidates/Q-MODEL-203.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MODEL-203 |
-| [EFX and Pareto optimality for personalized bi-valued goods](../candidates/Q-MODEL-204.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MODEL-204 |
+| [EFX and Pareto optimality for personalized bi-valued goods](../cards/Q-MODEL-204.md) | High | Literature-origin question | Source reports open | Full card · Q-MODEL-204 |
 | [Exact EFX for common three-value additive goods](../candidates/Q-MODEL-206.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MODEL-206 |
 | [Complete EFX for binary submodular chore costs](../candidates/Q-MODEL-208.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MODEL-208 |
 | [Computability of the unknotting number](../candidates/Q-MATH-315.md) | Frontier | Literature-origin question | Source reports open | Outline · Q-MATH-315 |
@@ -931,5 +947,6 @@ These retain their primary record in another domain and are not added to this do
 | [Reverse sequential PAV approximation factor](../candidates/Q-MODEL-443.md) | High | Literature-origin question | Unverified | Outline · Q-MODEL-443 |
 | [Winner computation on voter-interval approval domains](../candidates/Q-MODEL-444.md) | High | Literature-origin question | Unverified | Outline · Q-MODEL-444 |
 | [Parallel complexity of polynomial-time committee rules](../candidates/Q-MODEL-445.md) | Unknown | Literature-origin question | Reported resolved | Outline · Q-MODEL-445 |
+| [Optimal acceleration from predetermined gradient-descent stepsizes](../cards/Q-FORMAL-510.md) | High | Literature-origin question | Source reports open | Full card · Q-FORMAL-510 |
 
 [Back to all domains](../README.md) · [Full outline](../taxonomy.md) · [Coverage gaps](../coverage.md)

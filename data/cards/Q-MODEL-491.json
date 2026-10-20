@@ -1,0 +1,198 @@
+{
+  "id": "Q-MODEL-491",
+  "title": "Structured resonances and avalanche diagnostics in the quasiperiodic XXZ chain",
+  "domain": "Condensed matter theory",
+  "cross_domains": [
+    "Statistical physics",
+    "Quantum theory"
+  ],
+  "kind": "literature_open",
+  "statement": "For the spin-1/2 nearest-neighbor XXZ chain with Delta=1, h_j=W_A cos(2 pi beta j+phi_A), beta=(sqrt(5)-1)/2, and an implanted quasiperiodic bath with W_B=0.5 in exchange units, determine whether structured resonances explain the disagreement between correlation-based and particle-number-entropy avalanche diagnostics. Quantify their effect on bath coupling, or identify where this proposed explanation fails.",
+  "source_ids": [
+    "SRC-PHYS-001",
+    "SRC-PHYS-002"
+  ],
+  "source_locator": "SRC-PHYS-001 sections II, V.2 and VI; SRC-PHYS-002 section V.3.",
+  "status": "source_reports_open",
+  "status_basis": "The originating paper explicitly requests a resonance-sensitive coupling description. Later work discusses structural rare regions without resolving this diagnostic discrepancy; no matching resolution was located.",
+  "last_checked": "2026-10-20",
+  "curator_origin": false,
+  "duplicate_key": "phys:quasiperiodic-xxz:implanted-bath:resonance-avalanche-diagnostics",
+  "proposed_card": true,
+  "primary_domain_id": "PHYS.COND",
+  "cross_domain_ids": [
+    "PHYS.STAT",
+    "PHYS.QUANT"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "plain_summary": "A small thermal region may erase memory in an otherwise localized quantum chain. Two diagnostics disagree about its spread; the source asks how quasiperiodic resonances change the explanation.",
+  "assumptions": [
+    "Use spin operators S=sigma/2, not unscaled Pauli matrices; the exchange is J(SxSx+SySy+Delta SzSz), with J=Delta=1.",
+    "Match the source diagnostics using a zero-magnetization Neel state and phases phi_A, phi_B sampled uniformly in [0,2 pi); the bath field is W_B cos(2 pi beta j+phi_B), W_B=0.5.",
+    "Specify chain and bath lengths. Boundary conditions were not confirmed in this inspection and must be checked before reproducing the simulations.",
+    "State assumptions about the eigenstate thermalization hypothesis (ETH), local integrals of motion and weak coupling separately from exact Hamiltonian identities."
+  ],
+  "scope": "The source's quantitative mechanism question. It is not the general existence problem for many-body localization.",
+  "target": "A controlled test of the proposed resonance mechanism and its consequences for the two diagnostics in the stated Hamiltonian.",
+  "success_criteria": [
+    "State a quantitative claim, its approximations and a reproducible comparison with independent calculations.",
+    "Separate finite-size agreement from an asymptotic theorem; identify what remains unexplained.",
+    "Check later literature before describing any explanation or parameter regime as new."
+  ],
+  "known_results": [
+    "SRC-PHYS-001 reports finite-chain disagreement between correlation and particle-number-entropy diagnostics and leaves coupling renormalization open. Resonance-driven coupling renormalization is the authors' proposed explanation, not an established mechanism.",
+    "SRC-PHYS-002 discusses structural rare regions without establishing that they initiate the required avalanche."
+  ],
+  "prerequisites": [
+    "Quantum spin chains and thermalization",
+    "Reduced states, entropy and correlations",
+    "Perturbation theory and numerical error analysis"
+  ],
+  "significance": "A quantitative connection between microscopic dynamics and thermalization diagnostics would strengthen interpretation of localization studies.",
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "Q-MODEL-313",
+      "explanation": "Both concern microscopic avalanche descriptions; this entry fixes a quasiperiodic model and a specific diagnostic discrepancy."
+    }
+  ],
+  "requirements": {
+    "experiment": "None for the Hamiltonian question; experimental confirmation is a separate task.",
+    "data": "Specify reproducible model inputs. Access to the authors' raw output and complete software environment remains to be checked.",
+    "compute": "Small-chain calculations may fit a workstation; large phase ensembles and asymptotic scaling can require substantial resources. This is an untested planning estimate, not a runtime or budget measurement.",
+    "theoretical_assumptions": "Finite-dimensional quantum mechanics for numerical instances; effective-bath and localization assumptions require separate justification."
+  },
+  "ai_assessment": {
+    "priority": "exploratory",
+    "rationale": "Literature comparison, algebra and reproducible numerical diagnostics offer possible assistance; discovering a correct mechanism is uncertain.",
+    "dimensions": {
+      "clarity": {
+        "rating": "medium",
+        "reason": "The model is specified; the desired effective description needs a precise error target."
+      },
+      "decomposability": {
+        "rating": "medium",
+        "reason": "Diagnostics, coupling estimates and limit analysis can be checked separately."
+      },
+      "methods": {
+        "rating": "high",
+        "reason": "Established spin-chain and transport methods provide preparation."
+      },
+      "search_or_symbolic": {
+        "rating": "medium",
+        "reason": "Algebra and finite-instance computation support, but cannot replace, mechanism analysis."
+      },
+      "checkability": {
+        "rating": "medium",
+        "reason": "Finite instances are reproducible; extrapolation is harder."
+      },
+      "expertise": {
+        "rating": "high",
+        "reason": "Localization and numerical many-body expertise are necessary."
+      },
+      "significance": {
+        "rating": "high",
+        "reason": "Connects thermalization theory with interpretable diagnostics."
+      },
+      "verification_difficulty": {
+        "rating": "high",
+        "reason": "Approximations and competing limiting procedures require specialist scrutiny."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "No research model has been tested on this task by the project; capability and resource expectations remain provisional.",
+    "assessment_date": "2026-10-20",
+    "model_scope": "A model able to inspect primary literature and use scientific code, with specialist oversight; no specific model benchmarked.",
+    "evidence_refs": []
+  },
+  "methods": [
+    "Exact diagonalization and independent observable implementations",
+    "Source-based effective-bath analysis",
+    "Finite-size and time-range comparison"
+  ],
+  "method_tags": [
+    "model_analysis",
+    "numerical_computation",
+    "symbolic_derivation"
+  ],
+  "validation_tags": [
+    "numerical_evidence",
+    "pure_proof"
+  ],
+  "experimental_dependency": "none_for_formal_task",
+  "obstacles": [
+    "Exponential Hilbert-space growth",
+    "Long transients can mimic asymptotic behavior",
+    "A diagnostic fit may not identify the physical mechanism"
+  ],
+  "validation": {
+    "steps": [
+      "Check Hamiltonian conventions, conservation laws, normalization and initial state.",
+      "Compare independent implementations on small instances and report convergence and sampling errors.",
+      "Vary size, bath and observation window; keep empirical fits separate from derived consequences.",
+      "Review every approximation and any extrapolation beyond computed instances."
+    ],
+    "human_review_difficulty": "High: specialists must assess the physical interpretation as well as numerical reproducibility.",
+    "statement_alignment": "A finite-time transport signal is not a proof that infinite isolated systems thermalize."
+  },
+  "known_attempts": [
+    "The primary paper supplies the finite-chain evidence motivating the question. No project research attempt is recorded."
+  ],
+  "unresolved_checks": [
+    "Independent reproduction and confirmation of boundary conditions",
+    "Raw-data and code availability",
+    "A focused novelty check for the exact mechanism or parameter regime selected."
+  ],
+  "attribution": {
+    "original_authors": [
+      "Paolo Molignini",
+      "Antonio Štrkalj"
+    ],
+    "citation": "Molignini and Štrkalj, Thermal avalanches in a quasiperiodic XXZ model, arXiv:2607.21708v1 (2026), sections V.2 and VI; see SRC-PHYS-002 for related later work.",
+    "curator_credit": "Compiled for Theory Research Atlas with Codex assistance."
+  },
+  "status_search": {
+    "queries": [
+      "\"Thermal avalanches in a quasiperiodic XXZ model\"",
+      "\"quasiperiodic\" \"avalanche\" \"2026\" resonance",
+      "\"quasiperiodic\" \"XXZ\" \"resonances\" \"avalanche\"",
+      "Molignini Strkalj avalanche quasiperiodic October 2026"
+    ],
+    "checked_sources": [
+      "SRC-PHYS-001",
+      "SRC-PHYS-002"
+    ],
+    "result": "An explicit source-stated gap remains; no matching resolution located.",
+    "limitations": "Targeted search only; paper arguments and computations were not independently verified."
+  },
+  "epistemic_layers": {
+    "formal_validity": "Claims must follow from the stated Hamiltonian or explicitly conditional approximations.",
+    "empirical_support": "Model calculations alone do not establish behavior in a laboratory system."
+  },
+  "judgments": {
+    "difficulty": {
+      "rating": "high",
+      "basis": "Mechanism and asymptotic limits remain unresolved.",
+      "evidence": "Source outlook and finite-system limitations; no project measurement."
+    },
+    "correctness": {
+      "status": "not_assessed",
+      "basis": "No candidate solution supplied."
+    },
+    "novelty": {
+      "status": "not_assessed",
+      "basis": "No new result claimed; later checks remain necessary."
+    },
+    "significance": {
+      "rating": "high",
+      "basis": "Thermalization and localization diagnostics have broad theoretical relevance."
+    }
+  },
+  "revision_history": [
+    {
+      "date": "2026-10-20",
+      "change": "Recorded the source-stated question, later evidence and verification limits."
+    }
+  ]
+}

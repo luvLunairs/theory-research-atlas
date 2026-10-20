@@ -2,7 +2,7 @@
 
 [Browse](README.md) · [Results](results.md) · [Contribute](../CONTRIBUTING.md)
 
-Use this index to compare targets and their evidence status. **544 records include 34 with full cards.** Every candidate has a brief research profile; a candidate without a card still needs a detailed methods and verification assessment. [Browse by domain](README.md) or [compare the full cards](cards/README.md).
+Use this index to compare targets and their evidence status. **552 records include 45 with full cards.** Every candidate has a brief research profile; a candidate without a card still needs a detailed methods and verification assessment. [Browse by domain](README.md) or [compare the full cards](cards/README.md).
 
 **Origin and current status are separate.** A literature-origin question may since have been resolved. A known result is established in the literature; this project has not reproduced it. Read the status basis before treating any record as open.
 
@@ -27,7 +27,7 @@ Use this index to compare targets and their evidence status. **544 records inclu
 | [Fourier entropy–influence conjecture](#q-formal-006) | [Computational complexity](domains/cs.md#cs-complex) | Unknown | Source reports open | Outline |
 | [Mansour's Fourier concentration conjecture for DNF](#q-formal-007) | [Computational learning theory](domains/cs.md#cs-learn) | Unknown | Source reports open | Outline |
 | [Existence of a binary q-Fano plane](#q-formal-009) | [Coding theory](domains/info.md#info-codes) | Unknown | Source reports open | Outline |
-| [Deterministic polynomial-time identity testing for general arithmetic circuits](#q-formal-010) | [Circuit and algebraic complexity](domains/cs.md#cs-complex-circuit) | Unknown | Source reports open | Outline |
+| [Deterministic polynomial-time identity testing for general arithmetic circuits](#q-formal-010) | [Circuit and algebraic complexity](domains/cs.md#cs-complex-circuit) | Unknown | Source reports open | [Full card](cards/Q-FORMAL-010.md) |
 | [Characterize admissible e-processes](#q-formal-012) | [Inference and decision theory](domains/stat.md#stat-infer) | Unknown | Source reports open | Outline |
 | [Yang-Mills existence and a mass gap in four dimensions](#q-model-004) | [Constructive and axiomatic field theory](domains/mphy.md#mphy-qft) | Frontier | Source reports open | Outline |
 | [NPT bound entanglement](#q-model-005) | [Quantum information theory](domains/info.md#info-quant) | Unknown | Source reports open | Outline |
@@ -59,7 +59,7 @@ Use this index to compare targets and their evidence status. **544 records inclu
 | [Complete EFX for four additive goods agents](#q-model-201) | [Mechanism design and fair allocation](domains/econ.md#econ-mech) | High | Source reports open | [Full card](cards/Q-MODEL-201.md) |
 | [Complete EFX for more than four common bi-valued chore agents](#q-model-202) | [Mechanism design and fair allocation](domains/econ.md#econ-mech) | High | Source reports open | [Full card](cards/Q-MODEL-202.md) |
 | [Complete EFX for three additive chore agents](#q-model-203) | [Mechanism design and fair allocation](domains/econ.md#econ-mech) | Unknown | Source reports open | Outline |
-| [EFX and Pareto optimality for personalized bi-valued goods](#q-model-204) | [Mechanism design and fair allocation](domains/econ.md#econ-mech) | Unknown | Source reports open | Outline |
+| [EFX and Pareto optimality for personalized bi-valued goods](#q-model-204) | [Mechanism design and fair allocation](domains/econ.md#econ-mech) | High | Source reports open | [Full card](cards/Q-MODEL-204.md) |
 | [Exact EFX for common three-value additive goods](#q-model-206) | [Mechanism design and fair allocation](domains/econ.md#econ-mech) | Unknown | Source reports open | Outline |
 | [Global synchronization of random cubic graphs](#q-model-207) | [Dynamics on networks and collective behavior](domains/net.md#net-dynamics) | Unknown | Source reports open | Outline |
 | [Complete EFX for binary submodular chore costs](#q-model-208) | [Mechanism design and fair allocation](domains/econ.md#econ-mech) | Unknown | Source reports open | Outline |
@@ -126,7 +126,7 @@ Use this index to compare targets and their evidence status. **544 records inclu
 | [Martin's conjecture, part 2, under determinacy](#q-formal-325) | [Computability and degree theory](domains/logic.md#logic-recur) | Frontier | Source reports open | Outline |
 | [Sacks's degree-invariant intermediate c.e. operator question](#q-formal-326) | [Computability and degree theory](domains/logic.md#logic-recur) | Frontier | Source reports open | Outline |
 | [A complete description of the four-variable almost-entropic cone](#q-formal-327) | [Entropy inequalities and information geometry](domains/info.md#info-entropy) | Frontier | Source reports open | Outline |
-| [Exact capacity of the independent binary deletion channel](#q-formal-328) | [Classical information theory](domains/info.md#info-shannon) | Frontier | Source reports open | Outline |
+| [Exact capacity of the independent binary deletion channel](#q-formal-328) | [Classical information theory](domains/info.md#info-shannon) | High | Source reports open | [Full card](cards/Q-FORMAL-328.md) |
 | [The deterministic communication log-rank conjecture](#q-formal-329) | [Communication complexity and distributed information](domains/info.md#info-complex) | Frontier | Source reports open | Outline |
 | [A deterministic factor-2 approximation for tournament feedback vertex set](#q-formal-330) | [Algorithms and data structures](domains/cs.md#cs-alg) | High | Source reports open | Outline |
 | [Exact birth–death diversity time on star graphs](#q-model-301) | [Evolution, population genetics and phylogenetics](domains/bio.md#bio-evol) | High | Source reports open | Outline |
@@ -522,6 +522,14 @@ Use this index to compare targets and their evidence status. **544 records inclu
 | [Random chemistry-like networks with prescribed constraints](#q-model-488) | [Reaction-network and kinetics theory](domains/chem.md#chem-reaction) | High | Unverified | Outline |
 | [Chemically constrained graph realizations of reaction networks](#q-model-489) | [Reaction-network and kinetics theory](domains/chem.md#chem-reaction) | High | Unverified | Outline |
 | [Conservation and thermodynamic soundness for infinite reaction networks](#q-model-490) | [Reaction-network and kinetics theory](domains/chem.md#chem-reaction) | High | Unverified | Outline |
+| [Structured resonances and avalanche diagnostics in the quasiperiodic XXZ chain](#q-model-491) | [Condensed matter and materials theory](domains/phys.md#phys-cond) | High | Source reports open | [Full card](cards/Q-MODEL-491.md) |
+| [Thermodynamic pairing order in the stripe regime of the square-lattice Hubbard model](#q-model-494) | [Condensed matter and materials theory](domains/phys.md#phys-cond) | Frontier | Source reports open | [Full card](cards/Q-MODEL-494.md) |
+| [Nonlinear stationary axisymmetric tidal response of Kerr black holes](#q-model-492) | [Gravitation and spacetime theory](domains/phys.md#phys-grav) | High | Open after scoped check | [Full card](cards/Q-MODEL-492.md) |
+| [Predictive mixed longitudinal-transverse intermittency exponents](#q-model-495) | [Fluid and plasma theory](domains/phys.md#phys-fluid) | High | Open after scoped check | [Full card](cards/Q-MODEL-495.md) |
+| [Three-copy undistillability of the Werner endpoint](#q-model-493) | [Quantum information theory](domains/info.md#info-quant) | High | Source reports open | [Full card](cards/Q-MODEL-493.md) |
+| [Efficient passive initialization of a three-dimensional quantum memory](#q-model-496) | [Quantum information theory](domains/info.md#info-quant) | High | Source reports open | [Full card](cards/Q-MODEL-496.md) |
+| [Optimal acceleration from predetermined gradient-descent stepsizes](#q-formal-510) | [Optimization and operations research](domains/math.md#math-opt) | High | Source reports open | [Full card](cards/Q-FORMAL-510.md) |
+| [A rank-47 decomposition for 4x4 matrix multiplication in characteristic zero](#q-formal-511) | [Circuit and algebraic complexity](domains/cs.md#cs-complex-circuit) | High | Source reports open | [Full card](cards/Q-FORMAL-511.md) |
 
 <a id="curator-proposed"></a>
 
@@ -2752,4 +2760,36 @@ Each record has its own page with the statement, source locator, information gap
 <a id="q-model-490"></a>
 
 [Q-MODEL-490 · Conservation and thermodynamic soundness for infinite reaction networks](candidates/Q-MODEL-490.md) — Unverified.
+
+<a id="q-model-491"></a>
+
+[Q-MODEL-491 · Structured resonances and avalanche diagnostics in the quasiperiodic XXZ chain](candidates/Q-MODEL-491.md) — Source reports open.
+
+<a id="q-model-494"></a>
+
+[Q-MODEL-494 · Thermodynamic pairing order in the stripe regime of the square-lattice Hubbard model](candidates/Q-MODEL-494.md) — Source reports open.
+
+<a id="q-model-492"></a>
+
+[Q-MODEL-492 · Nonlinear stationary axisymmetric tidal response of Kerr black holes](candidates/Q-MODEL-492.md) — Open after scoped check.
+
+<a id="q-model-495"></a>
+
+[Q-MODEL-495 · Predictive mixed longitudinal-transverse intermittency exponents](candidates/Q-MODEL-495.md) — Open after scoped check.
+
+<a id="q-model-493"></a>
+
+[Q-MODEL-493 · Three-copy undistillability of the Werner endpoint](candidates/Q-MODEL-493.md) — Source reports open.
+
+<a id="q-model-496"></a>
+
+[Q-MODEL-496 · Efficient passive initialization of a three-dimensional quantum memory](candidates/Q-MODEL-496.md) — Source reports open.
+
+<a id="q-formal-510"></a>
+
+[Q-FORMAL-510 · Optimal acceleration from predetermined gradient-descent stepsizes](candidates/Q-FORMAL-510.md) — Source reports open.
+
+<a id="q-formal-511"></a>
+
+[Q-FORMAL-511 · A rank-47 decomposition for 4x4 matrix multiplication in characteristic zero](candidates/Q-FORMAL-511.md) — Source reports open.
 

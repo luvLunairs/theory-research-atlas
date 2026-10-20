@@ -1293,7 +1293,7 @@
     "domain_ids": [
       "INFO.SHANNON"
     ],
-    "mapping_basis": "Introduction, capacity definition and discussion of the remaining uncertainty."
+    "mapping_basis": "The inspected source treats the candidate's channel model or exact bilinear matrix-multiplication problem."
   },
   {
     "source_id": "SRC-FORMAL-319",
@@ -2830,5 +2830,228 @@
       "MATH.NUMER"
     ],
     "mapping_basis": "The inspected passages provide constructions, numerical optimization results and certification limits for the finite geometric problem."
+  },
+  {
+    "source_id": "SRC-PHYS-001",
+    "domain_ids": [
+      "PHYS.COND",
+      "PHYS.STAT"
+    ],
+    "mapping_basis": "Quantum many-body dynamics or interacting-electron phases under a specified lattice Hamiltonian."
+  },
+  {
+    "source_id": "SRC-PHYS-002",
+    "domain_ids": [
+      "PHYS.COND",
+      "PHYS.STAT"
+    ],
+    "mapping_basis": "Quantum many-body dynamics or interacting-electron phases under a specified lattice Hamiltonian."
+  },
+  {
+    "source_id": "SRC-PHYS-003",
+    "domain_ids": [
+      "PHYS.COND",
+      "PHYS.STAT"
+    ],
+    "mapping_basis": "Quantum many-body dynamics or interacting-electron phases under a specified lattice Hamiltonian."
+  },
+  {
+    "source_id": "SRC-PHYS-004",
+    "domain_ids": [
+      "PHYS.COND",
+      "PHYS.STAT"
+    ],
+    "mapping_basis": "Quantum many-body dynamics or interacting-electron phases under a specified lattice Hamiltonian."
+  },
+  {
+    "source_id": "SRC-PHYS-005",
+    "domain_ids": [
+      "PHYS.COND",
+      "PHYS.STAT"
+    ],
+    "mapping_basis": "Quantum many-body dynamics or interacting-electron phases under a specified lattice Hamiltonian."
+  },
+  {
+    "source_id": "SRC-PHYS-006",
+    "domain_ids": [
+      "PHYS.GRAV",
+      "MPHY"
+    ],
+    "mapping_basis": "Association from the inspected subject matter; not complete branch coverage."
+  },
+  {
+    "source_id": "SRC-PHYS-007",
+    "domain_ids": [
+      "PHYS.GRAV",
+      "MPHY"
+    ],
+    "mapping_basis": "Association from the inspected subject matter; not complete branch coverage."
+  },
+  {
+    "source_id": "SRC-PHYS-008",
+    "domain_ids": [
+      "PHYS.GRAV",
+      "MPHY"
+    ],
+    "mapping_basis": "Association from the inspected subject matter; not complete branch coverage."
+  },
+  {
+    "source_id": "SRC-PHYS-009",
+    "domain_ids": [
+      "PHYS.FLUID",
+      "PHYS.STAT"
+    ],
+    "mapping_basis": "Association from the inspected subject matter; not complete branch coverage."
+  },
+  {
+    "source_id": "SRC-PHYS-010",
+    "domain_ids": [
+      "PHYS.FLUID",
+      "PHYS.STAT"
+    ],
+    "mapping_basis": "Association from the inspected subject matter; not complete branch coverage."
+  },
+  {
+    "source_id": "SRC-PHYS-011",
+    "domain_ids": [
+      "INFO.QUANT",
+      "MATH.ANAL.FUNC"
+    ],
+    "mapping_basis": "Finite-copy distillability and partial-trace inequalities."
+  },
+  {
+    "source_id": "SRC-PHYS-012",
+    "domain_ids": [
+      "INFO.QUANT"
+    ],
+    "mapping_basis": "Unverified claim concerning a fixed-dimensional distillability case."
+  },
+  {
+    "source_id": "SRC-PHYS-013",
+    "domain_ids": [
+      "INFO.QUANT",
+      "INFO.CODES",
+      "PHYS.STAT"
+    ],
+    "mapping_basis": "Thermal quantum memory and initialization."
+  },
+  {
+    "source_id": "SRC-PHYS-014",
+    "domain_ids": [
+      "PHYS.STAT",
+      "INFO.CODES"
+    ],
+    "mapping_basis": "Classical thermal stability; retained to distinguish the later result's scope."
+  },
+  {
+    "source_id": "SRC-IMPACT-001",
+    "domain_ids": [
+      "MATH.OPT",
+      "CS.ALG"
+    ],
+    "mapping_basis": "Worst-case convergence and deterministic stepsize algorithms."
+  },
+  {
+    "source_id": "SRC-IMPACT-002",
+    "domain_ids": [
+      "MATH.OPT",
+      "CS.ALG"
+    ],
+    "mapping_basis": "Worst-case convergence and deterministic stepsize algorithms."
+  },
+  {
+    "source_id": "SRC-IMPACT-003",
+    "domain_ids": [
+      "MATH.OPT",
+      "CS.ALG"
+    ],
+    "mapping_basis": "Worst-case convergence and deterministic stepsize algorithms."
+  },
+  {
+    "source_id": "SRC-IMPACT-004",
+    "domain_ids": [
+      "ECON.MECH",
+      "MATH.OPT"
+    ],
+    "mapping_basis": "Fair division under personalized two-value utilities and the maximum-Nash-welfare approximation guarantee."
+  },
+  {
+    "source_id": "SRC-IMPACT-006",
+    "domain_ids": [
+      "CS.COMPLEX.CIRCUIT",
+      "MATH.ALG"
+    ],
+    "mapping_basis": "The inspected source treats the candidate's channel model or exact bilinear matrix-multiplication problem."
+  },
+  {
+    "source_id": "SRC-IMPACT-007",
+    "domain_ids": [
+      "CS.COMPLEX.CIRCUIT",
+      "MATH.ALG"
+    ],
+    "mapping_basis": "The inspected source treats the candidate's channel model or exact bilinear matrix-multiplication problem."
+  },
+  {
+    "source_id": "SRC-IMPACT-008",
+    "domain_ids": [
+      "CS.COMPLEX.CIRCUIT",
+      "MATH.ALG"
+    ],
+    "mapping_basis": "The inspected source treats the candidate's channel model or exact bilinear matrix-multiplication problem."
+  },
+  {
+    "source_id": "SRC-IMPACT-009",
+    "domain_ids": [
+      "INFO.SHANNON"
+    ],
+    "mapping_basis": "The inspected source treats the candidate's channel model or exact bilinear matrix-multiplication problem."
+  },
+  {
+    "source_id": "SRC-IMPACT-010",
+    "domain_ids": [
+      "CS.COMPLEX.CIRCUIT",
+      "MATH.ALG"
+    ],
+    "mapping_basis": "The inspected source treats the candidate's channel model or exact bilinear matrix-multiplication problem."
+  },
+  {
+    "source_id": "SRC-IMPACT-011",
+    "domain_ids": [
+      "CS.COMPLEX.CIRCUIT",
+      "CS.ALG"
+    ],
+    "mapping_basis": "Arithmetic identity-testing algorithms, restrictions and reductions."
+  },
+  {
+    "source_id": "SRC-IMPACT-012",
+    "domain_ids": [
+      "CS.COMPLEX.CIRCUIT",
+      "CS.ALG"
+    ],
+    "mapping_basis": "Arithmetic identity-testing algorithms, restrictions and reductions."
+  },
+  {
+    "source_id": "SRC-IMPACT-013",
+    "domain_ids": [
+      "CS.COMPLEX.CIRCUIT",
+      "CS.ALG"
+    ],
+    "mapping_basis": "Arithmetic identity-testing algorithms, restrictions and reductions."
+  },
+  {
+    "source_id": "SRC-IMPACT-014",
+    "domain_ids": [
+      "CS.COMPLEX.CIRCUIT",
+      "CS.ALG"
+    ],
+    "mapping_basis": "Computational conventions and deterministic identity testing."
+  },
+  {
+    "source_id": "SRC-IMPACT-015",
+    "domain_ids": [
+      "CS.COMPLEX.CIRCUIT",
+      "CS.ALG"
+    ],
+    "mapping_basis": "Computational conventions and deterministic identity testing."
   }
 ]

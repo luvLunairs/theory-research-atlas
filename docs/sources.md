@@ -368,6 +368,34 @@ Find literature by [domain](README.md), or scan the complete directory below. **
 | [kelletal2018: auditory network parameters and demonstration](sources.md#src-review-802) | Research entry | Not verified |
 | [Computing Triangulations with Minimum Stabbing Number](sources.md#src-review-803) | Research entry | 2017 |
 | [From Computational Certification to Exact Coordinates: Heilbronn's Triangle Problem on the Unit Square Using Mixed-Integer Optimization](sources.md#src-review-901) | Research entry | 2026 |
+| [Thermal avalanches in a quasiperiodic XXZ model](sources.md#src-phys-001) | Research entry | 2026 |
+| [An asymptotically solvable model of many-body critical phases: mobility edges, scars, and inverted scars](sources.md#src-phys-002) | Research entry | 2026 |
+| [Superconductivity in the two-dimensional Hubbard model revealed by neural quantum states](sources.md#src-phys-003) | Research entry | 2025 |
+| [Superconductivity in the t-t' Hubbard Model from Symmetry-Preserving Neural-Network Quantum States](sources.md#src-phys-004) | Research entry | 2026 |
+| [Topological Melting of Magnetic Stripes and the Emergence of Macroscopic d-wave Superconductivity in the 2D Hubbard Model](sources.md#src-phys-005) | Research entry | 2026 |
+| [Love numbers of black holes and compact objects](sources.md#src-phys-006) | Research entry | 2026 |
+| [The Vanishing of the Non-linear Static Love Number of Kerr Black Holes and the Role of Symmetries](sources.md#src-phys-007) | Research entry | 2025 |
+| [Vanishing Love Numbers of Kerr-Newman Black Holes](sources.md#src-phys-008) | Research entry | 2026 |
+| [Joint multifractal description of small-scale turbulence: Unifying longitudinal and transverse velocity intermittency](sources.md#src-phys-009) | Research entry | 2026 |
+| [Turbulence intermittency and velocity gradients](sources.md#src-phys-010) | Research entry | 2026 |
+| [Sharp Plücker Geometry for Three-Copy Werner Distillation](sources.md#src-phys-011) | Research entry | 2026 |
+| [Three-copy undistillability of the boundary qutrit Werner state](sources.md#src-phys-012) | Research entry | 2026 |
+| [A passive self-correcting quantum memory in three dimensions](sources.md#src-phys-013) | Research entry | 2026 |
+| [A thermally and perturbatively stable classical spin model in two dimensions](sources.md#src-phys-014) | Research entry | 2026 |
+| [Stronger Lower Bounds for (Non-)Anytime Acceleration of Gradient Descent](sources.md#src-impact-001) | Research entry | 2026 |
+| [Acceleration by stepsize hedging: Silver Stepsize Schedule for smooth convex optimization](sources.md#src-impact-002) | Research entry | 2025 |
+| [Anytime Acceleration of Gradient Descent](sources.md#src-impact-003) | Research entry | 2025 |
+| [When Maximum Nash Welfare Becomes Strongly Fair: Bi-valued Goods](sources.md#src-impact-004) | Research entry | 2026 |
+| [The Rank of the 4x4 Matrix-Multiplication Tensor](sources.md#src-impact-006) | Research entry | 2026 |
+| [A non-commutative algorithm for multiplying 4x4 matrices using 48 non-complex multiplications](sources.md#src-impact-007) | Research entry | 2025 |
+| [Cloudroom Math: new matrix multiplication algorithms found by AI agents](sources.md#src-impact-008) | Research entry | 2026 |
+| [Binary deletion-channel capacity: verification materials](sources.md#src-impact-009) | Research entry | 2026 |
+| [Description of fast matrix multiplication algorithm: 4 x 4 x 4](sources.md#src-impact-010) | Research entry | Not verified |
+| [Polynomial Identity Testing for Read-4 Arithmetic Formulas](sources.md#src-impact-011) | Research entry | 2026 |
+| [A Note on Deterministic PIT for Sigma^[3] Pi Sigma Pi^[delta] Circuits](sources.md#src-impact-012) | Research entry | 2026 |
+| [Homomorphism Indistinguishability, Multiplicity Automata Equivalence, and Polynomial Identity Testing](sources.md#src-impact-013) | Research entry | 2026 |
+| [Independence in Algebraic Complexity Theory](sources.md#src-impact-014) | Research entry | 2013 |
+| [Near-Optimal Bootstrapping of Hitting Sets for Algebraic Models](sources.md#src-impact-015) | Research entry | 2023 |
 
 ## Classification references
 
@@ -1085,7 +1113,7 @@ No candidate has been extracted from this entry yet.
 
 **Indexed tasks using this source**
 
-- [Deterministic polynomial-time identity testing for general arithmetic circuits](candidates/Q-FORMAL-010.md)
+- [Deterministic polynomial-time identity testing for general arithmetic circuits](cards/Q-FORMAL-010.md)
 
 [Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
 
@@ -3982,7 +4010,7 @@ No candidate has been extracted from this entry yet.
 
 **Authors / responsible organization:** Wentao He; Biaoshuai Tao.
 
-**Publication year:** 2026. **Access / attempt date:** 2026-10-14.
+**Publication year:** 2026. **Access / attempt date:** 2026-10-20.
 
 **Type:** Author preprint. **Purpose:** Research entry. **Inspection:** Opened.
 
@@ -4005,7 +4033,7 @@ No candidate has been extracted from this entry yet.
 - [Complete EFX for four additive goods agents](cards/Q-MODEL-201.md)
 - [Complete EFX for more than four common bi-valued chore agents](cards/Q-MODEL-202.md)
 - [Complete EFX for three additive chore agents](candidates/Q-MODEL-203.md)
-- [EFX and Pareto optimality for personalized bi-valued goods](candidates/Q-MODEL-204.md)
+- [EFX and Pareto optimality for personalized bi-valued goods](cards/Q-MODEL-204.md)
 
 [Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
 
@@ -4053,7 +4081,7 @@ No candidate has been extracted from this entry yet.
 
 **Authors / responsible organization:** Jiarong Jin; Biaoshuai Tao.
 
-**Publication year:** 2025. **Access / attempt date:** 2026-10-14.
+**Publication year:** 2025. **Access / attempt date:** 2026-10-20.
 
 **Type:** Author preprint, accepted at wine 2025. **Purpose:** Research entry. **Inspection:** Opened.
 
@@ -4072,7 +4100,7 @@ No candidate has been extracted from this entry yet.
 
 **Indexed tasks using this source**
 
-- [EFX and Pareto optimality for personalized bi-valued goods](candidates/Q-MODEL-204.md)
+- [EFX and Pareto optimality for personalized bi-valued goods](cards/Q-MODEL-204.md)
 - [Exact EFX for common three-value additive goods](candidates/Q-MODEL-206.md)
 
 [Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
@@ -5872,25 +5900,25 @@ No candidate has been extracted from this entry yet.
 
 **Authors / responsible organization:** Dimitris Papailiopoulos.
 
-**Publication year:** 2026. **Access / attempt date:** 2026-10-14.
+**Publication year:** 2026. **Access / attempt date:** 2026-10-20.
 
 **Type:** Research paper. **Purpose:** Research entry. **Inspection:** Opened.
 
-**Inspected location:** Introduction, capacity definition and discussion of the remaining uncertainty.
+**Inspected location:** Sections 1.2, 2, 12-14; Table 1.
 
 **Supports**
 
-- Recent approximate capacity enclosures do not identify exact binary deletion-channel capacity.
+- Exact capacity remains unknown; Table 1 reports outward-rounded bounds at d=1/2.
 
-**Limits:** Preprint; its claimed quantitative certificates have not been independently verified here and are not imported as established benchmarks.
+**Limits:** Preprint. Bounds and numerical certificates were not independently replayed. The linked repository still reports incomplete availability of its large proof inputs.
 
 **Related subjects:** [Classical information theory](domains/info.md#info-shannon).
 
-**Connection to these subjects:** Introduction, capacity definition and discussion of the remaining uncertainty.
+**Connection to these subjects:** The inspected source treats the candidate's channel model or exact bilinear matrix-multiplication problem.
 
 **Indexed tasks using this source**
 
-- [Exact capacity of the independent binary deletion channel](candidates/Q-FORMAL-328.md)
+- [Exact capacity of the independent binary deletion channel](cards/Q-FORMAL-328.md)
 
 [Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
 
@@ -11734,7 +11762,9 @@ No candidate has been extracted from this entry yet.
 
 **Indexed tasks using this source**
 
+- [NPT bound entanglement](candidates/Q-MODEL-005.md)
 - [Two-copy distillability of the two-ququart Werner boundary state](candidates/Q-MODEL-006.md)
+- [Three-copy undistillability of the Werner endpoint](cards/Q-MODEL-493.md)
 
 [Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
 
@@ -13104,6 +13134,937 @@ No candidate has been extracted from this entry yet.
 **Indexed tasks using this source**
 
 - [The exact ten-point Heilbronn number in the unit square](cards/Q-MATH-203.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-001"></a>
+
+<details>
+<summary>SRC-PHYS-001 · Thermal avalanches in a quasiperiodic XXZ model</summary>
+
+[Thermal avalanches in a quasiperiodic XXZ model](https://arxiv.org/html/2607.21708v1)
+
+**Authors / responsible organization:** Paolo Molignini; Antonio Štrkalj.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-10-20.
+
+**Type:** Research preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** arXiv:2607.21708v1, 23 July 2026; sections II, IV, V.2 and VI.
+
+**Supports**
+
+- The quasiperiodic XXZ Hamiltonian and a stated need to determine resonance corrections to bath coupling.
+
+**Limits:** Finite-chain numerical evidence and a proposed physical explanation; no independent replication or thermodynamic theorem.
+
+**Related subjects:** [Condensed matter and materials theory](domains/phys.md#phys-cond), [Statistical and nonequilibrium physics](domains/phys.md#phys-stat).
+
+**Connection to these subjects:** Quantum many-body dynamics or interacting-electron phases under a specified lattice Hamiltonian.
+
+**Indexed tasks using this source**
+
+- [Structured resonances and avalanche diagnostics in the quasiperiodic XXZ chain](cards/Q-MODEL-491.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-002"></a>
+
+<details>
+<summary>SRC-PHYS-002 · An asymptotically solvable model of many-body critical phases: mobility edges, scars, and inverted scars</summary>
+
+[An asymptotically solvable model of many-body critical phases: mobility edges, scars, and inverted scars](https://arxiv.org/html/2608.00157v1)
+
+**Authors / responsible organization:** Yi-Ting Tu; Zi-Jian Li; Sankar Das Sarma.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-10-20.
+
+**Type:** Research preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** arXiv:2608.00157v1, submitted 31 July 2026; section V.3 and Appendix A.
+
+**Supports**
+
+- Structured-resonance rare regions need not be absent in quasiperiodic systems; their ability to initiate avalanches is left uncertain.
+
+**Limits:** Different constructed models and conditional arguments; not a resolution of the implanted-bath XXZ diagnostic question.
+
+**Related subjects:** [Condensed matter and materials theory](domains/phys.md#phys-cond), [Statistical and nonequilibrium physics](domains/phys.md#phys-stat).
+
+**Connection to these subjects:** Quantum many-body dynamics or interacting-electron phases under a specified lattice Hamiltonian.
+
+**Indexed tasks using this source**
+
+- [Structured resonances and avalanche diagnostics in the quasiperiodic XXZ chain](cards/Q-MODEL-491.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-003"></a>
+
+<details>
+<summary>SRC-PHYS-003 · Superconductivity in the two-dimensional Hubbard model revealed by neural quantum states</summary>
+
+[Superconductivity in the two-dimensional Hubbard model revealed by neural quantum states](https://arxiv.org/html/2511.07566v1)
+
+**Authors / responsible organization:** Christopher Roth; Ao Chen; Anirvan Sengupta; Antoine Georges.
+
+**Publication year:** 2025. **Access / attempt date:** 2026-10-20.
+
+**Type:** Research preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** arXiv:2511.07566v1, 10 November 2025; section IV.3, section V and Appendix D Table 4.
+
+**Supports**
+
+- An explicitly unresolved thermodynamic pairing question for the stripe regime at hole doping 1/6 and t'=0.
+
+**Limits:** Variational numerical results; the reported finite-cluster pairing does not establish thermodynamic long-range order.
+
+**Related subjects:** [Condensed matter and materials theory](domains/phys.md#phys-cond), [Statistical and nonequilibrium physics](domains/phys.md#phys-stat).
+
+**Connection to these subjects:** Quantum many-body dynamics or interacting-electron phases under a specified lattice Hamiltonian.
+
+**Indexed tasks using this source**
+
+- [Thermodynamic pairing order in the stripe regime of the square-lattice Hubbard model](cards/Q-MODEL-494.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-004"></a>
+
+<details>
+<summary>SRC-PHYS-004 · Superconductivity in the t-t&#x27; Hubbard Model from Symmetry-Preserving Neural-Network Quantum States</summary>
+
+[Superconductivity in the t-t' Hubbard Model from Symmetry-Preserving Neural-Network Quantum States](https://arxiv.org/html/2608.12465v1)
+
+**Authors / responsible organization:** Riccardo Rende; Luciano Loris Viteritti; Antoine Georges.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-10-20.
+
+**Type:** Research preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** arXiv:2608.12465v1, 12 August 2026; model definition, superconducting correlations and discussion.
+
+**Supports**
+
+- Later superconductivity evidence at hole doping 1/8, U/t=8 and t'/t=-0.2.
+
+**Limits:** Different parameters from the indexed 1/6-doped, t'=0 target; variational evidence is not an exact ground-state proof.
+
+**Related subjects:** [Condensed matter and materials theory](domains/phys.md#phys-cond), [Statistical and nonequilibrium physics](domains/phys.md#phys-stat).
+
+**Connection to these subjects:** Quantum many-body dynamics or interacting-electron phases under a specified lattice Hamiltonian.
+
+**Indexed tasks using this source**
+
+- [Thermodynamic pairing order in the stripe regime of the square-lattice Hubbard model](cards/Q-MODEL-494.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-005"></a>
+
+<details>
+<summary>SRC-PHYS-005 · Topological Melting of Magnetic Stripes and the Emergence of Macroscopic d-wave Superconductivity in the 2D Hubbard Model</summary>
+
+[Topological Melting of Magnetic Stripes and the Emergence of Macroscopic d-wave Superconductivity in the 2D Hubbard Model](https://arxiv.org/pdf/2606.07634v2)
+
+**Authors / responsible organization:** Jin Hyung Cho.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-10-20.
+
+**Type:** Research preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** arXiv:2606.07634v2, revised 10 September 2026; abstract and pp. 2-3, equation (1) and parameters.
+
+**Supports**
+
+- A later broad superconductivity claim was checked against its explicit Hamiltonian parameters.
+
+**Limits:** The inspected setup uses U/t=6 and nonzero t'/t, unlike the indexed target. Its broad conclusions were not independently evaluated.
+
+**Related subjects:** [Condensed matter and materials theory](domains/phys.md#phys-cond), [Statistical and nonequilibrium physics](domains/phys.md#phys-stat).
+
+**Connection to these subjects:** Quantum many-body dynamics or interacting-electron phases under a specified lattice Hamiltonian.
+
+**Indexed tasks using this source**
+
+- [Thermodynamic pairing order in the stripe regime of the square-lattice Hubbard model](cards/Q-MODEL-494.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-006"></a>
+
+<details>
+<summary>SRC-PHYS-006 · Love numbers of black holes and compact objects</summary>
+
+[Love numbers of black holes and compact objects](https://arxiv.org/pdf/2604.08653v1)
+
+**Authors / responsible organization:** María J. Rodríguez; Luca Santoni; Adam R. Solomon.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-10-20.
+
+**Type:** Review. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Section 6.3.2, PDF page 112; arXiv:2604.08653v1, submitted 2026-04-09.
+
+**Supports**
+
+- Identifies the missing complete nonlinear stationary axisymmetric Kerr multipole calculation and effective-field-theory matching.
+
+**Limits:** The relevant review passage was inspected, not every cited derivation; it is a preprint review and its status statement is dated.
+
+**Related subjects:** [Gravitation and spacetime theory](domains/phys.md#phys-grav), [Mathematical physics](domains/mphy.md).
+
+**Connection to these subjects:** Association from the inspected subject matter; not complete branch coverage.
+
+**Indexed tasks using this source**
+
+- [Nonlinear stationary axisymmetric tidal response of Kerr black holes](cards/Q-MODEL-492.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-007"></a>
+
+<details>
+<summary>SRC-PHYS-007 · The Vanishing of the Non-linear Static Love Number of Kerr Black Holes and the Role of Symmetries</summary>
+
+[The Vanishing of the Non-linear Static Love Number of Kerr Black Holes and the Role of Symmetries](https://arxiv.org/html/2412.08249v1)
+
+**Authors / responsible organization:** L.-R. Gounis; A. Kehagias; A. Riotto.
+
+**Publication year:** 2025. **Access / attempt date:** 2026-10-20.
+
+**Type:** Paper. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Section 5.1, equations (41)-(47), and conclusions. Preprint submitted 2024-12-11; JCAP 03 (2025) 002, DOI 10.1088/1475-7516/2025/03/002.
+
+**Supports**
+
+- Provides a quadrupolar axisymmetric calculation and a broader all-orders vanishing claim.
+
+**Limits:** The later review identifies remaining multipolar and EFT-matching work. No independent audit of the curvature calculation or generality claim was performed.
+
+**Related subjects:** [Gravitation and spacetime theory](domains/phys.md#phys-grav), [Mathematical physics](domains/mphy.md).
+
+**Connection to these subjects:** Association from the inspected subject matter; not complete branch coverage.
+
+**Indexed tasks using this source**
+
+- [Nonlinear stationary axisymmetric tidal response of Kerr black holes](cards/Q-MODEL-492.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-008"></a>
+
+<details>
+<summary>SRC-PHYS-008 · Vanishing Love Numbers of Kerr-Newman Black Holes</summary>
+
+[Vanishing Love Numbers of Kerr-Newman Black Holes](https://arxiv.org/html/2610.17179v1)
+
+**Authors / responsible organization:** Sumanta Chakraborty; Takuya Katagiri; Paolo Pani; Jun-Xi Shi.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-10-20.
+
+**Type:** Preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Introduction, static perturbations and final discussion; arXiv:2610.17179v1, submitted 2026-10-12.
+
+**Supports**
+
+- Reports vanishing linear conservative static gravito-electromagnetic response and separately lists beyond-linear response as future work.
+
+**Limits:** Recent preprint; its linear result is not a solution of the nonlinear Kerr target and has not been independently verified here.
+
+**Related subjects:** [Gravitation and spacetime theory](domains/phys.md#phys-grav), [Mathematical physics](domains/mphy.md).
+
+**Connection to these subjects:** Association from the inspected subject matter; not complete branch coverage.
+
+**Indexed tasks using this source**
+
+- [Nonlinear stationary axisymmetric tidal response of Kerr black holes](cards/Q-MODEL-492.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-009"></a>
+
+<details>
+<summary>SRC-PHYS-009 · Joint multifractal description of small-scale turbulence: Unifying longitudinal and transverse velocity intermittency</summary>
+
+[Joint multifractal description of small-scale turbulence: Unifying longitudinal and transverse velocity intermittency](https://journals.aps.org/prfluids/pdf/10.1103/24bv-jqps)
+
+**Authors / responsible organization:** Dhawal Buaria.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-10-20.
+
+**Type:** Paper. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Physical Review Fluids 11, L092601, published 2026-09-18; conclusions pp.6-7, data availability p.7, Appendix C p.9; equations (18)-(19).
+
+**Supports**
+
+- Leaves prediction of the full mixed-exponent family unresolved while establishing relations within a joint multifractal framework.
+
+**Limits:** The underlying DNS data were not publicly deposited; access requires a separate request. The published one-transverse-component relation uses 4/15, correcting the older arXiv:2601.12528v1 wording. Finite-Reynolds-number agreement is not an asymptotic proof.
+
+**Related subjects:** [Fluid and plasma theory](domains/phys.md#phys-fluid), [Statistical and nonequilibrium physics](domains/phys.md#phys-stat).
+
+**Connection to these subjects:** Association from the inspected subject matter; not complete branch coverage.
+
+**Indexed tasks using this source**
+
+- [Predictive mixed longitudinal-transverse intermittency exponents](cards/Q-MODEL-495.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-010"></a>
+
+<details>
+<summary>SRC-PHYS-010 · Turbulence intermittency and velocity gradients</summary>
+
+[Turbulence intermittency and velocity gradients](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/83110A5131F55CF9B890415703AA7770/S0022112026114943a.pdf/div-class-title-turbulence-intermittency-and-velocity-gradients-div.pdf)
+
+**Authors / responsible organization:** Dhawal Buaria; Alain Pumir.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-10-20.
+
+**Type:** Review. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Journal of Fluid Mechanics 1034, P1; published online 2026-05-07; DOI 10.1017/jfm.2026.11494; section 9.1, pp.70-71, and data availability p.78.
+
+**Supports**
+
+- Identifies the theory of mixed structure-function scaling and the connection between statistics and dynamics as open research needs.
+
+**Limits:** Relevant review sections were inspected. Its underlying data are available upon reasonable request, not assumed accessible to this project.
+
+**Related subjects:** [Fluid and plasma theory](domains/phys.md#phys-fluid), [Statistical and nonequilibrium physics](domains/phys.md#phys-stat).
+
+**Connection to these subjects:** Association from the inspected subject matter; not complete branch coverage.
+
+**Indexed tasks using this source**
+
+- [Predictive mixed longitudinal-transverse intermittency exponents](cards/Q-MODEL-495.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-011"></a>
+
+<details>
+<summary>SRC-PHYS-011 · Sharp Plücker Geometry for Three-Copy Werner Distillation</summary>
+
+[Sharp Plücker Geometry for Three-Copy Werner Distillation](https://arxiv.org/html/2608.02647v1)
+
+**Authors / responsible organization:** Tianhao Wu; Qiran Zou.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-10-20.
+
+**Type:** Preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** arXiv:2608.02647v1, submitted 2026-07-31; Section 1.1, equations (1)-(3), Sections 6-7 and discussion.
+
+**Supports**
+
+- States the remaining unrestricted three-copy endpoint and reports several rank-two sectors satisfying the inequality.
+
+**Limits:** Primary passages and metadata inspected; proofs not independently verified. An October candidate for d=3 is recorded separately.
+
+**Related subjects:** [Quantum information theory](domains/info.md#info-quant), [Functional and operator analysis](domains/math.md#math-anal-func).
+
+**Connection to these subjects:** Finite-copy distillability and partial-trace inequalities.
+
+**Indexed tasks using this source**
+
+- [NPT bound entanglement](candidates/Q-MODEL-005.md)
+- [Three-copy undistillability of the Werner endpoint](cards/Q-MODEL-493.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-012"></a>
+
+<details>
+<summary>SRC-PHYS-012 · Three-copy undistillability of the boundary qutrit Werner state</summary>
+
+[Three-copy undistillability of the boundary qutrit Werner state](https://zenodo.org/records/23134454)
+
+**Authors / responsible organization:** Anonymous.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-10-20.
+
+**Type:** Preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Published 2026-10-04, version 1.1.0-candidate; DOI 10.5281/zenodo.23134454; landing-page description and file inventory.
+
+**Supports**
+
+- The deposit reports a candidate computer-assisted result for d=3 and three copies.
+
+**Limits:** Only the landing page was inspected. PDF retrieval failed; the proof, verifier, certificates and review report remain uninspected and unrun. The deposit disclaims journal peer review and an all-copy result.
+
+**Related subjects:** [Quantum information theory](domains/info.md#info-quant).
+
+**Connection to these subjects:** Unverified claim concerning a fixed-dimensional distillability case.
+
+**Indexed tasks using this source**
+
+- [NPT bound entanglement](candidates/Q-MODEL-005.md)
+- [Three-copy undistillability of the Werner endpoint](cards/Q-MODEL-493.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-013"></a>
+
+<details>
+<summary>SRC-PHYS-013 · A passive self-correcting quantum memory in three dimensions</summary>
+
+[A passive self-correcting quantum memory in three dimensions](https://arxiv.org/html/2605.10943v1)
+
+**Authors / responsible organization:** Shankar Balasubramanian; Margarita Davydova; Ting-Chun Lin.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-10-20.
+
+**Type:** Preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** arXiv:2605.10943v1, submitted 2026-05-11; Section 1.3, item 2, and thermal-encoding definition.
+
+**Supports**
+
+- Identifies efficient passive initialization as unresolved for the proposed three-dimensional memory.
+
+**Limits:** The initialization discussion and metadata were inspected. The long construction and lifetime proof were not independently verified; no physical implementation is established here.
+
+**Related subjects:** [Quantum information theory](domains/info.md#info-quant), [Coding theory](domains/info.md#info-codes), [Statistical and nonequilibrium physics](domains/phys.md#phys-stat).
+
+**Connection to these subjects:** Thermal quantum memory and initialization.
+
+**Indexed tasks using this source**
+
+- [Efficient passive initialization of a three-dimensional quantum memory](cards/Q-MODEL-496.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-014"></a>
+
+<details>
+<summary>SRC-PHYS-014 · A thermally and perturbatively stable classical spin model in two dimensions</summary>
+
+[A thermally and perturbatively stable classical spin model in two dimensions](https://arxiv.org/html/2610.22548v1)
+
+**Authors / responsible organization:** Shankar Balasubramanian; Margarita Davydova; Ting-Chun Lin; Ryan Thorngren.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-10-20.
+
+**Type:** Preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** arXiv:2610.22548v1, submitted 2026-10-15; abstract and Section 1.
+
+**Supports**
+
+- A later related result concerns two-dimensional classical thermal and perturbative stability.
+
+**Limits:** This is not a solution of efficient initialization for the three-dimensional quantum memory. Statement and scope inspected; proof not independently verified.
+
+**Related subjects:** [Statistical and nonequilibrium physics](domains/phys.md#phys-stat), [Coding theory](domains/info.md#info-codes).
+
+**Connection to these subjects:** Classical thermal stability; retained to distinguish the later result's scope.
+
+**Indexed tasks using this source**
+
+- [Efficient passive initialization of a three-dimensional quantum memory](cards/Q-MODEL-496.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-impact-001"></a>
+
+<details>
+<summary>SRC-IMPACT-001 · Stronger Lower Bounds for (Non-)Anytime Acceleration of Gradient Descent</summary>
+
+[Stronger Lower Bounds for (Non-)Anytime Acceleration of Gradient Descent](https://arxiv.org/html/2609.04032v2)
+
+**Authors / responsible organization:** Minchan Jung; Hanseul Cho; Chulhee Yun.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-10-20.
+
+**Type:** Author preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Version 2, 4 September 2026; equation (1), Theorems 1.1-1.2 and Sections 3-5. Version date checked against the arXiv abstract page.
+
+**Supports**
+
+- Defines the dimension-uniform, normalized last-iterate objective gap.
+- Reports a fixed-horizon lower bound with exponent log_2(1+sqrt(3)) and a distinct anytime limsup barrier.
+- Section 5 leaves the upper/lower rate gap unresolved.
+
+**Limits:** The stated lower bounds were read, not independently proved. The anytime theorem is a limsup obstruction, not a pointwise lower bound at every iteration.
+
+**Related subjects:** [Optimization and operations research](domains/math.md#math-opt), [Algorithms and data structures](domains/cs.md#cs-alg).
+
+**Connection to these subjects:** Worst-case convergence and deterministic stepsize algorithms.
+
+**Indexed tasks using this source**
+
+- [Optimal acceleration from predetermined gradient-descent stepsizes](cards/Q-FORMAL-510.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-impact-002"></a>
+
+<details>
+<summary>SRC-IMPACT-002 · Acceleration by stepsize hedging: Silver Stepsize Schedule for smooth convex optimization</summary>
+
+[Acceleration by stepsize hedging: Silver Stepsize Schedule for smooth convex optimization](https://link.springer.com/article/10.1007/s10107-024-02164-2)
+
+**Authors / responsible organization:** Jason M. Altschuler; Pablo A. Parrilo.
+
+**Publication year:** 2025. **Access / attempt date:** 2026-10-20.
+
+**Type:** Journal article. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Mathematical Programming 213, 1105-1118; published online 25 November 2024, issue September 2025; DOI 10.1007/s10107-024-02164-2; Sections 1-3.
+
+**Supports**
+
+- Gives a deterministic silver stepsize schedule with objective-gap exponent log_2(1+sqrt(2)) at its terminal iterations.
+- Explains recursive composition of multi-step descent inequalities.
+
+**Limits:** This is an upper-bound construction, not a proof that its rate is optimal. Special terminal iterations and anytime guarantees must be distinguished.
+
+**Related subjects:** [Optimization and operations research](domains/math.md#math-opt), [Algorithms and data structures](domains/cs.md#cs-alg).
+
+**Connection to these subjects:** Worst-case convergence and deterministic stepsize algorithms.
+
+**Indexed tasks using this source**
+
+- [Optimal acceleration from predetermined gradient-descent stepsizes](cards/Q-FORMAL-510.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-impact-003"></a>
+
+<details>
+<summary>SRC-IMPACT-003 · Anytime Acceleration of Gradient Descent</summary>
+
+[Anytime Acceleration of Gradient Descent](https://proceedings.mlr.press/v291/zhang25a.html)
+
+**Authors / responsible organization:** Zihan Zhang; Jason Lee; Simon Du; Yuxin Chen.
+
+**Publication year:** 2025. **Access / attempt date:** 2026-10-20.
+
+**Type:** Conference proceedings. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** COLT 2025, PMLR 291:5991-6013; conference 30 June-4 July 2025; publisher abstract and bibliography.
+
+**Supports**
+
+- Reports one predetermined infinite schedule with a last-iterate guarantee for every stopping time.
+- Its exponent is 2a/(1+a), where a=log_2(1+sqrt(2)); it resolves the earlier question of beating 1/T in the anytime setting.
+
+**Limits:** Publisher abstract inspected; the full proof was not audited. The sharp anytime exponent remains a separate question.
+
+**Related subjects:** [Optimization and operations research](domains/math.md#math-opt), [Algorithms and data structures](domains/cs.md#cs-alg).
+
+**Connection to these subjects:** Worst-case convergence and deterministic stepsize algorithms.
+
+**Indexed tasks using this source**
+
+- [Optimal acceleration from predetermined gradient-descent stepsizes](cards/Q-FORMAL-510.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-impact-004"></a>
+
+<details>
+<summary>SRC-IMPACT-004 · When Maximum Nash Welfare Becomes Strongly Fair: Bi-valued Goods</summary>
+
+[When Maximum Nash Welfare Becomes Strongly Fair: Bi-valued Goods](https://arxiv.org/html/2610.00122v1)
+
+**Authors / responsible organization:** Zehan Lin; Xiaowei Wu; Shengwei Zhou.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-10-20.
+
+**Type:** Author preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Version 1; Theorem 3.5, Example 3.6 and Section 6. The arXiv abstract and HTML header report 9 September 2026, while the manuscript title page says December 2025; the date discrepancy is retained.
+
+**Supports**
+
+- For personalized bi-valued goods, maximum Nash welfare allocations have a tight 2/3-EFX guarantee.
+- This is a guarantee for a particular allocation rule, not a negative answer to simultaneous exact EFX and Pareto optimality.
+
+**Limits:** Preprint; proof not independently audited. Publication chronology needs clarification. Tightness for maximum Nash welfare does not exclude another exact EFX and Pareto-optimal allocation.
+
+**Related subjects:** [Mechanism design and fair allocation](domains/econ.md#econ-mech), [Optimization and operations research](domains/math.md#math-opt).
+
+**Connection to these subjects:** Fair division under personalized two-value utilities and the maximum-Nash-welfare approximation guarantee.
+
+**Indexed tasks using this source**
+
+- [EFX and Pareto optimality for personalized bi-valued goods](cards/Q-MODEL-204.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-impact-006"></a>
+
+<details>
+<summary>SRC-IMPACT-006 · The Rank of the 4x4 Matrix-Multiplication Tensor</summary>
+
+[The Rank of the 4x4 Matrix-Multiplication Tensor](https://epoch.ai/frontiermath/open-problems/matrix-multiplication)
+
+**Authors / responsible organization:** Epoch AI.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-10-20.
+
+**Type:** Maintained problem collection. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** About the problem and mathematical specification.
+
+**Supports**
+
+- Explicit open target: an exact decomposition with at most 47 terms over the complex numbers.
+
+**Limits:** A maintained problem listing, not an exhaustive status review. Its field and exactness requirements are essential.
+
+**Related subjects:** [Circuit and algebraic complexity](domains/cs.md#cs-complex-circuit), [Algebra](domains/math.md#math-alg).
+
+**Connection to these subjects:** The inspected source treats the candidate's channel model or exact bilinear matrix-multiplication problem.
+
+**Indexed tasks using this source**
+
+- [A rank-47 decomposition for 4x4 matrix multiplication in characteristic zero](cards/Q-FORMAL-511.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-impact-007"></a>
+
+<details>
+<summary>SRC-IMPACT-007 · A non-commutative algorithm for multiplying 4x4 matrices using 48 non-complex multiplications</summary>
+
+[A non-commutative algorithm for multiplying 4x4 matrices using 48 non-complex multiplications](https://arxiv.org/html/2506.13242v7)
+
+**Authors / responsible organization:** Jean-Guillaume Dumas; Clément Pernet; Alexandre Sedoglavic.
+
+**Publication year:** 2025. **Access / attempt date:** 2026-10-20.
+
+**Type:** Research paper. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Version 7, 2026-07-27; abstract, sections 4-6 and appendix A.
+
+**Supports**
+
+- A rational 48-term construction and its relationship to the complex construction and characteristic-two result.
+
+**Limits:** Original submission 2025-06-16. The explicit identity and programs were inspected as literature, not independently executed.
+
+**Related subjects:** [Circuit and algebraic complexity](domains/cs.md#cs-complex-circuit), [Algebra](domains/math.md#math-alg).
+
+**Connection to these subjects:** The inspected source treats the candidate's channel model or exact bilinear matrix-multiplication problem.
+
+**Indexed tasks using this source**
+
+- [A rank-47 decomposition for 4x4 matrix multiplication in characteristic zero](cards/Q-FORMAL-511.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-impact-008"></a>
+
+<details>
+<summary>SRC-IMPACT-008 · Cloudroom Math: new matrix multiplication algorithms found by AI agents</summary>
+
+[Cloudroom Math: new matrix multiplication algorithms found by AI agents](https://github.com/matyasstoch/cloudroom-math)
+
+**Authors / responsible organization:** Cloudroom Math Campaign.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-10-20.
+
+**Type:** Public attempt repository. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** README: Results, Scope and honesty; release dated 2026-10-08.
+
+**Supports**
+
+- The campaign reports no rank-47 construction for 4x4 matrices over Q or C.
+
+**Limits:** Public, unreviewed attempt report. Negative search is not an impossibility proof; its other algorithms were not checked.
+
+**Related subjects:** [Circuit and algebraic complexity](domains/cs.md#cs-complex-circuit), [Algebra](domains/math.md#math-alg).
+
+**Connection to these subjects:** The inspected source treats the candidate's channel model or exact bilinear matrix-multiplication problem.
+
+**Indexed tasks using this source**
+
+- [A rank-47 decomposition for 4x4 matrix multiplication in characteristic zero](cards/Q-FORMAL-511.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-impact-009"></a>
+
+<details>
+<summary>SRC-IMPACT-009 · Binary deletion-channel capacity: verification materials</summary>
+
+[Binary deletion-channel capacity: verification materials](https://github.com/anadim/binary-deletion-channel-capacity)
+
+**Authors / responsible organization:** Dimitris Papailiopoulos.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-10-20.
+
+**Type:** Author-maintained research repository. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** README: portable checks, full calculation and reuse terms.
+
+**Supports**
+
+- Distinguishes checking stored enclosure assembly from numerical replay; lists incomplete availability of large inputs.
+
+**Limits:** README was opened on 2026-10-20. External input availability was not independently checked; no checker was run. Reuse license remains unspecified.
+
+**Related subjects:** [Classical information theory](domains/info.md#info-shannon).
+
+**Connection to these subjects:** The inspected source treats the candidate's channel model or exact bilinear matrix-multiplication problem.
+
+**Indexed tasks using this source**
+
+- [Exact capacity of the independent binary deletion channel](cards/Q-FORMAL-328.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-impact-010"></a>
+
+<details>
+<summary>SRC-IMPACT-010 · Description of fast matrix multiplication algorithm: 4 x 4 x 4</summary>
+
+[Description of fast matrix multiplication algorithm: 4 x 4 x 4](https://fmm.univ-lille.fr/4x4x4.html)
+
+**Authors / responsible organization:** Alexandre Sedoglavic.
+
+**Publication year:** Not verified. **Access / attempt date:** 2026-10-20.
+
+**Type:** Institutional algorithm catalog. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Algorithm description and Commentaries.
+
+**Supports**
+
+- The institutional catalog lists a rational rank-48 scheme and downloadable encodings.
+
+**Limits:** Undated maintained page, inspected on 2026-10-20. Encodings and performance claims were not independently reproduced.
+
+**Related subjects:** [Circuit and algebraic complexity](domains/cs.md#cs-complex-circuit), [Algebra](domains/math.md#math-alg).
+
+**Connection to these subjects:** The inspected source treats the candidate's channel model or exact bilinear matrix-multiplication problem.
+
+**Indexed tasks using this source**
+
+- [A rank-47 decomposition for 4x4 matrix multiplication in characteristic zero](cards/Q-FORMAL-511.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-impact-011"></a>
+
+<details>
+<summary>SRC-IMPACT-011 · Polynomial Identity Testing for Read-4 Arithmetic Formulas</summary>
+
+[Polynomial Identity Testing for Read-4 Arithmetic Formulas](https://eccc.weizmann.ac.il/report/2026/076/download/)
+
+**Authors / responsible organization:** Nimrod Kaplan; Amir Shpilka.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-10-20.
+
+**Type:** Research paper. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Full version, introduction, theorems 1.1-1.2 and definitions 2.1-2.2; conference version: CCC 2026, article 25, DOI 10.4230/LIPIcs.CCC.2026.25.
+
+**Supports**
+
+- Read-four algorithms and the remaining general deterministic-PIT problem.
+
+**Limits:** Source claims were inspected, not independently proved. The paper does not state a separate read-five conjecture.
+
+**Related subjects:** [Circuit and algebraic complexity](domains/cs.md#cs-complex-circuit), [Algorithms and data structures](domains/cs.md#cs-alg).
+
+**Connection to these subjects:** Arithmetic identity-testing algorithms, restrictions and reductions.
+
+**Indexed tasks using this source**
+
+- [Deterministic polynomial-time identity testing for general arithmetic circuits](cards/Q-FORMAL-010.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-impact-012"></a>
+
+<details>
+<summary>SRC-IMPACT-012 · A Note on Deterministic PIT for Sigma^[3] Pi Sigma Pi^[delta] Circuits</summary>
+
+[A Note on Deterministic PIT for Sigma^[3] Pi Sigma Pi^[delta] Circuits](https://eccc.weizmann.ac.il/report/2026/168/download)
+
+**Authors / responsible organization:** Zeyu Guo.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-10-20.
+
+**Type:** Research preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Manuscript dated 5 September 2026; ECCC release 6 September 2026; introduction and corollary 2.7.
+
+**Supports**
+
+- A later restricted depth-four PIT result without a squarefreeness assumption.
+
+**Limits:** The algebraic-model result has at most three top summands and constant bottom degree. It is not a general-circuit solution; no proof audit was performed.
+
+**Related subjects:** [Circuit and algebraic complexity](domains/cs.md#cs-complex-circuit), [Algorithms and data structures](domains/cs.md#cs-alg).
+
+**Connection to these subjects:** Arithmetic identity-testing algorithms, restrictions and reductions.
+
+**Indexed tasks using this source**
+
+- [Deterministic polynomial-time identity testing for general arithmetic circuits](cards/Q-FORMAL-010.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-impact-013"></a>
+
+<details>
+<summary>SRC-IMPACT-013 · Homomorphism Indistinguishability, Multiplicity Automata Equivalence, and Polynomial Identity Testing</summary>
+
+[Homomorphism Indistinguishability, Multiplicity Automata Equivalence, and Polynomial Identity Testing](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.STACS.2026.25)
+
+**Authors / responsible organization:** Marek Černý; Tim Seppelt.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-10-20.
+
+**Type:** Conference paper. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** STACS 2026, article 25, published 25 February 2026; linked full HTML, introduction and theorem 1.
+
+**Supports**
+
+- A precise reduction connecting PIT, multiplicity tree automata equivalence and a graph homomorphism-indistinguishability problem.
+
+**Limits:** Used for significance and scope, not as a complete current survey or a proof audited by this project.
+
+**Related subjects:** [Circuit and algebraic complexity](domains/cs.md#cs-complex-circuit), [Algorithms and data structures](domains/cs.md#cs-alg).
+
+**Connection to these subjects:** Arithmetic identity-testing algorithms, restrictions and reductions.
+
+**Indexed tasks using this source**
+
+- [Deterministic polynomial-time identity testing for general arithmetic circuits](cards/Q-FORMAL-010.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-impact-014"></a>
+
+<details>
+<summary>SRC-IMPACT-014 · Independence in Algebraic Complexity Theory</summary>
+
+[Independence in Algebraic Complexity Theory](https://d-nb.info/1045872121/34)
+
+**Authors / responsible organization:** Johannes Mittmann.
+
+**Publication year:** 2013. **Access / attempt date:** 2026-10-20.
+
+**Type:** Doctoral thesis. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Chapter 2: definitions 2.2.1 and 2.2.6, theorem 2.2.8, conjecture 2.6.1 and theorem 2.6.3; computational model in appendix A.2.
+
+**Supports**
+
+- Rational encoding, formal degree and the distinction between compact arithmetic descriptions and bit-cost evaluation.
+
+**Limits:** Foundational computational conventions; not evidence of present-day completeness or an independent audit of the thesis proofs.
+
+**Related subjects:** [Circuit and algebraic complexity](domains/cs.md#cs-complex-circuit), [Algorithms and data structures](domains/cs.md#cs-alg).
+
+**Connection to these subjects:** Computational conventions and deterministic identity testing.
+
+**Indexed tasks using this source**
+
+- [Deterministic polynomial-time identity testing for general arithmetic circuits](cards/Q-FORMAL-010.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-impact-015"></a>
+
+<details>
+<summary>SRC-IMPACT-015 · Near-Optimal Bootstrapping of Hitting Sets for Algebraic Models</summary>
+
+[Near-Optimal Bootstrapping of Hitting Sets for Algebraic Models](https://theoryofcomputing.org/articles/v019a012/v019a012.pdf)
+
+**Authors / responsible organization:** Mrinal Kumar; Ramprasad Saptharishi; Anamay Tengse.
+
+**Publication year:** 2023. **Access / attempt date:** 2026-10-20.
+
+**Type:** Journal paper. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Theory of Computing 19(12), 1-30; published 31 December 2023; section 1.1 and footnotes 2-3.
+
+**Supports**
+
+- Polynomial formal-degree conventions, access models and explicit hitting-set output-size accounting.
+
+**Limits:** Used for problem formulation; bootstrapping proofs were not independently checked and the paper is not a 2026 status survey.
+
+**Related subjects:** [Circuit and algebraic complexity](domains/cs.md#cs-complex-circuit), [Algorithms and data structures](domains/cs.md#cs-alg).
+
+**Connection to these subjects:** Computational conventions and deterministic identity testing.
+
+**Indexed tasks using this source**
+
+- [Deterministic polynomial-time identity testing for general arithmetic circuits](cards/Q-FORMAL-010.md)
 
 [Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
 

@@ -10,13 +10,13 @@ Each entry brings together a precise task, its sources, prerequisites and ways t
 
 | Entry type | Full cards | Broader index |
 | --- | --- | --- |
-| Literature-origin question | 16 | [View candidates](../candidates.md#literature-open) |
+| Literature-origin question | 27 | [View candidates](../candidates.md#literature-open) |
 | Curator-proposed task | 2 | [View candidates](../candidates.md#curator-proposed) |
 | Known-result calibration | 16 | [View candidates](../candidates.md#known-result-calibration) |
 
 Origin is separate from current status. Reproductions help assess methods; their completion would not constitute a new solution to an open problem. [Research progress](../progress.md) records actual attempts and reviews.
 
-[Priority for a later trial](#priority-trial) · [Preparation needed](#preparation-required) · [Browse by method](#browse-by-method)
+[Priority for a later trial](#priority-trial) · [Preparation needed](#preparation-required) · [Exploratory](#exploratory) · [Not yet assessed](#unassessed) · [Browse by method](#browse-by-method)
 
 <a id="priority-trial"></a>
 
@@ -676,6 +676,81 @@ The front-door formula can identify an intervention effect even with hidden conf
 
 </details>
 
+<a id="q-formal-328"></a>
+
+### [Exact capacity of the independent binary deletion channel](Q-FORMAL-328.md)
+
+[Classical information theory](../domains/info.md#info-shannon) · Literature-origin question
+
+When missing bits leave no position markers, even the maximum reliable information rate is unknown. The half-deletion case provides a fixed parameter at which stronger bounds would be useful.
+
+**Status:** Source reports open; checked 2026-10-20. **Assessment evidence:** Untested forecast.
+
+**Background:** Information theory and coding theorems; Entropy rates and finite-state processes; Rigorous numerical bounds and exact certificate arithmetic.
+
+**Verification:** Proof, Exact computation. [How to check a result](Q-FORMAL-328.md#verification).
+
+<details>
+<summary>Review notes and full computing requirements</summary>
+
+**Reason for this priority:** The published computation supplies concrete methods and checking obligations. Reviewing its assumptions and obtaining complete inputs should precede a new attempt.
+
+**Computing requirements and limits:** No estimate has been measured. Small analytic and certificate checks can be separated from large finite-window enumeration, whose state count grows exponentially. Full source replay requires specialist numerical infrastructure.
+
+**Human review:** High: an information theorist must review the reduction, while numerical evidence needs an independent replay.
+
+</details>
+
+<a id="q-formal-510"></a>
+
+### [Optimal acceleration from predetermined gradient-descent stepsizes](Q-FORMAL-510.md)
+
+[Optimization and operations research](../domains/math.md#math-opt) · Literature-origin question
+
+How much speed can gradient descent gain by changing only its predetermined step lengths? The answer would identify a basic limit of this widely used optimization method.
+
+**Status:** Source reports open; checked 2026-10-20. **Assessment evidence:** Untested forecast.
+
+**Background:** Smooth convex optimization and worst-case oracle complexity; Uniform asymptotic estimates and proof certificates for optimization inequalities.
+
+**Verification:** Proof, Exact computation, Numerical evidence. [How to check a result](Q-FORMAL-510.md#verification).
+
+<details>
+<summary>Review notes and full computing requirements</summary>
+
+**Reason for this priority:** The problem is explicit and has reusable published arguments. Assessing a specific AI attempt requires a narrower, independently checked target.
+
+**Computing requirements and limits:** Unmeasured. Symbolic work and small numerical diagnostics are possible, but global schedule optimization can be expensive. No hardware, runtime or solution-cost estimate is available.
+
+**Human review:** High for a new general rate theorem; finite algebraic certificates may be easier to audit.
+
+</details>
+
+<a id="q-formal-511"></a>
+
+### [A rank-47 decomposition for 4x4 matrix multiplication in characteristic zero](Q-FORMAL-511.md)
+
+[Circuit and algebraic complexity](../domains/cs.md#cs-complex-circuit) · Literature-origin question
+
+Can two 4x4 matrices be multiplied using 47 bilinear products instead of the 48 in current characteristic-zero constructions?
+
+**Status:** Source reports open; checked 2026-10-20. **Assessment evidence:** Untested forecast.
+
+**Background:** Bilinear algorithms and tensor rank; Exact rational or algebraic-number arithmetic; Polynomial identity checking.
+
+**Verification:** Exact computation, Proof. [How to check a result](Q-FORMAL-511.md#verification).
+
+<details>
+<summary>Review notes and full computing requirements</summary>
+
+**Reason for this priority:** Exact certificates make results easier to inspect than searches. Published computational attempts provide context, but do not imply that a new construction is likely.
+
+**Computing requirements and limits:** A fixed candidate has a finite exact checker; search cost is unconstrained and may be substantial. Coefficient growth can also make checking expensive. No project runtime or budget is measured.
+
+**Human review:** Moderate for a compact exact construction; much higher for an impossibility claim or a complicated coefficient field.
+
+</details>
+
 <a id="q-math-003"></a>
 
 ### [Determine the four-color triangle Ramsey number R(3,3,3,3)](Q-MATH-003.md)
@@ -801,6 +876,81 @@ When every chore is either cheap or expensive for each person, and everyone uses
 
 </details>
 
+<a id="q-model-204"></a>
+
+### [EFX and Pareto optimality for personalized bi-valued goods](Q-MODEL-204.md)
+
+[Mechanism design and fair allocation](../domains/econ.md#econ-mech) · Literature-origin question
+
+Can indivisible goods always be shared so that envy disappears after removing any one good from another person's bundle, while no reassignment can benefit someone without harming another?
+
+**Status:** Source reports open; checked 2026-10-20. **Assessment evidence:** Untested forecast.
+
+**Background:** Additive fair division, EFX and Pareto dominance; Exact finite optimization and certificates of exhaustive coverage.
+
+**Verification:** Proof, Exact computation. [How to check a result](Q-MODEL-204.md#verification).
+
+<details>
+<summary>Review notes and full computing requirements</summary>
+
+**Reason for this priority:** The problem is explicit and has reusable published arguments. Assessing a specific AI attempt requires a narrower, independently checked target.
+
+**Computing requirements and limits:** Unmeasured. A fixed n-agent, m-good instance has n^m complete assignments. Exact small-instance checking may be manageable; growth and general Pareto verification can be expensive.
+
+**Human review:** Moderate for a small fully enumerated instance; high for a general theorem or a large exhaustive certificate.
+
+</details>
+
+<a id="q-model-492"></a>
+
+### [Nonlinear stationary axisymmetric tidal response of Kerr black holes](Q-MODEL-492.md)
+
+[Gravitation and spacetime theory](../domains/phys.md#phys-grav) · Literature-origin question
+
+How does a spinning black hole respond beyond first order to a steady surrounding gravitational tide? A complete treatment must connect the spacetime solution with well-defined response coefficients.
+
+**Status:** Open after a scoped check; checked 2026-10-20. **Assessment evidence:** Untested forecast.
+
+**Background:** General-relativistic perturbation theory and horizon boundary conditions; Multipole expansions, worldline EFT and symbolic tensor calculation.
+
+**Verification:** Proof, Exact computation. [How to check a result](Q-MODEL-492.md#verification).
+
+<details>
+<summary>Review notes and full computing requirements</summary>
+
+**Reason for this priority:** Symbolic tensor manipulation can assist finite-order field equations and matching checks. Choosing an informative sector and interpreting its coefficients require GR and EFT expertise; no AI trial has been run.
+
+**Computing requirements and limits:** A finite-order symbolic calculation may start locally, but expression growth can dominate memory. No runtime or budget has been measured.
+
+**Human review:** High: a specialist must inspect gauge choices, operator identifiability and matching.
+
+</details>
+
+<a id="q-model-493"></a>
+
+### [Three-copy undistillability of the Werner endpoint](Q-MODEL-493.md)
+
+[Quantum information theory](../domains/info.md#info-quant) · Literature-origin question
+
+Can three copies unlock entanglement distillation that a single copy cannot achieve? This finite-copy question probes the limits of entanglement as a communication resource.
+
+**Status:** Source reports open; checked 2026-10-20. **Assessment evidence:** Untested forecast.
+
+**Background:** Partial transpose, Schmidt rank, LOCC and matrix inequalities; Tensor indices, unnormalized partial traces and certified arithmetic.
+
+**Verification:** Proof, Exact computation. [How to check a result](Q-MODEL-493.md#verification).
+
+<details>
+<summary>Review notes and full computing requirements</summary>
+
+**Reason for this priority:** The explicit algebra permits symbolic checks and candidate generation, but the unresolved nonnormal sector and recent claims require careful preparation.
+
+**Computing requirements and limits:** Unmeasured. At d=4 the coefficient matrix has 64 rows and columns; low-rank parameterization reduces storage but does not make global optimization easy. No runtime or cost is forecast.
+
+**Human review:** High for a general proof; an explicit small witness is more localized but still requires statement alignment.
+
+</details>
+
 <a id="q-formal-102"></a>
 
 ### [Verify the equal-block language of a locally constrained tree-adjoining grammar](Q-FORMAL-102.md)
@@ -876,6 +1026,139 @@ Reproduce equilibrium branches of a published low-dimensional climate model and 
 
 </details>
 
+<a id="exploratory"></a>
+
+## Exploratory
+
+<a id="q-model-491"></a>
+
+### [Structured resonances and avalanche diagnostics in the quasiperiodic XXZ chain](Q-MODEL-491.md)
+
+[Condensed matter and materials theory](../domains/phys.md#phys-cond) · Literature-origin question
+
+A small thermal region may erase memory in an otherwise localized quantum chain. Two diagnostics disagree about its spread; the source asks how quasiperiodic resonances change the explanation.
+
+**Status:** Source reports open; checked 2026-10-20. **Assessment evidence:** Untested forecast.
+
+**Background:** Quantum spin chains and thermalization; Reduced states, entropy and correlations; Perturbation theory and numerical error analysis.
+
+**Verification:** Numerical evidence, Proof. [How to check a result](Q-MODEL-491.md#verification).
+
+<details>
+<summary>Review notes and full computing requirements</summary>
+
+**Reason for this priority:** Literature comparison, algebra and reproducible numerical diagnostics offer possible assistance; discovering a correct mechanism is uncertain.
+
+**Computing requirements and limits:** Small-chain calculations may fit a workstation; large phase ensembles and asymptotic scaling can require substantial resources. This is an untested planning estimate, not a runtime or budget measurement.
+
+**Human review:** High: specialists must assess the physical interpretation as well as numerical reproducibility.
+
+</details>
+
+<a id="q-model-494"></a>
+
+### [Thermodynamic pairing order in the stripe regime of the square-lattice Hubbard model](Q-MODEL-494.md)
+
+[Condensed matter and materials theory](../domains/phys.md#phys-cond) · Literature-origin question
+
+Electron stripes and superconducting pairing compete or coexist in the Hubbard model. Pairing on a finite cluster may disappear as both dimensions grow; the source leaves this limit unresolved.
+
+**Status:** Source reports open; checked 2026-10-20. **Assessment evidence:** Untested forecast.
+
+**Background:** Fermionic many-body Hamiltonians; Pair correlations and symmetry breaking; Variational Monte Carlo or tensor-network methods; Finite-size scaling and error analysis.
+
+**Verification:** Numerical evidence, Proof. [How to check a result](Q-MODEL-494.md#verification).
+
+<details>
+<summary>Review notes and full computing requirements</summary>
+
+**Reason for this priority:** AI may help compare methods, implement diagnostics and audit uncertainty; full ground-state inference remains demanding.
+
+**Computing requirements and limits:** Substantial GPU/HPC resources may be necessary. Source Table 4 reports roughly 500 H200 GPU-hours for one 144-site training case and 10,000 for a 288-site case; these are author estimates, not project measurements or promised budgets.
+
+**Human review:** High: review requires many-body expertise and access to reproducible numerical evidence.
+
+</details>
+
+<a id="q-model-495"></a>
+
+### [Predictive mixed longitudinal-transverse intermittency exponents](Q-MODEL-495.md)
+
+[Fluid and plasma theory](../domains/phys.md#phys-fluid) · Literature-origin question
+
+Rare intense fluctuations govern turbulent mixing and dissipation. Their longitudinal and transverse statistics need a joint predictive account rather than separate fitted scaling curves.
+
+**Status:** Open after a scoped check; checked 2026-10-20. **Assessment evidence:** Untested forecast.
+
+**Background:** Incompressible turbulence, structure functions and multifractal modeling; Statistical convergence, Reynolds-number scaling and numerical resolution.
+
+**Verification:** Proof, Numerical evidence. [How to check a result](Q-MODEL-495.md#verification).
+
+<details>
+<summary>Review notes and full computing requirements</summary>
+
+**Reason for this priority:** Symbolic consistency checks and comparison of statistical closures offer bounded tasks. Predicting universal exponents requires more than fitting numerical data; this proposed AI role has not been tested.
+
+**Computing requirements and limits:** Symbolic checks and analysis of selected statistics may be modest; new well-resolved high-Reynolds-number DNS is a major computing task. No costs or runtimes are measured.
+
+**Human review:** High: statistical and fluid-dynamical assumptions require specialist assessment.
+
+</details>
+
+<a id="q-model-496"></a>
+
+### [Efficient passive initialization of a three-dimensional quantum memory](Q-MODEL-496.md)
+
+[Quantum information theory](../domains/info.md#info-quant) · Literature-origin question
+
+A memory is useful only if information can be loaded into its protected state. This asks whether the proposed passive memory can be initialized without preparation taking prohibitively long.
+
+**Status:** Source reports open; checked 2026-10-20. **Assessment evidence:** Untested forecast.
+
+**Background:** Stabilizer codes, syndrome sectors and Gibbs states; Local thermal dynamics, mixing estimates and asymptotic error bounds.
+
+**Verification:** Proof, Numerical evidence. [How to check a result](Q-MODEL-496.md#verification).
+
+<details>
+<summary>Review notes and full computing requirements</summary>
+
+**Reason for this priority:** AI may help track the construction's hypotheses and test local lemmas. The missing asymptotic preparation argument is substantial.
+
+**Computing requirements and limits:** Unmeasured. Small instances can test definitions, while exact state-space simulation grows rapidly. Analytical bounds may avoid full simulation; no affordable full-scale run is promised.
+
+**Human review:** High: the protocol must fit the code construction while its error and resource estimates remain uniform in the declared limit.
+
+</details>
+
+<a id="unassessed"></a>
+
+## Not yet assessed
+
+<a id="q-formal-010"></a>
+
+### [Deterministic polynomial-time identity testing for general arithmetic circuits](Q-FORMAL-010.md)
+
+[Circuit and algebraic complexity](../domains/cs.md#cs-complex-circuit) · Literature-origin question
+
+A compact algebraic expression may expand into too many terms to list. Can one always decide, efficiently and without randomness, whether all terms cancel?
+
+**Status:** Source reports open; checked 2026-10-20. **Assessment evidence:** Untested forecast.
+
+**Background:** Arithmetic circuits, formal degree, rational encodings and Turing-machine bit complexity; Derandomization, hitting sets and algebraic complexity; The structural hypotheses of the chosen restricted circuit model.
+
+**Verification:** Proof, Exact computation. [How to check a result](Q-FORMAL-010.md#verification).
+
+<details>
+<summary>Review notes and full computing requirements</summary>
+
+**Reason for this priority:** The card records the literature and verification conditions. No task-specific model evaluation or evidence of tractability is available.
+
+**Computing requirements and limits:** Symbolic examples and implementations can support preparation, but no resource estimate is established for discovering or validating a general algorithm. Explicit expansion and exhaustive enumeration can be exponential.
+
+**Human review:** Specialist review is required for the structural argument and the uniform complexity bound.
+
+</details>
+
 <a id="browse-by-method"></a>
 
 ## Browse by method
@@ -884,18 +1167,18 @@ This table covers the detailed problem entries. Other candidates have not receiv
 
 | Method | Cards |
 | --- | --- |
-| Algorithms | [The optimal randomized stretch for two online bins](Q-FORMAL-204.md)<br>[Enumerate equilibria of a supplied rational bimatrix game](Q-MODEL-003.md) |
-| Bounds | [Binary length-12 covering codes of radius three](Q-CODE-201.md)<br>[Ternary length-seven covering codes of radius two](Q-CODE-202.md)<br>[Quaternary length-six covering codes of radius two](Q-CODE-203.md)<br>[The optimal randomized stretch for two online bins](Q-FORMAL-204.md)<br>[Determine the four-color triangle Ramsey number R(3,3,3,3)](Q-MATH-003.md)<br>[Exact mixing certificates for small positive Markov chains](Q-MATH-102.md)<br>[A triangle-free 40-vertex graph with independence number at most nine](Q-MATH-202.md)<br>[The exact ten-point Heilbronn number in the unit square](Q-MATH-203.md)<br>[Improve the lower bound for R(4,6) with a 36-vertex graph](Q-MATH-204.md) |
+| Algorithms | [Deterministic polynomial-time identity testing for general arithmetic circuits](Q-FORMAL-010.md)<br>[The optimal randomized stretch for two online bins](Q-FORMAL-204.md)<br>[Optimal acceleration from predetermined gradient-descent stepsizes](Q-FORMAL-510.md)<br>[Enumerate equilibria of a supplied rational bimatrix game](Q-MODEL-003.md)<br>[EFX and Pareto optimality for personalized bi-valued goods](Q-MODEL-204.md) |
+| Bounds | [Binary length-12 covering codes of radius three](Q-CODE-201.md)<br>[Ternary length-seven covering codes of radius two](Q-CODE-202.md)<br>[Quaternary length-six covering codes of radius two](Q-CODE-203.md)<br>[The optimal randomized stretch for two online bins](Q-FORMAL-204.md)<br>[Exact capacity of the independent binary deletion channel](Q-FORMAL-328.md)<br>[Optimal acceleration from predetermined gradient-descent stepsizes](Q-FORMAL-510.md)<br>[Determine the four-color triangle Ramsey number R(3,3,3,3)](Q-MATH-003.md)<br>[Exact mixing certificates for small positive Markov chains](Q-MATH-102.md)<br>[A triangle-free 40-vertex graph with independence number at most nine](Q-MATH-202.md)<br>[The exact ten-point Heilbronn number in the unit square](Q-MATH-203.md)<br>[Improve the lower bound for R(4,6) with a 36-vertex graph](Q-MATH-204.md)<br>[Thermodynamic pairing order in the stripe regime of the square-lattice Hubbard model](Q-MODEL-494.md)<br>[Efficient passive initialization of a three-dimensional quantum memory](Q-MODEL-496.md) |
 | Certificate checking | [Binary length-12 covering codes of radius three](Q-CODE-201.md)<br>[Ternary length-seven covering codes of radius two](Q-CODE-202.md)<br>[Quaternary length-six covering codes of radius two](Q-CODE-203.md)<br>[Build a bounded exact copy-lemma certificate census](Q-FORMAL-003.md)<br>[Check common quadratic Lyapunov certificates for small matrix polytopes](Q-FORMAL-101.md)<br>[Verify the equal-block language of a locally constrained tree-adjoining grammar](Q-FORMAL-102.md)<br>[A linear bound for avoiding a specified automaton state](Q-FORMAL-201.md)<br>[The sharp triple rendezvous bound for binary synchronizing automata](Q-FORMAL-203.md)<br>[The optimal randomized stretch for two online bins](Q-FORMAL-204.md)<br>[Reproduce the exact Ramsey number R(3,3)=6](Q-MATH-001.md)<br>[Audit exact union-closed-family certificates on at most four elements](Q-MATH-002.md)<br>[Determine the four-color triangle Ramsey number R(3,3,3,3)](Q-MATH-003.md)<br>[Exact finite satisfiability for a small monadic fragment](Q-MATH-101.md)<br>[Exact mixing certificates for small positive Markov chains](Q-MATH-102.md)<br>[Quadratic generation of matroid toric ideals: the weak White conjecture](Q-MATH-104.md)<br>[A 150-point no-three-in-line configuration on a 75 by 75 grid](Q-MATH-201.md)<br>[A triangle-free 40-vertex graph with independence number at most nine](Q-MATH-202.md)<br>[Improve the lower bound for R(4,6) with a 36-vertex graph](Q-MATH-204.md)<br>[Reproduce the CHSH optimum with an exact certificate](Q-MODEL-001.md)<br>[Certify deficiency-zero hypotheses for small reaction networks](Q-MODEL-002.md)<br>[Enumerate equilibria of a supplied rational bimatrix game](Q-MODEL-003.md)<br>[Reproduce equilibrium branches in an energy-balance climate model](Q-MODEL-010.md)<br>[Complete EFX for four additive goods agents](Q-MODEL-201.md)<br>[Complete EFX for more than four common bi-valued chore agents](Q-MODEL-202.md) |
 | Classification | [Build a bounded exact copy-lemma certificate census](Q-FORMAL-003.md)<br>[Check twisted-state spectra on Kuramoto cycle networks](Q-FORMAL-103.md)<br>[Audit exact union-closed-family certificates on at most four elements](Q-MATH-002.md) |
-| Construction | [Binary length-12 covering codes of radius three](Q-CODE-201.md)<br>[Ternary length-seven covering codes of radius two](Q-CODE-202.md)<br>[Quaternary length-six covering codes of radius two](Q-CODE-203.md)<br>[Verify the equal-block language of a locally constrained tree-adjoining grammar](Q-FORMAL-102.md)<br>[Determine the sharp connectivity threshold for homogeneous Kuramoto synchronization](Q-FORMAL-104.md)<br>[The sharp triple rendezvous bound for binary synchronizing automata](Q-FORMAL-203.md)<br>[Reproduce the exact Ramsey number R(3,3)=6](Q-MATH-001.md)<br>[Audit exact union-closed-family certificates on at most four elements](Q-MATH-002.md)<br>[Determine the four-color triangle Ramsey number R(3,3,3,3)](Q-MATH-003.md)<br>[Exact mixing certificates for small positive Markov chains](Q-MATH-102.md)<br>[Quadratic generation of matroid toric ideals: the weak White conjecture](Q-MATH-104.md)<br>[A 150-point no-three-in-line configuration on a 75 by 75 grid](Q-MATH-201.md)<br>[A triangle-free 40-vertex graph with independence number at most nine](Q-MATH-202.md)<br>[The exact ten-point Heilbronn number in the unit square](Q-MATH-203.md)<br>[Improve the lower bound for R(4,6) with a 36-vertex graph](Q-MATH-204.md)<br>[Complete EFX for more than four common bi-valued chore agents](Q-MODEL-202.md) |
-| Counterexample | [A linear bound for avoiding a specified automaton state](Q-FORMAL-201.md)<br>[The sharp triple rendezvous bound for binary synchronizing automata](Q-FORMAL-203.md)<br>[A complete graphical criterion for the front-door formula](Q-FORMAL-205.md)<br>[Quadratic generation of matroid toric ideals: the weak White conjecture](Q-MATH-104.md)<br>[Complete EFX for four additive goods agents](Q-MODEL-201.md)<br>[Complete EFX for more than four common bi-valued chore agents](Q-MODEL-202.md) |
-| Exact computation | [Audit finite-sample split likelihood-ratio coverage in a Bernoulli model](Q-FORMAL-002.md)<br>[Build a bounded exact copy-lemma certificate census](Q-FORMAL-003.md)<br>[Check common quadratic Lyapunov certificates for small matrix polytopes](Q-FORMAL-101.md)<br>[Check twisted-state spectra on Kuramoto cycle networks](Q-FORMAL-103.md)<br>[Determine the sharp connectivity threshold for homogeneous Kuramoto synchronization](Q-FORMAL-104.md)<br>[The optimal randomized stretch for two online bins](Q-FORMAL-204.md)<br>[Reproduce the exact Ramsey number R(3,3)=6](Q-MATH-001.md)<br>[Audit exact union-closed-family certificates on at most four elements](Q-MATH-002.md)<br>[Exact finite satisfiability for a small monadic fragment](Q-MATH-101.md)<br>[Exact mixing certificates for small positive Markov chains](Q-MATH-102.md)<br>[Transfer-matrix calibration for the one-dimensional Ising model](Q-MATH-103.md)<br>[A 150-point no-three-in-line configuration on a 75 by 75 grid](Q-MATH-201.md)<br>[The exact ten-point Heilbronn number in the unit square](Q-MATH-203.md)<br>[Reproduce the CHSH optimum with an exact certificate](Q-MODEL-001.md)<br>[Certify deficiency-zero hypotheses for small reaction networks](Q-MODEL-002.md)<br>[Enumerate equilibria of a supplied rational bimatrix game](Q-MODEL-003.md)<br>[Reproduce exact Moran fixation probabilities](Q-MODEL-101.md)<br>[Recover the linear stability threshold of triangular Lagrange points](Q-MODEL-102.md)<br>[Complete EFX for four additive goods agents](Q-MODEL-201.md)<br>[Complete EFX for more than four common bi-valued chore agents](Q-MODEL-202.md) |
-| Finite search | [Binary length-12 covering codes of radius three](Q-CODE-201.md)<br>[Ternary length-seven covering codes of radius two](Q-CODE-202.md)<br>[Quaternary length-six covering codes of radius two](Q-CODE-203.md)<br>[Build a bounded exact copy-lemma certificate census](Q-FORMAL-003.md)<br>[Determine the sharp connectivity threshold for homogeneous Kuramoto synchronization](Q-FORMAL-104.md)<br>[A linear bound for avoiding a specified automaton state](Q-FORMAL-201.md)<br>[The sharp triple rendezvous bound for binary synchronizing automata](Q-FORMAL-203.md)<br>[The optimal randomized stretch for two online bins](Q-FORMAL-204.md)<br>[A complete graphical criterion for the front-door formula](Q-FORMAL-205.md)<br>[Reproduce the exact Ramsey number R(3,3)=6](Q-MATH-001.md)<br>[Audit exact union-closed-family certificates on at most four elements](Q-MATH-002.md)<br>[Determine the four-color triangle Ramsey number R(3,3,3,3)](Q-MATH-003.md)<br>[Exact finite satisfiability for a small monadic fragment](Q-MATH-101.md)<br>[Quadratic generation of matroid toric ideals: the weak White conjecture](Q-MATH-104.md)<br>[A 150-point no-three-in-line configuration on a 75 by 75 grid](Q-MATH-201.md)<br>[A triangle-free 40-vertex graph with independence number at most nine](Q-MATH-202.md)<br>[Improve the lower bound for R(4,6) with a 36-vertex graph](Q-MATH-204.md)<br>[Complete EFX for four additive goods agents](Q-MODEL-201.md)<br>[Complete EFX for more than four common bi-valued chore agents](Q-MODEL-202.md) |
+| Construction | [Binary length-12 covering codes of radius three](Q-CODE-201.md)<br>[Ternary length-seven covering codes of radius two](Q-CODE-202.md)<br>[Quaternary length-six covering codes of radius two](Q-CODE-203.md)<br>[Deterministic polynomial-time identity testing for general arithmetic circuits](Q-FORMAL-010.md)<br>[Verify the equal-block language of a locally constrained tree-adjoining grammar](Q-FORMAL-102.md)<br>[Determine the sharp connectivity threshold for homogeneous Kuramoto synchronization](Q-FORMAL-104.md)<br>[The sharp triple rendezvous bound for binary synchronizing automata](Q-FORMAL-203.md)<br>[A rank-47 decomposition for 4x4 matrix multiplication in characteristic zero](Q-FORMAL-511.md)<br>[Reproduce the exact Ramsey number R(3,3)=6](Q-MATH-001.md)<br>[Audit exact union-closed-family certificates on at most four elements](Q-MATH-002.md)<br>[Determine the four-color triangle Ramsey number R(3,3,3,3)](Q-MATH-003.md)<br>[Exact mixing certificates for small positive Markov chains](Q-MATH-102.md)<br>[Quadratic generation of matroid toric ideals: the weak White conjecture](Q-MATH-104.md)<br>[A 150-point no-three-in-line configuration on a 75 by 75 grid](Q-MATH-201.md)<br>[A triangle-free 40-vertex graph with independence number at most nine](Q-MATH-202.md)<br>[The exact ten-point Heilbronn number in the unit square](Q-MATH-203.md)<br>[Improve the lower bound for R(4,6) with a 36-vertex graph](Q-MATH-204.md)<br>[Complete EFX for more than four common bi-valued chore agents](Q-MODEL-202.md)<br>[EFX and Pareto optimality for personalized bi-valued goods](Q-MODEL-204.md) |
+| Counterexample | [A linear bound for avoiding a specified automaton state](Q-FORMAL-201.md)<br>[The sharp triple rendezvous bound for binary synchronizing automata](Q-FORMAL-203.md)<br>[A complete graphical criterion for the front-door formula](Q-FORMAL-205.md)<br>[Quadratic generation of matroid toric ideals: the weak White conjecture](Q-MATH-104.md)<br>[Complete EFX for four additive goods agents](Q-MODEL-201.md)<br>[Complete EFX for more than four common bi-valued chore agents](Q-MODEL-202.md)<br>[EFX and Pareto optimality for personalized bi-valued goods](Q-MODEL-204.md)<br>[Three-copy undistillability of the Werner endpoint](Q-MODEL-493.md) |
+| Exact computation | [Audit finite-sample split likelihood-ratio coverage in a Bernoulli model](Q-FORMAL-002.md)<br>[Build a bounded exact copy-lemma certificate census](Q-FORMAL-003.md)<br>[Check common quadratic Lyapunov certificates for small matrix polytopes](Q-FORMAL-101.md)<br>[Check twisted-state spectra on Kuramoto cycle networks](Q-FORMAL-103.md)<br>[Determine the sharp connectivity threshold for homogeneous Kuramoto synchronization](Q-FORMAL-104.md)<br>[The optimal randomized stretch for two online bins](Q-FORMAL-204.md)<br>[Exact capacity of the independent binary deletion channel](Q-FORMAL-328.md)<br>[A rank-47 decomposition for 4x4 matrix multiplication in characteristic zero](Q-FORMAL-511.md)<br>[Reproduce the exact Ramsey number R(3,3)=6](Q-MATH-001.md)<br>[Audit exact union-closed-family certificates on at most four elements](Q-MATH-002.md)<br>[Exact finite satisfiability for a small monadic fragment](Q-MATH-101.md)<br>[Exact mixing certificates for small positive Markov chains](Q-MATH-102.md)<br>[Transfer-matrix calibration for the one-dimensional Ising model](Q-MATH-103.md)<br>[A 150-point no-three-in-line configuration on a 75 by 75 grid](Q-MATH-201.md)<br>[The exact ten-point Heilbronn number in the unit square](Q-MATH-203.md)<br>[Reproduce the CHSH optimum with an exact certificate](Q-MODEL-001.md)<br>[Certify deficiency-zero hypotheses for small reaction networks](Q-MODEL-002.md)<br>[Enumerate equilibria of a supplied rational bimatrix game](Q-MODEL-003.md)<br>[Reproduce exact Moran fixation probabilities](Q-MODEL-101.md)<br>[Recover the linear stability threshold of triangular Lagrange points](Q-MODEL-102.md)<br>[Complete EFX for four additive goods agents](Q-MODEL-201.md)<br>[Complete EFX for more than four common bi-valued chore agents](Q-MODEL-202.md)<br>[EFX and Pareto optimality for personalized bi-valued goods](Q-MODEL-204.md)<br>[Three-copy undistillability of the Werner endpoint](Q-MODEL-493.md) |
+| Finite search | [Binary length-12 covering codes of radius three](Q-CODE-201.md)<br>[Ternary length-seven covering codes of radius two](Q-CODE-202.md)<br>[Quaternary length-six covering codes of radius two](Q-CODE-203.md)<br>[Build a bounded exact copy-lemma certificate census](Q-FORMAL-003.md)<br>[Determine the sharp connectivity threshold for homogeneous Kuramoto synchronization](Q-FORMAL-104.md)<br>[A linear bound for avoiding a specified automaton state](Q-FORMAL-201.md)<br>[The sharp triple rendezvous bound for binary synchronizing automata](Q-FORMAL-203.md)<br>[The optimal randomized stretch for two online bins](Q-FORMAL-204.md)<br>[A complete graphical criterion for the front-door formula](Q-FORMAL-205.md)<br>[A rank-47 decomposition for 4x4 matrix multiplication in characteristic zero](Q-FORMAL-511.md)<br>[Reproduce the exact Ramsey number R(3,3)=6](Q-MATH-001.md)<br>[Audit exact union-closed-family certificates on at most four elements](Q-MATH-002.md)<br>[Determine the four-color triangle Ramsey number R(3,3,3,3)](Q-MATH-003.md)<br>[Exact finite satisfiability for a small monadic fragment](Q-MATH-101.md)<br>[Quadratic generation of matroid toric ideals: the weak White conjecture](Q-MATH-104.md)<br>[A 150-point no-three-in-line configuration on a 75 by 75 grid](Q-MATH-201.md)<br>[A triangle-free 40-vertex graph with independence number at most nine](Q-MATH-202.md)<br>[Improve the lower bound for R(4,6) with a 36-vertex graph](Q-MATH-204.md)<br>[Complete EFX for four additive goods agents](Q-MODEL-201.md)<br>[Complete EFX for more than four common bi-valued chore agents](Q-MODEL-202.md)<br>[EFX and Pareto optimality for personalized bi-valued goods](Q-MODEL-204.md) |
 | Formalization | [Reproduce Huang's hypercube degree theorem](Q-FORMAL-001.md)<br>[Verify the equal-block language of a locally constrained tree-adjoining grammar](Q-FORMAL-102.md)<br>[Exact finite satisfiability for a small monadic fragment](Q-MATH-101.md) |
-| Model analysis | [Check common quadratic Lyapunov certificates for small matrix polytopes](Q-FORMAL-101.md)<br>[Check twisted-state spectra on Kuramoto cycle networks](Q-FORMAL-103.md)<br>[Determine the sharp connectivity threshold for homogeneous Kuramoto synchronization](Q-FORMAL-104.md)<br>[A complete graphical criterion for the front-door formula](Q-FORMAL-205.md)<br>[Transfer-matrix calibration for the one-dimensional Ising model](Q-MATH-103.md)<br>[Certify deficiency-zero hypotheses for small reaction networks](Q-MODEL-002.md)<br>[Reproduce equilibrium branches in an energy-balance climate model](Q-MODEL-010.md)<br>[Reproduce exact Moran fixation probabilities](Q-MODEL-101.md)<br>[Recover the linear stability threshold of triangular Lagrange points](Q-MODEL-102.md)<br>[Verify the Ornstein–Uhlenbeck transition law and equilibrium](Q-MODEL-103.md) |
+| Model analysis | [Check common quadratic Lyapunov certificates for small matrix polytopes](Q-FORMAL-101.md)<br>[Check twisted-state spectra on Kuramoto cycle networks](Q-FORMAL-103.md)<br>[Determine the sharp connectivity threshold for homogeneous Kuramoto synchronization](Q-FORMAL-104.md)<br>[A complete graphical criterion for the front-door formula](Q-FORMAL-205.md)<br>[Transfer-matrix calibration for the one-dimensional Ising model](Q-MATH-103.md)<br>[Certify deficiency-zero hypotheses for small reaction networks](Q-MODEL-002.md)<br>[Reproduce equilibrium branches in an energy-balance climate model](Q-MODEL-010.md)<br>[Reproduce exact Moran fixation probabilities](Q-MODEL-101.md)<br>[Recover the linear stability threshold of triangular Lagrange points](Q-MODEL-102.md)<br>[Verify the Ornstein–Uhlenbeck transition law and equilibrium](Q-MODEL-103.md)<br>[Structured resonances and avalanche diagnostics in the quasiperiodic XXZ chain](Q-MODEL-491.md)<br>[Nonlinear stationary axisymmetric tidal response of Kerr black holes](Q-MODEL-492.md)<br>[Thermodynamic pairing order in the stripe regime of the square-lattice Hubbard model](Q-MODEL-494.md)<br>[Predictive mixed longitudinal-transverse intermittency exponents](Q-MODEL-495.md)<br>[Efficient passive initialization of a three-dimensional quantum memory](Q-MODEL-496.md) |
 | Model construction | [Exact finite satisfiability for a small monadic fragment](Q-MATH-101.md) |
-| Numerical computation | [The exact ten-point Heilbronn number in the unit square](Q-MATH-203.md)<br>[Reproduce equilibrium branches in an energy-balance climate model](Q-MODEL-010.md) |
-| Proof | [Reproduce Huang's hypercube degree theorem](Q-FORMAL-001.md)<br>[Audit finite-sample split likelihood-ratio coverage in a Bernoulli model](Q-FORMAL-002.md)<br>[Check common quadratic Lyapunov certificates for small matrix polytopes](Q-FORMAL-101.md)<br>[Verify the equal-block language of a locally constrained tree-adjoining grammar](Q-FORMAL-102.md)<br>[Check twisted-state spectra on Kuramoto cycle networks](Q-FORMAL-103.md)<br>[Determine the sharp connectivity threshold for homogeneous Kuramoto synchronization](Q-FORMAL-104.md)<br>[A linear bound for avoiding a specified automaton state](Q-FORMAL-201.md)<br>[The sharp triple rendezvous bound for binary synchronizing automata](Q-FORMAL-203.md)<br>[A complete graphical criterion for the front-door formula](Q-FORMAL-205.md)<br>[Reproduce the exact Ramsey number R(3,3)=6](Q-MATH-001.md)<br>[Determine the four-color triangle Ramsey number R(3,3,3,3)](Q-MATH-003.md)<br>[Exact finite satisfiability for a small monadic fragment](Q-MATH-101.md)<br>[Exact mixing certificates for small positive Markov chains](Q-MATH-102.md)<br>[Transfer-matrix calibration for the one-dimensional Ising model](Q-MATH-103.md)<br>[Quadratic generation of matroid toric ideals: the weak White conjecture](Q-MATH-104.md)<br>[Reproduce the CHSH optimum with an exact certificate](Q-MODEL-001.md)<br>[Certify deficiency-zero hypotheses for small reaction networks](Q-MODEL-002.md)<br>[Enumerate equilibria of a supplied rational bimatrix game](Q-MODEL-003.md)<br>[Reproduce exact Moran fixation probabilities](Q-MODEL-101.md)<br>[Recover the linear stability threshold of triangular Lagrange points](Q-MODEL-102.md)<br>[Verify the Ornstein–Uhlenbeck transition law and equilibrium](Q-MODEL-103.md)<br>[Complete EFX for four additive goods agents](Q-MODEL-201.md)<br>[Complete EFX for more than four common bi-valued chore agents](Q-MODEL-202.md) |
-| Symbolic derivation | [Reproduce Huang's hypercube degree theorem](Q-FORMAL-001.md)<br>[Audit finite-sample split likelihood-ratio coverage in a Bernoulli model](Q-FORMAL-002.md)<br>[Build a bounded exact copy-lemma certificate census](Q-FORMAL-003.md)<br>[Check twisted-state spectra on Kuramoto cycle networks](Q-FORMAL-103.md)<br>[Determine the sharp connectivity threshold for homogeneous Kuramoto synchronization](Q-FORMAL-104.md)<br>[A complete graphical criterion for the front-door formula](Q-FORMAL-205.md)<br>[Transfer-matrix calibration for the one-dimensional Ising model](Q-MATH-103.md)<br>[Quadratic generation of matroid toric ideals: the weak White conjecture](Q-MATH-104.md)<br>[The exact ten-point Heilbronn number in the unit square](Q-MATH-203.md)<br>[Reproduce the CHSH optimum with an exact certificate](Q-MODEL-001.md)<br>[Reproduce equilibrium branches in an energy-balance climate model](Q-MODEL-010.md)<br>[Recover the linear stability threshold of triangular Lagrange points](Q-MODEL-102.md)<br>[Verify the Ornstein–Uhlenbeck transition law and equilibrium](Q-MODEL-103.md) |
+| Numerical computation | [Exact capacity of the independent binary deletion channel](Q-FORMAL-328.md)<br>[Optimal acceleration from predetermined gradient-descent stepsizes](Q-FORMAL-510.md)<br>[The exact ten-point Heilbronn number in the unit square](Q-MATH-203.md)<br>[Reproduce equilibrium branches in an energy-balance climate model](Q-MODEL-010.md)<br>[Structured resonances and avalanche diagnostics in the quasiperiodic XXZ chain](Q-MODEL-491.md)<br>[Thermodynamic pairing order in the stripe regime of the square-lattice Hubbard model](Q-MODEL-494.md)<br>[Predictive mixed longitudinal-transverse intermittency exponents](Q-MODEL-495.md)<br>[Efficient passive initialization of a three-dimensional quantum memory](Q-MODEL-496.md) |
+| Proof | [Reproduce Huang's hypercube degree theorem](Q-FORMAL-001.md)<br>[Audit finite-sample split likelihood-ratio coverage in a Bernoulli model](Q-FORMAL-002.md)<br>[Deterministic polynomial-time identity testing for general arithmetic circuits](Q-FORMAL-010.md)<br>[Check common quadratic Lyapunov certificates for small matrix polytopes](Q-FORMAL-101.md)<br>[Verify the equal-block language of a locally constrained tree-adjoining grammar](Q-FORMAL-102.md)<br>[Check twisted-state spectra on Kuramoto cycle networks](Q-FORMAL-103.md)<br>[Determine the sharp connectivity threshold for homogeneous Kuramoto synchronization](Q-FORMAL-104.md)<br>[A linear bound for avoiding a specified automaton state](Q-FORMAL-201.md)<br>[The sharp triple rendezvous bound for binary synchronizing automata](Q-FORMAL-203.md)<br>[A complete graphical criterion for the front-door formula](Q-FORMAL-205.md)<br>[Exact capacity of the independent binary deletion channel](Q-FORMAL-328.md)<br>[Optimal acceleration from predetermined gradient-descent stepsizes](Q-FORMAL-510.md)<br>[Reproduce the exact Ramsey number R(3,3)=6](Q-MATH-001.md)<br>[Determine the four-color triangle Ramsey number R(3,3,3,3)](Q-MATH-003.md)<br>[Exact finite satisfiability for a small monadic fragment](Q-MATH-101.md)<br>[Exact mixing certificates for small positive Markov chains](Q-MATH-102.md)<br>[Transfer-matrix calibration for the one-dimensional Ising model](Q-MATH-103.md)<br>[Quadratic generation of matroid toric ideals: the weak White conjecture](Q-MATH-104.md)<br>[Reproduce the CHSH optimum with an exact certificate](Q-MODEL-001.md)<br>[Certify deficiency-zero hypotheses for small reaction networks](Q-MODEL-002.md)<br>[Enumerate equilibria of a supplied rational bimatrix game](Q-MODEL-003.md)<br>[Reproduce exact Moran fixation probabilities](Q-MODEL-101.md)<br>[Recover the linear stability threshold of triangular Lagrange points](Q-MODEL-102.md)<br>[Verify the Ornstein–Uhlenbeck transition law and equilibrium](Q-MODEL-103.md)<br>[Complete EFX for four additive goods agents](Q-MODEL-201.md)<br>[Complete EFX for more than four common bi-valued chore agents](Q-MODEL-202.md)<br>[EFX and Pareto optimality for personalized bi-valued goods](Q-MODEL-204.md)<br>[Nonlinear stationary axisymmetric tidal response of Kerr black holes](Q-MODEL-492.md)<br>[Three-copy undistillability of the Werner endpoint](Q-MODEL-493.md)<br>[Efficient passive initialization of a three-dimensional quantum memory](Q-MODEL-496.md) |
+| Symbolic derivation | [Reproduce Huang's hypercube degree theorem](Q-FORMAL-001.md)<br>[Audit finite-sample split likelihood-ratio coverage in a Bernoulli model](Q-FORMAL-002.md)<br>[Build a bounded exact copy-lemma certificate census](Q-FORMAL-003.md)<br>[Deterministic polynomial-time identity testing for general arithmetic circuits](Q-FORMAL-010.md)<br>[Check twisted-state spectra on Kuramoto cycle networks](Q-FORMAL-103.md)<br>[Determine the sharp connectivity threshold for homogeneous Kuramoto synchronization](Q-FORMAL-104.md)<br>[A complete graphical criterion for the front-door formula](Q-FORMAL-205.md)<br>[Optimal acceleration from predetermined gradient-descent stepsizes](Q-FORMAL-510.md)<br>[A rank-47 decomposition for 4x4 matrix multiplication in characteristic zero](Q-FORMAL-511.md)<br>[Transfer-matrix calibration for the one-dimensional Ising model](Q-MATH-103.md)<br>[Quadratic generation of matroid toric ideals: the weak White conjecture](Q-MATH-104.md)<br>[The exact ten-point Heilbronn number in the unit square](Q-MATH-203.md)<br>[Reproduce the CHSH optimum with an exact certificate](Q-MODEL-001.md)<br>[Reproduce equilibrium branches in an energy-balance climate model](Q-MODEL-010.md)<br>[Recover the linear stability threshold of triangular Lagrange points](Q-MODEL-102.md)<br>[Verify the Ornstein–Uhlenbeck transition law and equilibrium](Q-MODEL-103.md)<br>[Structured resonances and avalanche diagnostics in the quasiperiodic XXZ chain](Q-MODEL-491.md)<br>[Nonlinear stationary axisymmetric tidal response of Kerr black holes](Q-MODEL-492.md)<br>[Three-copy undistillability of the Werner endpoint](Q-MODEL-493.md)<br>[Predictive mixed longitudinal-transverse intermittency exponents](Q-MODEL-495.md) |
 

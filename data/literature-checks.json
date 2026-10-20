@@ -9570,5 +9570,457 @@
       "Resolve notation inconsistencies and the quantifiers over channels and penalties before formalization.",
       "Current resolution status was not established by a completed later-literature review."
     ]
+  },
+  {
+    "id": "LC-Q-MODEL-491-20261020",
+    "problem_id": "Q-MODEL-491",
+    "checked_on": "2026-10-20",
+    "status_before": "unverified",
+    "status_after": "source_reports_open",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "\"Thermal avalanches in a quasiperiodic XXZ model\"",
+      "\"quasiperiodic\" \"avalanche\" \"2026\" resonance",
+      "\"quasiperiodic\" \"XXZ\" \"resonances\" \"avalanche\"",
+      "Molignini Strkalj avalanche quasiperiodic October 2026"
+    ],
+    "search_scope": "Opened the originating full text and inspected later primary sources for matching assumptions and resolution claims.",
+    "evidence": [
+      {
+        "source_id": "SRC-PHYS-001",
+        "locator": "arXiv:2607.21708v1, 23 July 2026; sections II, IV, V.2 and VI.",
+        "finding": "The quasiperiodic XXZ Hamiltonian and a stated need to determine resonance corrections to bath coupling."
+      },
+      {
+        "source_id": "SRC-PHYS-002",
+        "locator": "arXiv:2608.00157v1, submitted 31 July 2026; section V.3 and Appendix A.",
+        "finding": "Structured-resonance rare regions need not be absent in quasiperiodic systems; their ability to initiate avalanches is left uncertain."
+      }
+    ],
+    "conclusion": "The originating paper explicitly requests a resonance-sensitive coupling description. Later work discusses structural rare regions without resolving this diagnostic discrepancy; no matching resolution was located.",
+    "limitations": [
+      "Targeted search only; paper arguments and computations were not independently verified.",
+      "Human review is pending; source inspection is not a scientific review verdict."
+    ]
+  },
+  {
+    "id": "LC-Q-MODEL-494-20261020",
+    "problem_id": "Q-MODEL-494",
+    "checked_on": "2026-10-20",
+    "status_before": "unverified",
+    "status_after": "source_reports_open",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "\"Hubbard\" \"stripe\" \"thermodynamic\" \"2026\" superconductivity",
+      "\"2511.07566\" superconductivity 2026",
+      "Hubbard superconductivity one sixth doping stripes 2026 thermodynamic Roth",
+      "\"Hubbard\" \"1/6\" \"thermodynamic\""
+    ],
+    "search_scope": "Opened the originating full text and inspected later primary sources for matching assumptions and resolution claims.",
+    "evidence": [
+      {
+        "source_id": "SRC-PHYS-003",
+        "locator": "arXiv:2511.07566v1, 10 November 2025; section IV.3, section V and Appendix D Table 4.",
+        "finding": "An explicitly unresolved thermodynamic pairing question for the stripe regime at hole doping 1/6 and t'=0."
+      },
+      {
+        "source_id": "SRC-PHYS-004",
+        "locator": "arXiv:2608.12465v1, 12 August 2026; model definition, superconducting correlations and discussion.",
+        "finding": "Later superconductivity evidence at hole doping 1/8, U/t=8 and t'/t=-0.2."
+      },
+      {
+        "source_id": "SRC-PHYS-005",
+        "locator": "arXiv:2606.07634v2, revised 10 September 2026; abstract and pp. 2-3, equation (1) and parameters.",
+        "finding": "A later broad superconductivity claim was checked against its explicit Hamiltonian parameters."
+      }
+    ],
+    "conclusion": "Roth et al. explicitly leave persistence of stripe-phase pairing unresolved. Inspected 2026 claims use different doping or hopping parameters; no resolution of this exact target was found.",
+    "limitations": [
+      "Targeted search; no independent evaluation of published numerical conclusions.",
+      "Human review is pending; source inspection is not a scientific review verdict."
+    ]
+  },
+  {
+    "id": "LC-Q-MODEL-492-20261020",
+    "problem_id": "Q-MODEL-492",
+    "checked_on": "2026-10-20",
+    "status_before": "unverified",
+    "status_after": "open_after_scoped_check",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "\"Kerr\" \"nonlinear Love\" \"2026\" \"matching\"",
+      "Kerr nonlinear Love numbers stationary axisymmetric EFT matching 2026 multipoles",
+      "\"Kerr\" \"nonlinear\" \"Love\" \"October\" \"2026\"",
+      "\"nonlinear\" \"Kerr Love\" \"2026\"",
+      "\"non-linear\" \"Kerr\" \"EFT\" \"2026\""
+    ],
+    "search_scope": "Opened the listed passages and searched the exact topic and related later results. No independent scientific audit was performed.",
+    "evidence": [
+      {
+        "source_id": "SRC-PHYS-006",
+        "locator": "Section 6.3.2, PDF page 112; arXiv:2604.08653v1, submitted 2026-04-09.",
+        "finding": "Identifies the missing complete nonlinear stationary axisymmetric Kerr multipole calculation and effective-field-theory matching."
+      },
+      {
+        "source_id": "SRC-PHYS-007",
+        "locator": "Section 5.1, equations (41)-(47), and conclusions. Preprint submitted 2024-12-11; JCAP 03 (2025) 002, DOI 10.1088/1475-7516/2025/03/002.",
+        "finding": "Provides a quadrupolar axisymmetric calculation and a broader all-orders vanishing claim."
+      },
+      {
+        "source_id": "SRC-PHYS-008",
+        "locator": "Introduction, static perturbations and final discussion; arXiv:2610.17179v1, submitted 2026-10-12.",
+        "finding": "Reports vanishing linear conservative static gravito-electromagnetic response and separately lists beyond-linear response as future work."
+      }
+    ],
+    "conclusion": "The review explicitly identifies the incomplete multipolar calculation and EFT matching. The October 2026 Kerr-Newman result concerns linear response. A targeted later-literature search found no closure of this specific gap.",
+    "limitations": [
+      "Targeted search, not exhaustive citation tracking or an independent audit of the source proofs."
+    ]
+  },
+  {
+    "id": "LC-Q-MODEL-495-20261020",
+    "problem_id": "Q-MODEL-495",
+    "checked_on": "2026-10-20",
+    "status_before": "unverified",
+    "status_after": "open_after_scoped_check",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "\"mixed exponents\" \"intermittency\" \"2026\"",
+      "\"Turbulence intermittency and velocity gradients\" Buaria Pumir 2026",
+      "\"mixed\" \"exponents\" \"Buaria\" \"2026\"",
+      "\"longitudinal\" \"transverse\" \"intermittency\" \"closed\" \"2026\"",
+      "\"mixed structure functions\" \"2026\" turbulence prediction",
+      "\"24bv-jqps\""
+    ],
+    "search_scope": "Opened the listed passages and searched the exact topic and related later results. No independent scientific audit was performed.",
+    "evidence": [
+      {
+        "source_id": "SRC-PHYS-009",
+        "locator": "Physical Review Fluids 11, L092601, published 2026-09-18; conclusions pp.6-7, data availability p.7, Appendix C p.9; equations (18)-(19).",
+        "finding": "Leaves prediction of the full mixed-exponent family unresolved while establishing relations within a joint multifractal framework."
+      },
+      {
+        "source_id": "SRC-PHYS-010",
+        "locator": "Journal of Fluid Mechanics 1034, P1; published online 2026-05-07; DOI 10.1017/jfm.2026.11494; section 9.1, pp.70-71, and data availability p.78.",
+        "finding": "Identifies the theory of mixed structure-function scaling and the connection between statistics and dynamics as open research needs."
+      }
+    ],
+    "conclusion": "The September 2026 published paper retains the missing full mixed-exponent description; the review identifies the same need. Targeted searches found no later complete resolution.",
+    "limitations": [
+      "No exhaustive review of every proposed intermittency model; no data access or independent reanalysis."
+    ]
+  },
+  {
+    "id": "LC-Q-MODEL-493-20261020",
+    "problem_id": "Q-MODEL-493",
+    "checked_on": "2026-10-20",
+    "status_before": "unverified",
+    "status_after": "source_reports_open",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "\"three-copy\" \"Werner\" \"2026\"",
+      "\"three-copy\" \"Werner\" \"four\" 2026",
+      "\"Werner\" \"2608.02647\" solution",
+      "\"Werner\" \"three-copy\" \"undistillability\" October 2026"
+    ],
+    "search_scope": "Opened the cited primary passages and metadata, then searched for subsequent results through 2026-10-20.",
+    "evidence": [
+      {
+        "source_id": "SRC-PHYS-011",
+        "locator": "Section 1.1, equations (1)-(3), Sections 6-7.",
+        "finding": "The unrestricted endpoint remains separate from the reported sectors."
+      },
+      {
+        "source_id": "SRC-PHYS-012",
+        "locator": "Version 1.1.0-candidate landing-page description.",
+        "finding": "A d=3 candidate is reported; its proof and certificate were not inspected."
+      },
+      {
+        "source_id": "SRC-FORMAL-604",
+        "locator": "Theorem 1.1 and Section 4, v3.",
+        "finding": "The reported two-copy threshold does not settle higher copies."
+      }
+    ],
+    "conclusion": "The primary sources leave the unrestricted three-copy question open. A later unreviewed d=3 candidate is retained as a claim, not an established answer. The scoped search found no resolution covering all d >= 3.",
+    "limitations": [
+      "Searches are bounded; the anonymous deposit's attachments could not be inspected. No independent proof review was performed."
+    ]
+  },
+  {
+    "id": "LC-Q-MODEL-496-20261020",
+    "problem_id": "Q-MODEL-496",
+    "checked_on": "2026-10-20",
+    "status_before": "unverified",
+    "status_after": "source_reports_open",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "\"2605.10943\" initialization",
+      "\"self-correcting quantum memory\" \"initialization\" 2026",
+      "\"2605.10943\" \"initialization\" \"proof\"",
+      "\"passive\" \"memory\" \"initialization\" \"Balasubramanian\" 2026",
+      "\"self-correcting\" \"initialization\" quantum memory September October 2026"
+    ],
+    "search_scope": "Opened the cited primary passages and metadata, then searched for subsequent results through 2026-10-20.",
+    "evidence": [
+      {
+        "source_id": "SRC-PHYS-013",
+        "locator": "Section 1.3, item 2.",
+        "finding": "Efficient passive initialization is expressly left untreated."
+      },
+      {
+        "source_id": "SRC-PHYS-014",
+        "locator": "Abstract and Section 1.",
+        "finding": "The follow-up concerns a two-dimensional classical model."
+      }
+    ],
+    "conclusion": "Section 1.3 explicitly leaves efficient initialization untreated. The later two-dimensional classical stability result addresses a different task. A focused search found no solution for the stated quantum construction; this is not an exhaustive status determination.",
+    "limitations": [
+      "Focused later-work searches do not exclude unpublished or newly posted results. The underlying construction was not independently proved."
+    ]
+  },
+  {
+    "id": "LC-Q-MODEL-005-20261020",
+    "problem_id": "Q-MODEL-005",
+    "checked_on": "2026-10-20",
+    "status_before": "source_reports_open",
+    "status_after": "source_reports_open",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "\"NPT bound entanglement\" \"2026\" solved",
+      "\"negative partial transpose\" \"bound entanglement\" \"October 2026\"",
+      "\"2607.21367\" \"correction\""
+    ],
+    "search_scope": "Targeted searches for a general resolution or correction, followed by comparison with the inspected finite-copy statements. The qutrit candidate was inspected only through its repository description.",
+    "evidence": [
+      {
+        "source_id": "SRC-FORMAL-604",
+        "locator": "Introduction, Theorem 1.1 and section 4",
+        "finding": "The reported two-copy threshold does not control arbitrary tensor powers."
+      },
+      {
+        "source_id": "SRC-PHYS-011",
+        "locator": "Section 1.1 and section 10",
+        "finding": "The paper explicitly distinguishes its three-copy sectors from all-copy undistillability."
+      },
+      {
+        "source_id": "SRC-PHYS-012",
+        "locator": "Description and version 1.1.0-candidate",
+        "finding": "The d=3 claim expressly excludes an all-copy result; proof and code remain uninspected."
+      }
+    ],
+    "conclusion": "The inspected 2026 papers retain the all-copy NPT bound-entanglement question. Two-copy solution claims, three-copy sector results and an unreviewed d=3 three-copy candidate do not settle it. A focused update search on 2026-10-20 found no resolution of the stated all-copy target; this is not an exhaustive search or independent proof review.",
+    "limitations": [
+      "Searches may miss recent, differently named or unpublished results.",
+      "No proof audit, certificate execution or signed scientific review was performed."
+    ]
+  },
+  {
+    "id": "LC-Q-FORMAL-510-20261020",
+    "problem_id": "Q-FORMAL-510",
+    "checked_on": "2026-10-20",
+    "status_before": "unverified",
+    "status_after": "source_reports_open",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "\"gradient descent\" \"step-size\" \"1.450\" October 2026",
+      "\"gradient descent\" \"stepsize\" \"October 2026\" \"lower bound\"",
+      "\"2609.04032\" correction"
+    ],
+    "search_scope": "Opened the listed source passages and searched exact identifiers and later-result terminology. This is a bounded source check.",
+    "evidence": [
+      {
+        "source_id": "SRC-IMPACT-001",
+        "locator": "Equation (1), Theorems 1.1-1.2 and Section 5.",
+        "finding": "Records two distinct sharp-rate gaps and the exact anytime limsup obstruction."
+      },
+      {
+        "source_id": "SRC-IMPACT-002",
+        "locator": "Sections 1-3.",
+        "finding": "Supplies the silver-schedule upper bound."
+      },
+      {
+        "source_id": "SRC-IMPACT-003",
+        "locator": "Publisher abstract.",
+        "finding": "The earlier question of any acceleration beyond 1/T is resolved; the sharp rate is different."
+      }
+    ],
+    "conclusion": "The September 2026 paper leaves the sharp rates unresolved. The scoped later-work search found no matching resolution or correction. Acceleration beyond 1/N is already known in both settings.",
+    "limitations": [
+      "Bounded title, identifier and terminology searches; unpublished results or different terminology may be missed. No full proof audit."
+    ]
+  },
+  {
+    "id": "LC-Q-MODEL-204-20261020",
+    "problem_id": "Q-MODEL-204",
+    "checked_on": "2026-10-20",
+    "status_before": "source_reports_open",
+    "status_after": "source_reports_open",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "\"personalized\" \"bi-valued\" \"EFX\" \"Pareto\" 2026 solved",
+      "\"EFX\" \"personalized\" \"Pareto\" \"October\"",
+      "\"2507.18251\" solved"
+    ],
+    "search_scope": "Opened the listed source passages and searched exact identifiers and later-result terminology. This is a bounded source check.",
+    "evidence": [
+      {
+        "source_id": "SRC-MODEL-204",
+        "locator": "Sections 2-5.",
+        "finding": "Poses exact EFX plus integral Pareto optimality and distinguishes known EFX and fractional impossibility results."
+      },
+      {
+        "source_id": "SRC-MODEL-202",
+        "locator": "Section 6.",
+        "finding": "Repeats unresolved compatibility for personalized bi-valued goods."
+      },
+      {
+        "source_id": "SRC-IMPACT-004",
+        "locator": "Theorem 3.5, Example 3.6 and Section 6.",
+        "finding": "A tight 2/3-EFX guarantee for maximum Nash welfare does not settle exact simultaneous existence."
+      }
+    ],
+    "conclusion": "Jin and Tao pose exact simultaneous existence as open; He and Tao repeat this status. The later maximum-Nash-welfare result proves a tight approximation guarantee for that rule, not a resolution of exact EFX plus integral Pareto optimality. No later matching resolution was located.",
+    "limitations": [
+      "Bounded title, identifier and terminology searches; unpublished results or different terminology may be missed. No full proof audit.",
+      "The arXiv:2610.00122v1 chronology is inconsistent between repository metadata and manuscript date."
+    ]
+  },
+  {
+    "id": "LC-Q-FORMAL-328-20261020",
+    "problem_id": "Q-FORMAL-328",
+    "checked_on": "2026-10-20",
+    "status_before": "source_reports_open",
+    "status_after": "source_reports_open",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "\"binary deletion channel\" \"capacity\" \"2026\" \"October\"",
+      "\"deletion channel capacity\" \"Papailiopoulos\" correction",
+      "\"2609.19412\" correction"
+    ],
+    "search_scope": "Primary passages, current metadata and linked maintained records, followed by targeted later-result searches through 2026-10-20.",
+    "evidence": [
+      {
+        "source_id": "SRC-FORMAL-318",
+        "locator": "Sections 1.2, 2, 12-14; Table 1.",
+        "finding": "Exact capacity remains unknown; Table 1 reports outward-rounded bounds at d=1/2."
+      },
+      {
+        "source_id": "SRC-IMPACT-009",
+        "locator": "README: portable checks, full calculation and reuse terms.",
+        "finding": "Distinguishes checking stored enclosure assembly from numerical replay; lists incomplete availability of large inputs."
+      }
+    ],
+    "conclusion": "No exact-capacity resolution or correction was located in the focused search; the author's repository exposes a replay-availability limitation.",
+    "limitations": [
+      "Search coverage is bounded. No mathematical proof, code or numerical certificate was independently verified."
+    ]
+  },
+  {
+    "id": "LC-Q-FORMAL-511-20261020",
+    "problem_id": "Q-FORMAL-511",
+    "checked_on": "2026-10-20",
+    "status_before": "unverified",
+    "status_after": "source_reports_open",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "\"4x4\" \"rank\" \"47\" \"2026\" matrix multiplication",
+      "\"matrix multiplication\" \"rank 47\" rational 2026",
+      "\"4\" \"matrix multiplication\" \"47\" \"October 2026\"",
+      "\"2506.13242\" \"2026\" rank 47"
+    ],
+    "search_scope": "Primary passages, current metadata and linked maintained records, followed by targeted later-result searches through 2026-10-20.",
+    "evidence": [
+      {
+        "source_id": "SRC-IMPACT-006",
+        "locator": "About the problem and mathematical specification.",
+        "finding": "Explicit open target: an exact decomposition with at most 47 terms over the complex numbers."
+      },
+      {
+        "source_id": "SRC-IMPACT-007",
+        "locator": "Version 7, 2026-07-27; abstract, sections 4-6 and appendix A.",
+        "finding": "A rational 48-term construction and its relationship to the complex construction and characteristic-two result."
+      },
+      {
+        "source_id": "SRC-IMPACT-008",
+        "locator": "README: Results, Scope and honesty; release dated 2026-10-08.",
+        "finding": "The campaign reports no rank-47 construction for 4x4 matrices over Q or C."
+      },
+      {
+        "source_id": "SRC-IMPACT-010",
+        "locator": "Algorithm description and Commentaries.",
+        "finding": "The institutional catalog lists a rational rank-48 scheme and downloadable encodings."
+      }
+    ],
+    "conclusion": "The maintained listing and catalog retain the 47-term gap; the October attempt explicitly reports no solution.",
+    "limitations": [
+      "Focused search only. Neither coefficient files nor claimed obstructions were independently checked."
+    ]
+  },
+  {
+    "id": "LIT-Q-FORMAL-010-20261020",
+    "problem_id": "Q-FORMAL-010",
+    "checked_on": "2026-10-20",
+    "status_before": "source_reports_open",
+    "status_after": "source_reports_open",
+    "statement_assessment": "corrected",
+    "previous_statement": "For arithmetic circuits over a specified characteristic-zero field with a polynomial degree bound, obtain deterministic polynomial-time identity testing in a stated arithmetic or bit-cost model; separate white-box access from black-box access.",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "\"read-5\" \"identity testing\" 2026",
+      "\"read-five\" \"polynomial\"",
+      "\"Polynomial Identity Testing for Read-4\"",
+      "\"polynomial identity testing\" \"2026\" deterministic general solution",
+      "\"polynomial identity testing\" \"October\" \"2026\""
+    ],
+    "search_scope": "General commutative deterministic PIT, 2026 bounded-read results and later restricted-model developments; source statements and hypotheses checked.",
+    "evidence": [
+      {
+        "source_id": "SRC-FORMAL-007",
+        "locator": "Introduction and section 5.",
+        "finding": "General PIT and hitting-set derandomization supply the established parent question."
+      },
+      {
+        "source_id": "SRC-IMPACT-011",
+        "locator": "Introduction; theorems 1.1-1.2; definitions 2.1-2.2.",
+        "finding": "The read-four case has algorithms; its assumptions must not be silently dropped."
+      },
+      {
+        "source_id": "SRC-IMPACT-012",
+        "locator": "Corollary 2.7.",
+        "finding": "The September note concerns a restricted depth-four class, not unrestricted circuits."
+      },
+      {
+        "source_id": "SRC-IMPACT-013",
+        "locator": "Introduction and theorem 1.",
+        "finding": "A current application establishes precise reductions involving PIT."
+      },
+      {
+        "source_id": "SRC-IMPACT-014",
+        "locator": "Definitions 2.2.1 and 2.2.6; theorem 2.2.8; theorem 2.6.3, printed pages 12-18 and 32-33.",
+        "finding": "Formal degree and rational encoding control the computational model; a huge-integer evaluation reduction does not supply polynomial bit complexity."
+      },
+      {
+        "source_id": "SRC-IMPACT-015",
+        "locator": "Section 1.1, printed page 3 and footnotes 2-3.",
+        "finding": "The standard degree-bounded PIT setup uses formal degree and accounts for the binary output length of explicit hitting sets."
+      }
+    ],
+    "conclusion": "Retain the canonical ID and source-reported open status, with a precise polynomial bit-time target and formal-degree promise. Unit-cost large-rational operations are not an equivalent formulation. No standalone source-stated read-five question was established.",
+    "limitations": [
+      "No proof audit or independent algorithm run.",
+      "The search was scoped and may miss subsequent results.",
+      "A narrower research target needs its own status check."
+    ]
   }
 ]

@@ -6,7 +6,7 @@ Abstract structures, spaces, quantities and transformations.
 
 **Boundary:** Formal questions; applications cross-link to their model domain.
 
-**Research sources: 96 · Primary tasks: 157 · Full cards: 8 · Cross-linked tasks: 64.**
+**Research sources: 105 · Primary tasks: 158 · Full cards: 9 · Cross-linked tasks: 66.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -175,6 +175,7 @@ Abstract structures, spaces, quantities and transformations.
 | [Closed hyperbolic surface subgroups in right-angled Artin groups](../candidates/Q-MATH-523.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-523 |
 | [Rational stable commutator length in closed surface groups](../candidates/Q-MATH-524.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-524 |
 | [Groups with sharp regularity thresholds for surface actions](../candidates/Q-MATH-525.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-525 |
+| [Optimal acceleration from predetermined gradient-descent stepsizes](../cards/Q-FORMAL-510.md) | High | Literature-origin question | Source reports open | Full card · Q-FORMAL-510 |
 
 <a id="sources"></a>
 
@@ -283,6 +284,15 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [A new proof of two-color partition regularity of Pythagorean triples](../sources.md#src-math-612) | Research entry | 2026 |
 | [On the Hausdorff Dimension of the Mather Quotient](../sources.md#src-math-613) | Research entry | 2009 |
 | [From Computational Certification to Exact Coordinates: Heilbronn's Triangle Problem on the Unit Square Using Mixed-Integer Optimization](../sources.md#src-review-901) | Research entry | 2026 |
+| [Sharp Plücker Geometry for Three-Copy Werner Distillation](../sources.md#src-phys-011) | Research entry | 2026 |
+| [Stronger Lower Bounds for (Non-)Anytime Acceleration of Gradient Descent](../sources.md#src-impact-001) | Research entry | 2026 |
+| [Acceleration by stepsize hedging: Silver Stepsize Schedule for smooth convex optimization](../sources.md#src-impact-002) | Research entry | 2025 |
+| [Anytime Acceleration of Gradient Descent](../sources.md#src-impact-003) | Research entry | 2025 |
+| [When Maximum Nash Welfare Becomes Strongly Fair: Bi-valued Goods](../sources.md#src-impact-004) | Research entry | 2026 |
+| [The Rank of the 4x4 Matrix-Multiplication Tensor](../sources.md#src-impact-006) | Research entry | 2026 |
+| [A non-commutative algorithm for multiplying 4x4 matrices using 48 non-complex multiplications](../sources.md#src-impact-007) | Research entry | 2025 |
+| [Cloudroom Math: new matrix multiplication algorithms found by AI agents](../sources.md#src-impact-008) | Research entry | 2026 |
+| [Description of fast matrix multiplication algorithm: 4 x 4 x 4](../sources.md#src-impact-010) | Research entry | Not verified |
 
 <a id="branches"></a>
 
@@ -290,7 +300,7 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 
 | Branch | Primary tasks | Full cards | Next step |
 | --- | --- | --- | --- |
-| [Mathematics](#math) | 157 | 8 | Extend coverage and review these cards |
+| [Mathematics](#math) | 158 | 9 | Extend coverage and review these cards |
 | [Algebra](#math-alg) | 46 | 1 | Extend coverage and review these cards |
 | [Commutative and homological algebra](#math-alg-comm) | 2 | 1 | Extend coverage and review these cards |
 | [Groups and representation theory](#math-alg-rep) | 6 | 0 | Develop detailed problem cards |
@@ -309,7 +319,7 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [Harmonic, real and complex analysis](#math-anal-harm) | 3 | 0 | Develop detailed problem cards |
 | [Functional and operator analysis](#math-anal-func) | 2 | 0 | Develop detailed problem cards |
 | [Dynamical systems and ergodic theory](#math-dyn) | 4 | 0 | Develop detailed problem cards |
-| [Optimization and operations research](#math-opt) | 2 | 0 | Develop detailed problem cards |
+| [Optimization and operations research](#math-opt) | 3 | 1 | Extend coverage and review these cards |
 | [Numerical analysis and scientific computation](#math-numer) | 0 | 0 | Identify well-specified questions |
 
 Branch counts include descendants. Source links inside each branch below are direct mappings; umbrella sources remain available in the domain directory above.
@@ -359,7 +369,7 @@ Operations, symmetries and algebraic structures.
 
 **Representative objects:** groups, rings, modules, representations.
 
-**Direct source entries:** [Open Questions From AIM Workshop: The Computational Complexity of Polynomial Factorization](../sources.md#src-math-006), [Hilbert's 13th problem in prime characteristic](../sources.md#src-land-309), [The Kourovka Notebook: Unsolved Problems in Group Theory, 21st edition, October 2026 update](../sources.md#src-math-301).
+**Direct source entries:** [Open Questions From AIM Workshop: The Computational Complexity of Polynomial Factorization](../sources.md#src-math-006), [Hilbert's 13th problem in prime characteristic](../sources.md#src-land-309), [The Kourovka Notebook: Unsolved Problems in Group Theory, 21st edition, October 2026 update](../sources.md#src-math-301), [The Rank of the 4x4 Matrix-Multiplication Tensor](../sources.md#src-impact-006), [A non-commutative algorithm for multiplying 4x4 matrices using 48 non-complex multiplications](../sources.md#src-impact-007), [Cloudroom Math: new matrix multiplication algorithms found by AI agents](../sources.md#src-impact-008), [Description of fast matrix multiplication algorithm: 4 x 4 x 4](../sources.md#src-impact-010).
 
 **Primary tasks in this branch and its descendants**
 
@@ -412,7 +422,7 @@ Operations, symmetries and algebraic structures.
 
 **Additional cross-linked tasks**
 
-- [Deterministic polynomial-time identity testing for general arithmetic circuits](../candidates/Q-FORMAL-010.md)
+- [Deterministic polynomial-time identity testing for general arithmetic circuits](../cards/Q-FORMAL-010.md)
 - [Does the Jones polynomial detect the unknot?](../candidates/Q-MATH-313.md)
 - [Whitehead's asphericity conjecture](../candidates/Q-MATH-318.md)
 - [Lehmer's gap problem for Mahler measure](../candidates/Q-MATH-322.md)
@@ -427,6 +437,7 @@ Operations, symmetries and algebraic structures.
 - [Effective coherence of free-by-cyclic groups](../candidates/Q-MATH-409.md)
 - [Uniform subgroup membership in a fixed free-by-cyclic group](../candidates/Q-MATH-410.md)
 - [Solvability of equations and inequations in mapping class and braid groups](../candidates/Q-MATH-412.md)
+- [A rank-47 decomposition for 4x4 matrix multiplication in characteristic zero](../cards/Q-FORMAL-511.md)
 
 [Back to domain tasks](#tasks) · [Branch guide](#branches)
 
@@ -1230,6 +1241,7 @@ Limits, functions, operators and continuous structures.
 - [Reproduce log-concavity of Moran fixation probability](../candidates/Q-MODEL-104.md)
 - [Classify finite-domain modes in a reaction–diffusion model](../candidates/Q-MODEL-107.md)
 - [First-order representations of Markovian PDE behaviors](../candidates/Q-CROSS-401.md)
+- [Three-copy undistillability of the Werner endpoint](../cards/Q-MODEL-493.md)
 
 [Back to domain tasks](#tasks) · [Branch guide](#branches)
 
@@ -1351,7 +1363,7 @@ Infinite-dimensional spaces and maps between them.
 
 **Representative objects:** Banach spaces, spectra, operator algebras.
 
-**Direct source entries:** [On the two-copy distillability of Werner states and a new partial trace inequality](../sources.md#src-model-019), [Ordinary Differential Equations and Dynamical Systems](../sources.md#src-math-106), [Recent perspectives on the Invariant Subspace Problem](../sources.md#src-math-307), [On the solution of Kim, Pearcy and Shields problem and its consequences](../sources.md#src-math-313).
+**Direct source entries:** [On the two-copy distillability of Werner states and a new partial trace inequality](../sources.md#src-model-019), [Ordinary Differential Equations and Dynamical Systems](../sources.md#src-math-106), [Recent perspectives on the Invariant Subspace Problem](../sources.md#src-math-307), [On the solution of Kim, Pearcy and Shields problem and its consequences](../sources.md#src-math-313), [Sharp Plücker Geometry for Three-Copy Werner Distillation](../sources.md#src-phys-011).
 
 **Primary tasks in this branch and its descendants**
 
@@ -1363,6 +1375,7 @@ Infinite-dimensional spaces and maps between them.
 - [NPT bound entanglement](../candidates/Q-MODEL-005.md)
 - [Two-copy distillability of the two-ququart Werner boundary state](../candidates/Q-MODEL-006.md)
 - [Audit uniform coordinate scaling in an exchange functional](../candidates/Q-MODEL-008.md)
+- [Three-copy undistillability of the Werner endpoint](../cards/Q-MODEL-493.md)
 
 [Back to domain tasks](#tasks) · [Branch guide](#branches)
 
@@ -1454,12 +1467,13 @@ Optimal values, algorithms and structural bounds.
 
 **Representative objects:** convex programs, integer programs, transport.
 
-**Direct source entries:** [SIAM Journals](../sources.md#src-base-007), [Convex Optimization: author resource page](../sources.md#src-base-013), [Information Inequalities for Five Random Variables](../sources.md#src-formal-016), [Convex algebraic geometry, optimization and applications — Workshop Summary](../sources.md#src-math-008), [A Complete Characterization of the Gap between Convexity and SOS-Convexity](../sources.md#src-math-012), [The Four-Color Ramsey Multiplicity of Triangles](../sources.md#src-math-014), [Tsirelson bounds for generalized Clauser-Horne-Shimony-Holt inequalities](../sources.md#src-model-004), [Linear Matrix Inequalities in System and Control Theory](../sources.md#src-formal-101), [Benign landscapes for synchronization on spheres via normalized Laplacian matrices](../sources.md#src-formal-106), [Solving the Heilbronn Triangle Problem using Global Optimization Methods](../sources.md#src-math-204), [From Computational Certification to Exact Coordinates: Heilbronn's Triangle Problem on the Unit Square Using Mixed-Integer Optimization](../sources.md#src-math-205), [Computational bounds on randomized algorithms for online bin stretching](../sources.md#src-formal-206), [On the convergence of computational methods for the online bin stretching problem](../sources.md#src-formal-207), [Online bin stretching lower bounds: Improved search of computational proofs](../sources.md#src-formal-208), [Antoine Lhomme: publications](../sources.md#src-formal-209), [The Probably Approximately Correct Learning Model in Computational Learning Theory](../sources.md#src-formal-307), [From Computational Certification to Exact Coordinates: Heilbronn's Triangle Problem on the Unit Square Using Mixed-Integer Optimization](../sources.md#src-review-901).
+**Direct source entries:** [SIAM Journals](../sources.md#src-base-007), [Convex Optimization: author resource page](../sources.md#src-base-013), [Information Inequalities for Five Random Variables](../sources.md#src-formal-016), [Convex algebraic geometry, optimization and applications — Workshop Summary](../sources.md#src-math-008), [A Complete Characterization of the Gap between Convexity and SOS-Convexity](../sources.md#src-math-012), [The Four-Color Ramsey Multiplicity of Triangles](../sources.md#src-math-014), [Tsirelson bounds for generalized Clauser-Horne-Shimony-Holt inequalities](../sources.md#src-model-004), [Linear Matrix Inequalities in System and Control Theory](../sources.md#src-formal-101), [Benign landscapes for synchronization on spheres via normalized Laplacian matrices](../sources.md#src-formal-106), [Solving the Heilbronn Triangle Problem using Global Optimization Methods](../sources.md#src-math-204), [From Computational Certification to Exact Coordinates: Heilbronn's Triangle Problem on the Unit Square Using Mixed-Integer Optimization](../sources.md#src-math-205), [Computational bounds on randomized algorithms for online bin stretching](../sources.md#src-formal-206), [On the convergence of computational methods for the online bin stretching problem](../sources.md#src-formal-207), [Online bin stretching lower bounds: Improved search of computational proofs](../sources.md#src-formal-208), [Antoine Lhomme: publications](../sources.md#src-formal-209), [The Probably Approximately Correct Learning Model in Computational Learning Theory](../sources.md#src-formal-307), [From Computational Certification to Exact Coordinates: Heilbronn's Triangle Problem on the Unit Square Using Mixed-Integer Optimization](../sources.md#src-review-901), [Stronger Lower Bounds for (Non-)Anytime Acceleration of Gradient Descent](../sources.md#src-impact-001), [Acceleration by stepsize hedging: Silver Stepsize Schedule for smooth convex optimization](../sources.md#src-impact-002), [Anytime Acceleration of Gradient Descent](../sources.md#src-impact-003), [When Maximum Nash Welfare Becomes Strongly Fair: Bi-valued Goods](../sources.md#src-impact-004).
 
 **Primary tasks in this branch and its descendants**
 
 - [Classify when polynomial convexity implies SOS-convexity](../candidates/Q-MATH-007.md)
 - [A strongly polynomial algorithm for general linear programming](../candidates/Q-FORMAL-311.md)
+- [Optimal acceleration from predetermined gradient-descent stepsizes](../cards/Q-FORMAL-510.md)
 
 **Additional cross-linked tasks**
 
@@ -1478,7 +1492,7 @@ Optimal values, algorithms and structural bounds.
 - [Complete EFX for four additive goods agents](../cards/Q-MODEL-201.md)
 - [Complete EFX for more than four common bi-valued chore agents](../cards/Q-MODEL-202.md)
 - [Complete EFX for three additive chore agents](../candidates/Q-MODEL-203.md)
-- [EFX and Pareto optimality for personalized bi-valued goods](../candidates/Q-MODEL-204.md)
+- [EFX and Pareto optimality for personalized bi-valued goods](../cards/Q-MODEL-204.md)
 - [Exact EFX for common three-value additive goods](../candidates/Q-MODEL-206.md)
 - [Complete EFX for binary submodular chore costs](../candidates/Q-MODEL-208.md)
 - [A deterministic factor-2 approximation for tournament feedback vertex set](../candidates/Q-FORMAL-330.md)
@@ -1567,7 +1581,7 @@ These retain their primary record in another domain and are not added to this do
 | [Classify entropic and almost-entropic extremal rays of the five-variable Shannon cone](../candidates/Q-FORMAL-004.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-FORMAL-004 |
 | [Tomaszewski's variance-one signed-sum bound](../candidates/Q-FORMAL-008.md) | Unknown | Known-result calibration | Known result in literature | Outline · Q-FORMAL-008 |
 | [Existence of a binary q-Fano plane](../candidates/Q-FORMAL-009.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-FORMAL-009 |
-| [Deterministic polynomial-time identity testing for general arithmetic circuits](../candidates/Q-FORMAL-010.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-FORMAL-010 |
+| [Deterministic polynomial-time identity testing for general arithmetic circuits](../cards/Q-FORMAL-010.md) | Unknown | Literature-origin question | Source reports open | Full card · Q-FORMAL-010 |
 | [Reconstruct the stable Ramsey omega-model separation](../candidates/Q-FORMAL-011.md) | Unknown | Known-result calibration | Known result in literature | Outline · Q-FORMAL-011 |
 | [Reproduce the CHSH optimum with an exact certificate](../cards/Q-MODEL-001.md) | Medium | Known-result calibration | Known result in literature | Full card · Q-MODEL-001 |
 | [Certify deficiency-zero hypotheses for small reaction networks](../cards/Q-MODEL-002.md) | Medium | Known-result calibration | Known result in literature | Full card · Q-MODEL-002 |
@@ -1601,7 +1615,7 @@ These retain their primary record in another domain and are not added to this do
 | [Complete EFX for four additive goods agents](../cards/Q-MODEL-201.md) | High | Literature-origin question | Source reports open | Full card · Q-MODEL-201 |
 | [Complete EFX for more than four common bi-valued chore agents](../cards/Q-MODEL-202.md) | High | Literature-origin question | Source reports open | Full card · Q-MODEL-202 |
 | [Complete EFX for three additive chore agents](../candidates/Q-MODEL-203.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MODEL-203 |
-| [EFX and Pareto optimality for personalized bi-valued goods](../candidates/Q-MODEL-204.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MODEL-204 |
+| [EFX and Pareto optimality for personalized bi-valued goods](../cards/Q-MODEL-204.md) | High | Literature-origin question | Source reports open | Full card · Q-MODEL-204 |
 | [Exact EFX for common three-value additive goods](../candidates/Q-MODEL-206.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MODEL-206 |
 | [Global synchronization of random cubic graphs](../candidates/Q-MODEL-207.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MODEL-207 |
 | [Complete EFX for binary submodular chore costs](../candidates/Q-MODEL-208.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MODEL-208 |
@@ -1626,5 +1640,7 @@ These retain their primary record in another domain and are not added to this do
 | [Irreducibility of a random zero-one polynomial](../candidates/Q-MATH-425.md) | Unknown | Literature-origin question | Unverified | Outline · Q-MATH-425 |
 | [Computational complexity of ranked tree-child network rNNI* distance](../candidates/Q-MODEL-483.md) | High | Literature-origin question | Source reports open | Outline · Q-MODEL-483 |
 | [Shellability of the ranked tree-child network poset](../candidates/Q-MODEL-484.md) | High | Literature-origin question | Source reports open | Outline · Q-MODEL-484 |
+| [Three-copy undistillability of the Werner endpoint](../cards/Q-MODEL-493.md) | High | Literature-origin question | Source reports open | Full card · Q-MODEL-493 |
+| [A rank-47 decomposition for 4x4 matrix multiplication in characteristic zero](../cards/Q-FORMAL-511.md) | High | Literature-origin question | Source reports open | Full card · Q-FORMAL-511 |
 
 [Back to all domains](../README.md) · [Full outline](../taxonomy.md) · [Coverage gaps](../coverage.md)
