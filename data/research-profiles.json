@@ -230,14 +230,14 @@
   {
     "problem_id": "Q-FORMAL-010",
     "difficulty": "unknown",
-    "difficulty_basis": "No separate difficulty review of this exact statement is recorded. Its origin or current status does not establish tractability.",
-    "ai_role": "A tool-using mathematical assistant could compare hypotheses, locate relevant results and propose a narrower proof, construction or counterexample task; a specialist must first select and check that task.",
-    "verification_burden": "unknown",
-    "verification_basis": "The statement and source need a task-specific proof or certificate plan before an attempt.",
-    "resource_expectation": "No run estimate is available. Decide data, computation and experiment requirements after selecting a concrete approach.",
-    "assessment_date": "2026-10-14",
+    "difficulty_basis": "The general problem is a major open derandomization question. No narrower target has received a task-specific difficulty assessment.",
+    "ai_role": "No model-specific assessment has been made. Assistance can be disclosed for literature inspection, exact examples and review of a selected algorithm.",
+    "verification_burden": "high",
+    "verification_basis": "A universal correctness proof and uniform bit-complexity bound need specialist review, including rational encodings and formal-degree promises; examples alone are insufficient.",
+    "resource_expectation": "No project runtime or cost estimate is available. Symbolic expansion and exhaustive circuit enumeration may be exponential.",
+    "assessment_date": "2026-10-20",
     "evidence_level": "untested_forecast",
-    "uncertainty": "No named model has been evaluated on this target; AI usefulness and success probability remain unmeasured."
+    "uncertainty": "No research model or prospective restricted theorem has been evaluated."
   },
   {
     "problem_id": "Q-FORMAL-011",
@@ -973,15 +973,15 @@
   },
   {
     "problem_id": "Q-MODEL-204",
-    "difficulty": "unknown",
-    "difficulty_basis": "No separate difficulty review of this exact statement is recorded. Its origin or current status does not establish tractability.",
-    "ai_role": "A tool-using mathematical assistant could compare hypotheses, locate relevant results and propose a narrower proof, construction or counterexample task; a specialist must first select and check that task.",
-    "verification_burden": "unknown",
-    "verification_basis": "The statement and source need a task-specific proof or certificate plan before an attempt.",
-    "resource_expectation": "No run estimate is available. Decide data, computation and experiment requirements after selecting a concrete approach.",
-    "assessment_date": "2026-10-14",
+    "difficulty": "high",
+    "difficulty_basis": "The full target requires a general argument beyond the inspected partial results.",
+    "ai_role": "No model evaluated; assumes a tool-using assistant able to read the cited mathematics and preserve reproducible evidence.",
+    "verification_burden": "high",
+    "verification_basis": "Moderate for a small fully enumerated instance; high for a general theorem or a large exhaustive certificate.",
+    "resource_expectation": "Experiment: None for this existence question. People's acceptance of EFX is an empirical matter outside its scope. Data: Published definitions and exact valuation matrices for any future finite study. Computation: Unmeasured. A fixed n-agent, m-good instance has n^m complete assignments. Exact small-instance checking may be manageable; growth and general Pareto verification can be expensive.",
+    "assessment_date": "2026-10-20",
     "evidence_level": "untested_forecast",
-    "uncertainty": "No named model has been evaluated on this target; AI usefulness and success probability remain unmeasured."
+    "uncertainty": "Editorial planning judgment only. No model, search strategy, runtime or success probability has been measured."
   },
   {
     "problem_id": "Q-MODEL-206",
@@ -1777,15 +1777,15 @@
   },
   {
     "problem_id": "Q-FORMAL-328",
-    "difficulty": "frontier",
-    "difficulty_basis": "The optimum ranges over input processes with unbounded dependence and requires matching converse and achievability.",
-    "ai_role": "Audit finite-window bounds and their rigorous remainder estimates for a fixed deletion probability.",
+    "difficulty": "high",
+    "difficulty_basis": "The source leaves both source optimality and converse tightness unsettled.",
+    "ai_role": "The published computation supplies concrete methods and checking obligations. Reviewing its assumptions and obtaining complete inputs should precede a new attempt. No named model evaluated.",
     "verification_burden": "high",
-    "verification_basis": "A good code is only a lower bound; capacity needs a converse valid for arbitrary encoders and vanishing-error asymptotics.",
-    "resource_expectation": "No physical experiment or measured data is required. Finite-channel optimization and certificate storage can become very large; restrict block length before computation.",
-    "assessment_date": "2026-10-14",
-    "evidence_level": "untested_forecast",
-    "uncertainty": "No named model has been evaluated. These are possible research-support roles, not evidence that current AI can resolve the general problem."
+    "verification_basis": "High: an information theorist must review the reduction, while numerical evidence needs an independent replay.",
+    "resource_expectation": "No estimate has been measured. Small analytic and certificate checks can be separated from large finite-window enumeration, whose state count grows exponentially. Full source replay requires specialist numerical infrastructure.",
+    "uncertainty": "No project research attempt or model evaluation has been performed. Published attempts do not establish a success probability for this task.",
+    "assessment_date": "2026-10-20",
+    "evidence_level": "untested_forecast"
   },
   {
     "problem_id": "Q-FORMAL-329",
@@ -6526,5 +6526,101 @@
     "assessment_date": "2026-10-14",
     "evidence_level": "untested_forecast",
     "uncertainty": "The admissible fluxes, convergence and global conservation definitions must be selected; finite-subnetwork consistency must not be assumed to imply an infinite-network theorem."
+  },
+  {
+    "problem_id": "Q-MODEL-491",
+    "difficulty": "high",
+    "difficulty_basis": "Mechanism and asymptotic limits remain unresolved.",
+    "ai_role": "Literature comparison, algebra and reproducible numerical diagnostics offer possible assistance; discovering a correct mechanism is uncertain. A model able to inspect primary literature and use scientific code, with specialist oversight; no specific model benchmarked.",
+    "verification_basis": "A finite-time transport signal is not a proof that infinite isolated systems thermalize.",
+    "resource_expectation": "Experiment: None for the Hamiltonian question; experimental confirmation is a separate task. Data: Specify reproducible model inputs. Access to the authors' raw output and complete software environment remains to be checked. Computation: Small-chain calculations may fit a workstation; large phase ensembles and asymptotic scaling can require substantial resources. This is an untested planning estimate, not a runtime or budget measurement. Assumptions: Finite-dimensional quantum mechanics for numerical instances; effective-bath and localization assumptions require separate justification.",
+    "uncertainty": "No research model has been tested on this task by the project; capability and resource expectations remain provisional.",
+    "verification_burden": "high",
+    "assessment_date": "2026-10-20",
+    "evidence_level": "untested_forecast"
+  },
+  {
+    "problem_id": "Q-MODEL-494",
+    "difficulty": "frontier",
+    "difficulty_basis": "Thermodynamic many-body inference and competing orders remain difficult.",
+    "ai_role": "AI may help compare methods, implement diagnostics and audit uncertainty; full ground-state inference remains demanding. A model able to inspect primary literature and use scientific code, with specialist oversight; no specific model benchmarked.",
+    "verification_basis": "Finite-size pairing or a lower variational energy alone does not prove superconductivity of the exact infinite-system ground state.",
+    "resource_expectation": "Experiment: None for the model calculation. Material-specific relevance needs independent empirical support. Data: Model inputs are specified analytically; reuse numerical data only with documented parameters and provenance. Raw-data availability remains unchecked. Computation: Substantial GPU/HPC resources may be necessary. Source Table 4 reports roughly 500 H200 GPU-hours for one 144-site training case and 10,000 for a 288-site case; these are author estimates, not project measurements or promised budgets. Assumptions: Ground-state conclusions depend on control of variational and extrapolation errors; a trial-state energy is only an upper bound.",
+    "uncertainty": "No research model has been tested on this task by the project; capability and resource expectations remain provisional.",
+    "verification_burden": "high",
+    "assessment_date": "2026-10-20",
+    "evidence_level": "untested_forecast"
+  },
+  {
+    "problem_id": "Q-MODEL-492",
+    "difficulty": "high",
+    "difficulty_basis": "Nonlinear multipole coupling, gauge choices and EFT matching must be controlled together; symbolic expression growth is an additional burden.",
+    "ai_role": "Symbolic tensor manipulation can assist finite-order field equations and matching checks. Choosing an informative sector and interpreting its coefficients require GR and EFT expertise; no AI trial has been run. No named model evaluated; assumes a tool-using assistant with source access and specialist human review.",
+    "verification_burden": "high",
+    "verification_basis": "High: a specialist must inspect gauge choices, operator identifiability and matching.",
+    "resource_expectation": "Experiment: None for a conditional GR calculation; observational tests require additional evidence. Data: Published equations and conventions; no observational dataset is required. Computation: A finite-order symbolic calculation may start locally, but expression growth can dominate memory. No runtime or budget has been measured. Assumptions: Vacuum GR, specified tidal environment and horizon regularity; only response combinations identifiable in the chosen symmetry sector.",
+    "assessment_date": "2026-10-20",
+    "evidence_level": "untested_forecast",
+    "uncertainty": "No model has been evaluated; tractability, novelty and resource needs remain uncertain."
+  },
+  {
+    "problem_id": "Q-MODEL-495",
+    "difficulty": "high",
+    "difficulty_basis": "Moment closure, rare-event statistics and the high-Reynolds-number limit remain unresolved; fitting a finite dataset cannot remove those difficulties.",
+    "ai_role": "Symbolic consistency checks and comparison of statistical closures offer bounded tasks. Predicting universal exponents requires more than fitting numerical data; this proposed AI role has not been tested. No named model evaluated; assumes a tool-using assistant with source access and specialist human review.",
+    "verification_burden": "high",
+    "verification_basis": "High: statistical and fluid-dynamical assumptions require specialist assessment.",
+    "resource_expectation": "Experiment: No new experiment is required for analytical work. Empirical validation requires suitable numerical or measured evidence. Data: The cited DNS data are available upon reasonable request and were not publicly deposited; access has not been obtained. Computation: Symbolic checks and analysis of selected statistics may be modest; new well-resolved high-Reynolds-number DNS is a major computing task. No costs or runtimes are measured. Assumptions: The declared flow class, moment definitions, scaling limit and any statistical closure must remain explicit.",
+    "assessment_date": "2026-10-20",
+    "evidence_level": "untested_forecast",
+    "uncertainty": "No model has been evaluated; tractability, novelty and resource needs remain uncertain."
+  },
+  {
+    "problem_id": "Q-MODEL-493",
+    "difficulty": "high",
+    "difficulty_basis": "Global nonconvex inequalities remain beyond the reported sectors.",
+    "ai_role": "The explicit algebra permits symbolic checks and candidate generation, but the unresolved nonnormal sector and recent claims require careful preparation. No model evaluated. Assumes tool-using AI able to inspect literature, manipulate mathematical expressions and retain reproducible calculations.",
+    "verification_burden": "high",
+    "verification_basis": "High for a general proof; an explicit small witness is more localized but still requires statement alignment.",
+    "resource_expectation": "Experiment: None for the formal distillability question. Data: Source definitions and any future exact candidate coefficients. Computation: Unmeasured. At d=4 the coefficient matrix has 64 rows and columns; low-rank parameterization reduces storage but does not make global optimization easy. No runtime or cost is forecast. Assumptions: Standard finite-dimensional quantum mechanics and ideal LOCC; all stated complex vectors are allowed.",
+    "uncertainty": "No AI attempt measured; feasible search size and novelty of restrictions remain uncertain.",
+    "assessment_date": "2026-10-20",
+    "evidence_level": "untested_forecast"
+  },
+  {
+    "problem_id": "Q-MODEL-496",
+    "difficulty": "high",
+    "difficulty_basis": "Efficient preparation requires control of a large interacting system in a specified logical sector.",
+    "ai_role": "AI may help track the construction's hypotheses and test local lemmas. The missing asymptotic preparation argument is substantial. No model evaluated. Assumes tool-using AI able to inspect literature, manipulate mathematical expressions and retain reproducible calculations.",
+    "verification_burden": "high",
+    "verification_basis": "High: the protocol must fit the code construction while its error and resource estimates remain uniform in the declared limit.",
+    "resource_expectation": "Experiment: None for a theorem about the prescribed model; physical implementation would require separate experiments. Data: The published code construction, bath assumptions and a fully specified proposed preparation protocol. Computation: Unmeasured. Small instances can test definitions, while exact state-space simulation grows rapidly. Analytical bounds may avoid full simulation; no affordable full-scale run is promised. Assumptions: Ideal stabilizer interactions, chosen thermal dynamics and a stated logical-sector encoding. Hardware robustness is a separate claim.",
+    "uncertainty": "No model or protocol tested. Appropriate assumptions and practical resource costs remain unsettled.",
+    "assessment_date": "2026-10-20",
+    "evidence_level": "untested_forecast"
+  },
+  {
+    "problem_id": "Q-FORMAL-510",
+    "difficulty": "high",
+    "difficulty_basis": "The full target requires a general argument beyond the inspected partial results.",
+    "ai_role": "No model evaluated; assumes a tool-using assistant able to read the cited mathematics and preserve reproducible evidence.",
+    "verification_burden": "high",
+    "verification_basis": "High for a new general rate theorem; finite algebraic certificates may be easier to audit.",
+    "resource_expectation": "Experiment: None for the mathematical rate question. Data: The cited schedules, definitions and proof certificates; no empirical training dataset is required. Computation: Unmeasured. Symbolic work and small numerical diagnostics are possible, but global schedule optimization can be expensive. No hardware, runtime or solution-cost estimate is available.",
+    "assessment_date": "2026-10-20",
+    "evidence_level": "untested_forecast",
+    "uncertainty": "Editorial planning judgment only. No model, search strategy, runtime or success probability has been measured."
+  },
+  {
+    "problem_id": "Q-FORMAL-511",
+    "difficulty": "high",
+    "difficulty_basis": "The target persists despite recent computational searches.",
+    "ai_role": "Exact certificates make results easier to inspect than searches. Published computational attempts provide context, but do not imply that a new construction is likely. No named model evaluated.",
+    "verification_burden": "medium",
+    "verification_basis": "Moderate for a compact exact construction; much higher for an impossibility claim or a complicated coefficient field.",
+    "resource_expectation": "A fixed candidate has a finite exact checker; search cost is unconstrained and may be substantial. Coefficient growth can also make checking expensive. No project runtime or budget is measured.",
+    "uncertainty": "No project research attempt or model evaluation has been performed. Published attempts do not establish a success probability for this task.",
+    "assessment_date": "2026-10-20",
+    "evidence_level": "untested_forecast"
   }
 ]

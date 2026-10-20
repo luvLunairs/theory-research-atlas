@@ -1,0 +1,185 @@
+{
+  "id": "Q-FORMAL-328",
+  "title": "Exact capacity of the independent binary deletion channel",
+  "domain": "Shannon theory",
+  "cross_domains": [],
+  "kind": "literature_open",
+  "statement": "Determine the Shannon capacity C(d) in bits per input bit of the binary channel that independently deletes each input bit with probability d∈(0,1), preserves the order of surviving bits and does not reveal deletion locations, without feedback.",
+  "source_ids": [
+    "SRC-FORMAL-318",
+    "SRC-IMPACT-009"
+  ],
+  "source_locator": "SRC-FORMAL-318 sections 1.2, 2 and 14.3; SRC-IMPACT-009 README.",
+  "status": "source_reports_open",
+  "status_basis": "The September 2026 preprint retains the exact-capacity question. A focused later-work search found no resolution. Its numerical bounds remain reported results with incomplete replay availability, not independently verified project benchmarks.",
+  "last_checked": "2026-10-20",
+  "curator_origin": false,
+  "duplicate_key": "information:binary-deletion-channel:exact-capacity",
+  "proposed_card": true,
+  "primary_domain_id": "INFO.SHANNON",
+  "cross_domain_ids": [],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "plain_summary": "When missing bits leave no position markers, even the maximum reliable information rate is unknown. The half-deletion case provides a fixed parameter at which stronger bounds would be useful.",
+  "assumptions": [
+    "Each binary input symbol is deleted independently with fixed probability d; surviving symbols retain their order.",
+    "Use Shannon capacity without feedback, normalized per input bit, and vanishing error as block length grows.",
+    "Allow arbitrary input distributions when claiming an upper bound on capacity. A bound restricted to one source family is not a general converse."
+  ],
+  "scope": "Retains the canonical question for C(d). The source's d=1/2 case is a bounded entry point; improvement there is partial progress, not the exact capacity function.",
+  "target": "Determine capacity, or establish a rigorously stronger achievable-rate or converse bound at an explicitly fixed deletion probability.",
+  "success_criteria": [
+    "State the exact parameter, normalization, inequalities and theorem connecting the certificate to unrestricted channel capacity.",
+    "Compare against precise source endpoints, rather than claiming novelty from rounded displayed decimals.",
+    "Provide an independently reproducible proof or numerical certificate with controlled arithmetic, including every required input."
+  ],
+  "known_results": [
+    "SRC-FORMAL-318 Table 1 reports 0.114540<=C(1/2)<=0.130162 bits per input bit, rounded outward. These are claimed certified enclosures, not ordinary floating-point estimates; the project has not replayed them.",
+    "The source distinguishes an achievable lower endpoint from a midpoint estimate, and leaves source and converse optimization open.",
+    "SRC-IMPACT-009 lists portable checks but says the full large-input collection is not yet downloadable in full. Those checks do not rerun the numerical inequalities."
+  ],
+  "prerequisites": [
+    "Information theory and coding theorems",
+    "Entropy rates and finite-state processes",
+    "Rigorous numerical bounds and exact certificate arithmetic"
+  ],
+  "significance": "A sharper capacity benchmark would clarify limits of communication with synchronization loss. Practical encoders and realistic DNA-storage models require additional analysis.",
+  "relations": [],
+  "requirements": {
+    "experiment": "None for the mathematical channel model.",
+    "data": "Exact source laws, bound parameters, certificate inputs and versions. Availability of all large baseline inputs remains unconfirmed.",
+    "compute": "No estimate has been measured. Small analytic and certificate checks can be separated from large finite-window enumeration, whose state count grows exponentially. Full source replay requires specialist numerical infrastructure.",
+    "theoretical_assumptions": "Independent deletions, binary input, no feedback and asymptotic reliable communication; distinguish this model from insertions, substitutions and multiple-read channels."
+  },
+  "ai_assessment": {
+    "priority": "preparation_required",
+    "rationale": "The published computation supplies concrete methods and checking obligations. Reviewing its assumptions and obtaining complete inputs should precede a new attempt.",
+    "dimensions": {
+      "clarity": {
+        "rating": "high",
+        "reason": "The channel and capacity units are fixed."
+      },
+      "decomposability": {
+        "rating": "high",
+        "reason": "Achievability, converse and numerical certificate obligations are distinct."
+      },
+      "methods": {
+        "rating": "high",
+        "reason": "The cited paper provides explicit established and recent methods."
+      },
+      "search_or_symbolic": {
+        "rating": "high",
+        "reason": "Finite-state and interval calculations admit reproducible tooling."
+      },
+      "checkability": {
+        "rating": "medium",
+        "reason": "A complete bound needs both its analytic reduction and all numerical premises."
+      },
+      "expertise": {
+        "rating": "high",
+        "reason": "Capacity and numerical-certification expertise are required."
+      },
+      "significance": {
+        "rating": "high",
+        "reason": "The question is a basic limit for synchronization-error communication."
+      },
+      "verification_difficulty": {
+        "rating": "high",
+        "reason": "Finite calculations must support a uniform assertion over allowed inputs."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "No project research attempt or model evaluation has been performed. Published attempts do not establish a success probability for this task.",
+    "assessment_date": "2026-10-20",
+    "model_scope": "A tool-using assistant able to inspect mathematical sources and preserve exact computations; no named model or configuration evaluated.",
+    "evidence_refs": []
+  },
+  "methods": [
+    "Source-based achievable-rate analysis",
+    "Information-theoretic converse bounds",
+    "Finite-state and renewal-source calculations with rigorous arithmetic"
+  ],
+  "method_tags": [
+    "bounds",
+    "proof",
+    "exact_computation",
+    "numerical_computation"
+  ],
+  "validation_tags": [
+    "pure_proof",
+    "exact_computation"
+  ],
+  "experimental_dependency": "none_for_formal_task",
+  "obstacles": [
+    "Hidden alignment creates long-range dependence.",
+    "Finite windows leave tails requiring explicit control.",
+    "Improving evaluation of one input process does not prove its optimality."
+  ],
+  "validation": {
+    "steps": [
+      "Check input/output normalization, deletion law and capacity definition.",
+      "Review achievability or converse quantifiers and the finite-to-asymptotic argument.",
+      "Pin every input and verify arithmetic enclosures, omitted tails and all rows required by a converse.",
+      "Run the final certificate independently; distinguish its result from a light assembly or file-integrity check."
+    ],
+    "human_review_difficulty": "High: an information theorist must review the reduction, while numerical evidence needs an independent replay.",
+    "statement_alignment": "A source-specific rate, numerical optimizer output or midpoint is not exact channel capacity."
+  },
+  "known_attempts": [
+    "Papailiopoulos reports an AI-assisted bound construction; its paper and verification materials are linked. No project research attempt is recorded."
+  ],
+  "unresolved_checks": [
+    "Independent scrutiny of the recent preprint and complete numerical replay.",
+    "Actual availability and reuse permission for all external proof inputs.",
+    "A fresh check of precise bounds before reporting an improvement."
+  ],
+  "attribution": {
+    "original_authors": [
+      "Dimitris Papailiopoulos"
+    ],
+    "citation": "Papailiopoulos, Binary Deletion Channel Capacity to Within One Hundredth of a Bit, arXiv:2609.19412v1 (2026), especially sections 1.2, 2 and 12-14. This is a recent reference for a classical problem, not an attribution of its origin.",
+    "curator_credit": "Compiled for Theory Research Atlas with Codex assistance."
+  },
+  "status_search": {
+    "queries": [
+      "\"binary deletion channel\" \"capacity\" \"2026\" \"October\"",
+      "\"deletion channel capacity\" \"Papailiopoulos\" correction",
+      "\"2609.19412\" correction"
+    ],
+    "checked_sources": [
+      "SRC-FORMAL-318",
+      "SRC-IMPACT-009"
+    ],
+    "result": "No exact-capacity resolution or correction was located in the focused search; the author's repository exposes a replay-availability limitation.",
+    "limitations": "Search coverage is bounded. No mathematical proof, code or numerical certificate was independently verified."
+  },
+  "epistemic_layers": {
+    "formal_validity": "Any theorem is conditional on the explicitly stated deletion-channel model.",
+    "empirical_support": "Capacity for this ideal channel does not establish performance in a physical communication or storage system."
+  },
+  "judgments": {
+    "difficulty": {
+      "rating": "high",
+      "basis": "The source leaves both source optimality and converse tightness unsettled.",
+      "evidence": "Source discussion; no project measurement."
+    },
+    "correctness": {
+      "status": "not_assessed",
+      "basis": "No candidate solution supplied; published certificates not independently replayed."
+    },
+    "novelty": {
+      "status": "not_assessed",
+      "basis": "No new result claimed."
+    },
+    "significance": {
+      "rating": "high",
+      "basis": "Fundamental channel-capacity benchmark; practical relevance depends on a separate code and channel model."
+    }
+  },
+  "revision_history": [
+    {
+      "date": "2026-10-20",
+      "change": "Expanded the existing capacity entry with a half-deletion entry point, reported bounds and replay limitations."
+    }
+  ]
+}

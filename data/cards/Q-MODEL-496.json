@@ -1,0 +1,191 @@
+{
+  "id": "Q-MODEL-496",
+  "title": "Efficient passive initialization of a three-dimensional quantum memory",
+  "domain": "Quantum information",
+  "cross_domains": [
+    "Statistical physics",
+    "Quantum coding theory"
+  ],
+  "kind": "literature_open",
+  "statement": "For the main three-dimensional stabilizer-memory family with random embedding of Balasubramanian, Davydova and Lin, can the logical-zero thermal state |0><0|_L tensor rho_beta be initialized efficiently from an accessible state by the within-sector thermalization route in Section 1.3? Specify allowed initial controls, bath dynamics, temperature, preparation error, logical error and system-size scaling.",
+  "source_ids": [
+    "SRC-PHYS-013",
+    "SRC-PHYS-014"
+  ],
+  "source_locator": "Balasubramanian, Davydova and Lin, Section 1.3, item 2; later classical result, abstract and Section 1.",
+  "status": "source_reports_open",
+  "status_basis": "Section 1.3 explicitly leaves efficient initialization untreated. The later two-dimensional classical stability result addresses a different task. A focused search found no solution for the stated quantum construction; this is not an exhaustive status determination.",
+  "last_checked": "2026-10-20",
+  "curator_origin": false,
+  "duplicate_key": "three-dimensional-passive-quantum-memory-thermal-initialization-bdl2026",
+  "proposed_card": true,
+  "primary_domain_id": "INFO.QUANT",
+  "cross_domain_ids": [
+    "PHYS.STAT",
+    "INFO.CODES"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "revision_history": [],
+  "plain_summary": "A memory is useful only if information can be loaded into its protected state. This asks whether the proposed passive memory can be initialized without preparation taking prohibitively long.",
+  "assumptions": [
+    "Use the main random-embedding family in Sections 1.2.2 and 3, with the storage analysis in Section 5, and its thermal encoding. Specify the construction parameters and any probability statement over embeddings.",
+    "Declare the bath dynamics and nonzero temperature regime before a quantitative claim.",
+    "Approach the thermal syndrome state while bounding logical errors during preparation. Exact conservation of a logical sector is not assumed; global equilibration that loses the stored information is not success."
+  ],
+  "scope": "The logical-zero preparation route explicitly discussed in the source. The open direction does not prescribe a unique efficiency threshold. Define input preparation, allowed controls and an error metric before an attempt; preparing arbitrary unknown logical states is a further claim.",
+  "target": "Establish an efficient preparation procedure under explicit conditions, or prove a preparation bottleneck for a specified admissible procedure.",
+  "success_criteria": [
+    "Identify the preparation channel, its admissible initial states and the target thermal syndrome state.",
+    "Give a rigorous accuracy bound with explicit dependence on system size, temperature and tolerance.",
+    "Bound logical errors during preparation and compare the initialization time with the storage regime. Do not replace metastable protection by an assumed exactly conserved logical sector.",
+    "Limit any obstruction to the protocols and parameter regime actually proved."
+  ],
+  "known_results": [
+    "The source reports a storage theorem for its main random-embedding construction using thermal encoding. Efficient initialization is left open.",
+    "Its suggested within-sector route may encounter energetic bottlenecks; a cited rapid-initialization argument has an unmet LDPC metacheck assumption.",
+    "The October follow-up treats two-dimensional classical stability, not this initialization problem.",
+    "The separate explicit-embedding construction in Sections 1.2.4 and 6 does not yet have the complete exponential-lifetime proof in this paper; its preparation cannot simply inherit the main construction's guarantee."
+  ],
+  "prerequisites": [
+    "Stabilizer codes, syndrome sectors and Gibbs states.",
+    "Local thermal dynamics, mixing estimates and asymptotic error bounds."
+  ],
+  "significance": "Initialization connects a theoretical storage construction to a usable information-processing procedure. A rigorous obstruction would also clarify what the construction requires.",
+  "relations": [],
+  "requirements": {
+    "experiment": "None for a theorem about the prescribed model; physical implementation would require separate experiments.",
+    "data": "The published code construction, bath assumptions and a fully specified proposed preparation protocol.",
+    "compute": "Unmeasured. Small instances can test definitions, while exact state-space simulation grows rapidly. Analytical bounds may avoid full simulation; no affordable full-scale run is promised.",
+    "theoretical_assumptions": "Ideal stabilizer interactions, chosen thermal dynamics and a stated logical-sector encoding. Hardware robustness is a separate claim."
+  },
+  "ai_assessment": {
+    "priority": "exploratory",
+    "rationale": "AI may help track the construction's hypotheses and test local lemmas. The missing asymptotic preparation argument is substantial.",
+    "dimensions": {
+      "clarity": {
+        "rating": "medium",
+        "reason": "The source identifies the task; efficiency and allowed preparation controls need specification."
+      },
+      "decomposability": {
+        "rating": "medium",
+        "reason": "Protocol definition, local lemmas and scaling bounds can be separated."
+      },
+      "methods": {
+        "rating": "medium",
+        "reason": "Mixing-time methods exist, but their hypotheses may fail here."
+      },
+      "search_or_symbolic": {
+        "rating": "medium",
+        "reason": "Finite calculations can expose obstructions without resolving scaling."
+      },
+      "checkability": {
+        "rating": "medium",
+        "reason": "A precise theorem is reviewable; full dynamics are costly."
+      },
+      "expertise": {
+        "rating": "high",
+        "reason": "Quantum coding and thermal-dynamics expertise are both needed."
+      },
+      "significance": {
+        "rating": "high",
+        "reason": "Preparation is necessary for using a long-lived memory."
+      },
+      "verification_difficulty": {
+        "rating": "high",
+        "reason": "Logical preservation and uniform asymptotic bounds must hold together."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "No model or protocol tested. Appropriate assumptions and practical resource costs remain unsettled.",
+    "assessment_date": "2026-10-20",
+    "model_scope": "No model evaluated. Assumes tool-using AI able to inspect literature, manipulate mathematical expressions and retain reproducible calculations.",
+    "evidence_refs": []
+  },
+  "methods": [
+    "Analyze the source's proposed within-sector thermalization route.",
+    "Check the assumptions of applicable mixing and preparation theorems before transferring them."
+  ],
+  "method_tags": [
+    "proof",
+    "bounds",
+    "model_analysis",
+    "numerical_computation"
+  ],
+  "validation_tags": [
+    "pure_proof",
+    "numerical_evidence"
+  ],
+  "experimental_dependency": "none_for_formal_task",
+  "obstacles": [
+    "A lifetime bound does not supply an initialization bound.",
+    "Mixing across logical sectors destroys the desired information.",
+    "A good finite-size simulation need not imply efficient asymptotic preparation."
+  ],
+  "validation": {
+    "steps": [
+      "State the physical or mathematical controls allowed during preparation.",
+      "Match the Hamiltonian, encoding and bath to the cited construction.",
+      "Check the logical-zero target and quantify leakage or logical errors rather than imposing perfect within-sector conservation without justification.",
+      "Audit every size-dependent constant, accuracy estimate and temperature restriction.",
+      "Treat simulations as diagnostics and obtain specialist review of the final asymptotic argument."
+    ],
+    "human_review_difficulty": "High: the protocol must fit the code construction while its error and resource estimates remain uniform in the declared limit.",
+    "statement_alignment": "Ground-space encoding, mixed thermal encoding, active preparation and passive within-sector relaxation are distinct tasks."
+  },
+  "known_attempts": [
+    "The original outlook proposes a possible preparation route and describes obstacles; no project attempt has been run."
+  ],
+  "unresolved_checks": [
+    "Choose a precise efficiency target and permitted controls.",
+    "Audit dependencies in the memory theorem before using them.",
+    "Search for subsequent initialization results and compare their models."
+  ],
+  "epistemic_layers": {
+    "formal_validity": "A theorem applies only to its stated Hamiltonian and dynamics. Source inspection is not independent validation of the construction.",
+    "empirical_support": "No experimental device, fabrication tolerance or measured memory performance is established by this entry."
+  },
+  "attribution": {
+    "original_authors": [
+      "Shankar Balasubramanian",
+      "Margarita Davydova",
+      "Ting-Chun Lin"
+    ],
+    "citation": "Balasubramanian, Davydova and Lin (2026), arXiv:2605.10943v1, Section 1.3. The later scope comparison uses Balasubramanian, Davydova, Lin and Thorngren (2026), arXiv:2610.22548v1.",
+    "curator_credit": "Compiled for Theory Research Atlas with Codex assistance."
+  },
+  "judgments": {
+    "difficulty": {
+      "rating": "high",
+      "basis": "Efficient preparation requires control of a large interacting system in a specified logical sector.",
+      "evidence": "editorial_estimate_not_measured"
+    },
+    "correctness": {
+      "status": "no_project_answer",
+      "basis": "No preparation protocol has been proved or tested by this project."
+    },
+    "novelty": {
+      "status": "requires_future_literature_review",
+      "basis": "Any chosen protocol and scaling claim need a focused comparison."
+    },
+    "significance": {
+      "rating": "high",
+      "basis": "Preparation determines whether the theoretical protected state is operationally accessible."
+    }
+  },
+  "status_search": {
+    "queries": [
+      "\"2605.10943\" initialization",
+      "\"self-correcting quantum memory\" \"initialization\" 2026",
+      "\"2605.10943\" \"initialization\" \"proof\"",
+      "\"passive\" \"memory\" \"initialization\" \"Balasubramanian\" 2026",
+      "\"self-correcting\" \"initialization\" quantum memory September October 2026"
+    ],
+    "checked_sources": [
+      "SRC-PHYS-013",
+      "SRC-PHYS-014"
+    ],
+    "result": "Section 1.3 explicitly leaves efficient initialization untreated. The later two-dimensional classical stability result addresses a different task. A focused search found no solution for the stated quantum construction; this is not an exhaustive status determination.",
+    "limitations": "Focused later-work searches do not exclude unpublished or newly posted results. The underlying construction was not independently proved."
+  }
+}

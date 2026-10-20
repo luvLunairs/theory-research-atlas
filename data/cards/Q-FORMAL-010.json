@@ -1,0 +1,226 @@
+{
+  "id": "Q-FORMAL-010",
+  "title": "Deterministic polynomial-time identity testing for general arithmetic circuits",
+  "domain": "Algebraic complexity",
+  "cross_domains": [
+    "Algorithms",
+    "Symbolic computation"
+  ],
+  "kind": "literature_open",
+  "statement": "Does a uniform deterministic Turing machine decide whether a division-free arithmetic circuit over Q computes the zero polynomial in time poly(s,n,d,L), where s counts gates and wires, n counts commuting variables, L is the total binary encoding length of the rational constants, and d bounds the circuit formal degree? Require d to be bounded by a fixed polynomial in the full input encoding length. The target is polynomial bit complexity; a count of unit-cost rational operations is insufficient.",
+  "source_ids": [
+    "SRC-FORMAL-007",
+    "SRC-IMPACT-011",
+    "SRC-IMPACT-012",
+    "SRC-IMPACT-013",
+    "SRC-IMPACT-014",
+    "SRC-IMPACT-015"
+  ],
+  "source_locator": "SRC-FORMAL-007 introduction and section 5; SRC-IMPACT-011 introduction, theorems 1.1-1.2 and definitions 2.1-2.2; SRC-IMPACT-012 corollary 2.7; SRC-IMPACT-013 introduction and theorem 1. SRC-IMPACT-014 definitions 2.2.1 and 2.2.6, theorem 2.2.8 and section 2.6; SRC-IMPACT-015 section 1.1.",
+  "status": "source_reports_open",
+  "status_basis": "The 2026 bounded-read paper identifies general deterministic PIT as open. The cited complexity references specify the formal-degree and bit-encoding conventions used here. Later restricted-model improvements were inspected; no resolution of this polynomial-formal-degree, commutative bit-complexity target was located in the scoped search.",
+  "last_checked": "2026-10-20",
+  "curator_origin": false,
+  "duplicate_key": "deterministic-polynomial-time-identity-testing-for-general-arithmetic-circuits",
+  "proposed_card": true,
+  "primary_domain_id": "CS.COMPLEX.CIRCUIT",
+  "cross_domain_ids": [
+    "CS.ALG",
+    "MATH.ALG"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "plain_summary": "A compact algebraic expression may expand into too many terms to list. Can one always decide, efficiently and without randomness, whether all terms cancel?",
+  "assumptions": [
+    "The input explicitly encodes a finite directed acyclic circuit with addition and multiplication gates, commuting variables, and rational constants written as signed binary numerators and positive binary denominators. Division gates are excluded.",
+    "Let s be the number of gates plus wires, n the number of variables, and L the sum of the binary lengths of all rational-constant encodings. The complete input length N also includes graph connectivity, gate labels and variable indices.",
+    "Assign formal degree 1 to every leaf, including constant leaves; take the maximum at addition gates and the sum at multiplication gates. The promised bound d is at most a fixed polynomial in N. This is a syntactic bound, not merely the degree of the final polynomial after cancellation.",
+    "Running time means deterministic Turing-machine bit operations, including exact-number handling and construction of any evaluation points. Huge integers are not unit-cost objects.",
+    "White-box access exposes the encoded circuit. A black-box extension must separately specify its evaluation interface, size and degree bounds, query encodings and all bit costs.",
+    "The target is uniform and unconditional, with no randomness, nonuniform advice or unproved hardness assumption."
+  ],
+  "scope": "Commutative arithmetic circuits over Q of polynomially bounded formal degree, in the binary Turing model. No depth, read-count or multilinearity restriction is imposed. The unbounded-formal-degree problem and black-box interfaces are separate variants.",
+  "target": "An unconditional deterministic identity test with polynomial bit complexity for the stated inputs, or a clearly identified partial result for a literature-supported restricted circuit class.",
+  "success_criteria": [
+    "Give a complete algorithm and prove correctness for every permitted input, including zero and constant circuits.",
+    "Prove uniform construction and a polynomial bit-time bound, including every subroutine and exact-number operation; do not hide an identity-testing oracle or exponential-length evaluation point.",
+    "If a restriction is imposed, identify it in the theorem and compare it against current results for exactly that class."
+  ],
+  "known_results": [
+    "Random evaluation supplies a one-sided-error identity test; derandomization and explicit hitting sets remain central goals (SRC-FORMAL-007).",
+    "Kaplan and Shpilka give polynomial-time white-box and quasipolynomial-time black-box PIT for non-multilinear read-four formulas, in characteristic zero or at least five. A read counts a variable occurrence at a leaf, not its final degree. No constant-depth assumption is imposed (SRC-IMPACT-011).",
+    "Guo's September 2026 note removes squarefreeness for depth-four circuits with at most three product summands and constant bottom degree, in the stated algebraic model over arbitrary fields (SRC-IMPACT-012).",
+    "Černý and Seppelt give logspace interreductions between PIT, multiplicity tree automata equivalence and a specified bounded-treewidth graph problem (SRC-IMPACT-013).",
+    "A large-integer Kronecker substitution reduces rational PIT to exact circuit evaluation; its compact arithmetic description does not make its binary evaluation inexpensive (SRC-IMPACT-014, theorem 2.6.3)."
+  ],
+  "prerequisites": [
+    "Arithmetic circuits, formal degree, rational encodings and Turing-machine bit complexity",
+    "Derandomization, hitting sets and algebraic complexity",
+    "The structural hypotheses of the chosen restricted circuit model"
+  ],
+  "significance": "PIT is a central derandomization problem linked to circuit lower bounds. Its reductions also connect algebraic identity testing with automata equivalence and graph algorithms; a restricted result needs its own significance assessment.",
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "Q-FORMAL-301",
+      "explanation": "Both concern removing randomness. The general BPP question is broader; this entry fixes an algebraic decision problem."
+    },
+    {
+      "type": "related_to",
+      "target": "Q-FORMAL-306",
+      "explanation": "PIT and arithmetic circuit lower bounds are linked by hardness-versus-randomness results; no unconditional equivalence between these two entries is asserted."
+    }
+  ],
+  "requirements": {
+    "experiment": "None.",
+    "data": "Primary literature and exact circuit descriptions. No empirical dataset is required.",
+    "compute": "Symbolic examples and implementations can support preparation, but no resource estimate is established for discovering or validating a general algorithm. Explicit expansion and exhaustive enumeration can be exponential.",
+    "theoretical_assumptions": "Binary-encoded rationals, commuting variables and the stated polynomial formal-degree promise. Any additional assumption, oracle or nonuniform advice must be disclosed."
+  },
+  "ai_assessment": {
+    "priority": "unassessed",
+    "rationale": "The card records the literature and verification conditions. No task-specific model evaluation or evidence of tractability is available.",
+    "dimensions": {
+      "clarity": {
+        "rating": "unknown",
+        "reason": "The broad target is specified, but an attempted restricted theorem needs its own exact input class."
+      },
+      "decomposability": {
+        "rating": "unknown",
+        "reason": "No decomposition for a new algorithm has been assessed."
+      },
+      "methods": {
+        "rating": "unknown",
+        "reason": "Published structural methods are available; their suitability for a new target has not been evaluated."
+      },
+      "search_or_symbolic": {
+        "rating": "unknown",
+        "reason": "Small exact examples can check conjectured steps; no search method has been selected."
+      },
+      "checkability": {
+        "rating": "unknown",
+        "reason": "A future algorithm needs a universal proof and cost analysis, beyond examples."
+      },
+      "expertise": {
+        "rating": "unknown",
+        "reason": "The amount of expert assistance has not been measured; algebraic-complexity review is required."
+      },
+      "significance": {
+        "rating": "unknown",
+        "reason": "The general question has established significance; a prospective partial contribution has not been assessed."
+      },
+      "verification_difficulty": {
+        "rating": "unknown",
+        "reason": "No candidate algorithm or proof is available to scope the review."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "No research model has been benchmarked on this entry; success probability and cost are unknown.",
+    "assessment_date": "2026-10-20",
+    "model_scope": "Not assessed for any named model or configuration.",
+    "evidence_refs": []
+  },
+  "methods": [
+    "Published hitting-set and generator constructions",
+    "Source-based structural analysis of restricted circuits",
+    "Exact symbolic examples and algorithm verification"
+  ],
+  "method_tags": [
+    "proof",
+    "algorithm",
+    "construction",
+    "symbolic_derivation"
+  ],
+  "validation_tags": [
+    "pure_proof",
+    "exact_computation"
+  ],
+  "experimental_dependency": "none_for_formal_task",
+  "obstacles": [
+    "Cancellations can conceal a nonzero polynomial from an inadequate evaluation set.",
+    "A reduction can increase size, degree, depth or read count beyond the permitted class.",
+    "A short arithmetic algorithm can have unaccounted bit complexity or require a hidden randomized subroutine."
+  ],
+  "validation": {
+    "steps": [
+      "Match the field, rational encoding, formal-degree convention, circuit representation, access model and uniform bit-time requirement against the exact theorem.",
+      "Audit every reduction and subroutine for correctness and bit complexity; include query lengths, intermediate-number sizes and preservation of the promised formal degree.",
+      "Use independently constructed exact instances to detect defects, while retaining the universal proof obligation.",
+      "For a hitting set, prove both deterministic construction and that every nonzero member of the class is hit; a list that works on a benchmark is insufficient."
+    ],
+    "human_review_difficulty": "Specialist review is required for the structural argument and the uniform complexity bound.",
+    "statement_alignment": "Known restricted-model algorithms, randomized tests, finite benchmark agreement, unit-cost huge-integer evaluations and noncommutative matrix substitutions do not by themselves meet this bit-complexity target."
+  },
+  "known_attempts": [
+    "The cited papers provide public algorithms and reductions. No project solving attempt or implementation run is recorded for this entry."
+  ],
+  "unresolved_checks": [
+    "Any selected restricted class needs a focused current-status check before an attempt.",
+    "The separate read-five, non-multilinear, unrestricted-depth white-box specialization was not located as an explicitly stated open question in the inspected sources. Its precise current status remains pending.",
+    "The source proofs and their algorithmic complexity have not received independent project review."
+  ],
+  "attribution": {
+    "original_authors": [
+      "Nitin Saxena (survey)",
+      "Nimrod Kaplan",
+      "Amir Shpilka",
+      "Zeyu Guo",
+      "Marek Černý",
+      "Tim Seppelt",
+      "Johannes Mittmann (complexity-model reference)",
+      "Mrinal Kumar",
+      "Ramprasad Saptharishi",
+      "Anamay Tengse"
+    ],
+    "citation": "For the general problem, cite Saxena, Progress on Polynomial Identity Testing - II (2014), and the earlier work it surveys. For the bounded-read frontier, cite Kaplan and Shpilka, CCC 2026, article 25, DOI 10.4230/LIPIcs.CCC.2026.25. Other results should be credited to their individual sources; these authors are not collectively the originators of PIT. For computational conventions, cite Mittmann, Independence in Algebraic Complexity Theory (2013), chapter 2, and Kumar, Saptharishi and Tengse, Near-Optimal Bootstrapping of Hitting Sets for Algebraic Models, Theory of Computing 19(12) (2023), section 1.1.",
+    "curator_credit": "Compiled for Theory Research Atlas with Codex assistance."
+  },
+  "status_search": {
+    "queries": [
+      "\"read-5\" \"identity testing\" 2026",
+      "\"read-five\" \"polynomial\"",
+      "\"Polynomial Identity Testing for Read-4\"",
+      "\"polynomial identity testing\" \"2026\" deterministic general solution",
+      "\"polynomial identity testing\" \"October\" \"2026\""
+    ],
+    "checked_sources": [
+      "SRC-FORMAL-007",
+      "SRC-IMPACT-011",
+      "SRC-IMPACT-012",
+      "SRC-IMPACT-013",
+      "SRC-IMPACT-014",
+      "SRC-IMPACT-015"
+    ],
+    "result": "Source-reported open status retained for general commutative PIT. Recent restricted results were recorded without extending their scope.",
+    "limitations": "Targeted web and primary-source checks are not an exhaustive literature review. No independent proof verification or complete read-five status review was performed."
+  },
+  "epistemic_layers": {
+    "formal_validity": "A theorem must hold for all circuits satisfying the exact input promises in the declared computational model.",
+    "empirical_support": "Implementation experiments concern performance and defect detection; they do not establish general derandomization."
+  },
+  "judgments": {
+    "difficulty": {
+      "rating": "unknown",
+      "basis": "The sources identify a major open problem; no narrower target has received a task-specific difficulty assessment.",
+      "evidence": "Source descriptions and absence of a selected algorithm; no project measurement."
+    },
+    "correctness": {
+      "status": "not_assessed",
+      "basis": "No new algorithm or proof is submitted."
+    },
+    "novelty": {
+      "status": "not_assessed",
+      "basis": "No new result is claimed."
+    },
+    "significance": {
+      "rating": "high",
+      "basis": "The sources link general PIT to circuit lower bounds and specific automata and graph problems."
+    }
+  },
+  "revision_history": [
+    {
+      "date": "2026-10-20",
+      "change": "Specified polynomial bit complexity, rational input encoding and formal degree; recorded restricted-model results with their exact scope."
+    }
+  ]
+}

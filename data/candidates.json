@@ -543,23 +543,28 @@
       "Symbolic computation"
     ],
     "kind": "literature_open",
-    "statement": "For arithmetic circuits over a specified characteristic-zero field with a polynomial degree bound, obtain deterministic polynomial-time identity testing in a stated arithmetic or bit-cost model; separate white-box access from black-box access.",
+    "statement": "Does a uniform deterministic Turing machine decide whether a division-free arithmetic circuit over Q computes the zero polynomial in time poly(s,n,d,L), where s counts gates and wires, n counts commuting variables, L is the total binary encoding length of the rational constants, and d bounds the circuit formal degree? Require d to be bounded by a fixed polynomial in the full input encoding length. The target is polynomial bit complexity; a count of unit-cost rational operations is insufficient.",
     "source_ids": [
-      "SRC-FORMAL-007"
+      "SRC-FORMAL-007",
+      "SRC-IMPACT-011",
+      "SRC-IMPACT-012",
+      "SRC-IMPACT-013",
+      "SRC-IMPACT-014",
+      "SRC-IMPACT-015"
     ],
-    "source_locator": "Introduction and Section 5",
+    "source_locator": "SRC-FORMAL-007 introduction and section 5; SRC-IMPACT-011 introduction, theorems 1.1-1.2 and definitions 2.1-2.2; SRC-IMPACT-012 corollary 2.7; SRC-IMPACT-013 introduction and theorem 1. SRC-IMPACT-014 definitions 2.2.1 and 2.2.6, theorem 2.2.8 and section 2.6; SRC-IMPACT-015 section 1.1.",
     "status": "source_reports_open",
-    "status_basis": "The survey motivates general derandomization. A scoped 2026 search surfaced restricted-model improvements, not a general solution. Exact field, encoding and access variants need a dedicated current review.",
-    "last_checked": "2026-10-13",
+    "status_basis": "The 2026 bounded-read paper identifies general deterministic PIT as open. The cited complexity references specify the formal-degree and bit-encoding conventions used here. Later restricted-model improvements were inspected; no resolution of this polynomial-formal-degree, commutative bit-complexity target was located in the scoped search.",
+    "last_checked": "2026-10-20",
     "curator_origin": false,
     "duplicate_key": "deterministic-polynomial-time-identity-testing-for-general-arithmetic-circuits",
-    "proposed_card": false,
+    "proposed_card": true,
     "primary_domain_id": "CS.COMPLEX.CIRCUIT",
     "cross_domain_ids": [
       "CS.ALG",
       "MATH.ALG"
     ],
-    "curation_level": "B",
+    "curation_level": "C",
     "human_review_status": "pending"
   },
   {
@@ -749,12 +754,15 @@
     "statement": "Determine whether a finite-dimensional bipartite entangled quantum state can have negative partial transpose while remaining undistillable under LOCC for every finite number of copies.",
     "source_ids": [
       "SRC-MODEL-018",
-      "SRC-MODEL-019"
+      "SRC-MODEL-019",
+      "SRC-FORMAL-604",
+      "SRC-PHYS-011",
+      "SRC-PHYS-012"
     ],
-    "source_locator": "PRX Quantum Problem 4, PDF pp.7-8; 2026 preprint abstract addresses only two copies",
+    "source_locator": "PRX Quantum Problem 4; Fu–Gao–Park v3, introduction and section 4; Wu–Zou v1, section 1.1 and Discussion; Zenodo qutrit candidate description.",
     "status": "source_reports_open",
-    "status_basis": "The 2022 source reports open status. A July 2026 two-copy result is a limited claimed advance and does not establish all-copy undistillability. Current general status still needs a scoped specialist update.",
-    "last_checked": "2026-10-13",
+    "status_basis": "The inspected 2026 papers retain the all-copy NPT bound-entanglement question. Two-copy solution claims, three-copy sector results and an unreviewed d=3 three-copy candidate do not settle it. A focused update search on 2026-10-20 found no resolution of the stated all-copy target; this is not an exhaustive search or independent proof review.",
+    "last_checked": "2026-10-20",
     "curator_origin": false,
     "duplicate_key": "npt-bound-entanglement-all-copy",
     "proposed_card": false,
@@ -2283,21 +2291,22 @@
     "statement": "For arbitrary finite numbers of agents and goods with additive values v_i(g)∈{a_i,b_i}, where each agent has its own fixed positive pair a_i>b_i>0, determine whether a complete EFX allocation always exists that is also Pareto optimal among complete allocations. EFX requires v_i(X_i)≥v_i(X_j\\{g}) for all i,j,g∈X_j; Pareto optimality excludes any allocation weakly improving every agent and strictly improving one.",
     "source_ids": [
       "SRC-MODEL-204",
-      "SRC-MODEL-202"
+      "SRC-MODEL-202",
+      "SRC-IMPACT-004"
     ],
-    "source_locator": "Jin and Tao, Section 2 and Section 5; He and Tao, Section 6.",
+    "source_locator": "Jin and Tao, Sections 2-5; He and Tao, Section 6; Lin, Wu and Zhou, Theorem 3.5 and Example 3.6.",
     "status": "source_reports_open",
-    "status_basis": "The October 2025 paper poses simultaneous existence as open and the June 2026 paper repeats the unresolved status. EFX alone is known. No later simultaneous-existence theorem or counterexample was located.",
-    "last_checked": "2026-10-14",
+    "status_basis": "Jin and Tao pose exact simultaneous existence as open; He and Tao repeat this status. The later maximum-Nash-welfare result proves a tight approximation guarantee for that rule, not a resolution of exact EFX plus integral Pareto optimality. No later matching resolution was located.",
+    "last_checked": "2026-10-20",
     "curator_origin": false,
     "duplicate_key": "efx-po-personalized-bivalued-goods",
-    "proposed_card": false,
+    "proposed_card": true,
     "primary_domain_id": "ECON.MECH",
     "cross_domain_ids": [
       "CS.COMPLEX",
       "MATH.OPT"
     ],
-    "curation_level": "B",
+    "curation_level": "C",
     "human_review_status": "pending"
   },
   {
@@ -4028,18 +4037,19 @@
     "kind": "literature_open",
     "statement": "Determine the Shannon capacity C(d) in bits per input bit of the binary channel that independently deletes each input bit with probability d∈(0,1), preserves the order of surviving bits and does not reveal deletion locations, without feedback.",
     "source_ids": [
-      "SRC-FORMAL-318"
+      "SRC-FORMAL-318",
+      "SRC-IMPACT-009"
     ],
-    "source_locator": "Papailiopoulos, introduction and capacity definition.",
+    "source_locator": "SRC-FORMAL-318 sections 1.2, 2 and 14.3; SRC-IMPACT-009 README.",
     "status": "source_reports_open",
-    "status_basis": "The September 2026 source explicitly says exact capacity remains unknown despite its new approximate enclosures.",
-    "last_checked": "2026-10-14",
+    "status_basis": "The September 2026 preprint retains the exact-capacity question. A focused later-work search found no resolution. Its numerical bounds remain reported results with incomplete replay availability, not independently verified project benchmarks.",
+    "last_checked": "2026-10-20",
     "curator_origin": false,
     "duplicate_key": "information:binary-deletion-channel:exact-capacity",
-    "proposed_card": false,
+    "proposed_card": true,
     "primary_domain_id": "INFO.SHANNON",
     "cross_domain_ids": [],
-    "curation_level": "B",
+    "curation_level": "C",
     "human_review_status": "pending"
   },
   {
@@ -13372,6 +13382,236 @@
       "BIO.SYSTEMS"
     ],
     "curation_level": "B",
+    "human_review_status": "pending"
+  },
+  {
+    "id": "Q-MODEL-491",
+    "title": "Structured resonances and avalanche diagnostics in the quasiperiodic XXZ chain",
+    "domain": "Condensed matter theory",
+    "cross_domains": [
+      "Statistical physics",
+      "Quantum theory"
+    ],
+    "kind": "literature_open",
+    "statement": "For the spin-1/2 nearest-neighbor XXZ chain with Delta=1, h_j=W_A cos(2 pi beta j+phi_A), beta=(sqrt(5)-1)/2, and an implanted quasiperiodic bath with W_B=0.5 in exchange units, determine whether structured resonances explain the disagreement between correlation-based and particle-number-entropy avalanche diagnostics. Quantify their effect on bath coupling, or identify where this proposed explanation fails.",
+    "source_ids": [
+      "SRC-PHYS-001",
+      "SRC-PHYS-002"
+    ],
+    "source_locator": "SRC-PHYS-001 sections II, V.2 and VI; SRC-PHYS-002 section V.3.",
+    "status": "source_reports_open",
+    "status_basis": "The originating paper explicitly requests a resonance-sensitive coupling description. Later work discusses structural rare regions without resolving this diagnostic discrepancy; no matching resolution was located.",
+    "last_checked": "2026-10-20",
+    "curator_origin": false,
+    "duplicate_key": "phys:quasiperiodic-xxz:implanted-bath:resonance-avalanche-diagnostics",
+    "proposed_card": true,
+    "primary_domain_id": "PHYS.COND",
+    "cross_domain_ids": [
+      "PHYS.STAT",
+      "PHYS.QUANT"
+    ],
+    "curation_level": "C",
+    "human_review_status": "pending"
+  },
+  {
+    "id": "Q-MODEL-494",
+    "title": "Thermodynamic pairing order in the stripe regime of the square-lattice Hubbard model",
+    "domain": "Condensed matter theory",
+    "cross_domains": [
+      "Statistical physics",
+      "Quantum theory"
+    ],
+    "kind": "literature_open",
+    "statement": "For the zero-temperature repulsive square-lattice Hubbard model with nearest-neighbor hopping t, on-site repulsion U, t'=0 and hole doping delta=1/6, determine whether superconducting pairing persists in the two-dimensional thermodynamic limit at U/t=10 and at U/t=15, the two stronger-coupling stripe cases studied by Roth et al. Treat the two parameter cases separately.",
+    "source_ids": [
+      "SRC-PHYS-003",
+      "SRC-PHYS-004",
+      "SRC-PHYS-005"
+    ],
+    "source_locator": "SRC-PHYS-003 section IV.3; SRC-PHYS-004 model parameters and discussion; SRC-PHYS-005 pp. 2-3.",
+    "status": "source_reports_open",
+    "status_basis": "Roth et al. explicitly leave persistence of stripe-phase pairing unresolved. Inspected 2026 claims use different doping or hopping parameters; no resolution of this exact target was found.",
+    "last_checked": "2026-10-20",
+    "curator_origin": false,
+    "duplicate_key": "phys:hubbard-square:tprime0:doping1-6:stripe-pairing-thermodynamic",
+    "proposed_card": true,
+    "primary_domain_id": "PHYS.COND",
+    "cross_domain_ids": [
+      "PHYS.STAT",
+      "PHYS.QUANT"
+    ],
+    "curation_level": "C",
+    "human_review_status": "pending"
+  },
+  {
+    "id": "Q-MODEL-492",
+    "title": "Nonlinear stationary axisymmetric tidal response of Kerr black holes",
+    "domain": "Gravitation and spacetime theory",
+    "cross_domains": [
+      "Mathematical physics"
+    ],
+    "kind": "literature_open",
+    "statement": "Determine the nonlinear stationary axisymmetric tidal response of four-dimensional Kerr black holes across multipoles, including matching to a worldline effective field theory. Recover established quadrupolar results and identify the response coefficients accessible within axisymmetry.",
+    "source_ids": [
+      "SRC-PHYS-006",
+      "SRC-PHYS-007",
+      "SRC-PHYS-008"
+    ],
+    "source_locator": "Rodríguez et al., section 6.3.2, PDF p.112; Gounis et al., section 5.1; Chakraborty et al., introduction and final discussion.",
+    "status": "open_after_scoped_check",
+    "status_basis": "The review explicitly identifies the incomplete multipolar calculation and EFT matching. The October 2026 Kerr-Newman result concerns linear response. A targeted later-literature search found no closure of this specific gap.",
+    "last_checked": "2026-10-20",
+    "curator_origin": false,
+    "duplicate_key": "kerr-nonlinear-stationary-axisymmetric-multipolar-eft-response",
+    "proposed_card": true,
+    "primary_domain_id": "PHYS.GRAV",
+    "cross_domain_ids": [
+      "MPHY"
+    ],
+    "curation_level": "C",
+    "human_review_status": "pending"
+  },
+  {
+    "id": "Q-MODEL-495",
+    "title": "Predictive mixed longitudinal-transverse intermittency exponents",
+    "domain": "Fluid and plasma theory",
+    "cross_domains": [
+      "Statistical and nonequilibrium physics"
+    ],
+    "kind": "literature_open",
+    "statement": "Develop a predictive description of the mixed longitudinal-transverse structure-function exponents in statistically stationary homogeneous isotropic incompressible turbulence, consistent with exact moment relations and the connection between inertial-range increments and dissipative-range gradients. State moment conventions, scaling ranges and the Reynolds-number limit.",
+    "source_ids": [
+      "SRC-PHYS-009",
+      "SRC-PHYS-010"
+    ],
+    "source_locator": "Buaria, Physical Review Fluids 11 L092601, conclusions pp.6-7 and Appendix C; Buaria and Pumir, section 9.1.",
+    "status": "open_after_scoped_check",
+    "status_basis": "The September 2026 published paper retains the missing full mixed-exponent description; the review identifies the same need. Targeted searches found no later complete resolution.",
+    "last_checked": "2026-10-20",
+    "curator_origin": false,
+    "duplicate_key": "turbulence-joint-longitudinal-transverse-intermittency-exponents",
+    "proposed_card": true,
+    "primary_domain_id": "PHYS.FLUID",
+    "cross_domain_ids": [
+      "PHYS.STAT"
+    ],
+    "curation_level": "C",
+    "human_review_status": "pending"
+  },
+  {
+    "id": "Q-MODEL-493",
+    "title": "Three-copy undistillability of the Werner endpoint",
+    "domain": "Quantum information",
+    "cross_domains": [
+      "Matrix analysis",
+      "Quantum foundations"
+    ],
+    "kind": "literature_open",
+    "statement": "For every integer d >= 3, is rho = (I - F/2)/(d^2 - d/2) three-copy undistillable, where F swaps the two C^d factors? Equivalently, is <psi|(rho^Gamma)^(tensor 3)|psi> >= 0 for every unit vector psi of Schmidt rank at most two across A1A2A3:B1B2B3, with Gamma the partial transpose on B?",
+    "source_ids": [
+      "SRC-PHYS-011",
+      "SRC-PHYS-012",
+      "SRC-FORMAL-604"
+    ],
+    "source_locator": "Wu and Zou, Section 1.1, equations (1)-(3); Fu, Gao and Park, Section 4; Zenodo candidate description.",
+    "status": "source_reports_open",
+    "status_basis": "The primary sources leave the unrestricted three-copy question open. A later unreviewed d=3 candidate is retained as a claim, not an established answer. The scoped search found no resolution covering all d >= 3.",
+    "last_checked": "2026-10-20",
+    "curator_origin": false,
+    "duplicate_key": "werner-minus-half-three-copy-all-dimensions",
+    "proposed_card": true,
+    "primary_domain_id": "INFO.QUANT",
+    "cross_domain_ids": [
+      "MATH.ANAL.FUNC",
+      "PHYS.QUANT"
+    ],
+    "curation_level": "C",
+    "human_review_status": "pending"
+  },
+  {
+    "id": "Q-MODEL-496",
+    "title": "Efficient passive initialization of a three-dimensional quantum memory",
+    "domain": "Quantum information",
+    "cross_domains": [
+      "Statistical physics",
+      "Quantum coding theory"
+    ],
+    "kind": "literature_open",
+    "statement": "For the main three-dimensional stabilizer-memory family with random embedding of Balasubramanian, Davydova and Lin, can the logical-zero thermal state |0><0|_L tensor rho_beta be initialized efficiently from an accessible state by the within-sector thermalization route in Section 1.3? Specify allowed initial controls, bath dynamics, temperature, preparation error, logical error and system-size scaling.",
+    "source_ids": [
+      "SRC-PHYS-013",
+      "SRC-PHYS-014"
+    ],
+    "source_locator": "Balasubramanian, Davydova and Lin, Section 1.3, item 2; later classical result, abstract and Section 1.",
+    "status": "source_reports_open",
+    "status_basis": "Section 1.3 explicitly leaves efficient initialization untreated. The later two-dimensional classical stability result addresses a different task. A focused search found no solution for the stated quantum construction; this is not an exhaustive status determination.",
+    "last_checked": "2026-10-20",
+    "curator_origin": false,
+    "duplicate_key": "three-dimensional-passive-quantum-memory-thermal-initialization-bdl2026",
+    "proposed_card": true,
+    "primary_domain_id": "INFO.QUANT",
+    "cross_domain_ids": [
+      "PHYS.STAT",
+      "INFO.CODES"
+    ],
+    "curation_level": "C",
+    "human_review_status": "pending"
+  },
+  {
+    "id": "Q-FORMAL-510",
+    "title": "Optimal acceleration from predetermined gradient-descent stepsizes",
+    "domain": "Optimization and operations research",
+    "cross_domains": [
+      "Algorithms and data structures"
+    ],
+    "kind": "literature_open",
+    "statement": "For x_t=x_(t-1)-eta_t grad f(x_(t-1)), with positive deterministic stepsizes chosen before the run, determine the sharp asymptotic worst-case last-iterate objective-gap rate on all finite-dimensional convex L-smooth functions admitting a minimizer. Write R_N for the gap normalized by L||x_0-x_*||^2, taking its supremum over dimension, objective, minimizer x_* and initial point x_0 outside the minimizer set. In the known-horizon setting, minimize this supremum over length-N schedules; in the anytime setting, require one infinite schedule to satisfy its guarantee at every stopping time.",
+    "source_ids": [
+      "SRC-IMPACT-001",
+      "SRC-IMPACT-002",
+      "SRC-IMPACT-003"
+    ],
+    "source_locator": "Jung, Cho and Yun, equation (1), Theorems 1.1-1.2 and Section 5; Altschuler and Parrilo, Sections 1-3; Zhang et al., publisher abstract.",
+    "status": "source_reports_open",
+    "status_basis": "The September 2026 paper leaves the sharp rates unresolved. The scoped later-work search found no matching resolution or correction. Acceleration beyond 1/N is already known in both settings.",
+    "last_checked": "2026-10-20",
+    "curator_origin": false,
+    "duplicate_key": "smooth-convex-gd-predetermined-positive-stepsizes-sharp-last-iterate-rate",
+    "proposed_card": true,
+    "primary_domain_id": "MATH.OPT",
+    "cross_domain_ids": [
+      "CS.ALG"
+    ],
+    "curation_level": "C",
+    "human_review_status": "pending"
+  },
+  {
+    "id": "Q-FORMAL-511",
+    "title": "A rank-47 decomposition for 4x4 matrix multiplication in characteristic zero",
+    "domain": "Circuit and algebraic complexity",
+    "cross_domains": [
+      "Algebra"
+    ],
+    "kind": "literature_open",
+    "statement": "Find r<=47 and linear forms L_s,R_s on complex 4x4 matrices, with coefficient matrices P_s, such that AB=sum_{s=1}^r L_s(A)R_s(B)P_s for every pair A,B. Supply exact coefficients and verify the identity. A rational construction is a stronger coefficient restriction; a characteristic-two or border-rank construction does not meet this target.",
+    "source_ids": [
+      "SRC-IMPACT-006",
+      "SRC-IMPACT-007",
+      "SRC-IMPACT-008",
+      "SRC-IMPACT-010"
+    ],
+    "source_locator": "SRC-IMPACT-006 mathematical specification; SRC-IMPACT-007 sections 4-6; SRC-IMPACT-008 Results; SRC-IMPACT-010 Commentaries.",
+    "status": "source_reports_open",
+    "status_basis": "The maintained problem page calls the target unsolved, the institutional catalog lists rank 48, and the October 2026 campaign reports no rank-47 construction. No matching resolution was found in a focused search; this does not establish a lower bound.",
+    "last_checked": "2026-10-20",
+    "curator_origin": false,
+    "duplicate_key": "algebraic-complexity:4x4-matrix-multiplication:exact-rank-le47:characteristic-zero",
+    "proposed_card": true,
+    "primary_domain_id": "CS.COMPLEX.CIRCUIT",
+    "cross_domain_ids": [
+      "MATH.ALG"
+    ],
+    "curation_level": "C",
     "human_review_status": "pending"
   }
 ]

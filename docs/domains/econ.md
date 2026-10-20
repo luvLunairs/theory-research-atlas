@@ -6,7 +6,7 @@ Formal models of allocation, incentives, strategic behavior and institutions.
 
 **Boundary:** Model theorems do not establish behavioral or policy validity.
 
-**Research sources: 21 · Primary tasks: 22 · Full cards: 3 · Cross-linked tasks: 0.**
+**Research sources: 22 · Primary tasks: 22 · Full cards: 4 · Cross-linked tasks: 0.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -22,7 +22,7 @@ Formal models of allocation, incentives, strategic behavior and institutions.
 | [Complete EFX for four additive goods agents](../cards/Q-MODEL-201.md) | High | Literature-origin question | Source reports open | Full card · Q-MODEL-201 |
 | [Complete EFX for more than four common bi-valued chore agents](../cards/Q-MODEL-202.md) | High | Literature-origin question | Source reports open | Full card · Q-MODEL-202 |
 | [Complete EFX for three additive chore agents](../candidates/Q-MODEL-203.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MODEL-203 |
-| [EFX and Pareto optimality for personalized bi-valued goods](../candidates/Q-MODEL-204.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MODEL-204 |
+| [EFX and Pareto optimality for personalized bi-valued goods](../cards/Q-MODEL-204.md) | High | Literature-origin question | Source reports open | Full card · Q-MODEL-204 |
 | [Exact EFX for common three-value additive goods](../candidates/Q-MODEL-206.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MODEL-206 |
 | [Complete EFX for binary submodular chore costs](../candidates/Q-MODEL-208.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MODEL-208 |
 | [Approximate equilibrium in quitting games with at least four players](../candidates/Q-MODEL-309.md) | Frontier | Literature-origin question | Source reports open | Outline · Q-MODEL-309 |
@@ -72,6 +72,7 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [Reverse Sequential Proportional Approval Voting Rule: Proportionality and Approximation Guarantees](../sources.md#src-model-604) | Research entry | 2026 |
 | [On the Parallelizability of Approval-Based Committee Rules](../sources.md#src-model-605) | Research entry | 2026 |
 | [Ties in Multiwinner Approval Voting](../sources.md#src-model-606) | Research entry | 2023 |
+| [When Maximum Nash Welfare Becomes Strongly Fair: Bi-valued Goods](../sources.md#src-impact-004) | Research entry | 2026 |
 
 <a id="branches"></a>
 
@@ -79,9 +80,9 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 
 | Branch | Primary tasks | Full cards | Next step |
 | --- | --- | --- | --- |
-| [Economics and game theory](#econ) | 22 | 3 | Extend coverage and review these cards |
+| [Economics and game theory](#econ) | 22 | 4 | Extend coverage and review these cards |
 | [Game and equilibrium theory](#econ-game) | 2 | 1 | Extend coverage and review these cards |
-| [Mechanism design and fair allocation](#econ-mech) | 6 | 2 | Extend coverage and review these cards |
+| [Mechanism design and fair allocation](#econ-mech) | 6 | 3 | Extend coverage and review these cards |
 | [Social choice and collective decisions](#econ-social) | 14 | 0 | Develop detailed problem cards |
 | [Decision and utility theory](#econ-decision) | 0 | 0 | Identify well-specified questions |
 | [General equilibrium and economic dynamics](#econ-equil) | 0 | 0 | Identify well-specified questions |
@@ -175,14 +176,14 @@ Rules for incentives and resource allocation.
 
 **Representative objects:** auctions, matching, fair division.
 
-**Direct source entries:** [Complete EFX Allocations Exist for Four Additive Agents and Up to Nine Goods](../sources.md#src-model-201), [EFX for Additive Chores: Nonexistence, Pareto Incompatibility, and Bi-Valued Existence](../sources.md#src-model-202), [EFX Allocations for Three Agents and Seven or Eight Chores](../sources.md#src-model-203), [On Pareto-Optimal and Fair Allocations with Personalized Bi-Valued Utilities](../sources.md#src-model-204), [Pushing the Frontier on Approximate EFX Allocations](../sources.md#src-model-205), [Existence of 2-EFX Allocations of Chores](../sources.md#src-model-206), [EFX Allocations Exist on Multi-Graphs](../sources.md#src-model-207), [Nine chores for three agents: complete EFX existence with an exact computational certificate](../sources.md#src-model-208), [Non-Existence of EFX Chore Allocations for Monotone Cost Functions with Binary Marginals](../sources.md#src-model-209), [Outlook and Research Directions, in Multi-Winner Voting with Approval Preferences](../sources.md#src-model-403).
+**Direct source entries:** [Complete EFX Allocations Exist for Four Additive Agents and Up to Nine Goods](../sources.md#src-model-201), [EFX for Additive Chores: Nonexistence, Pareto Incompatibility, and Bi-Valued Existence](../sources.md#src-model-202), [EFX Allocations for Three Agents and Seven or Eight Chores](../sources.md#src-model-203), [On Pareto-Optimal and Fair Allocations with Personalized Bi-Valued Utilities](../sources.md#src-model-204), [Pushing the Frontier on Approximate EFX Allocations](../sources.md#src-model-205), [Existence of 2-EFX Allocations of Chores](../sources.md#src-model-206), [EFX Allocations Exist on Multi-Graphs](../sources.md#src-model-207), [Nine chores for three agents: complete EFX existence with an exact computational certificate](../sources.md#src-model-208), [Non-Existence of EFX Chore Allocations for Monotone Cost Functions with Binary Marginals](../sources.md#src-model-209), [Outlook and Research Directions, in Multi-Winner Voting with Approval Preferences](../sources.md#src-model-403), [When Maximum Nash Welfare Becomes Strongly Fair: Bi-valued Goods](../sources.md#src-impact-004).
 
 **Primary tasks in this branch and its descendants**
 
 - [Complete EFX for four additive goods agents](../cards/Q-MODEL-201.md)
 - [Complete EFX for more than four common bi-valued chore agents](../cards/Q-MODEL-202.md)
 - [Complete EFX for three additive chore agents](../candidates/Q-MODEL-203.md)
-- [EFX and Pareto optimality for personalized bi-valued goods](../candidates/Q-MODEL-204.md)
+- [EFX and Pareto optimality for personalized bi-valued goods](../cards/Q-MODEL-204.md)
 - [Exact EFX for common three-value additive goods](../candidates/Q-MODEL-206.md)
 - [Complete EFX for binary submodular chore costs](../candidates/Q-MODEL-208.md)
 

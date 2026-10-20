@@ -6,7 +6,7 @@ Limits of communication, representation and information processing.
 
 **Boundary:** Physical implementations link to physics and engineering.
 
-**Research sources: 21 · Primary tasks: 24 · Full cards: 4 · Cross-linked tasks: 2.**
+**Research sources: 26 · Primary tasks: 26 · Full cards: 7 · Cross-linked tasks: 2.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -30,7 +30,7 @@ Limits of communication, representation and information processing.
 | [Quaternary length-six covering codes of radius two](../cards/Q-CODE-203.md) | High | Literature-origin question | Source reports open | Full card · Q-CODE-203 |
 | [Quaternary length-eight covering codes of radius two](../candidates/Q-CODE-204.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-CODE-204 |
 | [A complete description of the four-variable almost-entropic cone](../candidates/Q-FORMAL-327.md) | Frontier | Literature-origin question | Source reports open | Outline · Q-FORMAL-327 |
-| [Exact capacity of the independent binary deletion channel](../candidates/Q-FORMAL-328.md) | Frontier | Literature-origin question | Source reports open | Outline · Q-FORMAL-328 |
+| [Exact capacity of the independent binary deletion channel](../cards/Q-FORMAL-328.md) | High | Literature-origin question | Source reports open | Full card · Q-FORMAL-328 |
 | [The deterministic communication log-rank conjecture](../candidates/Q-FORMAL-329.md) | Frontier | Literature-origin question | Source reports open | Outline · Q-FORMAL-329 |
 | [Local-to-global tensorization](../candidates/Q-FORMAL-449.md) | Unknown | Literature-origin question | Unverified | Outline · Q-FORMAL-449 |
 | [Source coding with information masking](../candidates/Q-FORMAL-450.md) | Unknown | Literature-origin question | Unverified | Outline · Q-FORMAL-450 |
@@ -42,6 +42,8 @@ Limits of communication, representation and information processing.
 | [General broadcast-channel capacity](../candidates/Q-FORMAL-456.md) | Unknown | Literature-origin question | Unverified | Outline · Q-FORMAL-456 |
 | [General relay-channel capacity](../candidates/Q-FORMAL-457.md) | Unknown | Literature-origin question | Unverified | Outline · Q-FORMAL-457 |
 | [Exact Gaussian interference-channel capacity](../candidates/Q-FORMAL-458.md) | Unknown | Literature-origin question | Unverified | Outline · Q-FORMAL-458 |
+| [Three-copy undistillability of the Werner endpoint](../cards/Q-MODEL-493.md) | High | Literature-origin question | Source reports open | Full card · Q-MODEL-493 |
+| [Efficient passive initialization of a three-dimensional quantum memory](../cards/Q-MODEL-496.md) | High | Literature-origin question | Source reports open | Full card · Q-MODEL-496 |
 
 <a id="sources"></a>
 
@@ -74,6 +76,11 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [Two-copy nondistillability of Werner states: sharp partial-trace inequalities and finite-copy extensions](../sources.md#src-formal-605) | Research entry | 2026 |
 | [Mismatch Capacity under Stochastic Decoding](../sources.md#src-formal-614) | Research entry | 2026 |
 | [On the Optimality of Gaussian Code-books for Signaling over a Two-Users Weak Gaussian Interference Channel](../sources.md#src-formal-616) | Research entry | 2025 |
+| [Sharp Plücker Geometry for Three-Copy Werner Distillation](../sources.md#src-phys-011) | Research entry | 2026 |
+| [Three-copy undistillability of the boundary qutrit Werner state](../sources.md#src-phys-012) | Research entry | 2026 |
+| [A passive self-correcting quantum memory in three dimensions](../sources.md#src-phys-013) | Research entry | 2026 |
+| [A thermally and perturbatively stable classical spin model in two dimensions](../sources.md#src-phys-014) | Research entry | 2026 |
+| [Binary deletion-channel capacity: verification materials](../sources.md#src-impact-009) | Research entry | 2026 |
 
 <a id="branches"></a>
 
@@ -81,11 +88,11 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 
 | Branch | Primary tasks | Full cards | Next step |
 | --- | --- | --- | --- |
-| [Information and coding theory](#info) | 24 | 4 | Extend coverage and review these cards |
-| [Classical information theory](#info-shannon) | 10 | 0 | Develop detailed problem cards |
+| [Information and coding theory](#info) | 26 | 7 | Extend coverage and review these cards |
+| [Classical information theory](#info-shannon) | 10 | 1 | Extend coverage and review these cards |
 | [Entropy inequalities and information geometry](#info-entropy) | 5 | 1 | Extend coverage and review these cards |
 | [Coding theory](#info-codes) | 5 | 3 | Extend coverage and review these cards |
-| [Quantum information theory](#info-quant) | 3 | 0 | Develop detailed problem cards |
+| [Quantum information theory](#info-quant) | 5 | 2 | Extend coverage and review these cards |
 | [Communication complexity and distributed information](#info-complex) | 1 | 0 | Develop detailed problem cards |
 | [Signal processing theory](#info-signal) | 0 | 0 | Find specialist sources |
 
@@ -136,11 +143,11 @@ Limits of reliable communication and compression.
 
 **Representative objects:** capacity, rate-distortion, source coding.
 
-**Direct source entries:** [Binary Deletion Channel Capacity to Within One Hundredth of a Bit](../sources.md#src-formal-318), [New Mathematical Techniques in Information Theory](../sources.md#src-formal-445), [Elements of Network Information Theory: ISIT 2011 tutorial](../sources.md#src-formal-446), [Gaussian Interference Channel Capacity to Within One Bit](../sources.md#src-formal-447), [Mismatch Capacity under Stochastic Decoding](../sources.md#src-formal-614), [On the Optimality of Gaussian Code-books for Signaling over a Two-Users Weak Gaussian Interference Channel](../sources.md#src-formal-616).
+**Direct source entries:** [Binary Deletion Channel Capacity to Within One Hundredth of a Bit](../sources.md#src-formal-318), [New Mathematical Techniques in Information Theory](../sources.md#src-formal-445), [Elements of Network Information Theory: ISIT 2011 tutorial](../sources.md#src-formal-446), [Gaussian Interference Channel Capacity to Within One Bit](../sources.md#src-formal-447), [Mismatch Capacity under Stochastic Decoding](../sources.md#src-formal-614), [On the Optimality of Gaussian Code-books for Signaling over a Two-Users Weak Gaussian Interference Channel](../sources.md#src-formal-616), [Binary deletion-channel capacity: verification materials](../sources.md#src-impact-009).
 
 **Primary tasks in this branch and its descendants**
 
-- [Exact capacity of the independent binary deletion channel](../candidates/Q-FORMAL-328.md)
+- [Exact capacity of the independent binary deletion channel](../cards/Q-FORMAL-328.md)
 - [Source coding with information masking](../candidates/Q-FORMAL-450.md)
 - [Binary-source distributed testing](../candidates/Q-FORMAL-451.md)
 - [General distributed-testing exponent](../candidates/Q-FORMAL-452.md)
@@ -231,7 +238,7 @@ Error-correcting and combinatorial codes.
 
 **Representative objects:** linear codes, lattices, designs.
 
-**Direct source entries:** [Problems on q-Analogs in Coding Theory](../sources.md#src-formal-008), [Semidefinite lower bounds for covering codes](../sources.md#src-code-201), [Quaternary Preparata codes are quasi-perfect covering codes in the Hamming metric](../sources.md#src-code-202), [Tables for bounds on covering codes](../sources.md#src-code-203).
+**Direct source entries:** [Problems on q-Analogs in Coding Theory](../sources.md#src-formal-008), [Semidefinite lower bounds for covering codes](../sources.md#src-code-201), [Quaternary Preparata codes are quasi-perfect covering codes in the Hamming metric](../sources.md#src-code-202), [Tables for bounds on covering codes](../sources.md#src-code-203), [A passive self-correcting quantum memory in three dimensions](../sources.md#src-phys-013), [A thermally and perturbatively stable classical spin model in two dimensions](../sources.md#src-phys-014).
 
 **Primary tasks in this branch and its descendants**
 
@@ -240,6 +247,10 @@ Error-correcting and combinatorial codes.
 - [Ternary length-seven covering codes of radius two](../cards/Q-CODE-202.md)
 - [Quaternary length-six covering codes of radius two](../cards/Q-CODE-203.md)
 - [Quaternary length-eight covering codes of radius two](../candidates/Q-CODE-204.md)
+
+**Additional cross-linked tasks**
+
+- [Efficient passive initialization of a three-dimensional quantum memory](../cards/Q-MODEL-496.md)
 
 [Back to domain tasks](#tasks) · [Branch guide](#branches)
 
@@ -274,13 +285,15 @@ Information constraints for quantum states and channels.
 
 **Representative objects:** entanglement, quantum channels, Bell inequalities.
 
-**Direct source entries:** [Tsirelson bounds for generalized Clauser-Horne-Shimony-Holt inequalities](../sources.md#src-model-004), [Five Open Problems in Quantum Information Theory](../sources.md#src-model-018), [On the two-copy distillability of Werner states and a new partial trace inequality](../sources.md#src-model-019), [A solution to 2-copy distillability of Werner states](../sources.md#src-formal-604), [Two-copy nondistillability of Werner states: sharp partial-trace inequalities and finite-copy extensions](../sources.md#src-formal-605).
+**Direct source entries:** [Tsirelson bounds for generalized Clauser-Horne-Shimony-Holt inequalities](../sources.md#src-model-004), [Five Open Problems in Quantum Information Theory](../sources.md#src-model-018), [On the two-copy distillability of Werner states and a new partial trace inequality](../sources.md#src-model-019), [A solution to 2-copy distillability of Werner states](../sources.md#src-formal-604), [Two-copy nondistillability of Werner states: sharp partial-trace inequalities and finite-copy extensions](../sources.md#src-formal-605), [Sharp Plücker Geometry for Three-Copy Werner Distillation](../sources.md#src-phys-011), [Three-copy undistillability of the boundary qutrit Werner state](../sources.md#src-phys-012), [A passive self-correcting quantum memory in three dimensions](../sources.md#src-phys-013).
 
 **Primary tasks in this branch and its descendants**
 
 - [NPT bound entanglement](../candidates/Q-MODEL-005.md)
 - [Two-copy distillability of the two-ququart Werner boundary state](../candidates/Q-MODEL-006.md)
 - [Four mutually unbiased bases in dimension six](../candidates/Q-MODEL-007.md)
+- [Three-copy undistillability of the Werner endpoint](../cards/Q-MODEL-493.md)
+- [Efficient passive initialization of a three-dimensional quantum memory](../cards/Q-MODEL-496.md)
 
 **Additional cross-linked tasks**
 

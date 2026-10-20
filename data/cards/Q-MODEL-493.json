@@ -1,0 +1,204 @@
+{
+  "id": "Q-MODEL-493",
+  "title": "Three-copy undistillability of the Werner endpoint",
+  "domain": "Quantum information",
+  "cross_domains": [
+    "Matrix analysis",
+    "Quantum foundations"
+  ],
+  "kind": "literature_open",
+  "statement": "For every integer d >= 3, is rho = (I - F/2)/(d^2 - d/2) three-copy undistillable, where F swaps the two C^d factors? Equivalently, is <psi|(rho^Gamma)^(tensor 3)|psi> >= 0 for every unit vector psi of Schmidt rank at most two across A1A2A3:B1B2B3, with Gamma the partial transpose on B?",
+  "source_ids": [
+    "SRC-PHYS-011",
+    "SRC-PHYS-012",
+    "SRC-FORMAL-604"
+  ],
+  "source_locator": "Wu and Zou, Section 1.1, equations (1)-(3); Fu, Gao and Park, Section 4; Zenodo candidate description.",
+  "status": "source_reports_open",
+  "status_basis": "The primary sources leave the unrestricted three-copy question open. A later unreviewed d=3 candidate is retained as a claim, not an established answer. The scoped search found no resolution covering all d >= 3.",
+  "last_checked": "2026-10-20",
+  "curator_origin": false,
+  "duplicate_key": "werner-minus-half-three-copy-all-dimensions",
+  "proposed_card": true,
+  "primary_domain_id": "INFO.QUANT",
+  "cross_domain_ids": [
+    "MATH.ANAL.FUNC",
+    "PHYS.QUANT"
+  ],
+  "curation_level": "C",
+  "human_review_status": "pending",
+  "revision_history": [],
+  "plain_summary": "Can three copies unlock entanglement distillation that a single copy cannot achieve? This finite-copy question probes the limits of entanglement as a communication resource.",
+  "assumptions": [
+    "Finite-dimensional complex spaces, d >= 3, and local operations and classical communication (LOCC).",
+    "The bipartition groups all Alice copies against all Bob copies; it is not a three-party problem.",
+    "The endpoint is alpha = -1/2. A coefficient operator need not be Hermitian, positive or normal.",
+    "Under vectorization psi=vec(C), Schmidt rank equals rank(C). The equivalent homogeneous test is q_3(C)=||C||_HS^2 -(1/2) sum_i ||Tr_i C||_HS^2 +(1/4) sum_i<j ||Tr_ij C||_HS^2 -(1/8)|Tr C|^2 >= 0 for every complex rank-at-most-two C on (C^d) tensor 3. Partial traces are unnormalized; their subscripts name the factors removed."
+  ],
+  "scope": "The target quantifies over every d >= 3. A d=4 study is Curator-proposed; pending review. Its novelty requires a separate check, and a positive answer there is only partial progress.",
+  "target": "Prove the displayed nonnegativity for the full domain, or exhibit one admissible vector giving a rigorously negative value.",
+  "success_criteria": [
+    "A positive result must cover every permitted Schmidt-rank-two vector and every dimension claimed.",
+    "A negative result must retain exact vector or coefficient data, rank justification and certified strict negativity.",
+    "State precisely which dimensions or subclasses remain untreated."
+  ],
+  "known_results": [
+    "Wu and Zou report nonnegativity for positive semidefinite and normal rank-two coefficient operators and specified nonnormal support configurations.",
+    "Fu, Gao and Park report the exact two-copy threshold; their theorem does not settle three or arbitrarily many copies.",
+    "The anonymous d=3 deposit is a candidate claim whose certificate has not been inspected here."
+  ],
+  "prerequisites": [
+    "Partial transpose, Schmidt rank, LOCC and matrix inequalities.",
+    "Tensor indices, unnormalized partial traces and certified arithmetic."
+  ],
+  "significance": "The full target is a concrete step toward understanding NPT entanglement. Its significance is foundational; no immediate communications-hardware improvement follows.",
+  "relations": [
+    {
+      "type": "related_to",
+      "target": "Q-MODEL-005",
+      "explanation": "Tests one finite-copy layer of the Werner route to NPT bound entanglement. Neither a three-copy positivity theorem nor a distillation witness for this family settles the unrestricted all-copy existence question."
+    },
+    {
+      "type": "related_to",
+      "target": "Q-MODEL-006",
+      "explanation": "The two-copy boundary is a reported recent advance, retained separately with its unresolved independent-review requirements."
+    }
+  ],
+  "requirements": {
+    "experiment": "None for the formal distillability question.",
+    "data": "Source definitions and any future exact candidate coefficients.",
+    "compute": "Unmeasured. At d=4 the coefficient matrix has 64 rows and columns; low-rank parameterization reduces storage but does not make global optimization easy. No runtime or cost is forecast.",
+    "theoretical_assumptions": "Standard finite-dimensional quantum mechanics and ideal LOCC; all stated complex vectors are allowed."
+  },
+  "ai_assessment": {
+    "priority": "preparation_required",
+    "rationale": "The explicit algebra permits symbolic checks and candidate generation, but the unresolved nonnormal sector and recent claims require careful preparation.",
+    "dimensions": {
+      "clarity": {
+        "rating": "high",
+        "reason": "The state, copy count and rank quantifier are fixed."
+      },
+      "decomposability": {
+        "rating": "medium",
+        "reason": "Restricted sectors are possible but may already be solved."
+      },
+      "methods": {
+        "rating": "high",
+        "reason": "Partial-trace and support-geometry approaches are available."
+      },
+      "search_or_symbolic": {
+        "rating": "high",
+        "reason": "Finite coefficient representations support auditable calculations."
+      },
+      "checkability": {
+        "rating": "medium",
+        "reason": "An exact counterexample is easier to check than global nonnegativity."
+      },
+      "expertise": {
+        "rating": "high",
+        "reason": "Quantum-information and matrix-analysis review is needed."
+      },
+      "significance": {
+        "rating": "high",
+        "reason": "Finite-copy activation bears on the structure of entanglement."
+      },
+      "verification_difficulty": {
+        "rating": "high",
+        "reason": "Universal proofs must retain every complex nonnormal case."
+      }
+    },
+    "evidence_level": "untested_forecast",
+    "uncertainty": "No AI attempt measured; feasible search size and novelty of restrictions remain uncertain.",
+    "assessment_date": "2026-10-20",
+    "model_scope": "No model evaluated. Assumes tool-using AI able to inspect literature, manipulate mathematical expressions and retain reproducible calculations.",
+    "evidence_refs": []
+  },
+  "methods": [
+    "Published partial-trace reformulation and support geometry.",
+    "Symbolic identities or exact counterexample checks, with their scope declared."
+  ],
+  "method_tags": [
+    "proof",
+    "counterexample",
+    "symbolic_derivation",
+    "exact_computation"
+  ],
+  "validation_tags": [
+    "pure_proof",
+    "exact_computation"
+  ],
+  "experimental_dependency": "none_for_formal_task",
+  "obstacles": [
+    "A restricted ansatz can exclude all difficult cases.",
+    "Floating-point minima near zero are inconclusive.",
+    "A partial trace may increase operator rank."
+  ],
+  "validation": {
+    "steps": [
+      "Reconstruct the state and the specified bipartition independently.",
+      "Check vector normalization or homogeneous coefficient conventions and rank exactly.",
+      "Compare direct contraction with the partial-trace expression.",
+      "For a proof, audit domain coverage and every imported theorem; for a witness, certify a strict negative margin.",
+      "Compare with recent claims before asserting novelty."
+    ],
+    "human_review_difficulty": "High for a general proof; an explicit small witness is more localized but still requires statement alignment.",
+    "statement_alignment": "Normal-only positivity, two-copy results and finite numerical sampling are different claims."
+  },
+  "known_attempts": [
+    "External records: Wu and Zou's sector analysis and the anonymous qutrit candidate. No project attempt."
+  ],
+  "unresolved_checks": [
+    "Audit the recent sector proofs.",
+    "Inspect the d=3 candidate and its certificate.",
+    "Refresh later literature before research or submission."
+  ],
+  "epistemic_layers": {
+    "formal_validity": "Aligned proof or certified counterexample is required; source inspection does not certify either.",
+    "empirical_support": "No claim about laboratory state preparation or experimental distillation is assessed."
+  },
+  "attribution": {
+    "original_authors": [
+      "Tianhao Wu",
+      "Qiran Zou",
+      "Jinshi Fu",
+      "Li Gao",
+      "Sang-Jun Park"
+    ],
+    "citation": "Wu and Zou (2026), arXiv:2608.02647v1; Fu, Gao and Park (2026), arXiv:2607.21367v3. Cite Anonymous, Zenodo 10.5281/zenodo.23134454, version 1.1.0-candidate, only as the reported d=3 claim.",
+    "curator_credit": "Compiled for Theory Research Atlas with Codex assistance."
+  },
+  "judgments": {
+    "difficulty": {
+      "rating": "high",
+      "basis": "Global nonconvex inequalities remain beyond the reported sectors.",
+      "evidence": "editorial_estimate_not_measured"
+    },
+    "correctness": {
+      "status": "no_project_answer",
+      "basis": "No answer has been produced or verified."
+    },
+    "novelty": {
+      "status": "requires_future_literature_review",
+      "basis": "Recent partial results and a candidate claim require version-specific comparison."
+    },
+    "significance": {
+      "rating": "high",
+      "basis": "A finite-copy boundary within the NPT distillability problem."
+    }
+  },
+  "status_search": {
+    "queries": [
+      "\"three-copy\" \"Werner\" \"2026\"",
+      "\"three-copy\" \"Werner\" \"four\" 2026",
+      "\"Werner\" \"2608.02647\" solution",
+      "\"Werner\" \"three-copy\" \"undistillability\" October 2026"
+    ],
+    "checked_sources": [
+      "SRC-PHYS-011",
+      "SRC-PHYS-012",
+      "SRC-FORMAL-604"
+    ],
+    "result": "The primary sources leave the unrestricted three-copy question open. A later unreviewed d=3 candidate is retained as a claim, not an established answer. The scoped search found no resolution covering all d >= 3.",
+    "limitations": "Searches are bounded; the anonymous deposit's attachments could not be inspected. No independent proof review was performed."
+  }
+}

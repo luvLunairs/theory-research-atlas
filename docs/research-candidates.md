@@ -4,7 +4,7 @@
 
 This selection contains literature-origin questions whose recorded evidence still supports an open status. Follow each entry for the exact statement and the limits of its status check. An open label is dated evidence, not a guarantee that no solution exists elsewhere.
 
-**273 research candidates · 16 full research cards · 257 outlines awaiting detailed assessment.** The broader atlas also retains 30 known-result calibration records, listed separately in the [complete index](candidates.md#known-result-calibration).
+**281 research candidates · 27 full research cards · 254 outlines awaiting detailed assessment.** The broader atlas also retains 30 known-result calibration records, listed separately in the [complete index](candidates.md#known-result-calibration).
 
 A bounded first milestone can be proposed by the curator within a literature problem. Such a milestone is identified in the card and is not automatically a separately established open problem. Easy witness checking does not imply easy discovery. Resource ceilings are stopping limits unless explicitly supported by measurements.
 
@@ -37,6 +37,27 @@ These cards include methods, resources and validation plans. All AI assessments 
 | [A complete graphical criterion for the front-door formula](cards/Q-FORMAL-205.md) | Exact small models and symbolic discrepancies are inspectable, but causal semantics and universal quantifiers need a specialist before any claimed graphical theorem. | [Resources and checks](cards/Q-FORMAL-205.md#verification) | 2026-10-14 |
 | [Complete EFX for four additive goods agents](cards/Q-MODEL-201.md) | Exact linear constraints let AI propose regions and allocation menus while a separate checker tests each claim. A specialist must first judge whether the chosen region adds anything to known reductions. | [Resources and checks](cards/Q-MODEL-201.md#verification) | 2026-10-14 |
 | [Complete EFX for more than four common bi-valued chore agents](cards/Q-MODEL-202.md) | First check whether the proposed five-agent, eleven-chore, ratio-three pilot is covered by an existing special-case theorem, and select a useful unresolved class. Exact integer checks could then support AI-generated cost patterns and proposed extensions of the four-agent structure. | [Resources and checks](cards/Q-MODEL-202.md#verification) | 2026-10-14 |
+| [EFX and Pareto optimality for personalized bi-valued goods](cards/Q-MODEL-204.md) | The problem is explicit and has reusable published arguments. Assessing a specific AI attempt requires a narrower, independently checked target. | [Resources and checks](cards/Q-MODEL-204.md#verification) | 2026-10-20 |
+| [Exact capacity of the independent binary deletion channel](cards/Q-FORMAL-328.md) | The published computation supplies concrete methods and checking obligations. Reviewing its assumptions and obtaining complete inputs should precede a new attempt. | [Resources and checks](cards/Q-FORMAL-328.md#verification) | 2026-10-20 |
+| [Nonlinear stationary axisymmetric tidal response of Kerr black holes](cards/Q-MODEL-492.md) | Symbolic tensor manipulation can assist finite-order field equations and matching checks. Choosing an informative sector and interpreting its coefficients require GR and EFT expertise; no AI trial has been run. | [Resources and checks](cards/Q-MODEL-492.md#verification) | 2026-10-20 |
+| [Three-copy undistillability of the Werner endpoint](cards/Q-MODEL-493.md) | The explicit algebra permits symbolic checks and candidate generation, but the unresolved nonnormal sector and recent claims require careful preparation. | [Resources and checks](cards/Q-MODEL-493.md#verification) | 2026-10-20 |
+| [Optimal acceleration from predetermined gradient-descent stepsizes](cards/Q-FORMAL-510.md) | The problem is explicit and has reusable published arguments. Assessing a specific AI attempt requires a narrower, independently checked target. | [Resources and checks](cards/Q-FORMAL-510.md#verification) | 2026-10-20 |
+| [A rank-47 decomposition for 4x4 matrix multiplication in characteristic zero](cards/Q-FORMAL-511.md) | Exact certificates make results easier to inspect than searches. Published computational attempts provide context, but do not imply that a new construction is likely. | [Resources and checks](cards/Q-FORMAL-511.md#verification) | 2026-10-20 |
+
+### Exploratory
+
+| Task | Why consider it | Verification | Status checked |
+| --- | --- | --- | --- |
+| [Structured resonances and avalanche diagnostics in the quasiperiodic XXZ chain](cards/Q-MODEL-491.md) | Literature comparison, algebra and reproducible numerical diagnostics offer possible assistance; discovering a correct mechanism is uncertain. | [Resources and checks](cards/Q-MODEL-491.md#verification) | 2026-10-20 |
+| [Thermodynamic pairing order in the stripe regime of the square-lattice Hubbard model](cards/Q-MODEL-494.md) | AI may help compare methods, implement diagnostics and audit uncertainty; full ground-state inference remains demanding. | [Resources and checks](cards/Q-MODEL-494.md#verification) | 2026-10-20 |
+| [Predictive mixed longitudinal-transverse intermittency exponents](cards/Q-MODEL-495.md) | Symbolic consistency checks and comparison of statistical closures offer bounded tasks. Predicting universal exponents requires more than fitting numerical data; this proposed AI role has not been tested. | [Resources and checks](cards/Q-MODEL-495.md#verification) | 2026-10-20 |
+| [Efficient passive initialization of a three-dimensional quantum memory](cards/Q-MODEL-496.md) | AI may help track the construction's hypotheses and test local lemmas. The missing asymptotic preparation argument is substantial. | [Resources and checks](cards/Q-MODEL-496.md#verification) | 2026-10-20 |
+
+### Unassessed
+
+| Task | Why consider it | Verification | Status checked |
+| --- | --- | --- | --- |
+| [Deterministic polynomial-time identity testing for general arithmetic circuits](cards/Q-FORMAL-010.md) | The card records the literature and verification conditions. No task-specific model evaluation or evidence of tractability is available. | [Resources and checks](cards/Q-FORMAL-010.md#verification) | 2026-10-20 |
 
 ## Further research outlines
 
@@ -54,10 +75,9 @@ These questions have source-backed statements, status notes and brief research p
 | [Fourier entropy–influence conjecture](candidates/Q-FORMAL-006.md) | [Computational complexity](domains/cs.md#cs-complex) | Unknown | Source reports open | 2026-10-13 |
 | [Mansour's Fourier concentration conjecture for DNF](candidates/Q-FORMAL-007.md) | [Computational learning theory](domains/cs.md#cs-learn) | Unknown | Source reports open | 2026-10-13 |
 | [Existence of a binary q-Fano plane](candidates/Q-FORMAL-009.md) | [Coding theory](domains/info.md#info-codes) | Unknown | Source reports open | 2026-10-13 |
-| [Deterministic polynomial-time identity testing for general arithmetic circuits](candidates/Q-FORMAL-010.md) | [Circuit and algebraic complexity](domains/cs.md#cs-complex-circuit) | Unknown | Source reports open | 2026-10-13 |
 | [Characterize admissible e-processes](candidates/Q-FORMAL-012.md) | [Inference and decision theory](domains/stat.md#stat-infer) | Unknown | Source reports open | 2026-10-13 |
 | [Yang-Mills existence and a mass gap in four dimensions](candidates/Q-MODEL-004.md) | [Constructive and axiomatic field theory](domains/mphy.md#mphy-qft) | Frontier | Source reports open | 2026-10-13 |
-| [NPT bound entanglement](candidates/Q-MODEL-005.md) | [Quantum information theory](domains/info.md#info-quant) | Unknown | Source reports open | 2026-10-13 |
+| [NPT bound entanglement](candidates/Q-MODEL-005.md) | [Quantum information theory](domains/info.md#info-quant) | Unknown | Source reports open | 2026-10-20 |
 | [Four mutually unbiased bases in dimension six](candidates/Q-MODEL-007.md) | [Quantum information theory](domains/info.md#info-quant) | Unknown | Source reports open | 2026-10-13 |
 | [Quaternary length-eight covering codes of radius two](candidates/Q-CODE-204.md) | [Coding theory](domains/info.md#info-codes) | Unknown | Source reports open | 2026-10-14 |
 | [Determine R(3,11) within the verified interval 47 to 50](candidates/Q-MATH-205.md) | [Extremal and Ramsey theory](domains/math.md#math-comb-ext) | Unknown | Source reports open | 2026-10-14 |
@@ -70,7 +90,6 @@ These questions have source-backed statements, status notes and brief research p
 | [Faster worst-case recognition of synchronizing automata](candidates/Q-FORMAL-209.md) | [Algorithms and data structures](domains/cs.md#cs-alg) | Unknown | Source reports open | 2026-10-14 |
 | [Optimal two-bin stretch using an initial mixture of two deterministic policies](candidates/Q-FORMAL-210.md) | [Randomized, online and distributed algorithms](domains/cs.md#cs-random) | Unknown | Source reports open | 2026-10-14 |
 | [Complete EFX for three additive chore agents](candidates/Q-MODEL-203.md) | [Mechanism design and fair allocation](domains/econ.md#econ-mech) | Unknown | Source reports open | 2026-10-14 |
-| [EFX and Pareto optimality for personalized bi-valued goods](candidates/Q-MODEL-204.md) | [Mechanism design and fair allocation](domains/econ.md#econ-mech) | Unknown | Source reports open | 2026-10-14 |
 | [Exact EFX for common three-value additive goods](candidates/Q-MODEL-206.md) | [Mechanism design and fair allocation](domains/econ.md#econ-mech) | Unknown | Source reports open | 2026-10-14 |
 | [Global synchronization of random cubic graphs](candidates/Q-MODEL-207.md) | [Dynamics on networks and collective behavior](domains/net.md#net-dynamics) | Unknown | Source reports open | 2026-10-14 |
 | [Complete EFX for binary submodular chore costs](candidates/Q-MODEL-208.md) | [Mechanism design and fair allocation](domains/econ.md#econ-mech) | Unknown | Source reports open | 2026-10-14 |
@@ -134,7 +153,6 @@ These questions have source-backed statements, status notes and brief research p
 | [Martin's conjecture, part 2, under determinacy](candidates/Q-FORMAL-325.md) | [Computability and degree theory](domains/logic.md#logic-recur) | Frontier | Source reports open | 2026-10-14 |
 | [Sacks's degree-invariant intermediate c.e. operator question](candidates/Q-FORMAL-326.md) | [Computability and degree theory](domains/logic.md#logic-recur) | Frontier | Source reports open | 2026-10-14 |
 | [A complete description of the four-variable almost-entropic cone](candidates/Q-FORMAL-327.md) | [Entropy inequalities and information geometry](domains/info.md#info-entropy) | Frontier | Source reports open | 2026-10-14 |
-| [Exact capacity of the independent binary deletion channel](candidates/Q-FORMAL-328.md) | [Classical information theory](domains/info.md#info-shannon) | Frontier | Source reports open | 2026-10-14 |
 | [The deterministic communication log-rank conjecture](candidates/Q-FORMAL-329.md) | [Communication complexity and distributed information](domains/info.md#info-complex) | Frontier | Source reports open | 2026-10-14 |
 | [A deterministic factor-2 approximation for tournament feedback vertex set](candidates/Q-FORMAL-330.md) | [Algorithms and data structures](domains/cs.md#cs-alg) | High | Source reports open | 2026-10-14 |
 | [Exact birth–death diversity time on star graphs](candidates/Q-MODEL-301.md) | [Evolution, population genetics and phylogenetics](domains/bio.md#bio-evol) | High | Source reports open | 2026-10-14 |
