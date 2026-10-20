@@ -279,10 +279,8 @@ checks, not the justification of the universal quantifiers. Actual
 results, measured process CPU and exact proof/code hashes are retained
 in [diagnostic-results.json (historical reference; not a proof premise)](../../../lineage.md#omitted-historical-material).
 
-The resource limit is 300 measured process CPU seconds, standard-library
-Python, and expected memory below 1 GiB. Model compute, uninstrumented
-session CPU and actual peak memory are unknown. No installation, paid run,
-publication, access change or submission is authorized by this draft.
+The checks use standard-library Python. Model compute, uninstrumented
+session CPU and actual peak memory are unknown.
 
 The region a=f-1 is excluded deliberately: there the lowest and highest
 extra coordinates coincide, so reducing a strip to {2a} no longer removes

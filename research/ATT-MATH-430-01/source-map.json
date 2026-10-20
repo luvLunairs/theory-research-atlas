@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-18-publication-v1",
+  "version": "2026-10-20-documentation-v2",
   "files": [
     {
       "source": "work/greedy-analytic-20261018/even-multiples/a1-first-seed-four.md",
@@ -219,21 +219,23 @@
       "source": "work/greedy-analytic-audit-20261018/assistance-and-checks.md",
       "destination": "contents/greedy-analytic-audit-20261018/assistance-and-checks.md",
       "source_sha256": "cbae54890021b2774ebda789f901793f28cdc306b3bc01829c1dffcacae38b75",
-      "published_sha256": "a1e48b45f5679bf2d5d0976ef004acc3a25edf00a792090683b98e666b6b65fd",
+      "published_sha256": "4e21a847cda130f98290130203d3a9baf7a7b95a547b9742be4fdc0f2f370aea",
       "changes": [
         "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
         "Remove local installation/checkout path; retain runtime version and original source digest.",
-        "Add publication-context banner; original source version remains identified."
+        "Add publication-context banner; original source version remains identified.",
+        "Shorten administrative narration; preserve mathematical content, evidence and attribution."
       ]
     },
     {
       "source": "work/greedy-analytic-audit-20261018/contribution.md",
       "destination": "contents/greedy-analytic-audit-20261018/contribution.md",
       "source_sha256": "b7b1d9c836667bc25a97ab46ff47cb1fc81fc4a3ff4b5059716cd7b16cd8fdcc",
-      "published_sha256": "0d4a918b92f721b984e659d10622295e8cfe2477f2c8eea90965cebde2b57b78",
+      "published_sha256": "b2002c0f0af66c39c62c5d877758a6a07ce43a978ce99d1cde8686abbc3531b6",
       "changes": [
         "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
-        "Add publication-context banner; original source version remains identified."
+        "Add publication-context banner; original source version remains identified.",
+        "Shorten administrative narration; preserve mathematical content, evidence and attribution."
       ]
     },
     {
@@ -270,10 +272,11 @@
       "source": "work/greedy-analytic-audit-20261018/four/audit.md",
       "destination": "contents/greedy-analytic-audit-20261018/four/audit.md",
       "source_sha256": "a8a20f4b9a88d59fbc12c4e7a9facb6e55ffaeb1143c63431452833d80a04f2b",
-      "published_sha256": "c746cc52dad1e64b16dddb7884ed0e327dbb0b903fdb4bd76b5dbe143c09250e",
+      "published_sha256": "5ef19299b271b39450950fcca0f198a9f9691d90ee44eacc590ef4988f939e19",
       "changes": [
         "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
-        "Add publication-context banner; original source version remains identified."
+        "Add publication-context banner; original source version remains identified.",
+        "Shorten administrative narration; preserve mathematical content, evidence and attribution."
       ]
     },
     {
@@ -329,10 +332,11 @@
       "source": "work/greedy-analytic-audit-20261018/large/audit.md",
       "destination": "contents/greedy-analytic-audit-20261018/large/audit.md",
       "source_sha256": "c74eb4a92452a9549418bc95bc16fb1705dbc314eeb2bc2d81a7c8c6c1380005",
-      "published_sha256": "c887cdaa0b8a04769c357c2d3043fa55ff0fe6af7d15fa1a5a93a2b5ad0d85eb",
+      "published_sha256": "319b9337458344f2ad7d6ded93d8fc1bff1d3373a846c35d56b080389979af67",
       "changes": [
         "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
-        "Add publication-context banner; original source version remains identified."
+        "Add publication-context banner; original source version remains identified.",
+        "Shorten administrative narration; preserve mathematical content, evidence and attribution."
       ]
     },
     {
@@ -359,32 +363,35 @@
       "source": "work/greedy-analytic-audit-20261018/manuscript.md",
       "destination": "contents/greedy-analytic-audit-20261018/manuscript.md",
       "source_sha256": "e10bf14c708bf4b14aaed65a46823f14d5af13e7250453d829a6231a8c273cb2",
-      "published_sha256": "7a3eb6bd288b74619860d0a1b6cbca928cd373f28675ac7493c6bd7ebcc9d468",
+      "published_sha256": "f048f6a4cee0d6356d8330f93496e0ac43bd50aa535fc97c8b1511d65ee1d04a",
       "changes": [
         "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
         "Update submission-stage wording; retain candidate status and all mathematical statements.",
-        "Add publication-context banner; original source version remains identified."
+        "Add publication-context banner; original source version remains identified.",
+        "Shorten administrative narration; preserve mathematical content, evidence and attribution."
       ]
     },
     {
       "source": "work/greedy-analytic-audit-20261018/root-audit.md",
       "destination": "contents/greedy-analytic-audit-20261018/root-audit.md",
       "source_sha256": "52ff3d978d7015321359ba4c7fde02e50109fca5decb6b235d2e9115d1137bad",
-      "published_sha256": "75d42e5200822f16c547b92dec9071450dea22c771ae82dd71ad55fce91dac9b",
+      "published_sha256": "d3f4f988d9e58cca0bc2a20a2b08a8983a1eb329a6e3141f4d63556ffac6e924",
       "changes": [
         "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
-        "Add publication-context banner; original source version remains identified."
+        "Add publication-context banner; original source version remains identified.",
+        "Shorten administrative narration; preserve mathematical content, evidence and attribution."
       ]
     },
     {
       "source": "work/greedy-analytic-audit-20261018/small/audit.md",
       "destination": "contents/greedy-analytic-audit-20261018/small/audit.md",
       "source_sha256": "35f49ecfd1d8a5ceb9f242b60cd6f63d47a747b206d8378621eb2db0e8408431",
-      "published_sha256": "ee82022c5b8ec65491c6fddeb41953bcc59765d59fc041ccd259d8b2d8294be9",
+      "published_sha256": "f5dce6a6bddc8a6144b8be54573697384e6da13c8151db07d9234cafb60c5178",
       "changes": [
         "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
         "Remove local installation/checkout path; retain runtime version and original source digest.",
-        "Add publication-context banner; original source version remains identified."
+        "Add publication-context banner; original source version remains identified.",
+        "Shorten administrative narration; preserve mathematical content, evidence and attribution."
       ]
     },
     {
@@ -415,10 +422,11 @@
       "source": "work/greedy-analytic-audit-20261018/target.md",
       "destination": "contents/greedy-analytic-audit-20261018/target.md",
       "source_sha256": "63fed2a4903b34a71ca5f705d8b49a6973824a905da8ffc221620616b5c97f7e",
-      "published_sha256": "4f43d8e6cb4329750080fb9d3ce8148fa433c39be4a2568f516831c4ffb11541",
+      "published_sha256": "386766f79abf8812d49739115596add305bb6f8add779e6a6145e0a96afb44b8",
       "changes": [
         "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
-        "Add publication-context banner; original source version remains identified."
+        "Add publication-context banner; original source version remains identified.",
+        "Shorten administrative narration; preserve mathematical content, evidence and attribution."
       ]
     },
     {
@@ -435,10 +443,11 @@
       "source": "work/greedy-comprehensive-20261018/a1/proof.md",
       "destination": "contents/greedy-comprehensive-20261018/a1/proof.md",
       "source_sha256": "665a56f1e317c03f5a353e16a4f21bbcc6a4b3c750790e99f6b4a9cfc869e50b",
-      "published_sha256": "e85bfc5204632ae88bb60107cf16d46454436a1da5726e2dad1b71685304de02",
+      "published_sha256": "ea5af733e53099accbf72c3d4a094f9718a8c7be08d84714253eda56a6d4d23c",
       "changes": [
         "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
-        "Add publication-context banner; original source version remains identified."
+        "Add publication-context banner; original source version remains identified.",
+        "Shorten administrative narration; preserve mathematical content, evidence and attribution."
       ]
     },
     {
@@ -465,10 +474,11 @@
       "source": "work/greedy-lower-20261018/literature/source-check.md",
       "destination": "contents/greedy-lower-20261018/literature/source-check.md",
       "source_sha256": "c82f344ddd018c9f8b9a0d6a9f11954e9821b4beda0d11386f3384a8fe1374b8",
-      "published_sha256": "2d1905fe3362c330baae65b695244ec65497ff75c225f9e521588c800f7973ad",
+      "published_sha256": "68837bb71fcf06b1d1298665b913fc21d31893be4978ff77479bd70c83863536",
       "changes": [
         "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
-        "Add publication-context banner; original source version remains identified."
+        "Add publication-context banner; original source version remains identified.",
+        "Shorten administrative narration; preserve mathematical content, evidence and attribution."
       ]
     },
     {
@@ -526,10 +536,11 @@
       "source": "work/greedy-proof-audit-20261018/upper-audit.md",
       "destination": "contents/greedy-proof-audit-20261018/upper-audit.md",
       "source_sha256": "3653a687edd574ad0ddc2ddd86a54408caff5c4307e0d5ab1ac392db39e1ccd1",
-      "published_sha256": "a8c23d1aca816ea97447ded63572b51b7dfb0a512a8e4cf77c79bc571b461377",
+      "published_sha256": "6e75484f484f9d506f4c4821d7ffed8be2ecd7f4ae952acb5be9a46cbba8b8a2",
       "changes": [
         "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
-        "Add publication-context banner; original source version remains identified."
+        "Add publication-context banner; original source version remains identified.",
+        "Shorten administrative narration; preserve mathematical content, evidence and attribution."
       ]
     },
     {
@@ -556,20 +567,22 @@
       "source": "work/greedy-upper-20261018/upper1/proof.md",
       "destination": "contents/greedy-upper-20261018/upper1/proof.md",
       "source_sha256": "3ba64be838cf746ae7308f72fd3051cafa50fe759a001e8b7cbeeb15d5d4bc60",
-      "published_sha256": "172503818e2d957fc5d2f62f9a978cb35ff3e3b963b1193cd112bf77665d5cea",
+      "published_sha256": "40fab62bffcad8f8977b5fa43cceaf73adf07fbd7438109c4ef6131c8a671527",
       "changes": [
         "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
-        "Add publication-context banner; original source version remains identified."
+        "Add publication-context banner; original source version remains identified.",
+        "Shorten administrative narration; preserve mathematical content, evidence and attribution."
       ]
     },
     {
       "source": "work/greedy-upper-20261018/upper2/proof.md",
       "destination": "contents/greedy-upper-20261018/upper2/proof.md",
       "source_sha256": "21becd61d994fe36cde9a0fd8fbf82fc98c1e13f970caf7aee6359cf042e3ffb",
-      "published_sha256": "29af494493db7f3c0a1af03cc87cc70805a29b1aeccc24dc1d24f40e8c816ad3",
+      "published_sha256": "23ec36df8d1689a9d112ba8648ccc0a3a8b9b832e39b6cfb481eeb3a806682fc",
       "changes": [
         "Normalize text newlines and rewrite local links for the publication layout; omitted nonpremise history is listed in lineage.md.",
-        "Add publication-context banner; original source version remains identified."
+        "Add publication-context banner; original source version remains identified.",
+        "Shorten administrative narration; preserve mathematical content, evidence and attribution."
       ]
     },
     {

@@ -235,15 +235,11 @@ describe the actual final calculation, not an independent validation.
 
 The new stable-tail note initially miscounted its eighteen factor identities
 as nineteen. Rereading and counting the displayed rows corrected that
-description before handoff; no mathematical formula changed. A separate
-read-only PowerShell metadata command initially stopped with a parser error
-because a foreach statement was piped directly. Its corrected form returned
-the line counts and hashes above. No scientific result or file mutation
-was inferred from that failed metadata command.
+description; no mathematical formula changed.
 
-## Actual checks, trust boundary and handoff
+## Actual checks and trust boundary
 
-The final local supporting artifacts are bound as follows:
+The supporting artifacts are bound as follows:
 
 | Artifact | SHA-256 |
 | --- | --- |
@@ -258,27 +254,22 @@ review or approval.
 
 The final printed-table checker passed and reported **0.015625 process CPU
 seconds**. The earlier narrower pass also reported 0.015625 seconds; the
-two measured checker runs total 0.03125 seconds. Runtime was the configured
-bundled Python at
-`python (Python 3.12.14; local installation path omitted)`.
-No memory measurement was taken; no installation, network computation,
-paid run, publication or repository access change was performed.
+two measured checker runs total 0.03125 seconds. The checker used Python
+3.12.14. No memory measurement was taken.
 
 The report binds its exact inputs and checker by SHA-256. The checker uses
 integer finite endpoints and an infinity sentinel for entire rays; it does
 not truncate to a finite block prefix. Its parser, arithmetic code and this
 same-team mathematical reading remain a trust boundary. The written proofs
-do not acquire independent or formal approval from this audit. No repository
-records or generated pages were edited, so a repository rendering run was
-not used as scientific evidence.
+do not acquire independent or formal approval from this audit. A repository
+rendering run was not used as scientific evidence.
 
 Checked: the eight exact source versions above; the new stable-tail proof;
-the printed-table checker and its retained final report. Action: local
-scientific audit handoff in `work/greedy-analytic-audit-20261018/small/`.
+the printed-table checker and its retained final report.
 Results: full assigned prose/table coverage, no unresolved substantive gap,
 two wording qualifications, two sharp-domain formula obstructions, and the
 explicit stable-tail simplification. Limits: no fresh source/priority audit,
 least-period review, independent scientific review, formal verification or
-human screening. Outcome: ready for the parent's local integration; full-text
+human screening. Outcome: contributor audit; full-text
 human review and manual submission remain required. Original prose/data use
 CC BY 4.0 and code uses MIT under the repository terms.

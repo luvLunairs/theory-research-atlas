@@ -19,7 +19,7 @@ The atlas contributes an organized research directory: original summaries, subje
 
 | Record | Question | Contributors | Contribution | Reported finding | Preliminary screening | Current formal human review scope | Machine verification and scope |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [ATT-MATH-430-01](attempts/ATT-MATH-430-01.md) | [Eventual periodicity in Queneau's greedy sequence](candidates/Q-MATH-430.md) | luvLunairs | Candidate answer | Complete analytic candidate for the two-seed subproblem, with a strict audit and unified interval/lifetime mechanisms. No unresolved gap was identified in contributor reading scopes. The proposed proof remains unverified independently; the arbitrary finite-seed catalogue problem is unchanged. | Recommended-model contributor checks + reported human preliminary pass | No formal review of the current result recorded | No verification recorded |
+| [ATT-MATH-430-01](attempts/ATT-MATH-430-01.md) | [Eventual periodicity in Queneau's greedy sequence](candidates/Q-MATH-430.md) | luvLunairs | Candidate answer | Complete analytic candidate for the two-seed subproblem, with a strict audit and unified interval/lifetime mechanisms. No unresolved gap was identified in contributor reading scopes. The proposed proof remains unverified independently; the arbitrary finite-seed catalogue problem is unchanged. | Preliminary screening concerns an earlier or different version | No formal review of the current result recorded | No verification recorded |
 
 Preliminary screening describes attributed checks, not correctness confidence or specialist academic acceptance. [Screening policy](review-guide.md#preliminary-screening).
 

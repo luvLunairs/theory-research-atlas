@@ -694,28 +694,25 @@ band table remain excluded from those particular arguments. The
 combined theorem relies on different proofs there. This audit
 finds those restrictions logically necessary and correctly retained.
 
-Resource use consisted of text reads, source retrieval and hashing.
-No numerical experiment, subprocess research computation, package
-installation or certificate-writing command was run. Model compute,
-uninstrumented process CPU and peak memory are unknown. The allocated
-research-computation ceiling was 300 process CPU seconds and expected
-memory below 1 GiB; no empirical peak-memory claim is made.
+This audit used text reads, source retrieval and hashing. No numerical
+experiment or subprocess research computation was run. Model compute,
+uninstrumented process CPU and peak memory are unknown.
 
 Actual service-supplied model identity, version and configuration were
 unavailable and remain unknown. The parent and this Codex worker
-supplied the mathematical assessment and audit prose. This must be
-covered by the batch's single assistance note and final-version check
-report. Human full-text screening and manual submission remain pending;
+supplied the mathematical assessment and audit prose. See the consolidated
+[assistance and check record](../../assistance-and-checks.md) for provenance
+and checks. Human full-text screening and manual submission remain pending;
 no approval state is assigned. Original prose follows CC BY 4.0 under
 the repository terms. The sealed files were not edited.
 
 Checked: the eight SHA-bound files above, their exact target ranges,
 all stated sum categories in the analytic arguments, the actual
 distinctness repairs, block shifts, exceptional targets and induction
-dependencies. Action: save this new local audit for human handoff.
+dependencies.
 Results: no unresolved gap in the audited eventual-periodicity
 arguments; no source-file correction required. Limits: certificate-only
 branches, other first-seed ranges, comprehensive optimal-period and
 preperiod checking, independent scientific review and novelty assessment
-are outside this audit. Outcome: local review draft; the total theorem
+are outside this audit. Outcome: scoped contributor assessment; the total theorem
 cannot be certified from this scoped finding alone.

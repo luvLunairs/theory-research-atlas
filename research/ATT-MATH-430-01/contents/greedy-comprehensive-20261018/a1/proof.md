@@ -368,8 +368,6 @@ The current AI research team supplied the formula, argument and checking.
 Actual service-supplied identity, version and configuration are unknown.
 The parent bundle retains the single assistance note and final-version
 check report. No approval, external review, formal verification or priority
-has been established. The local budget was 300 CPU seconds, with no paid
-computation, installation, external communication or publication. This
-direct argument required no new computational search. Earlier failed
-extrapolations to f=3 or k=1 remain recorded in the immutable prior bundle;
-they are outside the theorem's assumptions.
+has been established. This direct argument required no new computational
+search. Earlier failed extrapolations to f=3 or k=1 remain recorded in
+the immutable prior bundle; they are outside the theorem's assumptions.

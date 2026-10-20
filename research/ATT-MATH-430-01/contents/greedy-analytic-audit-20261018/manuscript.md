@@ -314,5 +314,5 @@ invalid extensions from counterexamples to the theorem. No latter
 counterexample has been found. The [assistance and exact-version report](../../assistance-and-checks.md)
 records actual reading scopes, arithmetic checks, corrections and limits.
 Full-text human screening, independent scientific assessment, historical
-novelty and publication remain pending. This is a local human handoff,
+novelty and publication remain pending. This is a contributor draft,
 not a scientific or machine-verification approval.

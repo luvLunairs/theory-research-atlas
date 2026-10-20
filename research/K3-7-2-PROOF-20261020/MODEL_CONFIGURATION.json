@@ -1,6 +1,6 @@
 {
   "inspection_date": "2026-10-20",
-  "evidence": "Read-only extraction of session_meta and turn_context configuration fields from Codex Desktop records for this task and its three agents. Conversation text, private reasoning, account identifiers, local record paths and credentials are not included.",
+  "evidence": "Application-recorded configuration fields and their digests for the coordinating agent and three contributing agents.",
   "agents": [
     {
       "agent": "/root",
@@ -49,6 +49,5 @@
   ],
   "limits": "Application-recorded provider/model/effort metadata, not a provider-signed attestation of model weights. The client version is not a model version. Backend revision and hardware allocation unavailable.",
   "maintainer_recognition": "On 20 October 2026 the maintainer explicitly recognized GPT-6 Astra Ultra, described as Max plus subagents, as meeting this project's recommended configuration requirement. This records recognition, not mathematical review or acceptance.",
-  "recognition_reference": "ASSISTANCE.md#maintainer-recognition-review-report-and-authorization",
-  "action_scope": "Publish the checked 36-file English proof package on a topic branch and open a draft pull request to luvLunairs/theory-research-atlas, as explicitly authorized by the maintainer on 20 October 2026. No merge or scientific acceptance is authorized."
+  "recognition_reference": "ASSISTANCE.md#maintainer-recognition-and-preliminary-review"
 }

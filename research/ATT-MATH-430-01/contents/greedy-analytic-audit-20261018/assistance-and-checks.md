@@ -3,36 +3,28 @@
 > Historical workflow/model-status notes are superseded by the current
 > [assistance and submission record](../../assistance-and-checks.md).
 
-# Shared assistance, exact-version check and human handoff
+# Shared assistance and exact-version check
 
 Work date: 18 October 2026. This is the single assistance/check report
 for the strict analytic revision and its incorporated scientific material.
 Worker audit notes are scoped evidence linked here, not human approvals.
 
-## Version, scope and action
+## Version and scope
 
 Repository: https://github.com/luvLunairs/theory-research-atlas.
-Branch: codex/bounded-research-20261018. Base revision:
+Base revision:
 dbac8f582b101cbc31c1429b814c7a568d105923.
-Destination: the local folder work/greedy-analytic-audit-20261018/.
 The [manifest (historical reference; not a proof premise)](../../lineage.md#omitted-historical-material) binds every file in this version except
 itself and Python caches, plus the manifests of eleven prior snapshots.
 Those snapshots retain their complete file sets, sources and provenance.
 The previous analytic manifest has SHA-256
 588C15C4EB2E2346523B1809905522C8612C759C2344D7267D241EFBCA5B6860.
 
-The checked action is local scientific-draft handoff. No issue, PR,
-push, merge, publication, human-review assignment, machine-verification
-approval, repository-visibility change or external message is performed.
-The source records and generated repository pages are unchanged. No
-structured record edit occurred, so scripts/check.py --render is not
-applicable to this local prose/code/evidence revision.
-
 ## Contributors and retained provenance
 
 | Contributor tool | Actual service-supplied identity / version / configuration | Role and affected material |
 | --- | --- | --- |
-| OpenAI Codex parent | Unknown / unknown / unknown | Framework, parent proof audit, elementary known boundaries, manuscript integration, sources, supporting probes, replay and handoff |
+| OpenAI Codex parent | Unknown / unknown / unknown | Framework, parent proof audit, elementary known boundaries, manuscript integration, sources, supporting probes and replay |
 | OpenAI Codex worker sequence_literature | Unknown / unknown / unknown; inherited with no override | Twelve large-family files, reflection/cutoff reductions, source search, framework correction and final integration reading |
 | OpenAI Codex worker sequence_j3 | Unknown / unknown / unknown; inherited with no override | Small-seed families, fixed printed tables, shorter first-seed-three tail, exact arithmetic helper and elementary-boundary/causal-comparison reading |
 | OpenAI Codex worker sequence_j12 | Unknown / unknown / unknown; inherited with no override | First-seed-four families, exhaustive long-table audit, rectangular anchor lemma and exact arithmetic helper |
@@ -99,8 +91,7 @@ are not mathematical premises or independent verification. No larger
 greedy enumeration was performed. The original handwritten exclusion,
 coverage and extinction proofs remain the argument for the theorem.
 
-Runtime: Python 3.12.14, standard library, at
-python (Python 3.12.14; local installation path omitted).
+Runtime: Python 3.12.14, standard library.
 The framework run recorded 0.046875 process CPU seconds and
 0.046340900007635355 wall seconds. The small-seed final run recorded
 0.015625 CPU seconds; its two measured stages totaled 0.03125.
@@ -108,9 +99,8 @@ The first-seed-four final run recorded 0.015625 CPU seconds and
 0.013689500003238209 wall seconds; its three measured stages totaled
 0.046875 CPU seconds. These are per-helper measurements, not total
 research elapsed time or model compute. Replay and file-I/O CPU were
-not separately totaled. Parent/worker computation limits were 900/300
-CPU seconds; no long-running computation or paid run was used. Peak
-memory and model inference compute remain unknown.
+not separately totaled. Peak memory and model inference compute remain
+unknown.
 
 ## Final mechanical check
 
@@ -127,20 +117,17 @@ The read-only reproduce.ps1 run passed the following checks:
 
 The repository documentation checker separately passed 736 text files
 and 18,689 local/repository links. Its scope does not include the ignored
-draft folder; the local audit supplies that folder's checks. The tracked
-working tree remained clean on the stated branch and base revision.
-The final report is included in the manifest and is followed by one
-more read-only exact-version replay before handoff. These are consistency
-and contributor arithmetic checks, not scientific approval.
+draft folder; the local audit supplies that folder's checks. This report
+is included in the manifest. These are consistency and contributor
+arithmetic checks, not scientific approval.
 
-## Human screening and submission status
+## Review status
 
-The repository's [AI policy](../../../../docs/ai-contributions.md#submission-routes)
-states: **"Full-text human review, then manual submission. Automated
-submission is prohibited, even after review."** This applies because
-the substantive contributing configurations are unidentified. Full-text
-coverage includes the entire scientific contribution and the necessary
-inherited appendices, supporting code and evidence, not just changed lines.
+The applicable research contribution requirements are recorded in the
+consolidated [assistance and submission record](../../assistance-and-checks.md).
+Full-text screening includes the entire scientific contribution and the
+necessary inherited appendices, supporting code and evidence, not just
+changed lines.
 
 Human readers, dates, coverage declarations and manual submitter: **not
 yet recorded**. Independent scientific review and formal verification:
@@ -150,9 +137,9 @@ The candidate proof claims only eventual periodicity, not least periods,
 optimal transients or an extension to arbitrary seed sets.
 
 Checked: the exact local manifest and linked inherited snapshots, with
-the reading scopes and arithmetic outcomes above. Action: local draft
-handoff for human screening. Results: recorded corrections and no unresolved
-mathematical gap found within the stated scopes; final mechanical outcome
+the reading scopes and arithmetic outcomes above. Results: recorded
+corrections and no unresolved mathematical gap found within the stated
+scopes; final mechanical outcome
 is recorded above. Limits: no independent scientific acceptance, formal
-verification, novelty verdict or human screening. Outcome: local candidate
-for full-text human review and manual submission; no approval is assigned.
+verification, novelty verdict or human screening. Outcome: candidate proof;
+no approval is assigned.

@@ -125,7 +125,7 @@ the executable output.
 ## Limits and outcome
 
 No unresolved mathematical gap was identified in this reading scope.
-The final exact-version check and human-handoff status are in
+The exact-version checks and review status are in
 [assistance-and-checks.md](../../assistance-and-checks.md). The reading does
 not approve any machine specification, populate human review, or
 establish priority. All inherited and new scientific dependencies

@@ -93,7 +93,7 @@ here; any preperiod formula in the new work must be derived and checked
 directly. Small `f<=4` corrections likewise require separate checking,
 rather than extending the above source comparison outside its hypotheses.
 
-## Query log and handoff
+## Query log and checks
 
 Queries issued on 18 October 2026:
 
@@ -113,10 +113,10 @@ Queries issued on 18 October 2026:
 No later analytic proof of the targeted lower regions was found in the
 returned results inspected. Search-result summaries were used to locate
 sources, not as proof. The search is bounded and does not establish novelty.
-No person was contacted and no submission or approval action was taken.
 
 The source branches, parity conditions and endpoint substitutions were
 reread and recalculated. These are contributor checks, not independent
-verification. This worker's role and unavailable service identity/settings
-belong in the parent's single assistance note; include this file in the
-parent's exact-version check report. Earlier bundles were not edited.
+verification. This worker's service identity/settings were unavailable
+at the time of this audit. The consolidated
+[assistance and check record](../../../assistance-and-checks.md) records
+contributor roles, provenance and checks.

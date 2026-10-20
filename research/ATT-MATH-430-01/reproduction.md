@@ -11,10 +11,6 @@ From the repository root:
 python -B research/ATT-MATH-430-01/replay.py --verify-manifest
 ```
 
-Substitute your installed Python executable if necessary. The script resolves
-all artifacts relative to its own location, so the working directory need
-not be the repository root when an absolute script path is supplied.
-
 The final check validates the complete package file list, byte counts and
 SHA-256 digests against `manifest.json`; every selected original/publication
 digest in `source-map.json`; Python and JSON syntax; and thirteen original
@@ -45,19 +41,8 @@ replay report exists, it compares the stable outcomes, source bindings, map
 digest and replay-program digest with that report. Runtime identity and
 timings are observations of each run and are not required to be identical.
 
-For a deliberate new publication version, a maintainer may use:
-
-```powershell
-python -B research/ATT-MATH-430-01/replay.py --write-report
-```
-
-This writes only `reproducibility-results.json`, after the checks succeed.
-It does not rewrite the three original result files, source mapping, proofs
-or manifest. Record the new report's digest in the publication manifest,
-then run `--verify-manifest`. These two flags are mutually exclusive. A changed
-source map or replay program requires a new report; an old result must not
-be silently applied to a different version. No helper writers or old
-snapshot-wide audit commands are needed.
+A changed source map or replay program requires a new report; an old result
+must not be silently applied to a different version.
 
 Original replay code is MIT-licensed; this explanatory text follows the
 repository's CC BY 4.0 terms. Scientific inputs, AI tool roles and publication
