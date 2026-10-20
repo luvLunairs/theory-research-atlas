@@ -1,0 +1,122 @@
+{
+  "certificate.json": {
+    "source": "phase3/lower/full-cover-fourier-quadratic-fivepoint-certificate-29-compact-grams.json",
+    "source_sha256": "7aff789b16f702aac7dc3cac37642760878bc6fc0ff25f52214f0c8e1922a4c4",
+    "packaged_sha256": "7aff789b16f702aac7dc3cac37642760878bc6fc0ff25f52214f0c8e1922a4c4",
+    "adapted": false
+  },
+  "orbit-box.json": {
+    "source": "phase3/lower/full-cover-fourier-quadratic-fivepoint-certificate-29-compact-grams-orbit-box.json",
+    "source_sha256": "355eb1930b175fe7192ad6172c3e23a41f51876905be5d0550a06fd660963f40",
+    "packaged_sha256": "355eb1930b175fe7192ad6172c3e23a41f51876905be5d0550a06fd660963f40",
+    "adapted": false
+  },
+  "known34.txt": {
+    "source": "known34.txt",
+    "source_sha256": "c912e430847ca77266ca88be934e4016c54088b4492af465e538e5a832ef1086",
+    "packaged_sha256": "c912e430847ca77266ca88be934e4016c54088b4492af465e538e5a832ef1086",
+    "adapted": false
+  },
+  "check_cover.py": {
+    "source": "check_cover.py",
+    "source_sha256": "2b8f7cc9552e3b3bbff141105655804fdb02eed32d7795ab6bb13bd7ffba82d6",
+    "packaged_sha256": "2b8f7cc9552e3b3bbff141105655804fdb02eed32d7795ab6bb13bd7ffba82d6",
+    "adapted": false
+  },
+  "lib/audit_fivepoint.py": {
+    "source": "phase3/exact/audit_fivepoint.py",
+    "source_sha256": "7bffe2c39648da7a22c85d0a3eac1ac7416796c88db3b4e0d44eaaf6b6cc6930",
+    "packaged_sha256": "e6cb6a2f58d45bd85c9612975f301c1aaded0dc64c1df494d7b556f359a44d42",
+    "adapted": true
+  },
+  "lib/check_shell28_certificate.py": {
+    "source": "phase3/exact/check_shell28_certificate.py",
+    "source_sha256": "9b166642dccbebbfcde141783b7c91a07b47c29791e2ed23dd012a65998c2671",
+    "packaged_sha256": "f7da5cf5ad90350453cfe77cda66f977e71b09001103964f571fd01585850384",
+    "adapted": true
+  },
+  "lib/check_lower27_certificate.py": {
+    "source": "phase2/unrestricted/check_lower27_certificate.py",
+    "source_sha256": "f938798d41bc94182a303d95f5cceed0399ffc235574cec7c53124dd2abe31d2",
+    "packaged_sha256": "f938798d41bc94182a303d95f5cceed0399ffc235574cec7c53124dd2abe31d2",
+    "adapted": false
+  },
+  "lib/audit_full29_root_scalars.py": {
+    "source": "phase3/exact/audit_full29_root_scalars.py",
+    "source_sha256": "b5dd70ce1015f3e830e67c1369734f41f3005a35f334e5d46ed49d2f7d237aab",
+    "packaged_sha256": "89e327167f0e1e30ab05918c6b6e60365fb3876caecff10a34392abb5b18c61f",
+    "adapted": true
+  },
+  "lib/rebuild_radial.py": {
+    "source": "phase3/exact/audit_radial_fourpoint.py",
+    "source_sha256": "99870d81371dc944b7e12e0a7329ba99787728a90dc6e5a5f3786c2c11660890",
+    "packaged_sha256": "dd5193e8848203cdadaf1148db14907d4cc6cb0f80f5402fabeb0743f8282af3",
+    "adapted": true
+  },
+  "lib/audit_fourier_pair.py": {
+    "source": "phase3/exact/audit_fourier_pair.py",
+    "source_sha256": "1680ec6a162a5dc5681676d6723a9953fedcd33b4db6311616a4b679f40e99d0",
+    "packaged_sha256": "82ca816fa898f5086b556449731d74984f2b01a1fe0a8abae463a543eeec8410",
+    "adapted": true
+  },
+  "lib/rebuild_fourier_quadratic.py": {
+    "source": "phase3/exact/audit_fourier_quadratic.py",
+    "source_sha256": "1f6dc3090a95fd852181524433c371b262d2bc011a47dd2de47a95b92da0569f",
+    "packaged_sha256": "9aaf66de4cdb7606897bd432980e0f52f3e80d2cd38a1a11ad4bf69ec1606235",
+    "adapted": true
+  },
+  "lib/rebuild_scalar_products.py": {
+    "sources": [
+      {
+        "path": "phase3/verification/scalar29/audit_scalar_products.py",
+        "sha256": "f91d9ac99898f72652981a4fe9005d2dc128cdd29d81251342dd036337f6056e"
+      },
+      {
+        "path": "phase3/verification/scalar29/audit_quartic_products.py",
+        "sha256": "625d3da33fe52d6b420dfbf312c2b6687485e7aacc390589c18786c50743803e"
+      }
+    ],
+    "packaged_sha256": "2673de847447d175a68735946612d33c2c810a245144eb1577d0ceb3c6904f92",
+    "adapted": true,
+    "note": "Portable reconstruction or explicit witness export; no numerical cache is read."
+  },
+  "data/scalar-product-witnesses.json": {
+    "sources": [
+      {
+        "path": "phase3/lower/accumulated-cuts-29-full.json",
+        "sha256": "853769f4d01a42635d6a7c769e9a6a7c1938a19f8228f0bfa6b04a91046a7ffc"
+      }
+    ],
+    "packaged_sha256": "becb0fab42400a2bc9f6dfeccd3d5191982c1ab39058caab8c070db4fa42dfd2",
+    "adapted": true,
+    "note": "Portable reconstruction or explicit witness export; no numerical cache is read."
+  },
+  "data/scalar-selection.json": {
+    "sources": [
+      {
+        "path": "phase3/lower/shell-cover-result-29-01234567-0-0-CLARABEL-boolean6-integer-products-quartic.json",
+        "sha256": "b083f1d49fef87b4f501db6baa87143d155cbc973fb4a5f0fc3f90ab3a14e86a"
+      }
+    ],
+    "packaged_sha256": "2319b42f454deff2008aab9e85cb5490ab330cfbd3b0aec7f0d6fd46ab98a7e0",
+    "adapted": true,
+    "note": "Portable reconstruction or explicit witness export; no numerical cache is read."
+  },
+  "verify.py": {
+    "sources": [
+      {
+        "path": "phase3/exact/check_full29_certificate.py",
+        "sha256": "1cfdd09bac96fd1322095d229b52938e8eb9f57b8546294d5248e347439587c7"
+      }
+    ],
+    "packaged_sha256": "2d90f386da317850730e13446c7cb280e4d13f093c573f753aa84a5554b3c743",
+    "adapted": true,
+    "note": "Portable reconstruction or explicit witness export; no numerical cache is read."
+  },
+  "test_negative_controls.py": {
+    "sources": [],
+    "packaged_sha256": "f9ca18f6d8ebe51e899f73e8ec6b99e903d6fcb22e7ef5cffed16ba8bcc67fa4",
+    "adapted": true,
+    "note": "Portable reconstruction or explicit witness export; no numerical cache is read."
+  }
+}

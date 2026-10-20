@@ -1,0 +1,54 @@
+{
+  "inspection_date": "2026-10-20",
+  "evidence": "Read-only extraction of session_meta and turn_context configuration fields from Codex Desktop records for this task and its three agents. Conversation text, private reasoning, account identifiers, local record paths and credentials are not included.",
+  "agents": [
+    {
+      "agent": "/root",
+      "recorded_originator": "Codex Desktop",
+      "recorded_model_provider": "openai",
+      "recorded_client_version": "0.163.0-alpha.10.2",
+      "recorded_model_identifier": "gpt-6-astra",
+      "recorded_effort": "ultra",
+      "matching_context_records": 16,
+      "latest_context_timestamp": "2026-10-20T08:00:28.648Z",
+      "selected_metadata_sha256": "e7443fb105546940444a9277e0dd4a322d648c5c6c44da0801745c5e179732e2"
+    },
+    {
+      "agent": "/root/literature",
+      "recorded_originator": "Codex Desktop",
+      "recorded_model_provider": "openai",
+      "recorded_client_version": "0.163.0-alpha.10.2",
+      "recorded_model_identifier": "gpt-6-astra",
+      "recorded_effort": "ultra",
+      "matching_context_records": 24,
+      "latest_context_timestamp": "2026-10-20T08:17:42.614Z",
+      "selected_metadata_sha256": "1b4cb743de92a60847bf5779602ae86a374d72c28200399214eb777fc1b2d74f"
+    },
+    {
+      "agent": "/root/structural",
+      "recorded_originator": "Codex Desktop",
+      "recorded_model_provider": "openai",
+      "recorded_client_version": "0.163.0-alpha.10.2",
+      "recorded_model_identifier": "gpt-6-astra",
+      "recorded_effort": "ultra",
+      "matching_context_records": 16,
+      "latest_context_timestamp": "2026-10-20T08:14:56.895Z",
+      "selected_metadata_sha256": "97e1795e5604c2280295dfc9558c009c7fa0ecfb805bbcf79a359992550e15e0"
+    },
+    {
+      "agent": "/root/checker",
+      "recorded_originator": "Codex Desktop",
+      "recorded_model_provider": "openai",
+      "recorded_client_version": "0.163.0-alpha.10.2",
+      "recorded_model_identifier": "gpt-6-astra",
+      "recorded_effort": "ultra",
+      "matching_context_records": 25,
+      "latest_context_timestamp": "2026-10-20T08:14:50.968Z",
+      "selected_metadata_sha256": "b1e9040450267eba1d88acf6335ca03b22a2b154d8f76b82d5a0274049c415ea"
+    }
+  ],
+  "limits": "Application-recorded provider/model/effort metadata, not a provider-signed attestation of model weights. The client version is not a model version. Backend revision and hardware allocation unavailable.",
+  "maintainer_recognition": "On 20 October 2026 the maintainer explicitly recognized GPT-6 Astra Ultra, described as Max plus subagents, as meeting this project's recommended configuration requirement. This records recognition, not mathematical review or acceptance.",
+  "recognition_reference": "ASSISTANCE.md#maintainer-recognition-review-report-and-authorization",
+  "action_scope": "Publish the checked 36-file English proof package on a topic branch and open a draft pull request to luvLunairs/theory-research-atlas, as explicitly authorized by the maintainer on 20 October 2026. No merge or scientific acceptance is authorized."
+}

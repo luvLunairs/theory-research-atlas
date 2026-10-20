@@ -1,0 +1,28 @@
+{
+  "pass": true,
+  "controls": [
+    {
+      "mutation": "invalid literal word 3000000",
+      "rejected": true,
+      "reason": "literal ternary words"
+    },
+    {
+      "mutation": "invalid literal word 000000",
+      "rejected": true,
+      "reason": "literal ternary words"
+    },
+    {
+      "mutation": "invalid literal word 00000000",
+      "rejected": true,
+      "reason": "literal ternary words"
+    },
+    {
+      "mutation": "one integer Gram-factor entry +1, initial certificate digest bypassed",
+      "rejected": true,
+      "reason": "all4295 exact aggregate coefficients match accepted certificate"
+    }
+  ],
+  "original_certificate_unchanged": true,
+  "scope": "Malformed word witnesses and full exact aggregation with a changed PSD factor. These tests do not substitute for the positive full replay.",
+  "seconds": 149.89100000000326
+}
