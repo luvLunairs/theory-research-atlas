@@ -1,0 +1,112 @@
+scalar-products two_cover 100 seconds 0.15600000001722947
+scalar-products two_cover 200 seconds 0.32800000000861473
+scalar-products two_cover 300 seconds 0.48399999999674037
+scalar-products two_cover 400 seconds 0.625
+scalar-products two_cover 500 seconds 0.75
+scalar-products accumulated_full_r0 100 seconds 0.875
+scalar-products accumulated_full_r0 200 seconds 0.875
+scalar-products accumulated_full_r0 300 seconds 0.9219999999913853
+scalar-products accumulated_full_r0 400 seconds 0.9530000000086147
+scalar-products accumulated_full_r0 500 seconds 0.9530000000086147
+all4753 nonzero scalar rows regenerated 5.969000000011874
+independent shell histograms 512 seconds 0.0
+independent shell histograms 10752 seconds 0.10899999999674037
+independent shell histograms 20992 seconds 0.20300000000861473
+independent shell histograms 31232 seconds 0.3129999999946449
+independent shell histograms 41472 seconds 0.42199999999138527
+independent shell histograms 51712 seconds 0.5309999999881256
+independent shell histograms 61952 seconds 0.6410000000032596
+independent shell histograms 72192 seconds 0.7339999999967404
+radial exact coefficient pass 2 36
+radial exact coefficient pass 3 120
+radial exact coefficient pass 4 330
+Fourier anchored count pass 0 330
+Fourier anchored count pass 1 1890
+Fourier anchored count pass 2 5670
+Fourier anchored count pass 3 11550
+Fourier anchored count pass 4 17325
+Fourier anchored count pass 5 19305
+Fourier anchored count pass 6 15015
+Fourier anchored count pass 7 6435
+all eight coefficient matrices match exactly
+independent Fourier transform row 0
+independent Fourier transform row 500
+independent Fourier transform row 1000
+independent Fourier transform row 1500
+independent Fourier transform row 2000
+independent Fourier transform row 2500
+independent Fourier transform row 3000
+independent Fourier transform row 3500
+independent Fourier transform row 4000
+independent full quadratic block pass 0 8
+independent full quadratic block pass 1 14
+independent full quadratic block pass 2 24
+independent full quadratic block pass 3 30
+independent full quadratic block pass 4 36
+independent full quadratic block pass 5 36
+independent full quadratic block pass 6 32
+independent full quadratic block pass 7 20
+all33 Gram columns regenerated and contracted 147.85900000002584
+{
+  "pass": true,
+  "certificate_sha256": "7aff789b16f702aac7dc3cac37642760878bc6fc0ff25f52214f0c8e1922a4c4",
+  "orbit_box_sha256": "355eb1930b175fe7192ad6172c3e23a41f51876905be5d0550a06fd660963f40",
+  "checker_sha256": "2d90f386da317850730e13446c7cb280e4d13f093c573f753aa84a5554b3c743",
+  "source_file_sha256": {
+    "check_cover.py": "2b8f7cc9552e3b3bbff141105655804fdb02eed32d7795ab6bb13bd7ffba82d6",
+    "lib/audit_fivepoint.py": "e6cb6a2f58d45bd85c9612975f301c1aaded0dc64c1df494d7b556f359a44d42",
+    "lib/audit_fourier_pair.py": "82ca816fa898f5086b556449731d74984f2b01a1fe0a8abae463a543eeec8410",
+    "lib/audit_full29_root_scalars.py": "89e327167f0e1e30ab05918c6b6e60365fb3876caecff10a34392abb5b18c61f",
+    "lib/check_lower27_certificate.py": "f938798d41bc94182a303d95f5cceed0399ffc235574cec7c53124dd2abe31d2",
+    "lib/check_shell28_certificate.py": "f7da5cf5ad90350453cfe77cda66f977e71b09001103964f571fd01585850384",
+    "lib/rebuild_fourier_quadratic.py": "9aaf66de4cdb7606897bd432980e0f52f3e80d2cd38a1a11ad4bf69ec1606235",
+    "lib/rebuild_radial.py": "dd5193e8848203cdadaf1148db14907d4cc6cb0f80f5402fabeb0743f8282af3",
+    "lib/rebuild_scalar_products.py": "2673de847447d175a68735946612d33c2c810a245144eb1577d0ceb3c6904f92",
+    "test_negative_controls.py": "f9ca18f6d8ebe51e899f73e8ec6b99e903d6fcb22e7ef5cffed16ba8bcc67fa4",
+    "verify.py": "2d90f386da317850730e13446c7cb280e4d13f093c573f753aa84a5554b3c743"
+  },
+  "variables": 4294,
+  "nonzero_scalar_rows_reconstructed": 4753,
+  "nonzero_Gram_blocks_reconstructed": 16,
+  "nonzero_integer_Gram_columns": 33,
+  "equalities_reconstructed": 101,
+  "aggregate_coefficients_checked": 4295,
+  "all_orbit_bounds_reconstructed": true,
+  "strict_upper_bound_numerator": -5058649380435826018685689638659,
+  "strict_upper_bound_denominator": 1276058875953519237987654777869130792960,
+  "proof_dependencies": "Python integer/fraction arithmetic; NumPy and SciPy for bounded integer enumeration and sparse arrays. No solver, floating optimization result, pickle, coefficient cache, or previous audit pass is used.",
+  "known34_file_sha256": "c912e430847ca77266ca88be934e4016c54088b4492af465e538e5a832ef1086",
+  "known34_exact_check": {
+    "alphabet": [
+      0,
+      1,
+      2
+    ],
+    "length": 7,
+    "target_radius": 2,
+    "ambient_words_checked": 2187,
+    "code_size": 34,
+    "covering_radius": 2,
+    "is_radius_2_cover": true,
+    "distance_to_code_histogram": {
+      "0": 34,
+      "1": 467,
+      "2": 1686
+    },
+    "radius_2_coverage_multiplicity_histogram": {
+      "1": 1263,
+      "2": 714,
+      "3": 177,
+      "4": 29,
+      "7": 4
+    },
+    "radius_2_ball_size": 99,
+    "radius_2_total_incidences": 3366,
+    "uncovered_count": 0,
+    "uncovered_words": [],
+    "farthest_word_example": "0000000"
+  },
+  "conclusion": "Excludes cardinality29. Any smaller covering code could be enlarged to29, so K_3(7,2)>=30. The independently checked known34 code gives K_3(7,2)<=34.",
+  "limits": "Computational mathematical verification, not a proof-assistant formalization. Novelty and external scientific review remain separate.",
+  "seconds": 149.95300000000861
+}

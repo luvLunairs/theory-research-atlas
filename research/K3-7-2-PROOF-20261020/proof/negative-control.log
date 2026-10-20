@@ -1,0 +1,49 @@
+scalar-products two_cover 100 seconds 0.17199999999138527
+scalar-products two_cover 200 seconds 0.3120000000053551
+scalar-products two_cover 300 seconds 0.4529999999795109
+scalar-products two_cover 400 seconds 0.5779999999795109
+scalar-products two_cover 500 seconds 0.7339999999967404
+scalar-products accumulated_full_r0 100 seconds 0.8429999999934807
+scalar-products accumulated_full_r0 200 seconds 0.8589999999967404
+scalar-products accumulated_full_r0 300 seconds 0.9059999999881256
+scalar-products accumulated_full_r0 400 seconds 0.9219999999913853
+scalar-products accumulated_full_r0 500 seconds 0.9219999999913853
+all4753 nonzero scalar rows regenerated 5.937000000005355
+independent shell histograms 512 seconds 0.0
+independent shell histograms 10752 seconds 0.10999999998603016
+independent shell histograms 20992 seconds 0.21899999998277053
+independent shell histograms 31232 seconds 0.3279999999795109
+independent shell histograms 41472 seconds 0.42199999999138527
+independent shell histograms 51712 seconds 0.5309999999881256
+independent shell histograms 61952 seconds 0.6409999999741558
+independent shell histograms 72192 seconds 0.75
+radial exact coefficient pass 2 36
+radial exact coefficient pass 3 120
+radial exact coefficient pass 4 330
+Fourier anchored count pass 0 330
+Fourier anchored count pass 1 1890
+Fourier anchored count pass 2 5670
+Fourier anchored count pass 3 11550
+Fourier anchored count pass 4 17325
+Fourier anchored count pass 5 19305
+Fourier anchored count pass 6 15015
+Fourier anchored count pass 7 6435
+all eight coefficient matrices match exactly
+independent Fourier transform row 0
+independent Fourier transform row 500
+independent Fourier transform row 1000
+independent Fourier transform row 1500
+independent Fourier transform row 2000
+independent Fourier transform row 2500
+independent Fourier transform row 3000
+independent Fourier transform row 3500
+independent Fourier transform row 4000
+independent full quadratic block pass 0 8
+independent full quadratic block pass 1 14
+independent full quadratic block pass 2 24
+independent full quadratic block pass 3 30
+independent full quadratic block pass 4 36
+independent full quadratic block pass 5 36
+independent full quadratic block pass 6 32
+independent full quadratic block pass 7 20
+all33 Gram columns regenerated and contracted 149.48400000002584

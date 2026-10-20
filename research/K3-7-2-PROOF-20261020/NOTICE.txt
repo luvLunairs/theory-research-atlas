@@ -1,0 +1,42 @@
+Attribution and reuse terms
+
+This is an original research contribution prepared for Theory Research Atlas.
+Original prose and contributed data follow the project's CC BY 4.0 terms;
+original checker and utility software follow its MIT terms. Complete license
+texts are included under LICENSES/. The project notice applies only to rights
+held by its contributors; it does not relicense third-party works or claim
+ownership of mathematical facts.
+
+Copyright (c) 2026 luvLunairs and Theory Research Atlas contributors,
+to the extent copyright or applicable database rights subsist in their
+respective contributions. AI assistance and actual contributor roles are
+disclosed in ASSISTANCE.md; no human scientific review or authorship role
+is invented.
+
+The 34-word covering construction is due to Patric R. J. Ostergard and
+Heikki O. Hamalainen, New Upper Bounds for Binary/Ternary Mixed Covering
+Codes, HUT report A22 (1993), Table III, printed p.22, using the convention
+on printed p.16. Its finite mathematical word set is transcribed and
+independently verified here. Their paper, prose, scans and figures are not
+redistributed.
+
+The lower-bound investigation builds on Dion Gijswijt and Sven Polak,
+Semidefinite lower bounds for covering codes, arXiv:2504.01932v2, and
+Gijswijt's 2005 thesis. The authors' companion Julia implementation
+(CoveringCodes/Julia, commit32b46d8dbdeb49e1743c6ea83760a896bd6ca5eb)
+was inspected as prior work. The retained legacy helper
+proof/lib/check_lower27_certificate.py credits its q=3 alpha formula to
+that implementation. Its upstream MIT notice is preserved unchanged in
+LICENSES/Gijswijt-Polak-MIT.txt (copyright 2024-2026 Dion Gijswijt and
+Sven Polak). That legacy helper is not executed by the current replay.
+The complete Julia implementation is neither bundled nor required.
+The raw polynomial/Gram reconstruction and supplied exact certificate
+are retained project research artifacts.
+
+Additional mathematical references, including Litjens, Polak and
+Schrijver on nonbinary quadruple bounds, are credited in manuscript.md.
+The code's source-map.json preserves local adaptation lineage.
+
+Python, NumPy and SciPy are dependencies and are not bundled. They retain
+their own licenses. No source paper or third-party software is relicensed
+by this notice. No author or project endorsement is implied.

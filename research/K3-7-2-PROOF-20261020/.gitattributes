@@ -1,0 +1,2 @@
+# Preserve certificate, source and report bytes across Git checkouts.
+* -text
