@@ -1,9 +1,10 @@
-# Exact-version pre-submission checks
+# Historical submission checks
 
-18 October 2026. Contributor check record for ATT-MATH-430-01.
-The final [manifest](manifest.json) binds this note and 70 other package
-files by path, byte count and SHA-256; the structured attempt separately
-binds the manifest. The PR commit identifies the complete repository version.
+18 October 2026. Contributor checks of ATT-MATH-430-01 before its original
+submission, based on repository revision
+`dbac8f582b101cbc31c1429b814c7a568d105923`. The original 71-file package
+and PR head are identified in the [historical screening record](../ATT-MATH-430-01-screening/2026-10-18.md).
+These results are retained history, not fresh checks of later revisions.
 
 ## Target, preparation and corrections
 
@@ -15,7 +16,7 @@ and parameter boundaries are retained. Publication changes are individually
 disclosed in [source-map.json](source-map.json); earlier local seals remain
 unchanged. No new mathematical claim was introduced during packaging.
 
-The final same-team attribution/scope reading covered the README,
+The same-team attribution/scope reading covered the README,
 bibliography, assistance note, authorization, lineage, structured attempt,
 sanitized provenance and publication changes to the manuscript, framework
 and core lemmas. It found no remaining attribution or scope blocker.
@@ -26,13 +27,10 @@ wording corrections were applied without changing formula domains.
 This reading did not constitute a fresh independent proof review or a
 full-text plagiarism comparison.
 
-The first repository test run exposed four failures caused by synthetic
-test fixtures inheriting real research-run counters. Three test modules
-now share a clean synthetic research dataset with matching zero counters.
-All existing assertions and production validators remain unchanged.
-The same initial run also encountered 14 sandbox temporary-directory
-permission errors; reruns set TMP and TEMP to a directory under work/.
-No repository safeguard or mathematical assertion was disabled.
+Four test failures arose from synthetic fixtures inheriting real research-run
+counters. Three modules were corrected to share a clean synthetic dataset
+with matching zero counters; existing assertions and production validators
+were unchanged. No safeguard or mathematical assertion was disabled.
 
 ## Actual results
 
@@ -53,25 +51,26 @@ formal proof, novelty verdict or scientific approval. Its finite framework
 probes do not establish the universal theorem; the written argument is the
 candidate proof. Historical uninspected originals remain explicitly marked.
 
-## Exact-version action and limits
+## Scope and limits
 
-Checked: the publication files identified by manifest.json, the scoped
-ATT-MATH-430-01 record, its rendered views, project count/date and the three
-synthetic test-fixture changes, based on repository revision
-dbac8f582b101cbc31c1429b814c7a568d105923. Any subsequent file change requires
-the affected checks and artifact digests to be renewed.
+The checked material included the package manifest, scoped attempt record,
+rendered views, project count/date and three synthetic test-fixture changes.
+The checks passed after the corrections above. Later changes require the
+affected checks and current artifact digests to be renewed.
 
-Action: upload this checked candidate through the authorized GitHub
-connection to topic branch codex/greedy-periodicity-analytic-proof and open
-one draft PR in luvLunairs/theory-research-atlas. The destination, exact
-uploaded file set and Git object identities are checked against the
-prepared payload. No merge, visibility change or approval is performed.
+This was same-team checking, with preliminary human reading of unspecified
+coverage. It did not establish independent scientific acceptance, full-text
+human approval, formal verification or a result for arbitrary finite seeds.
+The [assistance note](assistance-and-checks.md) and
+[maintainer authorization](submission-authorization.md) retain provenance.
 
-Results: the checks above passed after the disclosed fixture and environment
-corrections. Limits: same-team self-checking; preliminary human reading with
-unspecified coverage; no independent scientific acceptance, full-text
-human-review verdict, formal verification or claim to solve arbitrary finite
-seeds. Outcome: ready for the explicitly authorized candidate submission,
-with scientific review pending. The shared [assistance note](assistance-and-checks.md)
-and [maintainer authorization](submission-authorization.md) supply the
-provenance and submission-route evidence for this exact package.
+## Presentation-only revision
+
+The source-map binding in `reproducibility-results.json` is refreshed for
+the presentation revision; its mathematical outcomes, original runtime
+and timing observations are retained. Those timings are not new measurements.
+On 20 October 2026, a fresh read-only replay passed with the revised mapping
+and all 71 current file digests. Repository validation passed 208 tests,
+628 generated views and documentation checks. The checker, trust assumptions
+and original preliminary-screening bindings are unchanged; that screening
+is displayed as belonging to an earlier version.

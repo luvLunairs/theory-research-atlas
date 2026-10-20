@@ -15,11 +15,10 @@ Read the [manuscript](contents/greedy-analytic-audit-20261018/manuscript.md)
 and its linked mathematical appendices. They form the proposed proof.
 Its methods are exact interval/lifetime identities, chronological coverage,
 finite disappearance of exceptional entries and a separate causal
-supersolution at the midpoint. The latest revision simplifies the strict
-pair calculus and compresses two long small-seed arguments. It retains
-counterexamples to invalid formula extensions and all necessary boundary
-cases. Contributor checks found no unresolved gap in their stated scopes;
-that is not independent scientific confirmation.
+supersolution at the midpoint. Counterexamples to invalid formula extensions
+and all necessary boundary cases are retained. Contributor checks found no
+unresolved gap in their stated scopes; that is not independent scientific
+confirmation.
 
 This is a **two-seed subproblem** of
 [Q-MATH-430](../../docs/candidates/Q-MATH-430.md), whose catalogue statement
@@ -43,11 +42,13 @@ historical novelty and significance are outside the established outcome.
   [lineage and explicitly omitted nonpremise history](lineage.md)
 
 The package contains the complete operative mathematical argument and
-current supporting arithmetic. It is a selected publication version, not
-the entire local working archive. No source PDF, raw conversation, account
-identifier, credential, unrelated research dataset or discovery census is
-included. Old local snapshots remain unchanged. Written proofs, exact
-table calculations and finite diagnostic probes retain their distinct roles.
+current supporting arithmetic. Its selection from the local archive is
+documented in the lineage note. Written proofs, exact table calculations
+and finite diagnostic probes retain their distinct roles.
+
+The [historical preliminary screening](../ATT-MATH-430-01-screening/2026-10-18.md)
+applies to the original version identified there. This presentation-only
+revision does not imply a new screening or scientific review.
 
 ## Credit and AI assistance
 

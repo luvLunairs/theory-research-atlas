@@ -206,17 +206,16 @@ not a comprehensive novelty search. Previously recorded inaccessible
 historical full texts remain uninspected; no absence-of-prior-proof claim
 is made. The parent owns the broader current-source check.
 
-## Checks, limits and handoff
+## Checks and limits
 
 No old diagnostic, checker or derivation writer was executed. No new
-greedy enumeration, installation, paid run, network publication or
-external contact occurred. The mathematical checks here are contributor
-reading and explicit algebra, not independent runs. Process CPU time
-and peak memory were not separately measured for read-only file access.
+greedy enumeration was performed. The mathematical checks here are
+contributor reading and explicit algebra, not independent runs. Process
+CPU time and peak memory were not separately measured for read-only
+file access.
 
 Checked: the twelve frozen hashes above and the additionally identified
-framework version. Action: local audit and optional proof consolidation,
-with no submission. Results: no unresolved gap found in the assigned
+framework version. Results: no unresolved gap found in the assigned
 family membership/periodicity arguments; one concrete framework
 empty-input defect reported for correction, with exact counterexample.
 Limits: parent-owned families, historical novelty and independent human

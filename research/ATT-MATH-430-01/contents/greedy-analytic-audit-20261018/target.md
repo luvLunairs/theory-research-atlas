@@ -28,18 +28,13 @@ small seeds, first seed four including long tables, and other large-seed
 families and their boundary relaxations. Readers must report their actual
 file/line coverage and limitations; no independent verification is claimed.
 
-Use only the configured Python 3.12.14 standard library. Parent research
-computation limit: 900 process CPU seconds; each worker: 300. Expected
-memory below 1 GiB each is a plan, not a measurement. Peak memory and model
-inference compute are unknown. Targeted arithmetic checks are permitted;
-an enlarged greedy census, installation, paid runs and external contact
-are outside this task. Keep all new files in this folder.
+Arithmetic checks use Python 3.12.14 and its standard library. Peak memory
+and model inference compute are unknown. An enlarged greedy census is
+outside this audit's scope.
 
 The service/product is OpenAI Codex; actual service-supplied model identity,
 version and reasoning/compute configuration are unknown. The parent and
-workers inherit configuration without overrides. One final assistance and
-check record will cover the exact version and incorporated dependencies.
-No PR, issue, push, merge, review approval or visibility change is made.
-Repository branch: codex/bounded-research-20261018; base revision:
-dbac8f582b101cbc31c1429b814c7a568d105923. Original prose/data: CC BY 4.0;
-original code: MIT, under the repository terms.
+workers inherit configuration without overrides. The consolidated
+[assistance and check record](../../assistance-and-checks.md) records
+provenance and checks. Original prose/data: CC BY 4.0; original code:
+MIT, under the repository terms.

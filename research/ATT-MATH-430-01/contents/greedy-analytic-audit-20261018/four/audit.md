@@ -340,8 +340,6 @@ remain credited to van Berkel and Bosma. This audit adds no literature
 search or priority assessment; those are explicitly part of the parent's
 source review. Original prose/data use CC BY 4.0 and code MIT.
 
-**Handoff.** The checked action is a local draft handoff with the specified
-normative wording correction and the shorter analytic coverage lemma.
-The mathematical scope and remaining human-review/manual-submission
-requirements above remain in force. No old file, repository visibility,
-review status or submission channel has been changed.
+The audit retains the specified normative wording correction and the
+shorter analytic coverage lemma. Its mathematical scope and stated
+review limitations remain unchanged.

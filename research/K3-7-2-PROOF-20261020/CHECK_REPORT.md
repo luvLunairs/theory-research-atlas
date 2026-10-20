@@ -1,155 +1,53 @@
-# Checks for the English proof submission
+# Check report
 
-Checked: `K3-7-2-PROOF-20261020`, bound by `MANIFEST.json`, SHA-256
-`508605a30e21193404aa2a0e7ca3258cddd59f2cb05323c11b9c32bf742bb005`.
-The manifest covers 34 payload files totaling 1,163,868 bytes,
-excluding itself and this report. The complete directory has 36 files.
-The final manuscript SHA-256 is
-`9553f74dccf42c5e5ee64eaaea7957db8e02fad8133f16b98844bc224cbf0d9c`.
+Checked: `K3-7-2-PROOF-20261020`, identified by [MANIFEST.json](MANIFEST.json),
+SHA-256 `1db66968f948cf57b2af0056308da2e65946b1f81925c6ee210376e141183be6`. The manifest covers 34 payload files;
+the directory contains 36 files, including the manifest and this report.
 
-Action: publish this checked 36-file research contribution for Q-CODE-202
-on `codex/k3-7-2-proof-submission` and open a draft pull request to
-`luvLunairs/theory-research-atlas`, targeting `main`. The maintainer
-explicitly authorized submission on 20 October 2026; the
-[assistance note](ASSISTANCE.md#maintainer-recognition-review-report-and-authorization)
-records that instruction, configuration recognition, and reported
-preliminary human-review pass. No merge or scientific acceptance is
-part of the action.
+Action: publish a presentation-only documentation revision.
 
-## Scientific checks
+## Retained scientific checks
 
-- The byte-preserved primary checker completed a fresh replay in the
-  new package directory in 149.953 seconds. It regenerated all 4,753
-  nonzero scalar rows, 33 nonzero integer Gram columns in 16 blocks,
-  101 identities, 4,294 orbit bounds, and 4,295 aggregate coefficients.
-  The exact negative rational estimate matched the manuscript.
-- The separate direct-distance checker again checked the known
-  34-word set against all 2,187 words: zero uncovered words and
-  nearest-distance histogram 34, 467, 1686 for distances 0, 1, 2.
-- Fresh negative controls passed in 149.891 seconds. Three malformed
-  word witnesses were rejected. A changed Gram-factor entry was
-  rejected by exact coefficient reconstruction after the initial
-  certificate checksum alone was bypassed in memory. The original
-  certificate remained unchanged.
-- Separate contributor readings checked every used scalar/Gram
-  family, normalization, stabilizer formula, radial counting with
-  repeated rows, Fourier normalization, and the structural lemmas.
-  They found no error in the lower-bound argument and identified
-  presentation corrections: explicit five-point digit order,
-  integer parameters for the lifting lemma, and a clearer origin
-  average in the radial formula. These corrections were applied.
-- Source checking corrected the thesis page range to 53–59 and
-  identified the upstream MIT notice for the retained legacy formula.
-  The notice was added. The finite construction retains its
-  Östergård–Hämäläinen credit.
+The [positive replay](proof/verification.json) completed in 149.953 seconds.
+It regenerated 4,753 scalar rows, 33 integer Gram columns in 16 blocks,
+101 identities, 4,294 orbit bounds and 4,295 aggregate coefficients,
+obtaining the manuscript's strictly negative rational bound.
 
-The executable checker, main certificate, bounds, and actual 34
-codewords are unchanged from the earlier checked draft. The new
-mathematical prose is an expanded explanation of those objects.
+The separate direct-distance checker verified the 34 codewords against
+all 2,187 ambient words: no uncovered words, with nearest-distance counts
+34, 467 and 1,686 at distances 0, 1 and 2. The words printed in the
+manuscript matched the witness file and passed the same exhaustive check.
 
-## Final prose and package checks
+The [four negative controls](proof/negative-controls.json) passed in
+149.891 seconds: three malformed word inputs and an altered Gram factor
+were rejected. The latter test bypassed only the initial checksum, so
+exact coefficient reconstruction detected the corruption.
 
-The corrected five-point encoding, integer hypotheses of Lemma 12,
-and radial-origin explanation were reread after amendment. A second
-contributor review checked the corrected mathematical wording against
-the explicit constraint specification. The bibliography and MIT notice
-were reread after correction. Subsequent changes to the manuscript
-only replaced a directory link with the checker file link and made
-one TeX spacing command explicit to remove trailing whitespace.
+Contributor readings checked the constraint families, normalizations,
+orbit counting and structural lemmas. Corrections clarified five-point
+digit order, the lifting lemma's integer hypotheses and the radial-origin
+average. Source checking corrected the thesis pages to 53–59 and added
+the upstream MIT notice. Coefficients and orbit bounds independently
+reproduced the final rational expression; source-map and replay-source
+digests matched. Python/JSON parsing, equation numbering and rejection
+of optimized Python execution passed.
 
-The words printed in Section 8 were extracted from the final Markdown,
-compared in order with `proof/known34.txt`, and separately checked
-against all 2,187 words. The results match the printed table.
-Equation tags 1–29 are complete and unique, and the display-math and
-code fences are balanced.
+## Documentation revision
 
-All 16 source-map entries match the distributed file digests.
-All mathematical inputs and checker Python files were compared
-byte-for-byte with the earlier checked package. All 11 source hashes
-in the fresh positive report match the actual checker sources.
-The exact final rational expression was separately recalculated from
-the aggregate coefficients and orbit bounds using `Fraction`.
-All Python files parsed, all JSON files loaded, and optimized Python
-execution was checked to be rejected.
+The manuscript, reproduction instructions, every file under `proof/`,
+and the licenses are byte-identical to the previously checked version.
+The shortened documentation preserves the results, credit and review
+limits. Current manifest and source-digest checks passed. The separate
+coverage checker again verified all 2,187 words with no holes. Repository
+validation passed all 208 tests, 628 generated views and documentation
+checks covering 874 text files and 20,127 links.
 
-The four agents' application-recorded model/effort metadata was
-refreshed read-only. Every inspected context has `gpt-6-astra` and
-`ultra`, with provider `openai`. Public files contain no detected
-host-specific absolute paths or private-key markers. The upstream
-license is byte-identical to its retained original. The source map
-omits two historical certificates not needed by this package;
-their originals remain in the earlier version.
+## Limits and outcome
 
-`verify_manifest.py` passed on the delivered inventory and hashes.
-The local `.gitattributes` disables text normalization for this
-directory, preserving exact input and report bytes across Git checkouts.
-
-## Checks of the preceding proof revision
-
-`python scripts/check.py --render` passed data integrity, 208 regression
-tests, rendering of 609 views, and the generated-view comparison.
-Its documentation step identified three directory links rejected by
-the repository's file-link checker. They were replaced with file links
-or plain directory references.
-
-The affected documentation check was rerun and passed: 880 text files
-and 19,177 local/repository Markdown links. The final manifest and
-package checks were also rerun after these edits. Existing tracked
-files and earlier drafts in the isolated checkout were unchanged.
-The original working checkout's unrelated user edits were preserved.
-
-## Final submission recheck
-
-The remote default branch was inspected on 20 October 2026 and identified
-as `main` at `45c0a5184062519b89be6367220855ba7e0bca8f`. No open pull
-request or existing Q-CODE-202 discussion was found. A separate local
-checkout was prepared from that base, carrying only this 36-file package.
-The earlier 42-file exploratory contribution is not in the proposed
-branch history or diff.
-
-Only the README, assistance note, model action metadata, manifest, and
-this report differ from the preceding proof revision. Every mathematical
-input, checker, retained computational report, license, reproduction
-instruction, and the manuscript remains byte-identical to the checked
-version at local commit `1f10bf359d838e62ec2c6c3daa428a4bc06bc5bb`.
-The previous exact scientific replays therefore apply to the same bytes.
-
-The final package check confirmed the 36-file inventory, the limited
-administrative differences, all 16 source-map digests, all 11 replay-source
-digests, the unchanged scientific bytes, and the unchanged license.
-The words printed in the final manuscript were again extracted and
-checked by the separate coordinate-comparison implementation against
-all 2,187 words: 34 centers, zero uncovered words, and nearest-distance
-counts 34, 467, and 1686. The strict rational bound was independently
-recomputed from the retained coefficients. Python and JSON parsing,
-optimized-mode rejection, equation numbering, and the public-text
-path/key-marker scan passed.
-
-In the focused checkout, `python scripts/check.py --render` passed:
-data integrity, 208 tests, 609 rendered views, generated-view consistency,
-and documentation checks of 844 text files and 19,181 links. A separate
-contributor read checked the attribution and the translations of the
-maintainer's statements; its one wording correction was applied.
-The final documentation and manifest checks were repeated after the
-administrative amendments. Git whitespace checking allows the retained
-CRLF endings. It reports a pre-existing final blank line in each of
-`LICENSES/CC-BY-4.0.txt`, `manuscript.md`, and
-`proof/lib/audit_fivepoint.py`; these byte-preserved files were not
-rewritten solely to remove that formatting.
-
-## Limits
-
-The resulting interval is 30–34, with exact value unresolved. The
-finite certificate computation is part of the proof. This is neither
-a proof-assistant formalization nor the project's approved “Machine
-checked” status. The recorded checks are AI-assisted contributor
-checks. The maintainer has separately reported a preliminary human-review
-pass; the readers, exact coverage and detailed findings were not supplied.
-Neither independent external review nor full-text scientific screening
-is inferred. Priority and significance are not certified. The final IEEE
-article remains unavailable through the inspected public route; the
-cited full-text comparison is arXiv v2.
-
-Outcome: ready for the authorized draft submission and independent
-scientific assessment, subject to the execution approval gate.
-Preparing this report does not establish that publication has occurred.
+The interval is **30–34**, with exact value unresolved. These are
+AI-assisted contributor checks, not a proof-assistant formalization or
+independent scientific acceptance. The reported human preliminary pass
+has unspecified scope. Priority and significance remain unassessed;
+the literature comparison used arXiv v2 because the final IEEE text was
+unavailable through the inspected route. The package remains a research
+draft available for independent assessment.

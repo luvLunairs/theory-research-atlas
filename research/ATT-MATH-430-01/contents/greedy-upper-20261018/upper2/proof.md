@@ -321,8 +321,7 @@ the unique envelope collision u+u, the last characteristic discrepancy,
 and the incoming-gap phase. Actual outcomes, timings and exact version
 hashes are in [diagnostics.json (historical reference; not a proof premise)](../../../lineage.md#omitted-historical-material). Numerical tests check the
 transcription and stated boundaries; the universal result rests on
-the direct proof, not on those tests. The budget is 300 measured process
-CPU seconds, standard-library Python, no installations or paid runs.
+the direct proof, not on those tests. The checks use standard-library Python.
 Unmeasured model compute, session CPU and peak memory are unknown.
 
 The source and prior local interval/envelope methods are credited above

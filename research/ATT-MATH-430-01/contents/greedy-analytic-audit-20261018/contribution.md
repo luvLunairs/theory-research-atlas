@@ -14,7 +14,7 @@ addressing Conjecture 1 of Daan van Berkel and Wieb Bosma,
 read again on that date. The exact target is: for every positive pair
 f<g, the greedy sequence that excludes sums of two different actual
 earlier entries has an eventually periodic characteristic function.
-The [target record](target.md) fixes scope, success criteria and budgets.
+The [target record](target.md) fixes scope and success criteria.
 
 The [revised manuscript](manuscript.md) and its mathematical appendices
 give a continuous candidate proof with an exhaustive parameter partition.
@@ -52,11 +52,9 @@ the bounded later-result search and historical full-text gaps.
 Correctness, novelty, significance and publication are separate issues.
 No independent review or formal verification is available.
 
-The runtime is the configured Python 3.12.14 with standard library
-only. Parent research computation is limited to 900 process CPU seconds,
-each worker to 300. Retained diagnostic timings are actual per-run
-measurements; total model compute and peak memory are unknown.
-No installation, paid run or external contact was required.
+The runtime is Python 3.12.14 with standard library only. Retained
+diagnostic timings are actual per-run measurements; total model compute
+and peak memory are unknown.
 The [manifest (historical reference; not a proof premise)](../../lineage.md#omitted-historical-material) seals this version and eleven unchanged
 prior snapshots. [reproduce.ps1 (historical reference; not a proof premise)](../../lineage.md#omitted-historical-material) replays the local
 consistency and arithmetic checks without rewriting retained results.
@@ -73,9 +71,9 @@ The parent and three delegated OpenAI Codex workers contributed
 substantive mathematical ideas, proof text, code and same-team checks.
 Actual service-supplied model identifiers, versions and reasoning/compute
 configurations are unknown. The single [assistance note](../../assistance-and-checks.md)
-lists their roles and the exact-version handoff. Under the repository
+lists their roles and exact-version checks. Under the repository
 policy, full-text human review followed by manual submission is required;
-automated submission remains prohibited after review. This contribution
-stays local. No scientific status, human approval or machine-verification
+automated submission remains prohibited after review. No scientific
+status, human approval or machine-verification
 approval is assigned. Original prose/data use CC BY 4.0 and original
 code uses MIT under the repository terms; cited sources retain their rights.
