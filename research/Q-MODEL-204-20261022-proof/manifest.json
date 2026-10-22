@@ -1,0 +1,16 @@
+{
+  "algorithm": "SHA-256",
+  "files": {
+    "ASSISTANCE_AND_CHECKS.md": "b59e8e8d207a233be08681951e830b510034f3f52ae2b64b2e42ddf2c23a241f",
+    "evidence.zip": "56193e443018226d2cded3690e3dbdfbec76d28eaf3ffb3ac38deeb3f7aaa6ec",
+    "execution-metadata.json": "6d9ba705555096642f836107ca3a2e96736fbf17d870c98f797d6be2542f507b",
+    "INDEPENDENT_AUDIT.md": "8384ed4fd28150a609e87b735e4d82774fbbcffaa7418e0ae0663c425fe0dfc9",
+    "MAINTAINER_RECOGNITION.md": "39669cb23d08c4bbf9309df71c60c910f8663050a77a23aace6d276fd88742dd",
+    "PROOF.md": "f228c1212c7b47dc09d4ffc0e54497841d3f63f93dc94748b849fd915e17760e",
+    "README.md": "61bf6c1ff01838839674b226102d007409dcd964119f9afae7becd26dc6d6eb3",
+    "replay-report.json": "caba95fd913db5f463bcf8881bd5ca4469d633cf699d44c20ecbf655e8430b51",
+    "reproduce.py": "ba597c8104422bcfdc01a98bd997dbe1a39227ad4a2c10d85b6e9fb0456399b6",
+    "SOURCES.md": "75649740c784b1b6092daea1179658d566f6942704d8dd1fcfad4d9187314e4e",
+    "verify_package.py": "1c13743234b5b471e26126f36da94b9e0d7b6e1b826bdadcc97286f571ad46c8"
+  }
+}
