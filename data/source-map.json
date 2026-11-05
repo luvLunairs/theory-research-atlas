@@ -3053,5 +3053,23 @@
       "CS.ALG"
     ],
     "mapping_basis": "Computational conventions and deterministic identity testing."
+  },
+  {
+    "source_id": "SRC-FORMAL-619",
+    "domain_ids": [
+      "NET.DYNAMICS",
+      "MATH.DYN",
+      "MATH.COMB.EXT"
+    ],
+    "mapping_basis": "Inspected statements address homogeneous oscillator dynamics and graph-density thresholds."
+  },
+  {
+    "source_id": "SRC-FORMAL-620",
+    "domain_ids": [
+      "NET.DYNAMICS",
+      "MATH.DYN",
+      "MATH.COMB.EXT"
+    ],
+    "mapping_basis": "Inspected statements address homogeneous oscillator dynamics and graph-density thresholds."
   }
 ]

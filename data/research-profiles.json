@@ -554,14 +554,14 @@
   {
     "problem_id": "Q-FORMAL-104",
     "difficulty": "high",
-    "difficulty_basis": "The complete target is an unresolved existence problem. A bounded search does not establish the general statement.",
+    "difficulty_basis": "The historical dynamical sharpness question is still source-reported open. A bounded search does not establish its all-graph statement.",
     "ai_role": "No named model evaluated; assumes tool-using AI able to manipulate exact formulas, generate auditable code and explain mathematical assumptions. AI can suggest graph families and derive spectra while exact arithmetic checks stability. Expert review must prevent a marginal linear condition from being mistaken for a nonlinear obstruction.",
     "verification_burden": "high",
     "verification_basis": "Linear degeneracies and the all-graph quantifier are serious obstacles.",
-    "resource_expectation": "Experiment: None for the homogeneous graph model. Testing real oscillator networks requires measured frequencies, coupling, noise and model adequacy. Data: Explicit adjacency matrices and exact phase parameters; no observed time series is required. Computation: Suggested pilot cap: 1,000 (graph,q) pairs, n≤32, one CPU-hour and 8 GiB memory, with timeouts marked unresolved. These are proposed limits, not benchmarks. Small circulant spectra support inexpensive numerical filtering, but exact sign certificates and proofs about all graph sizes may be substantially harder.",
-    "assessment_date": "2026-10-14",
+    "resource_expectation": "Experiment: None for the homogeneous graph model. Testing real oscillator networks requires measured frequencies, coupling, noise and model adequacy. Data: Explicit adjacency matrices and exact phase parameters; no observed time series is required. Computation: Suggested pilot cap: 1,000 (graph,q) pairs, n≤32, one CPU-hour and 8 GiB memory, with timeouts marked unresolved. These are proposed limits, not benchmarks. Small circulant spectra support inexpensive numerical filtering, but exact sign certificates and proofs about all graph sizes may be substantially harder. See the full card for the distinction between its pilot and the later existence construction.",
+    "assessment_date": "2026-11-05",
     "evidence_level": "untested_forecast",
-    "uncertainty": "The small circulant family may only recover known examples. No model has been tested and no likelihood of improving the bound is claimed."
+    "uncertainty": "The small circulant family may only recover known examples. The pilot has not been evaluated; external AI-assisted work does not establish its likely success."
   },
   {
     "problem_id": "Q-FORMAL-105",

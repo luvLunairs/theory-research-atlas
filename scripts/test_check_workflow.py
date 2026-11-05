@@ -1,6 +1,7 @@
 """Check that page refresh is opt-in, validated first and stops on failure."""
 from contextlib import redirect_stdout, redirect_stderr
 from io import StringIO
+from pathlib import Path
 from types import SimpleNamespace
 from unittest.mock import patch
 import unittest
@@ -37,6 +38,25 @@ class CheckWorkflowTests(unittest.TestCase):
         result, commands = self.run_workflow(['--render'], [0, 3])
         self.assertEqual(result, 3)
         self.assertEqual(commands, [('scripts/validate.py',), ('scripts/render.py',)])
+
+    def test_children_share_writable_workspace_temp_directory(self):
+        directories = []
+
+        def run_child(command, *, cwd, env):
+            temporary = Path(env['TMP'])
+            self.assertEqual(env['TEMP'], str(temporary))
+            self.assertEqual(env['TMPDIR'], str(temporary))
+            self.assertTrue(temporary.is_relative_to(check.ROOT / 'work'))
+            (temporary / 'child-output.txt').write_text('Temporary check output.', encoding='utf-8')
+            directories.append(temporary)
+            return SimpleNamespace(returncode=0)
+
+        with patch.object(check.subprocess, 'run', side_effect=run_child):
+            with redirect_stdout(StringIO()), redirect_stderr(StringIO()):
+                self.assertEqual(check.main([]), 0)
+        self.assertEqual(len(directories), len(check.CHECKS))
+        self.assertEqual(len(set(directories)), 1)
+        self.assertFalse(directories[0].exists())
 
 
 if __name__ == '__main__':

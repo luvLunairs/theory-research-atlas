@@ -2,7 +2,7 @@
 
 [Browse](../README.md) · [Results](../results.md) · [Contribute](../../CONTRIBUTING.md)
 
-How dense must a network be to make identical phase oscillators synchronize from almost all starting phases? Three quarters of all possible neighbors is sufficient; proving that this universal threshold cannot be lowered remains open.
+How dense must a network be to make identical phase oscillators synchronize from almost all starting phases? The historical target is whether three quarters is sharp for this dynamical guarantee. A weaker condition, absence of nonsynchronous local minima, must be assessed separately.
 
 [Suggest a correction](https://github.com/luvLunairs/theory-research-atlas/issues/new?template=correction.yml&title=%5BCorrection%5D+Q-FORMAL-104%3A+Determine+the+sharp+connectivity+threshold+for+homogeneous+Kuramoto+synchronization&target=Q-FORMAL-104) · [Share progress](https://github.com/luvLunairs/theory-research-atlas/issues/new?template=research-progress.yml&title=%5BResearch%5D+Q-FORMAL-104%3A+Determine+the+sharp+connectivity+threshold+for+homogeneous+Kuramoto+synchronization&target=Q-FORMAL-104)
 
@@ -17,7 +17,7 @@ How dense must a network be to make identical phase oscillators synchronize from
 | Primary field | [Dynamics on networks and collective behavior](../domains/net.md#net-dynamics) |
 | Related fields | [Dynamical systems and ergodic theory](../domains/math.md#math-dyn), [Extremal and Ramsey theory](../domains/math.md#math-comb-ext) |
 | Task origin | [Literature-origin question](../evidence-policy.md) |
-| Current status | [Source reports open](../evidence-policy.md) · checked 2026-10-14 |
+| Current status | [Source reports open](../evidence-policy.md) · checked 2026-11-05 |
 | AI suitability | [Preparation needed](../ai-assessment.md) · Untested forecast |
 | Scientific review | Pending |
 
@@ -59,7 +59,7 @@ For finite simple undirected graphs with identical natural frequencies and unit 
 
 ### Resource requirements
 
-**Computing:** Suggested pilot cap: 1,000 (graph,q) pairs, n≤32, one CPU-hour and 8 GiB memory, with timeouts marked unresolved. These are proposed limits, not benchmarks. Small circulant spectra support inexpensive numerical filtering, but exact sign certificates and proofs about all graph sizes may be substantially harder.
+**Computing:** Suggested pilot cap: 1,000 (graph,q) pairs, n≤32, one CPU-hour and 8 GiB memory, with timeouts marked unresolved. These are proposed limits, not benchmarks. Small circulant spectra support inexpensive numerical filtering, but exact sign certificates and proofs about all graph sizes may be substantially harder. SRC-FORMAL-620, Section V, describes an existence construction with more than 9×10^84 vertices; the pilot is not a direct reproduction of those graphs.
 
 **Data:** Explicit adjacency matrices and exact phase parameters; no observed time series is required.
 
@@ -107,15 +107,17 @@ For finite simple undirected graphs with identical natural frequencies and unit 
 
 - Establish whether a proposed finite family or density has already been classified.
 - Determine nonlinear behavior separately whenever the reduced Jacobian is singular.
-- Refresh lower-bound constructions before any bound-improvement claim; no historical lower bound is designated current.
+- Compare proposed improvements with SRC-FORMAL-620 and subsequent work; independently review its proof and obtain the supporting scripts before claiming a reproduction.
 
 <a id="evidence"></a>
 
 ## Evidence and context
 
-**Status basis:** The 2021 paper proves the upper bound; the August 2026 follow-up still calls sharpness conjectural. Targeted later-work searches found no resolution. This is a dated source-supported status, not an exhaustive novelty audit. No historical lower bound is asserted as current.
+**Status basis:** The dynamical 3/4 conjecture remains source-reported open. Later papers distinguish it from a local-minimum conjecture and report new bounds; see the dated literature check. These preprint claims have not received independent review here.
 
-**Exact problem / theorem locator:** Kassabov et al., abstract and Sections I, VI; McRae (2026 v2), Section 3.4.3
+[Dated literature checks and remaining limits](../candidates/Q-FORMAL-104.md#literature-checks). These are editorial evidence checks, not signed expert reviews.
+
+**Exact problem / theorem locator:** Kassabov et al., abstract and Sections I, VI; McRae (2026 v2), Section 3.4.3; Lepsveridze and Zhang (2026), Theorem 1, footnote 1 and Remark 1; O'Keeffe (2026), Section I, footnotes 1–2 and Theorem 1
 
 ### Sources
 
@@ -128,12 +130,20 @@ For finite simple undirected graphs with identical natural frequencies and unit 
 - [Benign landscapes for synchronization on spheres via normalized Laplacian matrices](../sources.md#src-formal-106). Andrew D. McRae. 2026. [Read source](https://arxiv.org/html/2503.18801v2).
   - **Relevant sections:** Version 2 dated 21 August 2026; Section 1.2, Section 3.4.3 Dense graphs and Section 3.4.4
   - **Source limitations:** This preprint is evidence of the authors' reported results and status, not an independent verification of all proofs or a complete survey.
+- [Graphs with connectivity 3/4 - epsilon are globally synchronizing](../sources.md#src-formal-619). Saba Lepsveridze; Sam Zhang. 2026. [Read source](https://arxiv.org/html/2608.20010v1).
+  - **Relevant sections:** 20 August 2026; Section 1, footnote 1, Theorem 1 and Section 6, Remark 1
+  - **Source limitations:** Primary claim only; proof correctness and independent acceptance were not assessed.
+- [Beyond 11/16: dense Kuramoto networks that resist synchrony](../sources.md#src-formal-620). Kevin P. O'Keeffe. 2026. [Read source](https://arxiv.org/html/2610.21271v1).
+  - **Relevant sections:** 15 October 2026; Section I, equations (2)–(3), footnotes 1–2; Section V, Theorem 1, Proposition 1 and Lemmas 1–2
+  - **Source limitations:** Proofs and interval certificates were not independently checked; the cited scripts were not obtained or run.
 
 ### Known results and partial progress
 
 - Kassabov, Strogatz and Townsend prove the sufficient 3/4 density threshold.
-- McRae's August 2026 Section 3.4.3 still describes sharpness as conjectural.
+- McRae's August 2026 Section 3.4.3 records the historical sharpness conjecture; later sources below distinguish its formulations.
 - Townsend, Stillman and Strogatz provide explicit circulant constructions and spectra. Examples approaching 3/4 with marginal second-order conditions are not automatically stable nonlinear obstructions.
+- Lepsveridze and Zhang (SRC-FORMAL-619) report a strict upper bound below 3/4 for the local-minimum threshold, refuting that version of the conjecture. Their normalization is (delta+1)/n; Remark 1 leaves the dynamical extension unfinished.
+- O'Keeffe (SRC-FORMAL-620) reports a lower bound mu_0=(4+2q*)/(7+q*)=0.6929077063... for both thresholds. Here q* is the unique root in (0,1) of 9q^8+72q^7+288q^6+448q^5+470q^4+88q^3−208q^2−128q−15. Section I retains 3/4 as the dynamical upper bound.
 
 **Research value:** A sharp threshold would connect graph density with a global nonlinear property. Small certified constructions can guide a structural argument, but duplicating a known family does not improve the bound.
 
@@ -144,18 +154,25 @@ For finite simple undirected graphs with identical natural frequencies and unit 
 
 ### Scope of the status check
 
-**Finding:** The 2021 paper proves the upper bound; the August 2026 follow-up still calls sharpness conjectural. Targeted later-work searches found no resolution. This is a dated source-supported status, not an exhaustive novelty audit. No historical lower bound is asserted as current.
+**Finding:** The scoped update supports retaining the exact dynamical question. It does not certify any new proof or establish an exhaustive current status.
 
-**Search limits:** Dated primary-source checks and targeted later-work searches cannot establish that no unpublished or newly posted solution exists. Refresh the literature before claiming progress.
+**Search limits:** Checked identified primary passages and targeted update searches. No independent proof audit, certificate replay or exhaustive novelty review was performed.
 
 <details>
 <summary>Literature references checked</summary>
 
+**Queries used:**
+
+- Kuramoto "dynamical" "3/4" "2026"
+- "2608.20010" correction OR dynamical OR synchronization
+- "2610.21271" correction OR synchronization
+
 **Sources checked:**
 
-- [Dense networks that do not synchronize and sparse ones that do](../sources.md#src-formal-104)
 - [Sufficiently dense Kuramoto networks are globally synchronizing](../sources.md#src-formal-105)
 - [Benign landscapes for synchronization on spheres via normalized Laplacian matrices](../sources.md#src-formal-106)
+- [Graphs with connectivity 3/4 - epsilon are globally synchronizing](../sources.md#src-formal-619)
+- [Beyond 11/16: dense Kuramoto networks that resist synchrony](../sources.md#src-formal-620)
 
 </details>
 
@@ -163,6 +180,7 @@ For finite simple undirected graphs with identical natural frequencies and unit 
 <summary>Previous attempts and public records</summary>
 
 - The 2020 circulant constructions, the 2021 density theorem and the 2026 normalized-Laplacian analysis are external records. No project search or simulation has been run.
+- The 2026 preprints SRC-FORMAL-619 and SRC-FORMAL-620 supply later external results. O'Keeffe reports AI-assisted research; its proofs and computations have not been reproduced here.
 
 </details>
 
@@ -176,8 +194,11 @@ For finite simple undirected graphs with identical natural frequencies and unit 
 - Steven H. Strogatz
 - Martin Kassabov
 - Andrew D. McRae
+- Saba Lepsveridze
+- Sam Zhang
+- Kevin P. O'Keeffe
 
-**Suggested citation:** Townsend, Stillman and Strogatz (2020), arXiv:1906.10627v4; Kassabov, Strogatz and Townsend (2021), arXiv:2105.11406v1; McRae (2026 revision), arXiv:2503.18801v2, Sections 3.4.3–3.4.4. The capped circulant pilot is curator-proposed.
+**Suggested citation:** Townsend, Stillman and Strogatz (2020), arXiv:1906.10627v4; Kassabov, Strogatz and Townsend (2021), arXiv:2105.11406v1; McRae (2026 revision), arXiv:2503.18801v2, Sections 3.4.3–3.4.4. The capped circulant pilot is curator-proposed. Later results: Lepsveridze and Zhang (20 August 2026), arXiv:2608.20010v1; O'Keeffe (15 October 2026), arXiv:2610.21271v1.
 
 **Editorial credit:** Compiled for Theory Research Atlas with AI assistance.
 
@@ -187,13 +208,13 @@ For finite simple undirected graphs with identical natural frequencies and unit 
 
 ## AI trial assessment
 
-**Label:** [Preparation needed](../ai-assessment.md). **Evidence:** Untested forecast. **Assessed:** 2026-10-14.
+**Label:** [Preparation needed](../ai-assessment.md). **Evidence:** Untested forecast. **Assessed:** 2026-11-05.
 
 AI can suggest graph families and derive spectra while exact arithmetic checks stability. Expert review must prevent a marginal linear condition from being mistaken for a nonlinear obstruction.
 
 **Model or capability conditions:** No named model evaluated; assumes tool-using AI able to manipulate exact formulas, generate auditable code and explain mathematical assumptions.
 
-**Uncertainty:** The small circulant family may only recover known examples. No model has been tested and no likelihood of improving the bound is claimed.
+**Uncertainty:** The small circulant family may only recover known examples. The pilot has not been evaluated; external AI-assisted work does not establish its likely success.
 
 Ratings are separate judgments, not a score. High expertise needed or verification difficulty means a larger burden; high method availability or checkability means stronger support.
 
@@ -214,14 +235,14 @@ The literature supports the question; no project answer has been submitted for r
 
 **Novelty:** Requires future literature review.
 
-Sharpness is source-reported open. Novelty of a small search family, finite obstruction or improved bound requires an independent literature comparison.
+The exact dynamical target is retained. Novelty of any proposed family, obstruction or improvement requires comparison with the later sources and subsequent work.
 
 <details>
 <summary>Difficulty and significance</summary>
 
 **Difficulty:** High.
 
-The complete target is an unresolved existence problem. A bounded search does not establish the general statement.
+The historical dynamical sharpness question is still source-reported open. A bounded search does not establish its all-graph statement.
 
 **Evidence type:** Editorial estimate not measured.
 
@@ -236,6 +257,15 @@ The reasons are given under [research value](#evidence).
 ## Research records
 
 No project attempts or human reviews have been recorded.
+
+<details>
+<summary>Changes to this problem</summary>
+
+| Date | Change |
+| --- | --- |
+| 2026-11-05 | Added later sources and clarified their distinct threshold definitions; preserved the original dynamical statement and pending human review. |
+
+</details>
 
 <details>
 <summary>Record information</summary>

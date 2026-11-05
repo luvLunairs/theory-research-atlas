@@ -10022,5 +10022,48 @@
       "The search was scoped and may miss subsequent results.",
       "A narrower research target needs its own status check."
     ]
+  },
+  {
+    "id": "LC-Q-FORMAL-104-20261105",
+    "problem_id": "Q-FORMAL-104",
+    "checked_on": "2026-11-05",
+    "status_before": "source_reports_open",
+    "status_after": "source_reports_open",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "Kuramoto \"dynamical\" \"3/4\" \"2026\"",
+      "\"2608.20010\" correction OR dynamical OR synchronization",
+      "\"2610.21271\" correction OR synchronization"
+    ],
+    "search_scope": "Compared the historical dynamical target with two later primary preprints and targeted searches for updates or corrections; inspected theorem statements and definition caveats.",
+    "evidence": [
+      {
+        "source_id": "SRC-FORMAL-105",
+        "locator": "Abstract and Section I",
+        "finding": "States the almost-everywhere dynamical target and the sufficient 3/4 bound."
+      },
+      {
+        "source_id": "SRC-FORMAL-106",
+        "locator": "Section 3.4.3",
+        "finding": "Records the historical sharpness conjecture and marginal examples."
+      },
+      {
+        "source_id": "SRC-FORMAL-619",
+        "locator": "Theorem 1, footnote 1 and Remark 1",
+        "finding": "The reported local-minimum result does not establish the dynamical extension."
+      },
+      {
+        "source_id": "SRC-FORMAL-620",
+        "locator": "Section I, footnotes 1–2; Theorem 1",
+        "finding": "Reports a lower-bound improvement applicable to the retained target."
+      }
+    ],
+    "conclusion": "Preserve the original dynamical 3/4 question and source-reported status; do not replace it with the different local-minimum problem or silently transfer a resolution between them.",
+    "limitations": [
+      "No independent proof audit or computation replay.",
+      "The scoped search cannot exclude further results or corrections.",
+      "Human review remains pending."
+    ]
   }
 ]

@@ -2,7 +2,7 @@
 
 [Browse](README.md) · [Results](results.md) · [Contribute](../CONTRIBUTING.md)
 
-**Collection updated: 2026-10-20.** 16 domains, 113 nodes, 399 source records, 552 candidates and 45 full cards. These counts do not estimate the fraction of science covered.
+**Collection updated: 2026-11-05.** 16 domains, 113 nodes, 401 source records, 552 candidates and 45 full cards. These counts do not estimate the fraction of science covered.
 
 Research sources are directly mapped to the selected node or its descendants; ancestor mappings are not inherited. Cards are included in candidate counts. Cross-linked tasks keep one primary record. Source counts include separately cited versions and cannot be summed across domains. Each source and question retains its own inspection date.
 
@@ -10,7 +10,7 @@ Research sources are directly mapped to the selected node or its descendants; an
 
 | Domain / branch | A: research sources | B + C: primary tasks | C: full cards | Next action |
 | --- | --- | --- | --- | --- |
-| [Mathematics](domains/math.md) | 105 | 158 | 9 | Extend coverage and review these cards |
+| [Mathematics](domains/math.md) | 107 | 158 | 9 | Extend coverage and review these cards |
 | [Logic and foundations](domains/logic.md) | 14 | 24 | 1 | Extend coverage and review these cards |
 | [Theoretical computer science](domains/cs.md) | 146 | 112 | 6 | Extend coverage and review these cards |
 | [Probability theory](domains/prob.md) | 28 | 15 | 1 | Extend coverage and review these cards |
@@ -21,7 +21,7 @@ Research sources are directly mapped to the selected node or its descendants; an
 | [Theoretical chemistry and materials](domains/chem.md) | 12 | 22 | 1 | Extend coverage and review these cards |
 | [Theoretical biology](domains/bio.md) | 17 | 29 | 1 | Extend coverage and review these cards |
 | [Economics and game theory](domains/econ.md) | 22 | 22 | 4 | Extend coverage and review these cards |
-| [Networks and complex systems](domains/net.md) | 10 | 12 | 2 | Extend coverage and review these cards |
+| [Networks and complex systems](domains/net.md) | 12 | 12 | 2 | Extend coverage and review these cards |
 | [Earth, climate and environmental theory](domains/earth.md) | 7 | 20 | 1 | Extend coverage and review these cards |
 | [Astrophysics and cosmology theory](domains/astro.md) | 18 | 20 | 1 | Extend coverage and review these cards |
 | [Control and theoretical engineering](domains/eng.md) | 12 | 13 | 1 | Extend coverage and review these cards |
@@ -69,14 +69,14 @@ Expand a domain to inspect its branches without scrolling through the entire tax
 | [Differential and symplectic geometry](domains/math.md#math-geom-diff) | 6 | 5 | 0 | Develop detailed problem cards |
 | [Topology](domains/math.md#math-top) | 6 | 24 | 0 | Develop detailed problem cards |
 | [Low-dimensional topology](domains/math.md#math-top-low) | 4 | 21 | 0 | Develop detailed problem cards |
-| [Combinatorics and discrete mathematics](domains/math.md#math-comb) | 30 | 39 | 5 | Extend coverage and review these cards |
-| [Extremal and Ramsey theory](domains/math.md#math-comb-ext) | 20 | 39 | 5 | Extend coverage and review these cards |
+| [Combinatorics and discrete mathematics](domains/math.md#math-comb) | 32 | 39 | 5 | Extend coverage and review these cards |
+| [Extremal and Ramsey theory](domains/math.md#math-comb-ext) | 22 | 39 | 5 | Extend coverage and review these cards |
 | [Enumerative and algebraic combinatorics](domains/math.md#math-comb-enum) | 2 | 0 | 0 | Identify well-specified questions |
 | [Analysis](domains/math.md#math-anal) | 12 | 7 | 0 | Develop detailed problem cards |
 | [Differential equations and variational analysis](domains/math.md#math-anal-pde) | 5 | 1 | 0 | Develop detailed problem cards |
 | [Harmonic, real and complex analysis](domains/math.md#math-anal-harm) | 2 | 3 | 0 | Develop detailed problem cards |
 | [Functional and operator analysis](domains/math.md#math-anal-func) | 5 | 2 | 0 | Develop detailed problem cards |
-| [Dynamical systems and ergodic theory](domains/math.md#math-dyn) | 16 | 4 | 0 | Develop detailed problem cards |
+| [Dynamical systems and ergodic theory](domains/math.md#math-dyn) | 18 | 4 | 0 | Develop detailed problem cards |
 | [Optimization and operations research](domains/math.md#math-opt) | 21 | 3 | 1 | Extend coverage and review these cards |
 | [Numerical analysis and scientific computation](domains/math.md#math-numer) | 6 | 0 | 0 | Identify well-specified questions |
 
@@ -363,7 +363,7 @@ Expand a domain to inspect its branches without scrolling through the entire tax
 | Domain / branch | A: research sources | B + C: primary tasks | C: full cards | Next action |
 | --- | --- | --- | --- | --- |
 | [Network structure and random networks](domains/net.md#net-struct) | 2 | 2 | 0 | Develop detailed problem cards |
-| [Dynamics on networks and collective behavior](domains/net.md#net-dynamics) | 8 | 8 | 2 | Extend coverage and review these cards |
+| [Dynamics on networks and collective behavior](domains/net.md#net-dynamics) | 10 | 8 | 2 | Extend coverage and review these cards |
 | [Network inference and multiscale structure](domains/net.md#net-infer) | 1 | 2 | 0 | Develop detailed problem cards |
 | [Complex adaptive systems](domains/net.md#net-complex) | 0 | 0 | 0 | Find specialist sources |
 

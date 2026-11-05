@@ -557,9 +557,9 @@ Create a tiny, explicitly bounded laboratory for checking information inequaliti
 
 [Dynamics on networks and collective behavior](../domains/net.md#net-dynamics) · Literature-origin question
 
-How dense must a network be to make identical phase oscillators synchronize from almost all starting phases? Three quarters of all possible neighbors is sufficient; proving that this universal threshold cannot be lowered remains open.
+How dense must a network be to make identical phase oscillators synchronize from almost all starting phases? The historical target is whether three quarters is sharp for this dynamical guarantee. A weaker condition, absence of nonsynchronous local minima, must be assessed separately.
 
-**Status:** Source reports open; checked 2026-10-14. **Assessment evidence:** Untested forecast.
+**Status:** Source reports open; checked 2026-11-05. **Assessment evidence:** Untested forecast.
 
 **Background:** Kuramoto gradient dynamics, equilibria and stability modulo a continuous symmetry; Circulant matrices, Fourier diagonalization and exact algebraic or certified interval arithmetic; The difference between an equilibrium, a local minimum, a second-order critical point and almost-everywhere convergence.
 
@@ -570,7 +570,7 @@ How dense must a network be to make identical phase oscillators synchronize from
 
 **Reason for this priority:** AI can suggest graph families and derive spectra while exact arithmetic checks stability. Expert review must prevent a marginal linear condition from being mistaken for a nonlinear obstruction.
 
-**Computing requirements and limits:** Suggested pilot cap: 1,000 (graph,q) pairs, n≤32, one CPU-hour and 8 GiB memory, with timeouts marked unresolved. These are proposed limits, not benchmarks. Small circulant spectra support inexpensive numerical filtering, but exact sign certificates and proofs about all graph sizes may be substantially harder.
+**Computing requirements and limits:** Suggested pilot cap: 1,000 (graph,q) pairs, n≤32, one CPU-hour and 8 GiB memory, with timeouts marked unresolved. These are proposed limits, not benchmarks. Small circulant spectra support inexpensive numerical filtering, but exact sign certificates and proofs about all graph sizes may be substantially harder. SRC-FORMAL-620, Section V, describes an existence construction with more than 9×10^84 vertices; the pilot is not a direct reproduction of those graphs.
 
 **Human review:** Medium for a strict finite-dimensional certificate after conventions are fixed; high for marginal equilibria, graph-size limits or a universal threshold proof.
 

@@ -1,4 +1,5 @@
 """Check references in the context where contributors will read them."""
+import os
 import unittest
 from contextlib import redirect_stdout
 from io import StringIO
@@ -28,6 +29,55 @@ class SubmissionReferenceTests(unittest.TestCase):
                 '[the source](https://example.org/paper). [Scope](#scope)\n\n'
                 '```md\n[example](relative.md)\n```')
         self.assertEqual(submission_reference_errors(Path('templates/review.md'), text), [])
+
+
+class DocumentationTraversalTests(unittest.TestCase):
+    def test_excluded_directories_are_not_entered(self):
+        with TemporaryDirectory() as directory:
+            root = Path(directory).resolve()
+            (root / 'README.md').write_text('# Atlas\n', encoding='utf-8')
+            for name in ('work', '.git', '__pycache__', 'docs/work'):
+                excluded = root / name
+                excluded.mkdir(parents=True)
+                (excluded / 'ignored.md').write_bytes(b'\xff')
+            scandir = os.scandir
+            visited = []
+
+            def inspect(path):
+                relative = Path(path).relative_to(root)
+                self.assertFalse(set(relative.parts) & {'work', '.git', '__pycache__'})
+                visited.append(relative)
+                return scandir(path)
+
+            with patch('check_docs.ROOT', root), \
+                    patch('check_docs.os.scandir', side_effect=inspect), \
+                    redirect_stdout(StringIO()):
+                self.assertFalse(main())
+            self.assertIn(Path('docs'), visited)
+
+    def test_unreadable_checked_directory_is_not_silently_skipped(self):
+        with patch('check_docs.os.scandir', side_effect=PermissionError('unreadable')):
+            with self.assertRaises(PermissionError):
+                main()
+
+    def test_research_files_keep_existing_content_and_link_checks(self):
+        with TemporaryDirectory() as directory:
+            root = Path(directory).resolve()
+            research = root / 'research'
+            research.mkdir()
+            marker = 'turn' + '123search0'
+            extensions = ('.md', '.json', '.py', '.cff', '.yml', '.yaml', '.txt')
+            for suffix in extensions:
+                (research / ('evidence' + suffix)).write_text(marker, encoding='utf-8')
+            (research / 'report.md').write_text('[Proof](missing.md)', encoding='utf-8')
+            (research / 'binary.pdf').write_bytes(b'\xff')
+            output = StringIO()
+            with patch('check_docs.ROOT', root), redirect_stdout(output):
+                self.assertTrue(main())
+            report = output.getvalue()
+            self.assertEqual(report.count('unresolved citation reference'), len(extensions))
+            self.assertIn('research/report.md: missing target missing.md', report)
+            self.assertIn('Checked 8 text files and 1 local', report)
 
 
 class RepositoryLinkTests(unittest.TestCase):

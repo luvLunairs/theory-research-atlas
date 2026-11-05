@@ -4,6 +4,7 @@ import os
 from pathlib import Path
 import subprocess
 import sys
+import tempfile
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -24,12 +25,16 @@ def main(argv=None):
     steps = list(CHECKS)
     if options.render:
         steps.insert(1, ('Page refresh', ('scripts/render.py',)))
-    for label, arguments in steps:
-        print(f'Checking {label.lower()}...', flush=True)
-        result = subprocess.run((sys.executable, *arguments), cwd=ROOT, env=environment)
-        if result.returncode:
-            print(f'{label} failed.', file=sys.stderr)
-            return result.returncode
+    # Keep child-process temporary files in the ignored, writable workspace.
+    (ROOT / 'work').mkdir(exist_ok=True)
+    with tempfile.TemporaryDirectory(prefix='checks-', dir=ROOT / 'work') as temporary:
+        environment.update(TMP=temporary, TEMP=temporary, TMPDIR=temporary)
+        for label, arguments in steps:
+            print(f'Checking {label.lower()}...', flush=True)
+            result = subprocess.run((sys.executable, *arguments), cwd=ROOT, env=environment)
+            if result.returncode:
+                print(f'{label} failed.', file=sys.stderr)
+                return result.returncode
     print('All repository checks passed. Scientific claims require their own review.')
     return 0
 
