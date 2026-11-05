@@ -497,14 +497,14 @@
   {
     "problem_id": "Q-FORMAL-104",
     "statement_check": "source_located",
-    "status_check": "source_report_only",
-    "source_date_note": "Recorded source years: SRC-FORMAL-104: 2020, SRC-FORMAL-105: 2021, SRC-FORMAL-106: 2026. The last-checked date records the scope described in the status basis; it is not a comprehensive literature-search date.",
+    "status_check": "later_literature_checked",
+    "source_date_note": "Primary passages from 2021, August 2026 and October 2026 were compared on 2026-11-05; see LC-Q-FORMAL-104-20261105 for scope and limits.",
     "missing_information": [
       "Establish whether a proposed finite family or density has already been classified.",
       "Determine nonlinear behavior separately whenever the reduced Jacobian is singular.",
-      "Refresh lower-bound constructions before any bound-improvement claim; no historical lower bound is designated current."
+      "Compare proposed improvements with SRC-FORMAL-620 and subsequent work; independently review its proof and obtain the supporting scripts before claiming a reproduction."
     ],
-    "scope_note": "Use the full card for assumptions and validation limits."
+    "scope_note": "The original almost-everywhere dynamical target is unchanged. A result about local minima alone does not resolve it."
   },
   {
     "problem_id": "Q-FORMAL-105",

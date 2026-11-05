@@ -12,8 +12,8 @@ The atlas contributes an organized research directory: original summaries, subje
 | --- | --- |
 | [Subject directory](README.md) | 16 main domains and 113 subjects and subfields |
 | [Problem index](candidates.md) | 552 identified questions, including 45 full cards |
-| [Sources](sources.md) | 399 bibliographic and research-entry records |
-| [Literature checks](literature-checks.md) | 388 dated checks, with findings and limitations |
+| [Sources](sources.md) | 401 bibliographic and research-entry records |
+| [Literature checks](literature-checks.md) | 389 dated checks, with findings and limitations |
 
 ## Research findings
 
@@ -31,4 +31,4 @@ A scoped acceptance does not establish novelty or all aspects of correctness. Co
 
 ## Contribute
 
-[Propose or correct an entry](../templates/entry-change.md), [report an attempt](../templates/research-update.md), or [review a claim](../templates/review.md). Give the problem ID, exact target, contributor roles, supporting evidence and remaining limits. Follow the [contribution terms](../CONTRIBUTING.md).
+Use a [contribution form](../CONTRIBUTING.md#choose-a-contribution) to suggest a correction, share research or review a claim. Write in ordinary prose, identify the entry and link your evidence. A maintainer handles the structured records.

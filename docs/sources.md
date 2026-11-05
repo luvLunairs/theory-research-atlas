@@ -396,6 +396,8 @@ Find literature by [domain](README.md), or scan the complete directory below. **
 | [Homomorphism Indistinguishability, Multiplicity Automata Equivalence, and Polynomial Identity Testing](sources.md#src-impact-013) | Research entry | 2026 |
 | [Independence in Algebraic Complexity Theory](sources.md#src-impact-014) | Research entry | 2013 |
 | [Near-Optimal Bootstrapping of Hitting Sets for Algebraic Models](sources.md#src-impact-015) | Research entry | 2023 |
+| [Graphs with connectivity 3/4 - epsilon are globally synchronizing](sources.md#src-formal-619) | Research entry | 2026 |
+| [Beyond 11/16: dense Kuramoto networks that resist synchrony](sources.md#src-formal-620) | Research entry | 2026 |
 
 ## Classification references
 
@@ -14065,6 +14067,72 @@ No candidate has been extracted from this entry yet.
 **Indexed tasks using this source**
 
 - [Deterministic polynomial-time identity testing for general arithmetic circuits](cards/Q-FORMAL-010.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-formal-619"></a>
+
+<details>
+<summary>SRC-FORMAL-619 · Graphs with connectivity 3/4 - epsilon are globally synchronizing</summary>
+
+[Graphs with connectivity 3/4 - epsilon are globally synchronizing](https://arxiv.org/html/2608.20010v1)
+
+**Authors / responsible organization:** Saba Lepsveridze; Sam Zhang.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-11-05.
+
+**Type:** Primary research preprint, version 1. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** 20 August 2026; Section 1, footnote 1, Theorem 1 and Section 6, Remark 1
+
+**Supports**
+
+- A reported disproof of local-minimum sharpness; the dynamical extension is explicitly deferred.
+
+**Limits:** Primary claim only; proof correctness and independent acceptance were not assessed.
+
+**Related subjects:** [Dynamics on networks and collective behavior](domains/net.md#net-dynamics), [Dynamical systems and ergodic theory](domains/math.md#math-dyn), [Extremal and Ramsey theory](domains/math.md#math-comb-ext).
+
+**Connection to these subjects:** Inspected statements address homogeneous oscillator dynamics and graph-density thresholds.
+
+**Indexed tasks using this source**
+
+- [Determine the sharp connectivity threshold for homogeneous Kuramoto synchronization](cards/Q-FORMAL-104.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-formal-620"></a>
+
+<details>
+<summary>SRC-FORMAL-620 · Beyond 11/16: dense Kuramoto networks that resist synchrony</summary>
+
+[Beyond 11/16: dense Kuramoto networks that resist synchrony](https://arxiv.org/html/2610.21271v1)
+
+**Authors / responsible organization:** Kevin P. O'Keeffe.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-11-05.
+
+**Type:** Primary research preprint, version 1. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** 15 October 2026; Section I, equations (2)–(3), footnotes 1–2; Section V, Theorem 1, Proposition 1 and Lemmas 1–2
+
+**Supports**
+
+- A reported improved lower bound and an explicit distinction between the two threshold definitions.
+
+**Limits:** Proofs and interval certificates were not independently checked; the cited scripts were not obtained or run.
+
+**Related subjects:** [Dynamics on networks and collective behavior](domains/net.md#net-dynamics), [Dynamical systems and ergodic theory](domains/math.md#math-dyn), [Extremal and Ramsey theory](domains/math.md#math-comb-ext).
+
+**Connection to these subjects:** Inspected statements address homogeneous oscillator dynamics and graph-density thresholds.
+
+**Indexed tasks using this source**
+
+- [Determine the sharp connectivity threshold for homogeneous Kuramoto synchronization](cards/Q-FORMAL-104.md)
 
 [Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
 

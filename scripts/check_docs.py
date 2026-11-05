@@ -2,6 +2,7 @@
 
 Temporary files, Git metadata and Python caches are excluded from these checks.
 """
+import os
 import re
 import sys
 from functools import lru_cache
@@ -12,6 +13,16 @@ ROOT=Path(__file__).resolve().parents[1]
 SKIP={'work','.git','__pycache__'}
 REPOSITORY_PATH='/luvLunairs/theory-research-atlas'
 def included(p): return not (set(p.relative_to(ROOT).parts)&SKIP)
+
+def documentation_files():
+    """Walk checked directories without entering temporary or metadata trees."""
+    def raise_error(error):
+        raise error
+
+    for directory, subdirectories, filenames in os.walk(ROOT, topdown=True, onerror=raise_error):
+        subdirectories[:] = [name for name in subdirectories if name not in SKIP]
+        for name in filenames:
+            yield Path(directory) / name
 
 def markdown_targets(text):
     clean = re.sub(r'```.*?```', '', text, flags=re.S)
@@ -127,7 +138,7 @@ def repository_link_errors(relative, target, root=None):
 
 def main():
     errors=[]; link_count=0; file_count=0
-    for path in ROOT.rglob('*'):
+    for path in documentation_files():
         if not path.is_file() or not included(path) or path.suffix not in {'.md','.json','.py','.cff','.yml','.yaml','.txt'}: continue
         file_count+=1; text=path.read_text(encoding='utf-8')
         if re.search(r'\ue200|turn\d+(?:search|view|fetch)\d+',text): errors.append(f'{path.relative_to(ROOT)}: unresolved citation reference')

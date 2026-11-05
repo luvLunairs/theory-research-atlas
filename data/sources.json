@@ -9170,5 +9170,52 @@
     ],
     "limitations": "Used for problem formulation; bootstrapping proofs were not independently checked and the paper is not a 2026 status survey.",
     "role": "research_entry"
+  },
+  {
+    "id": "SRC-FORMAL-619",
+    "title": "Graphs with connectivity 3/4 - epsilon are globally synchronizing",
+    "authors": [
+      "Saba Lepsveridze",
+      "Sam Zhang"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/html/2608.20010v1",
+    "source_type": "Primary research preprint, version 1",
+    "domains": [
+      "Network dynamics",
+      "Nonlinear dynamics",
+      "Extremal graph theory"
+    ],
+    "locator": "20 August 2026; Section 1, footnote 1, Theorem 1 and Section 6, Remark 1",
+    "accessed": "2026-11-05",
+    "verification": "opened",
+    "supports": [
+      "A reported disproof of local-minimum sharpness; the dynamical extension is explicitly deferred."
+    ],
+    "limitations": "Primary claim only; proof correctness and independent acceptance were not assessed.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-FORMAL-620",
+    "title": "Beyond 11/16: dense Kuramoto networks that resist synchrony",
+    "authors": [
+      "Kevin P. O'Keeffe"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/html/2610.21271v1",
+    "source_type": "Primary research preprint, version 1",
+    "domains": [
+      "Network dynamics",
+      "Nonlinear dynamics",
+      "Extremal graph theory"
+    ],
+    "locator": "15 October 2026; Section I, equations (2)–(3), footnotes 1–2; Section V, Theorem 1, Proposition 1 and Lemmas 1–2",
+    "accessed": "2026-11-05",
+    "verification": "opened",
+    "supports": [
+      "A reported improved lower bound and an explicit distinction between the two threshold definitions."
+    ],
+    "limitations": "Proofs and interval certificates were not independently checked; the cited scripts were not obtained or run.",
+    "role": "research_entry"
   }
 ]

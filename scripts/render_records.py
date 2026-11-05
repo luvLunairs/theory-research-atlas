@@ -136,7 +136,7 @@ def render_records(dataset, root=ROOT):
              'Every candidate can receive a research record; a full card is optional.\n\n')
     text += '[Machine verification records](verifications.md) track certificate checks separately; they do not add research findings or human review verdicts.\n\n'
     text += '## Contribute\n\n'
-    text += '[Propose or correct an entry](../templates/entry-change.md), [report an attempt](../templates/research-update.md), or [review a claim](../templates/review.md). '
-    text += 'Give the problem ID, exact target, contributor roles, supporting evidence and remaining limits. Follow the [contribution terms](../CONTRIBUTING.md).\n'
+    text += 'Use a [contribution form](../CONTRIBUTING.md#choose-a-contribution) to suggest a correction, share research or review a claim. '
+    text += 'Write in ordinary prose, identify the entry and link your evidence. A maintainer handles the structured records.\n'
     out['docs/results.md'] = text
     return out

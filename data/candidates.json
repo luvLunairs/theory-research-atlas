@@ -1323,12 +1323,14 @@
     "source_ids": [
       "SRC-FORMAL-104",
       "SRC-FORMAL-105",
-      "SRC-FORMAL-106"
+      "SRC-FORMAL-106",
+      "SRC-FORMAL-619",
+      "SRC-FORMAL-620"
     ],
-    "source_locator": "Kassabov et al., abstract and Sections I, VI; McRae (2026 v2), Section 3.4.3",
+    "source_locator": "Kassabov et al., abstract and Sections I, VI; McRae (2026 v2), Section 3.4.3; Lepsveridze and Zhang (2026), Theorem 1, footnote 1 and Remark 1; O'Keeffe (2026), Section I, footnotes 1–2 and Theorem 1",
     "status": "source_reports_open",
-    "status_basis": "The 2021 paper proves the upper bound; the August 2026 follow-up still calls sharpness conjectural. Targeted later-work searches found no resolution. This is a dated source-supported status, not an exhaustive novelty audit. No historical lower bound is asserted as current.",
-    "last_checked": "2026-10-14",
+    "status_basis": "The dynamical 3/4 conjecture remains source-reported open. Later papers distinguish it from a local-minimum conjecture and report new bounds; see the dated literature check. These preprint claims have not received independent review here.",
+    "last_checked": "2026-11-05",
     "curator_origin": false,
     "duplicate_key": "kuramoto-critical-connectivity-three-quarters",
     "proposed_card": true,

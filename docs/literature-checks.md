@@ -4,11 +4,11 @@
 
 Each check records what was read, which formulation was compared, and what remains uncertain. A statement-only check does not establish present-day open status. A reported resolution is attributed to its source; it does not mean this project has independently verified the proof. Human review remains separate.
 
-**377 distinct questions · 388 dated literature checks.** Latest-check counts appear below; earlier findings remain in each question's history.
+**378 distinct questions · 389 dated literature checks.** Latest-check counts appear below; earlier findings remain in each question's history.
 
 | Latest check coverage | Questions |
 | --- | --- |
-| Statement and later literature | 105 |
+| Statement and later literature | 106 |
 | Statement only | 266 |
 | Access limited | 6 |
 
@@ -17,7 +17,7 @@ Each check records what was read, which formulation was compared, and what remai
 | Disproved | 1 |
 | Open after scoped check | 5 |
 | Reported resolved | 5 |
-| Source reports open | 135 |
+| Source reports open | 136 |
 | Unverified | 231 |
 
 ## Resolutions and counterexamples to review
@@ -444,6 +444,7 @@ Read the source comparison before reusing these formulations.
 
 | Question and evidence | Date | Coverage | Statement | Status |
 | --- | --- | --- | --- | --- |
+| [Q-FORMAL-104 · Determine the sharp connectivity threshold for homogeneous Kuramoto synchronization](candidates/Q-FORMAL-104.md#literature-checks) | 2026-11-05 | Statement and later literature | Matched | Source reports open |
 | [Q-CROSS-438 · A solvable congestion-fragmentation model](candidates/Q-CROSS-438.md#literature-checks) | 2026-10-14 | Statement and later literature | Matched | Unverified |
 
 ## Earth, climate and environmental theory
