@@ -10,26 +10,26 @@ Determine whether a finite-dimensional bipartite entangled quantum state can hav
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Source reports open. **Last checked:** 2026-10-20.
+**Current status:** Source reports open. **Last checked:** 2026-11-06.
 
-**Status basis:** The inspected 2026 papers retain the all-copy NPT bound-entanglement question. Two-copy solution claims, three-copy sector results and an unreviewed d=3 three-copy candidate do not settle it. A focused update search on 2026-10-20 found no resolution of the stated all-copy target; this is not an exhaustive search or independent proof review.
+**Status basis:** The latest inspected author report still describes all-copy NPT bound entanglement as open. Its three-copy claim does not supply one fixed NPT state undistillable for every finite copy number.
 
 **Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** Original question: 2022. The update inspected the 5 October 2026 Fu–Gao–Park revision, the July three-copy paper and the 4 October qutrit candidate description.
+**Source date and freshness:** The dated literature check records the exact source versions inspected on 2026-11-06.
 
 **Scope limits:** The target requires one fixed NPT state to remain undistillable for every finite copy number. Q-MODEL-493 records a three-copy endpoint question; proving it would not resolve the all-copy target.
 
 **Information still needed**
 
-- Independent specialist review of recent finite-copy proofs and claims.
-- A concrete all-copy approach, with resource and verification requirements.
+- A single fixed NPT state must satisfy the undistillability condition for every finite copy count.
+- Independent evaluation of finite-copy claims does not by itself settle the all-copy target.
 
 **Primary branch:** [Quantum information theory](../domains/info.md#info-quant). **Related branches:** [Quantum theory and foundations](../domains/phys.md#phys-quant), [Functional and operator analysis](../domains/math.md#math-anal-func).
 
-**Sources:** [Five Open Problems in Quantum Information Theory](../sources.md#src-model-018); [On the two-copy distillability of Werner states and a new partial trace inequality](../sources.md#src-model-019); [A solution to 2-copy distillability of Werner states](../sources.md#src-formal-604); [Sharp Plücker Geometry for Three-Copy Werner Distillation](../sources.md#src-phys-011); [Three-copy undistillability of the boundary qutrit Werner state](../sources.md#src-phys-012).
+**Sources:** [Five Open Problems in Quantum Information Theory](../sources.md#src-model-018); [On the two-copy distillability of Werner states and a new partial trace inequality](../sources.md#src-model-019); [A solution to 2-copy distillability of Werner states](../sources.md#src-formal-604); [Sharp Plücker Geometry for Three-Copy Werner Distillation](../sources.md#src-phys-011); [Three-copy undistillability of the boundary qutrit Werner state](../sources.md#src-phys-012); [Undistillability of Werner states from three, four and five copies](../sources.md#src-phys-707).
 
-**Exact locator:** PRX Quantum Problem 4; Fu–Gao–Park v3, introduction and section 4; Wu–Zou v1, section 1.1 and Discussion; Zenodo qutrit candidate description.
+**Exact locator:** Horodecki et al., Problem 1; existing finite-copy sources; Tomar, author landing-page abstract and PDF introduction.
 
 **Potential difficulty:** Unknown. No separate difficulty review of this exact statement is recorded. Its origin or current status does not establish tractability.
 
@@ -46,6 +46,35 @@ Determine whether a finite-dimensional bipartite entangled quantum state can hav
 ## Literature checks
 
 These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-06
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Source reports open → Source reports open.
+
+Retain the all-copy question separately from the newly claimed finite-copy results.
+
+**Search scope:** Targeted web searches through 2026-11-06 and inspection of the listed primary statements or survey passages. This is not an exhaustive literature or acceptance audit.
+
+**Inspected evidence**
+
+- [Undistillability of Werner states from three, four and five copies](../sources.md#src-phys-707) — Author landing-page abstract; PDF introduction. The new finite-copy claims leave the all-copy question explicitly separate.
+
+**Limits and remaining work**
+
+- A single fixed NPT state must satisfy the undistillability condition for every finite copy count.
+- Independent evaluation of finite-copy claims does not by itself settle the all-copy target.
+- No independent proof review or certificate execution was performed.
+
+<details>
+<summary>Search queries</summary>
+
+- "NPT bound entanglement" "2026" solved
+- "three-copy" "Werner" "2026" November
+
+
+</details>
 
 ### 2026-10-20
 

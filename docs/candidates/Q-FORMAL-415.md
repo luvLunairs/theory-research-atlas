@@ -10,25 +10,26 @@ For every finite point set in R^3 with no four coplanar, is its tetrahedralizati
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Unverified. **Last checked:** 2026-10-14.
+**Current status:** Source reports open. **Last checked:** 2026-11-06.
 
-**Status basis:** The inspected source poses this question. A comprehensive search for later resolutions has not been completed; current openness is not asserted.
+**Status basis:** TOPP's 2008 entry reports the general fixed-point Euclidean question as open. Khoury's September 2026 preprint reports connectivity for four through eight points. Benway's October 2026 revision concerns cusped hyperbolic manifolds, a different setting. An accepted resolution for arbitrary finite Euclidean point sets was not established.
 
-**Statement check:** Source located. **Status check:** Source report only.
+**Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** Latest displayed substantive revision: 2008.
+**Source date and freshness:** TOPP revision: 22 December 2008; Khoury version 1: 13 September 2026; Benway version 2: 19 October 2026.
 
-**Scope limits:** This is a source-defined research question, not a claim that a solution or a manageable research route is known.
+**Scope limits:** All points and coordinates remain fixed, with only geometric 2-to-3 and 3-to-2 moves. Hyperbolic ideal triangulations and abstract topological triangulations have different hypotheses.
 
 **Information still needed**
 
-- Later geometric results, distinguished from topological complexes and regular triangulations.
+- Independent assessment of Khoury's eight-point result and any later revisions.
+- Further results for arbitrary finite Euclidean point sets, beyond the inspected small-cardinality case.
 
 **Primary branch:** [Computational geometry and topology](../domains/cs.md#cs-geom). **Related branches:** None recorded.
 
-**Sources:** [The Open Problems Project: Problem 28](../sources.md#src-formal-415).
+**Sources:** [The Open Problems Project: Problem 28](../sources.md#src-formal-415); [On Isolated Geometric Triangulations](../sources.md#src-math-702); [Flip Graphs for Eight Points in Three Dimensions Are Connected](../sources.md#src-math-705).
 
-**Exact locator:** TOPP Problem 28: Statement; Partial and Related Results
+**Exact locator:** TOPP Problem 28: Statement and Partial and Related Results; Khoury (2026), Theorem 1; Benway, version 2 (2026), Section 1 and Corollary 4.2
 
 **Potential difficulty:** Unknown. The source identifies an unresolved research target; its present difficulty has not been independently assessed.
 
@@ -40,11 +41,43 @@ For every finite point set in R^3 with no four coplanar, is its tetrahedralizati
 
 **Assessment:** 2026-10-14; untested forecast. **Uncertainty:** No model has been tested. Current status, useful subcases and feasible computational scale require further review.
 
-**Further work:** resolve the statement and status questions above before planning an attempt. **Human review:** Pending.
+**Further work:** define a scoped target, resource requirements and a verification plan before developing a full card. **Human review:** Pending.
 
 ## Literature checks
 
 These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-06
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Unverified → Source reports open.
+
+Add the directly relevant eight-point claim and distinguish the hyperbolic result. Retain the historical source-reported open status for the general Euclidean target.
+
+**Search scope:** Checked TOPP's point-set formulation, a new small-cardinality preprint, and a similarly named hyperbolic result; inspected arXiv version histories and searched for updates.
+
+**Inspected evidence**
+
+- [The Open Problems Project: Problem 28](../sources.md#src-formal-415) — Statement; Partial and Related Results. Asks about arbitrary general-position Euclidean point sets, while distinguishing regular and topological cases.
+- [Flip Graphs for Eight Points in Three Dimensions Are Connected](../sources.md#src-math-705) — Theorem 1; Section 1.1. Claims fixed-coordinate, full-vertex connectivity only for four through eight points, without Steiner points or 1-to-4 moves.
+- [On Isolated Geometric Triangulations](../sources.md#src-math-702) — Section 1; Theorem 3.4 and Corollary 4.2. The reported disconnected graphs are for ideal triangulations of cusped hyperbolic 3-manifolds.
+
+**Limits and remaining work**
+
+- The recent preprint's proof and acceptance were not independently checked.
+- The search does not establish a complete current bibliography for arbitrary point counts.
+- Human review remains pending.
+
+<details>
+<summary>Search queries</summary>
+
+- tetrahedralizations "flip graph" "disconnected" "2025"
+- "tetrahedralizations" "flip graph" connected 2026
+- "2609.14797" correction OR revised OR theorem
+
+
+</details>
 
 ### 2026-10-14
 

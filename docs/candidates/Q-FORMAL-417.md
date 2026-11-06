@@ -10,25 +10,26 @@ Let r(n,k) be the least positive absolute difference between two sums of k squar
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Unverified. **Last checked:** 2026-10-14.
+**Current status:** Open after scoped check. **Last checked:** 2026-11-06.
 
-**Status basis:** The inspected source poses this question. A comprehensive search for later resolutions has not been completed; current openness is not asserted.
+**Status basis:** The 2024 paper retains the separation problem and gives an improved fixed-radicand bound with an ineffective constant. The September 2026 preprint reports an explicit improvement whose exponent still grows exponentially with the number of independent radicals. The scoped search found no accepted uniform polynomial separation bound or disproof.
 
-**Statement check:** Source located. **Status check:** Source report only.
+**Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** Latest displayed substantive revision: 2009.
+**Source date and freshness:** TOPP revision: 9 September 2009; SoCG paper: 6 June 2024; inspected arXiv version 2: 21 September 2026.
 
-**Scope limits:** This is a source-defined research question, not a claim that a solution or a manageable research route is known.
+**Scope limits:** The target is uniform in both k and the radicand bound n. Fixed-radicand constants are insufficient; the 2026 theorem has explicit independence and coefficient hypotheses. A negative separation answer would not by itself rule out every polynomial-time sign algorithm.
 
 **Information still needed**
 
-- Later separation bounds; a negative answer would not exclude all polynomial-time sign algorithms.
+- Later uniform separation improvements or counterexamples outside the scoped search.
+- Independent assessment of the 2026 preprint and any subsequent revisions.
 
 **Primary branch:** [Computational geometry and topology](../domains/cs.md#cs-geom). **Related branches:** None recorded.
 
-**Sources:** [The Open Problems Project: Problem 33](../sources.md#src-formal-417).
+**Sources:** [The Open Problems Project: Problem 33](../sources.md#src-formal-417); [An Improved Bound on Sums of Square Roots via the Subspace Theorem](../sources.md#src-math-703); [Quantitative linear independence for square roots](../sources.md#src-math-704).
 
-**Exact locator:** TOPP Problem 33: Statement; Motivation
+**Exact locator:** TOPP Problem 33: Statement and Motivation; Eisenbrand et al. (2024), Theorem 6; Aymone et al., version 2 (2026), Theorem 1.1 and Corollary 1.2
 
 **Potential difficulty:** Unknown. The source identifies an unresolved research target; its present difficulty has not been independently assessed.
 
@@ -40,11 +41,44 @@ Let r(n,k) be the least positive absolute difference between two sums of k squar
 
 **Assessment:** 2026-10-14; untested forecast. **Uncertainty:** No model has been tested. Current status, useful subcases and feasible computational scale require further review.
 
-**Further work:** resolve the statement and status questions above before planning an attempt. **Human review:** Pending.
+**Further work:** define a scoped target, resource requirements and a verification plan before developing a full card. **Human review:** Pending.
 
 ## Literature checks
 
 These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-06
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Unverified → Open after scoped check.
+
+Retain the exact uniform separation question, add the newer bounds and their limitations, and record scoped openness rather than treating either improvement as a resolution.
+
+**Search scope:** Compared TOPP's uniform precision question with the full SoCG 2024 paper and the latest displayed arXiv version of the 2026 bound; checked theorem hypotheses, version history and targeted update queries.
+
+**Inspected evidence**
+
+- [The Open Problems Project: Problem 33](../sources.md#src-formal-417) — Statement; Motivation. Defines the uniform separation target and explains its relation, but not equivalence, to polynomial-time sign computation.
+- [An Improved Bound on Sums of Square Roots via the Subspace Theorem](../sources.md#src-math-703) — Section 1; Theorem 6, page 54:5. The improved bound contains a radicand-dependent constant; its value is not effective.
+- [Quantitative linear independence for square roots](../sources.md#src-math-704) — Theorem 1.1; Corollary 1.2; Proposition 2.2. The strengthened version assumes K >= 8 and nonzero coefficients, retains an exponential exponent, and supplies a weaker bound for smaller K.
+
+**Limits and remaining work**
+
+- No independent proof audit of the cited bounds.
+- The search cannot exclude additional or forthcoming results.
+- Human review remains pending.
+
+<details>
+<summary>Search queries</summary>
+
+- "square roots" "separation" "2026" sums
+- sum square roots separation bound 2025 2026 arxiv polynomial
+- "2609.14161" correction OR erratum OR revised
+- "Quantitative linear independence for square roots" correction
+
+
+</details>
 
 ### 2026-10-14
 

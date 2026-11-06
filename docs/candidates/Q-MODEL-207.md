@@ -10,37 +10,72 @@ Let G_n be uniform over simple labeled 3-regular graphs on n vertices, with n ev
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Source reports open. **Last checked:** 2026-10-14.
+**Current status:** Unverified. **Last checked:** 2026-11-06.
 
-**Status basis:** The 2025 collection poses the conjecture; the August 2026 paper still cites it as unresolved after sufficient-degree improvements. No later solution was located. This is an asymptotic random-graph question, not a claim about every cubic graph.
+**Status basis:** Later negative-resolution evidence has been located. Carvallo, Groisman and Mitsche announce nonsynchronization with probability bounded away from zero. An author-attributed Colbrook manuscript claims the stronger limit zero in the exact indexed graph model. The latter has recorded agent reviews but no external human acceptance established here; retain unverified pending specialist assessment.
 
-**Statement check:** Source located. **Status check:** Source report only.
+**Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** Recorded source years: SRC-MODEL-210: 2025, SRC-FORMAL-106: 2026. The last-checked date records the scope described in the status basis; it is not a comprehensive literature-search date.
+**Source date and freshness:** 2025 conjecture; 2026 conference abstract; Colbrook manuscript dated 11 September 2026.
 
-**Scope limits:** The statement and locator identify the candidate. A full assumption set and verification protocol remain to be documented.
+**Scope limits:** Keep the original probability limit and local-minimum statement. A finite nonsynchronized cubic graph alone would not refute an asymptotic high-probability assertion; the new sources make asymptotic claims.
 
 **Information still needed**
 
-- Specify the assumptions, candidate methods, resource requirements and independent verification steps for a concrete research task.
+- Locate the complete Carvallo-Groisman-Mitsche proof and confirm its graph distribution and stability definition.
+- Obtain independent specialist evaluation or scholarly acceptance of the exact-model Colbrook claim.
 
 **Primary branch:** [Dynamics on networks and collective behavior](../domains/net.md#net-dynamics). **Related branches:** [Dynamical systems and ergodic theory](../domains/math.md#math-dyn), [Discrete probability and random structures](../domains/prob.md#prob-discrete).
 
-**Sources:** [Randomstrasse101: Open Problems of 2024](../sources.md#src-model-210); [Benign landscapes for synchronization on spheres via normalized Laplacian matrices](../sources.md#src-formal-106).
+**Sources:** [Randomstrasse101: Open Problems of 2024](../sources.md#src-model-210); [Benign landscapes for synchronization on spheres via normalized Laplacian matrices](../sources.md#src-formal-106); [Random cubic graphs are not globally synchronizing with probability at least 1 - exp(-2)](../sources.md#src-model-704); [Random cubic graphs admit nonsynchronized stable Kuramoto equilibria](../sources.md#src-model-705).
 
-**Exact locator:** Randomstrasse101, Entry 2, Definition 2.1 and Conjecture 3; McRae, Section 3.4.4.
+**Exact locator:** Randomstrasse101, Entry 2, Definition 2.1 and Conjecture 3; Carvallo et al., 2026 conference abstract; Colbrook, Statement and scope, Theorem 1.
 
 **Potential difficulty:** Unknown. No separate difficulty review of this exact statement is recorded. Its origin or current status does not establish tractability.
 
-**Possible AI role:** A tool-using mathematical assistant could compare hypotheses, locate relevant results and propose a narrower proof, construction or counterexample task; a specialist must first select and check that task.
+**Possible AI role:** Compare the announced and manuscript targets with the original conjecture and assist a specialist review of the claimed asymptotic obstruction before proposing a fresh attack.
 
-**Verification burden:** Unknown. The statement and source need a task-specific proof or certificate plan before an attempt.
+**Verification burden:** High. Check the random simple labeled graph law, cycle-neighborhood and spectral assumptions, and the construction of genuine local minima modulo rotation. Neither numerical minima nor agent reviews establish independent acceptance.
 
 **Resource expectations:** No run estimate is available. Decide data, computation and experiment requirements after selecting a concrete approach.
 
-**Assessment:** 2026-10-14; untested forecast. **Uncertainty:** No named model has been evaluated on this target; AI usefulness and success probability remain unmeasured.
+**Assessment:** 2026-11-06; untested forecast. **Uncertainty:** The exact-model negative manuscript is a public claim whose external acceptance remains unverified. Its incomplete Lean work is not machine certification.
 
-**Further work:** define a scoped target, resource requirements and a verification plan before developing a full card. **Human review:** Pending.
+**Further work:** resolve the statement and status questions above before planning an attempt. **Human review:** Pending.
+
+## Literature checks
+
+These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-06
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Source reports open → Unverified.
+
+Later negative-resolution evidence has been located. Carvallo, Groisman and Mitsche announce nonsynchronization with probability bounded away from zero. An author-attributed Colbrook manuscript claims the stronger limit zero in the exact indexed graph model. The latter has recorded agent reviews but no external human acceptance established here; retain unverified pending specialist assessment.
+
+**Search scope:** Opened the official meeting abstract and PDF, the repository problem record, attributed manuscript source and submission record. Compared the manuscript Theorem 1 with the existing exact graph/phase target. No proof or supplementary checker was executed. Reopened the manuscript and submission record at commit 3017ea813328900a812c0c105ca16ad6f694857e; the fixed manuscript text exactly matched the previously inspected main-branch text.
+
+**Inspected evidence**
+
+- [Random cubic graphs are not globally synchronizing with probability at least 1 - exp(-2)](../sources.md#src-model-704) — One-page PDF, main paragraph. The PDF resolves the HTML encoding ambiguity: the announced nonsynchronization bound is 1-exp(-2).
+- [Random cubic graphs admit nonsynchronized stable Kuramoto equilibria](../sources.md#src-model-705) — Statement and scope, Theorem 1; submission README. The manuscript matches uniform simple labeled cubic graphs and all local minima; recorded agent review is explicitly not human peer review.
+
+**Limits and remaining work**
+
+- The meeting abstract is not a full proof. The manuscript is retained as a claim, not adopted as an independently established disproof.
+
+<details>
+<summary>Search queries</summary>
+
+- "random cubic graphs" synchronization 2026
+- "random cubic graphs" "Groisman"
+- "random cubic graphs" "globally synchronizing" Carvallo Mitsche arxiv
+- "random cubic graphs" "Carvallo" "2026"
+
+
+</details>
 
 <details>
 <summary>Structured records</summary>

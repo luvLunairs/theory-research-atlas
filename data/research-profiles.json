@@ -255,13 +255,13 @@
     "problem_id": "Q-FORMAL-012",
     "difficulty": "unknown",
     "difficulty_basis": "No separate difficulty review of this exact statement is recorded. Its origin or current status does not establish tractability.",
-    "ai_role": "A tool-using mathematical assistant could compare hypotheses, locate relevant results and propose a narrower proof, construction or counterexample task; a specialist must first select and check that task.",
-    "verification_burden": "unknown",
-    "verification_basis": "The statement and source need a task-specific proof or certificate plan before an attempt.",
+    "ai_role": "Compare admissibility orders and known conditional-null classes before proposing a new theorem. A useful narrower target must go beyond the characterized bounded-mean case.",
+    "verification_burden": "high",
+    "verification_basis": "Verify the null class, filtration, measurability and strict-domination convention. A complete-class result alone does not identify the minimal class of admissible processes.",
     "resource_expectation": "No run estimate is available. Decide data, computation and experiment requirements after selecting a concrete approach.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-06",
     "evidence_level": "untested_forecast",
-    "uncertainty": "No named model has been evaluated on this target; AI usefulness and success probability remain unmeasured."
+    "uncertainty": "The candidate remains a broad literature question. The cited partial results do not establish a comprehensive 2026 classification."
   },
   {
     "problem_id": "Q-MODEL-001",
@@ -339,11 +339,11 @@
     "problem_id": "Q-MODEL-007",
     "difficulty": "unknown",
     "difficulty_basis": "No separate difficulty review of this exact statement is recorded. Its origin or current status does not establish tractability.",
-    "ai_role": "A tool-using mathematical assistant could compare hypotheses, locate relevant results and propose a narrower proof, construction or counterexample task; a specialist must first select and check that task.",
+    "ai_role": "The new nonexistence claim should be assessed before attempting a new construction. Literature comparison and certificate inspection may be useful preparation.",
     "verification_burden": "unknown",
     "verification_basis": "The statement and source need a task-specific proof or certificate plan before an attempt.",
     "resource_expectation": "No run estimate is available. Decide data, computation and experiment requirements after selecting a concrete approach.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-06",
     "evidence_level": "untested_forecast",
     "uncertainty": "No named model has been evaluated on this target; AI usefulness and success probability remain unmeasured."
   },
@@ -999,13 +999,13 @@
     "problem_id": "Q-MODEL-207",
     "difficulty": "unknown",
     "difficulty_basis": "No separate difficulty review of this exact statement is recorded. Its origin or current status does not establish tractability.",
-    "ai_role": "A tool-using mathematical assistant could compare hypotheses, locate relevant results and propose a narrower proof, construction or counterexample task; a specialist must first select and check that task.",
-    "verification_burden": "unknown",
-    "verification_basis": "The statement and source need a task-specific proof or certificate plan before an attempt.",
+    "ai_role": "Compare the announced and manuscript targets with the original conjecture and assist a specialist review of the claimed asymptotic obstruction before proposing a fresh attack.",
+    "verification_burden": "high",
+    "verification_basis": "Check the random simple labeled graph law, cycle-neighborhood and spectral assumptions, and the construction of genuine local minima modulo rotation. Neither numerical minima nor agent reviews establish independent acceptance.",
     "resource_expectation": "No run estimate is available. Decide data, computation and experiment requirements after selecting a concrete approach.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-06",
     "evidence_level": "untested_forecast",
-    "uncertainty": "No named model has been evaluated on this target; AI usefulness and success probability remain unmeasured."
+    "uncertainty": "The exact-model negative manuscript is a public claim whose external acceptance remains unverified. Its incomplete Lean work is not machine certification."
   },
   {
     "problem_id": "Q-MODEL-208",
@@ -2213,11 +2213,11 @@
     "difficulty_basis": "The general formulation requires specialist control or operator theory, and local computations do not settle the universal claim.",
     "ai_role": "AI could compare converse-stability constructions and search counterexamples to candidate smoothness assumptions. This assumes a system capable of reading the relevant literature, writing reproducible code and exposing its calculations for specialist review.",
     "verification_burden": "high",
-    "verification_basis": "Check all hypotheses, global quantifiers and any exact certificates independently; simulated stability alone is insufficient.",
+    "verification_basis": "Check necessity and sufficiency for the stated input, error and measurement channels; preserve forward completeness and distinguish nonsmooth partial characterizations from a smooth general result.",
     "resource_expectation": "No physical experiment or observational dataset is needed for the mathematical claim. Symbolic work and small simulations can start on ordinary hardware; general certification or global optimization may be expensive and has not been budgeted.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-06",
     "evidence_level": "untested_forecast",
-    "uncertainty": "No model-specific attempt has been run. Later results, a more precise formulation and expert assessment may substantially change difficulty and relevance."
+    "uncertainty": "The current resolution status remains unverified; historical partial results do not by themselves settle the full IMES target."
   },
   {
     "problem_id": "Q-CROSS-409",
@@ -4623,25 +4623,25 @@
     "problem_id": "Q-FORMAL-437",
     "difficulty": "unknown",
     "difficulty_basis": "The source identifies an unresolved research target; its present difficulty has not been independently assessed.",
-    "ai_role": "After the statistical model is recovered, help manipulate risk bounds, compare lower-bound constructions and design simulations that challenge proposed assumptions. Simulation does not establish minimax optimality.",
+    "ai_role": "Compare the remaining weighted-budget cells against the cited frontier, or examine unweighted selection after a separate status check. Preserve rank and minimum-norm conventions in symbolic examples.",
     "verification_burden": "high",
     "verification_basis": "Upper and lower bounds must use identical distribution classes, loss, privacy or oracle conditions and quantifiers; statistical counterexamples need exact arguments.",
     "resource_expectation": "The formal target needs no new physical experiment. Simulations may use synthetic samples; necessary sample counts and computational costs have not been estimated.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-06",
     "evidence_level": "untested_forecast",
-    "uncertainty": "No model has been tested. Current status, useful subcases and feasible computational scale require further review."
+    "uncertainty": "Recent preprints provide partial results, not a verified solution of every original case. Their claimed exact or Lean checks were not rerun."
   },
   {
     "problem_id": "Q-FORMAL-438",
     "difficulty": "unknown",
-    "difficulty_basis": "The source identifies an unresolved research target; its present difficulty has not been independently assessed.",
-    "ai_role": "After the statistical model is recovered, help manipulate risk bounds, compare lower-bound constructions and design simulations that challenge proposed assumptions. Simulation does not establish minimax optimality.",
+    "difficulty_basis": "The historical question now has a sourced affirmative resolution; original-research difficulty is no longer the appropriate selection criterion.",
+    "ai_role": "Compare or reproduce the published estimators and proofs; identify any extension separately from this resolved target.",
     "verification_burden": "high",
     "verification_basis": "Upper and lower bounds must use identical distribution classes, loss, privacy or oracle conditions and quantifiers; statistical counterexamples need exact arguments.",
     "resource_expectation": "The formal target needs no new physical experiment. Simulations may use synthetic samples; necessary sample counts and computational costs have not been estimated.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-06",
     "evidence_level": "untested_forecast",
-    "uncertainty": "No model has been tested. Current status, useful subcases and feasible computational scale require further review."
+    "uncertainty": "No project model experiment or independent proof audit was performed. Bibliographic resolution does not certify implementation correctness."
   },
   {
     "problem_id": "Q-FORMAL-439",
@@ -5846,14 +5846,14 @@
   {
     "problem_id": "Q-MODEL-434",
     "difficulty": "high",
-    "difficulty_basis": "The target quantifies over unrestricted approval profiles or asks for a general algorithmic guarantee.",
-    "ai_role": "A directly relevant resolution claim exists. AI could assist specialist comparison of definitions, dependencies and proof steps; reviewing the claim takes priority over treating the target as untouched.",
+    "difficulty_basis": "The historical algorithm-existence question has a sourced affirmative resolution; it should no longer be presented as an untouched research target.",
+    "ai_role": "Reproduce the published rules, compare FJR and FJR+ guarantees, or identify a separately stated extension with its own novelty check.",
     "verification_burden": "high",
     "verification_basis": "Independent expert review of the claim is needed. Abstracts, model confidence, producer checks and publication metadata alone do not verify a proof.",
     "resource_expectation": "Exact small-election searches may use SAT or integer programming on a workstation. Exhaustive instance size grows quickly; general claims require proofs or independently checked counterexamples.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-06",
     "evidence_level": "untested_forecast",
-    "uncertainty": "No named model has been evaluated. This forecasts conditional assistance with literature and proof review, not measured capability or a probability that the claim is correct."
+    "uncertainty": "No algorithm was run and no independent proof certification was performed. The resolution label records matching literature and subsequent independent uptake."
   },
   {
     "problem_id": "Q-MODEL-435",
@@ -6151,9 +6151,9 @@
     "verification_burden": "high",
     "verification_basis": "Review gauge, initial-data class, causal and asymptotic definitions, regularity and PDE estimates. Numerical evolution is evidence within its discretization and cannot establish a generic continuum theorem.",
     "resource_expectation": "Special cases may permit symbolic analysis or workstation calculations. General nonlinear PDE results require expert proof review, and numerical-relativity exploration may require substantial computing.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-06",
     "evidence_level": "untested_forecast",
-    "uncertainty": "Vacuum and electrovacuum cases must be separated; later rigidity theorems and additional horizon hypotheses need review."
+    "uncertainty": "The recent analytic and axisymmetric claims do not establish general smooth uniqueness; the exact vacuum or electrovacuum formulation remains to be fixed."
   },
   {
     "problem_id": "Q-MODEL-460",
@@ -6578,13 +6578,13 @@
   {
     "problem_id": "Q-MODEL-493",
     "difficulty": "high",
-    "difficulty_basis": "Global nonconvex inequalities remain beyond the reported sectors.",
-    "ai_role": "The explicit algebra permits symbolic checks and candidate generation, but the unresolved nonnormal sector and recent claims require careful preparation. No model evaluated. Assumes tool-using AI able to inspect literature, manipulate mathematical expressions and retain reproducible calculations.",
+    "difficulty_basis": "The recent full-scope claim needs review; the previous description of remaining sectors is out of date.",
+    "ai_role": "Review and reproduction of the new claim take priority over treating this target as untouched. No model has been evaluated.",
     "verification_burden": "high",
     "verification_basis": "High for a general proof; an explicit small witness is more localized but still requires statement alignment.",
     "resource_expectation": "Experiment: None for the formal distillability question. Data: Source definitions and any future exact candidate coefficients. Computation: Unmeasured. At d=4 the coefficient matrix has 64 rows and columns; low-rank parameterization reduces storage but does not make global optimization easy. No runtime or cost is forecast. Assumptions: Standard finite-dimensional quantum mechanics and ideal LOCC; all stated complex vectors are allowed.",
-    "uncertainty": "No AI attempt measured; feasible search size and novelty of restrictions remain uncertain.",
-    "assessment_date": "2026-10-20",
+    "uncertainty": "No project AI attempt measured; correctness of the new claim and novelty of further work remain unresolved.",
+    "assessment_date": "2026-11-06",
     "evidence_level": "untested_forecast"
   },
   {

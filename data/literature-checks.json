@@ -10065,5 +10065,559 @@
       "The scoped search cannot exclude further results or corrections.",
       "Human review remains pending."
     ]
+  },
+  {
+    "id": "LC-Q-CROSS-408-20261106",
+    "problem_id": "Q-CROSS-408",
+    "checked_on": "2026-11-06",
+    "status_before": "unverified",
+    "status_after": "unverified",
+    "statement_assessment": "corrected",
+    "previous_statement": "Characterize input-measurement-to-error stability by a suitable, preferably smooth, Lyapunov function.",
+    "coverage": "statement_only",
+    "search_queries": [
+      "\"measurement-to-error stability\" \"Lyapunov\" characterization"
+    ],
+    "search_scope": "Reopened the original problem and the cited 2002 partial characterization to specify the model and avoid conflating IMES with MES or SIT.",
+    "evidence": [
+      {
+        "source_id": "SRC-CROSS-401",
+        "locator": "Problem 86, Sections 86.1-86.3, printed pp.95-97; inspected author-hosted copy at https://perso.uclouvain.be/vincent.blondel/op/opmtns.pdf",
+        "finding": "Defines IMES with separate input and measurement gains and asks for a Lyapunov characterization, smooth if possible."
+      },
+      {
+        "source_id": "SRC-CROSS-700",
+        "locator": "Abstract, Theorem 1 and Section 7",
+        "finding": "Provides partial nonsmooth results for MES/SIT with additional hypotheses, not the full input-dependent target."
+      }
+    ],
+    "conclusion": "Expanded the historical statement without changing the research target or claiming present openness.",
+    "limitations": [
+      "No comprehensive later-literature search or independent proof audit.",
+      "The distinction between the original IMES target and qualified MES/SIT results requires preservation in any future review."
+    ]
+  },
+  {
+    "id": "LC-Q-FORMAL-408-20261106",
+    "problem_id": "Q-FORMAL-408",
+    "checked_on": "2026-11-06",
+    "status_before": "unverified",
+    "status_after": "open_after_scoped_check",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "\"counting polygonalizations\" complexity",
+      "\"polygonalizations\" counting complexity 2026",
+      "\"counting polygonalizations\" polynomial 2025 2026"
+    ],
+    "search_scope": "Compared TOPP Problem 16 with two later journal articles and targeted web searches for counting complexity updates; distinguished counting, listing and monotone restrictions.",
+    "evidence": [
+      {
+        "source_id": "SRC-FORMAL-408",
+        "locator": "Statement; Status/Conjectures; 18 June 2025 revision",
+        "finding": "Poses the exact polynomial-time counting question and labels it open."
+      },
+      {
+        "source_id": "SRC-MATH-701",
+        "locator": "Abstract; Sections 1 and 6",
+        "finding": "Provides output-polynomial listing and discusses the unresolved exact-counting complexity."
+      },
+      {
+        "source_id": "SRC-MATH-706",
+        "locator": "Section 1, paragraphs after the contribution list",
+        "finding": "Explicitly retains general polygonalization counting as open and separates its monotone enumeration result."
+      }
+    ],
+    "conclusion": "The inspected later results do not resolve the retained exact counting question. Record scoped openness without equating an output-size bound with an input-size bound.",
+    "limitations": [
+      "The update search is not exhaustive.",
+      "No proof or algorithm was independently audited.",
+      "Human review remains pending."
+    ]
+  },
+  {
+    "id": "LC-Q-FORMAL-415-20261106",
+    "problem_id": "Q-FORMAL-415",
+    "checked_on": "2026-11-06",
+    "status_before": "unverified",
+    "status_after": "source_reports_open",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "tetrahedralizations \"flip graph\" \"disconnected\" \"2025\"",
+      "\"tetrahedralizations\" \"flip graph\" connected 2026",
+      "\"2609.14797\" correction OR revised OR theorem"
+    ],
+    "search_scope": "Checked TOPP's point-set formulation, a new small-cardinality preprint, and a similarly named hyperbolic result; inspected arXiv version histories and searched for updates.",
+    "evidence": [
+      {
+        "source_id": "SRC-FORMAL-415",
+        "locator": "Statement; Partial and Related Results",
+        "finding": "Asks about arbitrary general-position Euclidean point sets, while distinguishing regular and topological cases."
+      },
+      {
+        "source_id": "SRC-MATH-705",
+        "locator": "Theorem 1; Section 1.1",
+        "finding": "Claims fixed-coordinate, full-vertex connectivity only for four through eight points, without Steiner points or 1-to-4 moves."
+      },
+      {
+        "source_id": "SRC-MATH-702",
+        "locator": "Section 1; Theorem 3.4 and Corollary 4.2",
+        "finding": "The reported disconnected graphs are for ideal triangulations of cusped hyperbolic 3-manifolds."
+      }
+    ],
+    "conclusion": "Add the directly relevant eight-point claim and distinguish the hyperbolic result. Retain the historical source-reported open status for the general Euclidean target.",
+    "limitations": [
+      "The recent preprint's proof and acceptance were not independently checked.",
+      "The search does not establish a complete current bibliography for arbitrary point counts.",
+      "Human review remains pending."
+    ]
+  },
+  {
+    "id": "LC-Q-FORMAL-417-20261106",
+    "problem_id": "Q-FORMAL-417",
+    "checked_on": "2026-11-06",
+    "status_before": "unverified",
+    "status_after": "open_after_scoped_check",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "\"square roots\" \"separation\" \"2026\" sums",
+      "sum square roots separation bound 2025 2026 arxiv polynomial",
+      "\"2609.14161\" correction OR erratum OR revised",
+      "\"Quantitative linear independence for square roots\" correction"
+    ],
+    "search_scope": "Compared TOPP's uniform precision question with the full SoCG 2024 paper and the latest displayed arXiv version of the 2026 bound; checked theorem hypotheses, version history and targeted update queries.",
+    "evidence": [
+      {
+        "source_id": "SRC-FORMAL-417",
+        "locator": "Statement; Motivation",
+        "finding": "Defines the uniform separation target and explains its relation, but not equivalence, to polynomial-time sign computation."
+      },
+      {
+        "source_id": "SRC-MATH-703",
+        "locator": "Section 1; Theorem 6, page 54:5",
+        "finding": "The improved bound contains a radicand-dependent constant; its value is not effective."
+      },
+      {
+        "source_id": "SRC-MATH-704",
+        "locator": "Theorem 1.1; Corollary 1.2; Proposition 2.2",
+        "finding": "The strengthened version assumes K >= 8 and nonzero coefficients, retains an exponential exponent, and supplies a weaker bound for smaller K."
+      }
+    ],
+    "conclusion": "Retain the exact uniform separation question, add the newer bounds and their limitations, and record scoped openness rather than treating either improvement as a resolution.",
+    "limitations": [
+      "No independent proof audit of the cited bounds.",
+      "The search cannot exclude additional or forthcoming results.",
+      "Human review remains pending."
+    ]
+  },
+  {
+    "id": "LC-Q-FORMAL-420-20261106",
+    "problem_id": "Q-FORMAL-420",
+    "checked_on": "2026-11-06",
+    "status_before": "unverified",
+    "status_after": "unverified",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "\"X + Y\" sorting \"2026\"",
+      "\"2504.16393\" correction error sorting",
+      "\"2504.16393\" correction OR error OR sorting",
+      "\"sumsets\" \"Mundhra\" algorithm correction"
+    ],
+    "search_scope": "Compared the historical TOPP target with the 2025 preprint's algorithm and stated analysis; checked its arXiv version history and searched for corrections and independent assessment.",
+    "evidence": [
+      {
+        "source_id": "SRC-FORMAL-420",
+        "locator": "Statement; Partial and Related Results",
+        "finding": "Distinguishes quadratic comparisons from quadratic total running time."
+      },
+      {
+        "source_id": "SRC-MATH-700",
+        "locator": "Theorem 1; Algorithm 1; Theorem 15, Corollary 18 and Remark 19",
+        "finding": "Claims the exact time target and presents amortized comparison and container-cost arguments requiring independent assessment."
+      }
+    ],
+    "conclusion": "The later resolution claim changes the evidence that a researcher must examine. Keep the original target and unverified status until its correctness and acceptance can be assessed.",
+    "limitations": [
+      "No independent proof verdict, implementation replay or complexity certification.",
+      "No acceptance was established by this limited search; absence from the results is not evidence of rejection.",
+      "Human review remains pending."
+    ]
+  },
+  {
+    "id": "LC-Q-FORMAL-438-20261106",
+    "problem_id": "Q-FORMAL-438",
+    "checked_on": "2026-11-06",
+    "status_before": "source_reports_open",
+    "status_after": "resolved",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "\"one-bit mean estimation\" noninteractive 2026 Lau Scarlett",
+      "\"2609.08564\" correction OR erratum OR withdrawn"
+    ],
+    "search_scope": "Compared July Open Problem 1 with the August construction and September original-authors follow-up, including its parameter class, main theorem and acknowledgement of concurrent solutions. Targeted later-correction searches found no relevant correction within this scope.",
+    "evidence": [
+      {
+        "source_id": "SRC-FORMAL-611",
+        "locator": "Section 2, equation (1), Open Problem 1",
+        "finding": "Defines the unrestricted finite-central-moment target and adaptive benchmark."
+      },
+      {
+        "source_id": "SRC-MODEL-700",
+        "locator": "Abstract and Section 1.1",
+        "finding": "Reports an affirmative fully nonadaptive construction."
+      },
+      {
+        "source_id": "SRC-MODEL-701",
+        "locator": "Section 1.3; Theorem 1",
+        "finding": "The original problem authors acknowledge concurrent answers and establish the same minimax rates with queries fixed before all responses."
+      }
+    ],
+    "conclusion": "Resolved affirmatively in the subsequent literature: Lau and Scarlett give the matching nonadaptive theorem and explicitly recognize concurrent solutions, including Hu and Zhong. The acceptance basis is acknowledgement by the original problem authors and their own construction; this is not independent proof certification by the project.",
+    "limitations": [
+      "This records a sourced resolution, not a project proof review, implementation test or verified publication venue."
+    ]
+  },
+  {
+    "id": "LC-Q-FORMAL-437-20261106",
+    "problem_id": "Q-FORMAL-437",
+    "checked_on": "2026-11-06",
+    "status_before": "source_reports_open",
+    "status_after": "source_reports_open",
+    "statement_assessment": "corrected",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "\"Data Selection for ERMs\" regression 2026",
+      "\"Data Selection\" \"linear regression\" \"2026\" \"weighted\"",
+      "\"Data Selection for ERMs\" \"d<n\"",
+      "\"2608.28007\" correction OR erratum OR withdrawn",
+      "\"2610.00101\" correction OR erratum OR withdrawn"
+    ],
+    "search_scope": "Read the original regression theorem and open discussion, then compared two later primary preprints at their model definitions, theorem statements and remaining-frontier discussion. The correction searches located no matching retraction or erratum.",
+    "evidence": [
+      {
+        "source_id": "SRC-FORMAL-610",
+        "locator": "Theorem 9; Section 5",
+        "finding": "Retains separate weighted and unweighted models and the original endpoint conventions."
+      },
+      {
+        "source_id": "SRC-MODEL-702",
+        "locator": "Section 2, Theorems 2.1-2.3; Conjecture 7.2",
+        "finding": "Exact low-dimensional cells and the 2d-1 boundary improve the original weighted frontier."
+      },
+      {
+        "source_id": "SRC-MODEL-703",
+        "locator": "Section 2, Theorems 1-2 and paragraph after equation (5)",
+        "finding": "The upper-half law has a uniform-data lower bound; other budgets remain a stated target."
+      }
+    ],
+    "conclusion": "The broad question remains open in part. Subsequent preprints report exact weighted ratios at n=2d-1, (3,4), (4,5), (4,6), (5,6), and throughout ceil(3d/2)<=n<=2d-1. Thus the whole intermediate interval must not be described as untouched. The remaining intermediate budgets and unweighted training selection are distinct unresolved targets.",
+    "limitations": [
+      "No independent proof or Lean check was performed. The unweighted frontier was not comprehensively searched."
+    ],
+    "previous_statement": "Determine the worst-case full-data squared-loss ratio for scalar linear regression in R^d using the minimum-Euclidean-norm fit to n selected examples, in the source's weighted and unweighted selection models. Weighted selected losses are convex combinations; evaluation uses the original equally weighted dataset. Theorem 9 supplies several weighted regimes; the intermediate regime d<n<2d and the unweighted case discussed in Section 5 remain the source's unresolved parts. Apply its zero-denominator and support conventions."
+  },
+  {
+    "id": "LC-Q-MODEL-207-20261106",
+    "problem_id": "Q-MODEL-207",
+    "checked_on": "2026-11-06",
+    "status_before": "source_reports_open",
+    "status_after": "unverified",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "\"random cubic graphs\" synchronization 2026",
+      "\"random cubic graphs\" \"Groisman\"",
+      "\"random cubic graphs\" \"globally synchronizing\" Carvallo Mitsche arxiv",
+      "\"random cubic graphs\" \"Carvallo\" \"2026\""
+    ],
+    "search_scope": "Opened the official meeting abstract and PDF, the repository problem record, attributed manuscript source and submission record. Compared the manuscript Theorem 1 with the existing exact graph/phase target. No proof or supplementary checker was executed. Reopened the manuscript and submission record at commit 3017ea813328900a812c0c105ca16ad6f694857e; the fixed manuscript text exactly matched the previously inspected main-branch text.",
+    "evidence": [
+      {
+        "source_id": "SRC-MODEL-704",
+        "locator": "One-page PDF, main paragraph",
+        "finding": "The PDF resolves the HTML encoding ambiguity: the announced nonsynchronization bound is 1-exp(-2)."
+      },
+      {
+        "source_id": "SRC-MODEL-705",
+        "locator": "Statement and scope, Theorem 1; submission README",
+        "finding": "The manuscript matches uniform simple labeled cubic graphs and all local minima; recorded agent review is explicitly not human peer review."
+      }
+    ],
+    "conclusion": "Later negative-resolution evidence has been located. Carvallo, Groisman and Mitsche announce nonsynchronization with probability bounded away from zero. An author-attributed Colbrook manuscript claims the stronger limit zero in the exact indexed graph model. The latter has recorded agent reviews but no external human acceptance established here; retain unverified pending specialist assessment.",
+    "limitations": [
+      "The meeting abstract is not a full proof. The manuscript is retained as a claim, not adopted as an independently established disproof."
+    ]
+  },
+  {
+    "id": "LC-Q-MODEL-434-20261106",
+    "problem_id": "Q-MODEL-434",
+    "checked_on": "2026-11-06",
+    "status_before": "unverified",
+    "status_after": "resolved",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "\"full justified representation\" polynomial time 2026",
+      "\"full justified representation\" \"2026\" erratum OR counterexample"
+    ],
+    "search_scope": "Reopened the existing Frank-Peters primary source at its algorithm theorem and inspected the independent Teh follow-up at its attribution, stronger axiom and polynomial-time construction. A targeted correction search found no matching counterexample or erratum.",
+    "evidence": [
+      {
+        "source_id": "SRC-MODEL-601",
+        "locator": "Section 3, Algorithm 1 and Theorem 1",
+        "finding": "Provides a polynomial-time construction satisfying the original FJR axiom."
+      },
+      {
+        "source_id": "SRC-MODEL-706",
+        "locator": "Introduction; Theorem 3.5 and Corollary 3.6",
+        "finding": "Explicitly recognizes preceding FJR constructions and independently provides a stronger polynomial-time guarantee."
+      }
+    ],
+    "conclusion": "A polynomial-time FJR rule is given by Frank and Peters. Teh subsequently treats that result as established and supplies a polynomial-time rule for the stronger FJR+ axiom. This independent scholarly uptake and matching construction support a sourced resolution of the historical existence question; journal acceptance and project proof certification are not asserted.",
+    "limitations": [
+      "Independent uptake is not equivalent to a signed project proof review. No peer-reviewed venue was established in this check."
+    ]
+  },
+  {
+    "id": "LC-Q-FORMAL-012-20261106",
+    "problem_id": "Q-FORMAL-012",
+    "checked_on": "2026-11-06",
+    "status_before": "source_reports_open",
+    "status_after": "source_reports_open",
+    "statement_assessment": "corrected",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "\"admissible e-processes\" characterization 2026",
+      "\"On the optimality of coin-betting for mean estimation\" Clerico arxiv"
+    ],
+    "search_scope": "Read the original survey definition and open question, the bounded-mean author version at its assumptions and Theorem 3, and the later conditional-constraint preprint at Theorem 1 and its explicit unresolved admissibility discussion.",
+    "evidence": [
+      {
+        "source_id": "SRC-FORMAL-010",
+        "locator": "Section 2.4 footnote 4; Section 8.2.3",
+        "finding": "Defines null-law almost-sure dominance and the unmatched necessary/sufficient conditions."
+      },
+      {
+        "source_id": "SRC-MODEL-707",
+        "locator": "Sections 6.2-6.3, Theorem 3",
+        "finding": "Settles the bounded fixed-conditional-mean subclass and distinguishes the i.i.d. model."
+      },
+      {
+        "source_id": "SRC-MODEL-708",
+        "locator": "Theorem 1; Section 5",
+        "finding": "Gives a dominating affine-product complete class but explicitly leaves identification of its admissible elements open."
+      }
+    ],
+    "conclusion": "The general survey question is retained, with important partial results. Clerico characterizes the bounded constant-conditional-mean case and later gives a complete class for finitely constrained conditional nulls. The latter explicitly leaves minimal complete classes and admissible elements open; it is not a general admissibility characterization.",
+    "limitations": [
+      "A general necessary-and-sufficient characterization was not established. Results with other domination orders cannot be silently substituted."
+    ],
+    "previous_statement": "For a precisely fixed null distribution class and filtration, characterize e-process admissibility by matching necessary and sufficient conditions under the pointwise domination order used in the source."
+  },
+  {
+    "id": "LC-Q-MODEL-007-20261106",
+    "problem_id": "Q-MODEL-007",
+    "checked_on": "2026-11-06",
+    "status_before": "source_reports_open",
+    "status_after": "unverified",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "\"four mutually unbiased bases\" \"2026\" dimension six",
+      "\"2611.06917\" correction OR withdrawn OR proof"
+    ],
+    "search_scope": "Targeted web searches through 2026-11-06 and inspection of the listed primary statements or survey passages. This is not an exhaustive literature or acceptance audit.",
+    "evidence": [
+      {
+        "source_id": "SRC-MODEL-018",
+        "locator": "Problem 2, PDF p.3",
+        "finding": "The historical question asks for four mutually unbiased bases in dimension six."
+      },
+      {
+        "source_id": "SRC-PHYS-700",
+        "locator": "Section III.1, Theorem 3",
+        "finding": "The claimed classification excludes the requested quartet."
+      }
+    ],
+    "conclusion": "A 4 November 2026 preprint claims nonexistence for the exact target (Theorem 3). Its proof and certificates remain unreviewed here; the earlier open label is no longer sufficient.",
+    "limitations": [
+      "Assess the new claim and its complete domain coverage; inspect independent responses and computational certificates.",
+      "No independent proof review or certificate execution was performed."
+    ]
+  },
+  {
+    "id": "LC-Q-MODEL-458-20261106",
+    "problem_id": "Q-MODEL-458",
+    "checked_on": "2026-11-06",
+    "status_before": "unverified",
+    "status_after": "unverified",
+    "statement_assessment": "needs_clarification",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "\"Penrose inequality\" \"2512.04137\" correction",
+      "\"2512.04137\" correction OR criticism OR conditional",
+      "\"The Spacetime Penrose Inequality\" \"2026\" conditional Bray Khuri"
+    ],
+    "search_scope": "Targeted web searches through 2026-11-06 and inspection of the listed primary statements or survey passages. This is not an exhaustive literature or acceptance audit.",
+    "evidence": [
+      {
+        "source_id": "SRC-MODEL-613",
+        "locator": "Version 1 abstract",
+        "finding": "The historical version claimed an unconditional result."
+      },
+      {
+        "source_id": "SRC-PHYS-701",
+        "locator": "Theorems 2.54-2.55 and Q5 discussion",
+        "finding": "The revised statement adds conditions and disclaims a fully unconditional result."
+      },
+      {
+        "source_id": "SRC-PHYS-708",
+        "locator": "Conjecture 1.1 and Theorem 1.2",
+        "finding": "Enclosing area is distinguished from apparent-horizon area; the theorem requires special data and comparison-metric hypotheses."
+      }
+    ],
+    "conclusion": "Xu v5 explicitly narrows the earlier unconditional claim. Bray et al. give a theorem for maximally parameterized data, with additional completion and asymptotic hypotheses. Neither inspected statement establishes the unrestricted target; its precise area and mass conventions still need clarification.",
+    "limitations": [
+      "Specify ADM energy versus invariant mass, spacetime dimension, matter/energy assumptions and enclosing area versus horizon area.",
+      "Compare the hypotheses of each recent claim and seek independent evaluation.",
+      "The broader OpenAI claim cited by Bray et al. was not independently inspected in this check.",
+      "No independent proof review or certificate execution was performed."
+    ]
+  },
+  {
+    "id": "LC-Q-FORMAL-009-20261106",
+    "problem_id": "Q-FORMAL-009",
+    "checked_on": "2026-11-06",
+    "status_before": "source_reports_open",
+    "status_after": "source_reports_open",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "\"binary q-Fano plane\" \"2026\"",
+      "\"binary q-Fano plane\" automorphism 2025 2026 existence",
+      "Kiermaier Kurz Wassermann \"order of the automorphism\" \"at most two\"",
+      "Sascha Kurz Constructions and bounds for subspace codes 2025 381 378"
+    ],
+    "search_scope": "Targeted web searches through 2026-11-06 and inspection of the listed primary statements or survey passages. This is not an exhaustive literature or acceptance audit.",
+    "evidence": [
+      {
+        "source_id": "SRC-PHYS-702",
+        "locator": "Section 6, printed pp.77-78",
+        "finding": "The 381-block design remains an unknown case in the survey."
+      },
+      {
+        "source_id": "SRC-PHYS-703",
+        "locator": "Theorem 1",
+        "finding": "Possible automorphism groups are trivial or the specified group of order two."
+      },
+      {
+        "source_id": "SRC-PHYS-704",
+        "locator": "Version 2 withdrawal notice",
+        "finding": "A computational mistake invalidated the stronger published preprint claim."
+      }
+    ],
+    "conclusion": "Kurz (2025), Section 6, retains the binary q-Fano plane as unknown. The surviving automorphism restriction allows order two; the stronger 2017 trivial-automorphism claim was withdrawn. This scoped search did not establish a later resolution.",
+    "limitations": [
+      "Any symmetry-based nonexistence search must state its restricted scope; it cannot exclude designs outside that scope.",
+      "Select a concrete search or proof task and document resources and an independent exact checker.",
+      "No independent proof review or certificate execution was performed."
+    ]
+  },
+  {
+    "id": "LC-Q-MODEL-459-20261106",
+    "problem_id": "Q-MODEL-459",
+    "checked_on": "2026-11-06",
+    "status_before": "unverified",
+    "status_after": "unverified",
+    "statement_assessment": "needs_clarification",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "\"smooth\" \"stationary\" \"black hole uniqueness\" \"2026\"",
+      "\"Nonexistence of Multiple Black Holes\" \"2611.03766\" correction"
+    ],
+    "search_scope": "Targeted web searches through 2026-11-06 and inspection of the listed primary statements or survey passages. This is not an exhaustive literature or acceptance audit.",
+    "evidence": [
+      {
+        "source_id": "SRC-MODEL-405",
+        "locator": "Analyticity versus smoothness discussion, printed p.17",
+        "finding": "The general smoothness question is distinguished from analytic or near-Kerr uniqueness."
+      },
+      {
+        "source_id": "SRC-PHYS-705",
+        "locator": "Main Theorem and following corollary",
+        "finding": "Analyticity is an explicit vacuum hypothesis."
+      },
+      {
+        "source_id": "SRC-PHYS-706",
+        "locator": "Theorem 1.1 and Remark 1.2",
+        "finding": "Axial symmetry and the stated axis assumptions remain part of the electrovacuum claim."
+      }
+    ],
+    "conclusion": "The November 2026 vacuum uniqueness claim retains analyticity. The September electrovacuum claim assumes axial symmetry and axis analyticity. These results do not remove the assumptions in the indexed smooth-uniqueness question; its vacuum and electrovacuum formulations still need separate specification.",
+    "limitations": [
+      "Specify vacuum versus electrovacuum, dimension, horizon conditions, regularity and asymptotics.",
+      "Check global smooth rigidity separately from uniqueness after axisymmetry is assumed.",
+      "No independent proof review or certificate execution was performed."
+    ]
+  },
+  {
+    "id": "LC-Q-MODEL-493-20261106",
+    "problem_id": "Q-MODEL-493",
+    "checked_on": "2026-11-06",
+    "status_before": "source_reports_open",
+    "status_after": "unverified",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "\"NPT bound entanglement\" \"2026\" solved",
+      "\"three-copy\" \"Werner\" \"2026\" November",
+      "\"2607.21367\" correction OR withdrawn",
+      "\"Undistillability of Werner states from three, four and five copies\" correction"
+    ],
+    "search_scope": "Targeted web searches through 2026-11-06 and inspection of the listed primary statements or survey passages. This is not an exhaustive literature or acceptance audit.",
+    "evidence": [
+      {
+        "source_id": "SRC-PHYS-707",
+        "locator": "PDF p.2, Theorems 1.1-1.2",
+        "finding": "The claimed all-dimension threshold includes alpha=-1/2 and exactly three copies."
+      }
+    ],
+    "conclusion": "Keep the exact target unverified pending assessment of the new full-scope claim.",
+    "limitations": [
+      "Obtain a fixed version and assess the new full-scope claim before asserting novelty.",
+      "Inspect the analytic reductions, complete certificates and independent evaluations.",
+      "No independent proof review or certificate execution was performed."
+    ]
+  },
+  {
+    "id": "LC-Q-MODEL-005-20261106",
+    "problem_id": "Q-MODEL-005",
+    "checked_on": "2026-11-06",
+    "status_before": "source_reports_open",
+    "status_after": "source_reports_open",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "\"NPT bound entanglement\" \"2026\" solved",
+      "\"three-copy\" \"Werner\" \"2026\" November"
+    ],
+    "search_scope": "Targeted web searches through 2026-11-06 and inspection of the listed primary statements or survey passages. This is not an exhaustive literature or acceptance audit.",
+    "evidence": [
+      {
+        "source_id": "SRC-PHYS-707",
+        "locator": "Author landing-page abstract; PDF introduction",
+        "finding": "The new finite-copy claims leave the all-copy question explicitly separate."
+      }
+    ],
+    "conclusion": "Retain the all-copy question separately from the newly claimed finite-copy results.",
+    "limitations": [
+      "A single fixed NPT state must satisfy the undistillability condition for every finite copy count.",
+      "Independent evaluation of finite-copy claims does not by itself settle the all-copy target.",
+      "No independent proof review or certificate execution was performed."
+    ]
   }
 ]

@@ -6,7 +6,7 @@ Collective behavior arising from interactions and structure.
 
 **Boundary:** Application-specific claims link to biology, economics or physics.
 
-**Research sources: 12 · Primary tasks: 12 · Full cards: 2 · Cross-linked tasks: 7.**
+**Research sources: 14 · Primary tasks: 12 · Full cards: 2 · Cross-linked tasks: 7.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -21,7 +21,7 @@ Collective behavior arising from interactions and structure.
 | [Separate finite SIS absorption from approximate endemic equilibria](../candidates/Q-MODEL-009.md) | Unknown | Known-result calibration | Known result in literature | Outline · Q-MODEL-009 |
 | [Check twisted-state spectra on Kuramoto cycle networks](../cards/Q-FORMAL-103.md) | Medium | Known-result calibration | Known result in literature | Full card · Q-FORMAL-103 |
 | [Determine the sharp connectivity threshold for homogeneous Kuramoto synchronization](../cards/Q-FORMAL-104.md) | High | Literature-origin question | Source reports open | Full card · Q-FORMAL-104 |
-| [Global synchronization of random cubic graphs](../candidates/Q-MODEL-207.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MODEL-207 |
+| [Global synchronization of random cubic graphs](../candidates/Q-MODEL-207.md) | Unknown | Literature-origin question | Unverified | Outline · Q-MODEL-207 |
 | [Choosing spectral operators for higher-order networks](../candidates/Q-CROSS-431.md) | High | Literature-origin question | Source reports open | Outline · Q-CROSS-431 |
 | [Dynamics induced by higher-order representations](../candidates/Q-CROSS-432.md) | High | Literature-origin question | Source reports open | Outline · Q-CROSS-432 |
 | [Separating interaction order from coupling nonlinearity](../candidates/Q-CROSS-433.md) | High | Literature-origin question | Source reports open | Outline · Q-CROSS-433 |
@@ -52,6 +52,8 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [Cost–Volume Relationship for Flows Through a Disordered Network](../sources.md#src-cross-614) | Research entry | 2008 |
 | [Graphs with connectivity 3/4 - epsilon are globally synchronizing](../sources.md#src-formal-619) | Research entry | 2026 |
 | [Beyond 11/16: dense Kuramoto networks that resist synchrony](../sources.md#src-formal-620) | Research entry | 2026 |
+| [Random cubic graphs are not globally synchronizing with probability at least 1 - exp(-2)](../sources.md#src-model-704) | Research entry | 2026 |
+| [Random cubic graphs admit nonsynchronized stable Kuramoto equilibria](../sources.md#src-model-705) | Research entry | 2026 |
 
 <a id="branches"></a>
 
@@ -152,7 +154,7 @@ Emergent behavior of interacting units.
 
 **Representative objects:** synchronization, cascades, contagion.
 
-**Direct source entries:** [Epidemic processes in complex networks](../sources.md#src-model-010), [Dense networks that do not synchronize and sparse ones that do](../sources.md#src-formal-104), [Sufficiently dense Kuramoto networks are globally synchronizing](../sources.md#src-formal-105), [Benign landscapes for synchronization on spheres via normalized Laplacian matrices](../sources.md#src-formal-106), [Randomstrasse101: Open Problems of 2024](../sources.md#src-model-210), [Maintaining diversity in structured populations](../sources.md#src-model-301), [Hypergraphs and simplicial complexes in focus: a roadmap for future research in higher-order interactions](../sources.md#src-cross-403), [Congestion in networks: SOC, HOT and the percolation-fragmentation phase transition](../sources.md#src-cross-405), [Graphs with connectivity 3/4 - epsilon are globally synchronizing](../sources.md#src-formal-619), [Beyond 11/16: dense Kuramoto networks that resist synchrony](../sources.md#src-formal-620).
+**Direct source entries:** [Epidemic processes in complex networks](../sources.md#src-model-010), [Dense networks that do not synchronize and sparse ones that do](../sources.md#src-formal-104), [Sufficiently dense Kuramoto networks are globally synchronizing](../sources.md#src-formal-105), [Benign landscapes for synchronization on spheres via normalized Laplacian matrices](../sources.md#src-formal-106), [Randomstrasse101: Open Problems of 2024](../sources.md#src-model-210), [Maintaining diversity in structured populations](../sources.md#src-model-301), [Hypergraphs and simplicial complexes in focus: a roadmap for future research in higher-order interactions](../sources.md#src-cross-403), [Congestion in networks: SOC, HOT and the percolation-fragmentation phase transition](../sources.md#src-cross-405), [Graphs with connectivity 3/4 - epsilon are globally synchronizing](../sources.md#src-formal-619), [Beyond 11/16: dense Kuramoto networks that resist synchrony](../sources.md#src-formal-620), [Random cubic graphs are not globally synchronizing with probability at least 1 - exp(-2)](../sources.md#src-model-704), [Random cubic graphs admit nonsynchronized stable Kuramoto equilibria](../sources.md#src-model-705).
 
 **Primary tasks in this branch and its descendants**
 

@@ -6,7 +6,7 @@ Mathematical models and principles proposed for physical systems.
 
 **Boundary:** Derivation under assumptions is separate from empirical confirmation.
 
-**Research sources: 43 · Primary tasks: 30 · Full cards: 6 · Cross-linked tasks: 34.**
+**Research sources: 47 · Primary tasks: 30 · Full cards: 6 · Cross-linked tasks: 34.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -104,6 +104,10 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [Turbulence intermittency and velocity gradients](../sources.md#src-phys-010) | Research entry | 2026 |
 | [A passive self-correcting quantum memory in three dimensions](../sources.md#src-phys-013) | Research entry | 2026 |
 | [A thermally and perturbatively stable classical spin model in two dimensions](../sources.md#src-phys-014) | Research entry | 2026 |
+| [The Spacetime Penrose Inequality: Conditional Results for Stable MOTS and General Trapped Surfaces](../sources.md#src-phys-701) | Research entry | 2025 |
+| [Nonexistence of Multiple Black Holes in Stationary Analytic Vacuum Spacetimes](../sources.md#src-phys-705) | Research entry | 2026 |
+| [Electrovacuum Black Hole Uniqueness](../sources.md#src-phys-706) | Research entry | 2026 |
+| [Proof of the Penrose Conjecture for Maximally Parameterized Initial Data Sets](../sources.md#src-phys-708) | Research entry | 2026 |
 
 <a id="branches"></a>
 
@@ -472,7 +476,7 @@ Geometric and field models of gravitating systems.
 
 **Representative objects:** Einstein equations, horizons, perturbations.
 
-**Direct source entries:** [David Tong: Lecture Notes](../sources.md#src-base-011), [Lectures on the Cosmological Constant Problem](../sources.md#src-model-017), [Dark Energy](../sources.md#src-model-315), [Mathematical General Relativity](../sources.md#src-model-405), [Nonlinear stability of subextremal Kerr black holes](../sources.md#src-model-411), [Cosmology, the big bang and the BKL conjecture](../sources.md#src-model-610), [Black holes galore in D>4](../sources.md#src-model-611), [A CMC existence result for expanding cosmological spacetimes](../sources.md#src-model-612), [Proof the Spacetime Penrose Inequality](../sources.md#src-model-613), [Love numbers of black holes and compact objects](../sources.md#src-phys-006), [The Vanishing of the Non-linear Static Love Number of Kerr Black Holes and the Role of Symmetries](../sources.md#src-phys-007), [Vanishing Love Numbers of Kerr-Newman Black Holes](../sources.md#src-phys-008).
+**Direct source entries:** [David Tong: Lecture Notes](../sources.md#src-base-011), [Lectures on the Cosmological Constant Problem](../sources.md#src-model-017), [Dark Energy](../sources.md#src-model-315), [Mathematical General Relativity](../sources.md#src-model-405), [Nonlinear stability of subextremal Kerr black holes](../sources.md#src-model-411), [Cosmology, the big bang and the BKL conjecture](../sources.md#src-model-610), [Black holes galore in D>4](../sources.md#src-model-611), [A CMC existence result for expanding cosmological spacetimes](../sources.md#src-model-612), [Proof the Spacetime Penrose Inequality](../sources.md#src-model-613), [Love numbers of black holes and compact objects](../sources.md#src-phys-006), [The Vanishing of the Non-linear Static Love Number of Kerr Black Holes and the Role of Symmetries](../sources.md#src-phys-007), [Vanishing Love Numbers of Kerr-Newman Black Holes](../sources.md#src-phys-008), [The Spacetime Penrose Inequality: Conditional Results for Stable MOTS and General Trapped Surfaces](../sources.md#src-phys-701), [Nonexistence of Multiple Black Holes in Stationary Analytic Vacuum Spacetimes](../sources.md#src-phys-705), [Electrovacuum Black Hole Uniqueness](../sources.md#src-phys-706), [Proof of the Penrose Conjecture for Maximally Parameterized Initial Data Sets](../sources.md#src-phys-708).
 
 **Primary tasks in this branch and its descendants**
 
@@ -602,7 +606,7 @@ These retain their primary record in another domain and are not added to this do
 | [Semiclassical inverse spectra for non-self-adjoint symbols](../candidates/Q-MODEL-415.md) | High | Literature-origin question | Unverified | Outline · Q-MODEL-415 |
 | [Critical versus subcritical heat-kernel decay](../candidates/Q-MODEL-416.md) | High | Literature-origin question | Unverified | Outline · Q-MODEL-416 |
 | [Multiplicity defect for complex periodic Schrödinger potentials](../candidates/Q-MODEL-417.md) | High | Literature-origin question | Unverified | Outline · Q-MODEL-417 |
-| [Three-copy undistillability of the Werner endpoint](../cards/Q-MODEL-493.md) | High | Literature-origin question | Source reports open | Full card · Q-MODEL-493 |
+| [Three-copy undistillability of the Werner endpoint](../cards/Q-MODEL-493.md) | High | Literature-origin question | Unverified | Full card · Q-MODEL-493 |
 | [Efficient passive initialization of a three-dimensional quantum memory](../cards/Q-MODEL-496.md) | High | Literature-origin question | Source reports open | Full card · Q-MODEL-496 |
 
 [Back to all domains](../README.md) · [Full outline](../taxonomy.md) · [Coverage gaps](../coverage.md)

@@ -12,8 +12,8 @@ The atlas contributes an organized research directory: original summaries, subje
 | --- | --- |
 | [Subject directory](README.md) | 16 main domains and 113 subjects and subfields |
 | [Problem index](candidates.md) | 552 identified questions, including 45 full cards |
-| [Sources](sources.md) | 401 bibliographic and research-entry records |
-| [Literature checks](literature-checks.md) | 389 dated checks, with findings and limitations |
+| [Sources](sources.md) | 427 bibliographic and research-entry records |
+| [Literature checks](literature-checks.md) | 405 dated checks, with findings and limitations |
 
 ## Research findings
 

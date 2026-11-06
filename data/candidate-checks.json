@@ -196,10 +196,11 @@
   {
     "problem_id": "Q-FORMAL-009",
     "statement_check": "source_located",
-    "status_check": "source_report_only",
-    "source_date_note": "Recorded source years: SRC-FORMAL-008: 2013. The last-checked date records the scope described in the status basis; it is not a comprehensive literature-search date.",
+    "status_check": "later_literature_checked",
+    "source_date_note": "The dated literature check records the exact source versions inspected on 2026-11-06.",
     "missing_information": [
-      "Specify the assumptions, candidate methods, resource requirements and independent verification steps for a concrete research task."
+      "Any symmetry-based nonexistence search must state its restricted scope; it cannot exclude designs outside that scope.",
+      "Select a concrete search or proof task and document resources and an independent exact checker."
     ],
     "scope_note": "The statement and locator identify the candidate. A full assumption set and verification protocol remain to be documented."
   },
@@ -227,12 +228,13 @@
   {
     "problem_id": "Q-FORMAL-012",
     "statement_check": "source_located",
-    "status_check": "source_report_only",
-    "source_date_note": "Recorded source years: SRC-FORMAL-010: 2023. The last-checked date records the scope described in the status basis; it is not a comprehensive literature-search date.",
+    "status_check": "later_literature_checked",
+    "source_date_note": "2023 survey; Clerico author version dated 4 August 2025; 2026 conditional-constraint preprint.",
     "missing_information": [
-      "Specify the assumptions, candidate methods, resource requirements and independent verification steps for a concrete research task."
+      "Choose a specific null, filtration and domination convention beyond the cited characterized case.",
+      "Determine whether a proposed conditional-null subproblem asks for complete-class domination or genuinely for all admissible elements."
     ],
-    "scope_note": "The statement and locator identify the candidate. A full assumption set and verification protocol remain to be documented."
+    "scope_note": "The survey uses null-law almost-sure dominance, whereas Clerico makes pathwise comparisons. The bounded conditional-mean result cannot be transferred unchanged to a narrower i.i.d. null."
   },
   {
     "problem_id": "Q-MODEL-001",
@@ -284,10 +286,10 @@
     "problem_id": "Q-MODEL-005",
     "statement_check": "source_located",
     "status_check": "later_literature_checked",
-    "source_date_note": "Original question: 2022. The update inspected the 5 October 2026 Fu–Gao–Park revision, the July three-copy paper and the 4 October qutrit candidate description.",
+    "source_date_note": "The dated literature check records the exact source versions inspected on 2026-11-06.",
     "missing_information": [
-      "Independent specialist review of recent finite-copy proofs and claims.",
-      "A concrete all-copy approach, with resource and verification requirements."
+      "A single fixed NPT state must satisfy the undistillability condition for every finite copy count.",
+      "Independent evaluation of finite-copy claims does not by itself settle the all-copy target."
     ],
     "scope_note": "The target requires one fixed NPT state to remain undistillable for every finite copy number. Q-MODEL-493 records a three-copy endpoint question; proving it would not resolve the all-copy target."
   },
@@ -305,10 +307,10 @@
   {
     "problem_id": "Q-MODEL-007",
     "statement_check": "source_located",
-    "status_check": "source_report_only",
-    "source_date_note": "Recorded source years: SRC-MODEL-018: 2022. The last-checked date records the scope described in the status basis; it is not a comprehensive literature-search date.",
+    "status_check": "later_literature_checked",
+    "source_date_note": "The dated literature check records the exact source versions inspected on 2026-11-06.",
     "missing_information": [
-      "Specify the assumptions, candidate methods, resource requirements and independent verification steps for a concrete research task."
+      "Assess the new claim and its complete domain coverage; inspect independent responses and computational certificates."
     ],
     "scope_note": "The statement and locator identify the candidate. A full assumption set and verification protocol remain to be documented."
   },
@@ -902,12 +904,13 @@
   {
     "problem_id": "Q-MODEL-207",
     "statement_check": "source_located",
-    "status_check": "source_report_only",
-    "source_date_note": "Recorded source years: SRC-MODEL-210: 2025, SRC-FORMAL-106: 2026. The last-checked date records the scope described in the status basis; it is not a comprehensive literature-search date.",
+    "status_check": "later_literature_checked",
+    "source_date_note": "2025 conjecture; 2026 conference abstract; Colbrook manuscript dated 11 September 2026.",
     "missing_information": [
-      "Specify the assumptions, candidate methods, resource requirements and independent verification steps for a concrete research task."
+      "Locate the complete Carvallo-Groisman-Mitsche proof and confirm its graph distribution and stability definition.",
+      "Obtain independent specialist evaluation or scholarly acceptance of the exact-model Colbrook claim."
     ],
-    "scope_note": "The statement and locator identify the candidate. A full assumption set and verification protocol remain to be documented."
+    "scope_note": "Keep the original probability limit and local-minimum statement. A finite nonsynchronized cubic graph alone would not refute an asymptotic high-probability assertion; the new sources make asymptotic claims."
   },
   {
     "problem_id": "Q-MODEL-208",
@@ -1924,12 +1927,12 @@
     "problem_id": "Q-CROSS-408",
     "statement_check": "source_located",
     "status_check": "later_literature_checked",
-    "source_date_note": "Recorded source years: SRC-CROSS-401: 2002; SRC-CROSS-605: 2005. Later evidence is limited to the passages in the dated literature check; an access date does not refresh a historical claim.",
+    "source_date_note": "The 2026-11-06 update clarifies the original 2002 definition and its partial results; the earlier later-literature check remains available.",
     "missing_information": [
-      "Compare converse Lyapunov results using the exact input, measurement and error norms from the original definition.",
-      "Specialist assessment of the exact formulation and remaining novelty is pending."
+      "Identify any later characterization for the exact general IMES property.",
+      "Compare input classes, boundedness conditions and Lyapunov regularity before transferring MES or SIT results."
     ],
-    "scope_note": "The 2005 switched-system paper uses uniform and strengthened measurement-to-error properties. Their role in its stability proofs does not supply the requested unrestricted smooth converse theorem."
+    "scope_note": "The error output, measurement output, input class and comparison-function inequality are explicit. Smoothness is a requested strengthening, not a prerequisite silently imposed on the target."
   },
   {
     "problem_id": "Q-CROSS-409",
@@ -3859,12 +3862,12 @@
   {
     "problem_id": "Q-FORMAL-408",
     "statement_check": "source_located",
-    "status_check": "source_report_only",
-    "source_date_note": "Latest displayed substantive revision: 2025.",
+    "status_check": "later_literature_checked",
+    "source_date_note": "TOPP revision: 18 June 2025; inspected journal papers published 18 July 2024 and 15 March 2025.",
     "missing_information": [
-      "Resolutions or hardness results after the June 2025 update."
+      "The scoped search does not exclude a later exact-counting algorithm or hardness result."
     ],
-    "scope_note": "This is a source-defined research question, not a claim that a solution or a manageable research route is known."
+    "scope_note": "The target is exact counting in input-polynomial time. Output-polynomial enumeration, approximation of the logarithm of the count and monotone special cases do not settle it."
   },
   {
     "problem_id": "Q-FORMAL-409",
@@ -3930,12 +3933,13 @@
   {
     "problem_id": "Q-FORMAL-415",
     "statement_check": "source_located",
-    "status_check": "source_report_only",
-    "source_date_note": "Latest displayed substantive revision: 2008.",
+    "status_check": "later_literature_checked",
+    "source_date_note": "TOPP revision: 22 December 2008; Khoury version 1: 13 September 2026; Benway version 2: 19 October 2026.",
     "missing_information": [
-      "Later geometric results, distinguished from topological complexes and regular triangulations."
+      "Independent assessment of Khoury's eight-point result and any later revisions.",
+      "Further results for arbitrary finite Euclidean point sets, beyond the inspected small-cardinality case."
     ],
-    "scope_note": "This is a source-defined research question, not a claim that a solution or a manageable research route is known."
+    "scope_note": "All points and coordinates remain fixed, with only geometric 2-to-3 and 3-to-2 moves. Hyperbolic ideal triangulations and abstract topological triangulations have different hypotheses."
   },
   {
     "problem_id": "Q-FORMAL-416",
@@ -3950,12 +3954,13 @@
   {
     "problem_id": "Q-FORMAL-417",
     "statement_check": "source_located",
-    "status_check": "source_report_only",
-    "source_date_note": "Latest displayed substantive revision: 2009.",
+    "status_check": "later_literature_checked",
+    "source_date_note": "TOPP revision: 9 September 2009; SoCG paper: 6 June 2024; inspected arXiv version 2: 21 September 2026.",
     "missing_information": [
-      "Later separation bounds; a negative answer would not exclude all polynomial-time sign algorithms."
+      "Later uniform separation improvements or counterexamples outside the scoped search.",
+      "Independent assessment of the 2026 preprint and any subsequent revisions."
     ],
-    "scope_note": "This is a source-defined research question, not a claim that a solution or a manageable research route is known."
+    "scope_note": "The target is uniform in both k and the radicand bound n. Fixed-radicand constants are insufficient; the 2026 theorem has explicit independence and coefficient hypotheses. A negative separation answer would not by itself rule out every polynomial-time sign algorithm."
   },
   {
     "problem_id": "Q-FORMAL-418",
@@ -3980,12 +3985,13 @@
   {
     "problem_id": "Q-FORMAL-420",
     "statement_check": "source_located",
-    "status_check": "source_report_only",
-    "source_date_note": "Latest displayed substantive revision: 2006.",
+    "status_check": "later_literature_checked",
+    "source_date_note": "TOPP revision: 20 August 2006; the arXiv record displays version 1, submitted 23 April 2025.",
     "missing_information": [
-      "Later uniform algorithms; the known quadratic comparison tree does not supply this time bound."
+      "Independent evaluation of the claimed quadratic total time, including comparison amortization and data-structure operations.",
+      "Any accepted publication, correction or substantive independent assessment of the preprint."
     ],
-    "scope_note": "This is a source-defined research question, not a claim that a solution or a manageable research route is known."
+    "scope_note": "The target concerns a uniform total-time algorithm. Neither a quadratic comparison-count result nor the presence of a preprint claiming the target establishes its accepted resolution."
   },
   {
     "problem_id": "Q-FORMAL-421",
@@ -4151,23 +4157,25 @@
   },
   {
     "problem_id": "Q-FORMAL-437",
-    "statement_check": "needs_clarification",
-    "status_check": "source_report_only",
-    "source_date_note": "COLT 2025 problem note.",
+    "statement_check": "source_located",
+    "status_check": "later_literature_checked",
+    "source_date_note": "Original 2025 paper; Zhang v2 dated 2 October 2026; Liu-Wang v1 metadata displays 8 September 2026.",
     "missing_information": [
-      "Check subsequent work on exact intermediate-regime ratios; a full problem card must spell out zero-denominator and support conventions."
+      "Compare the preprint proofs and any later versions before selecting a remaining budget.",
+      "A full card must retain the minimum-norm tie rule, infimum versus attainment, support budget and zero-loss conventions.",
+      "The later search focused on weighted selection; the current frontier for unweighted training selection needs a dedicated check."
     ],
-    "scope_note": "Known regimes remain part of this historical question; the intermediate weighted regime is a specifically identified unresolved component, not a replacement problem."
+    "scope_note": "Liu-Wang permits nonuniform evaluation weights, but its upper-half lower bound is uniform, so that law also addresses the original evaluation model. Weighted evaluation is not unweighted training selection."
   },
   {
     "problem_id": "Q-FORMAL-438",
     "statement_check": "source_located",
-    "status_check": "source_report_only",
-    "source_date_note": "COLT 2026 problem note.",
+    "status_check": "later_literature_checked",
+    "source_date_note": "Original problem: July 2026. Hu-Zhong v1: 3 August 2026. Lau-Scarlett follow-up v1: 8 September 2026.",
     "missing_information": [
-      "Check later publications after July 2026; lower bounds limited to particular quantizer families do not resolve the stated question."
+      "A specialist proof review and any later journal version remain to be recorded."
     ],
-    "scope_note": "This is a source-defined research question, not a claim that a solution or a manageable research route is known."
+    "scope_note": "The historical target is preserved: arbitrary measurable nonadaptive quantizers, independent samples, the same central-moment class and all three k regimes. A two-stage decoder is not adaptive query selection."
   },
   {
     "problem_id": "Q-FORMAL-439",
@@ -5207,11 +5215,11 @@
     "problem_id": "Q-MODEL-434",
     "statement_check": "source_located",
     "status_check": "later_literature_checked",
-    "source_date_note": "Sources: SRC-MODEL-403: 2022; SRC-MODEL-601: 2026. The 2026-10-14 check covers the scope recorded in the linked literature check.",
+    "source_date_note": "Historical question: 2022. Frank-Peters preprint: August 2026; Teh v1: 11 August 2026.",
     "missing_information": [
-      "Publication or independent acceptance of the 2026 claim remains unverified; FJR must not be replaced by EJR or EJR+."
+      "Specialist review of the algorithms and any subsequent publication versions remains to be recorded."
     ],
-    "scope_note": "A finite approval-election model with fixed rule and axiom definitions from the book. An axiomatic result does not establish that voter preferences or welfare are represented adequately."
+    "scope_note": "The target is efficient construction of an FJR committee on unrestricted approval profiles, not efficient verification of arbitrary committees. The latter is a different computational question."
   },
   {
     "problem_id": "Q-MODEL-435",
@@ -5461,20 +5469,22 @@
     "problem_id": "Q-MODEL-458",
     "statement_check": "needs_clarification",
     "status_check": "later_literature_checked",
-    "source_date_note": "Sources: SRC-MODEL-405: 2018; SRC-MODEL-613: 2025. The 2026-10-14 check covers the scope recorded in the linked literature check.",
+    "source_date_note": "The dated literature check records the exact source versions inspected on 2026-11-06.",
     "missing_information": [
-      "Check the preprint's horizon-area, ADM energy/mass and energy assumptions; its proof and independent acceptance remain unverified."
+      "Specify ADM energy versus invariant mass, spacetime dimension, matter/energy assumptions and enclosing area versus horizon area.",
+      "Compare the hypotheses of each recent claim and seek independent evaluation.",
+      "The broader OpenAI claim cited by Bray et al. was not independently inspected in this check."
     ],
     "scope_note": "A mathematical question for specified Einstein equations, matter model and asymptotics. A theorem about these equations does not establish the empirical correctness of the assumptions; observational tests are separate."
   },
   {
     "problem_id": "Q-MODEL-459",
     "statement_check": "needs_clarification",
-    "status_check": "source_report_only",
-    "source_date_note": "Sources: SRC-MODEL-405: 2018. The 2026-10-14 check covers the scope recorded in the linked literature check.",
+    "status_check": "later_literature_checked",
+    "source_date_note": "The dated literature check records the exact source versions inspected on 2026-11-06.",
     "missing_information": [
-      "Vacuum and electrovacuum cases must be separated; later rigidity theorems and additional horizon hypotheses need review.",
-      "Only the recorded search terms were covered; later results, different terminology, corrections and exact-scope resolutions may have been missed."
+      "Specify vacuum versus electrovacuum, dimension, horizon conditions, regularity and asymptotics.",
+      "Check global smooth rigidity separately from uniqueness after axisymmetry is assumed."
     ],
     "scope_note": "A mathematical question for specified Einstein equations, matter model and asymptotics. A theorem about these equations does not establish the empirical correctness of the assumptions; observational tests are separate."
   },
@@ -5864,11 +5874,10 @@
     "problem_id": "Q-MODEL-493",
     "statement_check": "source_located",
     "status_check": "later_literature_checked",
-    "source_date_note": "Wu and Zou, Section 1.1, equations (1)-(3); Fu, Gao and Park, Section 4; Zenodo candidate description. Source versions and dates appear in the source catalog.",
+    "source_date_note": "The dated literature check records the exact source versions inspected on 2026-11-06.",
     "missing_information": [
-      "Audit the recent sector proofs.",
-      "Inspect the d=3 candidate and its certificate.",
-      "Refresh later literature before research or submission."
+      "Obtain a fixed version and assess the new full-scope claim before asserting novelty.",
+      "Inspect the analytic reductions, complete certificates and independent evaluations."
     ],
     "scope_note": "The target quantifies over every d >= 3. A d=4 study is Curator-proposed; pending review. Its novelty requires a separate check, and a positive answer there is only partial progress."
   },

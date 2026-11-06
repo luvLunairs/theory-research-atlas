@@ -8201,19 +8201,19 @@
       "Da Xu"
     ],
     "year": 2025,
-    "url": "https://arxiv.org/abs/2512.04137",
+    "url": "https://arxiv.org/abs/2512.04137v1",
     "source_type": "research preprint",
     "domains": [
       "General relativity",
       "Geometric analysis"
     ],
-    "locator": "Abstract and submission metadata.",
-    "accessed": "2026-10-14",
+    "locator": "Version 1 abstract and submission metadata, 2025-12-03; version-specific record rechecked 2026-11-06.",
+    "accessed": "2026-11-06",
     "verification": "opened",
     "supports": [
       "Claims a general spacetime Penrose inequality without time symmetry."
     ],
-    "limitations": "A preprint claim only. The proof, precise horizon hypotheses, and independent acceptance have not been established.",
+    "limitations": "Historical version-1 unconditional claim. Version 5 has a different title and explicitly conditional scope, retained separately as SRC-PHYS-701. No proof or independent acceptance is established.",
     "role": "research_entry"
   },
   {
@@ -9216,6 +9216,606 @@
       "A reported improved lower bound and an explicit distinction between the two threshold definitions."
     ],
     "limitations": "Proofs and interval certificates were not independently checked; the cited scripts were not obtained or run.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-CROSS-700",
+    "title": "Measurement to Error Stability: a Notion of Partial Detectability for Nonlinear Systems",
+    "authors": [
+      "Brian P. Ingalls",
+      "Eduardo D. Sontag",
+      "Yuan Wang"
+    ],
+    "year": 2002,
+    "url": "https://arxiv.org/pdf/math/0202098v1",
+    "source_type": "research_preprint",
+    "domains": [
+      "Control, estimation and systems theory"
+    ],
+    "locator": "11 February 2002; abstract, Theorem 1 and Section 7",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Partial, nonsmooth Lyapunov characterization through stability in three measures, with additional boundedness assumptions."
+    ],
+    "limitations": "The inspected scope concerns differential inclusions and compact-valued disturbances. It does not establish the unrestricted smooth input-measurement-to-error characterization.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MATH-700",
+    "title": "An Explicit and Efficient O(n^2)-Time Algorithm for Sorting Sumsets",
+    "authors": [
+      "Shlok Mundhra"
+    ],
+    "year": 2025,
+    "url": "https://arxiv.org/html/2504.16393v1",
+    "source_type": "Primary research preprint, version 1",
+    "domains": [
+      "Computational geometry",
+      "Algorithms"
+    ],
+    "locator": "23 April 2025; Section 1.3, Theorem 1; Algorithm 1; Theorem 15, Corollary 18 and Remark 19",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "A public claim of an explicit quadratic-time algorithm for sorting pairwise real sums."
+    ],
+    "limitations": "The claim and analysis were inspected, but correctness and the amortized time bound were not independently verified. The arXiv record does not establish acceptance.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MATH-701",
+    "title": "Non-crossing Hamiltonian Paths and Cycles in Output-Polynomial Time",
+    "authors": [
+      "David Eppstein"
+    ],
+    "year": 2024,
+    "url": "https://link.springer.com/article/10.1007/s00453-024-01255-y",
+    "source_type": "Primary research journal article",
+    "domains": [
+      "Computational geometry"
+    ],
+    "locator": "Published 18 July 2024; Algorithmica 86, 3027-3053; abstract, Section 1 and Section 6",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Output-polynomial polygonalization enumeration and approximation of the logarithm of the count; exact counting is distinguished from these results."
+    ],
+    "limitations": "These results do not provide an exact input-polynomial counting algorithm. Proofs were not independently audited.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MATH-702",
+    "title": "On Isolated Geometric Triangulations",
+    "authors": [
+      "Ian Benway"
+    ],
+    "year": 2025,
+    "url": "https://arxiv.org/html/2509.01627v2",
+    "source_type": "Primary research preprint, version 2",
+    "domains": [
+      "Geometric topology"
+    ],
+    "locator": "First submitted 1 September 2025; version 2, 19 October 2026; Section 1, Theorem 3.4 and Corollary 4.2",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Disconnected geometric flip graphs for certain ideal triangulations of cusped hyperbolic 3-manifolds."
+    ],
+    "limitations": "The ambient space and triangulations differ from those of a fixed finite Euclidean point set. This is not a resolution of TOPP Problem 28; no proof audit was performed.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MATH-703",
+    "title": "An Improved Bound on Sums of Square Roots via the Subspace Theorem",
+    "authors": [
+      "Friedrich Eisenbrand",
+      "Matthieu Haeberle",
+      "Neta Singer"
+    ],
+    "year": 2024,
+    "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.SoCG.2024.54",
+    "source_type": "Primary research conference paper",
+    "domains": [
+      "Computational geometry",
+      "Number theory",
+      "Computational complexity"
+    ],
+    "locator": "6 June 2024; SoCG 2024, LIPIcs 293, 54:1-54:8; abstract, Section 1 and Theorem 6 on page 54:5",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "A stronger separation bound for fixed radicands, with a positive but ineffective radicand-dependent constant."
+    ],
+    "limitations": "The full PDF was inspected. The theorem does not supply a uniform polynomial precision bound as the radicands vary. No proof audit was performed.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MATH-704",
+    "title": "Quantitative linear independence for square roots",
+    "authors": [
+      "Marco Aymone",
+      "Samuel Figueredo",
+      "Siddharth Iyer",
+      "Christian Táfula"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/html/2609.14161v2",
+    "source_type": "Primary research preprint, version 2",
+    "domains": [
+      "Number theory",
+      "Computational geometry"
+    ],
+    "locator": "First submitted 12 September 2026; version 2, 21 September 2026; Section 1, Theorem 1.1, Corollary 1.2 and Proposition 2.2",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "A reported explicit separation improvement with exponent 2^(K-1)-1; the strengthened theorem assumes K >= 8, nonzero integer coefficients and distinct square-free parts."
+    ],
+    "limitations": "Version 2 changes the author list and strengthens version 1. The bound retains an exponential exponent in K. No independent proof verification or acceptance assessment was completed.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MATH-705",
+    "title": "Flip Graphs for Eight Points in Three Dimensions Are Connected",
+    "authors": [
+      "Marc Khoury"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/html/2609.14797v1",
+    "source_type": "Primary research preprint, version 1",
+    "domains": [
+      "Computational geometry"
+    ],
+    "locator": "13 September 2026; Theorem 1 and Section 1.1",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "A reported connectivity result for four through eight fixed points in R^3 with no four coplanar, retaining every vertex and using only geometric 2-to-3 and 3-to-2 flips."
+    ],
+    "limitations": "Theorem 1 does not cover arbitrary point counts. Neither the proof nor its acceptance was independently verified.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MATH-706",
+    "title": "Upward Pointset Embeddings of Planar st-Graphs",
+    "authors": [
+      "Carlos Alegría",
+      "Susanna Caroppo",
+      "Giordano Da Lozzo",
+      "Marco D'Elia",
+      "Giuseppe Di Battista",
+      "Fabrizio Frati",
+      "Fabrizio Grosso",
+      "Maurizio Patrignani"
+    ],
+    "year": 2025,
+    "url": "https://link.springer.com/article/10.1007/s00453-025-01302-2",
+    "source_type": "Primary research journal article",
+    "domains": [
+      "Computational geometry",
+      "Graph drawing"
+    ],
+    "locator": "Published 15 March 2025; Algorithmica 87, 930-960; Section 1, paragraphs following the contribution list",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Explicitly reports that counting general polygonalizations remains open, while distinguishing monotone-cycle enumeration and output-polynomial listing."
+    ],
+    "limitations": "The inspected introduction reports status at publication; it does not establish openness after that date. The paper's proofs were not audited.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MODEL-700",
+    "title": "Interaction Is Not Necessary for Order-Optimal 1-Bit Mean Estimation",
+    "authors": [
+      "Jiachen Hu",
+      "Han Zhong"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/html/2608.02538v1",
+    "source_type": "preprint",
+    "domains": [
+      "Statistical theory",
+      "Information theory"
+    ],
+    "locator": "Abstract and Section 1.1; arXiv v1, 3 August 2026",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Reports a fully nonadaptive randomized protocol attaining the adaptive one-bit minimax rates for every fixed finite-moment order k>1."
+    ],
+    "limitations": "A preprint claim; this check compared the model and result statement, not the complete proof.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MODEL-701",
+    "title": "Non-Adaptive 1-Bit Mean Estimation: Minimax Rates and the Sample-Interval Tradeoff",
+    "authors": [
+      "Ivan Lau",
+      "Jonathan Scarlett"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/html/2609.08564v1",
+    "source_type": "preprint",
+    "domains": [
+      "Statistical theory",
+      "Information theory"
+    ],
+    "locator": "Sections 1.1 and 1.3; Theorem 1; arXiv v1, 8 September 2026",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "The original problem authors give an order-optimal nonadaptive estimator and explicitly recognize concurrent solutions, including Hu and Zhong."
+    ],
+    "limitations": "Acceptance evidence is the original questioners' public acknowledgement and matching theorem, not a project proof audit or verified journal acceptance.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MODEL-702",
+    "title": "Exact Risk Ratios for Weighted Data Selection in Linear Regression",
+    "authors": [
+      "Guangjian Zhang"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/html/2608.28007v2",
+    "source_type": "preprint",
+    "domains": [
+      "Statistical and learning theory"
+    ],
+    "locator": "Section 2, Theorems 2.1-2.3; Conjecture 7.2; arXiv v2, 2 October 2026",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Reports exact weighted-selection ratios at n=2d-1 and at (d,n)=(3,4),(4,5),(4,6), plus lower bounds throughout the intermediate regime."
+    ],
+    "limitations": "The retained source concerns scalar responses, minimum-norm ERM and uniform full-data evaluation. General intermediate-budget equality remains conjectural; no proof or supplementary computation was independently verified.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MODEL-703",
+    "title": "Weighted Data Selection: Sharp Upper-Half and Five-Dimensional Laws",
+    "authors": [
+      "Zhongxuan Liu",
+      "Hongzhi Wang"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/html/2610.00101v1",
+    "source_type": "preprint",
+    "domains": [
+      "Statistical and learning theory"
+    ],
+    "locator": "Section 2, equations (1)-(2), Theorems 1-2; Section 2.1; Appendix B.6",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Reports Gamma_d(n)=3-n/d for ceil(3d/2)<=n<=2d-1 and Gamma_5(6)=11/5. The upper-half matching example uses uniform evaluation weights."
+    ],
+    "limitations": "The model permits nonuniform evaluation weights and uses an infimum over training supports. Its uniform-evaluation subcase must be distinguished from unweighted training selection. Claimed Lean verification was not inspected or rerun. The displayed v1 header and abstract record date the paper 8 September 2026; no date was inferred from its identifier.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MODEL-704",
+    "title": "Random cubic graphs are not globally synchronizing with probability at least 1 - exp(-2)",
+    "authors": [
+      "Ciro Carvallo",
+      "Pablo Groisman",
+      "Dieter Mitsche"
+    ],
+    "year": 2026,
+    "url": "https://www.union-matematica.org.ar/comunicaciones/files/2026/confirmed/S09-01001-Carvallo.pdf",
+    "source_type": "conference abstract",
+    "domains": [
+      "Network dynamics",
+      "Random graphs"
+    ],
+    "locator": "One-page author abstract, title and main paragraph; Union Matematica Argentina 2026 meeting",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Announces nonsynchronization of random cubic graphs with asymptotic probability at least 1-exp(-2)."
+    ],
+    "limitations": "The abstract gives no proof or precise sampling convention and uses stable equilibria. Those hypotheses must be compared with the indexed local-minimum formulation before a definitive status change.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MODEL-705",
+    "title": "Random cubic graphs admit nonsynchronized stable Kuramoto equilibria",
+    "authors": [
+      "Matthew J. Colbrook"
+    ],
+    "year": 2026,
+    "url": "https://github.com/ajt60gaibb/OpenProblemsInNLA/blob/3017ea813328900a812c0c105ca16ad6f694857e/references/colbrook-discrepancy-2026-09-11/manuscripts/MD-06.tex",
+    "source_type": "author-attributed manuscript",
+    "domains": [
+      "Network dynamics",
+      "Random graphs"
+    ],
+    "locator": "Statement and scope, Theorem 1; manuscript dated 11 September 2026; repository commit 3017ea813328900a812c0c105ca16ad6f694857e; observed Git blob 83d4330846f9354bd659271672720d399dbff79b; accompanying submission README at the same commit",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Claims that the synchronization probability tends to zero in the exact uniform labeled simple cubic-graph model."
+    ],
+    "limitations": "The repository attributes the manuscript to Colbrook and records agent reviews, not external human peer review. Supporting programs are partly missing and the linked Lean formalization is explicitly incomplete. No proof, certificate or formalization was rerun.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MODEL-706",
+    "title": "Strengthening Full Justified Representation: Efficient Verification and Computation",
+    "authors": [
+      "Nicholas Teh"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/html/2608.11500v1",
+    "source_type": "preprint",
+    "domains": [
+      "Social choice",
+      "Algorithms"
+    ],
+    "locator": "Introduction; Section 3.2, Theorem 3.5 and Corollary 3.6; arXiv v1, 11 August 2026",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Recognizes Frank-Peters and Ai polynomial-time FJR results and gives a polynomial-time construction of the stronger FJR+ axiom."
+    ],
+    "limitations": "This is independent scholarly uptake and a further primary construction. Peer-review acceptance and the complete proofs were not verified; efficient construction is distinct from checking FJR for an arbitrary committee.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MODEL-707",
+    "title": "On the optimality of coin-betting for mean estimation",
+    "authors": [
+      "Eugenio Clerico"
+    ],
+    "year": 2025,
+    "url": "https://arxiv.org/html/2412.02640v4",
+    "source_type": "journal article author version",
+    "domains": [
+      "Statistical theory",
+      "Sequential inference"
+    ],
+    "locator": "Sections 2.2 and 6.2-6.3, Theorem 3; arXiv v4, 4 August 2025; journal identified in the author version",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Characterizes admissible e-processes for the bounded constant-conditional-mean null using predictable coin-betting products."
+    ],
+    "limitations": "This is a particular null with its natural observation filtration. The paper explicitly distinguishes the i.i.d. null; it does not settle arbitrary composite-null admissibility.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MODEL-708",
+    "title": "Sequential testing of conditionally constrained hypotheses",
+    "authors": [
+      "Eugenio Clerico"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/html/2606.06769v1",
+    "source_type": "preprint",
+    "domains": [
+      "Statistical theory",
+      "Sequential inference"
+    ],
+    "locator": "Section 2; Section 4, Theorem 1; Section 5, final discussion of minimal complete classes",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "For finitely constrained conditional nulls, Theorem 1 gives domination by predictable affine products. Section 5 explicitly leaves identification of the admissible elements open."
+    ],
+    "limitations": "Complete-class domination is not a minimal-complete-class or admissibility characterization. The theorem uses a standard Borel sample space, finite-dimensional Borel constraint map and convex constraint set; infinitely many constraints are excluded. The displayed header is 4 June 2026; no publication acceptance is asserted.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-PHYS-700",
+    "title": "Using topology to reveal all mutually unbiased bases in dimension six",
+    "authors": [
+      "Mateo Cárdenes Wuttig",
+      "Joseph Tindall"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/html/2611.06917v1",
+    "source_type": "research preprint",
+    "domains": [
+      "Quantum information",
+      "Combinatorics"
+    ],
+    "locator": "arXiv:2611.06917v1, 2026-11-04; Section III.1, Theorem 3, and Code availability.",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Claims a complete classification that excludes four mutually unbiased bases in C^6."
+    ],
+    "limitations": "The theorem and computational claims were inspected; proofs, code and certificates were not independently checked.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-PHYS-701",
+    "title": "The Spacetime Penrose Inequality: Conditional Results for Stable MOTS and General Trapped Surfaces",
+    "authors": [
+      "Da Xu"
+    ],
+    "year": 2025,
+    "url": "https://arxiv.org/html/2512.04137v5",
+    "source_type": "research preprint",
+    "domains": [
+      "General relativity",
+      "Geometric analysis"
+    ],
+    "locator": "arXiv:2512.04137v5, revised 2025-12-31; abstract, Theorems 2.54-2.55, and Q5 discussion.",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "The revised claim requires additional favorable-jump, compactness or cosmic-censorship conditions."
+    ],
+    "limitations": "Version 5 expressly disclaims an unconditional general theorem. Proofs and the sufficiency of individual hypotheses were not independently reviewed.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-PHYS-702",
+    "title": "Constructions and bounds for subspace codes",
+    "authors": [
+      "Sascha Kurz"
+    ],
+    "year": 2025,
+    "url": "https://epub.uni-bayreuth.de/8787/1/chap_subspace_codes_arxiv.pdf",
+    "source_type": "research survey",
+    "domains": [
+      "Coding theory",
+      "Finite geometry"
+    ],
+    "locator": "Author manuscript dated 2025-12-20; Section 6, printed pp.77-78 (PDF pages 79-80), especially Theorem 6.2.",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Treats the binary q-Fano plane as unknown; records the 381-block characterization and automorphism order at most two."
+    ],
+    "limitations": "A dated survey report, not a complete current-status search; computations were not rerun.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-PHYS-703",
+    "title": "The order of the automorphism group of a binary q-analog of the Fano plane is at most two",
+    "authors": [
+      "Michael Kiermaier",
+      "Sascha Kurz",
+      "Alfred Wassermann"
+    ],
+    "year": 2016,
+    "url": "https://arxiv.org/html/1605.03853v1",
+    "source_type": "research paper",
+    "domains": [
+      "Coding theory",
+      "Finite geometry"
+    ],
+    "locator": "arXiv:1605.03853v1, 2016-05-12; Theorem 1 and Section 2 definitions; later journal publication in Designs, Codes and Cryptography 86 (2018), 239-250.",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Theorem 1 restricts a hypothetical binary q-Fano plane to a trivial automorphism group or the specified order-two group."
+    ],
+    "limitations": "A symmetry restriction does not decide unrestricted existence; computational exclusions were not reproduced.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-PHYS-704",
+    "title": "The binary q-analogue of the Fano plane has a trivial automorphism group (withdrawn)",
+    "authors": [
+      "John Bamberg",
+      "Ferdinand Ihringer",
+      "Jesse Lansdown",
+      "Gordon Royle"
+    ],
+    "year": 2017,
+    "url": "https://arxiv.org/abs/1709.05145v2",
+    "source_type": "withdrawn preprint",
+    "domains": [
+      "Coding theory",
+      "Finite geometry"
+    ],
+    "locator": "arXiv:1709.05145v2; withdrawal notice and version history, 2017-10-09.",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Records withdrawal of the stronger trivial-automorphism claim following a computational mistake."
+    ],
+    "limitations": "Retained as a correction record, not evidence for the withdrawn mathematical conclusion.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-PHYS-705",
+    "title": "Nonexistence of Multiple Black Holes in Stationary Analytic Vacuum Spacetimes",
+    "authors": [
+      "Yishen Huang",
+      "Junbin Li",
+      "Xi-Ping Zhu"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/html/2611.03766v1",
+    "source_type": "research preprint",
+    "domains": [
+      "General relativity",
+      "Mathematical physics"
+    ],
+    "locator": "arXiv:2611.03766v1, 2026-11-02; Introduction, Main Theorem and following uniqueness corollary.",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Claims vacuum uniqueness with analyticity and I+-regularity, allowing disconnected horizons."
+    ],
+    "limitations": "Analyticity remains an explicit hypothesis; this is not the general smooth-uniqueness target. No independent proof review was performed.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-PHYS-706",
+    "title": "Electrovacuum Black Hole Uniqueness",
+    "authors": [
+      "Qing Han",
+      "Marcus Khuri",
+      "Gilbert Weinstein",
+      "Jingang Xiong"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/html/2609.11140v1",
+    "source_type": "research preprint",
+    "domains": [
+      "General relativity",
+      "Mathematical physics"
+    ],
+    "locator": "arXiv:2609.11140v1, 2026-09-10; Theorem 1.1, Remark 1.2 and Definition 2.1.",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Reports an axisymmetric electrovacuum classification with an analyticity hypothesis at the axes."
+    ],
+    "limitations": "The explicit symmetry and axis hypotheses prevent reading this as general smooth stationary uniqueness; proof not independently reviewed.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-PHYS-707",
+    "title": "Undistillability of Werner states from three, four and five copies",
+    "authors": [
+      "Tejasvi Singh Tomar"
+    ],
+    "year": 2026,
+    "url": "https://www.mefyi.com/papers/werner-states-copies/werner-states-copies.pdf",
+    "source_type": "research preprint",
+    "domains": [
+      "Quantum information",
+      "Matrix analysis"
+    ],
+    "locator": "PDF p.2, Theorems 1.1-1.2; author landing page /papers/werner-states-copies/, first posted 2026-10-23, inspected 2026-11-06.",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Claims three-copy undistillability at alpha=-1/2 for every d>=3; explicitly leaves all-copy NPT bound entanglement open."
+    ],
+    "limitations": "Author labels it unreviewed. Certificates and formalizations were not replayed; the reported Lean coverage is limited and assumes the distillability criterion. The hosted PDF is mutable; no immutable version was retrieved.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-PHYS-708",
+    "title": "Proof of the Penrose Conjecture for Maximally Parameterized Initial Data Sets",
+    "authors": [
+      "Hubert Bray",
+      "Tuan Dolmen",
+      "Marcus Khuri",
+      "David Schmidt"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/html/2610.20559v1",
+    "source_type": "research preprint",
+    "domains": [
+      "General relativity",
+      "Geometric analysis"
+    ],
+    "locator": "arXiv:2610.20559v1, 2026-10-14; abstract, Conjecture 1.1, Theorem 1.2 and introduction.",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "States an enclosing-area inequality for maximally parameterized data with comparison-metric completion and asymptotic assumptions."
+    ],
+    "limitations": "The paper distinguishes its restricted theorem from a general existence theory for its PDE system. Wider claims mentioned there were not independently inspected here.",
     "role": "research_entry"
   }
 ]

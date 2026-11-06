@@ -934,7 +934,7 @@ How does a spinning black hole respond beyond first order to a steady surroundin
 
 Can three copies unlock entanglement distillation that a single copy cannot achieve? This finite-copy question probes the limits of entanglement as a communication resource.
 
-**Status:** Source reports open; checked 2026-10-20. **Assessment evidence:** Untested forecast.
+**Status:** Needs further verification; checked 2026-11-06. **Assessment evidence:** Untested forecast.
 
 **Background:** Partial transpose, Schmidt rank, LOCC and matrix inequalities; Tensor indices, unnormalized partial traces and certified arithmetic.
 
@@ -943,7 +943,7 @@ Can three copies unlock entanglement distillation that a single copy cannot achi
 <details>
 <summary>Review notes and full computing requirements</summary>
 
-**Reason for this priority:** The explicit algebra permits symbolic checks and candidate generation, but the unresolved nonnormal sector and recent claims require careful preparation.
+**Reason for this priority:** Assess the new claim before beginning a novelty-oriented attempt.
 
 **Computing requirements and limits:** Unmeasured. At d=4 the coefficient matrix has 64 rows and columns; low-rank parameterization reduces storage but does not make global optimization easy. No runtime or cost is forecast.
 

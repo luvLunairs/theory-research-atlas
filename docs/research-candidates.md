@@ -4,7 +4,7 @@
 
 This selection contains literature-origin questions whose recorded evidence still supports an open status. Follow each entry for the exact statement and the limits of its status check. An open label is dated evidence, not a guarantee that no solution exists elsewhere.
 
-**281 research candidates · 27 full research cards · 254 outlines awaiting detailed assessment.** The broader atlas also retains 30 known-result calibration records, listed separately in the [complete index](candidates.md#known-result-calibration).
+**280 research candidates · 26 full research cards · 254 outlines awaiting detailed assessment.** The broader atlas also retains 30 known-result calibration records, listed separately in the [complete index](candidates.md#known-result-calibration).
 
 A bounded first milestone can be proposed by the curator within a literature problem. Such a milestone is identified in the card and is not automatically a separately established open problem. Easy witness checking does not imply easy discovery. Resource ceilings are stopping limits unless explicitly supported by measurements.
 
@@ -40,7 +40,6 @@ These cards include methods, resources and validation plans. All AI assessments 
 | [EFX and Pareto optimality for personalized bi-valued goods](cards/Q-MODEL-204.md) | The problem is explicit and has reusable published arguments. Assessing a specific AI attempt requires a narrower, independently checked target. | [Resources and checks](cards/Q-MODEL-204.md#verification) | 2026-10-20 |
 | [Exact capacity of the independent binary deletion channel](cards/Q-FORMAL-328.md) | The published computation supplies concrete methods and checking obligations. Reviewing its assumptions and obtaining complete inputs should precede a new attempt. | [Resources and checks](cards/Q-FORMAL-328.md#verification) | 2026-10-20 |
 | [Nonlinear stationary axisymmetric tidal response of Kerr black holes](cards/Q-MODEL-492.md) | Symbolic tensor manipulation can assist finite-order field equations and matching checks. Choosing an informative sector and interpreting its coefficients require GR and EFT expertise; no AI trial has been run. | [Resources and checks](cards/Q-MODEL-492.md#verification) | 2026-10-20 |
-| [Three-copy undistillability of the Werner endpoint](cards/Q-MODEL-493.md) | The explicit algebra permits symbolic checks and candidate generation, but the unresolved nonnormal sector and recent claims require careful preparation. | [Resources and checks](cards/Q-MODEL-493.md#verification) | 2026-10-20 |
 | [Optimal acceleration from predetermined gradient-descent stepsizes](cards/Q-FORMAL-510.md) | The problem is explicit and has reusable published arguments. Assessing a specific AI attempt requires a narrower, independently checked target. | [Resources and checks](cards/Q-FORMAL-510.md#verification) | 2026-10-20 |
 | [A rank-47 decomposition for 4x4 matrix multiplication in characteristic zero](cards/Q-FORMAL-511.md) | Exact certificates make results easier to inspect than searches. Published computational attempts provide context, but do not imply that a new construction is likely. | [Resources and checks](cards/Q-FORMAL-511.md#verification) | 2026-10-20 |
 
@@ -74,11 +73,10 @@ These questions have source-backed statements, status notes and brief research p
 | [Compare maximum-entropy and iterated copy-lemma inequality methods](candidates/Q-FORMAL-005.md) | [Entropy inequalities and information geometry](domains/info.md#info-entropy) | Unknown | Source reports open | 2026-10-13 |
 | [Fourier entropy–influence conjecture](candidates/Q-FORMAL-006.md) | [Computational complexity](domains/cs.md#cs-complex) | Unknown | Source reports open | 2026-10-13 |
 | [Mansour's Fourier concentration conjecture for DNF](candidates/Q-FORMAL-007.md) | [Computational learning theory](domains/cs.md#cs-learn) | Unknown | Source reports open | 2026-10-13 |
-| [Existence of a binary q-Fano plane](candidates/Q-FORMAL-009.md) | [Coding theory](domains/info.md#info-codes) | Unknown | Source reports open | 2026-10-13 |
-| [Characterize admissible e-processes](candidates/Q-FORMAL-012.md) | [Inference and decision theory](domains/stat.md#stat-infer) | Unknown | Source reports open | 2026-10-13 |
+| [Existence of a binary q-Fano plane](candidates/Q-FORMAL-009.md) | [Coding theory](domains/info.md#info-codes) | Unknown | Source reports open | 2026-11-06 |
+| [Characterize admissible e-processes](candidates/Q-FORMAL-012.md) | [Inference and decision theory](domains/stat.md#stat-infer) | Unknown | Source reports open | 2026-11-06 |
 | [Yang-Mills existence and a mass gap in four dimensions](candidates/Q-MODEL-004.md) | [Constructive and axiomatic field theory](domains/mphy.md#mphy-qft) | Frontier | Source reports open | 2026-10-13 |
-| [NPT bound entanglement](candidates/Q-MODEL-005.md) | [Quantum information theory](domains/info.md#info-quant) | Unknown | Source reports open | 2026-10-20 |
-| [Four mutually unbiased bases in dimension six](candidates/Q-MODEL-007.md) | [Quantum information theory](domains/info.md#info-quant) | Unknown | Source reports open | 2026-10-13 |
+| [NPT bound entanglement](candidates/Q-MODEL-005.md) | [Quantum information theory](domains/info.md#info-quant) | Unknown | Source reports open | 2026-11-06 |
 | [Quaternary length-eight covering codes of radius two](candidates/Q-CODE-204.md) | [Coding theory](domains/info.md#info-codes) | Unknown | Source reports open | 2026-10-14 |
 | [Determine R(3,11) within the verified interval 47 to 50](candidates/Q-MATH-205.md) | [Extremal and Ramsey theory](domains/math.md#math-comb-ext) | Unknown | Source reports open | 2026-10-14 |
 | [Determine R(3,12) within the verified interval 53 to 59](candidates/Q-MATH-206.md) | [Extremal and Ramsey theory](domains/math.md#math-comb-ext) | Unknown | Source reports open | 2026-10-14 |
@@ -91,7 +89,6 @@ These questions have source-backed statements, status notes and brief research p
 | [Optimal two-bin stretch using an initial mixture of two deterministic policies](candidates/Q-FORMAL-210.md) | [Randomized, online and distributed algorithms](domains/cs.md#cs-random) | Unknown | Source reports open | 2026-10-14 |
 | [Complete EFX for three additive chore agents](candidates/Q-MODEL-203.md) | [Mechanism design and fair allocation](domains/econ.md#econ-mech) | Unknown | Source reports open | 2026-10-14 |
 | [Exact EFX for common three-value additive goods](candidates/Q-MODEL-206.md) | [Mechanism design and fair allocation](domains/econ.md#econ-mech) | Unknown | Source reports open | 2026-10-14 |
-| [Global synchronization of random cubic graphs](candidates/Q-MODEL-207.md) | [Dynamics on networks and collective behavior](domains/net.md#net-dynamics) | Unknown | Source reports open | 2026-10-14 |
 | [Complete EFX for binary submodular chore costs](candidates/Q-MODEL-208.md) | [Mechanism design and fair allocation](domains/econ.md#econ-mech) | Unknown | Source reports open | 2026-10-14 |
 | [Riemann hypothesis](candidates/Q-LAND-301.md) | [Analytic number theory](domains/math.md#math-num-analytic) | Frontier | Source reports open | 2026-10-14 |
 | [Birch and Swinnerton-Dyer rank conjecture over Q](candidates/Q-LAND-302.md) | [Number theory and arithmetic geometry](domains/math.md#math-num) | Frontier | Source reports open | 2026-10-14 |
@@ -307,10 +304,12 @@ These questions have source-backed statements, status notes and brief research p
 | [Rational stable commutator length in closed surface groups](candidates/Q-MATH-524.md) | [Low-dimensional topology](domains/math.md#math-top-low) | Unknown | Source reports open | 2026-10-14 |
 | [Groups with sharp regularity thresholds for surface actions](candidates/Q-MATH-525.md) | [Dynamical systems and ergodic theory](domains/math.md#math-dyn) | Unknown | Source reports open | 2026-10-14 |
 | [Edge unfolding of convex polyhedra](candidates/Q-FORMAL-404.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Source reports open | 2026-10-14 |
+| [Counting simple polygonalizations in polynomial time](candidates/Q-FORMAL-408.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Open after scoped check | 2026-11-06 |
+| [Connectivity of geometric tetrahedralization flip graphs](candidates/Q-FORMAL-415.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Source reports open | 2026-11-06 |
+| [Polynomial separation bounds for sums of square roots](candidates/Q-FORMAL-417.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Open after scoped check | 2026-11-06 |
 | [General unfolding of nonconvex polyhedra](candidates/Q-FORMAL-422.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Source reports open | 2026-10-14 |
 | [Data selection for mean estimation](candidates/Q-FORMAL-436.md) | [Inference and decision theory](domains/stat.md#stat-infer) | Unknown | Source reports open | 2026-10-14 |
-| [Data selection for linear regression](candidates/Q-FORMAL-437.md) | [Statistical learning and high-dimensional theory](domains/stat.md#stat-learn) | Unknown | Source reports open | 2026-10-14 |
-| [Noninteractive one-bit mean estimation over finite-moment classes](candidates/Q-FORMAL-438.md) | [Inference and decision theory](domains/stat.md#stat-infer) | Unknown | Source reports open | 2026-10-14 |
+| [Data selection for linear regression](candidates/Q-FORMAL-437.md) | [Statistical learning and high-dimensional theory](domains/stat.md#stat-learn) | Unknown | Source reports open | 2026-11-06 |
 | [Mismatch-capacity formula](candidates/Q-FORMAL-454.md) | [Classical information theory](domains/info.md#info-shannon) | Unknown | Source reports open | 2026-10-14 |
 | [Hyper-recurrence in lambda calculus](candidates/Q-FORMAL-475.md) | [Programming languages and verification theory](domains/cs.md#cs-semantics) | Unknown | Source reports open | 2026-10-14 |
 | [Exact complexity of word equations](candidates/Q-FORMAL-491.md) | [Programming languages and verification theory](domains/cs.md#cs-semantics) | Unknown | Source reports open | 2026-10-14 |

@@ -17,7 +17,7 @@ Can three copies unlock entanglement distillation that a single copy cannot achi
 | Primary field | [Quantum information theory](../domains/info.md#info-quant) |
 | Related fields | [Functional and operator analysis](../domains/math.md#math-anal-func), [Quantum theory and foundations](../domains/phys.md#phys-quant) |
 | Task origin | [Literature-origin question](../evidence-policy.md) |
-| Current status | [Source reports open](../evidence-policy.md) · checked 2026-10-20 |
+| Current status | [Needs further verification](../evidence-policy.md) · checked 2026-11-06 |
 | AI suitability | [Preparation needed](../ai-assessment.md) · Untested forecast |
 | Scientific review | Pending |
 
@@ -100,19 +100,19 @@ For every integer d &gt;= 3, is rho = (I - F/2)/(d^2 - d/2) three-copy undistill
 
 ### Checks still needed
 
-- Audit the recent sector proofs.
-- Inspect the d=3 candidate and its certificate.
-- Refresh later literature before research or submission.
+- Obtain a fixed version and assess the new full-scope claim before asserting novelty.
+- Inspect the analytic reductions, complete certificates and independent evaluations.
+- The earlier qutrit certificate remains uninspected.
 
 <a id="evidence"></a>
 
 ## Evidence and context
 
-**Status basis:** The primary sources leave the unrestricted three-copy question open. A later unreviewed d=3 candidate is retained as a claim, not an established answer. The scoped search found no resolution covering all d &gt;= 3.
+**Status basis:** Tomar (23 October 2026), Theorems 1.1-1.2, now claims the exact three-copy endpoint for every d&gt;=3. The full proof and certificates have not been independently assessed here.
 
 [Dated literature checks and remaining limits](../candidates/Q-MODEL-493.md#literature-checks). These are editorial evidence checks, not signed expert reviews.
 
-**Exact problem / theorem locator:** Wu and Zou, Section 1.1, equations (1)-(3); Fu, Gao and Park, Section 4; Zenodo candidate description.
+**Exact problem / theorem locator:** Wu and Zou, Section 1.1; Fu et al., Section 4; qutrit candidate description; Tomar, PDF p.2, Theorems 1.1-1.2.
 
 ### Sources
 
@@ -125,12 +125,16 @@ For every integer d &gt;= 3, is rho = (I - F/2)/(d^2 - d/2) three-copy undistill
 - [A solution to 2-copy distillability of Werner states](../sources.md#src-formal-604). Jinshi Fu; Li Gao; Sang-Jun Park. 2026. [Read source](https://arxiv.org/html/2607.21367v3).
   - **Relevant sections:** Theorem 1.1; introduction; version 3 dated 5 October 2026
   - **Source limitations:** The statement and proof outline were inspected; no independent proof verification or assessment of subsequent specialist reception was completed.
+- [Undistillability of Werner states from three, four and five copies](../sources.md#src-phys-707). Tejasvi Singh Tomar. 2026. [Read source](https://www.mefyi.com/papers/werner-states-copies/werner-states-copies.pdf).
+  - **Relevant sections:** PDF p.2, Theorems 1.1-1.2; author landing page /papers/werner-states-copies/, first posted 2026-10-23, inspected 2026-11-06.
+  - **Source limitations:** Author labels it unreviewed. Certificates and formalizations were not replayed; the reported Lean coverage is limited and assumes the distillability criterion. The hosted PDF is mutable; no immutable version was retrieved.
 
 ### Known results and partial progress
 
 - Wu and Zou report nonnegativity for positive semidefinite and normal rank-two coefficient operators and specified nonnormal support configurations.
 - Fu, Gao and Park report the exact two-copy threshold; their theorem does not settle three or arbitrarily many copies.
 - The anonymous d=3 deposit is a candidate claim whose certificate has not been inspected here.
+- Tomar reports the full three-copy threshold; see SRC-PHYS-707.
 
 **Research value:** The full target is a concrete step toward understanding NPT entanglement. Its significance is foundational; no immediate communications-hardware improvement follows.
 
@@ -141,25 +145,26 @@ For every integer d &gt;= 3, is rho = (I - F/2)/(d^2 - d/2) three-copy undistill
 
 ### Scope of the status check
 
-**Finding:** The primary sources leave the unrestricted three-copy question open. A later unreviewed d=3 candidate is retained as a claim, not an established answer. The scoped search found no resolution covering all d &gt;= 3.
+**Finding:** Tomar (23 October 2026), Theorems 1.1-1.2, now claims the exact three-copy endpoint for every d&gt;=3. The full proof and certificates have not been independently assessed here.
 
-**Search limits:** Searches are bounded; the anonymous deposit's attachments could not be inspected. No independent proof review was performed.
+**Search limits:** Source inspection only. No certificate replay or independent proof review; the author-hosted PDF has no immutable version retained here.
 
 <details>
 <summary>Literature references checked</summary>
 
 **Queries used:**
 
-- "three-copy" "Werner" "2026"
-- "three-copy" "Werner" "four" 2026
-- "Werner" "2608.02647" solution
-- "Werner" "three-copy" "undistillability" October 2026
+- "NPT bound entanglement" "2026" solved
+- "three-copy" "Werner" "2026" November
+- "2607.21367" correction OR withdrawn
+- "Undistillability of Werner states from three, four and five copies" correction
 
 **Sources checked:**
 
 - [Sharp Plücker Geometry for Three-Copy Werner Distillation](../sources.md#src-phys-011)
 - [Three-copy undistillability of the boundary qutrit Werner state](../sources.md#src-phys-012)
 - [A solution to 2-copy distillability of Werner states](../sources.md#src-formal-604)
+- [Undistillability of Werner states from three, four and five copies](../sources.md#src-phys-707)
 
 </details>
 
@@ -167,6 +172,7 @@ For every integer d &gt;= 3, is rho = (I - F/2)/(d^2 - d/2) three-copy undistill
 <summary>Previous attempts and public records</summary>
 
 - External records: Wu and Zou's sector analysis and the anonymous qutrit candidate. No project attempt.
+- External record: Tomar (2026), SRC-PHYS-707; unreviewed here.
 
 </details>
 
@@ -180,8 +186,9 @@ For every integer d &gt;= 3, is rho = (I - F/2)/(d^2 - d/2) three-copy undistill
 - Jinshi Fu
 - Li Gao
 - Sang-Jun Park
+- Tejasvi Singh Tomar
 
-**Suggested citation:** Wu and Zou (2026), arXiv:2608.02647v1; Fu, Gao and Park (2026), arXiv:2607.21367v3. Cite Anonymous, Zenodo 10.5281/zenodo.23134454, version 1.1.0-candidate, only as the reported d=3 claim.
+**Suggested citation:** Wu and Zou (2026), arXiv:2608.02647v1; Fu, Gao and Park (2026), arXiv:2607.21367v3. Cite Anonymous, Zenodo 10.5281/zenodo.23134454, version 1.1.0-candidate, only as the reported d=3 claim. Additional claim: Tomar (2026), Undistillability of Werner states from three, four and five copies, SRC-PHYS-707.
 
 **Editorial credit:** Compiled for Theory Research Atlas with Codex assistance.
 
@@ -191,13 +198,13 @@ For every integer d &gt;= 3, is rho = (I - F/2)/(d^2 - d/2) three-copy undistill
 
 ## AI trial assessment
 
-**Label:** [Preparation needed](../ai-assessment.md). **Evidence:** Untested forecast. **Assessed:** 2026-10-20.
+**Label:** [Preparation needed](../ai-assessment.md). **Evidence:** Untested forecast. **Assessed:** 2026-11-06.
 
-The explicit algebra permits symbolic checks and candidate generation, but the unresolved nonnormal sector and recent claims require careful preparation.
+Assess the new claim before beginning a novelty-oriented attempt.
 
 **Model or capability conditions:** No model evaluated. Assumes tool-using AI able to inspect literature, manipulate mathematical expressions and retain reproducible calculations.
 
-**Uncertainty:** No AI attempt measured; feasible search size and novelty of restrictions remain uncertain.
+**Uncertainty:** No project AI attempt measured; correctness of the new claim and novelty of further work remain unresolved.
 
 Ratings are separate judgments, not a score. High expertise needed or verification difficulty means a larger burden; high method availability or checkability means stronger support.
 
@@ -218,14 +225,14 @@ No answer has been produced or verified.
 
 **Novelty:** Requires future literature review.
 
-Recent partial results and a candidate claim require version-specific comparison.
+Compare against the new full-scope claim and its retained version.
 
 <details>
 <summary>Difficulty and significance</summary>
 
 **Difficulty:** High.
 
-Global nonconvex inequalities remain beyond the reported sectors.
+The recent full-scope claim needs review; the previous description of remaining sectors is out of date.
 
 **Evidence type:** Editorial estimate not measured.
 
@@ -242,6 +249,15 @@ A finite-copy boundary within the NPT distillability problem.
 No project attempts or human reviews have been recorded.
 
 <details>
+<summary>Changes to this problem</summary>
+
+| Date | Change |
+| --- | --- |
+| 2026-11-06 | Updated source evidence and outstanding checks; retained the historical target and pending human review. |
+
+</details>
+
+<details>
 <summary>Record information</summary>
 
 | Field | Recorded value |
@@ -253,7 +269,7 @@ No project attempts or human reviews have been recorded.
 | Primary domain ID | `INFO.QUANT` |
 | Cross-domain IDs | `MATH.ANAL.FUNC`, `PHYS.QUANT` |
 | Origin code | `literature_open` |
-| Status code | `source_reports_open` |
+| Status code | `unverified` |
 | Curator-designed scope | No |
 | Detailed entry | Yes |
 | Record level | `C` |

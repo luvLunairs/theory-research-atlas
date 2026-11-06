@@ -6,7 +6,7 @@ Limits of communication, representation and information processing.
 
 **Boundary:** Physical implementations link to physics and engineering.
 
-**Research sources: 26 · Primary tasks: 26 · Full cards: 7 · Cross-linked tasks: 2.**
+**Research sources: 33 · Primary tasks: 26 · Full cards: 7 · Cross-linked tasks: 2.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -24,7 +24,7 @@ Limits of communication, representation and information processing.
 | [Existence of a binary q-Fano plane](../candidates/Q-FORMAL-009.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-FORMAL-009 |
 | [NPT bound entanglement](../candidates/Q-MODEL-005.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MODEL-005 |
 | [Two-copy distillability of the two-ququart Werner boundary state](../candidates/Q-MODEL-006.md) | Unknown | Literature-origin question | Unverified | Outline · Q-MODEL-006 |
-| [Four mutually unbiased bases in dimension six](../candidates/Q-MODEL-007.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MODEL-007 |
+| [Four mutually unbiased bases in dimension six](../candidates/Q-MODEL-007.md) | Unknown | Literature-origin question | Unverified | Outline · Q-MODEL-007 |
 | [Binary length-12 covering codes of radius three](../cards/Q-CODE-201.md) | High | Literature-origin question | Source reports open | Full card · Q-CODE-201 |
 | [Ternary length-seven covering codes of radius two](../cards/Q-CODE-202.md) | High | Literature-origin question | Source reports open | Full card · Q-CODE-202 |
 | [Quaternary length-six covering codes of radius two](../cards/Q-CODE-203.md) | High | Literature-origin question | Source reports open | Full card · Q-CODE-203 |
@@ -42,7 +42,7 @@ Limits of communication, representation and information processing.
 | [General broadcast-channel capacity](../candidates/Q-FORMAL-456.md) | Unknown | Literature-origin question | Unverified | Outline · Q-FORMAL-456 |
 | [General relay-channel capacity](../candidates/Q-FORMAL-457.md) | Unknown | Literature-origin question | Unverified | Outline · Q-FORMAL-457 |
 | [Exact Gaussian interference-channel capacity](../candidates/Q-FORMAL-458.md) | Unknown | Literature-origin question | Unverified | Outline · Q-FORMAL-458 |
-| [Three-copy undistillability of the Werner endpoint](../cards/Q-MODEL-493.md) | High | Literature-origin question | Source reports open | Full card · Q-MODEL-493 |
+| [Three-copy undistillability of the Werner endpoint](../cards/Q-MODEL-493.md) | High | Literature-origin question | Unverified | Full card · Q-MODEL-493 |
 | [Efficient passive initialization of a three-dimensional quantum memory](../cards/Q-MODEL-496.md) | High | Literature-origin question | Source reports open | Full card · Q-MODEL-496 |
 
 <a id="sources"></a>
@@ -81,6 +81,13 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [A passive self-correcting quantum memory in three dimensions](../sources.md#src-phys-013) | Research entry | 2026 |
 | [A thermally and perturbatively stable classical spin model in two dimensions](../sources.md#src-phys-014) | Research entry | 2026 |
 | [Binary deletion-channel capacity: verification materials](../sources.md#src-impact-009) | Research entry | 2026 |
+| [Interaction Is Not Necessary for Order-Optimal 1-Bit Mean Estimation](../sources.md#src-model-700) | Research entry | 2026 |
+| [Non-Adaptive 1-Bit Mean Estimation: Minimax Rates and the Sample-Interval Tradeoff](../sources.md#src-model-701) | Research entry | 2026 |
+| [Using topology to reveal all mutually unbiased bases in dimension six](../sources.md#src-phys-700) | Research entry | 2026 |
+| [Constructions and bounds for subspace codes](../sources.md#src-phys-702) | Research entry | 2025 |
+| [The order of the automorphism group of a binary q-analog of the Fano plane is at most two](../sources.md#src-phys-703) | Research entry | 2016 |
+| [The binary q-analogue of the Fano plane has a trivial automorphism group (withdrawn)](../sources.md#src-phys-704) | Research entry | 2017 |
+| [Undistillability of Werner states from three, four and five copies](../sources.md#src-phys-707) | Research entry | 2026 |
 
 <a id="branches"></a>
 
@@ -238,7 +245,7 @@ Error-correcting and combinatorial codes.
 
 **Representative objects:** linear codes, lattices, designs.
 
-**Direct source entries:** [Problems on q-Analogs in Coding Theory](../sources.md#src-formal-008), [Semidefinite lower bounds for covering codes](../sources.md#src-code-201), [Quaternary Preparata codes are quasi-perfect covering codes in the Hamming metric](../sources.md#src-code-202), [Tables for bounds on covering codes](../sources.md#src-code-203), [A passive self-correcting quantum memory in three dimensions](../sources.md#src-phys-013), [A thermally and perturbatively stable classical spin model in two dimensions](../sources.md#src-phys-014).
+**Direct source entries:** [Problems on q-Analogs in Coding Theory](../sources.md#src-formal-008), [Semidefinite lower bounds for covering codes](../sources.md#src-code-201), [Quaternary Preparata codes are quasi-perfect covering codes in the Hamming metric](../sources.md#src-code-202), [Tables for bounds on covering codes](../sources.md#src-code-203), [A passive self-correcting quantum memory in three dimensions](../sources.md#src-phys-013), [A thermally and perturbatively stable classical spin model in two dimensions](../sources.md#src-phys-014), [Constructions and bounds for subspace codes](../sources.md#src-phys-702), [The order of the automorphism group of a binary q-analog of the Fano plane is at most two](../sources.md#src-phys-703), [The binary q-analogue of the Fano plane has a trivial automorphism group (withdrawn)](../sources.md#src-phys-704).
 
 **Primary tasks in this branch and its descendants**
 
@@ -285,7 +292,7 @@ Information constraints for quantum states and channels.
 
 **Representative objects:** entanglement, quantum channels, Bell inequalities.
 
-**Direct source entries:** [Tsirelson bounds for generalized Clauser-Horne-Shimony-Holt inequalities](../sources.md#src-model-004), [Five Open Problems in Quantum Information Theory](../sources.md#src-model-018), [On the two-copy distillability of Werner states and a new partial trace inequality](../sources.md#src-model-019), [A solution to 2-copy distillability of Werner states](../sources.md#src-formal-604), [Two-copy nondistillability of Werner states: sharp partial-trace inequalities and finite-copy extensions](../sources.md#src-formal-605), [Sharp Plücker Geometry for Three-Copy Werner Distillation](../sources.md#src-phys-011), [Three-copy undistillability of the boundary qutrit Werner state](../sources.md#src-phys-012), [A passive self-correcting quantum memory in three dimensions](../sources.md#src-phys-013).
+**Direct source entries:** [Tsirelson bounds for generalized Clauser-Horne-Shimony-Holt inequalities](../sources.md#src-model-004), [Five Open Problems in Quantum Information Theory](../sources.md#src-model-018), [On the two-copy distillability of Werner states and a new partial trace inequality](../sources.md#src-model-019), [A solution to 2-copy distillability of Werner states](../sources.md#src-formal-604), [Two-copy nondistillability of Werner states: sharp partial-trace inequalities and finite-copy extensions](../sources.md#src-formal-605), [Sharp Plücker Geometry for Three-Copy Werner Distillation](../sources.md#src-phys-011), [Three-copy undistillability of the boundary qutrit Werner state](../sources.md#src-phys-012), [A passive self-correcting quantum memory in three dimensions](../sources.md#src-phys-013), [Using topology to reveal all mutually unbiased bases in dimension six](../sources.md#src-phys-700), [Undistillability of Werner states from three, four and five copies](../sources.md#src-phys-707).
 
 **Primary tasks in this branch and its descendants**
 
@@ -332,7 +339,7 @@ Communication required to perform distributed tasks.
 
 **Representative objects:** protocols, information complexity, direct sums.
 
-**Direct source entries:** [The Log-Rank Conjecture: New Equivalent Formulations](../sources.md#src-formal-319), [Alphabet-Preserving Lifting for the Log-Rank Conjecture](../sources.md#src-formal-320).
+**Direct source entries:** [The Log-Rank Conjecture: New Equivalent Formulations](../sources.md#src-formal-319), [Alphabet-Preserving Lifting for the Log-Rank Conjecture](../sources.md#src-formal-320), [Interaction Is Not Necessary for Order-Optimal 1-Bit Mean Estimation](../sources.md#src-model-700), [Non-Adaptive 1-Bit Mean Estimation: Minimax Rates and the Sample-Interval Tradeoff](../sources.md#src-model-701).
 
 **Primary tasks in this branch and its descendants**
 

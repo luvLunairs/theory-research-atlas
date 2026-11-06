@@ -6,7 +6,7 @@ Guarantees for inference, decisions and learning from observations.
 
 **Boundary:** Benchmarks alone do not establish general statistical guarantees.
 
-**Research sources: 25 · Primary tasks: 19 · Full cards: 2 · Cross-linked tasks: 5.**
+**Research sources: 31 · Primary tasks: 19 · Full cards: 2 · Cross-linked tasks: 5.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -26,7 +26,7 @@ Guarantees for inference, decisions and learning from observations.
 | [Structure-agnostic minimax risk in the partial linear model](../candidates/Q-FORMAL-435.md) | Unknown | Literature-origin question | Unverified | Outline · Q-FORMAL-435 |
 | [Data selection for mean estimation](../candidates/Q-FORMAL-436.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-FORMAL-436 |
 | [Data selection for linear regression](../candidates/Q-FORMAL-437.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-FORMAL-437 |
-| [Noninteractive one-bit mean estimation over finite-moment classes](../candidates/Q-FORMAL-438.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-FORMAL-438 |
+| [Noninteractive one-bit mean estimation over finite-moment classes](../candidates/Q-FORMAL-438.md) | Unknown | Literature-origin question | Reported resolved | Outline · Q-FORMAL-438 |
 | [Sample complexity of approximately private PAC learning](../candidates/Q-FORMAL-439.md) | Unknown | Literature-origin question | Unverified | Outline · Q-FORMAL-439 |
 | [Instance-optimal sampling for approximate matrix-game equilibria](../candidates/Q-FORMAL-440.md) | Unknown | Literature-origin question | Unverified | Outline · Q-FORMAL-440 |
 | [Optimal adaptation cost in heavy-tailed bandits](../candidates/Q-FORMAL-441.md) | Unknown | Literature-origin question | Unverified | Outline · Q-FORMAL-441 |
@@ -73,6 +73,12 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [Data Selection for ERMs](../sources.md#src-formal-610) | Research entry | 2025 |
 | [Open Problem: Is Interaction Necessary for Order-Optimal 1-bit Mean Estimation?](../sources.md#src-formal-611) | Research entry | 2026 |
 | [Optimal use of a black-box learner in semiparametric estimation](../sources.md#src-review-703) | Research entry | 2026 |
+| [Interaction Is Not Necessary for Order-Optimal 1-Bit Mean Estimation](../sources.md#src-model-700) | Research entry | 2026 |
+| [Non-Adaptive 1-Bit Mean Estimation: Minimax Rates and the Sample-Interval Tradeoff](../sources.md#src-model-701) | Research entry | 2026 |
+| [Exact Risk Ratios for Weighted Data Selection in Linear Regression](../sources.md#src-model-702) | Research entry | 2026 |
+| [Weighted Data Selection: Sharp Upper-Half and Five-Dimensional Laws](../sources.md#src-model-703) | Research entry | 2026 |
+| [On the optimality of coin-betting for mean estimation](../sources.md#src-model-707) | Research entry | 2025 |
+| [Sequential testing of conditionally constrained hypotheses](../sources.md#src-model-708) | Research entry | 2026 |
 
 <a id="branches"></a>
 
@@ -135,7 +141,7 @@ Valid estimation, testing and decisions under explicit models.
 
 **Representative objects:** confidence sets, risk, hypothesis tests.
 
-**Direct source entries:** [Universal Inference](../sources.md#src-formal-003), [Game-Theoretic Statistics and Safe Anytime-Valid Inference](../sources.md#src-formal-010), [Open Problem: Data Selection for Regression Tasks](../sources.md#src-formal-435), [Open Problem: Is Interaction Necessary for Order-Optimal 1-bit Mean Estimation?](../sources.md#src-formal-436), [Open Problem: Optimal Instance-Dependent Sample Complexity for finding Nash Equilibrium in Two Player Zero-Sum Matrix games](../sources.md#src-formal-438), [Open Problem: Tight Characterization of Instance-Optimal Identity Testing](../sources.md#src-formal-442), [Data Selection for ERMs](../sources.md#src-formal-610), [Open Problem: Is Interaction Necessary for Order-Optimal 1-bit Mean Estimation?](../sources.md#src-formal-611).
+**Direct source entries:** [Universal Inference](../sources.md#src-formal-003), [Game-Theoretic Statistics and Safe Anytime-Valid Inference](../sources.md#src-formal-010), [Open Problem: Data Selection for Regression Tasks](../sources.md#src-formal-435), [Open Problem: Is Interaction Necessary for Order-Optimal 1-bit Mean Estimation?](../sources.md#src-formal-436), [Open Problem: Optimal Instance-Dependent Sample Complexity for finding Nash Equilibrium in Two Player Zero-Sum Matrix games](../sources.md#src-formal-438), [Open Problem: Tight Characterization of Instance-Optimal Identity Testing](../sources.md#src-formal-442), [Data Selection for ERMs](../sources.md#src-formal-610), [Open Problem: Is Interaction Necessary for Order-Optimal 1-bit Mean Estimation?](../sources.md#src-formal-611), [Interaction Is Not Necessary for Order-Optimal 1-Bit Mean Estimation](../sources.md#src-model-700), [Non-Adaptive 1-Bit Mean Estimation: Minimax Rates and the Sample-Interval Tradeoff](../sources.md#src-model-701), [On the optimality of coin-betting for mean estimation](../sources.md#src-model-707), [Sequential testing of conditionally constrained hypotheses](../sources.md#src-model-708).
 
 **Primary tasks in this branch and its descendants**
 
@@ -265,7 +271,7 @@ Generalization and inference in complex models.
 
 **Representative objects:** regression, generalization, sparsity.
 
-**Direct source entries:** [Dual VC Dimension Obstructs Sample Compression by Embeddings](../sources.md#src-formal-012), [The Probably Approximately Correct Learning Model in Computational Learning Theory](../sources.md#src-formal-307), [Sample Compression Scheme Reductions](../sources.md#src-formal-310), [The No-Clash Teaching Dimension is Bounded by VC Dimension [withdrawn]](../sources.md#src-formal-311), [Learning DNF in Time 2^{O-tilde(n^{1/3})}](../sources.md#src-formal-322), [Learning Juntas under Markov Random Fields](../sources.md#src-formal-323), [Open Problem: Data Selection for Regression Tasks](../sources.md#src-formal-435), [Invited Open Problem: Does Differential Privacy Make PAC Learning Much Harder?](../sources.md#src-formal-437), [Open Problem: Regret Minimization in Heavy-Tailed Bandits with Unknown Distributional Parameters](../sources.md#src-formal-439), [Invited Open Problem: Is the Power of Deep Learning over Linear Models Inherently Distribution Dependent?](../sources.md#src-formal-441), [Open Problem: Optimal Rates for Stochastic Decision-Theoretic Online Learning Under Differentially Privacy](../sources.md#src-formal-443), [Open Problem: Order Optimal Regret Bounds for Kernel-Based Reinforcement Learning](../sources.md#src-formal-444), [Data Selection for ERMs](../sources.md#src-formal-610).
+**Direct source entries:** [Dual VC Dimension Obstructs Sample Compression by Embeddings](../sources.md#src-formal-012), [The Probably Approximately Correct Learning Model in Computational Learning Theory](../sources.md#src-formal-307), [Sample Compression Scheme Reductions](../sources.md#src-formal-310), [The No-Clash Teaching Dimension is Bounded by VC Dimension [withdrawn]](../sources.md#src-formal-311), [Learning DNF in Time 2^{O-tilde(n^{1/3})}](../sources.md#src-formal-322), [Learning Juntas under Markov Random Fields](../sources.md#src-formal-323), [Open Problem: Data Selection for Regression Tasks](../sources.md#src-formal-435), [Invited Open Problem: Does Differential Privacy Make PAC Learning Much Harder?](../sources.md#src-formal-437), [Open Problem: Regret Minimization in Heavy-Tailed Bandits with Unknown Distributional Parameters](../sources.md#src-formal-439), [Invited Open Problem: Is the Power of Deep Learning over Linear Models Inherently Distribution Dependent?](../sources.md#src-formal-441), [Open Problem: Optimal Rates for Stochastic Decision-Theoretic Online Learning Under Differentially Privacy](../sources.md#src-formal-443), [Open Problem: Order Optimal Regret Bounds for Kernel-Based Reinforcement Learning](../sources.md#src-formal-444), [Data Selection for ERMs](../sources.md#src-formal-610), [Exact Risk Ratios for Weighted Data Selection in Linear Regression](../sources.md#src-model-702), [Weighted Data Selection: Sharp Upper-Half and Five-Dimensional Laws](../sources.md#src-model-703).
 
 **Primary tasks in this branch and its descendants**
 
