@@ -1,0 +1,241 @@
+{
+  "source": "Codex Desktop session_meta and turn_context records; metadata only, no prompts or reasoning retained",
+  "scope": "Current research parent and every discovered descendant on 21-22 October 2026",
+  "limits": "Records establish the application/runtime-recorded provider, API model identifier and effort. An immutable model build or independently authenticated server response identifier was not available.",
+  "records": [
+    {
+      "agent_path": "/root",
+      "provider": "openai",
+      "runtime_version": "0.163.0-alpha.11",
+      "originator": "Codex Desktop",
+      "configurations": [
+        {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "reasoning_effort": null,
+          "context_provider": null,
+          "count": 24
+        }
+      ],
+      "first_context_at": "2026-10-21T09:08:44.494Z",
+      "last_context_at": "2026-10-22T05:36:14.179Z",
+      "normalized_context_sha256": "2264d50f7292ee486ab4e7b78e94a2422510380b2a3b2c155fafbcdd1088e4f2"
+    },
+    {
+      "agent_path": "/root/theory",
+      "provider": "openai",
+      "runtime_version": "0.163.0-alpha.11",
+      "originator": "Codex Desktop",
+      "configurations": [
+        {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "reasoning_effort": null,
+          "context_provider": null,
+          "count": 7
+        }
+      ],
+      "first_context_at": "2026-10-21T09:09:05.794Z",
+      "last_context_at": "2026-10-21T10:56:33.541Z",
+      "normalized_context_sha256": "8146f793ab3c30ee85ceeee0c101ea3eff2a2a9400ac42912863922e0746885d"
+    },
+    {
+      "agent_path": "/root/search",
+      "provider": "openai",
+      "runtime_version": "0.163.0-alpha.11",
+      "originator": "Codex Desktop",
+      "configurations": [
+        {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "reasoning_effort": null,
+          "context_provider": null,
+          "count": 9
+        }
+      ],
+      "first_context_at": "2026-10-21T09:09:13.489Z",
+      "last_context_at": "2026-10-21T11:24:38.041Z",
+      "normalized_context_sha256": "7862849d27dcc229dab7f004d756303db0ddfe840ce800e9baad734d2e91ea5c"
+    },
+    {
+      "agent_path": "/root/literature",
+      "provider": "openai",
+      "runtime_version": "0.163.0-alpha.11",
+      "originator": "Codex Desktop",
+      "configurations": [
+        {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "reasoning_effort": null,
+          "context_provider": null,
+          "count": 10
+        }
+      ],
+      "first_context_at": "2026-10-21T09:09:20.440Z",
+      "last_context_at": "2026-10-21T11:22:41.458Z",
+      "normalized_context_sha256": "4adfea2d51469e6a5cd1342b9156734e291f19558a5842cc4ba2e9bc3922a752"
+    },
+    {
+      "agent_path": "/root/unrestricted_theory",
+      "provider": "openai",
+      "runtime_version": "0.163.0-alpha.11",
+      "originator": "Codex Desktop",
+      "configurations": [
+        {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "reasoning_effort": null,
+          "context_provider": null,
+          "count": 6
+        }
+      ],
+      "first_context_at": "2026-10-21T11:51:45.112Z",
+      "last_context_at": "2026-10-21T12:53:50.479Z",
+      "normalized_context_sha256": "61c5b31e02f6b66d5514869537ff1529556eb91353e5b960368e37af21563b81"
+    },
+    {
+      "agent_path": "/root/unrestricted_search",
+      "provider": "openai",
+      "runtime_version": "0.163.0-alpha.11",
+      "originator": "Codex Desktop",
+      "configurations": [
+        {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "reasoning_effort": null,
+          "context_provider": null,
+          "count": 7
+        }
+      ],
+      "first_context_at": "2026-10-21T11:51:54.156Z",
+      "last_context_at": "2026-10-21T13:07:08.919Z",
+      "normalized_context_sha256": "f13197ddb215bb58a3d4757780512ea0bf3e42a1adf33218f83054a8c4dee4b8"
+    },
+    {
+      "agent_path": "/root/unrestricted_structure",
+      "provider": "openai",
+      "runtime_version": "0.163.0-alpha.11",
+      "originator": "Codex Desktop",
+      "configurations": [
+        {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "reasoning_effort": null,
+          "context_provider": null,
+          "count": 7
+        }
+      ],
+      "first_context_at": "2026-10-21T11:52:01.533Z",
+      "last_context_at": "2026-10-21T12:41:39.581Z",
+      "normalized_context_sha256": "b013b95d9e14cce9d93628eea4b91eccec72b994cb2c0d699891201e86a39151"
+    },
+    {
+      "agent_path": "/root/general_theory_v5",
+      "provider": "openai",
+      "runtime_version": "0.163.0-alpha.11",
+      "originator": "Codex Desktop",
+      "configurations": [
+        {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "reasoning_effort": null,
+          "context_provider": null,
+          "count": 12
+        }
+      ],
+      "first_context_at": "2026-10-21T14:21:48.445Z",
+      "last_context_at": "2026-10-22T04:44:08.885Z",
+      "normalized_context_sha256": "7cd148a2c84b364592671856cfc8d1534588101579506de196e572d59f13934d"
+    },
+    {
+      "agent_path": "/root/counterexample_v5",
+      "provider": "openai",
+      "runtime_version": "0.163.0-alpha.11",
+      "originator": "Codex Desktop",
+      "configurations": [
+        {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "reasoning_effort": null,
+          "context_provider": null,
+          "count": 14
+        }
+      ],
+      "first_context_at": "2026-10-21T14:21:56.712Z",
+      "last_context_at": "2026-10-22T05:18:09.757Z",
+      "normalized_context_sha256": "e70927d4e9268dcdd02128b5b185f147dd5d40c4774ae9e6ec1098bdddece029"
+    },
+    {
+      "agent_path": "/root/structure_v5",
+      "provider": "openai",
+      "runtime_version": "0.163.0-alpha.11",
+      "originator": "Codex Desktop",
+      "configurations": [
+        {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "reasoning_effort": null,
+          "context_provider": null,
+          "count": 17
+        }
+      ],
+      "first_context_at": "2026-10-21T14:22:04.171Z",
+      "last_context_at": "2026-10-22T05:00:41.631Z",
+      "normalized_context_sha256": "880ce1c1d14b02e8601103f81ff7a81cc6f125c95d59831facf63e2450142866"
+    },
+    {
+      "agent_path": "/root/formal_core_v9",
+      "provider": "openai",
+      "runtime_version": "0.163.0-alpha.11",
+      "originator": "Codex Desktop",
+      "configurations": [
+        {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "reasoning_effort": null,
+          "context_provider": null,
+          "count": 3
+        }
+      ],
+      "first_context_at": "2026-10-22T05:36:38.983Z",
+      "last_context_at": "2026-10-22T05:36:44.429Z",
+      "normalized_context_sha256": "84e7a33e6ad5633b942ecbe7e7f7748504203fadee89f1f841e92471237acb61"
+    },
+    {
+      "agent_path": "/root/formal_nash_v9",
+      "provider": "openai",
+      "runtime_version": "0.163.0-alpha.11",
+      "originator": "Codex Desktop",
+      "configurations": [
+        {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "reasoning_effort": null,
+          "context_provider": null,
+          "count": 3
+        }
+      ],
+      "first_context_at": "2026-10-22T05:36:45.431Z",
+      "last_context_at": "2026-10-22T05:36:51.166Z",
+      "normalized_context_sha256": "68a25c7ef1a78c6192b1bb81a79c5bbcf99142faf67c3e35dccabd8129c41898"
+    },
+    {
+      "agent_path": "/root/proof_audit_v9",
+      "provider": "openai",
+      "runtime_version": "0.163.0-alpha.11",
+      "originator": "Codex Desktop",
+      "configurations": [
+        {
+          "model": "gpt-6-astra",
+          "effort": "ultra",
+          "reasoning_effort": null,
+          "context_provider": null,
+          "count": 3
+        }
+      ],
+      "first_context_at": "2026-10-22T05:37:21.103Z",
+      "last_context_at": "2026-10-22T05:37:25.602Z",
+      "normalized_context_sha256": "dee4a4183d43615e382e01b216bb8e1de01eb8c7f93d8ba4306b31fb6f0285ee"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "status": "PASS",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "jobs": 2,
+  "tests": [
+    {
+      "script": "qmodel204-v8-root/check_residual_quota_independent.py",
+      "arguments": [],
+      "output": "qmodel204-v8-root/check_residual_quota_independent.json",
+      "status": "PASS",
+      "script_sha256": "fbe50d7aa1c057e05f4ce8dc9678339bed313e6c410f6a08283b927f15617a74",
+      "output_sha256": "2deb332c695f2e3d2b8bd2b0380f39a684e6c31eb234f7098596829b538ab157",
+      "seconds": 1.953
+    },
+    {
+      "script": "qmodel204-v8-root/verify_efx_nash_obstruction.py",
+      "arguments": [
+        "--input",
+        "three-agent-input.json",
+        "--output",
+        "verify_efx_nash_three_agents.json"
+      ],
+      "output": "qmodel204-v8-root/verify_efx_nash_three_agents.json",
+      "status": "PASS",
+      "script_sha256": "2dbaae34280ac6c8bcd88c0304f944f239b715933beac5227a8767f40a665c51",
+      "output_sha256": "64bad7630b601502e88559bca30356acf6a627537fd3c56641d0b7c2b9b6ba4f",
+      "seconds": 0.313
+    },
+    {
+      "script": "qmodel204-v8-search/verify_candidate_ratio_cells.py",
+      "arguments": [],
+      "output": "qmodel204-v8-search/verify-candidate-ratio-cells.json",
+      "status": "PASS",
+      "script_sha256": "ce75abbcad124c9ccb4e94a1cf046b1936640f339baf60c6361785c536fc6abb",
+      "output_sha256": "610b3833195fca0c576bcabf25b00aac4266afef4cb353e4d643a2d0f2e2a70c",
+      "seconds": 12.938
+    },
+    {
+      "script": "qmodel204-v8-search/verify_one_guard_family.py",
+      "arguments": [],
+      "output": "qmodel204-v8-search/verify-one-guard-family.json",
+      "status": "PASS",
+      "script_sha256": "f7f42ff84d623f7aab470b5a1509abbb400647e7185023ccac15d9a3bf6488a8",
+      "output_sha256": "ea04649be58914b46ae4d9f4903bb0c21d9845da9c395583d5997fbf2608b429",
+      "seconds": 4.453
+    },
+    {
+      "script": "qmodel204-v8-search/verify_three_agent_nash.py",
+      "arguments": [],
+      "output": "qmodel204-v8-search/verify-three-agent-nash.json",
+      "status": "PASS",
+      "script_sha256": "22a1a5d77feb1f92585531ba190c61a9fba634f31dce07b6091d47e70eddca9f",
+      "output_sha256": "d4e551ee0ce0d0afc1115fa9abc26c70ee28ae2bee1912793bccd3545ff09a37",
+      "seconds": 1.813
+    },
+    {
+      "script": "qmodel204-v8-search/verify_two_guards.py",
+      "arguments": [],
+      "output": "qmodel204-v8-search/verify-two-guards.json",
+      "status": "PASS",
+      "script_sha256": "7bca87b279637f4d14c8e31c70c7652bafa85a8a2386d866998ddc0937d5c555",
+      "output_sha256": "bdcba465d2f3794af8eb46e3481af9046645dd2774e23894a2feaa5f703fbe81",
+      "seconds": 7.328
+    },
+    {
+      "script": "qmodel204-v8-structure/check_rounded_phase_cores.py",
+      "arguments": [],
+      "output": "qmodel204-v8-structure/check_rounded_phase_cores.json",
+      "status": "PASS",
+      "script_sha256": "83c877bb951af70fa0a49cfb6d9080fc2bbb3382c61fa68dbc1020832ec57565",
+      "output_sha256": "936f4c588f86a2e5fa1c146cff42f41bba52c452da3ea25bc6dba8f2d9674a81",
+      "seconds": 0.375
+    },
+    {
+      "script": "qmodel204-v8-theory/check_efx_nash_family_analytic.py",
+      "arguments": [],
+      "output": "qmodel204-v8-theory/check_efx_nash_family_analytic.json",
+      "status": "PASS",
+      "script_sha256": "0ee3ef71ad230f21c5f026eaae3afcae8ecaeedf9c75b52f125f52ff5f40f20c",
+      "output_sha256": "f842adaa80da443d080e0c75bab440d9ab410b56e58ae19998ffc0d66ef0dac4",
+      "seconds": 2.234
+    },
+    {
+      "script": "qmodel204-v8-theory/check_modular_safe_capacity.py",
+      "arguments": [],
+      "output": "qmodel204-v8-theory/check_modular_safe_capacity.json",
+      "status": "PASS",
+      "script_sha256": "36f0052c1c0baebc61c92dd1e20e7ff8057bc44d1003583b072834d95b950149",
+      "output_sha256": "045e877f7e1a6cd4fdda9e970df3c53a2598edf990d4ad403363823e1cedd309",
+      "seconds": 1.547
+    }
+  ],
+  "comparison": "Exact retained JSON equality, ignoring only seconds and elapsed_seconds. No project solver imported by any of the nine verification scripts. This is executable evidence, not formal certification or human review."
+}
