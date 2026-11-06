@@ -3071,5 +3071,206 @@
       "MATH.COMB.EXT"
     ],
     "mapping_basis": "Inspected statements address homogeneous oscillator dynamics and graph-density thresholds."
+  },
+  {
+    "source_id": "SRC-CROSS-700",
+    "domain_ids": [
+      "ENG.CONTROL"
+    ],
+    "mapping_basis": "The paper studies Lyapunov characterizations and partial detectability of nonlinear systems."
+  },
+  {
+    "source_id": "SRC-MATH-700",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "Claims a resolution of the pairwise-sum sorting problem recorded in TOPP."
+  },
+  {
+    "source_id": "SRC-MATH-701",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "Studies polygonalization enumeration and counting complexity."
+  },
+  {
+    "source_id": "SRC-MATH-702",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "Boundary reference: hyperbolic ideal triangulations must be distinguished from Euclidean point-set tetrahedralizations."
+  },
+  {
+    "source_id": "SRC-MATH-703",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "Addresses separation bounds used in exact geometric computation."
+  },
+  {
+    "source_id": "SRC-MATH-704",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "Reports a later bound relevant to the sum-of-square-roots precision problem."
+  },
+  {
+    "source_id": "SRC-MATH-705",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "Addresses fixed-vertex geometric tetrahedralization flip graphs in three dimensions."
+  },
+  {
+    "source_id": "SRC-MATH-706",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "Provides a later published status statement for general polygonalization counting."
+  },
+  {
+    "source_id": "SRC-MODEL-700",
+    "domain_ids": [
+      "STAT.INFER",
+      "INFO.COMPLEX"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-701",
+    "domain_ids": [
+      "STAT.INFER",
+      "INFO.COMPLEX"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-702",
+    "domain_ids": [
+      "STAT.LEARN"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-703",
+    "domain_ids": [
+      "STAT.LEARN"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-704",
+    "domain_ids": [
+      "NET.DYNAMICS",
+      "PROB.DISCRETE"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-705",
+    "domain_ids": [
+      "NET.DYNAMICS",
+      "PROB.DISCRETE"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-706",
+    "domain_ids": [
+      "ECON.SOCIAL",
+      "CS.ALG"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-707",
+    "domain_ids": [
+      "STAT.INFER",
+      "PROB.PROCESS"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-708",
+    "domain_ids": [
+      "STAT.INFER",
+      "PROB.PROCESS"
+    ],
+    "mapping_basis": "Editorial association from the inspected source scope; not full branch coverage."
+  },
+  {
+    "source_id": "SRC-PHYS-700",
+    "domain_ids": [
+      "INFO.QUANT",
+      "MATH.COMB"
+    ],
+    "mapping_basis": "Inspected statement and scope of the cited source."
+  },
+  {
+    "source_id": "SRC-PHYS-701",
+    "domain_ids": [
+      "PHYS.GRAV",
+      "MPHY.CLASSICAL"
+    ],
+    "mapping_basis": "Inspected statement and scope of the cited source."
+  },
+  {
+    "source_id": "SRC-PHYS-702",
+    "domain_ids": [
+      "INFO.CODES",
+      "MATH.GEOM",
+      "MATH.COMB"
+    ],
+    "mapping_basis": "Inspected statement and scope of the cited source."
+  },
+  {
+    "source_id": "SRC-PHYS-703",
+    "domain_ids": [
+      "INFO.CODES",
+      "MATH.GEOM",
+      "MATH.COMB"
+    ],
+    "mapping_basis": "Inspected statement and scope of the cited source."
+  },
+  {
+    "source_id": "SRC-PHYS-704",
+    "domain_ids": [
+      "INFO.CODES",
+      "MATH.GEOM",
+      "MATH.COMB"
+    ],
+    "mapping_basis": "Inspected statement and scope of the cited source."
+  },
+  {
+    "source_id": "SRC-PHYS-705",
+    "domain_ids": [
+      "PHYS.GRAV",
+      "MPHY.CLASSICAL"
+    ],
+    "mapping_basis": "Inspected statement and scope of the cited source."
+  },
+  {
+    "source_id": "SRC-PHYS-706",
+    "domain_ids": [
+      "PHYS.GRAV",
+      "MPHY.CLASSICAL"
+    ],
+    "mapping_basis": "Inspected statement and scope of the cited source."
+  },
+  {
+    "source_id": "SRC-PHYS-707",
+    "domain_ids": [
+      "INFO.QUANT",
+      "MATH.ANAL.FUNC"
+    ],
+    "mapping_basis": "Inspected statement and scope of the cited source."
+  },
+  {
+    "source_id": "SRC-PHYS-708",
+    "domain_ids": [
+      "PHYS.GRAV",
+      "MPHY.CLASSICAL"
+    ],
+    "mapping_basis": "Inspected statement and scope of the cited source."
   }
 ]

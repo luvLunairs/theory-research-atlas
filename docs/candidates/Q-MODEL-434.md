@@ -10,41 +10,69 @@ Is full justified representation achievable by a polynomial-time approval-based 
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Unverified. **Last checked:** 2026-10-14.
+**Current status:** Reported resolved. **Last checked:** 2026-11-06.
 
-**Status basis:** A matching resolution claim has been located. Keep unverified pending publication/acceptance and specialist verification, rather than treating the historical target as plainly open.
+**Status basis:** A polynomial-time FJR rule is given by Frank and Peters. Teh subsequently treats that result as established and supplies a polynomial-time rule for the stronger FJR+ axiom. This independent scholarly uptake and matching construction support a sourced resolution of the historical existence question; journal acceptance and project proof certification are not asserted.
 
 **Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** Sources: SRC-MODEL-403: 2022; SRC-MODEL-601: 2026. The 2026-10-14 check covers the scope recorded in the linked literature check.
+**Source date and freshness:** Historical question: 2022. Frank-Peters preprint: August 2026; Teh v1: 11 August 2026.
 
-**Scope limits:** A finite approval-election model with fixed rule and axiom definitions from the book. An axiomatic result does not establish that voter preferences or welfare are represented adequately.
+**Scope limits:** The target is efficient construction of an FJR committee on unrestricted approval profiles, not efficient verification of arbitrary committees. The latter is a different computational question.
 
 **Information still needed**
 
-- Publication or independent acceptance of the 2026 claim remains unverified; FJR must not be replaced by EJR or EJR+.
+- Specialist review of the algorithms and any subsequent publication versions remains to be recorded.
 
 **Primary branch:** [Social choice and collective decisions](../domains/econ.md#econ-social). **Related branches:** [Algorithms and data structures](../domains/cs.md#cs-alg).
 
-**Sources:** [Outlook and Research Directions, in Multi-Winner Voting with Approval Preferences](../sources.md#src-model-403); [A Polynomial-Time Rule Satisfying Full Justified Representation](../sources.md#src-model-601).
+**Sources:** [Outlook and Research Directions, in Multi-Winner Voting with Approval Preferences](../sources.md#src-model-403); [A Polynomial-Time Rule Satisfying Full Justified Representation](../sources.md#src-model-601); [Strengthening Full Justified Representation: Efficient Verification and Computation](../sources.md#src-model-706).
 
-**Exact locator:** §7.1, Q5; FJR definition 4.7
+**Exact locator:** Lackner-Skowron, Section 7.1 Q5 and Definition 4.7; Frank-Peters, Theorem 1; Teh, Theorem 3.5 and Corollary 3.6.
 
-**Potential difficulty:** High. The target quantifies over unrestricted approval profiles or asks for a general algorithmic guarantee.
+**Potential difficulty:** High. The historical algorithm-existence question has a sourced affirmative resolution; it should no longer be presented as an untouched research target.
 
-**Possible AI role:** A directly relevant resolution claim exists. AI could assist specialist comparison of definitions, dependencies and proof steps; reviewing the claim takes priority over treating the target as untouched.
+**Possible AI role:** Reproduce the published rules, compare FJR and FJR+ guarantees, or identify a separately stated extension with its own novelty check.
 
 **Verification burden:** High. Independent expert review of the claim is needed. Abstracts, model confidence, producer checks and publication metadata alone do not verify a proof.
 
 **Resource expectations:** Exact small-election searches may use SAT or integer programming on a workstation. Exhaustive instance size grows quickly; general claims require proofs or independently checked counterexamples.
 
-**Assessment:** 2026-10-14; untested forecast. **Uncertainty:** No named model has been evaluated. This forecasts conditional assistance with literature and proof review, not measured capability or a probability that the claim is correct.
+**Assessment:** 2026-11-06; untested forecast. **Uncertainty:** No algorithm was run and no independent proof certification was performed. The resolution label records matching literature and subsequent independent uptake.
 
-**Further work:** resolve the statement and status questions above before planning an attempt. **Human review:** Pending.
+**Further work:** examine the cited result or develop a clearly labeled reproduction. Any new variant needs its own statement and relation to this record. **Human review:** Pending.
 
 ## Literature checks
 
 These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-06
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Unverified → Reported resolved.
+
+A polynomial-time FJR rule is given by Frank and Peters. Teh subsequently treats that result as established and supplies a polynomial-time rule for the stronger FJR+ axiom. This independent scholarly uptake and matching construction support a sourced resolution of the historical existence question; journal acceptance and project proof certification are not asserted.
+
+**Search scope:** Reopened the existing Frank-Peters primary source at its algorithm theorem and inspected the independent Teh follow-up at its attribution, stronger axiom and polynomial-time construction. A targeted correction search found no matching counterexample or erratum.
+
+**Inspected evidence**
+
+- [A Polynomial-Time Rule Satisfying Full Justified Representation](../sources.md#src-model-601) — Section 3, Algorithm 1 and Theorem 1. Provides a polynomial-time construction satisfying the original FJR axiom.
+- [Strengthening Full Justified Representation: Efficient Verification and Computation](../sources.md#src-model-706) — Introduction; Theorem 3.5 and Corollary 3.6. Explicitly recognizes preceding FJR constructions and independently provides a stronger polynomial-time guarantee.
+
+**Limits and remaining work**
+
+- Independent uptake is not equivalent to a signed project proof review. No peer-reviewed venue was established in this check.
+
+<details>
+<summary>Search queries</summary>
+
+- "full justified representation" polynomial time 2026
+- "full justified representation" "2026" erratum OR counterexample
+
+
+</details>
 
 ### 2026-10-14
 

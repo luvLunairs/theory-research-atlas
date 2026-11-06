@@ -517,12 +517,15 @@
     "kind": "literature_open",
     "statement": "Does there exist a set of 3-dimensional subspaces of F_2^7 such that every 2-dimensional subspace lies in exactly one selected 3-dimensional subspace?",
     "source_ids": [
-      "SRC-FORMAL-008"
+      "SRC-FORMAL-008",
+      "SRC-PHYS-702",
+      "SRC-PHYS-703",
+      "SRC-PHYS-704"
     ],
-    "source_locator": "Section 6, Research problem 36",
+    "source_locator": "Etzion, Research problem 36; Kurz, Section 6 and Theorem 6.2; Kiermaier et al., Theorem 1; Bamberg et al., v2 withdrawal notice.",
     "status": "source_reports_open",
-    "status_basis": "The 2013 problem is explicit. Later search surfaced restrictions on automorphisms but those papers were not fully incorporated; no 2026 openness certification. Search-space size prevents an easy-AI label.",
-    "last_checked": "2026-10-13",
+    "status_basis": "Kurz (2025), Section 6, retains the binary q-Fano plane as unknown. The surviving automorphism restriction allows order two; the stronger 2017 trivial-automorphism claim was withdrawn. This scoped search did not establish a later resolution.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "existence-of-a-binary-q-fano-plane",
     "proposed_card": false,
@@ -605,14 +608,16 @@
       "Sequential inference"
     ],
     "kind": "literature_open",
-    "statement": "For a precisely fixed null distribution class and filtration, characterize e-process admissibility by matching necessary and sufficient conditions under the pointwise domination order used in the source.",
+    "statement": "For a specified null distribution class and filtration, characterize e-process admissibility by matching necessary and sufficient conditions under the survey's domination order: dominance almost surely under every null law, with strict improvement of positive probability for some null law at some time. Keep pathwise orders in later nonparametric results distinct when comparing their scope.",
     "source_ids": [
-      "SRC-FORMAL-010"
+      "SRC-FORMAL-010",
+      "SRC-MODEL-707",
+      "SRC-MODEL-708"
     ],
-    "source_locator": "Section 8.2.3, Admissibility",
+    "source_locator": "Ramdas et al., Section 2.4 footnote 4 and Section 8.2.3; Clerico (2025), Theorem 3; Clerico (2026), Theorem 1 and Section 5.",
     "status": "source_reports_open",
-    "status_basis": "The 2023 survey reports a gap. This candidate is a source-level general question; a tractable class and modern status review are prerequisites to a full card.",
-    "last_checked": "2026-10-13",
+    "status_basis": "The general survey question is retained, with important partial results. Clerico characterizes the bounded constant-conditional-mean case and later gives a complete class for finitely constrained conditional nulls. The latter explicitly leaves minimal complete classes and admissible elements open; it is not a general admissibility characterization.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "characterize-admissible-e-processes",
     "proposed_card": false,
@@ -757,12 +762,13 @@
       "SRC-MODEL-019",
       "SRC-FORMAL-604",
       "SRC-PHYS-011",
-      "SRC-PHYS-012"
+      "SRC-PHYS-012",
+      "SRC-PHYS-707"
     ],
-    "source_locator": "PRX Quantum Problem 4; Fu–Gao–Park v3, introduction and section 4; Wu–Zou v1, section 1.1 and Discussion; Zenodo qutrit candidate description.",
+    "source_locator": "Horodecki et al., Problem 1; existing finite-copy sources; Tomar, author landing-page abstract and PDF introduction.",
     "status": "source_reports_open",
-    "status_basis": "The inspected 2026 papers retain the all-copy NPT bound-entanglement question. Two-copy solution claims, three-copy sector results and an unreviewed d=3 three-copy candidate do not settle it. A focused update search on 2026-10-20 found no resolution of the stated all-copy target; this is not an exhaustive search or independent proof review.",
-    "last_checked": "2026-10-20",
+    "status_basis": "The latest inspected author report still describes all-copy NPT bound entanglement as open. Its three-copy claim does not supply one fixed NPT state undistillable for every finite copy number.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "npt-bound-entanglement-all-copy",
     "proposed_card": false,
@@ -814,12 +820,13 @@
     "kind": "literature_open",
     "statement": "Construct four orthonormal bases of C^6 for which squared inner products between vectors in different bases all equal 1/6. This is the construction alternative explicitly included in the source's Problem 2.",
     "source_ids": [
-      "SRC-MODEL-018"
+      "SRC-MODEL-018",
+      "SRC-PHYS-700"
     ],
-    "source_locator": "PRX Quantum Problem 2, PDF p.3",
-    "status": "source_reports_open",
-    "status_basis": "The 2022 review states the task. No comprehensive 2023-2026 status check was performed. Numerical near-solutions do not certify existence.",
-    "last_checked": "2026-10-13",
+    "source_locator": "Horodecki et al., Problem 2; Cárdenes Wuttig and Tindall, Theorem 3 (v1).",
+    "status": "unverified",
+    "status_basis": "A 4 November 2026 preprint claims nonexistence for the exact target (Theorem 3). Its proof and certificates remain unreviewed here; the earlier open label is no longer sufficient.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "four-mubs-complex-dimension-six",
     "proposed_card": false,
@@ -2353,12 +2360,14 @@
     "statement": "Let G_n be uniform over simple labeled 3-regular graphs on n vertices, with n even. Does the probability tend to one that every local minimum, modulo uniform phase rotation, of E(theta)=1/2 sum_(i,j) A_ij(1−cos(theta_i−theta_j)) on the n-torus is synchronized (all phases equal modulo 2pi)? This retains the problem collection's local-minimum formulation.",
     "source_ids": [
       "SRC-MODEL-210",
-      "SRC-FORMAL-106"
+      "SRC-FORMAL-106",
+      "SRC-MODEL-704",
+      "SRC-MODEL-705"
     ],
-    "source_locator": "Randomstrasse101, Entry 2, Definition 2.1 and Conjecture 3; McRae, Section 3.4.4.",
-    "status": "source_reports_open",
-    "status_basis": "The 2025 collection poses the conjecture; the August 2026 paper still cites it as unresolved after sufficient-degree improvements. No later solution was located. This is an asymptotic random-graph question, not a claim about every cubic graph.",
-    "last_checked": "2026-10-14",
+    "source_locator": "Randomstrasse101, Entry 2, Definition 2.1 and Conjecture 3; Carvallo et al., 2026 conference abstract; Colbrook, Statement and scope, Theorem 1.",
+    "status": "unverified",
+    "status_basis": "Later negative-resolution evidence has been located. Carvallo, Groisman and Mitsche announce nonsynchronization with probability bounded away from zero. An author-attributed Colbrook manuscript claims the stronger limit zero in the exact indexed graph model. The latter has recorded agent reviews but no external human acceptance established here; retain unverified pending specialist assessment.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "kuramoto-random-cubic-local-minima",
     "proposed_card": false,
@@ -4985,15 +4994,16 @@
     "domain": "Control, estimation and systems theory",
     "cross_domains": [],
     "kind": "literature_open",
-    "statement": "Characterize input-measurement-to-error stability by a suitable, preferably smooth, Lyapunov function.",
+    "statement": "For a forward-complete system x-dot=f(x,u) on R^n with locally Lipschitz maps f,h,g and outputs y=h(x), w=g(x), and measurable essentially bounded inputs u, find a Lyapunov characterization, smooth if possible, of input-measurement-to-error stability: |y(t)| <= max{beta(|x(0)|,t), gamma_1(||w||_[0,t]), gamma_2(||u||_[0,t])} for every solution and t>=0, for some beta of class KL and gamma_1,gamma_2 of class K. The time-interval norms are essential suprema; y is the error and w the measurement.",
     "source_ids": [
       "SRC-CROSS-401",
-      "SRC-CROSS-605"
+      "SRC-CROSS-605",
+      "SRC-CROSS-700"
     ],
-    "source_locator": "Problem 86, section 86.1, pp. 95–97; Brian P. Ingalls and Eduardo D. Sontag",
+    "source_locator": "MTNS Problem 86, Sections 86.1-86.3, printed pp.95-97; Ingalls, Sontag and Wang (2002), abstract, Theorem 1 and Section 7.",
     "status": "unverified",
-    "status_basis": "The 2005 switched-system paper uses uniform and strengthened measurement-to-error properties. Their role in its stability proofs does not supply the requested unrestricted smooth converse theorem.",
-    "last_checked": "2026-10-14",
+    "status_basis": "The original target concerns the full IMES property with both input and measurement gains. The 2002 partial MES/SIT characterization and the previously recorded switched-system results do not establish this general target. Present resolution remains unverified.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "cross:SRC-CROSS-401:problem 86, section 86.1, pp. 95–97",
     "proposed_card": false,
@@ -8875,12 +8885,14 @@
     "kind": "literature_open",
     "statement": "Can the number of non-self-intersecting polygonalizations using every point of a planar n-point set as a vertex be computed in polynomial time?",
     "source_ids": [
-      "SRC-FORMAL-408"
+      "SRC-FORMAL-408",
+      "SRC-MATH-701",
+      "SRC-MATH-706"
     ],
-    "source_locator": "TOPP Problem 16: Statement; June 2025 update",
-    "status": "unverified",
-    "status_basis": "The inspected source poses this question. A comprehensive search for later resolutions has not been completed; current openness is not asserted.",
-    "last_checked": "2026-10-14",
+    "source_locator": "TOPP Problem 16: Statement and June 2025 update; Eppstein (2024), Sections 1 and 6; Alegría et al. (2025), Section 1",
+    "status": "open_after_scoped_check",
+    "status_basis": "TOPP's June 2025 update and Alegría et al. (2025) report general exact counting as open. Eppstein's output-polynomial enumeration result does not give polynomial time in the input size alone. The recorded update search on 2026-11-06 found no accepted resolution of the exact counting target.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "formal:408:counting-simple-polygonalizations-in-polynomial-time",
     "proposed_card": false,
@@ -9036,12 +9048,14 @@
     "kind": "literature_open",
     "statement": "For every finite point set in R^3 with no four coplanar, is its tetrahedralization graph connected by geometric 2-to-3 and 3-to-2 bistellar flips without adding or deleting vertices?",
     "source_ids": [
-      "SRC-FORMAL-415"
+      "SRC-FORMAL-415",
+      "SRC-MATH-702",
+      "SRC-MATH-705"
     ],
-    "source_locator": "TOPP Problem 28: Statement; Partial and Related Results",
-    "status": "unverified",
-    "status_basis": "The inspected source poses this question. A comprehensive search for later resolutions has not been completed; current openness is not asserted.",
-    "last_checked": "2026-10-14",
+    "source_locator": "TOPP Problem 28: Statement and Partial and Related Results; Khoury (2026), Theorem 1; Benway, version 2 (2026), Section 1 and Corollary 4.2",
+    "status": "source_reports_open",
+    "status_basis": "TOPP's 2008 entry reports the general fixed-point Euclidean question as open. Khoury's September 2026 preprint reports connectivity for four through eight points. Benway's October 2026 revision concerns cusped hyperbolic manifolds, a different setting. An accepted resolution for arbitrary finite Euclidean point sets was not established.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "formal:415:connectivity-of-geometric-tetrahedralization-flip-graphs",
     "proposed_card": false,
@@ -9080,12 +9094,14 @@
     "kind": "literature_open",
     "statement": "Let r(n,k) be the least positive absolute difference between two sums of k square roots of nonnegative integers at most n. Is log(1/r(n,k)) polynomially bounded in k and log n?",
     "source_ids": [
-      "SRC-FORMAL-417"
+      "SRC-FORMAL-417",
+      "SRC-MATH-703",
+      "SRC-MATH-704"
     ],
-    "source_locator": "TOPP Problem 33: Statement; Motivation",
-    "status": "unverified",
-    "status_basis": "The inspected source poses this question. A comprehensive search for later resolutions has not been completed; current openness is not asserted.",
-    "last_checked": "2026-10-14",
+    "source_locator": "TOPP Problem 33: Statement and Motivation; Eisenbrand et al. (2024), Theorem 6; Aymone et al., version 2 (2026), Theorem 1.1 and Corollary 1.2",
+    "status": "open_after_scoped_check",
+    "status_basis": "The 2024 paper retains the separation problem and gives an improved fixed-radicand bound with an ineffective constant. The September 2026 preprint reports an explicit improvement whose exponent still grows exponentially with the number of independent radicals. The scoped search found no accepted uniform polynomial separation bound or disproof.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "formal:417:polynomial-separation-bounds-for-sums-of-square-roots",
     "proposed_card": false,
@@ -9147,12 +9163,13 @@
     "kind": "literature_open",
     "statement": "For two n-element real sets X and Y, can all n^2 sums x+y be sorted in O(n^2) time in a standard real-comparison computation model? A comparison-count bound alone is insufficient.",
     "source_ids": [
-      "SRC-FORMAL-420"
+      "SRC-FORMAL-420",
+      "SRC-MATH-700"
     ],
-    "source_locator": "TOPP Problem 41: Statement; Partial and Related Results",
+    "source_locator": "TOPP Problem 41: Statement and Partial and Related Results; Mundhra (2025), Theorem 1, Algorithm 1, Theorem 15 and Remark 19",
     "status": "unverified",
-    "status_basis": "The inspected source poses this question. A comprehensive search for later resolutions has not been completed; current openness is not asserted.",
-    "last_checked": "2026-10-14",
+    "status_basis": "TOPP records the historical open target, but Mundhra's April 2025 preprint explicitly claims quadratic total time. Independent validation and acceptance of that claim were not established. The claim is retained for assessment rather than silently treating the older open label as current or recording a resolution.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "formal:420:quadratic-time-sorting-of-pairwise-sums",
     "proposed_card": false,
@@ -9525,15 +9542,17 @@
     "domain": "Statistical and learning theory",
     "cross_domains": [],
     "kind": "literature_open",
-    "statement": "Determine the worst-case full-data squared-loss ratio for scalar linear regression in R^d using the minimum-Euclidean-norm fit to n selected examples, in the source's weighted and unweighted selection models. Weighted selected losses are convex combinations; evaluation uses the original equally weighted dataset. Theorem 9 supplies several weighted regimes; the intermediate regime d<n<2d and the unweighted case discussed in Section 5 remain the source's unresolved parts. Apply its zero-denominator and support conventions.",
+    "statement": "Determine the worst-case full-data squared-loss ratio for scalar linear regression in R^d using the minimum-Euclidean-norm fit under selection budget n, in the original weighted and unweighted selection models. Weighted selected losses are convex combinations; evaluation uses the original equally weighted dataset. Retain the original zero-denominator, repeated-example and effective-support conventions. Distinguish the known weighted regimes and subsequent partial results from the remaining weighted budgets and the separate unweighted-selection question.",
     "source_ids": [
       "SRC-FORMAL-435",
-      "SRC-FORMAL-610"
+      "SRC-FORMAL-610",
+      "SRC-MODEL-702",
+      "SRC-MODEL-703"
     ],
-    "source_locator": "Abstract, linear-regression instance",
+    "source_locator": "Hanneke et al., Theorem 9 and Section 5; Zhang v2, Section 2; Liu-Wang v1, Section 2, Theorems 1-2.",
     "status": "source_reports_open",
-    "status_basis": "The 2025 primary paper gives exact weighted-selection results in Theorem 9 and identifies remaining weighted and unweighted cases in Section 5. The original broad regression question is retained with these known cases distinguished; no later resolution was verified.",
-    "last_checked": "2026-10-14",
+    "status_basis": "The broad question remains open in part. Subsequent preprints report exact weighted ratios at n=2d-1, (3,4), (4,5), (4,6), (5,6), and throughout ceil(3d/2)<=n<=2d-1. Thus the whole intermediate interval must not be described as untouched. The remaining intermediate budgets and unweighted training selection are distinct unresolved targets.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "formal:437:data-selection-for-linear-regression",
     "proposed_card": false,
@@ -9551,12 +9570,14 @@
     "statement": "For every fixed k>1, can fully nonadaptive arbitrary measurable one-bit quantizers achieve, within constants depending only on k, the adaptive rate r_k in Lau–Scarlett equation (1), uniformly over distributions with mean in [-lambda,lambda] and E|X-mu|^k<=sigma^k, where lambda>=sigma>0 are known? Use independent samples, accuracy epsilon<=c_k sigma, and failure probability delta in (0,1/2).",
     "source_ids": [
       "SRC-FORMAL-436",
-      "SRC-FORMAL-611"
+      "SRC-FORMAL-611",
+      "SRC-MODEL-700",
+      "SRC-MODEL-701"
     ],
-    "source_locator": "Abstract",
-    "status": "source_reports_open",
-    "status_basis": "The July 2026 full text explicitly poses this uniform question as Open Problem 1. Known lower bounds for thresholds and intervals do not settle arbitrary measurable quantizers.",
-    "last_checked": "2026-10-14",
+    "source_locator": "Lau-Scarlett (July 2026), Section 2, equation (1), Open Problem 1; Lau-Scarlett (September 2026), Sections 1.1 and 1.3, Theorem 1.",
+    "status": "resolved",
+    "status_basis": "Resolved affirmatively in the subsequent literature: Lau and Scarlett give the matching nonadaptive theorem and explicitly recognize concurrent solutions, including Hu and Zhong. The acceptance basis is acknowledgement by the original problem authors and their own construction; this is not independent proof certification by the project.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "formal:438:noninteractive-one-bit-mean-estimation-over-finite-moment-classes",
     "proposed_card": false,
@@ -11934,12 +11955,13 @@
     "statement": "Is full justified representation achievable by a polynomial-time approval-based committee rule on unrestricted profiles?",
     "source_ids": [
       "SRC-MODEL-403",
-      "SRC-MODEL-601"
+      "SRC-MODEL-601",
+      "SRC-MODEL-706"
     ],
-    "source_locator": "§7.1, Q5; FJR definition 4.7",
-    "status": "unverified",
-    "status_basis": "A matching resolution claim has been located. Keep unverified pending publication/acceptance and specialist verification, rather than treating the historical target as plainly open.",
-    "last_checked": "2026-10-14",
+    "source_locator": "Lackner-Skowron, Section 7.1 Q5 and Definition 4.7; Frank-Peters, Theorem 1; Teh, Theorem 3.5 and Corollary 3.6.",
+    "status": "resolved",
+    "status_basis": "A polynomial-time FJR rule is given by Frank and Peters. Teh subsequently treats that result as established and supplies a polynomial-time rule for the stronger FJR+ axiom. This independent scholarly uptake and matching construction support a sourced resolution of the historical existence question; journal acceptance and project proof certification are not asserted.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "econ.social:polynomial-time-full-justified-representation",
     "proposed_card": false,
@@ -12570,12 +12592,14 @@
     "statement": "Establish an appropriate ADM-mass versus horizon-area Penrose inequality for asymptotically flat initial data without time symmetry, or identify its necessary corrections.",
     "source_ids": [
       "SRC-MODEL-405",
-      "SRC-MODEL-613"
+      "SRC-MODEL-613",
+      "SRC-PHYS-701",
+      "SRC-PHYS-708"
     ],
-    "source_locator": "§2.1, The Penrose inequality",
+    "source_locator": "Coley, The Penrose inequality, printed p.10; Xu v1 abstract and v5 Theorems 2.54-2.55; Bray et al., Conjecture 1.1 and Theorem 1.2.",
     "status": "unverified",
-    "status_basis": "A resolution claim exists, but the precise hypotheses, proof and independent acceptance remain unverified. Do not present the general target as an uncontested open problem.",
-    "last_checked": "2026-10-14",
+    "status_basis": "Xu v5 explicitly narrows the earlier unconditional claim. Bray et al. give a theorem for maximally parameterized data, with additional completion and asymptotic hypotheses. Neither inspected statement establishes the unrestricted target; its precise area and mass conventions still need clarification.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "phys.grav:the-general-non-time-symmetric-penrose-inequality",
     "proposed_card": false,
@@ -12596,12 +12620,14 @@
     "kind": "literature_open",
     "statement": "Can the analyticity assumption in stationary black-hole uniqueness be replaced by smoothness under the relevant regularity, horizon and asymptotic conditions?",
     "source_ids": [
-      "SRC-MODEL-405"
+      "SRC-MODEL-405",
+      "SRC-PHYS-705",
+      "SRC-PHYS-706"
     ],
-    "source_locator": "§2.3; final-state discussion",
+    "source_locator": "Coley, analyticity discussion, printed p.17 (PDF page 17); Huang et al., Main Theorem and corollary; Han et al., Theorem 1.1 and Remark 1.2.",
     "status": "unverified",
-    "status_basis": "The historical source matches the indexed question. Targeted keyword searches did not establish a later primary result resolving its full scope; present-day openness remains unverified.",
-    "last_checked": "2026-10-14",
+    "status_basis": "The November 2026 vacuum uniqueness claim retains analyticity. The September electrovacuum claim assumes axial symmetry and axis analyticity. These results do not remove the assumptions in the indexed smooth-uniqueness question; its vacuum and electrovacuum formulations still need separate specification.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "phys.grav:smooth-stationary-black-hole-uniqueness-without-analyticity",
     "proposed_card": false,
@@ -13513,12 +13539,13 @@
     "source_ids": [
       "SRC-PHYS-011",
       "SRC-PHYS-012",
-      "SRC-FORMAL-604"
+      "SRC-FORMAL-604",
+      "SRC-PHYS-707"
     ],
-    "source_locator": "Wu and Zou, Section 1.1, equations (1)-(3); Fu, Gao and Park, Section 4; Zenodo candidate description.",
-    "status": "source_reports_open",
-    "status_basis": "The primary sources leave the unrestricted three-copy question open. A later unreviewed d=3 candidate is retained as a claim, not an established answer. The scoped search found no resolution covering all d >= 3.",
-    "last_checked": "2026-10-20",
+    "source_locator": "Wu and Zou, Section 1.1; Fu et al., Section 4; qutrit candidate description; Tomar, PDF p.2, Theorems 1.1-1.2.",
+    "status": "unverified",
+    "status_basis": "Tomar (23 October 2026), Theorems 1.1-1.2, now claims the exact three-copy endpoint for every d>=3. The full proof and certificates have not been independently assessed here.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "werner-minus-half-three-copy-all-dimensions",
     "proposed_card": true,

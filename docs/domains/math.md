@@ -6,7 +6,7 @@ Abstract structures, spaces, quantities and transformations.
 
 **Boundary:** Formal questions; applications cross-link to their model domain.
 
-**Research sources: 107 · Primary tasks: 158 · Full cards: 9 · Cross-linked tasks: 66.**
+**Research sources: 112 · Primary tasks: 158 · Full cards: 9 · Cross-linked tasks: 66.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -295,6 +295,11 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [Description of fast matrix multiplication algorithm: 4 x 4 x 4](../sources.md#src-impact-010) | Research entry | Not verified |
 | [Graphs with connectivity 3/4 - epsilon are globally synchronizing](../sources.md#src-formal-619) | Research entry | 2026 |
 | [Beyond 11/16: dense Kuramoto networks that resist synchrony](../sources.md#src-formal-620) | Research entry | 2026 |
+| [Using topology to reveal all mutually unbiased bases in dimension six](../sources.md#src-phys-700) | Research entry | 2026 |
+| [Constructions and bounds for subspace codes](../sources.md#src-phys-702) | Research entry | 2025 |
+| [The order of the automorphism group of a binary q-analog of the Fano plane is at most two](../sources.md#src-phys-703) | Research entry | 2016 |
+| [The binary q-analogue of the Fano plane has a trivial automorphism group (withdrawn)](../sources.md#src-phys-704) | Research entry | 2017 |
+| [Undistillability of Werner states from three, four and five copies](../sources.md#src-phys-707) | Research entry | 2026 |
 
 <a id="branches"></a>
 
@@ -671,7 +676,7 @@ Metric, differential and algebraic structures on spaces.
 
 **Representative objects:** varieties, metrics, curvature.
 
-**Direct source entries:** [Problems on q-Analogs in Coding Theory](../sources.md#src-formal-008), [Convex algebraic geometry, optimization and applications — Workshop Summary](../sources.md#src-math-008), [Problems from the workshop 'Mahler's conjecture and duality in convex geometry'](../sources.md#src-math-011), [A Complete Characterization of the Gap between Convexity and SOS-Convexity](../sources.md#src-math-012), [The No-Three-in-Line Problem](../sources.md#src-math-201), [Solving the Heilbronn Triangle Problem using Global Optimization Methods](../sources.md#src-math-204), [From Computational Certification to Exact Coordinates: Heilbronn's Triangle Problem on the Unit Square Using Mixed-Integer Optimization](../sources.md#src-math-205), [From Computational Certification to Exact Coordinates: Heilbronn's Triangle Problem on the Unit Square Using Mixed-Integer Optimization](../sources.md#src-review-901).
+**Direct source entries:** [Problems on q-Analogs in Coding Theory](../sources.md#src-formal-008), [Convex algebraic geometry, optimization and applications — Workshop Summary](../sources.md#src-math-008), [Problems from the workshop 'Mahler's conjecture and duality in convex geometry'](../sources.md#src-math-011), [A Complete Characterization of the Gap between Convexity and SOS-Convexity](../sources.md#src-math-012), [The No-Three-in-Line Problem](../sources.md#src-math-201), [Solving the Heilbronn Triangle Problem using Global Optimization Methods](../sources.md#src-math-204), [From Computational Certification to Exact Coordinates: Heilbronn's Triangle Problem on the Unit Square Using Mixed-Integer Optimization](../sources.md#src-math-205), [From Computational Certification to Exact Coordinates: Heilbronn's Triangle Problem on the Unit Square Using Mixed-Integer Optimization](../sources.md#src-review-901), [Constructions and bounds for subspace codes](../sources.md#src-phys-702), [The order of the automorphism group of a binary q-analog of the Fano plane is at most two](../sources.md#src-phys-703), [The binary q-analogue of the Fano plane has a trivial automorphism group (withdrawn)](../sources.md#src-phys-704).
 
 **Primary tasks in this branch and its descendants**
 
@@ -980,7 +985,7 @@ Finite or discrete configurations and their structure.
 
 **Representative objects:** graphs, set systems, matroids.
 
-**Direct source entries:** [Induced subgraphs of hypercubes and a proof of the Sensitivity Conjecture](../sources.md#src-formal-002), [Dense networks that do not synchronize and sparse ones that do](../sources.md#src-formal-104), [Synchronizing Automata: Open Problems](../sources.md#src-formal-201), [Lower Bounds on Avoiding Thresholds](../sources.md#src-formal-202), [Synchronizing Times for k-Sets in Automata](../sources.md#src-formal-203), [The triple rendezvous time of a synchronizing automaton can be floor(4n/3)](../sources.md#src-formal-204), [The compress-with-another threshold of Szykuła's Figure 3 family](../sources.md#src-formal-205), [Experiments with Synchronizing Automata](../sources.md#src-formal-210).
+**Direct source entries:** [Induced subgraphs of hypercubes and a proof of the Sensitivity Conjecture](../sources.md#src-formal-002), [Dense networks that do not synchronize and sparse ones that do](../sources.md#src-formal-104), [Synchronizing Automata: Open Problems](../sources.md#src-formal-201), [Lower Bounds on Avoiding Thresholds](../sources.md#src-formal-202), [Synchronizing Times for k-Sets in Automata](../sources.md#src-formal-203), [The triple rendezvous time of a synchronizing automaton can be floor(4n/3)](../sources.md#src-formal-204), [The compress-with-another threshold of Szykuła's Figure 3 family](../sources.md#src-formal-205), [Experiments with Synchronizing Automata](../sources.md#src-formal-210), [Using topology to reveal all mutually unbiased bases in dimension six](../sources.md#src-phys-700), [Constructions and bounds for subspace codes](../sources.md#src-phys-702), [The order of the automorphism group of a binary q-analog of the Fano plane is at most two](../sources.md#src-phys-703), [The binary q-analogue of the Fano plane has a trivial automorphism group (withdrawn)](../sources.md#src-phys-704).
 
 **Primary tasks in this branch and its descendants**
 
@@ -1365,7 +1370,7 @@ Infinite-dimensional spaces and maps between them.
 
 **Representative objects:** Banach spaces, spectra, operator algebras.
 
-**Direct source entries:** [On the two-copy distillability of Werner states and a new partial trace inequality](../sources.md#src-model-019), [Ordinary Differential Equations and Dynamical Systems](../sources.md#src-math-106), [Recent perspectives on the Invariant Subspace Problem](../sources.md#src-math-307), [On the solution of Kim, Pearcy and Shields problem and its consequences](../sources.md#src-math-313), [Sharp Plücker Geometry for Three-Copy Werner Distillation](../sources.md#src-phys-011).
+**Direct source entries:** [On the two-copy distillability of Werner states and a new partial trace inequality](../sources.md#src-model-019), [Ordinary Differential Equations and Dynamical Systems](../sources.md#src-math-106), [Recent perspectives on the Invariant Subspace Problem](../sources.md#src-math-307), [On the solution of Kim, Pearcy and Shields problem and its consequences](../sources.md#src-math-313), [Sharp Plücker Geometry for Three-Copy Werner Distillation](../sources.md#src-phys-011), [Undistillability of Werner states from three, four and five copies](../sources.md#src-phys-707).
 
 **Primary tasks in this branch and its descendants**
 
@@ -1591,7 +1596,7 @@ These retain their primary record in another domain and are not added to this do
 | [Yang-Mills existence and a mass gap in four dimensions](../candidates/Q-MODEL-004.md) | Frontier | Literature-origin question | Source reports open | Outline · Q-MODEL-004 |
 | [NPT bound entanglement](../candidates/Q-MODEL-005.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MODEL-005 |
 | [Two-copy distillability of the two-ququart Werner boundary state](../candidates/Q-MODEL-006.md) | Unknown | Literature-origin question | Unverified | Outline · Q-MODEL-006 |
-| [Four mutually unbiased bases in dimension six](../candidates/Q-MODEL-007.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MODEL-007 |
+| [Four mutually unbiased bases in dimension six](../candidates/Q-MODEL-007.md) | Unknown | Literature-origin question | Unverified | Outline · Q-MODEL-007 |
 | [Audit uniform coordinate scaling in an exchange functional](../candidates/Q-MODEL-008.md) | Unknown | Known-result calibration | Known result in literature | Outline · Q-MODEL-008 |
 | [Reproduce equilibrium branches in an energy-balance climate model](../cards/Q-MODEL-010.md) | Medium | Known-result calibration | Known result in literature | Full card · Q-MODEL-010 |
 | [Bound structural perturbations in a selected biological model](../candidates/Q-MODEL-014.md) | Unknown | Curator proposal | Unverified | Outline · Q-MODEL-014 |
@@ -1619,7 +1624,7 @@ These retain their primary record in another domain and are not added to this do
 | [Complete EFX for three additive chore agents](../candidates/Q-MODEL-203.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MODEL-203 |
 | [EFX and Pareto optimality for personalized bi-valued goods](../cards/Q-MODEL-204.md) | High | Literature-origin question | Source reports open | Full card · Q-MODEL-204 |
 | [Exact EFX for common three-value additive goods](../candidates/Q-MODEL-206.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MODEL-206 |
-| [Global synchronization of random cubic graphs](../candidates/Q-MODEL-207.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MODEL-207 |
+| [Global synchronization of random cubic graphs](../candidates/Q-MODEL-207.md) | Unknown | Literature-origin question | Unverified | Outline · Q-MODEL-207 |
 | [Complete EFX for binary submodular chore costs](../candidates/Q-MODEL-208.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MODEL-208 |
 | [A deterministic factor-2 approximation for tournament feedback vertex set](../candidates/Q-FORMAL-330.md) | High | Literature-origin question | Source reports open | Outline · Q-FORMAL-330 |
 | [Slow-evolution global stability in the autonomous evolutionary Ricker model](../candidates/Q-MODEL-305.md) | High | Literature-origin question | Source reports open | Outline · Q-MODEL-305 |
@@ -1642,7 +1647,7 @@ These retain their primary record in another domain and are not added to this do
 | [Irreducibility of a random zero-one polynomial](../candidates/Q-MATH-425.md) | Unknown | Literature-origin question | Unverified | Outline · Q-MATH-425 |
 | [Computational complexity of ranked tree-child network rNNI* distance](../candidates/Q-MODEL-483.md) | High | Literature-origin question | Source reports open | Outline · Q-MODEL-483 |
 | [Shellability of the ranked tree-child network poset](../candidates/Q-MODEL-484.md) | High | Literature-origin question | Source reports open | Outline · Q-MODEL-484 |
-| [Three-copy undistillability of the Werner endpoint](../cards/Q-MODEL-493.md) | High | Literature-origin question | Source reports open | Full card · Q-MODEL-493 |
+| [Three-copy undistillability of the Werner endpoint](../cards/Q-MODEL-493.md) | High | Literature-origin question | Unverified | Full card · Q-MODEL-493 |
 | [A rank-47 decomposition for 4x4 matrix multiplication in characteristic zero](../cards/Q-FORMAL-511.md) | High | Literature-origin question | Source reports open | Full card · Q-FORMAL-511 |
 
 [Back to all domains](../README.md) · [Full outline](../taxonomy.md) · [Coverage gaps](../coverage.md)

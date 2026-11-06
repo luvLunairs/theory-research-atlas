@@ -32,7 +32,7 @@ Use this index to compare targets and their evidence status. **552 records inclu
 | [Yang-Mills existence and a mass gap in four dimensions](#q-model-004) | [Constructive and axiomatic field theory](domains/mphy.md#mphy-qft) | Frontier | Source reports open | Outline |
 | [NPT bound entanglement](#q-model-005) | [Quantum information theory](domains/info.md#info-quant) | Unknown | Source reports open | Outline |
 | [Two-copy distillability of the two-ququart Werner boundary state](#q-model-006) | [Quantum information theory](domains/info.md#info-quant) | Unknown | Unverified | Outline |
-| [Four mutually unbiased bases in dimension six](#q-model-007) | [Quantum information theory](domains/info.md#info-quant) | Unknown | Source reports open | Outline |
+| [Four mutually unbiased bases in dimension six](#q-model-007) | [Quantum information theory](domains/info.md#info-quant) | Unknown | Unverified | Outline |
 | [Quadratic generation of matroid toric ideals: the weak White conjecture](#q-math-104) | [Commutative and homological algebra](domains/math.md#math-alg-comm) | High | Source reports open | [Full card](cards/Q-MATH-104.md) |
 | [Determine the sharp connectivity threshold for homogeneous Kuramoto synchronization](#q-formal-104) | [Dynamics on networks and collective behavior](domains/net.md#net-dynamics) | High | Source reports open | [Full card](cards/Q-FORMAL-104.md) |
 | [Binary length-12 covering codes of radius three](#q-code-201) | [Coding theory](domains/info.md#info-codes) | High | Source reports open | [Full card](cards/Q-CODE-201.md) |
@@ -61,7 +61,7 @@ Use this index to compare targets and their evidence status. **552 records inclu
 | [Complete EFX for three additive chore agents](#q-model-203) | [Mechanism design and fair allocation](domains/econ.md#econ-mech) | Unknown | Source reports open | Outline |
 | [EFX and Pareto optimality for personalized bi-valued goods](#q-model-204) | [Mechanism design and fair allocation](domains/econ.md#econ-mech) | High | Source reports open | [Full card](cards/Q-MODEL-204.md) |
 | [Exact EFX for common three-value additive goods](#q-model-206) | [Mechanism design and fair allocation](domains/econ.md#econ-mech) | Unknown | Source reports open | Outline |
-| [Global synchronization of random cubic graphs](#q-model-207) | [Dynamics on networks and collective behavior](domains/net.md#net-dynamics) | Unknown | Source reports open | Outline |
+| [Global synchronization of random cubic graphs](#q-model-207) | [Dynamics on networks and collective behavior](domains/net.md#net-dynamics) | Unknown | Unverified | Outline |
 | [Complete EFX for binary submodular chore costs](#q-model-208) | [Mechanism design and fair allocation](domains/econ.md#econ-mech) | Unknown | Source reports open | Outline |
 | [Riemann hypothesis](#q-land-301) | [Analytic number theory](domains/math.md#math-num-analytic) | Frontier | Source reports open | Outline |
 | [Birch and Swinnerton-Dyer rank conjecture over Q](#q-land-302) | [Number theory and arithmetic geometry](domains/math.md#math-num) | Frontier | Source reports open | Outline |
@@ -334,16 +334,16 @@ Use this index to compare targets and their evidence status. **552 records inclu
 | [Linear-space logarithmic-time point location in three dimensions](#q-formal-405) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
 | [Optimal-size binary space partitions of logarithmic height](#q-formal-406) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
 | [Optimal output-sensitive convex hull algorithms in higher dimensions](#q-formal-407) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
-| [Counting simple polygonalizations in polynomial time](#q-formal-408) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
+| [Counting simple polygonalizations in polynomial time](#q-formal-408) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Open after scoped check | Outline |
 | [Minimum-stabbing triangulation complexity](#q-formal-409) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Reported resolved | Outline |
 | [Exact shortest paths among disjoint unit spheres](#q-formal-410) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
 | [Subquadratic minimum-link paths among planar obstacles](#q-formal-411) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
 | [Optimal inward-facing vertex floodlight bound](#q-formal-412) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
 | [Minimum-facet approximation between offset convex polytopes](#q-formal-413) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
 | [Geometric hexahedral meshing with planar faces](#q-formal-414) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
-| [Connectivity of geometric tetrahedralization flip graphs](#q-formal-415) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
+| [Connectivity of geometric tetrahedralization flip graphs](#q-formal-415) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Source reports open | Outline |
 | [Hamiltonian tetrahedralizations of convex polytopes](#q-formal-416) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
-| [Polynomial separation bounds for sums of square roots](#q-formal-417) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
+| [Polynomial separation bounds for sums of square roots](#q-formal-417) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Open after scoped check | Outline |
 | [Sublogarithmic approximation for metric freeze-tag](#q-formal-418) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
 | [Compatible triangulations of equal-size planar point sets](#q-formal-419) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
 | [Quadratic-time sorting of pairwise sums](#q-formal-420) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
@@ -364,7 +364,7 @@ Use this index to compare targets and their evidence status. **552 records inclu
 | [Structure-agnostic minimax risk in the partial linear model](#q-formal-435) | [Causal inference and identifiability](domains/stat.md#stat-causal) | Unknown | Unverified | Outline |
 | [Data selection for mean estimation](#q-formal-436) | [Inference and decision theory](domains/stat.md#stat-infer) | Unknown | Source reports open | Outline |
 | [Data selection for linear regression](#q-formal-437) | [Statistical learning and high-dimensional theory](domains/stat.md#stat-learn) | Unknown | Source reports open | Outline |
-| [Noninteractive one-bit mean estimation over finite-moment classes](#q-formal-438) | [Inference and decision theory](domains/stat.md#stat-infer) | Unknown | Source reports open | Outline |
+| [Noninteractive one-bit mean estimation over finite-moment classes](#q-formal-438) | [Inference and decision theory](domains/stat.md#stat-infer) | Unknown | Reported resolved | Outline |
 | [Sample complexity of approximately private PAC learning](#q-formal-439) | [Statistical learning and high-dimensional theory](domains/stat.md#stat-learn) | Unknown | Unverified | Outline |
 | [Instance-optimal sampling for approximate matrix-game equilibria](#q-formal-440) | [Inference and decision theory](domains/stat.md#stat-infer) | Unknown | Unverified | Outline |
 | [Optimal adaptation cost in heavy-tailed bandits](#q-formal-441) | [Statistical learning and high-dimensional theory](domains/stat.md#stat-learn) | Unknown | Unverified | Outline |
@@ -465,7 +465,7 @@ Use this index to compare targets and their evidence status. **552 records inclu
 | [Existence and uniqueness in the TDDFT force equation](#q-model-431) | [Quantum chemistry and electronic structure](domains/chem.md#chem-quant) | High | Unverified | Outline |
 | [Committee monotonicity compatible with EJR](#q-model-432) | [Social choice and collective decisions](domains/econ.md#econ-social) | High | Source reports open | Outline |
 | [Nonempty core in approval-based committee elections](#q-model-433) | [Social choice and collective decisions](domains/econ.md#econ-social) | High | Unverified | Outline |
-| [Polynomial-time full justified representation](#q-model-434) | [Social choice and collective decisions](domains/econ.md#econ-social) | High | Unverified | Outline |
+| [Polynomial-time full justified representation](#q-model-434) | [Social choice and collective decisions](domains/econ.md#econ-social) | High | Reported resolved | Outline |
 | [Efficient proportional and Pareto-optimal committees](#q-model-435) | [Social choice and collective decisions](domains/econ.md#econ-social) | High | Unverified | Outline |
 | [Proportionality degree of reverse sequential PAV](#q-model-436) | [Social choice and collective decisions](domains/econ.md#econ-social) | High | Unverified | Outline |
 | [Priceability together with Pareto efficiency](#q-model-437) | [Social choice and collective decisions](domains/econ.md#econ-social) | High | Unverified | Outline |
@@ -526,7 +526,7 @@ Use this index to compare targets and their evidence status. **552 records inclu
 | [Thermodynamic pairing order in the stripe regime of the square-lattice Hubbard model](#q-model-494) | [Condensed matter and materials theory](domains/phys.md#phys-cond) | Frontier | Source reports open | [Full card](cards/Q-MODEL-494.md) |
 | [Nonlinear stationary axisymmetric tidal response of Kerr black holes](#q-model-492) | [Gravitation and spacetime theory](domains/phys.md#phys-grav) | High | Open after scoped check | [Full card](cards/Q-MODEL-492.md) |
 | [Predictive mixed longitudinal-transverse intermittency exponents](#q-model-495) | [Fluid and plasma theory](domains/phys.md#phys-fluid) | High | Open after scoped check | [Full card](cards/Q-MODEL-495.md) |
-| [Three-copy undistillability of the Werner endpoint](#q-model-493) | [Quantum information theory](domains/info.md#info-quant) | High | Source reports open | [Full card](cards/Q-MODEL-493.md) |
+| [Three-copy undistillability of the Werner endpoint](#q-model-493) | [Quantum information theory](domains/info.md#info-quant) | High | Unverified | [Full card](cards/Q-MODEL-493.md) |
 | [Efficient passive initialization of a three-dimensional quantum memory](#q-model-496) | [Quantum information theory](domains/info.md#info-quant) | High | Source reports open | [Full card](cards/Q-MODEL-496.md) |
 | [Optimal acceleration from predetermined gradient-descent stepsizes](#q-formal-510) | [Optimization and operations research](domains/math.md#math-opt) | High | Source reports open | [Full card](cards/Q-FORMAL-510.md) |
 | [A rank-47 decomposition for 4x4 matrix multiplication in characteristic zero](#q-formal-511) | [Circuit and algebraic complexity](domains/cs.md#cs-complex-circuit) | High | Source reports open | [Full card](cards/Q-FORMAL-511.md) |
@@ -699,7 +699,7 @@ Each record has its own page with the statement, source locator, information gap
 
 <a id="q-model-007"></a>
 
-[Q-MODEL-007 · Four mutually unbiased bases in dimension six](candidates/Q-MODEL-007.md) — Source reports open.
+[Q-MODEL-007 · Four mutually unbiased bases in dimension six](candidates/Q-MODEL-007.md) — Unverified.
 
 <a id="q-model-008"></a>
 
@@ -919,7 +919,7 @@ Each record has its own page with the statement, source locator, information gap
 
 <a id="q-model-207"></a>
 
-[Q-MODEL-207 · Global synchronization of random cubic graphs](candidates/Q-MODEL-207.md) — Source reports open.
+[Q-MODEL-207 · Global synchronization of random cubic graphs](candidates/Q-MODEL-207.md) — Unverified.
 
 <a id="q-model-208"></a>
 
@@ -2011,7 +2011,7 @@ Each record has its own page with the statement, source locator, information gap
 
 <a id="q-formal-408"></a>
 
-[Q-FORMAL-408 · Counting simple polygonalizations in polynomial time](candidates/Q-FORMAL-408.md) — Unverified.
+[Q-FORMAL-408 · Counting simple polygonalizations in polynomial time](candidates/Q-FORMAL-408.md) — Open after scoped check.
 
 <a id="q-formal-409"></a>
 
@@ -2039,7 +2039,7 @@ Each record has its own page with the statement, source locator, information gap
 
 <a id="q-formal-415"></a>
 
-[Q-FORMAL-415 · Connectivity of geometric tetrahedralization flip graphs](candidates/Q-FORMAL-415.md) — Unverified.
+[Q-FORMAL-415 · Connectivity of geometric tetrahedralization flip graphs](candidates/Q-FORMAL-415.md) — Source reports open.
 
 <a id="q-formal-416"></a>
 
@@ -2047,7 +2047,7 @@ Each record has its own page with the statement, source locator, information gap
 
 <a id="q-formal-417"></a>
 
-[Q-FORMAL-417 · Polynomial separation bounds for sums of square roots](candidates/Q-FORMAL-417.md) — Unverified.
+[Q-FORMAL-417 · Polynomial separation bounds for sums of square roots](candidates/Q-FORMAL-417.md) — Open after scoped check.
 
 <a id="q-formal-418"></a>
 
@@ -2131,7 +2131,7 @@ Each record has its own page with the statement, source locator, information gap
 
 <a id="q-formal-438"></a>
 
-[Q-FORMAL-438 · Noninteractive one-bit mean estimation over finite-moment classes](candidates/Q-FORMAL-438.md) — Source reports open.
+[Q-FORMAL-438 · Noninteractive one-bit mean estimation over finite-moment classes](candidates/Q-FORMAL-438.md) — Reported resolved.
 
 <a id="q-formal-439"></a>
 
@@ -2535,7 +2535,7 @@ Each record has its own page with the statement, source locator, information gap
 
 <a id="q-model-434"></a>
 
-[Q-MODEL-434 · Polynomial-time full justified representation](candidates/Q-MODEL-434.md) — Unverified.
+[Q-MODEL-434 · Polynomial-time full justified representation](candidates/Q-MODEL-434.md) — Reported resolved.
 
 <a id="q-model-435"></a>
 
@@ -2779,7 +2779,7 @@ Each record has its own page with the statement, source locator, information gap
 
 <a id="q-model-493"></a>
 
-[Q-MODEL-493 · Three-copy undistillability of the Werner endpoint](candidates/Q-MODEL-493.md) — Source reports open.
+[Q-MODEL-493 · Three-copy undistillability of the Werner endpoint](candidates/Q-MODEL-493.md) — Unverified.
 
 <a id="q-model-496"></a>
 

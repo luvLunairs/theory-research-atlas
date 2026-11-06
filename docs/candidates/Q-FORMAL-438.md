@@ -10,41 +10,70 @@ For every fixed k>1, can fully nonadaptive arbitrary measurable one-bit quantize
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Source reports open. **Last checked:** 2026-10-14.
+**Current status:** Reported resolved. **Last checked:** 2026-11-06.
 
-**Status basis:** The July 2026 full text explicitly poses this uniform question as Open Problem 1. Known lower bounds for thresholds and intervals do not settle arbitrary measurable quantizers.
+**Status basis:** Resolved affirmatively in the subsequent literature: Lau and Scarlett give the matching nonadaptive theorem and explicitly recognize concurrent solutions, including Hu and Zhong. The acceptance basis is acknowledgement by the original problem authors and their own construction; this is not independent proof certification by the project.
 
-**Statement check:** Source located. **Status check:** Source report only.
+**Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** COLT 2026 problem note.
+**Source date and freshness:** Original problem: July 2026. Hu-Zhong v1: 3 August 2026. Lau-Scarlett follow-up v1: 8 September 2026.
 
-**Scope limits:** This is a source-defined research question, not a claim that a solution or a manageable research route is known.
+**Scope limits:** The historical target is preserved: arbitrary measurable nonadaptive quantizers, independent samples, the same central-moment class and all three k regimes. A two-stage decoder is not adaptive query selection.
 
 **Information still needed**
 
-- Check later publications after July 2026; lower bounds limited to particular quantizer families do not resolve the stated question.
+- A specialist proof review and any later journal version remain to be recorded.
 
 **Primary branch:** [Inference and decision theory](../domains/stat.md#stat-infer). **Related branches:** None recorded.
 
-**Sources:** [Open Problem: Is Interaction Necessary for Order-Optimal 1-bit Mean Estimation?](../sources.md#src-formal-436); [Open Problem: Is Interaction Necessary for Order-Optimal 1-bit Mean Estimation?](../sources.md#src-formal-611).
+**Sources:** [Open Problem: Is Interaction Necessary for Order-Optimal 1-bit Mean Estimation?](../sources.md#src-formal-436); [Open Problem: Is Interaction Necessary for Order-Optimal 1-bit Mean Estimation?](../sources.md#src-formal-611); [Interaction Is Not Necessary for Order-Optimal 1-Bit Mean Estimation](../sources.md#src-model-700); [Non-Adaptive 1-Bit Mean Estimation: Minimax Rates and the Sample-Interval Tradeoff](../sources.md#src-model-701).
 
-**Exact locator:** Abstract
+**Exact locator:** Lau-Scarlett (July 2026), Section 2, equation (1), Open Problem 1; Lau-Scarlett (September 2026), Sections 1.1 and 1.3, Theorem 1.
 
-**Potential difficulty:** Unknown. The source identifies an unresolved research target; its present difficulty has not been independently assessed.
+**Potential difficulty:** Unknown. The historical question now has a sourced affirmative resolution; original-research difficulty is no longer the appropriate selection criterion.
 
-**Possible AI role:** After the statistical model is recovered, help manipulate risk bounds, compare lower-bound constructions and design simulations that challenge proposed assumptions. Simulation does not establish minimax optimality.
+**Possible AI role:** Compare or reproduce the published estimators and proofs; identify any extension separately from this resolved target.
 
 **Verification burden:** High. Upper and lower bounds must use identical distribution classes, loss, privacy or oracle conditions and quantifiers; statistical counterexamples need exact arguments.
 
 **Resource expectations:** The formal target needs no new physical experiment. Simulations may use synthetic samples; necessary sample counts and computational costs have not been estimated.
 
-**Assessment:** 2026-10-14; untested forecast. **Uncertainty:** No model has been tested. Current status, useful subcases and feasible computational scale require further review.
+**Assessment:** 2026-11-06; untested forecast. **Uncertainty:** No project model experiment or independent proof audit was performed. Bibliographic resolution does not certify implementation correctness.
 
-**Further work:** define a scoped target, resource requirements and a verification plan before developing a full card. **Human review:** Pending.
+**Further work:** examine the cited result or develop a clearly labeled reproduction. Any new variant needs its own statement and relation to this record. **Human review:** Pending.
 
 ## Literature checks
 
 These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-06
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Source reports open → Reported resolved.
+
+Resolved affirmatively in the subsequent literature: Lau and Scarlett give the matching nonadaptive theorem and explicitly recognize concurrent solutions, including Hu and Zhong. The acceptance basis is acknowledgement by the original problem authors and their own construction; this is not independent proof certification by the project.
+
+**Search scope:** Compared July Open Problem 1 with the August construction and September original-authors follow-up, including its parameter class, main theorem and acknowledgement of concurrent solutions. Targeted later-correction searches found no relevant correction within this scope.
+
+**Inspected evidence**
+
+- [Open Problem: Is Interaction Necessary for Order-Optimal 1-bit Mean Estimation?](../sources.md#src-formal-611) — Section 2, equation (1), Open Problem 1. Defines the unrestricted finite-central-moment target and adaptive benchmark.
+- [Interaction Is Not Necessary for Order-Optimal 1-Bit Mean Estimation](../sources.md#src-model-700) — Abstract and Section 1.1. Reports an affirmative fully nonadaptive construction.
+- [Non-Adaptive 1-Bit Mean Estimation: Minimax Rates and the Sample-Interval Tradeoff](../sources.md#src-model-701) — Section 1.3; Theorem 1. The original problem authors acknowledge concurrent answers and establish the same minimax rates with queries fixed before all responses.
+
+**Limits and remaining work**
+
+- This records a sourced resolution, not a project proof review, implementation test or verified publication venue.
+
+<details>
+<summary>Search queries</summary>
+
+- "one-bit mean estimation" noninteractive 2026 Lau Scarlett
+- "2609.08564" correction OR erratum OR withdrawn
+
+
+</details>
 
 ### 2026-10-14
 

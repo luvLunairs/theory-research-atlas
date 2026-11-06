@@ -10,25 +10,27 @@ Establish an appropriate ADM-mass versus horizon-area Penrose inequality for asy
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Unverified. **Last checked:** 2026-10-14.
+**Current status:** Unverified. **Last checked:** 2026-11-06.
 
-**Status basis:** A resolution claim exists, but the precise hypotheses, proof and independent acceptance remain unverified. Do not present the general target as an uncontested open problem.
+**Status basis:** Xu v5 explicitly narrows the earlier unconditional claim. Bray et al. give a theorem for maximally parameterized data, with additional completion and asymptotic hypotheses. Neither inspected statement establishes the unrestricted target; its precise area and mass conventions still need clarification.
 
 **Statement check:** Needs clarification. **Status check:** Later literature checked.
 
-**Source date and freshness:** Sources: SRC-MODEL-405: 2018; SRC-MODEL-613: 2025. The 2026-10-14 check covers the scope recorded in the linked literature check.
+**Source date and freshness:** The dated literature check records the exact source versions inspected on 2026-11-06.
 
 **Scope limits:** A mathematical question for specified Einstein equations, matter model and asymptotics. A theorem about these equations does not establish the empirical correctness of the assumptions; observational tests are separate.
 
 **Information still needed**
 
-- Check the preprint's horizon-area, ADM energy/mass and energy assumptions; its proof and independent acceptance remain unverified.
+- Specify ADM energy versus invariant mass, spacetime dimension, matter/energy assumptions and enclosing area versus horizon area.
+- Compare the hypotheses of each recent claim and seek independent evaluation.
+- The broader OpenAI claim cited by Bray et al. was not independently inspected in this check.
 
 **Primary branch:** [Gravitation and spacetime theory](../domains/phys.md#phys-grav). **Related branches:** [Integrable and Hamiltonian systems](../domains/mphy.md#mphy-classical).
 
-**Sources:** [Mathematical General Relativity](../sources.md#src-model-405); [Proof the Spacetime Penrose Inequality](../sources.md#src-model-613).
+**Sources:** [Mathematical General Relativity](../sources.md#src-model-405); [Proof the Spacetime Penrose Inequality](../sources.md#src-model-613); [The Spacetime Penrose Inequality: Conditional Results for Stable MOTS and General Trapped Surfaces](../sources.md#src-phys-701); [Proof of the Penrose Conjecture for Maximally Parameterized Initial Data Sets](../sources.md#src-phys-708).
 
-**Exact locator:** §2.1, The Penrose inequality
+**Exact locator:** Coley, The Penrose inequality, printed p.10; Xu v1 abstract and v5 Theorems 2.54-2.55; Bray et al., Conjecture 1.1 and Theorem 1.2.
 
 **Potential difficulty:** Frontier. The question concerns a major unresolved formulation or generalization in nonlinear gravitational geometry.
 
@@ -45,6 +47,39 @@ Establish an appropriate ADM-mass versus horizon-area Penrose inequality for asy
 ## Literature checks
 
 These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-06
+
+**Coverage:** Statement and later literature. **Statement:** Needs clarification.
+
+**Recorded status:** Unverified → Unverified.
+
+Xu v5 explicitly narrows the earlier unconditional claim. Bray et al. give a theorem for maximally parameterized data, with additional completion and asymptotic hypotheses. Neither inspected statement establishes the unrestricted target; its precise area and mass conventions still need clarification.
+
+**Search scope:** Targeted web searches through 2026-11-06 and inspection of the listed primary statements or survey passages. This is not an exhaustive literature or acceptance audit.
+
+**Inspected evidence**
+
+- [Proof the Spacetime Penrose Inequality](../sources.md#src-model-613) — Version 1 abstract. The historical version claimed an unconditional result.
+- [The Spacetime Penrose Inequality: Conditional Results for Stable MOTS and General Trapped Surfaces](../sources.md#src-phys-701) — Theorems 2.54-2.55 and Q5 discussion. The revised statement adds conditions and disclaims a fully unconditional result.
+- [Proof of the Penrose Conjecture for Maximally Parameterized Initial Data Sets](../sources.md#src-phys-708) — Conjecture 1.1 and Theorem 1.2. Enclosing area is distinguished from apparent-horizon area; the theorem requires special data and comparison-metric hypotheses.
+
+**Limits and remaining work**
+
+- Specify ADM energy versus invariant mass, spacetime dimension, matter/energy assumptions and enclosing area versus horizon area.
+- Compare the hypotheses of each recent claim and seek independent evaluation.
+- The broader OpenAI claim cited by Bray et al. was not independently inspected in this check.
+- No independent proof review or certificate execution was performed.
+
+<details>
+<summary>Search queries</summary>
+
+- "Penrose inequality" "2512.04137" correction
+- "2512.04137" correction OR criticism OR conditional
+- "The Spacetime Penrose Inequality" "2026" conditional Bray Khuri
+
+
+</details>
 
 ### 2026-10-14
 

@@ -6,7 +6,7 @@ Formal models of allocation, incentives, strategic behavior and institutions.
 
 **Boundary:** Model theorems do not establish behavioral or policy validity.
 
-**Research sources: 22 · Primary tasks: 22 · Full cards: 4 · Cross-linked tasks: 0.**
+**Research sources: 23 · Primary tasks: 22 · Full cards: 4 · Cross-linked tasks: 0.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -28,7 +28,7 @@ Formal models of allocation, incentives, strategic behavior and institutions.
 | [Approximate equilibrium in quitting games with at least four players](../candidates/Q-MODEL-309.md) | Frontier | Literature-origin question | Source reports open | Outline · Q-MODEL-309 |
 | [Committee monotonicity compatible with EJR](../candidates/Q-MODEL-432.md) | High | Literature-origin question | Source reports open | Outline · Q-MODEL-432 |
 | [Nonempty core in approval-based committee elections](../candidates/Q-MODEL-433.md) | High | Literature-origin question | Unverified | Outline · Q-MODEL-433 |
-| [Polynomial-time full justified representation](../candidates/Q-MODEL-434.md) | High | Literature-origin question | Unverified | Outline · Q-MODEL-434 |
+| [Polynomial-time full justified representation](../candidates/Q-MODEL-434.md) | High | Literature-origin question | Reported resolved | Outline · Q-MODEL-434 |
 | [Efficient proportional and Pareto-optimal committees](../candidates/Q-MODEL-435.md) | High | Literature-origin question | Unverified | Outline · Q-MODEL-435 |
 | [Proportionality degree of reverse sequential PAV](../candidates/Q-MODEL-436.md) | High | Literature-origin question | Unverified | Outline · Q-MODEL-436 |
 | [Priceability together with Pareto efficiency](../candidates/Q-MODEL-437.md) | High | Literature-origin question | Unverified | Outline · Q-MODEL-437 |
@@ -73,6 +73,7 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [On the Parallelizability of Approval-Based Committee Rules](../sources.md#src-model-605) | Research entry | 2026 |
 | [Ties in Multiwinner Approval Voting](../sources.md#src-model-606) | Research entry | 2023 |
 | [When Maximum Nash Welfare Becomes Strongly Fair: Bi-valued Goods](../sources.md#src-impact-004) | Research entry | 2026 |
+| [Strengthening Full Justified Representation: Efficient Verification and Computation](../sources.md#src-model-706) | Research entry | 2026 |
 
 <a id="branches"></a>
 
@@ -220,7 +221,7 @@ Aggregation of preferences under stated axioms.
 
 **Representative objects:** voting rules, preference profiles, judgment aggregation.
 
-**Direct source entries:** [Outlook and Research Directions, in Multi-Winner Voting with Approval Preferences](../sources.md#src-model-403), [Proportional Aggregation of Preferences for Sequential Decision Making](../sources.md#src-model-412), [A Polynomial-Time Rule Satisfying Full Justified Representation](../sources.md#src-model-601), [Existence of the Core in Approval-Based Committee Elections](../sources.md#src-model-602), [Jointly Satisfying Pareto Optimality and Justified Representation is NP-Hard in Approval-Based Multiwinner Voting](../sources.md#src-model-603), [Reverse Sequential Proportional Approval Voting Rule: Proportionality and Approximation Guarantees](../sources.md#src-model-604), [On the Parallelizability of Approval-Based Committee Rules](../sources.md#src-model-605), [Ties in Multiwinner Approval Voting](../sources.md#src-model-606).
+**Direct source entries:** [Outlook and Research Directions, in Multi-Winner Voting with Approval Preferences](../sources.md#src-model-403), [Proportional Aggregation of Preferences for Sequential Decision Making](../sources.md#src-model-412), [A Polynomial-Time Rule Satisfying Full Justified Representation](../sources.md#src-model-601), [Existence of the Core in Approval-Based Committee Elections](../sources.md#src-model-602), [Jointly Satisfying Pareto Optimality and Justified Representation is NP-Hard in Approval-Based Multiwinner Voting](../sources.md#src-model-603), [Reverse Sequential Proportional Approval Voting Rule: Proportionality and Approximation Guarantees](../sources.md#src-model-604), [On the Parallelizability of Approval-Based Committee Rules](../sources.md#src-model-605), [Ties in Multiwinner Approval Voting](../sources.md#src-model-606), [Strengthening Full Justified Representation: Efficient Verification and Computation](../sources.md#src-model-706).
 
 **Primary tasks in this branch and its descendants**
 

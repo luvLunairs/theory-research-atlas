@@ -8,9 +8,9 @@ Difficulty concerns the stated target, not the ease of stating a question. A fin
 | --- | --- | --- | --- |
 | Low | A routine or tightly bounded task under stated prerequisites. | 0 | 0 |
 | Medium | Substantial but structured work; feasibility still needs testing. | 0 | 0 |
-| High | Specialist research with significant unresolved obstacles. | 62 | 99 |
+| High | Specialist research with significant unresolved obstacles. | 61 | 99 |
 | Frontier | A major long-standing target or comparably deep general problem. | 77 | 17 |
-| Unknown | Insufficient task-specific evidence for a defensible rating. | 142 | 112 |
+| Unknown | Insufficient task-specific evidence for a defensible rating. | 142 | 111 |
 
 ## Candidates with open-status evidence
 
@@ -76,7 +76,6 @@ Difficulty concerns the stated target, not the ease of stating a question. A fin
 | [Structured resonances and avalanche diagnostics in the quasiperiodic XXZ chain](cards/Q-MODEL-491.md) | High | Literature comparison, algebra and reproducible numerical diagnostics offer possible assistance; discovering a correct mechanism is uncertain. A model able to inspect primary literature and use scientific code, with specialist oversight; no specific model benchmarked. |
 | [Nonlinear stationary axisymmetric tidal response of Kerr black holes](cards/Q-MODEL-492.md) | High | Symbolic tensor manipulation can assist finite-order field equations and matching checks. Choosing an informative sector and interpreting its coefficients require GR and EFT expertise; no AI trial has been run. No named model evaluated; assumes a tool-using assistant with source access and specialist human review. |
 | [Predictive mixed longitudinal-transverse intermittency exponents](cards/Q-MODEL-495.md) | High | Symbolic consistency checks and comparison of statistical closures offer bounded tasks. Predicting universal exponents requires more than fitting numerical data; this proposed AI role has not been tested. No named model evaluated; assumes a tool-using assistant with source access and specialist human review. |
-| [Three-copy undistillability of the Werner endpoint](cards/Q-MODEL-493.md) | High | The explicit algebra permits symbolic checks and candidate generation, but the unresolved nonnormal sector and recent claims require careful preparation. No model evaluated. Assumes tool-using AI able to inspect literature, manipulate mathematical expressions and retain reproducible calculations. |
 | [Efficient passive initialization of a three-dimensional quantum memory](cards/Q-MODEL-496.md) | High | AI may help track the construction's hypotheses and test local lemmas. The missing asymptotic preparation argument is substantial. No model evaluated. Assumes tool-using AI able to inspect literature, manipulate mathematical expressions and retain reproducible calculations. |
 | [Optimal acceleration from predetermined gradient-descent stepsizes](cards/Q-FORMAL-510.md) | High | No model evaluated; assumes a tool-using assistant able to read the cited mathematics and preserve reproducible evidence. |
 | [A rank-47 decomposition for 4x4 matrix multiplication in characteristic zero](cards/Q-FORMAL-511.md) | Medium | Exact certificates make results easier to inspect than searches. Published computational attempts provide context, but do not imply that a new construction is likely. No named model evaluated. |
@@ -178,9 +177,8 @@ Difficulty concerns the stated target, not the ease of stating a question. A fin
 | [Mansour's Fourier concentration conjecture for DNF](candidates/Q-FORMAL-007.md) | Unknown | A tool-using mathematical assistant could compare hypotheses, locate relevant results and propose a narrower proof, construction or counterexample task; a specialist must first select and check that task. |
 | [Existence of a binary q-Fano plane](candidates/Q-FORMAL-009.md) | Unknown | A tool-using mathematical assistant could compare hypotheses, locate relevant results and propose a narrower proof, construction or counterexample task; a specialist must first select and check that task. |
 | [Deterministic polynomial-time identity testing for general arithmetic circuits](cards/Q-FORMAL-010.md) | High | No model-specific assessment has been made. Assistance can be disclosed for literature inspection, exact examples and review of a selected algorithm. |
-| [Characterize admissible e-processes](candidates/Q-FORMAL-012.md) | Unknown | A tool-using mathematical assistant could compare hypotheses, locate relevant results and propose a narrower proof, construction or counterexample task; a specialist must first select and check that task. |
+| [Characterize admissible e-processes](candidates/Q-FORMAL-012.md) | High | Compare admissibility orders and known conditional-null classes before proposing a new theorem. A useful narrower target must go beyond the characterized bounded-mean case. |
 | [NPT bound entanglement](candidates/Q-MODEL-005.md) | Unknown | A tool-using mathematical assistant could compare hypotheses, locate relevant results and propose a narrower proof, construction or counterexample task; a specialist must first select and check that task. |
-| [Four mutually unbiased bases in dimension six](candidates/Q-MODEL-007.md) | Unknown | A tool-using mathematical assistant could compare hypotheses, locate relevant results and propose a narrower proof, construction or counterexample task; a specialist must first select and check that task. |
 | [Quaternary length-eight covering codes of radius two](candidates/Q-CODE-204.md) | Unknown | A tool-using mathematical assistant could compare hypotheses, locate relevant results and propose a narrower proof, construction or counterexample task; a specialist must first select and check that task. |
 | [Determine R(3,11) within the verified interval 47 to 50](candidates/Q-MATH-205.md) | Unknown | A tool-using mathematical assistant could compare hypotheses, locate relevant results and propose a narrower proof, construction or counterexample task; a specialist must first select and check that task. |
 | [Determine R(3,12) within the verified interval 53 to 59](candidates/Q-MATH-206.md) | Unknown | A tool-using mathematical assistant could compare hypotheses, locate relevant results and propose a narrower proof, construction or counterexample task; a specialist must first select and check that task. |
@@ -193,7 +191,6 @@ Difficulty concerns the stated target, not the ease of stating a question. A fin
 | [Optimal two-bin stretch using an initial mixture of two deterministic policies](candidates/Q-FORMAL-210.md) | Unknown | A tool-using mathematical assistant could compare hypotheses, locate relevant results and propose a narrower proof, construction or counterexample task; a specialist must first select and check that task. |
 | [Complete EFX for three additive chore agents](candidates/Q-MODEL-203.md) | Unknown | A tool-using mathematical assistant could compare hypotheses, locate relevant results and propose a narrower proof, construction or counterexample task; a specialist must first select and check that task. |
 | [Exact EFX for common three-value additive goods](candidates/Q-MODEL-206.md) | Unknown | A tool-using mathematical assistant could compare hypotheses, locate relevant results and propose a narrower proof, construction or counterexample task; a specialist must first select and check that task. |
-| [Global synchronization of random cubic graphs](candidates/Q-MODEL-207.md) | Unknown | A tool-using mathematical assistant could compare hypotheses, locate relevant results and propose a narrower proof, construction or counterexample task; a specialist must first select and check that task. |
 | [Complete EFX for binary submodular chore costs](candidates/Q-MODEL-208.md) | Unknown | A tool-using mathematical assistant could compare hypotheses, locate relevant results and propose a narrower proof, construction or counterexample task; a specialist must first select and check that task. |
 | [A finitely presented simple group with no primitive-recursive word-problem solver](candidates/Q-MATH-401.md) | High | After checking current status, AI with the relevant mathematical background and tools could organize candidate presentations and audit reductions proving a primitive-recursive lower bound. Specialist review remains necessary; no named model has been evaluated. |
 | [Recognizing metabelian finitely presented solvable groups](candidates/Q-MATH-402.md) | High | After checking current status, AI with the relevant mathematical background and tools could compare decision procedures for promised classes of solvable groups. Specialist review remains necessary; no named model has been evaluated. |
@@ -301,10 +298,12 @@ Difficulty concerns the stated target, not the ease of stating a question. A fin
 | [Rational stable commutator length in closed surface groups](candidates/Q-MATH-524.md) | High | After checking current status, AI with the relevant mathematical background and tools could compare rational polyhedral formulations for subsurface-supported curves with the closed case. Specialist review remains necessary; no named model has been evaluated. |
 | [Groups with sharp regularity thresholds for surface actions](candidates/Q-MATH-525.md) | High | After checking current status, AI with the relevant mathematical background and tools could compare group-action obstructions across differentiability classes. Specialist review remains necessary; no named model has been evaluated. |
 | [Edge unfolding of convex polyhedra](candidates/Q-FORMAL-404.md) | High | After the computational model and current status are checked, generate small geometric instances, inspect exact witnesses and assist with combinatorial or algebraic lemmas. Finite tests do not establish asymptotic complexity or universal existence. |
+| [Counting simple polygonalizations in polynomial time](candidates/Q-FORMAL-408.md) | High | After the computational model and current status are checked, generate small geometric instances, inspect exact witnesses and assist with combinatorial or algebraic lemmas. Finite tests do not establish asymptotic complexity or universal existence. |
+| [Connectivity of geometric tetrahedralization flip graphs](candidates/Q-FORMAL-415.md) | High | After the computational model and current status are checked, generate small geometric instances, inspect exact witnesses and assist with combinatorial or algebraic lemmas. Finite tests do not establish asymptotic complexity or universal existence. |
+| [Polynomial separation bounds for sums of square roots](candidates/Q-FORMAL-417.md) | High | After the computational model and current status are checked, generate small geometric instances, inspect exact witnesses and assist with combinatorial or algebraic lemmas. Finite tests do not establish asymptotic complexity or universal existence. |
 | [General unfolding of nonconvex polyhedra](candidates/Q-FORMAL-422.md) | High | After the computational model and current status are checked, generate small geometric instances, inspect exact witnesses and assist with combinatorial or algebraic lemmas. Finite tests do not establish asymptotic complexity or universal existence. |
 | [Data selection for mean estimation](candidates/Q-FORMAL-436.md) | High | After the statistical model is recovered, help manipulate risk bounds, compare lower-bound constructions and design simulations that challenge proposed assumptions. Simulation does not establish minimax optimality. |
-| [Data selection for linear regression](candidates/Q-FORMAL-437.md) | High | After the statistical model is recovered, help manipulate risk bounds, compare lower-bound constructions and design simulations that challenge proposed assumptions. Simulation does not establish minimax optimality. |
-| [Noninteractive one-bit mean estimation over finite-moment classes](candidates/Q-FORMAL-438.md) | High | After the statistical model is recovered, help manipulate risk bounds, compare lower-bound constructions and design simulations that challenge proposed assumptions. Simulation does not establish minimax optimality. |
+| [Data selection for linear regression](candidates/Q-FORMAL-437.md) | High | Compare the remaining weighted-budget cells against the cited frontier, or examine unweighted selection after a separate status check. Preserve rank and minimum-norm conventions in symbolic examples. |
 | [Mismatch-capacity formula](candidates/Q-FORMAL-454.md) | High | After operational conventions are fixed, explore small-alphabet examples, compare inner and outer bounds and assist with entropy calculations. Numerical optimization cannot establish a capacity formula. |
 | [Hyper-recurrence in lambda calculus](candidates/Q-FORMAL-475.md) | High | After definitions and present status are checked, enumerate bounded terms and reduction peaks, search for finite counterexamples, and help formalize candidate lemmas. Bounded enumeration cannot certify general confluence or decidability. |
 | [Exact complexity of word equations](candidates/Q-FORMAL-491.md) | High | After definitions and present status are checked, enumerate bounded terms and reduction peaks, search for finite counterexamples, and help formalize candidate lemmas. Bounded enumeration cannot certify general confluence or decidability. |
@@ -387,7 +386,6 @@ These source-defined questions remain provisional or have conflicting evidence. 
 | [Uniqueness of the density-difference evolution in TDDFT](candidates/Q-MODEL-430.md) | [Quantum chemistry and electronic structure](domains/chem.md#chem-quant) | Unverified | High |
 | [Existence and uniqueness in the TDDFT force equation](candidates/Q-MODEL-431.md) | [Quantum chemistry and electronic structure](domains/chem.md#chem-quant) | Unverified | High |
 | [Nonempty core in approval-based committee elections](candidates/Q-MODEL-433.md) | [Social choice and collective decisions](domains/econ.md#econ-social) | Unverified | High |
-| [Polynomial-time full justified representation](candidates/Q-MODEL-434.md) | [Social choice and collective decisions](domains/econ.md#econ-social) | Unverified | High |
 | [Efficient proportional and Pareto-optimal committees](candidates/Q-MODEL-435.md) | [Social choice and collective decisions](domains/econ.md#econ-social) | Unverified | High |
 | [Proportionality degree of reverse sequential PAV](candidates/Q-MODEL-436.md) | [Social choice and collective decisions](domains/econ.md#econ-social) | Unverified | High |
 | [Priceability together with Pareto efficiency](candidates/Q-MODEL-437.md) | [Social choice and collective decisions](domains/econ.md#econ-social) | Unverified | High |
@@ -418,6 +416,7 @@ These source-defined questions remain provisional or have conflicting evidence. 
 | [Random chemistry-like networks with prescribed constraints](candidates/Q-MODEL-488.md) | [Reaction-network and kinetics theory](domains/chem.md#chem-reaction) | Unverified | High |
 | [Chemically constrained graph realizations of reaction networks](candidates/Q-MODEL-489.md) | [Reaction-network and kinetics theory](domains/chem.md#chem-reaction) | Unverified | High |
 | [Conservation and thermodynamic soundness for infinite reaction networks](candidates/Q-MODEL-490.md) | [Reaction-network and kinetics theory](domains/chem.md#chem-reaction) | Unverified | High |
+| [Three-copy undistillability of the Werner endpoint](cards/Q-MODEL-493.md) | [Quantum information theory](domains/info.md#info-quant) | Unverified | High |
 
 
 </details>
@@ -449,12 +448,14 @@ These source-defined questions remain provisional or have conflicting evidence. 
 </details>
 
 <details>
-<summary>Unknown · 112 provisional candidates</summary>
+<summary>Unknown · 111 provisional candidates</summary>
 
 | Question | Primary branch | Evidence status | Verification burden |
 | --- | --- | --- | --- |
 | [Relate the Aubry set of a vector-field Lagrangian to chain recurrence](candidates/Q-MATH-010.md) | [Dynamical systems and ergodic theory](domains/math.md#math-dyn) | Unverified | Unknown |
 | [Two-copy distillability of the two-ququart Werner boundary state](candidates/Q-MODEL-006.md) | [Quantum information theory](domains/info.md#info-quant) | Unverified | High |
+| [Four mutually unbiased bases in dimension six](candidates/Q-MODEL-007.md) | [Quantum information theory](domains/info.md#info-quant) | Unverified | Unknown |
+| [Global synchronization of random cubic graphs](candidates/Q-MODEL-207.md) | [Dynamics on networks and collective behavior](domains/net.md#net-dynamics) | Unverified | High |
 | [Goal-driven models beyond vision](candidates/Q-CROSS-445.md) | [Theoretical neuroscience](domains/cog.md#cog-neuro) | Unverified | High |
 | [Relaxation time of the cladogram branch-rotation chain](candidates/Q-MATH-414.md) | [Markov chains, mixing and interacting systems](domains/prob.md#prob-mix) | Unverified | High |
 | [Largest labelled agreement subtree of two coalescent trees](candidates/Q-MATH-416.md) | [Discrete probability and random structures](domains/prob.md#prob-discrete) | Unverified | High |
@@ -470,15 +471,12 @@ These source-defined questions remain provisional or have conflicting evidence. 
 | [Linear-space logarithmic-time point location in three dimensions](candidates/Q-FORMAL-405.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unverified | High |
 | [Optimal-size binary space partitions of logarithmic height](candidates/Q-FORMAL-406.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unverified | High |
 | [Optimal output-sensitive convex hull algorithms in higher dimensions](candidates/Q-FORMAL-407.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unverified | High |
-| [Counting simple polygonalizations in polynomial time](candidates/Q-FORMAL-408.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unverified | High |
 | [Exact shortest paths among disjoint unit spheres](candidates/Q-FORMAL-410.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unverified | High |
 | [Subquadratic minimum-link paths among planar obstacles](candidates/Q-FORMAL-411.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unverified | High |
 | [Optimal inward-facing vertex floodlight bound](candidates/Q-FORMAL-412.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unverified | High |
 | [Minimum-facet approximation between offset convex polytopes](candidates/Q-FORMAL-413.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unverified | High |
 | [Geometric hexahedral meshing with planar faces](candidates/Q-FORMAL-414.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unverified | High |
-| [Connectivity of geometric tetrahedralization flip graphs](candidates/Q-FORMAL-415.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unverified | High |
 | [Hamiltonian tetrahedralizations of convex polytopes](candidates/Q-FORMAL-416.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unverified | High |
-| [Polynomial separation bounds for sums of square roots](candidates/Q-FORMAL-417.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unverified | High |
 | [Sublogarithmic approximation for metric freeze-tag](candidates/Q-FORMAL-418.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unverified | High |
 | [Compatible triangulations of equal-size planar point sets](candidates/Q-FORMAL-419.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unverified | High |
 | [Quadratic-time sorting of pairwise sums](candidates/Q-FORMAL-420.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unverified | High |

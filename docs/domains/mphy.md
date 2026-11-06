@@ -6,7 +6,7 @@ Rigorous analysis of structures and models motivated by physics.
 
 **Boundary:** Primary placement follows the theorem target; physics relevance is cross-linked.
 
-**Research sources: 14 · Primary tasks: 19 · Full cards: 1 · Cross-linked tasks: 41.**
+**Research sources: 18 · Primary tasks: 19 · Full cards: 1 · Cross-linked tasks: 41.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -64,6 +64,10 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [Love numbers of black holes and compact objects](../sources.md#src-phys-006) | Research entry | 2026 |
 | [The Vanishing of the Non-linear Static Love Number of Kerr Black Holes and the Role of Symmetries](../sources.md#src-phys-007) | Research entry | 2025 |
 | [Vanishing Love Numbers of Kerr-Newman Black Holes](../sources.md#src-phys-008) | Research entry | 2026 |
+| [The Spacetime Penrose Inequality: Conditional Results for Stable MOTS and General Trapped Surfaces](../sources.md#src-phys-701) | Research entry | 2025 |
+| [Nonexistence of Multiple Black Holes in Stationary Analytic Vacuum Spacetimes](../sources.md#src-phys-705) | Research entry | 2026 |
+| [Electrovacuum Black Hole Uniqueness](../sources.md#src-phys-706) | Research entry | 2026 |
+| [Proof of the Penrose Conjecture for Maximally Parameterized Initial Data Sets](../sources.md#src-phys-708) | Research entry | 2026 |
 
 <a id="branches"></a>
 
@@ -75,7 +79,7 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [Spectral and operator theory in physics](#mphy-spectral) | 17 | 0 | Develop detailed problem cards |
 | [Rigorous statistical mechanics](#mphy-stat) | 1 | 1 | Extend coverage and review these cards |
 | [Constructive and axiomatic field theory](#mphy-qft) | 1 | 0 | Develop detailed problem cards |
-| [Integrable and Hamiltonian systems](#mphy-classical) | 0 | 0 | Find specialist sources |
+| [Integrable and Hamiltonian systems](#mphy-classical) | 0 | 0 | Identify well-specified questions |
 
 Branch counts include descendants. Source links inside each branch below are direct mappings; umbrella sources remain available in the domain directory above.
 
@@ -275,7 +279,7 @@ Exact structure of classical and quantum dynamics.
 
 **Representative objects:** Hamiltonians, solitons, conserved quantities.
 
-**Direct source entries:** None mapped at this branch; see the domain sources above.
+**Direct source entries:** [The Spacetime Penrose Inequality: Conditional Results for Stable MOTS and General Trapped Surfaces](../sources.md#src-phys-701), [Nonexistence of Multiple Black Holes in Stationary Analytic Vacuum Spacetimes](../sources.md#src-phys-705), [Electrovacuum Black Hole Uniqueness](../sources.md#src-phys-706), [Proof of the Penrose Conjecture for Maximally Parameterized Initial Data Sets](../sources.md#src-phys-708).
 
 **Primary tasks in this branch and its descendants**
 
