@@ -6,7 +6,7 @@ Mathematical models of Earth and environmental processes.
 
 **Boundary:** Inference about Earth requires observations beyond internal model consistency.
 
-**Research sources: 7 · Primary tasks: 20 · Full cards: 1 · Cross-linked tasks: 0.**
+**Research sources: 8 · Primary tasks: 20 · Full cards: 1 · Cross-linked tasks: 0.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -57,6 +57,7 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [Panta Rhei: a decade of progress in research on change in hydrology and society](../sources.md#src-cross-607) | Research entry | 2025 |
 | [Lack of robustness of hydrological models: a large-sample diagnosis and an attempt to identify hydrological and climatic drivers](../sources.md#src-cross-608) | Research entry | 2025 |
 | [Remote Sensing Hydrology Revisited: Advances, Persistent Challenges, and a Science-Driven Agenda for the Next Decade](../sources.md#src-cross-609) | Research entry | 2026 |
+| [Catchment hydrological response and transport are affected differently by precipitation intensity and antecedent wetness](../sources.md#src-phys-806) | Research entry | 2025 |
 
 <a id="branches"></a>
 
@@ -237,7 +238,7 @@ Formal models of coupled environmental processes.
 
 **Representative objects:** hydrology, resource dynamics, biogeochemical cycles.
 
-**Direct source entries:** [The 23 Unsolved Problems in Hydrology](../sources.md#src-cross-402).
+**Direct source entries:** [The 23 Unsolved Problems in Hydrology](../sources.md#src-cross-402), [Catchment hydrological response and transport are affected differently by precipitation intensity and antecedent wetness](../sources.md#src-phys-806).
 
 **Primary tasks in this branch and its descendants**
 

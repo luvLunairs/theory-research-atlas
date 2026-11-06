@@ -4277,20 +4277,20 @@
       "Alexander Megretski (editor)"
     ],
     "year": 2002,
-    "url": "https://www.mtns.math.nd.edu/OPMTNS.pdf",
+    "url": "https://perso.uclouvain.be/vincent.blondel/op/opmtns.pdf",
     "source_type": "author_problem_collection",
     "domains": [
       "Control, estimation and systems theory",
       "Robust design and verification",
       "Inverse problems and imaging theory"
     ],
-    "locator": "Problems 2, 5, 9, 14, 18, 21, 27, 28, 59, 69, 75 and 86; individual authors are credited in candidate locators. University-hosted copy; an additional inspected copy is at https://www.inma.ucl.ac.be/~blondel/op/opmtns.pdf.",
-    "accessed": "2026-10-14",
+    "locator": "Problems 2, 5, 9, 14, 18, 21, 27, 28, 59, 69, 75 and 86; individual authors are credited in candidate locators. The editor-hosted copy was inspected again for Problems 9, 14, 18 and 59 on 2026-11-06.",
+    "accessed": "2026-11-06",
     "verification": "opened",
     "supports": [
       "Identifies the questions at the recorded locations and their status in the source."
     ],
-    "limitations": "Historical problem statements, not a current open-problem register. Later solutions, counterexamples and revised hypotheses require a separate search. The full mathematical notation is retained in the source rather than transcribed incompletely here.",
+    "limitations": "Historical statements, not a current open-problem register. Later solutions and revised hypotheses need separate checks. The former Notre Dame URL (https://www.mtns.math.nd.edu/OPMTNS.pdf) timed out in the latest access attempt; this does not establish permanent unavailability. An earlier inspected copy was at https://www.inma.ucl.ac.be/~blondel/op/opmtns.pdf.",
     "role": "research_entry"
   },
   {
@@ -4356,7 +4356,7 @@
       "Kelin Xia"
     ],
     "year": 2026,
-    "url": "https://www.repository.cam.ac.uk/bitstreams/7ade7c44-7d22-4a7c-bfc7-29310947cdd7/download",
+    "url": "https://publications.rwth-aachen.de/record/1028770/files/1028770.pdf",
     "source_type": "review",
     "domains": [
       "Dynamics on networks and collective behavior",
@@ -4364,8 +4364,8 @@
       "Network inference and multiscale structure",
       "Theoretical neuroscience"
     ],
-    "locator": "Sections 3, 4.1, 4.3, 4.5, 6.1 and 6.4. Journal of Physics: Complexity 7, 022501; DOI 10.1088/2632-072X/ae3c4e; published 1 April 2026.",
-    "accessed": "2026-10-14",
+    "locator": "Sections 3, 4.1, 4.3, 4.5, 6.1 and 6.4. Journal of Physics: Complexity 7, 022501; DOI 10.1088/2632-072X/ae3c4e; published 1 April 2026. Sections 4.1, 6.1 and 6.3 rechecked in the RWTH institutional copy; earlier Cambridge copy: https://www.repository.cam.ac.uk/bitstreams/7ade7c44-7d22-4a7c-bfc7-29310947cdd7/download.",
+    "accessed": "2026-11-06",
     "verification": "opened",
     "supports": [
       "Identifies the questions at the recorded locations and their status in the source."
@@ -5577,17 +5577,17 @@
     ],
     "year": 2024,
     "url": "https://proceedings.mlr.press/v247/canonne24a.html",
-    "source_type": "author-maintained research problem source",
+    "source_type": "conference open-problem article",
     "domains": [
       "Statistical learning theory"
     ],
-    "locator": "Section 5, Open Question 1; section 1",
-    "accessed": "2026-10-14",
+    "locator": "Sections 1-4 and Section 5, Open Questions 1-3; linked five-page PDF at https://proceedings.mlr.press/v247/canonne24a/canonne24a.pdf.",
+    "accessed": "2026-11-06",
     "verification": "opened",
     "supports": [
-      "Explicit statement of the indexed research question."
+      "Separately poses a tight complexity functional, a direct analytic comparison of known functionals, and repair of a lower-bound proof gap."
     ],
-    "limitations": "The source poses the question; later literature is not comprehensively reviewed. The linked PDF was inspected.",
+    "limitations": "Succinctness is explicitly not fully formalized. The three questions have different targets; an answer to the lower-bound repair would not by itself answer the other two. Later literature is not exhaustively reviewed.",
     "role": "research_entry"
   },
   {
@@ -6613,7 +6613,7 @@
     "supports": [
       "The cited sections explicitly formulate the indexed research questions."
     ],
-    "limitations": "Historical question statements; subsequent resolutions require checking. Individual proposers are identified in candidate locators.",
+    "limitations": "Historical question statements; subsequent resolutions require checking. Individual proposers are identified in candidate locators. Direct retrieval of https://aimath.org/pastworkshops/nonselfadjointproblems.pdf returned HTTP 404 on 2026-11-06. No identical complete institutional copy was established. The institutional conference directory SRC-PHYS-808 supplies individual sheets, including SRC-PHYS-807. This access failure does not establish withdrawal; the earlier access date is retained.",
     "role": "research_entry"
   },
   {
@@ -6686,7 +6686,7 @@
     "supports": [
       "The cited sections support the indexed problem statements and their source-date status."
     ],
-    "limitations": "Historical targets require substantial status updating; solved existence examples and central-configuration finiteness already represented elsewhere are omitted.",
+    "limitations": "Historical targets require substantial status updating; solved existence examples and central-configuration finiteness already represented elsewhere are omitted. Direct retrieval of https://aimath.org/WWN/varcelest/varcelest.pdf returned HTTP 404 on 2026-11-06; this does not establish withdrawal. The earlier access date is retained. SRC-MODEL-615 supplies an accessible later statement and partial results for the equal-mass choreography question.",
     "role": "research_entry"
   },
   {
@@ -7977,19 +7977,19 @@
       "Chris Dong"
     ],
     "year": 2026,
-    "url": "https://arxiv.org/abs/2609.08357",
+    "url": "https://arxiv.org/html/2609.08357v1",
     "source_type": "research preprint",
     "domains": [
       "Social choice",
       "Computational economics"
     ],
-    "locator": "Abstract and submission metadata, version 1, September 8, 2026.",
-    "accessed": "2026-10-14",
+    "locator": "Sections 2-3, Definitions 1-3, Theorem 1 and its PJR corollary; version 1, 8 September 2026. Abstract and submission metadata also inspected.",
+    "accessed": "2026-11-06",
     "verification": "opened",
     "supports": [
       "Claims NP-hardness of producing committees satisfying JR and Pareto optimality on unrestricted profiles."
     ],
-    "limitations": "Abstract-level claim inspection; full reduction and publication status require review. PJR implies JR, but the exact search-complexity interpretation must be retained.",
+    "limitations": "Full definitions and theorem passages were inspected, including the search problem and PJR implication; the reduction was not independently certified and external acceptance remains unestablished. The author credits an initial ChatGPT Astra proof followed by author verification and rewriting. Hardness does not mean compatible committees fail to exist.",
     "role": "research_entry"
   },
   {
@@ -8247,18 +8247,18 @@
       "Pieter Tibboel"
     ],
     "year": 2020,
-    "url": "https://arxiv.org/abs/2003.10694",
+    "url": "https://arxiv.org/abs/2003.10694v4",
     "source_type": "research preprint",
     "domains": [
       "Celestial mechanics"
     ],
-    "locator": "Abstract and submission metadata.",
-    "accessed": "2026-10-14",
+    "locator": "arXiv:2003.10694v4, 2020-08-11; full PDF Introduction, Remark 1.1 and Theorem 1.2, printed pp. 1–4.",
+    "accessed": "2026-11-06",
     "verification": "opened",
     "supports": [
       "Proves equal-mass conclusions under specified dimension and symmetry conditions for choreographies."
     ],
-    "limitations": "Abstract-level scope inspection; the unrestricted Newtonian choreography statement is not settled by the inspected result.",
+    "limitations": "The full statement and hypotheses were inspected, replacing the previous abstract-only scope check. Theorem 1.2 depends on the configuration-span dimension almost everywhere in time; it is not a theorem for every choreography. Proof not independently reviewed.",
     "role": "research_entry"
   },
   {
@@ -9816,6 +9816,683 @@
       "States an enclosing-area inequality for maximally parameterized data with comparison-metric completion and asymptotic assumptions."
     ],
     "limitations": "The paper distinguishes its restricted theorem from a general existence theory for its PDE system. Wider claims mentioned there were not independently inspected here.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-CROSS-800",
+    "title": "From 2D system to 1D system via restriction to a vertical strip: applications to time-controllability and zero-time-controllability",
+    "authors": [
+      "Aishwarya Bharti",
+      "Debasattam Pal"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/html/2610.08415v1",
+    "source_type": "research_preprint",
+    "domains": [
+      "Control, estimation and systems theory"
+    ],
+    "locator": "6 October 2026; Sections II, IV and V, Theorem 5, Proposition 7 and Algorithm 2.",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Algebraic criteria for scalar autonomous discrete two-dimensional systems, using restriction to vertical strips."
+    ],
+    "limitations": "The trajectory space is discrete. Algorithm 2 assumes a known search bound H_max. Neither transfers directly to unrestricted smooth PDE trajectories; the proof was not independently audited.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-CROSS-801",
+    "title": "An analytic interpolation approach to stability margins with emphasis on time delay",
+    "authors": [
+      "Axel Ringh",
+      "Johan Karlsson",
+      "Anders Lindquist"
+    ],
+    "year": 2020,
+    "url": "https://arxiv.org/html/1912.08734v2",
+    "source_type": "research_preprint",
+    "domains": [
+      "Robust design and verification"
+    ],
+    "locator": "27 October 2020 revision; abstract, Sections I-III, Algorithm 1 and Section IX.",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Sharper lower bounds for maximum delay margin through analytic interpolation; the paper explicitly leaves the general exact maximum unresolved."
+    ],
+    "limitations": "The bisection tolerance concerns a sufficient interpolation test, not a certified error bound for the unrestricted optimum. A dated openness statement does not establish present status.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-CROSS-802",
+    "title": "Relaxing Nonholonomic Constraints to Eliminate Chattering From Time-Optimal Control Solutions",
+    "authors": [
+      "Salah Bazzi",
+      "Elie Shammas",
+      "Daniel Asmar"
+    ],
+    "year": 2017,
+    "url": "https://scholarworks.aub.edu.lb/bitstreams/35ebe81e-81c4-49de-818a-abdf6eab15d8/download",
+    "source_type": "research_article",
+    "domains": [
+      "Control, estimation and systems theory"
+    ],
+    "locator": "IEEE Robotics and Automation Letters 2(3), 1817-1824; abstract and Sections I-II; DOI 10.1109/LRA.2017.2708162.",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "A skidding extension of the angular-acceleration-controlled Dubins car, with a synthesis claim for small skid angles."
+    ],
+    "limitations": "Relaxing the no-skidding constraint changes the dynamics. The inspected claim does not settle the original ideal-car synthesis.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MATH-800",
+    "title": "From arcs to curves: Quadratic growth of 1-systems",
+    "authors": [
+      "Tarik Aougab",
+      "Jonah Gaster"
+    ],
+    "year": 2025,
+    "url": "https://arxiv.org/html/2508.05555v2",
+    "source_type": "Primary research preprint, version 2",
+    "domains": [
+      "Low-dimensional topology"
+    ],
+    "locator": "First submitted 7 August 2025; version 2, 17 September 2026; Main Theorem and Remark 1.3",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Reports a quadratic upper bound for pairwise one-intersection curve systems."
+    ],
+    "limitations": "Version 2 repairs gaps in the earlier stem bound and changes constants. No independent proof audit or confirmation of acceptance of the revised argument was completed.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MATH-801",
+    "title": "Sparse curve systems have intermediate growth type",
+    "authors": [
+      "Sebastian Baader",
+      "Jasmin Jörg",
+      "Danica Kosanović"
+    ],
+    "year": 2025,
+    "url": "https://arxiv.org/html/2510.14429v1",
+    "source_type": "Primary research preprint, displayed version 1",
+    "domains": [
+      "Low-dimensional topology"
+    ],
+    "locator": "Introduction; arXiv version header 16 October 2025; manuscript displays 24 August 2026",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "The introduction adopts Aougab and Gaster's quadratic one-system bound as background."
+    ],
+    "limitations": "The displayed dates differ, and both precede the September 2026 correction. This citation is evidence of scholarly uptake of the earlier conclusion, not an assessment of the revised proof. Sparse systems use an average intersection condition, not the pairwise condition.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MATH-802",
+    "title": "R(5,5) <= 46",
+    "authors": [
+      "Vigleik Angeltveit",
+      "Brendan D. McKay"
+    ],
+    "year": 2024,
+    "url": "https://arxiv.org/html/2409.15709v2",
+    "source_type": "Primary research preprint, version 2",
+    "domains": [
+      "Extremal combinatorics"
+    ],
+    "locator": "First submitted 24 September 2024; version 2, 1 September 2025; Theorem 1.1 and Sections 6-8",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Gives the upper bound 46 and records Exoo's lower bound 43 for the two-color Ramsey number R(5,5)."
+    ],
+    "limitations": "The authors report independent implementations. The project did not replay their exhaustive computations.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MATH-803",
+    "title": "Incremental Planar Nearest Neighbor Queries with Optimal Query Time",
+    "authors": [
+      "John Iacono",
+      "Yakov Nekrich"
+    ],
+    "year": 2025,
+    "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol332-socg2025/html/LIPIcs.SoCG.2025.59/LIPIcs.SoCG.2025.59.html",
+    "source_type": "Primary research conference paper",
+    "domains": [
+      "Computational geometry"
+    ],
+    "locator": "SoCG 2025, LIPIcs 332, 59; Introduction and Theorem 12",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "The conference version gives insertion-only planar nearest-neighbor queries in O(log n) time, O(log^3 n) amortized insertion time and O(n log^2 n) space."
+    ],
+    "limitations": "The cited theorem excludes deletions. Bounds in other versions must be checked separately; no independent algorithm audit was performed.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MATH-804",
+    "title": "Almost Linear Universal Point Sets for Planar Graphs",
+    "authors": [
+      "Taylor Gordon"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/html/2609.10916v1",
+    "source_type": "Primary research preprint, version 1",
+    "domains": [
+      "Computational geometry",
+      "Graph drawing"
+    ],
+    "locator": "10 September 2026; Theorem 1.1 and Appendix A.3",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Reports universal sets of n exp(O(sqrt(log n))) points, while explicitly leaving the linear-size question open."
+    ],
+    "limitations": "The claim and scope were inspected, not independently proved or formally replayed. The bound counts points, not coordinate bit length or grid area.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MATH-805",
+    "title": "An exponential lower bound for the bit pigeonhole principle in resolution over parities",
+    "authors": [
+      "Kamil Braun"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/html/2609.23015v1",
+    "source_type": "Primary research preprint, arXiv version 1",
+    "domains": [
+      "Proof complexity"
+    ],
+    "locator": "19 September 2026; manuscript labels itself revision 2; Theorem 1.1, Corollary 1.2 and Section 1.3",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Claims unrestricted DAG-like Res(parity) size lower bounds for the bit pigeonhole principle."
+    ],
+    "limitations": "Res(parity) is a fragment of AC0[2]-Frege. Neither the proof nor the linked Lean development was independently checked; the reported formalization is not a project verification.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MATH-806",
+    "title": "Random (log n)-CNF Formulas Are Hard for Depth-2 Frege with Modular Gates",
+    "authors": [
+      "Jonas Conneryd"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/html/2610.40397v1",
+    "source_type": "Primary research preprint, version 1",
+    "domains": [
+      "Proof complexity"
+    ],
+    "locator": "29 October 2026; Theorem 1.1, Corollary 1.2 and Theorem 1.3",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Reports superpolynomial lower bounds with high probability for depth-2 AC0[p]-Frege refutations of a specified random CNF family."
+    ],
+    "limitations": "This is a depth-2 probabilistic result, not the explicit-family target at every fixed formula depth. No independent proof or acceptance assessment was performed.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MATH-807",
+    "title": "Martin's Conjecture — Open Problems in Mathematical Logic",
+    "authors": [
+      "Patrick Lutz (site maintainer)"
+    ],
+    "year": null,
+    "url": "https://logic-problems-website.vercel.app/problems/2",
+    "source_type": "Expert-maintained problem directory",
+    "domains": [
+      "Computability theory",
+      "Descriptive set theory"
+    ],
+    "locator": "Problem 2: statement, status and known partial results; maintainer identified on the site homepage",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Records the Turing-invariant Martin conjecture as open and distinguishes its Borel formulation."
+    ],
+    "limitations": "Undated living page; its displayed foundation uses full dependent choice. The indexed DC_R version is grounded in Lutz and Siskind, not inferred from this stronger convention.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MATH-808",
+    "title": "Order-preserving maps of the Turing degrees: regularity and consistency strength",
+    "authors": [
+      "Liang Yu"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/html/2610.14548v1",
+    "source_type": "Primary research preprint, version 1",
+    "domains": [
+      "Computability theory",
+      "Set theory"
+    ],
+    "locator": "10 October 2026; Theorems 1.2 and 1.4; Remark 1.3",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Studies the order-preserving restriction of Part I of Martin's conjecture and its consistency strength."
+    ],
+    "limitations": "The order-preserving hypothesis remains essential to the stated scope. Reported proofs were not independently audited and do not establish the unrestricted invariant target.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MATH-809",
+    "title": "Mismatch Capacity under Stochastic Decoding",
+    "authors": [
+      "Francesc Molina",
+      "Albert Guillén i Fàbregas"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/html/2604.17964v2",
+    "source_type": "Primary research preprint, version 2",
+    "domains": [
+      "Shannon theory"
+    ],
+    "locator": "30 October 2026; Section I, equations (1)-(2); Sections IV-A and V",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Explicitly distinguishes the unresolved general single-letter maximum-metric capacity from capacity with a stochastic likelihood decoder."
+    ],
+    "limitations": "Only the decoder distinction and reported status were checked; the stochastic-decoder capacity theorems were not independently verified.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MATH-810",
+    "title": "Improved Lower Bounds on the Capacity of the Binary Deletion Channel via a Learning Approach to Run-Length Inputs",
+    "authors": [
+      "Hassan Khodaiemehr",
+      "Chen Feng",
+      "Tolga M. Duman"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/html/2609.24908v2",
+    "source_type": "Primary research preprint, version 2",
+    "domains": [
+      "Shannon theory"
+    ],
+    "locator": "First submitted 21 September 2026; version 2, 26 September 2026; Theorems 1-2, Lemma 8, Sections V-C and VI-C, Table IV",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Reports lower bounds from optimized finite-support run-length laws, with a revised chain penalty and interval evaluation in version 2."
+    ],
+    "limitations": "Reported achievable rates, not exact capacity. Version 2 replaces the earlier correction term and double-precision evaluation. Neither proofs nor interval computations were independently checked; global source optimality is not established.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MODEL-800",
+    "title": "Maintaining diversity in structured populations",
+    "authors": [
+      "David A. Brewster",
+      "Jakub Svoboda",
+      "Dylan Roscow",
+      "Krishnendu Chatterjee",
+      "Josef Tkadlec",
+      "Martin A. Nowak"
+    ],
+    "year": 2025,
+    "url": "https://academic.oup.com/pnasnexus/article/4/8/pgaf252/8227157",
+    "source_type": "journal article",
+    "domains": [
+      "Evolutionary graph theory",
+      "Probability"
+    ],
+    "locator": "PNAS Nexus 4(8), pgaf252; published 8 August 2025, corrected and typeset 19 August 2025. Stars, equation (9); Discussion; Methods: Model and Dynamics details. DOI 10.1093/pnasnexus/pgaf252.",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "The published article retains the exact neutral birth-death star absorption-time formula as a conjecture, while proving cubic order."
+    ],
+    "limitations": "The journal version predates the indexed September arXiv revision. It confirms publication and scope, not a later resolution; no proof or simulation was independently checked.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MODEL-801",
+    "title": "EL-Shellability of the poset of ranked cactuses",
+    "authors": [
+      "Vincent Moulton",
+      "Andreas Spillner",
+      "Antonia Stavemann"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/html/2606.08724v1",
+    "source_type": "preprint",
+    "domains": [
+      "Evolutionary graph theory",
+      "Combinatorics"
+    ],
+    "locator": "Theorem 4.2 and final paragraph of Section 5; arXiv v1, 7 June 2026.",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Proves EL-shellability for the ranked-cactus poset and explicitly asks whether the larger ranked tree-child poset is shellable."
+    ],
+    "limitations": "The cactus result is not a solution for the tree-child poset. The embedding does not itself transfer shellability; the complete proof was not audited.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MODEL-802",
+    "title": "The proportion of permutations fixing a k-set",
+    "authors": [
+      "Ben Green",
+      "Mehtaab Sawhney"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/html/2604.28116v1",
+    "source_type": "preprint",
+    "domains": [
+      "Probability",
+      "Combinatorics"
+    ],
+    "locator": "Section 1.1, Theorem 1.1 and following remarks; arXiv v1, 30 April 2026.",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Gives a periodic-factor asymptotic for invariant-subset probabilities, developing the 2025 announcement in Green's problem list."
+    ],
+    "limitations": "The inspected theorem concerns an asymptotic formula, not consecutive-k monotonicity. The 116-page proof was not independently audited.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MODEL-803",
+    "title": "Scaling models of visual working memory to natural images",
+    "authors": [
+      "Christopher J. Bates",
+      "George A. Alvarez",
+      "Samuel J. Gershman"
+    ],
+    "year": 2024,
+    "url": "https://www.nature.com/articles/s44271-023-00048-3.pdf",
+    "source_type": "journal article",
+    "domains": [
+      "Theoretical neuroscience",
+      "Cognitive modeling"
+    ],
+    "locator": "Communications Psychology 2, article 3; abstract, Discussion and Data/Code availability, pp. 1, 7-8; DOI 10.1038/s44271-023-00048-3.",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Combines deep visual features with a behavioral memory model and provides public data and code for natural and artificial stimulus tasks."
+    ],
+    "limitations": "Behavioral fit does not identify a recurrent neural mechanism. The authors report a failed inter-item prediction and call for more direct neural tests; data and code were not rerun.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MODEL-804",
+    "title": "Infection patterns in simple and complex contagion processes on networks",
+    "authors": [
+      "Diego Andrés Contreras",
+      "Giulia Cencetti",
+      "Alain Barrat"
+    ],
+    "year": 2024,
+    "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012206",
+    "source_type": "journal article",
+    "domains": [
+      "Network inference",
+      "Contagion dynamics"
+    ],
+    "locator": "PLOS Computational Biology 20(6), e1012206; published 10 June 2024. Abstract, Results, Discussion and Data availability.",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Compares infection patterns of specified simple and complex contagion models on empirical contact networks and identifies model-dependent signatures."
+    ],
+    "limitations": "These comparisons do not establish universal identifiability from arbitrary observations. Linked code and data were not rerun or audited.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MODEL-805",
+    "title": "Polynomial-Time Algorithm for Thiele Voting Rules with Voter Interval Preferences",
+    "authors": [
+      "Pasin Manurangsi",
+      "Krzysztof Sornat"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/html/2604.05953v1",
+    "source_type": "preprint",
+    "domains": [
+      "Social choice",
+      "Algorithms"
+    ],
+    "locator": "Sections 1.1-2, Theorem 5, Sections 4-5; arXiv v1, 7 April 2026.",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Provides polynomial-time winner computation for generalized Thiele scores on voter-interval profiles with binary-encoded rational nonnegative, nonincreasing weights."
+    ],
+    "limitations": "Does not concern Monroe's rule. The authors credit Gemini-assisted ideas and a proof step, followed by their adaptation and verification; this is reported provenance, not a project model evaluation. No full proof audit or algorithm execution was performed.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MODEL-806",
+    "title": "Polynomial-Time Algorithm for Thiele Voting Rules on Voter Interval Domain",
+    "authors": [
+      "Pasin Manurangsi",
+      "Krzysztof Sornat"
+    ],
+    "year": 2026,
+    "url": "https://research.google/pubs/polynomial-time-algorithm-for-thiele-voting-rules-on-voter-interval-domain/",
+    "source_type": "institutional publication record",
+    "domains": [
+      "Social choice",
+      "Algorithms"
+    ],
+    "locator": "Title, author list, NeurIPS (2026) venue line and abstract; inspected 6 November 2026.",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "The authors' institutional publication record lists the Thiele algorithm work at NeurIPS 2026."
+    ],
+    "limitations": "The conference proceedings and final camera-ready version were not separately inspected. Metadata does not establish a Monroe result or constitute proof certification.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-PHYS-800",
+    "title": "Completeness theorem for the system of eigenfunctions of the complex Schrödinger operator L_c = -d²/dx² + cx^α",
+    "authors": [
+      "Sergey Tumanov"
+    ],
+    "year": 2021,
+    "url": "https://arxiv.org/pdf/2101.01680v2",
+    "source_type": "research preprint",
+    "domains": [
+      "Spectral theory"
+    ],
+    "locator": "arXiv:2101.01680v2, 2021-02-24; Introduction and Theorem 1 with its Corollary, printed pp. 2–3.",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Gives half-line Dirichlet completeness for an interval extending below α=2/3."
+    ],
+    "limitations": "The inspected theorem does not settle the entire original small-α range or the full-line realization. Proof not independently reviewed.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-PHYS-801",
+    "title": "Variation of discrete spectra for non-selfadjoint perturbations of selfadjoint operators",
+    "authors": [
+      "Marcel Hansmann"
+    ],
+    "year": 2013,
+    "url": "https://arxiv.org/pdf/1202.1118v2",
+    "source_type": "research paper",
+    "domains": [
+      "Spectral theory"
+    ],
+    "locator": "arXiv:1202.1118v2, 2013-04-08; Introduction, Theorem 1 and Corollary 1. Integral Equations and Operator Theory 76 (2013), 163–178; DOI 10.1007/s00020-013-2057-1.",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "States the p>1 spectral-distance estimates and distinguishes the trace-class endpoint from the numerical-range estimate."
+    ],
+    "limitations": "This 2013 result is background, not a current-status determination.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-PHYS-802",
+    "title": "Results and publications — ConStRAINeD",
+    "authors": [
+      "ConStRAINeD project"
+    ],
+    "year": null,
+    "url": "https://constrained.polito.it/publications/",
+    "source_type": "institutional project report",
+    "domains": [
+      "Stochastic reaction networks"
+    ],
+    "locator": "Objective 1 and publication-list item 16; undated institutional page inspected 2026-11-06.",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Reports two-species chemical recurrence and explicitly leaves arbitrary dimension open."
+    ],
+    "limitations": "Item 16 remains listed as in preparation. No full manuscript was available from that item; its proof and precise hypotheses were not reviewed.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-PHYS-803",
+    "title": "Upper bound to the gradient-based kinetic energy density of noninteracting electrons in an external potential",
+    "authors": [
+      "William C. Witt",
+      "Kaili Jiang",
+      "Emily Ann Carter"
+    ],
+    "year": 2019,
+    "url": "https://collaborate.princeton.edu/en/publications/upper-bound-to-the-gradient-based-kinetic-energy-density-of-nonin/",
+    "source_type": "institutional research-paper record",
+    "domains": [
+      "Electronic structure",
+      "Density functional theory"
+    ],
+    "locator": "Author abstract and publication metadata; Journal of Chemical Physics 151, 064113, 2019-08-14; DOI 10.1063/1.5108896.",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Reports failures of the pointwise Thomas–Fermi-plus-von-Weizsäcker bound in the non-negative gradient convention."
+    ],
+    "limitations": "The institutional author abstract was opened; the publisher full text was inaccessible through this tool. The examples were not independently checked.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-PHYS-804",
+    "title": "DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints",
+    "authors": [
+      "DESI Collaboration"
+    ],
+    "year": 2025,
+    "url": "https://arxiv.org/html/2503.14738v3",
+    "source_type": "research paper",
+    "domains": [
+      "Cosmology"
+    ],
+    "locator": "arXiv:2503.14738v3, 2025-10-09; abstract, Sections IV.3–V and VII. Physical Review D 112, 083515 (2025); DOI 10.1103/tr6y-kpc6.",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Reports model- and dataset-dependent constraints on evolving dark energy."
+    ],
+    "limitations": "Parameter preferences do not identify a unique physical mechanism. Likelihoods, nuisance assumptions and systematic errors were not independently audited.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-PHYS-805",
+    "title": "The Bianchi IX Attractor in Modified Gravity",
+    "authors": [
+      "Ester Beatriz",
+      "Everaldo Bonotto",
+      "Phillipo Lappicy"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/html/2603.13104v1",
+    "source_type": "research preprint",
+    "domains": [
+      "Mathematical general relativity",
+      "Dynamical systems"
+    ],
+    "locator": "arXiv:2603.13104v1, 2026-03-13; Introduction, equations (1.1)–(1.2), Theorem 1.1 and the following qualification.",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Claims convergence to Bianchi I and II subsets for the modified system with v in (1/2,1)."
+    ],
+    "limitations": "General relativity is v=1/2, outside the theorem. The authors also leave a stronger generic-attractor conjecture for the modified system unsettled; proof not independently reviewed.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-PHYS-806",
+    "title": "Catchment hydrological response and transport are affected differently by precipitation intensity and antecedent wetness",
+    "authors": [
+      "Julia L. A. Knapp",
+      "Wouter R. Berghuijs",
+      "Marius G. Floriancic",
+      "James W. Kirchner"
+    ],
+    "year": 2025,
+    "url": "https://hess.copernicus.org/articles/29/3673/2025/",
+    "source_type": "research paper",
+    "domains": [
+      "Hydrology"
+    ],
+    "locator": "Hydrology and Earth System Sciences 29, 3673–3685, 2025-08-08; abstract, Sections 4.2–5 and Code and data availability; DOI 10.5194/hess-29-3673-2025.",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Separates rainfall–runoff response from water transport using two catchments."
+    ],
+    "limitations": "The study does not settle all catchments or transit-time distributions. The stated data and code availability was inspected, but downloads, licenses and computations were not audited.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-PHYS-807",
+    "title": "Tensor trick for perturbed operators",
+    "authors": [
+      "Marcel Hansmann"
+    ],
+    "year": 2015,
+    "url": "https://nsa.fjfi.cvut.cz/problems/04_AIM_2015/2015-13/2015-13_AIM_Hansmann.pdf",
+    "source_type": "author problem statement",
+    "domains": [
+      "Spectral theory"
+    ],
+    "locator": "One-page 2015 AIM problem; equations and open question.",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Gives an accessible institutional copy of Hansmann's trace-class endpoint question."
+    ],
+    "limitations": "This is an individual problem sheet, not a replacement for the complete AIM collection. It establishes the historical statement, not current openness.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-PHYS-808",
+    "title": "Open problems in non-self-adjoint spectral theory",
+    "authors": [
+      "Participants in the non-self-adjoint operators conference series"
+    ],
+    "year": null,
+    "url": "https://nsa.fjfi.cvut.cz/problems.html",
+    "source_type": "research-community problem directory",
+    "domains": [
+      "Spectral theory",
+      "Mathematical physics"
+    ],
+    "locator": "2015 AIM meeting entries, especially 2015-01-AIM and 2015-13-AIM; 2024 and 2026 meeting headings.",
+    "accessed": "2026-11-06",
+    "verification": "opened",
+    "supports": [
+      "Provides institutional problem sheets and selected follow-up references for the conference series."
+    ],
+    "limitations": "The page contains 2026 material but retains a 2022 update footer. Treat each dated source separately; the directory is not an exhaustive current-status audit.",
     "role": "research_entry"
   }
 ]

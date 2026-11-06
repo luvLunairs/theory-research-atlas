@@ -2,7 +2,7 @@
 
 [Browse](README.md) · [Results](results.md) · [Contribute](../CONTRIBUTING.md)
 
-**Collection updated: 2026-11-06.** 16 domains, 113 nodes, 427 source records, 552 candidates and 45 full cards. These counts do not estimate the fraction of science covered.
+**Collection updated: 2026-11-06.** 16 domains, 113 nodes, 457 source records, 552 candidates and 45 full cards. These counts do not estimate the fraction of science covered.
 
 Research sources are directly mapped to the selected node or its descendants; ancestor mappings are not inherited. Cards are included in candidate counts. Cross-linked tasks keep one primary record. Source counts include separately cited versions and cannot be summed across domains. Each source and question retains its own inspection date.
 
@@ -10,30 +10,30 @@ Research sources are directly mapped to the selected node or its descendants; an
 
 | Domain / branch | A: research sources | B + C: primary tasks | C: full cards | Next action |
 | --- | --- | --- | --- | --- |
-| [Mathematics](domains/math.md) | 112 | 158 | 9 | Extend coverage and review these cards |
-| [Logic and foundations](domains/logic.md) | 14 | 24 | 1 | Extend coverage and review these cards |
-| [Theoretical computer science](domains/cs.md) | 154 | 112 | 6 | Extend coverage and review these cards |
-| [Probability theory](domains/prob.md) | 32 | 15 | 1 | Extend coverage and review these cards |
+| [Mathematics](domains/math.md) | 117 | 158 | 9 | Extend coverage and review these cards |
+| [Logic and foundations](domains/logic.md) | 18 | 24 | 1 | Extend coverage and review these cards |
+| [Theoretical computer science](domains/cs.md) | 160 | 112 | 6 | Extend coverage and review these cards |
+| [Probability theory](domains/prob.md) | 35 | 15 | 1 | Extend coverage and review these cards |
 | [Statistical and learning theory](domains/stat.md) | 31 | 19 | 2 | Extend coverage and review these cards |
-| [Information and coding theory](domains/info.md) | 33 | 26 | 7 | Extend coverage and review these cards |
-| [Theoretical physics](domains/phys.md) | 47 | 30 | 6 | Extend coverage and review these cards |
-| [Mathematical physics](domains/mphy.md) | 18 | 19 | 1 | Extend coverage and review these cards |
-| [Theoretical chemistry and materials](domains/chem.md) | 12 | 22 | 1 | Extend coverage and review these cards |
-| [Theoretical biology](domains/bio.md) | 17 | 29 | 1 | Extend coverage and review these cards |
-| [Economics and game theory](domains/econ.md) | 23 | 22 | 4 | Extend coverage and review these cards |
-| [Networks and complex systems](domains/net.md) | 14 | 12 | 2 | Extend coverage and review these cards |
-| [Earth, climate and environmental theory](domains/earth.md) | 7 | 20 | 1 | Extend coverage and review these cards |
-| [Astrophysics and cosmology theory](domains/astro.md) | 18 | 20 | 1 | Extend coverage and review these cards |
-| [Control and theoretical engineering](domains/eng.md) | 13 | 13 | 1 | Extend coverage and review these cards |
-| [Formal cognition and language](domains/cog.md) | 12 | 11 | 1 | Extend coverage and review these cards |
+| [Information and coding theory](domains/info.md) | 35 | 26 | 7 | Extend coverage and review these cards |
+| [Theoretical physics](domains/phys.md) | 49 | 30 | 6 | Extend coverage and review these cards |
+| [Mathematical physics](domains/mphy.md) | 24 | 19 | 1 | Extend coverage and review these cards |
+| [Theoretical chemistry and materials](domains/chem.md) | 14 | 22 | 1 | Extend coverage and review these cards |
+| [Theoretical biology](domains/bio.md) | 20 | 29 | 1 | Extend coverage and review these cards |
+| [Economics and game theory](domains/econ.md) | 25 | 22 | 4 | Extend coverage and review these cards |
+| [Networks and complex systems](domains/net.md) | 15 | 12 | 2 | Extend coverage and review these cards |
+| [Earth, climate and environmental theory](domains/earth.md) | 8 | 20 | 1 | Extend coverage and review these cards |
+| [Astrophysics and cosmology theory](domains/astro.md) | 19 | 20 | 1 | Extend coverage and review these cards |
+| [Control and theoretical engineering](domains/eng.md) | 16 | 13 | 1 | Extend coverage and review these cards |
+| [Formal cognition and language](domains/cog.md) | 13 | 11 | 1 | Extend coverage and review these cards |
 
 Cross-links, full-card views and historical collection positions do not add records. The status breakdown shows where further source checks are needed.
 
 | Domain | Primary records | Open-status evidence | Unverified |
 | --- | --- | --- | --- |
-| [Mathematics](domains/math.md) | 158 | 145 | 6 |
+| [Mathematics](domains/math.md) | 158 | 144 | 7 |
 | [Logic and foundations](domains/logic.md) | 24 | 22 | 0 |
-| [Theoretical computer science](domains/cs.md) | 112 | 37 | 70 |
+| [Theoretical computer science](domains/cs.md) | 112 | 39 | 68 |
 | [Probability theory](domains/prob.md) | 15 | 7 | 6 |
 | [Statistical and learning theory](domains/stat.md) | 19 | 5 | 11 |
 | [Information and coding theory](domains/info.md) | 26 | 13 | 13 |
@@ -67,10 +67,10 @@ Expand a domain to inspect its branches without scrolling through the entire tax
 | [Geometry](domains/math.md#math-geom) | 24 | 18 | 2 | Extend coverage and review these cards |
 | [Algebraic geometry](domains/math.md#math-geom-alg) | 8 | 4 | 0 | Develop detailed problem cards |
 | [Differential and symplectic geometry](domains/math.md#math-geom-diff) | 6 | 5 | 0 | Develop detailed problem cards |
-| [Topology](domains/math.md#math-top) | 6 | 24 | 0 | Develop detailed problem cards |
-| [Low-dimensional topology](domains/math.md#math-top-low) | 4 | 21 | 0 | Develop detailed problem cards |
-| [Combinatorics and discrete mathematics](domains/math.md#math-comb) | 36 | 39 | 5 | Extend coverage and review these cards |
-| [Extremal and Ramsey theory](domains/math.md#math-comb-ext) | 22 | 39 | 5 | Extend coverage and review these cards |
+| [Topology](domains/math.md#math-top) | 8 | 24 | 0 | Develop detailed problem cards |
+| [Low-dimensional topology](domains/math.md#math-top-low) | 6 | 21 | 0 | Develop detailed problem cards |
+| [Combinatorics and discrete mathematics](domains/math.md#math-comb) | 39 | 39 | 5 | Extend coverage and review these cards |
+| [Extremal and Ramsey theory](domains/math.md#math-comb-ext) | 23 | 39 | 5 | Extend coverage and review these cards |
 | [Enumerative and algebraic combinatorics](domains/math.md#math-comb-enum) | 2 | 0 | 0 | Identify well-specified questions |
 | [Analysis](domains/math.md#math-anal) | 13 | 7 | 0 | Develop detailed problem cards |
 | [Differential equations and variational analysis](domains/math.md#math-anal-pde) | 5 | 1 | 0 | Develop detailed problem cards |
@@ -112,11 +112,11 @@ Expand a domain to inspect its branches without scrolling through the entire tax
 
 | Domain / branch | A: research sources | B + C: primary tasks | C: full cards | Next action |
 | --- | --- | --- | --- | --- |
-| [Set theory and independence](domains/logic.md#logic-set) | 2 | 0 | 0 | Identify well-specified questions |
+| [Set theory and independence](domains/logic.md#logic-set) | 4 | 0 | 0 | Identify well-specified questions |
 | [Model theory](domains/logic.md#logic-model) | 3 | 5 | 1 | Extend coverage and review these cards |
-| [Proof theory and constructive logic](domains/logic.md#logic-proof) | 4 | 5 | 0 | Develop detailed problem cards |
+| [Proof theory and constructive logic](domains/logic.md#logic-proof) | 6 | 5 | 0 | Develop detailed problem cards |
 | [Type theory and formal verification](domains/logic.md#logic-type) | 2 | 0 | 0 | Identify well-specified questions |
-| [Computability and degree theory](domains/logic.md#logic-recur) | 8 | 14 | 0 | Develop detailed problem cards |
+| [Computability and degree theory](domains/logic.md#logic-recur) | 10 | 14 | 0 | Develop detailed problem cards |
 | [Category theory and categorical foundations](domains/logic.md#logic-cat) | 1 | 0 | 0 | Identify well-specified questions |
 
 | Node | Classification references | Cross-linked candidates |
@@ -137,13 +137,13 @@ Expand a domain to inspect its branches without scrolling through the entire tax
 
 | Domain / branch | A: research sources | B + C: primary tasks | C: full cards | Next action |
 | --- | --- | --- | --- | --- |
-| [Algorithms and data structures](domains/cs.md#cs-alg) | 30 | 15 | 2 | Extend coverage and review these cards |
-| [Computational complexity](domains/cs.md#cs-complex) | 25 | 11 | 3 | Extend coverage and review these cards |
-| [Circuit and algebraic complexity](domains/cs.md#cs-complex-circuit) | 15 | 7 | 2 | Extend coverage and review these cards |
+| [Algorithms and data structures](domains/cs.md#cs-alg) | 32 | 15 | 2 | Extend coverage and review these cards |
+| [Computational complexity](domains/cs.md#cs-complex) | 27 | 11 | 3 | Extend coverage and review these cards |
+| [Circuit and algebraic complexity](domains/cs.md#cs-complex-circuit) | 17 | 7 | 2 | Extend coverage and review these cards |
 | [Randomized, online and distributed algorithms](domains/cs.md#cs-random) | 9 | 6 | 1 | Extend coverage and review these cards |
 | [Cryptographic foundations](domains/cs.md#cs-crypto) | 2 | 0 | 0 | Identify well-specified questions |
 | [Programming languages and verification theory](domains/cs.md#cs-semantics) | 45 | 41 | 0 | Develop detailed problem cards |
-| [Computational geometry and topology](domains/cs.md#cs-geom) | 47 | 34 | 0 | Develop detailed problem cards |
+| [Computational geometry and topology](domains/cs.md#cs-geom) | 49 | 34 | 0 | Develop detailed problem cards |
 | [Computational learning theory](domains/cs.md#cs-learn) | 10 | 5 | 0 | Develop detailed problem cards |
 | [Quantum computation theory](domains/cs.md#cs-quant) | 0 | 0 | 0 | Find specialist sources |
 
@@ -169,8 +169,8 @@ Expand a domain to inspect its branches without scrolling through the entire tax
 | Domain / branch | A: research sources | B + C: primary tasks | C: full cards | Next action |
 | --- | --- | --- | --- | --- |
 | [Probability foundations and limit theory](domains/prob.md#prob-found) | 0 | 0 | 0 | Find specialist sources |
-| [Stochastic processes and stochastic analysis](domains/prob.md#prob-process) | 12 | 2 | 0 | Develop detailed problem cards |
-| [Discrete probability and random structures](domains/prob.md#prob-discrete) | 15 | 8 | 0 | Develop detailed problem cards |
+| [Stochastic processes and stochastic analysis](domains/prob.md#prob-process) | 13 | 2 | 0 | Develop detailed problem cards |
+| [Discrete probability and random structures](domains/prob.md#prob-discrete) | 17 | 8 | 0 | Develop detailed problem cards |
 | [Markov chains, mixing and interacting systems](domains/prob.md#prob-mix) | 6 | 5 | 1 | Extend coverage and review these cards |
 
 | Node | Classification references | Cross-linked candidates |
@@ -214,7 +214,7 @@ Expand a domain to inspect its branches without scrolling through the entire tax
 
 | Domain / branch | A: research sources | B + C: primary tasks | C: full cards | Next action |
 | --- | --- | --- | --- | --- |
-| [Classical information theory](domains/info.md#info-shannon) | 7 | 10 | 1 | Extend coverage and review these cards |
+| [Classical information theory](domains/info.md#info-shannon) | 9 | 10 | 1 | Extend coverage and review these cards |
 | [Entropy inequalities and information geometry](domains/info.md#info-entropy) | 5 | 5 | 1 | Extend coverage and review these cards |
 | [Coding theory](domains/info.md#info-codes) | 9 | 5 | 3 | Extend coverage and review these cards |
 | [Quantum information theory](domains/info.md#info-quant) | 10 | 5 | 2 | Extend coverage and review these cards |
@@ -245,7 +245,7 @@ Expand a domain to inspect its branches without scrolling through the entire tax
 | [Quantum field, particle and nuclear theory](domains/phys.md#phys-field) | 8 | 4 | 0 | Develop detailed problem cards |
 | [Condensed matter and materials theory](domains/phys.md#phys-cond) | 10 | 5 | 2 | Extend coverage and review these cards |
 | [Statistical and nonequilibrium physics](domains/phys.md#phys-stat) | 15 | 2 | 1 | Extend coverage and review these cards |
-| [Gravitation and spacetime theory](domains/phys.md#phys-grav) | 16 | 16 | 1 | Extend coverage and review these cards |
+| [Gravitation and spacetime theory](domains/phys.md#phys-grav) | 18 | 16 | 1 | Extend coverage and review these cards |
 | [Optics, waves and atomic theory](domains/phys.md#phys-optics) | 1 | 0 | 0 | Identify well-specified questions |
 
 | Node | Classification references | Cross-linked candidates |
@@ -268,10 +268,10 @@ Expand a domain to inspect its branches without scrolling through the entire tax
 
 | Domain / branch | A: research sources | B + C: primary tasks | C: full cards | Next action |
 | --- | --- | --- | --- | --- |
-| [Spectral and operator theory in physics](domains/mphy.md#mphy-spectral) | 7 | 17 | 0 | Develop detailed problem cards |
+| [Spectral and operator theory in physics](domains/mphy.md#mphy-spectral) | 12 | 17 | 0 | Develop detailed problem cards |
 | [Rigorous statistical mechanics](domains/mphy.md#mphy-stat) | 1 | 1 | 1 | Extend coverage and review these cards |
 | [Constructive and axiomatic field theory](domains/mphy.md#mphy-qft) | 3 | 1 | 0 | Develop detailed problem cards |
-| [Integrable and Hamiltonian systems](domains/mphy.md#mphy-classical) | 4 | 0 | 0 | Identify well-specified questions |
+| [Integrable and Hamiltonian systems](domains/mphy.md#mphy-classical) | 5 | 0 | 0 | Identify well-specified questions |
 
 | Node | Classification references | Cross-linked candidates |
 | --- | --- | --- |
@@ -289,8 +289,8 @@ Expand a domain to inspect its branches without scrolling through the entire tax
 
 | Domain / branch | A: research sources | B + C: primary tasks | C: full cards | Next action |
 | --- | --- | --- | --- | --- |
-| [Quantum chemistry and electronic structure](domains/chem.md#chem-quant) | 3 | 15 | 0 | Develop detailed problem cards |
-| [Reaction-network and kinetics theory](domains/chem.md#chem-reaction) | 7 | 6 | 1 | Extend coverage and review these cards |
+| [Quantum chemistry and electronic structure](domains/chem.md#chem-quant) | 4 | 15 | 0 | Develop detailed problem cards |
+| [Reaction-network and kinetics theory](domains/chem.md#chem-reaction) | 8 | 6 | 1 | Extend coverage and review these cards |
 | [Molecular statistical mechanics](domains/chem.md#chem-stat) | 2 | 1 | 0 | Develop detailed problem cards |
 | [Theoretical materials and crystallography](domains/chem.md#chem-material) | 1 | 0 | 0 | Identify well-specified questions |
 
@@ -310,9 +310,9 @@ Expand a domain to inspect its branches without scrolling through the entire tax
 
 | Domain / branch | A: research sources | B + C: primary tasks | C: full cards | Next action |
 | --- | --- | --- | --- | --- |
-| [Evolution, population genetics and phylogenetics](domains/bio.md#bio-evol) | 7 | 9 | 1 | Extend coverage and review these cards |
+| [Evolution, population genetics and phylogenetics](domains/bio.md#bio-evol) | 9 | 9 | 1 | Extend coverage and review these cards |
 | [Ecology and population dynamics](domains/bio.md#bio-eco) | 3 | 3 | 0 | Develop detailed problem cards |
-| [Systems biology and biological networks](domains/bio.md#bio-systems) | 7 | 11 | 0 | Develop detailed problem cards |
+| [Systems biology and biological networks](domains/bio.md#bio-systems) | 8 | 11 | 0 | Develop detailed problem cards |
 | [Epidemic and transmission theory](domains/bio.md#bio-epid) | 1 | 0 | 0 | Identify well-specified questions |
 | [Molecular, structural and sequence theory](domains/bio.md#bio-mol) | 1 | 0 | 0 | Identify well-specified questions |
 | [Development, morphogenesis and biomechanics](domains/bio.md#bio-dev) | 4 | 6 | 0 | Develop detailed problem cards |
@@ -337,7 +337,7 @@ Expand a domain to inspect its branches without scrolling through the entire tax
 | --- | --- | --- | --- | --- |
 | [Game and equilibrium theory](domains/econ.md#econ-game) | 4 | 2 | 1 | Extend coverage and review these cards |
 | [Mechanism design and fair allocation](domains/econ.md#econ-mech) | 11 | 6 | 3 | Extend coverage and review these cards |
-| [Social choice and collective decisions](domains/econ.md#econ-social) | 9 | 14 | 0 | Develop detailed problem cards |
+| [Social choice and collective decisions](domains/econ.md#econ-social) | 11 | 14 | 0 | Develop detailed problem cards |
 | [Decision and utility theory](domains/econ.md#econ-decision) | 1 | 0 | 0 | Identify well-specified questions |
 | [General equilibrium and economic dynamics](domains/econ.md#econ-equil) | 1 | 0 | 0 | Identify well-specified questions |
 | [Econometric theory](domains/econ.md#econ-metrics) | 0 | 0 | 0 | Find specialist sources |
@@ -363,8 +363,8 @@ Expand a domain to inspect its branches without scrolling through the entire tax
 | Domain / branch | A: research sources | B + C: primary tasks | C: full cards | Next action |
 | --- | --- | --- | --- | --- |
 | [Network structure and random networks](domains/net.md#net-struct) | 2 | 2 | 0 | Develop detailed problem cards |
-| [Dynamics on networks and collective behavior](domains/net.md#net-dynamics) | 12 | 8 | 2 | Extend coverage and review these cards |
-| [Network inference and multiscale structure](domains/net.md#net-infer) | 1 | 2 | 0 | Develop detailed problem cards |
+| [Dynamics on networks and collective behavior](domains/net.md#net-dynamics) | 13 | 8 | 2 | Extend coverage and review these cards |
+| [Network inference and multiscale structure](domains/net.md#net-infer) | 2 | 2 | 0 | Develop detailed problem cards |
 | [Complex adaptive systems](domains/net.md#net-complex) | 0 | 0 | 0 | Find specialist sources |
 
 | Node | Classification references | Cross-linked candidates |
@@ -386,7 +386,7 @@ Expand a domain to inspect its branches without scrolling through the entire tax
 | [Geophysical fluid dynamics](domains/earth.md#earth-fluid) | 1 | 1 | 0 | Develop detailed problem cards |
 | [Climate dynamics and reduced models](domains/earth.md#earth-climate) | 3 | 4 | 1 | Extend coverage and review these cards |
 | [Solid Earth and inverse geophysics](domains/earth.md#earth-solid) | 0 | 0 | 0 | Find specialist sources |
-| [Environmental systems and resource models](domains/earth.md#earth-env) | 1 | 15 | 0 | Develop detailed problem cards |
+| [Environmental systems and resource models](domains/earth.md#earth-env) | 2 | 15 | 0 | Develop detailed problem cards |
 
 | Node | Classification references | Cross-linked candidates |
 | --- | --- | --- |
@@ -405,7 +405,7 @@ Expand a domain to inspect its branches without scrolling through the entire tax
 | Domain / branch | A: research sources | B + C: primary tasks | C: full cards | Next action |
 | --- | --- | --- | --- | --- |
 | [Celestial dynamics](domains/astro.md#astro-dyn) | 7 | 13 | 1 | Extend coverage and review these cards |
-| [Cosmology and gravitational astrophysics](domains/astro.md#astro-cosmo) | 9 | 6 | 0 | Develop detailed problem cards |
+| [Cosmology and gravitational astrophysics](domains/astro.md#astro-cosmo) | 10 | 6 | 0 | Develop detailed problem cards |
 | [Stellar and astrophysical plasma theory](domains/astro.md#astro-plasma) | 2 | 1 | 0 | Develop detailed problem cards |
 
 | Node | Classification references | Cross-linked candidates |
@@ -423,9 +423,9 @@ Expand a domain to inspect its branches without scrolling through the entire tax
 
 | Domain / branch | A: research sources | B + C: primary tasks | C: full cards | Next action |
 | --- | --- | --- | --- | --- |
-| [Control, estimation and systems theory](domains/eng.md#eng-control) | 5 | 9 | 1 | Extend coverage and review these cards |
+| [Control, estimation and systems theory](domains/eng.md#eng-control) | 7 | 9 | 1 | Extend coverage and review these cards |
 | [Inverse problems and imaging theory](domains/eng.md#eng-inverse) | 2 | 1 | 0 | Develop detailed problem cards |
-| [Robust design and verification](domains/eng.md#eng-robust) | 5 | 3 | 0 | Develop detailed problem cards |
+| [Robust design and verification](domains/eng.md#eng-robust) | 6 | 3 | 0 | Develop detailed problem cards |
 
 | Node | Classification references | Cross-linked candidates |
 | --- | --- | --- |
@@ -442,7 +442,7 @@ Expand a domain to inspect its branches without scrolling through the entire tax
 
 | Domain / branch | A: research sources | B + C: primary tasks | C: full cards | Next action |
 | --- | --- | --- | --- | --- |
-| [Theoretical neuroscience](domains/cog.md#cog-neuro) | 5 | 10 | 0 | Develop detailed problem cards |
+| [Theoretical neuroscience](domains/cog.md#cog-neuro) | 6 | 10 | 0 | Develop detailed problem cards |
 | [Formal language and grammar theory](domains/cog.md#cog-lang) | 1 | 1 | 1 | Extend coverage and review these cards |
 | [Computational cognition and rationality](domains/cog.md#cog-decision) | 2 | 0 | 0 | Identify well-specified questions |
 
@@ -506,6 +506,8 @@ These notes identify the remaining work; broad portals do not fill a specialist 
 **Gaps:** Higher-dimensional, equivariant and stable homotopy theory remain underrepresented. Many K3 and computational geometry entries still need later-literature checks.
 
 **Reason:** Distinct notions of equivalence, smoothness and allowed geometric operations must be preserved in each statement.
+
+**Status limits:** The quadratic upper bound for surface 1-systems has a revised resolution claim. The earlier proof was corrected; assessment of the revised proof remains outstanding. The historical candidate is retained under its original ID.
 
 
 </details>
@@ -805,7 +807,7 @@ These notes identify the remaining work; broad portals do not fill a specialist 
 
 **Remaining:** Welfare, growth, general equilibrium and broader mechanism design need further problem sources. Numerical macroeconomic work may be costly; behavioral assumptions need empirical scrutiny.
 
-**Status limits:** Restricted preference domains, tie conventions and strengthened or weakened axioms require separate treatment. Later records include a dated open statement for EJR with committee monotonicity and unreviewed resolution claims for core committees, full justified representation and efficient Pareto-optimal committees. Consult each entry before treating its historical question as open.
+**Status limits:** Restricted preference domains, tie conventions and strengthened or weakened axioms require separate treatment. Later records include a dated open statement for EJR with committee monotonicity. Polynomial-time full justified representation has a sourced resolution; core committees and efficient Pareto-optimal committees retain unreviewed resolution claims. Consult each entry before treating its historical question as open.
 
 
 </details>
@@ -894,6 +896,8 @@ These notes identify the remaining work; broad portals do not fill a specialist 
 **Gaps:** Most selected control questions originate in a historical problem book and need later-literature checks before research prioritization.
 
 **Reason:** Formal controllability or stability under assumptions is separate from a validated engineering implementation.
+
+**Status limits:** Discrete time-controllability criteria do not settle the unrestricted smooth PDE target. Delay-margin lower bounds do not supply a general optimum-error guarantee. A skidding car model is distinct from the original no-skidding angular-acceleration problem.
 
 
 </details>

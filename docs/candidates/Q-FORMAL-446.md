@@ -10,41 +10,68 @@ Give a direct analytic proof of the inequalities relating the truncated two-thir
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Unverified. **Last checked:** 2026-10-14.
+**Current status:** Unverified. **Last checked:** 2026-11-06.
 
-**Status basis:** The inspected source poses this question. A comprehensive search for later resolutions has not been completed; current openness is not asserted.
+**Status basis:** The source asks for a direct analytic comparison of the two existing functionals, whose relationship is obtained through testing bounds. This differs from finding a fully tight functional (Question 1) or repairing the corner-case lower-bound argument (Question 3). The scoped search did not establish a later direct proof.
 
-**Statement check:** Source located. **Status check:** Source report only.
+**Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** COLT 2024 problem note.
+**Source date and freshness:** COLT 2024 problem note; later keyword search on 6 November 2026.
 
-**Scope limits:** This is a source-defined research question, not a claim that a solution or a manageable research route is known.
+**Scope limits:** Keep the source's truncation conventions and epsilon arguments in inequalities (1) and (3). A proof of Question 3 does not by itself answer this question.
 
 **Information still needed**
 
-- Later direct proofs and the precise constants under different truncations.
+- A later direct analytic proof and its exact truncation parameters and constants were not established.
 
 **Primary branch:** [Inference and decision theory](../domains/stat.md#stat-infer). **Related branches:** None recorded.
 
 **Sources:** [Open Problem: Tight Characterization of Instance-Optimal Identity Testing](../sources.md#src-formal-442).
 
-**Exact locator:** Section 5, Open Question 2; equations (1) and (3)
+**Exact locator:** Canonne (2024), Section 5, Open Question 2; definitions and bounds (1) and (3) in Section 2.
 
 **Potential difficulty:** Unknown. The source identifies an unresolved research target; its present difficulty has not been independently assessed.
 
-**Possible AI role:** After the statistical model is recovered, help manipulate risk bounds, compare lower-bound constructions and design simulations that challenge proposed assumptions. Simulation does not establish minimax optimality.
+**Possible AI role:** Compare the truncated two-thirds quasinorm and K-functional directly, recording exact truncation and epsilon parameters in any proposed inequalities.
 
-**Verification burden:** High. Upper and lower bounds must use identical distribution classes, loss, privacy or oracle conditions and quantifiers; statistical counterexamples need exact arguments.
+**Verification burden:** High. Verify both directions against the displayed bounds, including endpoint and concentrated-distribution cases. A new testing reduction is not the requested direct comparison.
 
 **Resource expectations:** The formal target needs no new physical experiment. Simulations may use synthetic samples; necessary sample counts and computational costs have not been estimated.
 
-**Assessment:** 2026-10-14; untested forecast. **Uncertainty:** No model has been tested. Current status, useful subcases and feasible computational scale require further review.
+**Assessment:** 2026-11-06; untested forecast. **Uncertainty:** No model has been tested. Current status, useful subcases and feasible computational scale require further review.
 
 **Further work:** resolve the statement and status questions above before planning an attempt. **Human review:** Pending.
 
 ## Literature checks
 
 These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-06
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Unverified → Unverified.
+
+The source asks for a direct analytic comparison of the two existing functionals, whose relationship is obtained through testing bounds. This differs from finding a fully tight functional (Question 1) or repairing the corner-case lower-bound argument (Question 3). The scoped search did not establish a later direct proof.
+
+**Search scope:** Read the primary functional definitions, bounds and distinct open questions. Compared the scope of a located 2026 Question 3 claim; no direct-proof resolution for Question 2 was established.
+
+**Inspected evidence**
+
+- [Open Problem: Tight Characterization of Instance-Optimal Identity Testing](../sources.md#src-formal-442) — Section 2, equations (1) and (3); Section 5, Questions 2-3. Question 2 concerns a direct comparison; Question 3 concerns a different proof gap.
+
+**Limits and remaining work**
+
+- The search is bounded; the full definitions and displayed equations should accompany any proof submission.
+
+<details>
+<summary>Search queries</summary>
+
+- "identity testing" "Open Question 2" "Canonne"
+- "instance-optimal identity testing" 2025 2026 Canonne solution
+
+
+</details>
 
 ### 2026-10-14
 

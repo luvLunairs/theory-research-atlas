@@ -8,9 +8,9 @@ Difficulty concerns the stated target, not the ease of stating a question. A fin
 | --- | --- | --- | --- |
 | Low | A routine or tightly bounded task under stated prerequisites. | 0 | 0 |
 | Medium | Substantial but structured work; feasibility still needs testing. | 0 | 0 |
-| High | Specialist research with significant unresolved obstacles. | 61 | 99 |
+| High | Specialist research with significant unresolved obstacles. | 61 | 98 |
 | Frontier | A major long-standing target or comparably deep general problem. | 77 | 17 |
-| Unknown | Insufficient task-specific evidence for a defensible rating. | 142 | 111 |
+| Unknown | Insufficient task-specific evidence for a defensible rating. | 143 | 111 |
 
 ## Candidates with open-status evidence
 
@@ -72,7 +72,7 @@ Difficulty concerns the stated target, not the ease of stating a question. A fin
 | [The square peg problem for arbitrary Jordan curves](candidates/Q-MATH-509.md) | High | After checking current status, AI with the relevant mathematical background and tools could compare approximation arguments with obstructions caused by nonsmooth curves. Specialist review remains necessary; no named model has been evaluated. |
 | [Committee monotonicity compatible with EJR](candidates/Q-MODEL-432.md) | High | A tool-using AI could encode small election obstructions and compare axiom implications. This is a forecast; no named model has been evaluated on the task. |
 | [Computational complexity of ranked tree-child network rNNI* distance](candidates/Q-MODEL-483.md) | High | A tool-using AI could implement independent move validators and compare exact small-instance distances to candidate decompositions or hardness reductions. This is a forecast; no named model has been evaluated on the task. |
-| [Shellability of the ranked tree-child network poset](candidates/Q-MODEL-484.md) | High | A tool-using AI could inspect small order complexes and attempt a source-compatible labeling or explicit obstruction. This is a forecast; no named model has been evaluated on the task. |
+| [Shellability of the ranked tree-child network poset](candidates/Q-MODEL-484.md) | High | Compare the published T(X) definition with the cactus labeling and isolate which proof steps use cactus structure before proposing a tree-child labeling or obstruction. |
 | [Structured resonances and avalanche diagnostics in the quasiperiodic XXZ chain](cards/Q-MODEL-491.md) | High | Literature comparison, algebra and reproducible numerical diagnostics offer possible assistance; discovering a correct mechanism is uncertain. A model able to inspect primary literature and use scientific code, with specialist oversight; no specific model benchmarked. |
 | [Nonlinear stationary axisymmetric tidal response of Kerr black holes](cards/Q-MODEL-492.md) | High | Symbolic tensor manipulation can assist finite-order field equations and matching checks. Choosing an informative sector and interpreting its coefficients require GR and EFT expertise; no AI trial has been run. No named model evaluated; assumes a tool-using assistant with source access and specialist human review. |
 | [Predictive mixed longitudinal-transverse intermittency exponents](cards/Q-MODEL-495.md) | High | Symbolic consistency checks and comparison of statistical closures offer bounded tasks. Predicting universal exponents requires more than fitting numerical data; this proposed AI role has not been tested. No named model evaluated; assumes a tool-using assistant with source access and specialist human review. |
@@ -279,7 +279,6 @@ Difficulty concerns the stated target, not the ease of stating a question. A fin
 | [A positive local presentation for all braid half-twists](candidates/Q-MATH-504.md) | High | After checking current status, AI with the relevant mathematical background and tools could search relation templates and compare quasipositive monoid presentations. Specialist review remains necessary; no named model has been evaluated. |
 | [Uniformly efficient exact curve-complex distance](candidates/Q-MATH-505.md) | High | After checking current status, AI with the relevant mathematical background and tools could compare normal-curve encodings and exact distance algorithms while tracking dependence on surface complexity. Specialist review remains necessary; no named model has been evaluated. |
 | [Computability of Hempel distance](candidates/Q-MATH-506.md) | High | After checking current status, AI with the relevant mathematical background and tools could compare disk-set representations and lower-bound certificates for exact distance. Specialist review remains necessary; no named model has been evaluated. |
-| [Quadratic bounds for one-intersection curve systems](candidates/Q-MATH-507.md) | High | After checking current status, AI with the relevant mathematical background and tools could search intersection-pattern constructions and audit combinatorial upper-bound losses. Specialist review remains necessary; no named model has been evaluated. |
 | [Surgery equivalence of embedded surface graphs](candidates/Q-MATH-508.md) | High | After checking current status, AI with the relevant mathematical background and tools could encode local moves and search invariant obstructions to surgery equivalence. Specialist review remains necessary; no named model has been evaluated. |
 | [An affine regular hexagon on every Jordan curve](candidates/Q-MATH-510.md) | High | After checking current status, AI with the relevant mathematical background and tools could explore affine invariants and degeneracy-resistant limiting arguments. Specialist review remains necessary; no named model has been evaluated. |
 | [Polynomial images of concyclic points on a smooth Jordan curve](candidates/Q-MATH-511.md) | High | After checking current status, AI with the relevant mathematical background and tools could compare interpolation constraints with symplectic existence arguments. Specialist review remains necessary; no named model has been evaluated. |
@@ -302,6 +301,8 @@ Difficulty concerns the stated target, not the ease of stating a question. A fin
 | [Connectivity of geometric tetrahedralization flip graphs](candidates/Q-FORMAL-415.md) | High | After the computational model and current status are checked, generate small geometric instances, inspect exact witnesses and assist with combinatorial or algebraic lemmas. Finite tests do not establish asymptotic complexity or universal existence. |
 | [Polynomial separation bounds for sums of square roots](candidates/Q-FORMAL-417.md) | High | After the computational model and current status are checked, generate small geometric instances, inspect exact witnesses and assist with combinatorial or algebraic lemmas. Finite tests do not establish asymptotic complexity or universal existence. |
 | [General unfolding of nonconvex polyhedra](candidates/Q-FORMAL-422.md) | High | After the computational model and current status are checked, generate small geometric instances, inspect exact witnesses and assist with combinatorial or algebraic lemmas. Finite tests do not establish asymptotic complexity or universal existence. |
+| [Linear-size universal point sets for planar straight-line drawings](candidates/Q-FORMAL-423.md) | High | After the computational model and current status are checked, generate small geometric instances, inspect exact witnesses and assist with combinatorial or algebraic lemmas. Finite tests do not establish asymptotic complexity or universal existence. |
+| [Logarithmic-time fully dynamic planar nearest neighbors](candidates/Q-FORMAL-430.md) | High | After the computational model and current status are checked, generate small geometric instances, inspect exact witnesses and assist with combinatorial or algebraic lemmas. Finite tests do not establish asymptotic complexity or universal existence. |
 | [Data selection for mean estimation](candidates/Q-FORMAL-436.md) | High | After the statistical model is recovered, help manipulate risk bounds, compare lower-bound constructions and design simulations that challenge proposed assumptions. Simulation does not establish minimax optimality. |
 | [Data selection for linear regression](candidates/Q-FORMAL-437.md) | High | Compare the remaining weighted-budget cells against the cited frontier, or examine unweighted selection after a separate status check. Preserve rank and minimum-norm conventions in symbolic examples. |
 | [Mismatch-capacity formula](candidates/Q-FORMAL-454.md) | High | After operational conventions are fixed, explore small-alphabet examples, compare inner and outer bounds and assist with entropy calculations. Numerical optimization cannot establish a capacity formula. |
@@ -314,7 +315,7 @@ Difficulty concerns the stated target, not the ease of stating a question. A fin
 These source-defined questions remain provisional or have conflicting evidence. Their difficulty ratings do not establish that they are still open. Follow the record for missing assumptions, dated source claims and recent resolution notices.
 
 <details>
-<summary>High · 99 provisional candidates</summary>
+<summary>High · 98 provisional candidates</summary>
 
 | Question | Primary branch | Evidence status | Verification burden |
 | --- | --- | --- | --- |
@@ -395,7 +396,6 @@ These source-defined questions remain provisional or have conflicting evidence. 
 | [Strong proportionality with candidate monotonicity](candidates/Q-MODEL-441.md) | [Social choice and collective decisions](domains/econ.md#econ-social) | Unverified | High |
 | [Parallel-universe tiebreaking in committee rules](candidates/Q-MODEL-442.md) | [Social choice and collective decisions](domains/econ.md#econ-social) | Unverified | High |
 | [Reverse sequential PAV approximation factor](candidates/Q-MODEL-443.md) | [Social choice and collective decisions](domains/econ.md#econ-social) | Unverified | High |
-| [Winner computation on voter-interval approval domains](candidates/Q-MODEL-444.md) | [Social choice and collective decisions](domains/econ.md#econ-social) | Unverified | High |
 | [Exchange-orbit approach to the Hill-stability threshold](candidates/Q-MODEL-446.md) | [Celestial dynamics](domains/astro.md#astro-dyn) | Unverified | High |
 | [Transit orbits throughout barbell Hill regions](candidates/Q-MODEL-447.md) | [Celestial dynamics](domains/astro.md#astro-dyn) | Unverified | High |
 | [Periodic three-body minimizers with prescribed winding numbers](candidates/Q-MODEL-448.md) | [Celestial dynamics](domains/astro.md#astro-dyn) | Unverified | High |
@@ -465,6 +465,7 @@ These source-defined questions remain provisional or have conflicting evidence. 
 | [Irreducibility of a random zero-one polynomial](candidates/Q-MATH-425.md) | [Discrete probability and random structures](domains/prob.md#prob-discrete) | Unverified | High |
 | [Positive density of the classical Ulam sequence](candidates/Q-MATH-428.md) | [Number theory and arithmetic geometry](domains/math.md#math-num) | Unverified | High |
 | [Finite sums and products in one color](candidates/Q-MATH-448.md) | [Extremal and Ramsey theory](domains/math.md#math-comb-ext) | Unverified | High |
+| [Quadratic bounds for one-intersection curve systems](candidates/Q-MATH-507.md) | [Low-dimensional topology](domains/math.md#math-top-low) | Unverified | High |
 | [Voronoi diagrams of lines in three dimensions](candidates/Q-FORMAL-401.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unverified | High |
 | [Near-linear exact Euclidean minimum spanning trees in fixed dimension](candidates/Q-FORMAL-402.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unverified | High |
 | [Optimal complexity of exact planar Euclidean matching](candidates/Q-FORMAL-403.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unverified | High |
@@ -481,14 +482,12 @@ These source-defined questions remain provisional or have conflicting evidence. 
 | [Compatible triangulations of equal-size planar point sets](candidates/Q-FORMAL-419.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unverified | High |
 | [Quadratic-time sorting of pairwise sums](candidates/Q-FORMAL-420.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unverified | High |
 | [Vertex unfolding of nonsimplicial polyhedra](candidates/Q-FORMAL-421.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unverified | High |
-| [Linear-size universal point sets for planar straight-line drawings](candidates/Q-FORMAL-423.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unverified | High |
 | [Two-bend orthogonal drawings of maximum-degree-six graphs](candidates/Q-FORMAL-424.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unverified | High |
 | [Complexity of planar Euclidean maximum TSP](candidates/Q-FORMAL-425.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unverified | High |
 | [Complexity of planar Euclidean maximum-scatter TSP](candidates/Q-FORMAL-426.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unverified | High |
 | [Minimum-turn tours in solid grid graphs](candidates/Q-FORMAL-427.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unverified | High |
 | [Shortest tours in solid grid graphs](candidates/Q-FORMAL-428.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unverified | High |
 | [Complexity of pallet loading with a compact input](candidates/Q-FORMAL-429.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unverified | High |
-| [Logarithmic-time fully dynamic planar nearest neighbors](candidates/Q-FORMAL-430.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unverified | High |
 | [Edge unfolding of genus-zero polycubes](candidates/Q-FORMAL-431.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unverified | High |
 | [Complexity of rolling a die across a fully labelled rectangle](candidates/Q-FORMAL-432.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unverified | High |
 | [Possibly crossing isosceles drawings of triangulations](candidates/Q-FORMAL-433.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unverified | High |
@@ -555,6 +554,7 @@ These source-defined questions remain provisional or have conflicting evidence. 
 | [Partial-Maltsev SAT below meet-in-the-middle](candidates/Q-FORMAL-503.md) | [Algorithms and data structures](domains/cs.md#cs-alg) | Unverified | High |
 | [Linear nonredundancy of constraint languages](candidates/Q-FORMAL-504.md) | [Algorithms and data structures](domains/cs.md#cs-alg) | Unverified | High |
 | [Polynomial kernels for Boolean MinCSP](candidates/Q-FORMAL-505.md) | [Algorithms and data structures](domains/cs.md#cs-alg) | Unverified | High |
+| [Winner computation on voter-interval approval domains](candidates/Q-MODEL-444.md) | [Social choice and collective decisions](domains/econ.md#econ-social) | Unverified | High |
 | [A generative toolkit for multicellular developmental forms](candidates/Q-MODEL-471.md) | [Development, morphogenesis and biomechanics](domains/bio.md#bio-dev) | Unverified | Unknown |
 | [Synthetic multicellular life cycles](candidates/Q-MODEL-472.md) | [Development, morphogenesis and biomechanics](domains/bio.md#bio-dev) | Unverified | Unknown |
 | [Predictive principles for constructing functional organs](candidates/Q-MODEL-473.md) | [Development, morphogenesis and biomechanics](domains/bio.md#bio-dev) | Unverified | Unknown |

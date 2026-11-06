@@ -6,7 +6,7 @@ General mathematical limits and design principles for engineered systems.
 
 **Boundary:** Prototype construction and product deployment are deferred.
 
-**Research sources: 13 · Primary tasks: 13 · Full cards: 1 · Cross-linked tasks: 1.**
+**Research sources: 16 · Primary tasks: 13 · Full cards: 1 · Cross-linked tasks: 1.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -54,6 +54,9 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [Uniform stability properties of switched systems with switchings governed by digraphs](../sources.md#src-cross-605) | Research entry | 2005 |
 | [Necessary and sufficient conditions to the transitivity in simultaneous stabilisation of time-varying systems](../sources.md#src-cross-606) | Research entry | 2013 |
 | [Measurement to Error Stability: a Notion of Partial Detectability for Nonlinear Systems](../sources.md#src-cross-700) | Research entry | 2002 |
+| [From 2D system to 1D system via restriction to a vertical strip: applications to time-controllability and zero-time-controllability](../sources.md#src-cross-800) | Research entry | 2026 |
+| [An analytic interpolation approach to stability margins with emphasis on time delay](../sources.md#src-cross-801) | Research entry | 2020 |
+| [Relaxing Nonholonomic Constraints to Eliminate Chattering From Time-Optimal Control Solutions](../sources.md#src-cross-802) | Research entry | 2017 |
 
 <a id="branches"></a>
 
@@ -113,7 +116,7 @@ Steering and identifying dynamical systems under constraints.
 
 **Representative objects:** stability, observability, controllability.
 
-**Direct source entries:** [SIAM Journal on Control and Optimization: scope](../sources.md#src-base-008), [Linear Matrix Inequalities in System and Control Theory](../sources.md#src-formal-101), [Structured and Simultaneous Lyapunov Functions for System Stability Problems](../sources.md#src-formal-102), [2002 MTNS Problem Book: Open Problems on the Mathematical Theory of Systems](../sources.md#src-cross-401), [Measurement to Error Stability: a Notion of Partial Detectability for Nonlinear Systems](../sources.md#src-cross-700).
+**Direct source entries:** [SIAM Journal on Control and Optimization: scope](../sources.md#src-base-008), [Linear Matrix Inequalities in System and Control Theory](../sources.md#src-formal-101), [Structured and Simultaneous Lyapunov Functions for System Stability Problems](../sources.md#src-formal-102), [2002 MTNS Problem Book: Open Problems on the Mathematical Theory of Systems](../sources.md#src-cross-401), [Measurement to Error Stability: a Notion of Partial Detectability for Nonlinear Systems](../sources.md#src-cross-700), [From 2D system to 1D system via restriction to a vertical strip: applications to time-controllability and zero-time-controllability](../sources.md#src-cross-800), [Relaxing Nonholonomic Constraints to Eliminate Chattering From Time-Optimal Control Solutions](../sources.md#src-cross-802).
 
 **Primary tasks in this branch and its descendants**
 
@@ -203,7 +206,7 @@ Guaranteed behavior under model uncertainty and constraints.
 
 **Representative objects:** reachability, robust optimization, certificates.
 
-**Direct source entries:** [SIAM Journal on Control and Optimization: scope](../sources.md#src-base-008), [Convex Optimization: author resource page](../sources.md#src-base-013), [Linear Matrix Inequalities in System and Control Theory](../sources.md#src-formal-101), [Structured and Simultaneous Lyapunov Functions for System Stability Problems](../sources.md#src-formal-102), [2002 MTNS Problem Book: Open Problems on the Mathematical Theory of Systems](../sources.md#src-cross-401).
+**Direct source entries:** [SIAM Journal on Control and Optimization: scope](../sources.md#src-base-008), [Convex Optimization: author resource page](../sources.md#src-base-013), [Linear Matrix Inequalities in System and Control Theory](../sources.md#src-formal-101), [Structured and Simultaneous Lyapunov Functions for System Stability Problems](../sources.md#src-formal-102), [2002 MTNS Problem Book: Open Problems on the Mathematical Theory of Systems](../sources.md#src-cross-401), [An analytic interpolation approach to stability margins with emphasis on time delay](../sources.md#src-cross-801).
 
 **Primary tasks in this branch and its descendants**
 

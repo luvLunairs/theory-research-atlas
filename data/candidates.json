@@ -96,12 +96,13 @@
     "kind": "literature_open",
     "statement": "Determine the least N such that every red/blue coloring of the edges of K_N has a monochromatic K5.",
     "source_ids": [
-      "SRC-MATH-001"
+      "SRC-MATH-001",
+      "SRC-MATH-802"
     ],
-    "source_locator": "DS1.18 section 2.1(e), printed page 8; Table Ib.",
-    "status": "source_reports_open",
-    "status_basis": "The 2026 survey gives a gap and discusses a conjectured exact value. A separate current-status review remains outstanding.",
-    "last_checked": "2026-10-13",
+    "source_locator": "DS1.18 Section 2.1(e), Table Ib; Angeltveit-McKay v2, Theorem 1.1 and Section 1",
+    "status": "open_after_scoped_check",
+    "status_basis": "Radziszowski's April 2026 survey and Angeltveit-McKay v2 give 43 <= R(5,5) <= 46. The scoped update search found no accepted exact value. The conjectured value 43 is not established.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "math:ramsey:2colors:k5:exact-threshold",
     "proposed_card": false,
@@ -3651,14 +3652,16 @@
       "Circuit complexity"
     ],
     "kind": "literature_open",
-    "statement": "Find an explicit tautology family requiring superpolynomial-size AC0[2]-Frege proofs at every fixed proof depth, where proof lines may use unbounded-fan-in AND, OR and parity gates.",
+    "statement": "Find an explicit tautology family requiring superpolynomial-size AC0[2]-Frege proofs for every fixed bound on the depth of circuits appearing as proof lines. These circuits may use unbounded-fan-in AND, OR and parity gates; circuit depth is distinct from the number of inference steps or the depth of the proof DAG.",
     "source_ids": [
-      "SRC-FORMAL-308"
+      "SRC-FORMAL-308",
+      "SRC-MATH-805",
+      "SRC-MATH-806"
     ],
-    "source_locator": "Lu et al., section 1.1 and discussion in section 1.3.",
+    "source_locator": "Lu-Santhanam-Tzameret, Sections 1.1-1.3; Braun, Theorem 1.1 and Section 1.3; Conneryd, Corollary 1.2 and Theorem 1.3",
     "status": "source_reports_open",
-    "status_basis": "The 2026 DNF construction excludes easy proofs but leaves tautologicity open; it therefore does not solve this task.",
-    "last_checked": "2026-10-14",
+    "status_basis": "The inspected ITCS paper leaves explicit hard tautologies open. Later preprints claim bounds for unrestricted Res(parity) and for random formulas at depth 2. Neither establishes this entry's explicit-family lower bound at every fixed formula depth; their proofs and formalization claims remain independently unchecked.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "logic:ac02-frege:known-tautology-lower-bound",
     "proposed_card": false,
@@ -3945,12 +3948,14 @@
     "statement": "In ZF+AD+DC_R, is every Turing-invariant f:2^ω→2^ω either constant in Turing degree on a cone or above the identity on a cone? A cone has the form {x:x≥_T a}.",
     "source_ids": [
       "SRC-FORMAL-315",
-      "SRC-FORMAL-316"
+      "SRC-FORMAL-316",
+      "SRC-MATH-807",
+      "SRC-MATH-808"
     ],
-    "source_locator": "Lutz–Siskind, section 1.1 formal conjecture (1); Akbari–Harrison-Trainor, section 1.3 footnote 2.",
+    "source_locator": "Lutz-Siskind v3, Sections 1.1 and 1.4; Open Problems in Mathematical Logic, Problem 2; Yu, Theorem 1.2 and Remark 1.3",
     "status": "source_reports_open",
-    "status_basis": "Order-preserving and measure-preserving cases are proved, but the unrestricted conjecture is retained by the later 2025 source.",
-    "last_checked": "2026-10-14",
+    "status_basis": "The expert-maintained problem page labels the unrestricted Turing-invariant dichotomy open. Yu's October 2026 preprint still assumes order preservation. The indexed ZF+AD+DC_R assumptions follow Lutz-Siskind; the directory's stronger DC convention does not replace them.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "logic:martin:part1:ZF-AD-DCR",
     "proposed_card": false,
@@ -4049,12 +4054,13 @@
     "statement": "Determine the Shannon capacity C(d) in bits per input bit of the binary channel that independently deletes each input bit with probability d∈(0,1), preserves the order of surviving bits and does not reveal deletion locations, without feedback.",
     "source_ids": [
       "SRC-FORMAL-318",
-      "SRC-IMPACT-009"
+      "SRC-IMPACT-009",
+      "SRC-MATH-810"
     ],
-    "source_locator": "SRC-FORMAL-318 sections 1.2, 2 and 14.3; SRC-IMPACT-009 README.",
+    "source_locator": "SRC-FORMAL-318, Sections 1.2, 2 and 14.3; SRC-IMPACT-009 README; Khodaiemehr-Feng-Duman v2, Theorems 1-2, Lemma 8, Section VI-C and Table IV",
     "status": "source_reports_open",
-    "status_basis": "The September 2026 preprint retains the exact-capacity question. A focused later-work search found no resolution. Its numerical bounds remain reported results with incomplete replay availability, not independently verified project benchmarks.",
-    "last_checked": "2026-10-20",
+    "status_basis": "The inspected September 2026 run-length paper retains the exact-capacity question and reports additional lower bounds. These results and the previously indexed enclosure remain source-reported computations, not independently replayed project benchmarks.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "information:binary-deletion-channel:exact-capacity",
     "proposed_card": true,
@@ -4127,12 +4133,13 @@
     "kind": "literature_open",
     "statement": "For the mutation-free neutral birth–death process on a star with n leaves, initially all n+1 vertices have distinct types, prove or refute E[T]=n^3−n^2+n H_n, where H_n=sum_{k=1}^n 1/k. Each step chooses a reproducer uniformly and then a neighboring replacement uniformly; count every update.",
     "source_ids": [
-      "SRC-MODEL-301"
+      "SRC-MODEL-301",
+      "SRC-MODEL-800"
     ],
-    "source_locator": "Equation (9); supplementary section 5.1.",
+    "source_locator": "Published article: Stars, equation (9), Discussion and Methods; arXiv v2 supplementary section 5.1.",
     "status": "source_reports_open",
-    "status_basis": "The 2025 paper explicitly leaves this target open. Searches for the title and subsequent conjecture resolutions found no settling source; this negative search is limited.",
-    "last_checked": "2026-10-14",
+    "status_basis": "The published 2025 article and its September author revision both retain the exact formula as a conjecture. Cubic-order growth is proved there; the indexed question concerns the exact expectation, with n leaves and every update counted. Targeted searches did not establish a later resolution.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "bio:neutral-bd:star:all-distinct:exact-diversity-time",
     "proposed_card": false,
@@ -4322,12 +4329,13 @@
     "statement": "For every finite weakly reversible reaction network with stochastic mass-action propensities and positive rate constants, is each state of the associated continuous-time count process positive recurrent? Address arbitrary species number, beyond announced two-species results, with well-posedness and nonexplosion explicit. Stoichiometric conservation and communicating classes must be retained.",
     "source_ids": [
       "SRC-MODEL-303",
-      "SRC-MODEL-304"
+      "SRC-MODEL-304",
+      "SRC-PHYS-802"
     ],
-    "source_locator": "2020 introduction and section 3; Cappelletti's 2023 two-dimensional talk abstract.",
+    "source_locator": "Original conjecture and 2023 talk; ConStRAINeD Objective 1 and publication-list item 16.",
     "status": "source_reports_open",
-    "status_basis": "The general conjecture is explicit in the paper; the author's later abstract reports a two-species solution. Searches found later two-dimensional announcements, not a general-dimensional theorem.",
-    "last_checked": "2026-10-14",
+    "status_basis": "The institutional project report explicitly leaves arbitrary dimension open and announces a two-species proof by Agazzi, Anderson, Cappelletti, Laurence and Mattingly. Its publication list still marks that manuscript as in preparation.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "chem:stochastic-mass-action:weak-reversibility:positive-recurrence",
     "proposed_card": false,
@@ -4724,12 +4732,13 @@
     "source_ids": [
       "SRC-MODEL-315",
       "SRC-MODEL-316",
-      "SRC-MODEL-317"
+      "SRC-MODEL-317",
+      "SRC-PHYS-804"
     ],
-    "source_locator": "PDG chapter 28.2; chapter 25.4; 2026 Hubble-tension review.",
+    "source_locator": "Existing PDG reviews; DESI DR2 Results II, v3, abstract and Sections IV–VII.",
     "status": "source_reports_open",
-    "status_basis": "The inspected reviews discuss competing explanations and unresolved tensions. Dataset-dependent preferences for evolving dark energy are not a settled physical determination.",
-    "last_checked": "2026-10-14",
+    "status_basis": "The DESI DR2 primary paper reports conditional preferences for evolving dark energy when datasets are combined. The result depends on the chosen cosmological model and supernova sample; it is not a determination of the physical acceleration mechanism.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "astro:cosmic-acceleration:physical-mechanism",
     "proposed_card": false,
@@ -4858,15 +4867,16 @@
     "domain": "Control, estimation and systems theory",
     "cross_domains": [],
     "kind": "literature_open",
-    "statement": "Characterize time-controllability of smooth PDE behaviors by their polynomial kernel matrix R.",
+    "statement": "Give an algebraic test on a polynomial matrix R over C in m spatial variables and one time variable that characterizes time-controllability of B = ker R(partial_x, partial_t) within C-infinity(R^(m+1), C^w). For every w1,w2 in B, there must be a trajectory w in B and one finite tau >= 0 such that w(x,t)=w1(x,t) for t<=0 and w(x,t)=w2(x,t-tau) for t>=tau, for every spatial x.",
     "source_ids": [
       "SRC-CROSS-401",
-      "SRC-CROSS-604"
+      "SRC-CROSS-604",
+      "SRC-CROSS-800"
     ],
     "source_locator": "Problem 59, section 59.1, pp. 4–6; Amol J. Sasane",
     "status": "unverified",
-    "status_basis": "The smooth signal-space statement is identifiable. The inspected 2003 paper concerns W_s and does not establish a resolution for unrestricted smooth trajectories.",
-    "last_checked": "2026-10-14",
+    "status_basis": "The original target uses unrestricted smooth continuous trajectories. Bharti and Pal (2026) give discrete two-dimensional criteria, not a resolution of this signal-space formulation. The general smooth case remains unverified here.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "cross:SRC-CROSS-401:problem 59, section 59.1, pp. 4–6",
     "proposed_card": false,
@@ -5018,14 +5028,15 @@
     "domain": "Robust design and verification",
     "cross_domains": [],
     "kind": "literature_open",
-    "statement": "When the supremum of achievable delay margins over stabilizing LTI controllers for a specified plant is finite, compute it to a prescribed accuracy.",
+    "statement": "For the unity-feedback plant P(s)=P0(s) exp(-s tau), define each LTI controller's delay margin by internal stability for every constant delay in [0,tau_bar]. When the supremum of these margins over all LTI controllers internally stabilizing P0 is finite, give a computationally feasible algorithm that computes this supremum to prescribed accuracy.",
     "source_ids": [
-      "SRC-CROSS-401"
+      "SRC-CROSS-401",
+      "SRC-CROSS-801"
     ],
     "source_locator": "Problem 18, section 18.1, Problem 2, pp. 112–114; Daniel E. Davison and Daniel E. Miller",
     "status": "unverified",
-    "status_basis": "The requested object is the supremum over all admissible LTI controllers. Published bounds or optimizations within PID or fixed-order classes would not establish the unrestricted algorithm. No matching resolution was confirmed.",
-    "last_checked": "2026-10-14",
+    "status_basis": "Ringh, Karlsson and Lindquist (2020 revision) explicitly leave the exact general maximum open while improving lower bounds. Their numerical tolerance is not a general optimum-error certificate. No matching general resolution was confirmed in this scoped search; present status remains unverified.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "cross:SRC-CROSS-401:problem 18, section 18.1, problem 2, pp. 112–114",
     "proposed_card": false,
@@ -5084,14 +5095,15 @@
     "domain": "Control, estimation and systems theory",
     "cross_domains": [],
     "kind": "literature_open",
-    "statement": "For x-dot=cos(theta), y-dot=sin(theta), theta-dot=omega and omega-dot=u, |u|<=1, construct global time-optimal steering to a fixed state.",
+    "statement": "For x-dot=cos(theta), y-dot=sin(theta), theta-dot=omega and omega-dot=u with |u|<=1 on R^2 x S^1 x R, fix a terminal state q_bar and construct a time-optimal trajectory and control from every initial state q to q_bar. Angular velocity is unrestricted; angular acceleration is bounded.",
     "source_ids": [
-      "SRC-CROSS-401"
+      "SRC-CROSS-401",
+      "SRC-CROSS-802"
     ],
     "source_locator": "Problem 9, section 9.1, pp. 147–149; Ugo Boscain and Benedetto Piccoli",
     "status": "unverified",
-    "status_basis": "The source system bounds angular acceleration, not curvature alone. A Dubins or Reeds–Shepp synthesis cannot be transferred without proving equivalence. No global solution of this exact system was confirmed.",
-    "last_checked": "2026-10-14",
+    "status_basis": "The original ideal no-skidding model requires a global synthesis, including possible chattering. Bazzi, Shammas and Asmar (2017) instead relax no-skidding and study small skid angles. That altered model does not resolve this target; its present status remains unverified here.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "cross:SRC-CROSS-401:problem 9, section 9.1, pp. 147–149",
     "proposed_card": false,
@@ -5263,12 +5275,13 @@
     "kind": "literature_open",
     "statement": "Explain rapid stormflow despite old stream water, and characterize water transit-time distributions in the terrestrial water cycle.",
     "source_ids": [
-      "SRC-CROSS-402"
+      "SRC-CROSS-402",
+      "SRC-PHYS-806"
     ],
-    "source_locator": "IAHS UPH question 8; 2019 community list.",
+    "source_locator": "IAHS UPH question 8; Knapp et al. (2025), abstract, Sections 4.2–5 and Code and data availability.",
     "status": "unverified",
-    "status_basis": "The numbered IAHS question is a broad research direction. Its source statement is identifiable, but a single current solved/open verdict is not established without a specified model and outcome.",
-    "last_checked": "2026-10-14",
+    "status_basis": "The 2025 study supplies catchment-specific progress by distinguishing hydrologic response from water transport. Its two-catchment evidence does not settle the wider IAHS question or define one universal solved/open test.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "cross:SRC-CROSS-402:iahs uph question 8",
     "proposed_card": false,
@@ -5575,14 +5588,14 @@
     "domain": "Network inference and multiscale structure",
     "cross_domains": [],
     "kind": "literature_open",
-    "statement": "Distinguish genuine higher-order mechanisms from effective higher-order behavior generated by pairwise systems.",
+    "statement": "Research direction: determine when an observed dynamical system requires higher-order interactions, rather than an effective higher-order description produced by pairwise dynamics. The roadmap identifies phase reduction and linearization as sources of ambiguity; any concrete task must fix the state variables, observations, coupling class and allowed reductions.",
     "source_ids": [
       "SRC-CROSS-403"
     ],
-    "source_locator": "Section 4.1, p. 14, second main research question",
+    "source_locator": "Abiad et al. (2026), Section 4.1, p. 14, final paragraph before the random-walk discussion.",
     "status": "source_reports_open",
-    "status_basis": "The April 2026 roadmap explicitly identifies this question or research gap. Evidence is limited to that source; later work has not been systematically checked.",
-    "last_checked": "2026-10-14",
+    "status_basis": "The 2026 roadmap presents this as a theoretical framework and identifiability challenge. It notes that pairwise phase reductions may produce higher-order terms and some higher-order models become pairwise-indistinguishable on linearization. This is not one fully specified yes/no conjecture.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "cross:SRC-CROSS-403:section 4.1, p. 14, second main research question",
     "proposed_card": false,
@@ -5641,14 +5654,15 @@
     "domain": "Network inference and multiscale structure",
     "cross_domains": [],
     "kind": "literature_open",
-    "statement": "Determine when observations distinguish simple contagion from group-dependent complex contagion.",
+    "statement": "Research direction: identify the observation and model assumptions under which simple contagion can be distinguished from group-dependent complex contagion. Specify contact information, exposure heterogeneity and observed infection history. The roadmap reports positive single-cascade methods as well as unresolved empirical inference problems; it does not claim that every case is open.",
     "source_ids": [
-      "SRC-CROSS-403"
+      "SRC-CROSS-403",
+      "SRC-MODEL-804"
     ],
-    "source_locator": "Section 6.1, p. 25, final paragraph; compare section 6.3, p. 27",
+    "source_locator": "Abiad et al. (2026), Sections 6.1 and 6.3, pp. 25 and 27; Contreras, Cencetti and Barrat (2024), Results and Discussion.",
     "status": "source_reports_open",
-    "status_basis": "The April 2026 roadmap explicitly identifies this question or research gap. Evidence is limited to that source; later work has not been systematically checked.",
-    "last_checked": "2026-10-14",
+    "status_basis": "The roadmap retains the empirical inference challenge but describes successful discrimination in specified single-cascade settings. The 2024 primary study compares infection patterns across selected models and contact networks. These results do not supply universal identifiability with unknown or heterogeneous exposures.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "cross:SRC-CROSS-403:section 6.1, p. 25, final paragraph",
     "proposed_card": false,
@@ -5849,14 +5863,15 @@
     "domain": "Theoretical neuroscience",
     "cross_domains": [],
     "kind": "literature_open",
-    "statement": "Integrate rich sensory representations with recurrent working-memory dynamics.",
+    "statement": "Research direction: connect rich sensory representations to models that retain task-relevant information over a delay and predict subsequent behavior. The 2016 review proposes combining sensory models with recurrent working-memory models; a concrete task must specify stimuli, delay conditions, state dynamics and behavioral or neural tests. This is not a single solved-or-unsolved theorem.",
     "source_ids": [
-      "SRC-CROSS-404"
+      "SRC-CROSS-404",
+      "SRC-MODEL-803"
     ],
-    "source_locator": "Heading 8, p. 118; Yamins and DiCarlo (2016).",
+    "source_locator": "Yamins and DiCarlo (2016), How should working memory be included?, p. 118; Bates, Alvarez and Gershman (2024), Discussion and Data/Code availability.",
     "status": "unverified",
-    "status_basis": "The 2016 heading identifies a research program; the present record lacks a single falsifiable success criterion. Partial predictive success is not a complete mechanistic explanation.",
-    "last_checked": "2026-10-14",
+    "status_basis": "The 2016 item is a modeling program. Bates et al. provide a later model connecting deep sensory features to visual-memory errors, while distinguishing predictive fits from a more direct neural test. This is relevant partial progress, not a complete identification of working-memory mechanisms.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "cross:SRC-CROSS-404:heading 8, p. 118",
     "proposed_card": false,
@@ -6379,10 +6394,10 @@
     "source_ids": [
       "SRC-MATH-404"
     ],
-    "source_locator": "Full statement, February 2018.",
+    "source_locator": "Aldous, full problem note posted February 2018: drift-jump definition, consistent finite-particle processes, stationary-law question and context references.",
     "status": "unverified",
-    "status_basis": "The author's 2018 page confirms the process and stationary-law question. No later primary resolution was inspected; stationary laws of other Hammersley-type processes cannot be assumed to apply.",
-    "last_checked": "2026-10-14",
+    "status_basis": "Aldous's source already asserts uniqueness of the stationary law by qualitative arguments; the question asks for a fairly explicit description of that law, consistently across finite particle counts. A targeted search did not establish a later primary resolution, so current status remains unverified.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "prob:stationary-law-of-the-one-dimensional-drift-jump-process",
     "proposed_card": false,
@@ -6487,12 +6502,13 @@
     "kind": "literature_open",
     "statement": "For k>=1 let p(k)=lim as n tends to infinity of the probability that a uniformly random permutation in Sn preserves some k-element subset of [n]. Is p(k+1)<=p(k) for every k?",
     "source_ids": [
-      "SRC-MATH-302"
+      "SRC-MATH-302",
+      "SRC-MODEL-802"
     ],
-    "source_locator": "Problem 87, first question; the 2025 update concerns the separate asymptotic question.",
+    "source_locator": "Green, Problem 87, first question and 2025 update; Green and Sawhney (2026), Section 1.1, Theorem 1.1 and remarks.",
     "status": "source_reports_open",
-    "status_basis": "Green's author-maintained collection, last updated December 2025, poses this target at Problem 87, first question; the 2025 update concerns the separate asymptotic question. Only monotonicity is indexed. The 2025 update treats an asymptotic with a small periodic factor and does not state monotonicity. The numbered entry and local updates were inspected on 2026-10-14; the source date alone does not establish present openness.",
-    "last_checked": "2026-10-14",
+    "status_basis": "The author's collection asks consecutive-k monotonicity separately from an asymptotic estimate. The 2026 Green-Sawhney paper gives the announced periodic-factor asymptotic, but its inspected result does not state the monotonicity inequality. This development must not be recorded as resolving the indexed first question.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "prob:monotonicity-of-random-permutation-invariant-subset-probabilities",
     "proposed_card": false,
@@ -8310,12 +8326,14 @@
     "kind": "literature_open",
     "statement": "Is there an absolute C such that a closed orientable genus-g surface has at most C*g^2 pairwise nonisotopic essential simple closed curves when every pair has geometric intersection at most one?",
     "source_ids": [
-      "SRC-MATH-303"
+      "SRC-MATH-303",
+      "SRC-MATH-800",
+      "SRC-MATH-801"
     ],
-    "source_locator": "Problem 2.12(b) and Remark (3); scribed by J. Greene.",
-    "status": "source_reports_open",
-    "status_basis": "The 2026 author version of K3 presents the target at Problem 2.12(b) and Remark (3); scribed by J. Greene. The source separates quadratic lower constructions from a quadratic-times-logarithmic upper bound for one-systems. The selected statement and local progress remarks were inspected on 2026-10-14; a complete later-literature review is not claimed.",
-    "last_checked": "2026-10-14",
+    "source_locator": "K3 Problem 2.12(b), Remark (3); Aougab-Gaster v2, Main Theorem and Remark 1.3; Baader-Jörg-Kosanović, Introduction",
+    "status": "unverified",
+    "status_basis": "Aougab and Gaster's September 2026 revision claims the quadratic bound sought here. A later independent paper adopts the earlier conclusion, but predates the revision repairing proof gaps. Independent assessment of the revised proof was not established; the old open label cannot be treated as current.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "math:quadratic-bounds-for-one-intersection-curve-systems",
     "proposed_card": false,
@@ -9231,12 +9249,13 @@
     "kind": "literature_open",
     "statement": "For every n, does some O(n)-point planar set support a crossing-free straight-line drawing of every n-vertex planar graph, with graph vertices on a subset of the points?",
     "source_ids": [
-      "SRC-FORMAL-423"
+      "SRC-FORMAL-423",
+      "SRC-MATH-804"
     ],
-    "source_locator": "TOPP Problem 45: Statement",
-    "status": "unverified",
-    "status_basis": "The inspected source poses this question. A comprehensive search for later resolutions has not been completed; current openness is not asserted.",
-    "last_checked": "2026-10-14",
+    "source_locator": "TOPP Problem 45, Statement; Gordon, Theorem 1.1 and Appendix A.3",
+    "status": "source_reports_open",
+    "status_basis": "TOPP asks for O(n) universal sets. Gordon's September 2026 preprint reports n exp(O(sqrt(log n))) points and explicitly leaves O(n) open. The new asymptotic claim has not been independently assessed by the project.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "formal:423:linear-size-universal-point-sets-for-planar-straight-line-drawings",
     "proposed_card": false,
@@ -9385,12 +9404,13 @@
     "kind": "literature_open",
     "statement": "Can a data structure maintain planar Euclidean points under insertions, deletions and exact nearest-neighbor queries in O(log n) time per operation? State worst-case, amortized and randomization guarantees.",
     "source_ids": [
-      "SRC-FORMAL-429"
+      "SRC-FORMAL-429",
+      "SRC-MATH-803"
     ],
-    "source_locator": "TOPP Problem 63: Statement",
-    "status": "unverified",
-    "status_basis": "The inspected source poses this question. A comprehensive search for later resolutions has not been completed; current openness is not asserted.",
-    "last_checked": "2026-10-14",
+    "source_locator": "TOPP Problem 63, Statement; Iacono-Nekrich, Theorem 12",
+    "status": "source_reports_open",
+    "status_basis": "TOPP records the fully dynamic logarithmic target as open. The inspected SoCG 2025 theorem achieves O(log n) queries with O(log^3 n) amortized insertions, but has no deletion operation. The scoped search did not establish a resolution of the original all-operation target.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "formal:430:logarithmic-time-fully-dynamic-planar-nearest-neighbors",
     "proposed_card": false,
@@ -9724,14 +9744,14 @@
     "domain": "Statistical and learning theory",
     "cross_domains": [],
     "kind": "literature_open",
-    "statement": "Find a succinct functional of a known discrete distribution q and epsilon that characterizes, within constants, the samples needed to distinguish p=q from TV(p,q)>epsilon with error at most one third.",
+    "statement": "For a known probability distribution q on a finite domain and epsilon in (0,1], find a succinct functional Phi(q,epsilon) that characterizes, up to universal constant factors, the least number of independent samples from an arbitrary unknown p needed to distinguish p=q from TV(p,q)>epsilon, with each error probability at most 1/3. The source asks ideally for a closed form or efficient computation from explicit q; this succinctness criterion is not fully formalized.",
     "source_ids": [
       "SRC-FORMAL-442"
     ],
-    "source_locator": "Section 5, Open Question 1; section 1",
+    "source_locator": "Canonne (2024), Section 1; Sections 2-3, epsilon-dependent gaps; Section 5, Open Question 1.",
     "status": "unverified",
-    "status_basis": "The inspected source poses this question. A comprehensive search for later resolutions has not been completed; current openness is not asserted.",
-    "last_checked": "2026-10-14",
+    "status_basis": "The COLT 2024 source poses this fixed-q, fixed-epsilon sample-complexity target. Its warning about constant changes to epsilon is essential: existing bounds can differ by arbitrarily large multiplicative factors. The scoped search did not establish a solution to Question 1; a located 2026 claim addresses only the different lower-bound repair in Question 3.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "formal:445:tight-instance-optimal-identity-testing",
     "proposed_card": false,
@@ -9750,10 +9770,10 @@
     "source_ids": [
       "SRC-FORMAL-442"
     ],
-    "source_locator": "Section 5, Open Question 2; equations (1) and (3)",
+    "source_locator": "Canonne (2024), Section 5, Open Question 2; definitions and bounds (1) and (3) in Section 2.",
     "status": "unverified",
-    "status_basis": "The inspected source poses this question. A comprehensive search for later resolutions has not been completed; current openness is not asserted.",
-    "last_checked": "2026-10-14",
+    "status_basis": "The source asks for a direct analytic comparison of the two existing functionals, whose relationship is obtained through testing bounds. This differs from finding a fully tight functional (Question 1) or repairing the corner-case lower-bound argument (Question 3). The scoped search did not establish a later direct proof.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "formal:446:direct-comparison-of-identity-testing-complexity-functionals",
     "proposed_card": false,
@@ -9922,15 +9942,16 @@
     "domain": "Information theory",
     "cross_domains": [],
     "kind": "literature_open",
-    "statement": "Find a single-letter characterization of discrete memoryless channel capacity under a prescribed additive decoding metric.",
+    "statement": "Find a general single-letter characterization of the capacity of a discrete memoryless channel under a prescribed additive decoding metric when the decoder selects a maximum-metric codeword. State the error criterion and tie convention; stochastic likelihood decoding is a different problem.",
     "source_ids": [
       "SRC-FORMAL-445",
-      "SRC-FORMAL-614"
+      "SRC-FORMAL-614",
+      "SRC-MATH-809"
     ],
-    "source_locator": "p. 699, Anelia Somekh-Baruch",
+    "source_locator": "MFO 2022 report, p. 699; Molina-Guillén i Fàbregas v2, Section I, equations (1)-(2)",
     "status": "source_reports_open",
-    "status_basis": "The inspected 2026 paper explicitly says the general single-letter expression for maximum-metric mismatch capacity remains unavailable. Its new stochastic-decoder formula concerns a different decoding rule.",
-    "last_checked": "2026-10-14",
+    "status_basis": "The October 2026 revision explicitly retains the lack of a general single-letter formula for maximum-metric mismatch capacity. Its stochastic-decoder results concern a different decision rule and do not resolve that target.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "formal:454:mismatch-capacity-formula",
     "proposed_card": false,
@@ -11089,12 +11110,14 @@
     "statement": "For 0<α≤2/3, is the eigensystem of −d²/dx²+i|x|^α complete on R, or on R+ with a Dirichlet condition?",
     "source_ids": [
       "SRC-MODEL-401",
-      "SRC-MODEL-607"
+      "SRC-MODEL-607",
+      "SRC-PHYS-800",
+      "SRC-PHYS-808"
     ],
-    "source_locator": "§1.1, Yaniv Almog",
+    "source_locator": "Almog, AIM §1.1; Tumanov (2021), Theorem 1 and Corollary.",
     "status": "unverified",
-    "status_basis": "The 2015 range is no longer wholly open: a later completeness theorem covers the half-line endpoint. The status of the remaining full original target is not established.",
-    "last_checked": "2026-10-14",
+    "status_basis": "The half-line result extends beyond the previously recorded endpoint: Tumanov gives an α0<2/3 with completeness for α>α0. The remaining original range and the full-line case are not resolved by this inspection.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "mphy.spectral:completeness-for-slowly-growing-imaginary-potentials",
     "proposed_card": false,
@@ -11218,14 +11241,16 @@
       "Quantum theory"
     ],
     "kind": "literature_open",
-    "statement": "Does the family of Schatten-(1+ε) estimates in §8.1 imply a trace-class bound Σdist(λ,σ(A))≤C||K||1 for bounded self-adjoint A?",
+    "statement": "Let A be bounded and self-adjoint on a Hilbert space, and let K be an arbitrary trace-class perturbation. Can the estimates Σ_{λ∈σd(A+K)} dist(λ,σ(A))^(1+ε) ≤ C(ε)||K||_(1+ε)^(1+ε), for every ε>0, yield Σ_{λ∈σd(A+K)} dist(λ,σ(A)) ≤ C||K||_1 with C independent of A and K? Count discrete eigenvalues with algebraic multiplicity.",
     "source_ids": [
-      "SRC-MODEL-401"
+      "SRC-MODEL-401",
+      "SRC-PHYS-801",
+      "SRC-PHYS-807"
     ],
-    "source_locator": "§8.1, Marcel Hansmann",
+    "source_locator": "Hansmann, Tensor trick for perturbed operators (2015), one-page problem; Hansmann (2013), Introduction and Corollary 1.",
     "status": "unverified",
-    "status_basis": "The historical source matches the indexed question. Targeted keyword searches did not establish a later primary result resolving its full scope; present-day openness remains unverified.",
-    "last_checked": "2026-10-14",
+    "status_basis": "The accessible 2015 problem and 2013 theorem specify the endpoint target. The latter covers p>1 and records a p=1 special case for interval spectra; the general endpoint's current status remains unverified.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "mphy.spectral:trace-class-endpoint-for-perturbed-spectral-distances",
     "proposed_card": false,
@@ -11691,12 +11716,13 @@
     "kind": "literature_open",
     "statement": "Determine the density conditions under which Ts[n]≤TTF[n]+TvW[n] holds for the source's Coulombic orbital-free DFT setting.",
     "source_ids": [
-      "SRC-MODEL-402"
+      "SRC-MODEL-402",
+      "SRC-PHYS-803"
     ],
-    "source_locator": "§IV, Question 3.4, equation (10)",
+    "source_locator": "Wrighton et al. (2023), §IV, Question 3.4 and equation (10); Witt et al. (2019), author abstract.",
     "status": "unverified",
-    "status_basis": "The historical source matches the indexed question. Targeted keyword searches did not establish a later primary result resolving its full scope; present-day openness remains unverified.",
-    "last_checked": "2026-10-14",
+    "status_basis": "The 2023 collection asks about the integrated inequality. The 2019 paper reports local violations in a specified kinetic-energy-density convention, which do not by themselves refute the integrated claim. Its full current status remains unverified.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "chem.quant:thomas-fermi-plus-von-weizsacker-kinetic-upper-bound",
     "proposed_card": false,
@@ -11715,14 +11741,15 @@
       "Spectral theory"
     ],
     "kind": "literature_open",
-    "statement": "Determine what follows when the integrated bound in equation (10) is imposed pointwise on kinetic-energy densities as in equation (11).",
+    "statement": "For zero-temperature orbital-free DFT, determine the provable consequences and validity conditions of imposing t_s(r)≤t_TF(r)+t_vW(r) pointwise as an approximation constraint, with the kinetic-energy-density gauge specified.",
     "source_ids": [
-      "SRC-MODEL-402"
+      "SRC-MODEL-402",
+      "SRC-PHYS-803"
     ],
-    "source_locator": "§IV, Question 3.5",
+    "source_locator": "Wrighton et al. (2023), §IV, Question 3.5 and equation (11); Witt et al. (2019), author abstract.",
     "status": "unverified",
-    "status_basis": "The historical source matches the indexed question. Targeted keyword searches did not establish a later primary result resolving its full scope; present-day openness remains unverified.",
-    "last_checked": "2026-10-14",
+    "status_basis": "This asks about the consequences of a local approximation constraint. Universal pointwise validity is already contradicted in the positive gradient convention by the examples reported in the cited 2019 paper; the broader consequences remain unverified.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "chem.quant:local-enforcement-of-a-kinetic-energy-upper-bound",
     "proposed_card": false,
@@ -11980,15 +12007,15 @@
       "Algorithms"
     ],
     "kind": "literature_open",
-    "statement": "Can a polynomial-time rule always produce a committee satisfying proportional justified representation and Pareto optimality?",
+    "statement": "For every finite approval profile A and target size k, can a polynomial-time rule output a size-k committee satisfying proportional justified representation (PJR) and Pareto optimality under approval-count utilities? This asks for efficient construction; such committees are known to exist.",
     "source_ids": [
       "SRC-MODEL-403",
       "SRC-MODEL-603"
     ],
-    "source_locator": "§7.1, Q5, second paragraph",
+    "source_locator": "Lackner and Skowron, Section 7.1, Q5; Dong (2026), Section 2, Definitions 1-3, and Section 3, Theorem 1 and its PJR consequence.",
     "status": "unverified",
-    "status_basis": "The claimed hardness would rule out PJR plus Pareto-optimal polynomial-time search unless P=NP. The full reduction and acceptance remain unverified.",
-    "last_checked": "2026-10-14",
+    "status_basis": "Dong's September 2026 preprint states NP-hardness of constructing a committee satisfying even JR and Pareto optimality on unrestricted profiles. Its explicit PJR consequence is conditional on P differing from NP. The full theorem and model are now located, but independent acceptance and correctness of the reduction remain unverified.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "econ.social:efficient-proportional-and-pareto-optimal-committees",
     "proposed_card": false,
@@ -12219,14 +12246,17 @@
       "Algorithms"
     ],
     "kind": "literature_open",
-    "statement": "Can Thiele methods and Monroe's rule be computed in polynomial time on the voter-interval domain?",
+    "statement": "On voter-interval approval profiles, can an optimal size-k committee be computed in polynomial time for (a) Thiele rules with specified nonnegative, nonincreasing scoring weights and (b) Monroe's rule? These are separate parts of the historical question: a 2026 polynomial-time algorithm covers part (a); the cited result does not cover part (b).",
     "source_ids": [
-      "SRC-MODEL-403"
+      "SRC-MODEL-403",
+      "SRC-MODEL-805",
+      "SRC-MODEL-806",
+      "SRC-MODEL-603"
     ],
-    "source_locator": "§7.2, Q19; section 5.2.4",
+    "source_locator": "Lackner and Skowron, Section 7.2, Q19; Manurangsi and Sornat, Sections 2 and 4; Dong, Related Work; Google Research publication record.",
     "status": "unverified",
-    "status_basis": "The historical source matches the indexed question. Targeted keyword searches did not establish a later primary result resolving its full scope; present-day openness remains unverified.",
-    "last_checked": "2026-10-14",
+    "status_basis": "Manurangsi and Sornat give a polynomial-time algorithm for generalized Thiele winner computation on voter-interval profiles. Their institutional record lists NeurIPS 2026, and Dong independently cites the algorithm. The historical entry also asks about Monroe's rule, which is outside the inspected result; its current status remains unverified.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "econ.social:winner-computation-on-voter-interval-approval-domains",
     "proposed_card": false,
@@ -12383,10 +12413,10 @@
       "SRC-MODEL-404",
       "SRC-MODEL-615"
     ],
-    "source_locator": "Problem 11, Alain Chenciner",
+    "source_locator": "Chenciner, AIM Problem 11; Tibboel (2020), Introduction, Remark 1.1 and Theorem 1.2.",
     "status": "unverified",
-    "status_basis": "Later partial results exist; they do not establish the full unrestricted choreography claim. Preserve the original target and determine which mass, dimension and degeneracy classes remain before attempting it.",
-    "last_checked": "2026-10-14",
+    "status_basis": "Tibboel's theorem gives equal masses for specified configuration-span ranks. For even n and rank n−3 it only equates masses within the two parity classes. These conditional results do not establish the unrestricted original claim.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "astro.dyn:equal-masses-forced-by-a-newtonian-choreography",
     "proposed_card": false,
@@ -12913,12 +12943,13 @@
     "statement": "Does the generic Bianchi IX past attractor equal the Mixmaster attractor, rather than merely lie within it?",
     "source_ids": [
       "SRC-MODEL-405",
-      "SRC-MODEL-610"
+      "SRC-MODEL-610",
+      "SRC-PHYS-805"
     ],
-    "source_locator": "§3.7",
+    "source_locator": "Coley (2018), §3.7, printed pp. 30–31; Beatriz, Bonotto and Lappicy (2026), Theorem 1.1.",
     "status": "unverified",
-    "status_basis": "Later attractor and Kasner-shadowing results do not by themselves establish equality with the full Mixmaster attractor in the intended generic sense. The precise attractor definition and genericity must be reconciled.",
-    "last_checked": "2026-10-14",
+    "status_basis": "The 2026 theorem concerns a modified system with v>1/2 and therefore does not cover general relativity at v=1/2. It cannot resolve the original question of equality with the full generic Mixmaster attractor.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "phys.grav:the-full-mixmaster-past-attractor-for-bianchi-ix",
     "proposed_card": false,
@@ -13252,12 +13283,13 @@
     "statement": "Is the source-defined poset (T(X), ≼) of cluster systems associated with ranked tree-child networks shellable?",
     "source_ids": [
       "SRC-MODEL-408",
-      "SRC-MODEL-614"
+      "SRC-MODEL-614",
+      "SRC-MODEL-801"
     ],
-    "source_locator": "§7, shellability question, p. 16; poset and chain construction in §§4–5",
+    "source_locator": "Spaces of ranked tree-child networks, Section 7 and definitions in Sections 4-5; EL-Shellability of the poset of ranked cactuses, Theorem 4.2 and final paragraph of Section 5.",
     "status": "source_reports_open",
-    "status_basis": "The September 2025 published version explicitly retains this question. No complete later-literature review was performed; the status is the source's report.",
-    "last_checked": "2026-10-14",
+    "status_basis": "The 2026 cactus paper proves EL-shellability for its smaller poset and explicitly repeats the shellability question for the ranked tree-child poset T(X). The embedding identifies a useful related result without resolving the indexed question.",
+    "last_checked": "2026-11-06",
     "curator_origin": false,
     "duplicate_key": "bio.evol:shellability-of-the-ranked-tree-child-network-poset",
     "proposed_card": false,

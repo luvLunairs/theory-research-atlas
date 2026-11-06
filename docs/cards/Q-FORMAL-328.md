@@ -17,7 +17,7 @@ When missing bits leave no position markers, even the maximum reliable informati
 | Primary field | [Classical information theory](../domains/info.md#info-shannon) |
 | Related fields | None recorded |
 | Task origin | [Literature-origin question](../evidence-policy.md) |
-| Current status | [Source reports open](../evidence-policy.md) · checked 2026-10-20 |
+| Current status | [Source reports open](../evidence-policy.md) · checked 2026-11-06 |
 | AI suitability | [Preparation needed](../ai-assessment.md) · Untested forecast |
 | Scientific review | Pending |
 
@@ -31,7 +31,7 @@ Determine the Shannon capacity C(d) in bits per input bit of the binary channel 
 
 **Required output:** Determine capacity, or establish a rigorously stronger achievable-rate or converse bound at an explicitly fixed deletion probability.
 
-**Scope:** Retains the canonical question for C(d). The source's d=1/2 case is a bounded entry point; improvement there is partial progress, not the exact capacity function.
+**Scope:** The target is the exact no-feedback capacity function C(d). The d=1/2 case is a bounded entry point; an improved bound there is partial progress. Optimizing a restricted source family gives achievable rates, not exact capacity.
 
 ### Assumptions
 
@@ -100,19 +100,19 @@ Determine the Shannon capacity C(d) in bits per input bit of the binary channel 
 
 ### Checks still needed
 
-- Independent scrutiny of the recent preprint and complete numerical replay.
-- Actual availability and reuse permission for all external proof inputs.
-- A fresh check of precise bounds before reporting an improvement.
+- Independent scrutiny of both recent preprints and complete numerical replay.
+- Availability and reuse permission for all required numerical inputs.
+- Check full-precision bounds at the chosen deletion probability before claiming an improvement.
 
 <a id="evidence"></a>
 
 ## Evidence and context
 
-**Status basis:** The September 2026 preprint retains the exact-capacity question. A focused later-work search found no resolution. Its numerical bounds remain reported results with incomplete replay availability, not independently verified project benchmarks.
+**Status basis:** The inspected September 2026 run-length paper retains the exact-capacity question and reports additional lower bounds. These results and the previously indexed enclosure remain source-reported computations, not independently replayed project benchmarks.
 
 [Dated literature checks and remaining limits](../candidates/Q-FORMAL-328.md#literature-checks). These are editorial evidence checks, not signed expert reviews.
 
-**Exact problem / theorem locator:** SRC-FORMAL-318 sections 1.2, 2 and 14.3; SRC-IMPACT-009 README.
+**Exact problem / theorem locator:** SRC-FORMAL-318, Sections 1.2, 2 and 14.3; SRC-IMPACT-009 README; Khodaiemehr-Feng-Duman v2, Theorems 1-2, Lemma 8, Section VI-C and Table IV
 
 ### Sources
 
@@ -122,12 +122,16 @@ Determine the Shannon capacity C(d) in bits per input bit of the binary channel 
 - [Binary deletion-channel capacity: verification materials](../sources.md#src-impact-009). Dimitris Papailiopoulos. 2026. [Read source](https://github.com/anadim/binary-deletion-channel-capacity).
   - **Relevant sections:** README: portable checks, full calculation and reuse terms.
   - **Source limitations:** README was opened on 2026-10-20. External input availability was not independently checked; no checker was run. Reuse license remains unspecified.
+- [Improved Lower Bounds on the Capacity of the Binary Deletion Channel via a Learning Approach to Run-Length Inputs](../sources.md#src-math-810). Hassan Khodaiemehr; Chen Feng; Tolga M. Duman. 2026. [Read source](https://arxiv.org/html/2609.24908v2).
+  - **Relevant sections:** First submitted 21 September 2026; version 2, 26 September 2026; Theorems 1-2, Lemma 8, Sections V-C and VI-C, Table IV
+  - **Source limitations:** Reported achievable rates, not exact capacity. Version 2 replaces the earlier correction term and double-precision evaluation. Neither proofs nor interval computations were independently checked; global source optimality is not established.
 
 ### Known results and partial progress
 
 - SRC-FORMAL-318 Table 1 reports 0.114540&lt;=C(1/2)&lt;=0.130162 bits per input bit, rounded outward. These are claimed certified enclosures, not ordinary floating-point estimates; the project has not replayed them.
 - The source distinguishes an achievable lower endpoint from a midpoint estimate, and leaves source and converse optimization open.
 - SRC-IMPACT-009 lists portable checks but says the full large-input collection is not yet downloadable in full. Those checks do not rerun the numerical inequalities.
+- Khodaiemehr, Feng and Duman v2 report interval-enclosed run-length lower bounds after correcting the VTR chain penalty. Table IV gives stronger high-deletion rates, while its half-deletion lower endpoint remains below the enclosure recorded above. No computation was replayed here.
 
 **Research value:** A sharper capacity benchmark would clarify limits of communication with synchronization loss. Practical encoders and realistic DNA-storage models require additional analysis.
 
@@ -137,9 +141,9 @@ No formal dependency or equivalence is asserted.
 
 ### Scope of the status check
 
-**Finding:** No exact-capacity resolution or correction was located in the focused search; the author's repository exposes a replay-availability limitation.
+**Finding:** The inspected new preprint retains exact capacity as unresolved and reports additional achievable rates. Earlier enclosure and replay-availability findings are retained with their original scope.
 
-**Search limits:** Search coverage is bounded. No mathematical proof, code or numerical certificate was independently verified.
+**Search limits:** The 2026-11-06 update inspected the run-length paper; it did not recheck the earlier repository availability, replay numerical inequalities or audit proofs.
 
 <details>
 <summary>Literature references checked</summary>
@@ -149,11 +153,14 @@ No formal dependency or equivalence is asserted.
 - "binary deletion channel" "capacity" "2026" "October"
 - "deletion channel capacity" "Papailiopoulos" correction
 - "2609.19412" correction
+- "binary deletion channel" "capacity" "2026"
+- "2609.24908" correction OR capacity
 
 **Sources checked:**
 
 - [Binary Deletion Channel Capacity to Within One Hundredth of a Bit](../sources.md#src-formal-318)
 - [Binary deletion-channel capacity: verification materials](../sources.md#src-impact-009)
+- [Improved Lower Bounds on the Capacity of the Binary Deletion Channel via a Learning Approach to Run-Length Inputs](../sources.md#src-math-810)
 
 </details>
 
@@ -161,6 +168,7 @@ No formal dependency or equivalence is asserted.
 <summary>Previous attempts and public records</summary>
 
 - Papailiopoulos reports an AI-assisted bound construction; its paper and verification materials are linked. No project research attempt is recorded.
+- Khodaiemehr, Feng and Duman optimize finite-support run-length input laws, then report interval-arithmetic evaluations in version 2; global optimality is not established.
 
 </details>
 
@@ -170,8 +178,11 @@ No formal dependency or equivalence is asserted.
 **Original authors and credited contributors:**
 
 - Dimitris Papailiopoulos
+- Hassan Khodaiemehr
+- Chen Feng
+- Tolga M. Duman
 
-**Suggested citation:** Papailiopoulos, Binary Deletion Channel Capacity to Within One Hundredth of a Bit, arXiv:2609.19412v1 (2026), especially sections 1.2, 2 and 12-14. This is a recent reference for a classical problem, not an attribution of its origin.
+**Suggested citation:** Papailiopoulos, Binary Deletion Channel Capacity to Within One Hundredth of a Bit, arXiv:2609.19412v1 (2026), especially sections 1.2, 2 and 12-14. This is a recent reference for a classical problem, not an attribution of its origin. Also cite Khodaiemehr, Feng and Duman, arXiv:2609.24908v2 (2026), for the run-length bounds.
 
 **Editorial credit:** Compiled for Theory Research Atlas with Codex assistance.
 
@@ -237,6 +248,7 @@ No project attempts or human reviews have been recorded.
 | Date | Change |
 | --- | --- |
 | 2026-10-20 | Expanded the existing capacity entry with a half-deletion entry point, reported bounds and replay limitations. |
+| 2026-11-06 | Added version 2 of the run-length lower-bound paper, its corrected evaluation method and the distinction from exact capacity and the half-deletion enclosure. |
 
 </details>
 

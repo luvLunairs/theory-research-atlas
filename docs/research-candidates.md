@@ -4,7 +4,7 @@
 
 This selection contains literature-origin questions whose recorded evidence still supports an open status. Follow each entry for the exact statement and the limits of its status check. An open label is dated evidence, not a guarantee that no solution exists elsewhere.
 
-**280 research candidates · 26 full research cards · 254 outlines awaiting detailed assessment.** The broader atlas also retains 30 known-result calibration records, listed separately in the [complete index](candidates.md#known-result-calibration).
+**281 research candidates · 26 full research cards · 255 outlines awaiting detailed assessment.** The broader atlas also retains 30 known-result calibration records, listed separately in the [complete index](candidates.md#known-result-calibration).
 
 A bounded first milestone can be proposed by the curator within a literature problem. Such a milestone is identified in the card and is not automatically a separately established open problem. Easy witness checking does not imply easy discovery. Resource ceilings are stopping limits unless explicitly supported by measurements.
 
@@ -38,7 +38,7 @@ These cards include methods, resources and validation plans. All AI assessments 
 | [Complete EFX for four additive goods agents](cards/Q-MODEL-201.md) | Exact linear constraints let AI propose regions and allocation menus while a separate checker tests each claim. A specialist must first judge whether the chosen region adds anything to known reductions. | [Resources and checks](cards/Q-MODEL-201.md#verification) | 2026-10-14 |
 | [Complete EFX for more than four common bi-valued chore agents](cards/Q-MODEL-202.md) | First check whether the proposed five-agent, eleven-chore, ratio-three pilot is covered by an existing special-case theorem, and select a useful unresolved class. Exact integer checks could then support AI-generated cost patterns and proposed extensions of the four-agent structure. | [Resources and checks](cards/Q-MODEL-202.md#verification) | 2026-10-14 |
 | [EFX and Pareto optimality for personalized bi-valued goods](cards/Q-MODEL-204.md) | The problem is explicit and has reusable published arguments. Assessing a specific AI attempt requires a narrower, independently checked target. | [Resources and checks](cards/Q-MODEL-204.md#verification) | 2026-10-20 |
-| [Exact capacity of the independent binary deletion channel](cards/Q-FORMAL-328.md) | The published computation supplies concrete methods and checking obligations. Reviewing its assumptions and obtaining complete inputs should precede a new attempt. | [Resources and checks](cards/Q-FORMAL-328.md#verification) | 2026-10-20 |
+| [Exact capacity of the independent binary deletion channel](cards/Q-FORMAL-328.md) | The published computation supplies concrete methods and checking obligations. Reviewing its assumptions and obtaining complete inputs should precede a new attempt. | [Resources and checks](cards/Q-FORMAL-328.md#verification) | 2026-11-06 |
 | [Nonlinear stationary axisymmetric tidal response of Kerr black holes](cards/Q-MODEL-492.md) | Symbolic tensor manipulation can assist finite-order field equations and matching checks. Choosing an informative sector and interpreting its coefficients require GR and EFT expertise; no AI trial has been run. | [Resources and checks](cards/Q-MODEL-492.md#verification) | 2026-10-20 |
 | [Optimal acceleration from predetermined gradient-descent stepsizes](cards/Q-FORMAL-510.md) | The problem is explicit and has reusable published arguments. Assessing a specific AI attempt requires a narrower, independently checked target. | [Resources and checks](cards/Q-FORMAL-510.md#verification) | 2026-10-20 |
 | [A rank-47 decomposition for 4x4 matrix multiplication in characteristic zero](cards/Q-FORMAL-511.md) | Exact certificates make results easier to inspect than searches. Published computational attempts provide context, but do not imply that a new construction is likely. | [Resources and checks](cards/Q-FORMAL-511.md#verification) | 2026-10-20 |
@@ -64,7 +64,7 @@ These questions have source-backed statements, status notes and brief research p
 
 | Question | Primary branch | Difficulty | Evidence status | Checked |
 | --- | --- | --- | --- | --- |
-| [Determine the two-color Ramsey number R(5,5)](candidates/Q-MATH-004.md) | [Extremal and Ramsey theory](domains/math.md#math-comb-ext) | Unknown | Source reports open | 2026-10-13 |
+| [Determine the two-color Ramsey number R(5,5)](candidates/Q-MATH-004.md) | [Extremal and Ramsey theory](domains/math.md#math-comb-ext) | Unknown | Open after scoped check | 2026-11-06 |
 | [Deterministic polynomial-time dense factorization over finite fields](candidates/Q-MATH-005.md) | [Algebra](domains/math.md#math-alg) | Unknown | Source reports open | 2026-10-13 |
 | [Sparse finite-field trinomial root decision](candidates/Q-MATH-006.md) | [Algebra](domains/math.md#math-alg) | Unknown | Source reports open | 2026-10-13 |
 | [A rational curve through a prescribed rational point on a K3 surface](candidates/Q-MATH-008.md) | [Number theory and arithmetic geometry](domains/math.md#math-num) | Unknown | Source reports open | 2026-10-13 |
@@ -135,7 +135,7 @@ These questions have source-backed statements, status notes and brief research p
 | [NP-completeness of ordinary MCSP under deterministic many-one reductions](candidates/Q-FORMAL-310.md) | [Circuit and algebraic complexity](domains/cs.md#cs-complex-circuit) | Frontier | Source reports open | 2026-10-14 |
 | [A strongly polynomial algorithm for general linear programming](candidates/Q-FORMAL-311.md) | [Optimization and operations research](domains/math.md#math-opt) | Frontier | Source reports open | 2026-10-14 |
 | [Superpolynomial lower bounds for unrestricted Frege proofs](candidates/Q-FORMAL-312.md) | [Proof theory and constructive logic](domains/logic.md#logic-proof) | Frontier | Source reports open | 2026-10-14 |
-| [Superpolynomial AC0[2]-Frege lower bounds for known tautologies](candidates/Q-FORMAL-313.md) | [Proof theory and constructive logic](domains/logic.md#logic-proof) | Frontier | Source reports open | 2026-10-14 |
+| [Superpolynomial AC0[2]-Frege lower bounds for known tautologies](candidates/Q-FORMAL-313.md) | [Proof theory and constructive logic](domains/logic.md#logic-proof) | Frontier | Source reports open | 2026-11-06 |
 | [Constant-depth IPS lower bounds for unsatisfiable CNF families](candidates/Q-FORMAL-314.md) | [Proof theory and constructive logic](domains/logic.md#logic-proof) | Frontier | Source reports open | 2026-10-14 |
 | [Existence of a p-optimal propositional proof system](candidates/Q-FORMAL-315.md) | [Proof theory and constructive logic](domains/logic.md#logic-proof) | Frontier | Source reports open | 2026-10-14 |
 | [Existence of a p-optimal proof system for true quantified Boolean formulas](candidates/Q-FORMAL-316.md) | [Proof theory and constructive logic](domains/logic.md#logic-proof) | Frontier | Source reports open | 2026-10-14 |
@@ -146,20 +146,20 @@ These questions have source-backed statements, status notes and brief research p
 | [Polynomial-time learning parity with constant random classification noise](candidates/Q-FORMAL-321.md) | [Computational learning theory](domains/cs.md#cs-learn) | Frontier | Source reports open | 2026-10-14 |
 | [Vaught's conjecture for complete first-order theories](candidates/Q-FORMAL-322.md) | [Model theory](domains/logic.md#logic-model) | Frontier | Source reports open | 2026-10-14 |
 | [The infinitary Vaught conjecture](candidates/Q-FORMAL-323.md) | [Model theory](domains/logic.md#logic-model) | Frontier | Source reports open | 2026-10-14 |
-| [Martin's conjecture, part 1, under determinacy](candidates/Q-FORMAL-324.md) | [Computability and degree theory](domains/logic.md#logic-recur) | Frontier | Source reports open | 2026-10-14 |
+| [Martin's conjecture, part 1, under determinacy](candidates/Q-FORMAL-324.md) | [Computability and degree theory](domains/logic.md#logic-recur) | Frontier | Source reports open | 2026-11-06 |
 | [Martin's conjecture, part 2, under determinacy](candidates/Q-FORMAL-325.md) | [Computability and degree theory](domains/logic.md#logic-recur) | Frontier | Source reports open | 2026-10-14 |
 | [Sacks's degree-invariant intermediate c.e. operator question](candidates/Q-FORMAL-326.md) | [Computability and degree theory](domains/logic.md#logic-recur) | Frontier | Source reports open | 2026-10-14 |
 | [A complete description of the four-variable almost-entropic cone](candidates/Q-FORMAL-327.md) | [Entropy inequalities and information geometry](domains/info.md#info-entropy) | Frontier | Source reports open | 2026-10-14 |
 | [The deterministic communication log-rank conjecture](candidates/Q-FORMAL-329.md) | [Communication complexity and distributed information](domains/info.md#info-complex) | Frontier | Source reports open | 2026-10-14 |
 | [A deterministic factor-2 approximation for tournament feedback vertex set](candidates/Q-FORMAL-330.md) | [Algorithms and data structures](domains/cs.md#cs-alg) | High | Source reports open | 2026-10-14 |
-| [Exact birth–death diversity time on star graphs](candidates/Q-MODEL-301.md) | [Evolution, population genetics and phylogenetics](domains/bio.md#bio-evol) | High | Source reports open | 2026-10-14 |
+| [Exact birth–death diversity time on star graphs](candidates/Q-MODEL-301.md) | [Evolution, population genetics and phylogenetics](domains/bio.md#bio-evol) | High | Source reports open | 2026-11-06 |
 | [Largest neutral birth–death diversity time on undirected graphs](candidates/Q-MODEL-302.md) | [Evolution, population genetics and phylogenetics](domains/bio.md#bio-evol) | High | Source reports open | 2026-10-14 |
 | [Smallest neutral birth–death diversity time on undirected graphs](candidates/Q-MODEL-303.md) | [Evolution, population genetics and phylogenetics](domains/bio.md#bio-evol) | High | Source reports open | 2026-10-14 |
 | [Largest neutral death–birth diversity time on undirected graphs](candidates/Q-MODEL-304.md) | [Evolution, population genetics and phylogenetics](domains/bio.md#bio-evol) | High | Source reports open | 2026-10-14 |
 | [Slow-evolution global stability in the autonomous evolutionary Ricker model](candidates/Q-MODEL-305.md) | [Ecology and population dynamics](domains/bio.md#bio-eco) | High | Source reports open | 2026-10-14 |
 | [Local-to-global stability for periodic evolutionary Ricker dynamics](candidates/Q-MODEL-306.md) | [Ecology and population dynamics](domains/bio.md#bio-eco) | High | Source reports open | 2026-10-14 |
 | [Bifurcations of the periodically forced evolutionary Ricker model](candidates/Q-MODEL-307.md) | [Ecology and population dynamics](domains/bio.md#bio-eco) | High | Source reports open | 2026-10-14 |
-| [Chemical recurrence for weakly reversible stochastic reaction networks](candidates/Q-MODEL-308.md) | [Reaction-network and kinetics theory](domains/chem.md#chem-reaction) | Frontier | Source reports open | 2026-10-14 |
+| [Chemical recurrence for weakly reversible stochastic reaction networks](candidates/Q-MODEL-308.md) | [Reaction-network and kinetics theory](domains/chem.md#chem-reaction) | Frontier | Source reports open | 2026-11-06 |
 | [Approximate equilibrium in quitting games with at least four players](candidates/Q-MODEL-309.md) | [Game and equilibrium theory](domains/econ.md#econ-game) | Frontier | Source reports open | 2026-10-14 |
 | [A finite-energy-density many-body localized phase in the random-field XXZ chain](candidates/Q-MODEL-310.md) | [Condensed matter and materials theory](domains/phys.md#phys-cond) | Frontier | Source reports open | 2026-10-14 |
 | [Does failure of thermalization imply local integrals of motion?](candidates/Q-MODEL-311.md) | [Condensed matter and materials theory](domains/phys.md#phys-cond) | Frontier | Source reports open | 2026-10-14 |
@@ -174,17 +174,17 @@ These questions have source-backed statements, status notes and brief research p
 | [Physical explanation of the small strong-CP parameter](candidates/Q-MODEL-320.md) | [Quantum field, particle and nuclear theory](domains/phys.md#phys-field) | Frontier | Source reports open | 2026-10-14 |
 | [Are the light neutrinos Dirac or Majorana particles?](candidates/Q-MODEL-321.md) | [Quantum field, particle and nuclear theory](domains/phys.md#phys-field) | Frontier | Source reports open | 2026-10-14 |
 | [The fundamental composition of non-baryonic dark matter](candidates/Q-MODEL-322.md) | [Cosmology and gravitational astrophysics](domains/astro.md#astro-cosmo) | Frontier | Source reports open | 2026-10-14 |
-| [The mechanism of late-time cosmic acceleration](candidates/Q-MODEL-323.md) | [Cosmology and gravitational astrophysics](domains/astro.md#astro-cosmo) | Frontier | Source reports open | 2026-10-14 |
+| [The mechanism of late-time cosmic acceleration](candidates/Q-MODEL-323.md) | [Cosmology and gravitational astrophysics](domains/astro.md#astro-cosmo) | Frontier | Source reports open | 2026-11-06 |
 | [A jointly consistent explanation of the Hubble tension](candidates/Q-MODEL-324.md) | [Cosmology and gravitational astrophysics](domains/astro.md#astro-cosmo) | Frontier | Source reports open | 2026-10-14 |
 | [The physical origin of primordial inflationary perturbations](candidates/Q-MODEL-325.md) | [Cosmology and gravitational astrophysics](domains/astro.md#astro-cosmo) | Frontier | Source reports open | 2026-10-14 |
 | [Finiteness of planar six-body central configurations for fixed positive masses](candidates/Q-MODEL-326.md) | [Celestial dynamics](domains/astro.md#astro-dyn) | Frontier | Source reports open | 2026-10-14 |
 | [Choosing spectral operators for higher-order networks](candidates/Q-CROSS-431.md) | [Network structure and random networks](domains/net.md#net-struct) | High | Source reports open | 2026-10-14 |
 | [Dynamics induced by higher-order representations](candidates/Q-CROSS-432.md) | [Dynamics on networks and collective behavior](domains/net.md#net-dynamics) | High | Source reports open | 2026-10-14 |
 | [Separating interaction order from coupling nonlinearity](candidates/Q-CROSS-433.md) | [Dynamics on networks and collective behavior](domains/net.md#net-dynamics) | High | Source reports open | 2026-10-14 |
-| [Intrinsic versus effective higher-order dynamics](candidates/Q-CROSS-434.md) | [Network inference and multiscale structure](domains/net.md#net-infer) | High | Source reports open | 2026-10-14 |
+| [Intrinsic versus effective higher-order dynamics](candidates/Q-CROSS-434.md) | [Network inference and multiscale structure](domains/net.md#net-infer) | High | Source reports open | 2026-11-06 |
 | [Selecting a topologically synchronized state](candidates/Q-CROSS-435.md) | [Dynamics on networks and collective behavior](domains/net.md#net-dynamics) | High | Source reports open | 2026-10-14 |
 | [Combinatorial structures beyond existing higher-order network frameworks](candidates/Q-CROSS-436.md) | [Network structure and random networks](domains/net.md#net-struct) | High | Source reports open | 2026-10-14 |
-| [Identifying contagion mechanisms from observations](candidates/Q-CROSS-437.md) | [Network inference and multiscale structure](domains/net.md#net-infer) | High | Source reports open | 2026-10-14 |
+| [Identifying contagion mechanisms from observations](candidates/Q-CROSS-437.md) | [Network inference and multiscale structure](domains/net.md#net-infer) | High | Source reports open | 2026-11-06 |
 | [Irreducible higher-order dependencies in neural populations](candidates/Q-CROSS-447.md) | [Theoretical neuroscience](domains/cog.md#cog-neuro) | High | Source reports open | 2026-10-14 |
 | [Memory stored in topological synchronization attractors](candidates/Q-CROSS-448.md) | [Theoretical neuroscience](domains/cog.md#cog-neuro) | High | Source reports open | 2026-10-14 |
 | [A finitely presented simple group with no primitive-recursive word-problem solver](candidates/Q-MATH-401.md) | [Computability and degree theory](domains/logic.md#logic-recur) | Unknown | Source reports open | 2026-10-14 |
@@ -205,7 +205,7 @@ These questions have source-backed statements, status notes and brief research p
 | [Sparse random sets of multiple recurrence](candidates/Q-MATH-421.md) | [Stochastic processes and stochastic analysis](domains/prob.md#prob-process) | Unknown | Source reports open | 2026-10-14 |
 | [Uniform independent summands of a uniform integer sum](candidates/Q-MATH-422.md) | [Discrete probability and random structures](domains/prob.md#prob-discrete) | Unknown | Source reports open | 2026-10-14 |
 | [Expansion of alternating groups from a fixed number of random generators](candidates/Q-MATH-423.md) | [Markov chains, mixing and interacting systems](domains/prob.md#prob-mix) | Unknown | Source reports open | 2026-10-14 |
-| [Monotonicity of random-permutation invariant-subset probabilities](candidates/Q-MATH-424.md) | [Discrete probability and random structures](domains/prob.md#prob-discrete) | Unknown | Source reports open | 2026-10-14 |
+| [Monotonicity of random-permutation invariant-subset probabilities](candidates/Q-MATH-424.md) | [Discrete probability and random structures](domains/prob.md#prob-discrete) | Unknown | Source reports open | 2026-11-06 |
 | [Extremal product-free subsets across finite groups](candidates/Q-MATH-426.md) | [Extremal and Ramsey theory](domains/math.md#math-comb-ext) | Unknown | Source reports open | 2026-10-14 |
 | [Asymptotic density of sum-free subsets of integer grids](candidates/Q-MATH-427.md) | [Extremal and Ramsey theory](domains/math.md#math-comb-ext) | Unknown | Source reports open | 2026-10-14 |
 | [Eventual periodicity in Dickson's greedy sum-avoiding sequence](candidates/Q-MATH-429.md) | [Number theory and arithmetic geometry](domains/math.md#math-num) | Unknown | Source reports open | 2026-10-14 |
@@ -284,7 +284,6 @@ These questions have source-backed statements, status notes and brief research p
 | [A positive local presentation for all braid half-twists](candidates/Q-MATH-504.md) | [Low-dimensional topology](domains/math.md#math-top-low) | Unknown | Source reports open | 2026-10-14 |
 | [Uniformly efficient exact curve-complex distance](candidates/Q-MATH-505.md) | [Low-dimensional topology](domains/math.md#math-top-low) | Unknown | Source reports open | 2026-10-14 |
 | [Computability of Hempel distance](candidates/Q-MATH-506.md) | [Low-dimensional topology](domains/math.md#math-top-low) | Unknown | Source reports open | 2026-10-14 |
-| [Quadratic bounds for one-intersection curve systems](candidates/Q-MATH-507.md) | [Low-dimensional topology](domains/math.md#math-top-low) | Unknown | Source reports open | 2026-10-14 |
 | [Surgery equivalence of embedded surface graphs](candidates/Q-MATH-508.md) | [Low-dimensional topology](domains/math.md#math-top-low) | Unknown | Source reports open | 2026-10-14 |
 | [The square peg problem for arbitrary Jordan curves](candidates/Q-MATH-509.md) | [Geometry](domains/math.md#math-geom) | High | Source reports open | 2026-10-14 |
 | [An affine regular hexagon on every Jordan curve](candidates/Q-MATH-510.md) | [Geometry](domains/math.md#math-geom) | Unknown | Source reports open | 2026-10-14 |
@@ -308,15 +307,17 @@ These questions have source-backed statements, status notes and brief research p
 | [Connectivity of geometric tetrahedralization flip graphs](candidates/Q-FORMAL-415.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Source reports open | 2026-11-06 |
 | [Polynomial separation bounds for sums of square roots](candidates/Q-FORMAL-417.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Open after scoped check | 2026-11-06 |
 | [General unfolding of nonconvex polyhedra](candidates/Q-FORMAL-422.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Source reports open | 2026-10-14 |
+| [Linear-size universal point sets for planar straight-line drawings](candidates/Q-FORMAL-423.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Source reports open | 2026-11-06 |
+| [Logarithmic-time fully dynamic planar nearest neighbors](candidates/Q-FORMAL-430.md) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Source reports open | 2026-11-06 |
 | [Data selection for mean estimation](candidates/Q-FORMAL-436.md) | [Inference and decision theory](domains/stat.md#stat-infer) | Unknown | Source reports open | 2026-10-14 |
 | [Data selection for linear regression](candidates/Q-FORMAL-437.md) | [Statistical learning and high-dimensional theory](domains/stat.md#stat-learn) | Unknown | Source reports open | 2026-11-06 |
-| [Mismatch-capacity formula](candidates/Q-FORMAL-454.md) | [Classical information theory](domains/info.md#info-shannon) | Unknown | Source reports open | 2026-10-14 |
+| [Mismatch-capacity formula](candidates/Q-FORMAL-454.md) | [Classical information theory](domains/info.md#info-shannon) | Unknown | Source reports open | 2026-11-06 |
 | [Hyper-recurrence in lambda calculus](candidates/Q-FORMAL-475.md) | [Programming languages and verification theory](domains/cs.md#cs-semantics) | Unknown | Source reports open | 2026-10-14 |
 | [Exact complexity of word equations](candidates/Q-FORMAL-491.md) | [Programming languages and verification theory](domains/cs.md#cs-semantics) | Unknown | Source reports open | 2026-10-14 |
 | [Word problem for the S combinator](candidates/Q-FORMAL-494.md) | [Programming languages and verification theory](domains/cs.md#cs-semantics) | Unknown | Source reports open | 2026-10-14 |
 | [Committee monotonicity compatible with EJR](candidates/Q-MODEL-432.md) | [Social choice and collective decisions](domains/econ.md#econ-social) | High | Source reports open | 2026-10-14 |
 | [Higher-dimensional stationary black-hole classification](candidates/Q-MODEL-467.md) | [Gravitation and spacetime theory](domains/phys.md#phys-grav) | Frontier | Source reports open | 2026-10-14 |
 | [Computational complexity of ranked tree-child network rNNI* distance](candidates/Q-MODEL-483.md) | [Evolution, population genetics and phylogenetics](domains/bio.md#bio-evol) | High | Source reports open | 2026-10-14 |
-| [Shellability of the ranked tree-child network poset](candidates/Q-MODEL-484.md) | [Evolution, population genetics and phylogenetics](domains/bio.md#bio-evol) | High | Source reports open | 2026-10-14 |
+| [Shellability of the ranked tree-child network poset](candidates/Q-MODEL-484.md) | [Evolution, population genetics and phylogenetics](domains/bio.md#bio-evol) | High | Source reports open | 2026-11-06 |
 
 [Curator proposals](candidates.md#curator-proposed), unverified questions and reported resolutions remain in the [complete index](candidates.md). [Coverage notes](coverage.md) identify subjects still missing from this selection.

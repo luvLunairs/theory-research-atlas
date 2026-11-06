@@ -3272,5 +3272,231 @@
       "MPHY.CLASSICAL"
     ],
     "mapping_basis": "Inspected statement and scope of the cited source."
+  },
+  {
+    "source_id": "SRC-CROSS-800",
+    "domain_ids": [
+      "ENG.CONTROL"
+    ],
+    "mapping_basis": "Inspected mathematical model and problem scope."
+  },
+  {
+    "source_id": "SRC-CROSS-801",
+    "domain_ids": [
+      "ENG.ROBUST"
+    ],
+    "mapping_basis": "Inspected mathematical model and problem scope."
+  },
+  {
+    "source_id": "SRC-CROSS-802",
+    "domain_ids": [
+      "ENG.CONTROL"
+    ],
+    "mapping_basis": "Inspected mathematical model and problem scope."
+  },
+  {
+    "source_id": "SRC-MATH-800",
+    "domain_ids": [
+      "MATH.TOP.LOW"
+    ],
+    "mapping_basis": "Reports a quadratic upper bound for pairwise one-intersection curve systems."
+  },
+  {
+    "source_id": "SRC-MATH-801",
+    "domain_ids": [
+      "MATH.TOP.LOW"
+    ],
+    "mapping_basis": "The introduction adopts Aougab and Gaster's quadratic one-system bound as background."
+  },
+  {
+    "source_id": "SRC-MATH-802",
+    "domain_ids": [
+      "MATH.COMB.EXT"
+    ],
+    "mapping_basis": "Gives the upper bound 46 and records Exoo's lower bound 43 for the two-color Ramsey number R(5,5)."
+  },
+  {
+    "source_id": "SRC-MATH-803",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "The conference version gives insertion-only planar nearest-neighbor queries in O(log n) time, O(log^3 n) amortized insertion time and O(n log^2 n) space."
+  },
+  {
+    "source_id": "SRC-MATH-804",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "Reports universal sets of n exp(O(sqrt(log n))) points, while explicitly leaving the linear-size question open."
+  },
+  {
+    "source_id": "SRC-MATH-805",
+    "domain_ids": [
+      "LOGIC.PROOF",
+      "CS.COMPLEX.CIRCUIT"
+    ],
+    "mapping_basis": "Claims unrestricted DAG-like Res(parity) size lower bounds for the bit pigeonhole principle."
+  },
+  {
+    "source_id": "SRC-MATH-806",
+    "domain_ids": [
+      "LOGIC.PROOF",
+      "CS.COMPLEX.CIRCUIT"
+    ],
+    "mapping_basis": "Reports superpolynomial lower bounds with high probability for depth-2 AC0[p]-Frege refutations of a specified random CNF family."
+  },
+  {
+    "source_id": "SRC-MATH-807",
+    "domain_ids": [
+      "LOGIC.RECUR",
+      "LOGIC.SET"
+    ],
+    "mapping_basis": "Records the Turing-invariant Martin conjecture as open and distinguishes its Borel formulation."
+  },
+  {
+    "source_id": "SRC-MATH-808",
+    "domain_ids": [
+      "LOGIC.RECUR",
+      "LOGIC.SET"
+    ],
+    "mapping_basis": "Studies the order-preserving restriction of Part I of Martin's conjecture and its consistency strength."
+  },
+  {
+    "source_id": "SRC-MATH-809",
+    "domain_ids": [
+      "INFO.SHANNON"
+    ],
+    "mapping_basis": "Explicitly distinguishes the unresolved general single-letter maximum-metric capacity from capacity with a stochastic likelihood decoder."
+  },
+  {
+    "source_id": "SRC-MATH-810",
+    "domain_ids": [
+      "INFO.SHANNON"
+    ],
+    "mapping_basis": "Reports additional achievable-rate bounds for the independent binary deletion channel."
+  },
+  {
+    "source_id": "SRC-MODEL-800",
+    "domain_ids": [
+      "BIO.EVOL",
+      "PROB.DISCRETE"
+    ],
+    "mapping_basis": "Association from inspected definitions and results; not whole-branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-801",
+    "domain_ids": [
+      "BIO.EVOL",
+      "MATH.COMB"
+    ],
+    "mapping_basis": "Association from inspected definitions and results; not whole-branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-802",
+    "domain_ids": [
+      "PROB.DISCRETE",
+      "MATH.COMB"
+    ],
+    "mapping_basis": "Association from inspected definitions and results; not whole-branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-803",
+    "domain_ids": [
+      "COG.NEURO"
+    ],
+    "mapping_basis": "Association from inspected definitions and results; not whole-branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-804",
+    "domain_ids": [
+      "NET.INFER",
+      "NET.DYNAMICS"
+    ],
+    "mapping_basis": "Association from inspected definitions and results; not whole-branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-805",
+    "domain_ids": [
+      "ECON.SOCIAL",
+      "CS.ALG"
+    ],
+    "mapping_basis": "Association from inspected definitions and results; not whole-branch coverage."
+  },
+  {
+    "source_id": "SRC-MODEL-806",
+    "domain_ids": [
+      "ECON.SOCIAL",
+      "CS.ALG"
+    ],
+    "mapping_basis": "Association from inspected definitions and results; not whole-branch coverage."
+  },
+  {
+    "source_id": "SRC-PHYS-800",
+    "domain_ids": [
+      "MPHY.SPECTRAL"
+    ],
+    "mapping_basis": "Association based on the inspected statement and scope; this source does not establish complete coverage of the branch."
+  },
+  {
+    "source_id": "SRC-PHYS-801",
+    "domain_ids": [
+      "MPHY.SPECTRAL"
+    ],
+    "mapping_basis": "Association based on the inspected statement and scope; this source does not establish complete coverage of the branch."
+  },
+  {
+    "source_id": "SRC-PHYS-802",
+    "domain_ids": [
+      "CHEM.REACTION",
+      "PROB.PROCESS",
+      "BIO.SYSTEMS"
+    ],
+    "mapping_basis": "Association based on the inspected statement and scope; this source does not establish complete coverage of the branch."
+  },
+  {
+    "source_id": "SRC-PHYS-803",
+    "domain_ids": [
+      "CHEM.QUANT",
+      "MPHY.SPECTRAL"
+    ],
+    "mapping_basis": "Association based on the inspected statement and scope; this source does not establish complete coverage of the branch."
+  },
+  {
+    "source_id": "SRC-PHYS-804",
+    "domain_ids": [
+      "ASTRO.COSMO",
+      "PHYS.GRAV"
+    ],
+    "mapping_basis": "Association based on the inspected statement and scope; this source does not establish complete coverage of the branch."
+  },
+  {
+    "source_id": "SRC-PHYS-805",
+    "domain_ids": [
+      "PHYS.GRAV",
+      "MPHY.CLASSICAL"
+    ],
+    "mapping_basis": "Association based on the inspected statement and scope; this source does not establish complete coverage of the branch."
+  },
+  {
+    "source_id": "SRC-PHYS-806",
+    "domain_ids": [
+      "EARTH.ENV"
+    ],
+    "mapping_basis": "Association based on the inspected statement and scope; this source does not establish complete coverage of the branch."
+  },
+  {
+    "source_id": "SRC-PHYS-807",
+    "domain_ids": [
+      "MPHY.SPECTRAL"
+    ],
+    "mapping_basis": "Association based on the inspected statement and scope; this source does not establish complete coverage of the branch."
+  },
+  {
+    "source_id": "SRC-PHYS-808",
+    "domain_ids": [
+      "MPHY.SPECTRAL",
+      "MPHY"
+    ],
+    "mapping_basis": "Association based on the inspected statement and scope; this source does not establish complete coverage of the branch."
   }
 ]

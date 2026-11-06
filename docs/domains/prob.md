@@ -6,7 +6,7 @@ Mathematical laws of random objects and processes.
 
 **Boundary:** Distributional assumptions are distinct from empirical fit.
 
-**Research sources: 32 · Primary tasks: 15 · Full cards: 1 · Cross-linked tasks: 22.**
+**Research sources: 35 · Primary tasks: 15 · Full cards: 1 · Cross-linked tasks: 22.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -76,6 +76,9 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [Random cubic graphs admit nonsynchronized stable Kuramoto equilibria](../sources.md#src-model-705) | Research entry | 2026 |
 | [On the optimality of coin-betting for mean estimation](../sources.md#src-model-707) | Research entry | 2025 |
 | [Sequential testing of conditionally constrained hypotheses](../sources.md#src-model-708) | Research entry | 2026 |
+| [Maintaining diversity in structured populations](../sources.md#src-model-800) | Research entry | 2025 |
+| [The proportion of permutations fixing a k-set](../sources.md#src-model-802) | Research entry | 2026 |
+| [Results and publications — ConStRAINeD](../sources.md#src-phys-802) | Research entry | Not verified |
 
 <a id="branches"></a>
 
@@ -181,7 +184,7 @@ Random evolution in discrete or continuous time.
 
 **Representative objects:** martingales, diffusions, stochastic PDE.
 
-**Direct source entries:** [Game-Theoretic Statistics and Safe Anytime-Valid Inference](../sources.md#src-formal-010), [Epidemic processes in complex networks](../sources.md#src-model-010), [Product-form stationary distributions for deficiency zero chemical reaction networks](../sources.md#src-model-016), [Markov Chains and Mixing Times, first edition](../sources.md#src-math-102), [Formal properties of the probability of fixation: identities, inequalities and approximations](../sources.md#src-model-101), [Lecture 14: Applications in Statistical Mechanics](../sources.md#src-model-105), [Kinetic Theory: Stochastic Processes](../sources.md#src-model-106), [Stochastically modeled weakly reversible reaction networks with a single linkage class](../sources.md#src-model-303), [Solving the chemical recurrence conjecture in two dimensions](../sources.md#src-model-304), [A one-dimensional drift-jump particle process](../sources.md#src-math-404), [On the optimality of coin-betting for mean estimation](../sources.md#src-model-707), [Sequential testing of conditionally constrained hypotheses](../sources.md#src-model-708).
+**Direct source entries:** [Game-Theoretic Statistics and Safe Anytime-Valid Inference](../sources.md#src-formal-010), [Epidemic processes in complex networks](../sources.md#src-model-010), [Product-form stationary distributions for deficiency zero chemical reaction networks](../sources.md#src-model-016), [Markov Chains and Mixing Times, first edition](../sources.md#src-math-102), [Formal properties of the probability of fixation: identities, inequalities and approximations](../sources.md#src-model-101), [Lecture 14: Applications in Statistical Mechanics](../sources.md#src-model-105), [Kinetic Theory: Stochastic Processes](../sources.md#src-model-106), [Stochastically modeled weakly reversible reaction networks with a single linkage class](../sources.md#src-model-303), [Solving the chemical recurrence conjecture in two dimensions](../sources.md#src-model-304), [A one-dimensional drift-jump particle process](../sources.md#src-math-404), [On the optimality of coin-betting for mean estimation](../sources.md#src-model-707), [Sequential testing of conditionally constrained hypotheses](../sources.md#src-model-708), [Results and publications — ConStRAINeD](../sources.md#src-phys-802).
 
 **Primary tasks in this branch and its descendants**
 
@@ -233,7 +236,7 @@ Random combinatorial objects and their phase behavior.
 
 **Representative objects:** random graphs, percolation, random walks.
 
-**Direct source entries:** [Open Problems in Analysis of Boolean Functions](../sources.md#src-formal-005), [Proof of Tomaszewski's Conjecture on Randomly Signed Sums](../sources.md#src-formal-006), [Statistical Mechanics of Lattice Systems: The Ising Model](../sources.md#src-math-103), [100 Open Problems, December 2025 revision](../sources.md#src-math-302), [Maintaining diversity in structured populations](../sources.md#src-model-301), [Largest common substructures in probabilistic combinatorics](../sources.md#src-math-402), [Online Random Weight Minimal Spanning Trees and a Stochastic Coalescent](../sources.md#src-math-403), [Problems involving largest common substructures](../sources.md#src-math-406), [Maximum Agreement Subtrees and Hölder homeomorphisms between Brownian trees](../sources.md#src-math-603), [The Odlyzko–Poonen conjecture on irreducibility of random polynomials](../sources.md#src-math-606), [Online purchasing under uncertainty](../sources.md#src-math-604), [Corrigendum to Online purchasing under uncertainty](../sources.md#src-math-605), [Odlyzko–Poonen Lean formalization](../sources.md#src-review-704), [Random cubic graphs are not globally synchronizing with probability at least 1 - exp(-2)](../sources.md#src-model-704), [Random cubic graphs admit nonsynchronized stable Kuramoto equilibria](../sources.md#src-model-705).
+**Direct source entries:** [Open Problems in Analysis of Boolean Functions](../sources.md#src-formal-005), [Proof of Tomaszewski's Conjecture on Randomly Signed Sums](../sources.md#src-formal-006), [Statistical Mechanics of Lattice Systems: The Ising Model](../sources.md#src-math-103), [100 Open Problems, December 2025 revision](../sources.md#src-math-302), [Maintaining diversity in structured populations](../sources.md#src-model-301), [Largest common substructures in probabilistic combinatorics](../sources.md#src-math-402), [Online Random Weight Minimal Spanning Trees and a Stochastic Coalescent](../sources.md#src-math-403), [Problems involving largest common substructures](../sources.md#src-math-406), [Maximum Agreement Subtrees and Hölder homeomorphisms between Brownian trees](../sources.md#src-math-603), [The Odlyzko–Poonen conjecture on irreducibility of random polynomials](../sources.md#src-math-606), [Online purchasing under uncertainty](../sources.md#src-math-604), [Corrigendum to Online purchasing under uncertainty](../sources.md#src-math-605), [Odlyzko–Poonen Lean formalization](../sources.md#src-review-704), [Random cubic graphs are not globally synchronizing with probability at least 1 - exp(-2)](../sources.md#src-model-704), [Random cubic graphs admit nonsynchronized stable Kuramoto equilibria](../sources.md#src-model-705), [Maintaining diversity in structured populations](../sources.md#src-model-800), [The proportion of permutations fixing a k-set](../sources.md#src-model-802).
 
 **Primary tasks in this branch and its descendants**
 

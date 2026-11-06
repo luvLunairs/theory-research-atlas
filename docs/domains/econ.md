@@ -6,7 +6,7 @@ Formal models of allocation, incentives, strategic behavior and institutions.
 
 **Boundary:** Model theorems do not establish behavioral or policy validity.
 
-**Research sources: 23 · Primary tasks: 22 · Full cards: 4 · Cross-linked tasks: 0.**
+**Research sources: 25 · Primary tasks: 22 · Full cards: 4 · Cross-linked tasks: 0.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -38,7 +38,7 @@ Formal models of allocation, incentives, strategic behavior and institutions.
 | [Strong proportionality with candidate monotonicity](../candidates/Q-MODEL-441.md) | High | Literature-origin question | Unverified | Outline · Q-MODEL-441 |
 | [Parallel-universe tiebreaking in committee rules](../candidates/Q-MODEL-442.md) | High | Literature-origin question | Unverified | Outline · Q-MODEL-442 |
 | [Reverse sequential PAV approximation factor](../candidates/Q-MODEL-443.md) | High | Literature-origin question | Unverified | Outline · Q-MODEL-443 |
-| [Winner computation on voter-interval approval domains](../candidates/Q-MODEL-444.md) | High | Literature-origin question | Unverified | Outline · Q-MODEL-444 |
+| [Winner computation on voter-interval approval domains](../candidates/Q-MODEL-444.md) | Unknown | Literature-origin question | Unverified | Outline · Q-MODEL-444 |
 | [Parallel complexity of polynomial-time committee rules](../candidates/Q-MODEL-445.md) | Unknown | Literature-origin question | Reported resolved | Outline · Q-MODEL-445 |
 
 <a id="sources"></a>
@@ -74,6 +74,8 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [Ties in Multiwinner Approval Voting](../sources.md#src-model-606) | Research entry | 2023 |
 | [When Maximum Nash Welfare Becomes Strongly Fair: Bi-valued Goods](../sources.md#src-impact-004) | Research entry | 2026 |
 | [Strengthening Full Justified Representation: Efficient Verification and Computation](../sources.md#src-model-706) | Research entry | 2026 |
+| [Polynomial-Time Algorithm for Thiele Voting Rules with Voter Interval Preferences](../sources.md#src-model-805) | Research entry | 2026 |
+| [Polynomial-Time Algorithm for Thiele Voting Rules on Voter Interval Domain](../sources.md#src-model-806) | Research entry | 2026 |
 
 <a id="branches"></a>
 
@@ -221,7 +223,7 @@ Aggregation of preferences under stated axioms.
 
 **Representative objects:** voting rules, preference profiles, judgment aggregation.
 
-**Direct source entries:** [Outlook and Research Directions, in Multi-Winner Voting with Approval Preferences](../sources.md#src-model-403), [Proportional Aggregation of Preferences for Sequential Decision Making](../sources.md#src-model-412), [A Polynomial-Time Rule Satisfying Full Justified Representation](../sources.md#src-model-601), [Existence of the Core in Approval-Based Committee Elections](../sources.md#src-model-602), [Jointly Satisfying Pareto Optimality and Justified Representation is NP-Hard in Approval-Based Multiwinner Voting](../sources.md#src-model-603), [Reverse Sequential Proportional Approval Voting Rule: Proportionality and Approximation Guarantees](../sources.md#src-model-604), [On the Parallelizability of Approval-Based Committee Rules](../sources.md#src-model-605), [Ties in Multiwinner Approval Voting](../sources.md#src-model-606), [Strengthening Full Justified Representation: Efficient Verification and Computation](../sources.md#src-model-706).
+**Direct source entries:** [Outlook and Research Directions, in Multi-Winner Voting with Approval Preferences](../sources.md#src-model-403), [Proportional Aggregation of Preferences for Sequential Decision Making](../sources.md#src-model-412), [A Polynomial-Time Rule Satisfying Full Justified Representation](../sources.md#src-model-601), [Existence of the Core in Approval-Based Committee Elections](../sources.md#src-model-602), [Jointly Satisfying Pareto Optimality and Justified Representation is NP-Hard in Approval-Based Multiwinner Voting](../sources.md#src-model-603), [Reverse Sequential Proportional Approval Voting Rule: Proportionality and Approximation Guarantees](../sources.md#src-model-604), [On the Parallelizability of Approval-Based Committee Rules](../sources.md#src-model-605), [Ties in Multiwinner Approval Voting](../sources.md#src-model-606), [Strengthening Full Justified Representation: Efficient Verification and Computation](../sources.md#src-model-706), [Polynomial-Time Algorithm for Thiele Voting Rules with Voter Interval Preferences](../sources.md#src-model-805), [Polynomial-Time Algorithm for Thiele Voting Rules on Voter Interval Domain](../sources.md#src-model-806).
 
 **Primary tasks in this branch and its descendants**
 

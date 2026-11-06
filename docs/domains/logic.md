@@ -6,7 +6,7 @@ Formal reasoning, definability and foundational systems.
 
 **Boundary:** Metamathematical claims specify their ambient logic and axioms.
 
-**Research sources: 14 · Primary tasks: 24 · Full cards: 1 · Cross-linked tasks: 8.**
+**Research sources: 18 · Primary tasks: 24 · Full cards: 1 · Cross-linked tasks: 8.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -69,6 +69,10 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [Part 1 of Martin's Conjecture for order-preserving and measure-preserving functions](../sources.md#src-formal-315) | Research entry | 2024 |
 | [Computable learning of natural hypothesis classes](../sources.md#src-formal-316) | Research entry | 2025 |
 | [Finite complete rewriting systems for graphs of free groups with applications to free-by-cyclic, one-relator, and three-manifold groups](../sources.md#src-math-601) | Research entry | 2026 |
+| [An exponential lower bound for the bit pigeonhole principle in resolution over parities](../sources.md#src-math-805) | Research entry | 2026 |
+| [Random (log n)-CNF Formulas Are Hard for Depth-2 Frege with Modular Gates](../sources.md#src-math-806) | Research entry | 2026 |
+| [Martin's Conjecture — Open Problems in Mathematical Logic](../sources.md#src-math-807) | Research entry | Not verified |
+| [Order-preserving maps of the Turing degrees: regularity and consistency strength](../sources.md#src-math-808) | Research entry | 2026 |
 
 <a id="branches"></a>
 
@@ -131,7 +135,7 @@ Sets, infinities and relative consistency.
 
 **Representative objects:** forcing, large cardinals, inner models.
 
-**Direct source entries:** [Scott Analysis below the Vaught Ordinal](../sources.md#src-formal-314), [Part 1 of Martin's Conjecture for order-preserving and measure-preserving functions](../sources.md#src-formal-315).
+**Direct source entries:** [Scott Analysis below the Vaught Ordinal](../sources.md#src-formal-314), [Part 1 of Martin's Conjecture for order-preserving and measure-preserving functions](../sources.md#src-formal-315), [Martin's Conjecture — Open Problems in Mathematical Logic](../sources.md#src-math-807), [Order-preserving maps of the Turing degrees: regularity and consistency strength](../sources.md#src-math-808).
 
 **Primary tasks in this branch and its descendants**
 
@@ -220,7 +224,7 @@ Proof systems and their strength or computational content.
 
 **Representative objects:** sequent calculi, ordinal analyses, constructive proofs.
 
-**Direct source entries:** [Reverse Mathematics](../sources.md#src-formal-009), [SRT^2_2 does not imply RT^2_2 in omega-models](../sources.md#src-formal-011), [AC⁰[p]-Frege Cannot Efficiently Prove That Constant-Depth Algebraic Circuit Lower Bounds Are Hard](../sources.md#src-formal-308), [The SPARSE-Relativization Framework and Applications to Optimal Proof Systems](../sources.md#src-formal-309).
+**Direct source entries:** [Reverse Mathematics](../sources.md#src-formal-009), [SRT^2_2 does not imply RT^2_2 in omega-models](../sources.md#src-formal-011), [AC⁰[p]-Frege Cannot Efficiently Prove That Constant-Depth Algebraic Circuit Lower Bounds Are Hard](../sources.md#src-formal-308), [The SPARSE-Relativization Framework and Applications to Optimal Proof Systems](../sources.md#src-formal-309), [An exponential lower bound for the bit pigeonhole principle in resolution over parities](../sources.md#src-math-805), [Random (log n)-CNF Formulas Are Hard for Depth-2 Frege with Modular Gates](../sources.md#src-math-806).
 
 **Primary tasks in this branch and its descendants**
 
@@ -314,7 +318,7 @@ Computable sets, reductions and undecidability.
 
 **Representative objects:** Turing degrees, reducibilities, randomness.
 
-**Direct source entries:** [Reverse Mathematics](../sources.md#src-formal-009), [SRT^2_2 does not imply RT^2_2 in omega-models](../sources.md#src-formal-011), [Trakhtenbrot's Theorem in Coq: Finite Model Theory through the Constructive Lens](../sources.md#src-math-101), [The Kourovka Notebook: Unsolved Problems in Group Theory, 21st edition, October 2026 update](../sources.md#src-math-301), [K3: A New Problem List in Low-Dimensional Topology](../sources.md#src-math-303), [Part 1 of Martin's Conjecture for order-preserving and measure-preserving functions](../sources.md#src-formal-315), [Computable learning of natural hypothesis classes](../sources.md#src-formal-316), [Finite complete rewriting systems for graphs of free groups with applications to free-by-cyclic, one-relator, and three-manifold groups](../sources.md#src-math-601).
+**Direct source entries:** [Reverse Mathematics](../sources.md#src-formal-009), [SRT^2_2 does not imply RT^2_2 in omega-models](../sources.md#src-formal-011), [Trakhtenbrot's Theorem in Coq: Finite Model Theory through the Constructive Lens](../sources.md#src-math-101), [The Kourovka Notebook: Unsolved Problems in Group Theory, 21st edition, October 2026 update](../sources.md#src-math-301), [K3: A New Problem List in Low-Dimensional Topology](../sources.md#src-math-303), [Part 1 of Martin's Conjecture for order-preserving and measure-preserving functions](../sources.md#src-formal-315), [Computable learning of natural hypothesis classes](../sources.md#src-formal-316), [Finite complete rewriting systems for graphs of free groups with applications to free-by-cyclic, one-relator, and three-manifold groups](../sources.md#src-math-601), [Martin's Conjecture — Open Problems in Mathematical Logic](../sources.md#src-math-807), [Order-preserving maps of the Turing degrees: regularity and consistency strength](../sources.md#src-math-808).
 
 **Primary tasks in this branch and its descendants**
 

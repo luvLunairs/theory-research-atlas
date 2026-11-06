@@ -6,7 +6,7 @@ Models of astronomical systems and cosmic evolution.
 
 **Boundary:** Observational adequacy is distinct from analytical solvability.
 
-**Research sources: 18 · Primary tasks: 20 · Full cards: 1 · Cross-linked tasks: 4.**
+**Research sources: 19 · Primary tasks: 20 · Full cards: 1 · Cross-linked tasks: 4.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -67,6 +67,7 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [Mathematical General Relativity](../sources.md#src-model-405) | Research entry | 2018 |
 | [Equal masses results for choreographies n-body problems](../sources.md#src-model-615) | Research entry | 2020 |
 | [Oscillating about coplanarity in the 4 body problem](../sources.md#src-model-616) | Research entry | 2018 |
+| [DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints](../sources.md#src-phys-804) | Research entry | 2025 |
 
 <a id="branches"></a>
 
@@ -177,7 +178,7 @@ Models of cosmic evolution and compact gravitating objects.
 
 **Representative objects:** perturbations, black holes, cosmological models.
 
-**Direct source entries:** [David Tong: Lecture Notes](../sources.md#src-base-011), [Lectures on the Cosmological Constant Problem](../sources.md#src-model-017), [Addressing Six Standard Model Problems with Technically Natural Higgs Models](../sources.md#src-model-311), [Axions and Other Similar Particles](../sources.md#src-model-313), [Dark Matter](../sources.md#src-model-314), [Dark Energy](../sources.md#src-model-315), [Cosmological Parameters](../sources.md#src-model-316), [The Hubble tension: A decade review](../sources.md#src-model-317), [Mathematical General Relativity](../sources.md#src-model-405).
+**Direct source entries:** [David Tong: Lecture Notes](../sources.md#src-base-011), [Lectures on the Cosmological Constant Problem](../sources.md#src-model-017), [Addressing Six Standard Model Problems with Technically Natural Higgs Models](../sources.md#src-model-311), [Axions and Other Similar Particles](../sources.md#src-model-313), [Dark Matter](../sources.md#src-model-314), [Dark Energy](../sources.md#src-model-315), [Cosmological Parameters](../sources.md#src-model-316), [The Hubble tension: A decade review](../sources.md#src-model-317), [Mathematical General Relativity](../sources.md#src-model-405), [DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints](../sources.md#src-phys-804).
 
 **Primary tasks in this branch and its descendants**
 

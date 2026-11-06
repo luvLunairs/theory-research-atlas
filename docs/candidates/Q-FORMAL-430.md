@@ -10,25 +10,25 @@ Can a data structure maintain planar Euclidean points under insertions, deletion
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Unverified. **Last checked:** 2026-10-14.
+**Current status:** Source reports open. **Last checked:** 2026-11-06.
 
-**Status basis:** The inspected source poses this question. A comprehensive search for later resolutions has not been completed; current openness is not asserted.
+**Status basis:** TOPP records the fully dynamic logarithmic target as open. The inspected SoCG 2025 theorem achieves O(log n) queries with O(log^3 n) amortized insertions, but has no deletion operation. The scoped search did not establish a resolution of the original all-operation target.
 
-**Statement check:** Source located. **Status check:** Source report only.
+**Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** Latest displayed substantive revision: 2006.
+**Source date and freshness:** TOPP: 24 January 2006; conference paper: SoCG 2025.
 
-**Scope limits:** This is a source-defined research question, not a claim that a solution or a manageable research route is known.
+**Scope limits:** Compared TOPP's exact planar Euclidean target with the published insertion-only theorem. Approximate, incremental and fully dynamic data structures answer different questions.
 
 **Information still needed**
 
-- Later tradeoffs and the exact intended time guarantee.
+- Check later full-version tradeoffs and choose deterministic/randomized and worst-case/amortized guarantees before an attempt.
 
 **Primary branch:** [Computational geometry and topology](../domains/cs.md#cs-geom). **Related branches:** None recorded.
 
-**Sources:** [The Open Problems Project: Problem 63](../sources.md#src-formal-429).
+**Sources:** [The Open Problems Project: Problem 63](../sources.md#src-formal-429); [Incremental Planar Nearest Neighbor Queries with Optimal Query Time](../sources.md#src-math-803).
 
-**Exact locator:** TOPP Problem 63: Statement
+**Exact locator:** TOPP Problem 63, Statement; Iacono-Nekrich, Theorem 12
 
 **Potential difficulty:** Unknown. The source identifies an unresolved research target; its present difficulty has not been independently assessed.
 
@@ -40,11 +40,41 @@ Can a data structure maintain planar Euclidean points under insertions, deletion
 
 **Assessment:** 2026-10-14; untested forecast. **Uncertainty:** No model has been tested. Current status, useful subcases and feasible computational scale require further review.
 
-**Further work:** resolve the statement and status questions above before planning an attempt. **Human review:** Pending.
+**Further work:** define a scoped target, resource requirements and a verification plan before developing a full card. **Human review:** Pending.
 
 ## Literature checks
 
 These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-06
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Unverified → Source reports open.
+
+Add the published partial result without conflating insertion-only operation with the fully dynamic target.
+
+**Search scope:** Compared TOPP's exact planar Euclidean target with the published insertion-only theorem. Approximate, incremental and fully dynamic data structures answer different questions.
+
+**Inspected evidence**
+
+- [The Open Problems Project: Problem 63](../sources.md#src-formal-429) — Statement. Requires insertion, deletion and exact nearest-neighbor queries.
+- [Incremental Planar Nearest Neighbor Queries with Optimal Query Time](../sources.md#src-math-803) — Theorem 12. Gives logarithmic queries with amortized cubic-logarithmic insertions and no deletions.
+
+**Limits and remaining work**
+
+- The search is scoped, not exhaustive.
+- No independent proof, numerical replay or formal verification was performed.
+- Human review remains pending.
+
+<details>
+<summary>Search queries</summary>
+
+- "logarithmic-time" "fully dynamic" "nearest" 2026
+- "fully dynamic" "nearest neighbor" "2026" logarithmic
+
+
+</details>
 
 ### 2026-10-14
 

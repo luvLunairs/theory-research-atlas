@@ -6,7 +6,7 @@ Explicit computational or mathematical models of cognition and language.
 
 **Boundary:** Unconstrained speculation and clinical claims are outside the current index.
 
-**Research sources: 12 · Primary tasks: 11 · Full cards: 1 · Cross-linked tasks: 0.**
+**Research sources: 13 · Primary tasks: 11 · Full cards: 1 · Cross-linked tasks: 0.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -51,6 +51,7 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [Integrative characterization of the topography of V4 neural codes using deep learning approaches](../sources.md#src-cross-615) | Research entry | 2025 |
 | [A Task-Optimized Neural Network Replicates Human Auditory Behavior, Predicts Brain Responses, and Reveals a Cortical Processing Hierarchy](../sources.md#src-review-801) | Research entry | 2018 |
 | [kelletal2018: auditory network parameters and demonstration](../sources.md#src-review-802) | Research entry | Not verified |
+| [Scaling models of visual working memory to natural images](../sources.md#src-model-803) | Research entry | 2024 |
 
 <a id="branches"></a>
 
@@ -110,7 +111,7 @@ Formal models of neurons, coding and learning dynamics.
 
 **Representative objects:** spiking models, population codes, plasticity.
 
-**Direct source entries:** [Theoretical Neuroscience: Computational and Mathematical Modeling of Neural Systems](../sources.md#src-base-009), [Hypergraphs and simplicial complexes in focus: a roadmap for future research in higher-order interactions](../sources.md#src-cross-403), [Eight open questions in the computational modeling of higher sensory cortex](../sources.md#src-cross-404), [A Task-Optimized Neural Network Replicates Human Auditory Behavior, Predicts Brain Responses, and Reveals a Cortical Processing Hierarchy](../sources.md#src-review-801), [kelletal2018: auditory network parameters and demonstration](../sources.md#src-review-802).
+**Direct source entries:** [Theoretical Neuroscience: Computational and Mathematical Modeling of Neural Systems](../sources.md#src-base-009), [Hypergraphs and simplicial complexes in focus: a roadmap for future research in higher-order interactions](../sources.md#src-cross-403), [Eight open questions in the computational modeling of higher sensory cortex](../sources.md#src-cross-404), [A Task-Optimized Neural Network Replicates Human Auditory Behavior, Predicts Brain Responses, and Reveals a Cortical Processing Hierarchy](../sources.md#src-review-801), [kelletal2018: auditory network parameters and demonstration](../sources.md#src-review-802), [Scaling models of visual working memory to natural images](../sources.md#src-model-803).
 
 **Primary tasks in this branch and its descendants**
 

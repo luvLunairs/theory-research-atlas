@@ -6,7 +6,7 @@ Mathematical models and principles proposed for physical systems.
 
 **Boundary:** Derivation under assumptions is separate from empirical confirmation.
 
-**Research sources: 47 · Primary tasks: 30 · Full cards: 6 · Cross-linked tasks: 34.**
+**Research sources: 49 · Primary tasks: 30 · Full cards: 6 · Cross-linked tasks: 34.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -108,6 +108,8 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [Nonexistence of Multiple Black Holes in Stationary Analytic Vacuum Spacetimes](../sources.md#src-phys-705) | Research entry | 2026 |
 | [Electrovacuum Black Hole Uniqueness](../sources.md#src-phys-706) | Research entry | 2026 |
 | [Proof of the Penrose Conjecture for Maximally Parameterized Initial Data Sets](../sources.md#src-phys-708) | Research entry | 2026 |
+| [DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints](../sources.md#src-phys-804) | Research entry | 2025 |
+| [The Bianchi IX Attractor in Modified Gravity](../sources.md#src-phys-805) | Research entry | 2026 |
 
 <a id="branches"></a>
 
@@ -476,7 +478,7 @@ Geometric and field models of gravitating systems.
 
 **Representative objects:** Einstein equations, horizons, perturbations.
 
-**Direct source entries:** [David Tong: Lecture Notes](../sources.md#src-base-011), [Lectures on the Cosmological Constant Problem](../sources.md#src-model-017), [Dark Energy](../sources.md#src-model-315), [Mathematical General Relativity](../sources.md#src-model-405), [Nonlinear stability of subextremal Kerr black holes](../sources.md#src-model-411), [Cosmology, the big bang and the BKL conjecture](../sources.md#src-model-610), [Black holes galore in D>4](../sources.md#src-model-611), [A CMC existence result for expanding cosmological spacetimes](../sources.md#src-model-612), [Proof the Spacetime Penrose Inequality](../sources.md#src-model-613), [Love numbers of black holes and compact objects](../sources.md#src-phys-006), [The Vanishing of the Non-linear Static Love Number of Kerr Black Holes and the Role of Symmetries](../sources.md#src-phys-007), [Vanishing Love Numbers of Kerr-Newman Black Holes](../sources.md#src-phys-008), [The Spacetime Penrose Inequality: Conditional Results for Stable MOTS and General Trapped Surfaces](../sources.md#src-phys-701), [Nonexistence of Multiple Black Holes in Stationary Analytic Vacuum Spacetimes](../sources.md#src-phys-705), [Electrovacuum Black Hole Uniqueness](../sources.md#src-phys-706), [Proof of the Penrose Conjecture for Maximally Parameterized Initial Data Sets](../sources.md#src-phys-708).
+**Direct source entries:** [David Tong: Lecture Notes](../sources.md#src-base-011), [Lectures on the Cosmological Constant Problem](../sources.md#src-model-017), [Dark Energy](../sources.md#src-model-315), [Mathematical General Relativity](../sources.md#src-model-405), [Nonlinear stability of subextremal Kerr black holes](../sources.md#src-model-411), [Cosmology, the big bang and the BKL conjecture](../sources.md#src-model-610), [Black holes galore in D>4](../sources.md#src-model-611), [A CMC existence result for expanding cosmological spacetimes](../sources.md#src-model-612), [Proof the Spacetime Penrose Inequality](../sources.md#src-model-613), [Love numbers of black holes and compact objects](../sources.md#src-phys-006), [The Vanishing of the Non-linear Static Love Number of Kerr Black Holes and the Role of Symmetries](../sources.md#src-phys-007), [Vanishing Love Numbers of Kerr-Newman Black Holes](../sources.md#src-phys-008), [The Spacetime Penrose Inequality: Conditional Results for Stable MOTS and General Trapped Surfaces](../sources.md#src-phys-701), [Nonexistence of Multiple Black Holes in Stationary Analytic Vacuum Spacetimes](../sources.md#src-phys-705), [Electrovacuum Black Hole Uniqueness](../sources.md#src-phys-706), [Proof of the Penrose Conjecture for Maximally Parameterized Initial Data Sets](../sources.md#src-phys-708), [DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints](../sources.md#src-phys-804), [The Bianchi IX Attractor in Modified Gravity](../sources.md#src-phys-805).
 
 **Primary tasks in this branch and its descendants**
 

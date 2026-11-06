@@ -10,25 +10,26 @@ For every n, does some O(n)-point planar set support a crossing-free straight-li
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Unverified. **Last checked:** 2026-10-14.
+**Current status:** Source reports open. **Last checked:** 2026-11-06.
 
-**Status basis:** The inspected source poses this question. A comprehensive search for later resolutions has not been completed; current openness is not asserted.
+**Status basis:** TOPP asks for O(n) universal sets. Gordon's September 2026 preprint reports n exp(O(sqrt(log n))) points and explicitly leaves O(n) open. The new asymptotic claim has not been independently assessed by the project.
 
-**Statement check:** Source located. **Status check:** Source report only.
+**Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** Latest displayed substantive revision: 2010.
+**Source date and freshness:** TOPP substantive revision: 2010; Gordon v1: 10 September 2026.
 
-**Scope limits:** This is a source-defined research question, not a claim that a solution or a manageable research route is known.
+**Scope limits:** Compared the universal straight-line embedding target and its quantifiers with the reported near-linear bound. A bound on point count is separate from coordinate bit length or drawing area.
 
 **Information still needed**
 
-- Later universal-point-set bounds; bends and curved edges are excluded.
+- Independent assessment and later revisions of the near-linear construction.
+- An exact O(n) upper bound or superlinear lower bound remains distinct from the reported result.
 
 **Primary branch:** [Computational geometry and topology](../domains/cs.md#cs-geom). **Related branches:** None recorded.
 
-**Sources:** [The Open Problems Project: Problem 45](../sources.md#src-formal-423).
+**Sources:** [The Open Problems Project: Problem 45](../sources.md#src-formal-423); [Almost Linear Universal Point Sets for Planar Graphs](../sources.md#src-math-804).
 
-**Exact locator:** TOPP Problem 45: Statement
+**Exact locator:** TOPP Problem 45, Statement; Gordon, Theorem 1.1 and Appendix A.3
 
 **Potential difficulty:** Unknown. The source identifies an unresolved research target; its present difficulty has not been independently assessed.
 
@@ -40,11 +41,41 @@ For every n, does some O(n)-point planar set support a crossing-free straight-li
 
 **Assessment:** 2026-10-14; untested forecast. **Uncertainty:** No model has been tested. Current status, useful subcases and feasible computational scale require further review.
 
-**Further work:** resolve the statement and status questions above before planning an attempt. **Human review:** Pending.
+**Further work:** define a scoped target, resource requirements and a verification plan before developing a full card. **Human review:** Pending.
 
 ## Literature checks
 
 These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-06
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Unverified → Source reports open.
+
+Record the substantial reported improvement while keeping the exact linear-size target separate.
+
+**Search scope:** Compared the universal straight-line embedding target and its quantifiers with the reported near-linear bound. A bound on point count is separate from coordinate bit length or drawing area.
+
+**Inspected evidence**
+
+- [The Open Problems Project: Problem 45](../sources.md#src-formal-423) — Statement. Asks whether one O(n)-point set works for every n-vertex planar graph.
+- [Almost Linear Universal Point Sets for Planar Graphs](../sources.md#src-math-804) — Theorem 1.1; Appendix A.3. Claims a subpolynomial factor above linear size and explicitly excludes a coordinate-size guarantee.
+
+**Limits and remaining work**
+
+- The search is scoped, not exhaustive.
+- No independent proof, numerical replay or formal verification was performed.
+- Human review remains pending.
+
+<details>
+<summary>Search queries</summary>
+
+- "universal point sets" "2026" "linear"
+- "2609.10916" correction OR erratum
+
+
+</details>
 
 ### 2026-10-14
 

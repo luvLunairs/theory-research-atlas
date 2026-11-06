@@ -10,25 +10,26 @@ Determine whether late-time acceleration is explained by a cosmological constant
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Source reports open. **Last checked:** 2026-10-14.
+**Current status:** Source reports open. **Last checked:** 2026-11-06.
 
-**Status basis:** The inspected reviews discuss competing explanations and unresolved tensions. Dataset-dependent preferences for evolving dark energy are not a settled physical determination.
+**Status basis:** The DESI DR2 primary paper reports conditional preferences for evolving dark energy when datasets are combined. The result depends on the chosen cosmological model and supernova sample; it is not a determination of the physical acceleration mechanism.
 
-**Statement check:** Source located. **Status check:** Source report only.
+**Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** Recorded source years: SRC-MODEL-315: 2025, SRC-MODEL-316: 2025, SRC-MODEL-317: 2026. The last-checked date records the scope described in the status basis; it is not a comprehensive literature-search date.
+**Source date and freshness:** The 2026-11-06 literature check identifies the versions and passages inspected; original publication dates and earlier checks remain relevant.
 
 **Scope limits:** The statement and locator identify the candidate. A full assumption set and verification protocol remain to be documented.
 
 **Information still needed**
 
-- Specify the assumptions, candidate methods, resource requirements and independent verification steps for a concrete research task.
+- Fix the likelihood release, priors, gravity and perturbation assumptions, nuisance parameters and dataset combination.
+- Check dataset overlap and systematic-error sensitivity; distinguish parameter-fit improvements from model identification.
 
 **Primary branch:** [Cosmology and gravitational astrophysics](../domains/astro.md#astro-cosmo). **Related branches:** [Gravitation and spacetime theory](../domains/phys.md#phys-grav).
 
-**Sources:** [Dark Energy](../sources.md#src-model-315); [Cosmological Parameters](../sources.md#src-model-316); [The Hubble tension: A decade review](../sources.md#src-model-317).
+**Sources:** [Dark Energy](../sources.md#src-model-315); [Cosmological Parameters](../sources.md#src-model-316); [The Hubble tension: A decade review](../sources.md#src-model-317); [DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints](../sources.md#src-phys-804).
 
-**Exact locator:** PDG chapter 28.2; chapter 25.4; 2026 Hubble-tension review.
+**Exact locator:** Existing PDG reviews; DESI DR2 Results II, v3, abstract and Sections IV–VII.
 
 **Potential difficulty:** Frontier. Expansion-history degeneracies and perturbative stability can hide physically different models.
 
@@ -36,11 +37,42 @@ Determine whether late-time acceleration is explained by a cosmological constant
 
 **Verification burden:** High. Need stable perturbations, independent datasets and sensitivity to nuisance assumptions; a symbolic Friedmann solution is only conditional.
 
-**Resource expectations:** Experiment: model construction and symbolic consistency checks can use existing knowledge; selecting the actual physical mechanism requires existing or future advanced experiments/observations. Data: dated public exclusion likelihoods and parameter constraints. Computation: analytic work may be modest, while global fits, lattice calculations or parameter scans can be expensive and are unbudgeted.
+**Resource expectations:** Experiment: theoretical consistency checks and reanalysis can begin with existing observations; identifying the physical mechanism may require further observations. Data: the DESI paper links public likelihood resources and supernova data, which must be versioned and checked for overlap. Computation: the cited analysis uses Cobaya/CAMB and sampling; no runtime or budget has been measured here.
 
-**Assessment:** 2026-10-14; untested forecast. **Uncertainty:** No AI capability or novelty was measured. This is a literature-defined scientific question, not a unique theorem with a universally agreed success test; any proposed model needs a separate hypothesis, consistency and empirical review.
+**Assessment:** 2026-10-14; untested forecast. **Uncertainty:** No AI capability, novelty or empirical mechanism was established. A new analysis requires a defined model and a separate statistical and physical review.
 
 **Further work:** define a scoped target, resource requirements and a verification plan before developing a full card. **Human review:** Pending.
+
+## Literature checks
+
+These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-06
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Source reports open → Source reports open.
+
+Add an original collaboration analysis while retaining source-reported uncertainty about the mechanism.
+
+**Search scope:** Targeted searches and inspection of the cited passages on 2026-11-06; neither an exhaustive literature search nor an independent scientific review.
+
+**Inspected evidence**
+
+- [DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints](../sources.md#src-phys-804) — Abstract; Sections IV.3–V and VII. Separates BAO-only fits from combined-dataset preferences and documents the likelihood and sampling assumptions.
+
+**Limits and remaining work**
+
+- No likelihood, sampler or cosmological calculation was executed.
+- The paper's linked resources were not downloaded or independently audited; this is not a complete survey of later dark-energy analyses.
+
+<details>
+<summary>Search queries</summary>
+
+- "DESI DR2" "dark energy" cosmological constraints arxiv 2025
+
+
+</details>
 
 <details>
 <summary>Structured records</summary>

@@ -2,28 +2,28 @@
 
 Choose a subject, then open a question to read its statement, sources and evidence limits. A **full card** also gives assumptions, possible methods, resource needs and a checking plan. You can browse and contribute through GitHub without installing anything.
 
-**16 main domains · 113 subjects and subfields · 427 source records · 552 candidate records · 45 full cards.** The cards are included in the 552 candidates.
+**16 main domains · 113 subjects and subfields · 457 source records · 552 candidate records · 45 full cards.** The cards are included in the 552 candidates.
 
 ## Choose a domain
 
 | Domain | Research sources | Questions | Full cards |
 | --- | --- | --- | --- |
-| [Mathematics](domains/math.md) | 112 | 158 | 9 |
-| [Logic and foundations](domains/logic.md) | 14 | 24 | 1 |
-| [Theoretical computer science](domains/cs.md) | 154 | 112 | 6 |
-| [Probability theory](domains/prob.md) | 32 | 15 | 1 |
+| [Mathematics](domains/math.md) | 117 | 158 | 9 |
+| [Logic and foundations](domains/logic.md) | 18 | 24 | 1 |
+| [Theoretical computer science](domains/cs.md) | 160 | 112 | 6 |
+| [Probability theory](domains/prob.md) | 35 | 15 | 1 |
 | [Statistical and learning theory](domains/stat.md) | 31 | 19 | 2 |
-| [Information and coding theory](domains/info.md) | 33 | 26 | 7 |
-| [Theoretical physics](domains/phys.md) | 47 | 30 | 6 |
-| [Mathematical physics](domains/mphy.md) | 18 | 19 | 1 |
-| [Theoretical chemistry and materials](domains/chem.md) | 12 | 22 | 1 |
-| [Theoretical biology](domains/bio.md) | 17 | 29 | 1 |
-| [Economics and game theory](domains/econ.md) | 23 | 22 | 4 |
-| [Networks and complex systems](domains/net.md) | 14 | 12 | 2 |
-| [Earth, climate and environmental theory](domains/earth.md) | 7 | 20 | 1 |
-| [Astrophysics and cosmology theory](domains/astro.md) | 18 | 20 | 1 |
-| [Control and theoretical engineering](domains/eng.md) | 13 | 13 | 1 |
-| [Formal cognition and language](domains/cog.md) | 12 | 11 | 1 |
+| [Information and coding theory](domains/info.md) | 35 | 26 | 7 |
+| [Theoretical physics](domains/phys.md) | 49 | 30 | 6 |
+| [Mathematical physics](domains/mphy.md) | 24 | 19 | 1 |
+| [Theoretical chemistry and materials](domains/chem.md) | 14 | 22 | 1 |
+| [Theoretical biology](domains/bio.md) | 20 | 29 | 1 |
+| [Economics and game theory](domains/econ.md) | 25 | 22 | 4 |
+| [Networks and complex systems](domains/net.md) | 15 | 12 | 2 |
+| [Earth, climate and environmental theory](domains/earth.md) | 8 | 20 | 1 |
+| [Astrophysics and cosmology theory](domains/astro.md) | 19 | 20 | 1 |
+| [Control and theoretical engineering](domains/eng.md) | 16 | 13 | 1 |
+| [Formal cognition and language](domains/cog.md) | 13 | 11 | 1 |
 
 Use your browser's **Find** command to look for a term on the current page. Expand any collapsed section you want to search.
 
