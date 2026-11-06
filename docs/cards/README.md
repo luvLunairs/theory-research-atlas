@@ -684,7 +684,7 @@ The front-door formula can identify an intervention effect even with hidden conf
 
 When missing bits leave no position markers, even the maximum reliable information rate is unknown. The half-deletion case provides a fixed parameter at which stronger bounds would be useful.
 
-**Status:** Source reports open; checked 2026-10-20. **Assessment evidence:** Untested forecast.
+**Status:** Source reports open; checked 2026-11-06. **Assessment evidence:** Untested forecast.
 
 **Background:** Information theory and coding theorems; Entropy rates and finite-state processes; Rigorous numerical bounds and exact certificate arithmetic.
 

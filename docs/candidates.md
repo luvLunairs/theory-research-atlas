@@ -15,7 +15,7 @@ Use this index to compare targets and their evidence status. **552 records inclu
 | Task | Primary branch | Difficulty | Current status | Details |
 | --- | --- | --- | --- | --- |
 | [Determine the four-color triangle Ramsey number R(3,3,3,3)](#q-math-003) | [Extremal and Ramsey theory](domains/math.md#math-comb-ext) | High | Open after scoped check | [Full card](cards/Q-MATH-003.md) |
-| [Determine the two-color Ramsey number R(5,5)](#q-math-004) | [Extremal and Ramsey theory](domains/math.md#math-comb-ext) | Unknown | Source reports open | Outline |
+| [Determine the two-color Ramsey number R(5,5)](#q-math-004) | [Extremal and Ramsey theory](domains/math.md#math-comb-ext) | Unknown | Open after scoped check | Outline |
 | [Deterministic polynomial-time dense factorization over finite fields](#q-math-005) | [Algebra](domains/math.md#math-alg) | Unknown | Source reports open | Outline |
 | [Sparse finite-field trinomial root decision](#q-math-006) | [Algebra](domains/math.md#math-alg) | Unknown | Source reports open | Outline |
 | [Classify when polynomial convexity implies SOS-convexity](#q-math-007) | [Optimization and operations research](domains/math.md#math-opt) | Unknown | Reported resolved | Outline |
@@ -308,7 +308,7 @@ Use this index to compare targets and their evidence status. **552 records inclu
 | [A positive local presentation for all braid half-twists](#q-math-504) | [Low-dimensional topology](domains/math.md#math-top-low) | Unknown | Source reports open | Outline |
 | [Uniformly efficient exact curve-complex distance](#q-math-505) | [Low-dimensional topology](domains/math.md#math-top-low) | Unknown | Source reports open | Outline |
 | [Computability of Hempel distance](#q-math-506) | [Low-dimensional topology](domains/math.md#math-top-low) | Unknown | Source reports open | Outline |
-| [Quadratic bounds for one-intersection curve systems](#q-math-507) | [Low-dimensional topology](domains/math.md#math-top-low) | Unknown | Source reports open | Outline |
+| [Quadratic bounds for one-intersection curve systems](#q-math-507) | [Low-dimensional topology](domains/math.md#math-top-low) | Unknown | Unverified | Outline |
 | [Surgery equivalence of embedded surface graphs](#q-math-508) | [Low-dimensional topology](domains/math.md#math-top-low) | Unknown | Source reports open | Outline |
 | [The square peg problem for arbitrary Jordan curves](#q-math-509) | [Geometry](domains/math.md#math-geom) | High | Source reports open | Outline |
 | [An affine regular hexagon on every Jordan curve](#q-math-510) | [Geometry](domains/math.md#math-geom) | Unknown | Source reports open | Outline |
@@ -349,14 +349,14 @@ Use this index to compare targets and their evidence status. **552 records inclu
 | [Quadratic-time sorting of pairwise sums](#q-formal-420) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
 | [Vertex unfolding of nonsimplicial polyhedra](#q-formal-421) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
 | [General unfolding of nonconvex polyhedra](#q-formal-422) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Source reports open | Outline |
-| [Linear-size universal point sets for planar straight-line drawings](#q-formal-423) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
+| [Linear-size universal point sets for planar straight-line drawings](#q-formal-423) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Source reports open | Outline |
 | [Two-bend orthogonal drawings of maximum-degree-six graphs](#q-formal-424) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
 | [Complexity of planar Euclidean maximum TSP](#q-formal-425) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
 | [Complexity of planar Euclidean maximum-scatter TSP](#q-formal-426) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
 | [Minimum-turn tours in solid grid graphs](#q-formal-427) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
 | [Shortest tours in solid grid graphs](#q-formal-428) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
 | [Complexity of pallet loading with a compact input](#q-formal-429) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
-| [Logarithmic-time fully dynamic planar nearest neighbors](#q-formal-430) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
+| [Logarithmic-time fully dynamic planar nearest neighbors](#q-formal-430) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Source reports open | Outline |
 | [Edge unfolding of genus-zero polycubes](#q-formal-431) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
 | [Complexity of rolling a die across a fully labelled rectangle](#q-formal-432) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
 | [Possibly crossing isosceles drawings of triangulations](#q-formal-433) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
@@ -475,7 +475,7 @@ Use this index to compare targets and their evidence status. **552 records inclu
 | [Strong proportionality with candidate monotonicity](#q-model-441) | [Social choice and collective decisions](domains/econ.md#econ-social) | High | Unverified | Outline |
 | [Parallel-universe tiebreaking in committee rules](#q-model-442) | [Social choice and collective decisions](domains/econ.md#econ-social) | High | Unverified | Outline |
 | [Reverse sequential PAV approximation factor](#q-model-443) | [Social choice and collective decisions](domains/econ.md#econ-social) | High | Unverified | Outline |
-| [Winner computation on voter-interval approval domains](#q-model-444) | [Social choice and collective decisions](domains/econ.md#econ-social) | High | Unverified | Outline |
+| [Winner computation on voter-interval approval domains](#q-model-444) | [Social choice and collective decisions](domains/econ.md#econ-social) | Unknown | Unverified | Outline |
 | [Parallel complexity of polynomial-time committee rules](#q-model-445) | [Social choice and collective decisions](domains/econ.md#econ-social) | Unknown | Reported resolved | Outline |
 | [Exchange-orbit approach to the Hill-stability threshold](#q-model-446) | [Celestial dynamics](domains/astro.md#astro-dyn) | High | Unverified | Outline |
 | [Transit orbits throughout barbell Hill regions](#q-model-447) | [Celestial dynamics](domains/astro.md#astro-dyn) | High | Unverified | Outline |
@@ -599,7 +599,7 @@ Each record has its own page with the statement, source locator, information gap
 
 <a id="q-math-004"></a>
 
-[Q-MATH-004 · Determine the two-color Ramsey number R(5,5)](candidates/Q-MATH-004.md) — Source reports open.
+[Q-MATH-004 · Determine the two-color Ramsey number R(5,5)](candidates/Q-MATH-004.md) — Open after scoped check.
 
 <a id="q-math-005"></a>
 
@@ -1907,7 +1907,7 @@ Each record has its own page with the statement, source locator, information gap
 
 <a id="q-math-507"></a>
 
-[Q-MATH-507 · Quadratic bounds for one-intersection curve systems](candidates/Q-MATH-507.md) — Source reports open.
+[Q-MATH-507 · Quadratic bounds for one-intersection curve systems](candidates/Q-MATH-507.md) — Unverified.
 
 <a id="q-math-508"></a>
 
@@ -2071,7 +2071,7 @@ Each record has its own page with the statement, source locator, information gap
 
 <a id="q-formal-423"></a>
 
-[Q-FORMAL-423 · Linear-size universal point sets for planar straight-line drawings](candidates/Q-FORMAL-423.md) — Unverified.
+[Q-FORMAL-423 · Linear-size universal point sets for planar straight-line drawings](candidates/Q-FORMAL-423.md) — Source reports open.
 
 <a id="q-formal-424"></a>
 
@@ -2099,7 +2099,7 @@ Each record has its own page with the statement, source locator, information gap
 
 <a id="q-formal-430"></a>
 
-[Q-FORMAL-430 · Logarithmic-time fully dynamic planar nearest neighbors](candidates/Q-FORMAL-430.md) — Unverified.
+[Q-FORMAL-430 · Logarithmic-time fully dynamic planar nearest neighbors](candidates/Q-FORMAL-430.md) — Source reports open.
 
 <a id="q-formal-431"></a>
 

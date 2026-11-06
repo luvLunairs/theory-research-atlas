@@ -1817,11 +1817,11 @@
     "difficulty_basis": "The finite Markov chain is explicit, but a statement for every population size needs structure beyond finite enumeration.",
     "ai_role": "A tool-using assistant could derive exact recurrences, search for potential functions and generate independently checkable symbolic identities.",
     "verification_burden": "high",
-    "verification_basis": "Check the update order, null updates, initial partition and the recurrence proof; simulations do not establish an asymptotic theorem.",
+    "verification_basis": "Check an exact hitting-time argument for all n>=1, including null updates, all-distinct initial labels and N=n+1. A cubic asymptotic or simulation is not the requested formula.",
     "resource_expectation": "Experiment: none for the stated mathematical model. Data: public definitions and any generated certificates. Computation: small examples may fit ordinary hardware; the general proof has no defensible runtime or cost estimate. Mathematical validity would not establish empirical adequacy.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-06",
     "evidence_level": "untested_forecast",
-    "uncertainty": "No named model was evaluated. This is a method-based forecast, not a measured success rate; a narrower task and a specialist literature check are required before a research attempt."
+    "uncertainty": "The source and time convention are confirmed. No named model was tested, and the limited search cannot establish present openness conclusively."
   },
   {
     "problem_id": "Q-MODEL-302",
@@ -1905,7 +1905,7 @@
     "resource_expectation": "Experiment: none for the stated mathematical model. Data: public definitions and any generated certificates. Computation: small examples may fit ordinary hardware; the general proof has no defensible runtime or cost estimate. Mathematical validity would not establish empirical adequacy. Large state-space truncations may consume substantial memory and introduce uncontrolled boundary artifacts.",
     "assessment_date": "2026-10-14",
     "evidence_level": "untested_forecast",
-    "uncertainty": "No named model was evaluated. This is a method-based forecast, not a measured success rate; a narrower task and a specialist literature check are required before a research attempt."
+    "uncertainty": "The two-species claim is an announcement with a manuscript still listed as in preparation. The arbitrary-dimensional target remains source-reported open; proof availability and later progress require rechecking."
   },
   {
     "problem_id": "Q-MODEL-309",
@@ -2082,10 +2082,10 @@
     "ai_role": "An assistant could derive consistency relations and compare declared model predictions against existing public data with specialist statistical review.",
     "verification_burden": "high",
     "verification_basis": "Need stable perturbations, independent datasets and sensitivity to nuisance assumptions; a symbolic Friedmann solution is only conditional.",
-    "resource_expectation": "Experiment: model construction and symbolic consistency checks can use existing knowledge; selecting the actual physical mechanism requires existing or future advanced experiments/observations. Data: dated public exclusion likelihoods and parameter constraints. Computation: analytic work may be modest, while global fits, lattice calculations or parameter scans can be expensive and are unbudgeted.",
+    "resource_expectation": "Experiment: theoretical consistency checks and reanalysis can begin with existing observations; identifying the physical mechanism may require further observations. Data: the DESI paper links public likelihood resources and supernova data, which must be versioned and checked for overlap. Computation: the cited analysis uses Cobaya/CAMB and sampling; no runtime or budget has been measured here.",
     "assessment_date": "2026-10-14",
     "evidence_level": "untested_forecast",
-    "uncertainty": "No AI capability or novelty was measured. This is a literature-defined scientific question, not a unique theorem with a universally agreed success test; any proposed model needs a separate hypothesis, consistency and empirical review."
+    "uncertainty": "No AI capability, novelty or empirical mechanism was established. A new analysis requires a defined model and a separate statistical and physical review."
   },
   {
     "problem_id": "Q-MODEL-324",
@@ -2141,9 +2141,9 @@
     "difficulty_basis": "The general formulation requires specialist control or operator theory, and local computations do not settle the universal claim.",
     "ai_role": "AI could compare module-theoretic criteria and verify small symbolic examples. This assumes a system capable of reading the relevant literature, writing reproducible code and exposing its calculations for specialist review.",
     "verification_burden": "high",
-    "verification_basis": "Check all hypotheses, global quantifiers and any exact certificates independently; simulated stability alone is insufficient.",
+    "verification_basis": "Check the smooth function space, both trajectory quantifiers and the uniform transition time. Symbolic examples cannot establish a universal characterization or an algorithm termination claim.",
     "resource_expectation": "No physical experiment or observational dataset is needed for the mathematical claim. Symbolic work and small simulations can start on ordinary hardware; general certification or global optimization may be expensive and has not been budgeted.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-06",
     "evidence_level": "untested_forecast",
     "uncertainty": "No model-specific attempt has been run. Later results, a more precise formulation and expert assessment may substantially change difficulty and relevance."
   },
@@ -2225,9 +2225,9 @@
     "difficulty_basis": "The general formulation requires specialist control or operator theory, and local computations do not settle the universal claim.",
     "ai_role": "AI could derive low-order analytic bounds and certify optimization calculations. This assumes a system capable of reading the relevant literature, writing reproducible code and exposing its calculations for specialist review.",
     "verification_burden": "high",
-    "verification_basis": "Check all hypotheses, global quantifiers and any exact certificates independently; simulated stability alone is insufficient.",
+    "verification_basis": "Verify internal stability for the whole delay interval and certify the distance to the all-controller supremum. Bisection convergence for a sufficient test and simulation over a delay grid do not provide that certificate.",
     "resource_expectation": "No physical experiment or observational dataset is needed for the mathematical claim. Symbolic work and small simulations can start on ordinary hardware; general certification or global optimization may be expensive and has not been budgeted.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-06",
     "evidence_level": "untested_forecast",
     "uncertainty": "No model-specific attempt has been run. Later results, a more precise formulation and expert assessment may substantially change difficulty and relevance."
   },
@@ -2261,9 +2261,9 @@
     "difficulty_basis": "The general formulation requires specialist control or operator theory, and local computations do not settle the universal claim.",
     "ai_role": "AI could search extremals and verify symbolic necessary conditions, with human review of global optimality. This assumes a system capable of reading the relevant literature, writing reproducible code and exposing its calculations for specialist review.",
     "verification_burden": "high",
-    "verification_basis": "Check all hypotheses, global quantifiers and any exact certificates independently; simulated stability alone is insufficient.",
+    "verification_basis": "Match the state space, endpoint conditions and acceleration constraint, then prove global minimality. Necessary extremal equations and numerically truncated switching sequences are insufficient.",
     "resource_expectation": "No physical experiment or observational dataset is needed for the mathematical claim. Symbolic work and small simulations can start on ordinary hardware; general certification or global optimization may be expensive and has not been budgeted.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-06",
     "evidence_level": "untested_forecast",
     "uncertainty": "No model-specific attempt has been run. Later results, a more precise formulation and expert assessment may substantially change difficulty and relevance."
   },
@@ -2358,10 +2358,10 @@
     "ai_role": "AI could derive transport-age equations and compare analytically tractable mixing models. This assumes a system capable of reading the relevant literature, writing reproducible code and exposing its calculations for specialist review.",
     "verification_burden": "high",
     "verification_basis": "Check formal deductions and numerical convergence separately from empirical fit, identifiability and causal interpretation. A good fit alone cannot identify the mechanism.",
-    "resource_expectation": "Model analysis can begin without new experiments. Simulations or existing data may need substantial computing. Data access, licenses, preprocessing and representativeness remain unaudited; empirical conclusions may require additional observations or complex experiments.",
+    "resource_expectation": "Existing-data work is possible. The paper links public Upper Hafren data (10.16904/envidat.82) and analysis code (10.16904/envidat.182 and 10.16904/envidat.529); Erlenbach data require a request to the authors. No request was made. Generalization may require further tracer observations, and computation and data preparation remain unbudgeted.",
     "assessment_date": "2026-10-14",
     "evidence_level": "untested_forecast",
-    "uncertainty": "No model-specific attempt has been run. Later results, a more precise formulation and expert assessment may substantially change difficulty and relevance."
+    "uncertainty": "Two observed catchments do not establish a universal mechanism. No dataset, code or empirical result was independently reproduced."
   },
   {
     "problem_id": "Q-CROSS-421",
@@ -2525,9 +2525,9 @@
     "difficulty_basis": "The target involves model choice, competing mechanisms or extrapolation; a narrow instance may be manageable, but the full research direction has no established cost bound.",
     "ai_role": "AI could derive phase reductions and identify observationally equivalent models. This assumes a system capable of reading the relevant literature, writing reproducible code and exposing its calculations for specialist review.",
     "verification_burden": "high",
-    "verification_basis": "Check formal deductions and numerical convergence separately from empirical fit, identifiability and causal interpretation. A good fit alone cannot identify the mechanism.",
+    "verification_basis": "Check the specified representation and observation assumptions, then verify any formal equivalence or distinguishing criterion. Keep empirical mechanism claims separate from reduced-model terms.",
     "resource_expectation": "Model analysis can begin without new experiments. Simulations or existing data may need substantial computing. Data access, licenses, preprocessing and representativeness remain unaudited; empirical conclusions may require additional observations or complex experiments.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-06",
     "evidence_level": "untested_forecast",
     "uncertainty": "No model-specific attempt has been run. Later results, a more precise formulation and expert assessment may substantially change difficulty and relevance."
   },
@@ -2561,9 +2561,9 @@
     "difficulty_basis": "The target involves model choice, competing mechanisms or extrapolation; a narrow instance may be manageable, but the full research direction has no established cost bound.",
     "ai_role": "AI could derive identifiability limits and compare estimators on synthetic contagion data. This assumes a system capable of reading the relevant literature, writing reproducible code and exposing its calculations for specialist review.",
     "verification_burden": "high",
-    "verification_basis": "Check formal deductions and numerical convergence separately from empirical fit, identifiability and causal interpretation. A good fit alone cannot identify the mechanism.",
-    "resource_expectation": "Model analysis can begin without new experiments. Simulations or existing data may need substantial computing. Data access, licenses, preprocessing and representativeness remain unaudited; empirical conclusions may require additional observations or complex experiments.",
-    "assessment_date": "2026-10-14",
+    "verification_basis": "Specify observable information and nuisance heterogeneity, compare with cited successful settings, and distinguish simulated pattern separation from identifiable real-world transmission mechanisms.",
+    "resource_expectation": "Formal comparisons and synthetic simulations can begin without new experiments. The primary article links SocioPatterns contact data and analysis code; access, licensing and reproducibility were not audited. Empirical identification may require additional contact or exposure observations.",
+    "assessment_date": "2026-11-06",
     "evidence_level": "untested_forecast",
     "uncertainty": "No model-specific attempt has been run. Later results, a more precise formulation and expert assessment may substantially change difficulty and relevance."
   },
@@ -2667,13 +2667,13 @@
     "problem_id": "Q-CROSS-446",
     "difficulty": "high",
     "difficulty_basis": "The target involves model choice, competing mechanisms or extrapolation; a narrow instance may be manageable, but the full research direction has no established cost bound.",
-    "ai_role": "AI could analyze recurrent-state mechanisms and compare memory-capacity predictions. This assumes a system capable of reading the relevant literature, writing reproducible code and exposing its calculations for specialist review.",
+    "ai_role": "Compare a selected sensory-memory model with the published feature-based behavioral baseline, then make its delay-task and validation target explicit.",
     "verification_burden": "high",
     "verification_basis": "Check formal deductions and numerical convergence separately from empirical fit, identifiability and causal interpretation. A good fit alone cannot identify the mechanism.",
-    "resource_expectation": "Model analysis can begin without new experiments. Simulations or existing data may need substantial computing. Data access, licenses, preprocessing and representativeness remain unaudited; empirical conclusions may require additional observations or complex experiments.",
-    "assessment_date": "2026-10-14",
+    "resource_expectation": "The 2024 paper links human behavioral data, analysis code and a Zenodo release. Reuse may support a bounded modeling study without new experiments, but licenses, runtime and replication were not audited. Neural-mechanism claims may require further recordings.",
+    "assessment_date": "2026-11-06",
     "evidence_level": "untested_forecast",
-    "uncertainty": "No model-specific attempt has been run. Later results, a more precise formulation and expert assessment may substantially change difficulty and relevance."
+    "uncertainty": "A useful published baseline exists; it does not turn the broad 2016 program into a uniquely specified open problem. No project model evaluation or empirical replication was run."
   },
   {
     "problem_id": "Q-CROSS-447",
@@ -2921,11 +2921,11 @@
     "difficulty_basis": "The statement is source-located, but a current difficulty assessment and comparison with the latest partial results have not been completed. A simple formulation is not evidence of tractability.",
     "ai_role": "After checking current status, AI with the relevant mathematical background and tools could derive generator identities and candidate joint densities for independent analytic checking. Specialist review remains necessary; no named model has been evaluated.",
     "verification_burden": "high",
-    "verification_basis": "An asymptotic, distributional or mixing claim needs an analytic proof with the model and limit fixed. Simulations and exact small-instance computations are evidence only.",
+    "verification_basis": "Verify the proposed law under the source's generator and its finite-k consistency. Existence or uniqueness alone does not provide the requested explicit law.",
     "resource_expectation": "No physical experiment or empirical dataset is required. Literature review and proof development are the principal tasks. Any exact search, simulation or symbolic calculation needs an explicit finite scope; its compute and memory requirements have not been estimated.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-06",
     "evidence_level": "untested_forecast",
-    "uncertainty": "Current resolution status, practical resource needs and AI usefulness remain unmeasured. The source's existence claim and boundary regularity conditions have not been independently proved here."
+    "uncertainty": "The source's qualitative uniqueness assertion was read but not independently proved. Present resolution status and computational cost remain unestablished."
   },
   {
     "problem_id": "Q-MATH-420",
@@ -2981,11 +2981,11 @@
     "difficulty_basis": "The statement is source-located, but a current difficulty assessment and comparison with the latest partial results have not been completed. A simple formulation is not evidence of tractability.",
     "ai_role": "After checking current status, AI with the relevant mathematical background and tools could evaluate exact finite Poisson-cycle formulas and seek a coupling or injection. Specialist review remains necessary; no named model has been evaluated.",
     "verification_burden": "high",
-    "verification_basis": "An asymptotic, distributional or mixing claim needs an analytic proof with the model and limit fixed. Simulations and exact small-instance computations are evidence only.",
+    "verification_basis": "A proof must compare consecutive integers for the exact limiting probabilities. The inspected asymptotic theorem does not itself state this inequality.",
     "resource_expectation": "No physical experiment or empirical dataset is required. Literature review and proof development are the principal tasks. Any exact search, simulation or symbolic calculation needs an explicit finite scope; its compute and memory requirements have not been estimated.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-06",
     "evidence_level": "untested_forecast",
-    "uncertainty": "Current resolution status, practical resource needs and AI usefulness remain unmeasured. The 2025 asymptotic announcement is not a proof of monotonicity; subsequent work on this separate question remains unchecked."
+    "uncertainty": "The announced asymptotic now has a primary manuscript. No separate monotonicity resolution was established; the manuscript's proof and any numerical exploration were not independently audited."
   },
   {
     "problem_id": "Q-MATH-425",
@@ -3963,13 +3963,13 @@
     "problem_id": "Q-MATH-507",
     "difficulty": "unknown",
     "difficulty_basis": "The statement is source-located, but a current difficulty assessment and comparison with the latest partial results have not been completed. A simple formulation is not evidence of tractability.",
-    "ai_role": "After checking current status, AI with the relevant mathematical background and tools could search intersection-pattern constructions and audit combinatorial upper-bound losses. Specialist review remains necessary; no named model has been evaluated.",
+    "ai_role": "Assess the revised preprint argument and its later reception before treating the quadratic-order target as an open research problem.",
     "verification_burden": "high",
     "verification_basis": "A general proof or classification needs expert checking of hypotheses, reductions and completeness. A finite construction can support a restricted result only unless it certifies a counterexample to the exact statement.",
     "resource_expectation": "No physical experiment or empirical dataset is required. Literature review and proof development are the principal tasks. Any exact search, simulation or symbolic calculation needs an explicit finite scope; its compute and memory requirements have not been estimated.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-06",
     "evidence_level": "untested_forecast",
-    "uncertainty": "Current resolution status, practical resource needs and AI usefulness remain unmeasured. This is distinct from the maximum number of systoles for one hyperbolic metric."
+    "uncertainty": "The revised resolution claim has not been independently assessed by the project. No model has been evaluated on it."
   },
   {
     "problem_id": "Q-MATH-508",
@@ -4719,11 +4719,11 @@
     "problem_id": "Q-FORMAL-445",
     "difficulty": "unknown",
     "difficulty_basis": "The source identifies an unresolved research target; its present difficulty has not been independently assessed.",
-    "ai_role": "After the statistical model is recovered, help manipulate risk bounds, compare lower-bound constructions and design simulations that challenge proposed assumptions. Simulation does not establish minimax optimality.",
+    "ai_role": "Compare the epsilon dependence of known functionals and explicit reference distributions; clarify the desired functional class before attempting a characterization.",
     "verification_burden": "high",
-    "verification_basis": "Upper and lower bounds must use identical distribution classes, loss, privacy or oracle conditions and quantifiers; statistical counterexamples need exact arguments.",
+    "verification_basis": "Use one fixed finite-domain model, independent samples and the same epsilon in matching upper and lower bounds. Constant-factor rescaling of epsilon need not preserve a constant-factor sample bound.",
     "resource_expectation": "The formal target needs no new physical experiment. Simulations may use synthetic samples; necessary sample counts and computational costs have not been estimated.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-06",
     "evidence_level": "untested_forecast",
     "uncertainty": "No model has been tested. Current status, useful subcases and feasible computational scale require further review."
   },
@@ -4731,11 +4731,11 @@
     "problem_id": "Q-FORMAL-446",
     "difficulty": "unknown",
     "difficulty_basis": "The source identifies an unresolved research target; its present difficulty has not been independently assessed.",
-    "ai_role": "After the statistical model is recovered, help manipulate risk bounds, compare lower-bound constructions and design simulations that challenge proposed assumptions. Simulation does not establish minimax optimality.",
+    "ai_role": "Compare the truncated two-thirds quasinorm and K-functional directly, recording exact truncation and epsilon parameters in any proposed inequalities.",
     "verification_burden": "high",
-    "verification_basis": "Upper and lower bounds must use identical distribution classes, loss, privacy or oracle conditions and quantifiers; statistical counterexamples need exact arguments.",
+    "verification_basis": "Verify both directions against the displayed bounds, including endpoint and concentrated-distribution cases. A new testing reduction is not the requested direct comparison.",
     "resource_expectation": "The formal target needs no new physical experiment. Simulations may use synthetic samples; necessary sample counts and computational costs have not been estimated.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-06",
     "evidence_level": "untested_forecast",
     "uncertainty": "No model has been tested. Current status, useful subcases and feasible computational scale require further review."
   },
@@ -5457,7 +5457,7 @@
     "resource_expectation": "Analytic work may use a workstation for symbolic or spectral exploration. Numerical spectra cannot establish infinite-dimensional or uniform bounds.",
     "assessment_date": "2026-10-14",
     "evidence_level": "untested_forecast",
-    "uncertainty": "Specify the closed operator realization and meaning of completeness; check later results for the small-α regime."
+    "uncertainty": "The previous endpoint-only summary understated the cited progress. Completeness, basis properties and full-line boundary conditions remain distinct; no AI success estimate has been measured."
   },
   {
     "problem_id": "Q-MODEL-402",
@@ -5517,7 +5517,7 @@
     "resource_expectation": "Analytic work may use a workstation for symbolic or spectral exploration. Numerical spectra cannot establish infinite-dimensional or uniform bounds.",
     "assessment_date": "2026-10-14",
     "evidence_level": "untested_forecast",
-    "uncertainty": "Clarify uniformity in A and constants C(ε), eigenvalue multiplicities and later endpoint results."
+    "uncertainty": "The uniform constant and eigenvalue multiplicity are now explicit. Known numerical-range and interval-spectrum estimates do not settle the general endpoint; a specialist status check remains necessary."
   },
   {
     "problem_id": "Q-MODEL-407",
@@ -5745,7 +5745,7 @@
     "resource_expectation": "Proof work and small electronic examples may fit a workstation; accurate correlated-electron reference calculations can be expensive. No general resource bound is established.",
     "assessment_date": "2026-10-14",
     "evidence_level": "untested_forecast",
-    "uncertainty": "Energy-density gauge must be fixed; the source already discusses local violations, so the task is consequences and validity conditions, not universal pointwise truth."
+    "uncertainty": "The gauge and target consequence still need specification for an individual attempt. Local and integrated bounds are separate; the entry does not ask for universal local validity."
   },
   {
     "problem_id": "Q-MODEL-426",
@@ -5861,9 +5861,9 @@
     "difficulty_basis": "The target quantifies over unrestricted approval profiles or asks for a general algorithmic guarantee.",
     "ai_role": "A directly relevant resolution claim exists. AI could assist specialist comparison of definitions, dependencies and proof steps; reviewing the claim takes priority over treating the target as untouched.",
     "verification_burden": "high",
-    "verification_basis": "Independent expert review of the claim is needed. Abstracts, model confidence, producer checks and publication metadata alone do not verify a proof.",
+    "verification_basis": "Check the X3C reduction as a search-hardness argument for fixed-size committees, the unrestricted profile domain, approval-count Pareto dominance and the PJR-to-JR implication. The author's verification is not independent project review.",
     "resource_expectation": "Exact small-election searches may use SAT or integer programming on a workstation. Exhaustive instance size grows quickly; general claims require proofs or independently checked counterexamples.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-06",
     "evidence_level": "untested_forecast",
     "uncertainty": "No named model has been evaluated. This forecasts conditional assistance with literature and proof review, not measured capability or a probability that the claim is correct."
   },
@@ -5965,15 +5965,15 @@
   },
   {
     "problem_id": "Q-MODEL-444",
-    "difficulty": "high",
-    "difficulty_basis": "The target quantifies over unrestricted approval profiles or asks for a general algorithmic guarantee.",
-    "ai_role": "A tool-using AI could explore interval dynamic programs and identify state-size barriers. This is a forecast; no named model has been evaluated on the task.",
+    "difficulty": "unknown",
+    "difficulty_basis": "The Thiele component has a polynomial-time algorithm. A difficulty estimate for the separate Monroe target requires a current status review.",
+    "ai_role": "Start from the existing Thiele algorithm and its exact domain assumptions. Treat algorithm reproduction as known-result work and review the separate Monroe literature before claiming a new solution.",
     "verification_burden": "high",
-    "verification_basis": "Check the precise voting axioms, quantifiers, tie handling and input encoding. A counterexample can be checked independently; a rule or complexity claim needs a uniform proof.",
+    "verification_basis": "Separate the two voting rules, verify interval recognition and weight encoding, and compare any proposed algorithm against the existing generalized-Thiele result.",
     "resource_expectation": "Exact small-election searches may use SAT or integer programming on a workstation. Exhaustive instance size grows quickly; general claims require proofs or independently checked counterexamples.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-06",
     "evidence_level": "untested_forecast",
-    "uncertainty": "The weight sequence representation and supplied interval ordering matter; later algorithms may settle subclasses."
+    "uncertainty": "The Thiele component has an explicit algorithm and later scholarly uptake. The Monroe component and complete algorithm proof remain outside this curation check; no project model test was run."
   },
   {
     "problem_id": "Q-MODEL-445",
@@ -6045,7 +6045,7 @@
     "resource_expectation": "Symbolic reductions and orbit exploration may use a workstation. Rigorous existence or global classifications require proof and possibly validated numerics; simulated trajectories alone are insufficient.",
     "assessment_date": "2026-10-14",
     "evidence_level": "untested_forecast",
-    "uncertainty": "The source records small-n and alternative-potential results; modern counterexamples, degeneracies and hypotheses must be checked."
+    "uncertainty": "The rank in the cited theorem is that of the configuration for almost every time, not simply the ambient dimension. The original general statement remains unverified."
   },
   {
     "problem_id": "Q-MODEL-451",
@@ -6282,10 +6282,10 @@
     "ai_role": "A tool-using AI could study return-map estimates and orbit accumulation constraints. This is a forecast; no named model has been evaluated on the task.",
     "verification_burden": "high",
     "verification_basis": "Review gauge, initial-data class, causal and asymptotic definitions, regularity and PDE estimates. Numerical evolution is evidence within its discretization and cannot establish a generic continuum theorem.",
-    "resource_expectation": "Special cases may permit symbolic analysis or workstation calculations. General nonlinear PDE results require expert proof review, and numerical-relativity exploration may require substantial computing.",
+    "resource_expectation": "This spatially homogeneous problem is a constrained dynamical system. Analytic work and exploratory ODE calculations may use ordinary hardware; validated asymptotic estimates, rather than general numerical-relativity simulations, are the relevant verification challenge. No resource measurement was made.",
     "assessment_date": "2026-10-14",
     "evidence_level": "untested_forecast",
-    "uncertainty": "Vacuum or fluid assumptions and the attractor/genericity definitions require explicit selection; later dynamical-systems results need checking."
+    "uncertainty": "The exact original attractor formulation still requires reconciliation. The new preprint's parameter range excludes GR and its proof has not been independently reviewed."
   },
   {
     "problem_id": "Q-MODEL-471",
@@ -6447,13 +6447,13 @@
     "problem_id": "Q-MODEL-484",
     "difficulty": "high",
     "difficulty_basis": "The source asks for a uniform algorithmic or combinatorial result on an entire family of network spaces.",
-    "ai_role": "A tool-using AI could inspect small order complexes and attempt a source-compatible labeling or explicit obstruction. This is a forecast; no named model has been evaluated on the task.",
+    "ai_role": "Compare the published T(X) definition with the cactus labeling and isolate which proof steps use cactus structure before proposing a tree-child labeling or obstruction.",
     "verification_burden": "high",
     "verification_basis": "Use the source's exact move or poset definitions. Independently check finite witnesses and algorithm steps; polynomial complexity or shellability across leaf counts requires proof.",
     "resource_expectation": "Small exact graph instances can be explored on a workstation; distances and poset size may grow rapidly. General algorithmic or shellability claims require proof, not exhaustive checks at a few leaf counts.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-06",
     "evidence_level": "untested_forecast",
-    "uncertainty": "The precise order complex and boundedness conventions must follow the source; later results for trees or ranked cactus networks may not transfer."
+    "uncertainty": "A related 2026 theorem is available, but its proof does not supply a tree-child answer. No model-specific capability test or proof audit has been run."
   },
   {
     "problem_id": "Q-MODEL-485",

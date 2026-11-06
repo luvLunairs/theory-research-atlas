@@ -10,25 +10,26 @@ Determine the least N such that every red/blue coloring of the edges of K_N has 
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Source reports open. **Last checked:** 2026-10-13.
+**Current status:** Open after scoped check. **Last checked:** 2026-11-06.
 
-**Status basis:** The 2026 survey gives a gap and discusses a conjectured exact value. A separate current-status review remains outstanding.
+**Status basis:** Radziszowski's April 2026 survey and Angeltveit-McKay v2 give 43 <= R(5,5) <= 46. The scoped update search found no accepted exact value. The conjectured value 43 is not established.
 
-**Statement check:** Source located. **Status check:** Source report only.
+**Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** Recorded source years: SRC-MATH-001: 2026. The last-checked date records the scope described in the status basis; it is not a comprehensive literature-search date.
+**Source date and freshness:** DS1.18: 24 April 2026, versioned PDF inspected; upper-bound preprint v2: 1 September 2025.
 
-**Scope limits:** The statement and locator identify the candidate. A full assumption set and verification protocol remain to be documented.
+**Scope limits:** Compared the precise two-color target with the primary upper-bound paper and the versioned 2026 survey. A valid coloring is a lower-bound witness; an upper bound requires complete exclusion.
 
 **Information still needed**
 
-- Specify the assumptions, candidate methods, resource requirements and independent verification steps for a concrete research task.
+- Check all current bounds again before claiming an improvement.
+- An exhaustive upper-bound computation needs complete case coverage and independently reproducible certificates.
 
 **Primary branch:** [Extremal and Ramsey theory](../domains/math.md#math-comb-ext). **Related branches:** [Algorithms and data structures](../domains/cs.md#cs-alg).
 
-**Sources:** [Small Ramsey Numbers, Dynamic Survey DS1, revision 18](../sources.md#src-math-001).
+**Sources:** [Small Ramsey Numbers, Dynamic Survey DS1, revision 18](../sources.md#src-math-001); [R(5,5) <= 46](../sources.md#src-math-802).
 
-**Exact locator:** DS1.18 section 2.1(e), printed page 8; Table Ib.
+**Exact locator:** DS1.18 Section 2.1(e), Table Ib; Angeltveit-McKay v2, Theorem 1.1 and Section 1
 
 **Potential difficulty:** Unknown. No separate difficulty review of this exact statement is recorded. Its origin or current status does not establish tractability.
 
@@ -41,6 +42,40 @@ Determine the least N such that every red/blue coloring of the edges of K_N has 
 **Assessment:** 2026-10-14; untested forecast. **Uncertainty:** No named model has been evaluated on this target; AI usefulness and success probability remain unmeasured.
 
 **Further work:** define a scoped target, resource requirements and a verification plan before developing a full card. **Human review:** Pending.
+
+## Literature checks
+
+These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-06
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Source reports open → Open after scoped check.
+
+Replace the unspecified gap with a sourced interval; retain openness within the search scope.
+
+**Search scope:** Compared the precise two-color target with the primary upper-bound paper and the versioned 2026 survey. A valid coloring is a lower-bound witness; an upper bound requires complete exclusion.
+
+**Inspected evidence**
+
+- [Small Ramsey Numbers, Dynamic Survey DS1, revision 18](../sources.md#src-math-001) — Revision 18, Section 2.1(e); Table Ib. Retains a nonzero bound gap and distinguishes the conjectured exact value.
+- [R(5,5) <= 46](../sources.md#src-math-802) — Theorem 1.1; Section 1. Proves the upper bound 46 and records the lower bound 43.
+
+**Limits and remaining work**
+
+- The search is scoped, not exhaustive.
+- No independent proof, numerical replay or formal verification was performed.
+- Human review remains pending.
+
+<details>
+<summary>Search queries</summary>
+
+- "R(5,5)" "2026" 43
+- "R(5,5)" "46" Angeltveit McKay arxiv
+
+
+</details>
 
 <details>
 <summary>Structured records</summary>

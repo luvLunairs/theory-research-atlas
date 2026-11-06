@@ -29,7 +29,8 @@
     "note": {
       "coverage": "Candidate records include convex and discrete geometry, knots, manifolds, surfaces, mapping classes and geometric algorithms. The K3 selections provide individually numbered topology questions.",
       "gaps": "Higher-dimensional, equivariant and stable homotopy theory remain underrepresented. Many K3 and computational geometry entries still need later-literature checks.",
-      "reason": "Distinct notions of equivalence, smoothness and allowed geometric operations must be preserved in each statement."
+      "reason": "Distinct notions of equivalence, smoothness and allowed geometric operations must be preserved in each statement.",
+      "status_limits": "The quadratic upper bound for surface 1-systems has a revised resolution claim. The earlier proof was corrected; assessment of the revised proof remains outstanding. The historical candidate is retained under its original ID."
     }
   },
   {
@@ -297,7 +298,7 @@
       ],
       "scope": "Preferences, aggregation, allocation, matching, incentives, equilibrium and dynamic macro models.",
       "remaining": "Welfare, growth, general equilibrium and broader mechanism design need further problem sources. Numerical macroeconomic work may be costly; behavioral assumptions need empirical scrutiny.",
-      "status_limits": "Restricted preference domains, tie conventions and strengthened or weakened axioms require separate treatment. Later records include a dated open statement for EJR with committee monotonicity and unreviewed resolution claims for core committees, full justified representation and efficient Pareto-optimal committees. Consult each entry before treating its historical question as open."
+      "status_limits": "Restricted preference domains, tie conventions and strengthened or weakened axioms require separate treatment. Later records include a dated open statement for EJR with committee monotonicity. Polynomial-time full justified representation has a sourced resolution; core committees and efficient Pareto-optimal committees retain unreviewed resolution claims. Consult each entry before treating its historical question as open."
     }
   },
   {
@@ -369,7 +370,8 @@
     "note": {
       "coverage": "Individual questions address behavioral systems, model reduction, stabilization, Lyapunov functions, switching, delay margins and geometric control.",
       "gaps": "Most selected control questions originate in a historical problem book and need later-literature checks before research prioritization.",
-      "reason": "Formal controllability or stability under assumptions is separate from a validated engineering implementation."
+      "reason": "Formal controllability or stability under assumptions is separate from a validated engineering implementation.",
+      "status_limits": "Discrete time-controllability criteria do not settle the unrestricted smooth PDE target. Delay-margin lower bounds do not supply a general optimum-error guarantee. A skidding car model is distinct from the original no-skidding angular-acceleration problem."
     }
   },
   {

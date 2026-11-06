@@ -6,7 +6,7 @@ Abstract structures, spaces, quantities and transformations.
 
 **Boundary:** Formal questions; applications cross-link to their model domain.
 
-**Research sources: 112 · Primary tasks: 158 · Full cards: 9 · Cross-linked tasks: 66.**
+**Research sources: 117 · Primary tasks: 158 · Full cards: 9 · Cross-linked tasks: 66.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -21,7 +21,7 @@ Abstract structures, spaces, quantities and transformations.
 | [Reproduce the exact Ramsey number R(3,3)=6](../cards/Q-MATH-001.md) | Medium | Known-result calibration | Known result in literature | Full card · Q-MATH-001 |
 | [Audit exact union-closed-family certificates on at most four elements](../cards/Q-MATH-002.md) | Medium | Curator proposal | Known result in literature | Full card · Q-MATH-002 |
 | [Determine the four-color triangle Ramsey number R(3,3,3,3)](../cards/Q-MATH-003.md) | High | Literature-origin question | Open after scoped check | Full card · Q-MATH-003 |
-| [Determine the two-color Ramsey number R(5,5)](../candidates/Q-MATH-004.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-004 |
+| [Determine the two-color Ramsey number R(5,5)](../candidates/Q-MATH-004.md) | Unknown | Literature-origin question | Open after scoped check | Outline · Q-MATH-004 |
 | [Deterministic polynomial-time dense factorization over finite fields](../candidates/Q-MATH-005.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-005 |
 | [Sparse finite-field trinomial root decision](../candidates/Q-MATH-006.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-006 |
 | [Classify when polynomial convexity implies SOS-convexity](../candidates/Q-MATH-007.md) | Unknown | Literature-origin question | Reported resolved | Outline · Q-MATH-007 |
@@ -156,7 +156,7 @@ Abstract structures, spaces, quantities and transformations.
 | [A positive local presentation for all braid half-twists](../candidates/Q-MATH-504.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-504 |
 | [Uniformly efficient exact curve-complex distance](../candidates/Q-MATH-505.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-505 |
 | [Computability of Hempel distance](../candidates/Q-MATH-506.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-506 |
-| [Quadratic bounds for one-intersection curve systems](../candidates/Q-MATH-507.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-507 |
+| [Quadratic bounds for one-intersection curve systems](../candidates/Q-MATH-507.md) | Unknown | Literature-origin question | Unverified | Outline · Q-MATH-507 |
 | [Surgery equivalence of embedded surface graphs](../candidates/Q-MATH-508.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-508 |
 | [The square peg problem for arbitrary Jordan curves](../candidates/Q-MATH-509.md) | High | Literature-origin question | Source reports open | Outline · Q-MATH-509 |
 | [An affine regular hexagon on every Jordan curve](../candidates/Q-MATH-510.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-510 |
@@ -300,6 +300,11 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [The order of the automorphism group of a binary q-analog of the Fano plane is at most two](../sources.md#src-phys-703) | Research entry | 2016 |
 | [The binary q-analogue of the Fano plane has a trivial automorphism group (withdrawn)](../sources.md#src-phys-704) | Research entry | 2017 |
 | [Undistillability of Werner states from three, four and five copies](../sources.md#src-phys-707) | Research entry | 2026 |
+| [From arcs to curves: Quadratic growth of 1-systems](../sources.md#src-math-800) | Research entry | 2025 |
+| [Sparse curve systems have intermediate growth type](../sources.md#src-math-801) | Research entry | 2025 |
+| [R(5,5) <= 46](../sources.md#src-math-802) | Research entry | 2024 |
+| [EL-Shellability of the poset of ranked cactuses](../sources.md#src-model-801) | Research entry | 2026 |
+| [The proportion of permutations fixing a k-set](../sources.md#src-model-802) | Research entry | 2026 |
 
 <a id="branches"></a>
 
@@ -922,7 +927,7 @@ Topology of knots and low-dimensional manifolds.
 
 **Representative objects:** knots, three-manifolds, four-manifolds.
 
-**Direct source entries:** [K3: A new problem list in low-dimensional topology — Workshop Summary](../sources.md#src-math-005), [K3: A New Problem List in Low-Dimensional Topology](../sources.md#src-math-303), [A Dunfield–Gong 4-Sphere is Standard](../sources.md#src-math-312), [The congruence subgroup property for mapping class groups and the residual finiteness of hyperbolic groups](../sources.md#src-math-609).
+**Direct source entries:** [K3: A new problem list in low-dimensional topology — Workshop Summary](../sources.md#src-math-005), [K3: A New Problem List in Low-Dimensional Topology](../sources.md#src-math-303), [A Dunfield–Gong 4-Sphere is Standard](../sources.md#src-math-312), [The congruence subgroup property for mapping class groups and the residual finiteness of hyperbolic groups](../sources.md#src-math-609), [From arcs to curves: Quadratic growth of 1-systems](../sources.md#src-math-800), [Sparse curve systems have intermediate growth type](../sources.md#src-math-801).
 
 **Primary tasks in this branch and its descendants**
 
@@ -985,7 +990,7 @@ Finite or discrete configurations and their structure.
 
 **Representative objects:** graphs, set systems, matroids.
 
-**Direct source entries:** [Induced subgraphs of hypercubes and a proof of the Sensitivity Conjecture](../sources.md#src-formal-002), [Dense networks that do not synchronize and sparse ones that do](../sources.md#src-formal-104), [Synchronizing Automata: Open Problems](../sources.md#src-formal-201), [Lower Bounds on Avoiding Thresholds](../sources.md#src-formal-202), [Synchronizing Times for k-Sets in Automata](../sources.md#src-formal-203), [The triple rendezvous time of a synchronizing automaton can be floor(4n/3)](../sources.md#src-formal-204), [The compress-with-another threshold of Szykuła's Figure 3 family](../sources.md#src-formal-205), [Experiments with Synchronizing Automata](../sources.md#src-formal-210), [Using topology to reveal all mutually unbiased bases in dimension six](../sources.md#src-phys-700), [Constructions and bounds for subspace codes](../sources.md#src-phys-702), [The order of the automorphism group of a binary q-analog of the Fano plane is at most two](../sources.md#src-phys-703), [The binary q-analogue of the Fano plane has a trivial automorphism group (withdrawn)](../sources.md#src-phys-704).
+**Direct source entries:** [Induced subgraphs of hypercubes and a proof of the Sensitivity Conjecture](../sources.md#src-formal-002), [Dense networks that do not synchronize and sparse ones that do](../sources.md#src-formal-104), [Synchronizing Automata: Open Problems](../sources.md#src-formal-201), [Lower Bounds on Avoiding Thresholds](../sources.md#src-formal-202), [Synchronizing Times for k-Sets in Automata](../sources.md#src-formal-203), [The triple rendezvous time of a synchronizing automaton can be floor(4n/3)](../sources.md#src-formal-204), [The compress-with-another threshold of Szykuła's Figure 3 family](../sources.md#src-formal-205), [Experiments with Synchronizing Automata](../sources.md#src-formal-210), [Using topology to reveal all mutually unbiased bases in dimension six](../sources.md#src-phys-700), [Constructions and bounds for subspace codes](../sources.md#src-phys-702), [The order of the automorphism group of a binary q-analog of the Fano plane is at most two](../sources.md#src-phys-703), [The binary q-analogue of the Fano plane has a trivial automorphism group (withdrawn)](../sources.md#src-phys-704), [EL-Shellability of the poset of ranked cactuses](../sources.md#src-model-801), [The proportion of permutations fixing a k-set](../sources.md#src-model-802).
 
 **Primary tasks in this branch and its descendants**
 
@@ -1092,7 +1097,7 @@ Thresholds forcing or excluding finite configurations.
 
 **Representative objects:** colorings, hypergraphs, set families.
 
-**Direct source entries:** [Small Ramsey Numbers, Dynamic Survey DS1, revision 18](../sources.md#src-math-001), [The journey of the union-closed sets conjecture](../sources.md#src-math-002), [An improved lower bound for the union-closed set conjecture](../sources.md#src-math-003), [An Upper Bound of 62 on the Classical Ramsey Number R(3,3,3,3)](../sources.md#src-math-013), [The Four-Color Ramsey Multiplicity of Triangles](../sources.md#src-math-014), [Sufficiently dense Kuramoto networks are globally synchronizing](../sources.md#src-formal-105), [Semidefinite lower bounds for covering codes](../sources.md#src-code-201), [Quaternary Preparata codes are quasi-perfect covering codes in the Hamming metric](../sources.md#src-code-202), [Tables for bounds on covering codes](../sources.md#src-code-203), [The No-Three-in-Line Problem](../sources.md#src-math-201), [R(3,10) <= 41](../sources.md#src-math-202), [R(4,6) Colorings](../sources.md#src-math-203), [Ramsey Numbers](../sources.md#src-math-206), [100 Open Problems, December 2025 revision](../sources.md#src-math-302), [On Unique Sums in Abelian Groups](../sources.md#src-math-407), [Monochromatic finite sums and products in the positive integers](../sources.md#src-math-408), [Partition regularity of Pythagorean pairs](../sources.md#src-math-410), [An Improved Upper Bound for Colorings Without Symmetrically Colored k-Term Arithmetic Progressions](../sources.md#src-math-610), [Improved bounds for five-term arithmetic progressions](../sources.md#src-math-611), [A new proof of two-color partition regularity of Pythagorean triples](../sources.md#src-math-612), [Graphs with connectivity 3/4 - epsilon are globally synchronizing](../sources.md#src-formal-619), [Beyond 11/16: dense Kuramoto networks that resist synchrony](../sources.md#src-formal-620).
+**Direct source entries:** [Small Ramsey Numbers, Dynamic Survey DS1, revision 18](../sources.md#src-math-001), [The journey of the union-closed sets conjecture](../sources.md#src-math-002), [An improved lower bound for the union-closed set conjecture](../sources.md#src-math-003), [An Upper Bound of 62 on the Classical Ramsey Number R(3,3,3,3)](../sources.md#src-math-013), [The Four-Color Ramsey Multiplicity of Triangles](../sources.md#src-math-014), [Sufficiently dense Kuramoto networks are globally synchronizing](../sources.md#src-formal-105), [Semidefinite lower bounds for covering codes](../sources.md#src-code-201), [Quaternary Preparata codes are quasi-perfect covering codes in the Hamming metric](../sources.md#src-code-202), [Tables for bounds on covering codes](../sources.md#src-code-203), [The No-Three-in-Line Problem](../sources.md#src-math-201), [R(3,10) <= 41](../sources.md#src-math-202), [R(4,6) Colorings](../sources.md#src-math-203), [Ramsey Numbers](../sources.md#src-math-206), [100 Open Problems, December 2025 revision](../sources.md#src-math-302), [On Unique Sums in Abelian Groups](../sources.md#src-math-407), [Monochromatic finite sums and products in the positive integers](../sources.md#src-math-408), [Partition regularity of Pythagorean pairs](../sources.md#src-math-410), [An Improved Upper Bound for Colorings Without Symmetrically Colored k-Term Arithmetic Progressions](../sources.md#src-math-610), [Improved bounds for five-term arithmetic progressions](../sources.md#src-math-611), [A new proof of two-color partition regularity of Pythagorean triples](../sources.md#src-math-612), [Graphs with connectivity 3/4 - epsilon are globally synchronizing](../sources.md#src-formal-619), [Beyond 11/16: dense Kuramoto networks that resist synchrony](../sources.md#src-formal-620), [R(5,5) <= 46](../sources.md#src-math-802).
 
 **Primary tasks in this branch and its descendants**
 

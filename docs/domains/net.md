@@ -6,7 +6,7 @@ Collective behavior arising from interactions and structure.
 
 **Boundary:** Application-specific claims link to biology, economics or physics.
 
-**Research sources: 14 · Primary tasks: 12 · Full cards: 2 · Cross-linked tasks: 7.**
+**Research sources: 15 · Primary tasks: 12 · Full cards: 2 · Cross-linked tasks: 7.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -54,6 +54,7 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [Beyond 11/16: dense Kuramoto networks that resist synchrony](../sources.md#src-formal-620) | Research entry | 2026 |
 | [Random cubic graphs are not globally synchronizing with probability at least 1 - exp(-2)](../sources.md#src-model-704) | Research entry | 2026 |
 | [Random cubic graphs admit nonsynchronized stable Kuramoto equilibria](../sources.md#src-model-705) | Research entry | 2026 |
+| [Infection patterns in simple and complex contagion processes on networks](../sources.md#src-model-804) | Research entry | 2024 |
 
 <a id="branches"></a>
 
@@ -154,7 +155,7 @@ Emergent behavior of interacting units.
 
 **Representative objects:** synchronization, cascades, contagion.
 
-**Direct source entries:** [Epidemic processes in complex networks](../sources.md#src-model-010), [Dense networks that do not synchronize and sparse ones that do](../sources.md#src-formal-104), [Sufficiently dense Kuramoto networks are globally synchronizing](../sources.md#src-formal-105), [Benign landscapes for synchronization on spheres via normalized Laplacian matrices](../sources.md#src-formal-106), [Randomstrasse101: Open Problems of 2024](../sources.md#src-model-210), [Maintaining diversity in structured populations](../sources.md#src-model-301), [Hypergraphs and simplicial complexes in focus: a roadmap for future research in higher-order interactions](../sources.md#src-cross-403), [Congestion in networks: SOC, HOT and the percolation-fragmentation phase transition](../sources.md#src-cross-405), [Graphs with connectivity 3/4 - epsilon are globally synchronizing](../sources.md#src-formal-619), [Beyond 11/16: dense Kuramoto networks that resist synchrony](../sources.md#src-formal-620), [Random cubic graphs are not globally synchronizing with probability at least 1 - exp(-2)](../sources.md#src-model-704), [Random cubic graphs admit nonsynchronized stable Kuramoto equilibria](../sources.md#src-model-705).
+**Direct source entries:** [Epidemic processes in complex networks](../sources.md#src-model-010), [Dense networks that do not synchronize and sparse ones that do](../sources.md#src-formal-104), [Sufficiently dense Kuramoto networks are globally synchronizing](../sources.md#src-formal-105), [Benign landscapes for synchronization on spheres via normalized Laplacian matrices](../sources.md#src-formal-106), [Randomstrasse101: Open Problems of 2024](../sources.md#src-model-210), [Maintaining diversity in structured populations](../sources.md#src-model-301), [Hypergraphs and simplicial complexes in focus: a roadmap for future research in higher-order interactions](../sources.md#src-cross-403), [Congestion in networks: SOC, HOT and the percolation-fragmentation phase transition](../sources.md#src-cross-405), [Graphs with connectivity 3/4 - epsilon are globally synchronizing](../sources.md#src-formal-619), [Beyond 11/16: dense Kuramoto networks that resist synchrony](../sources.md#src-formal-620), [Random cubic graphs are not globally synchronizing with probability at least 1 - exp(-2)](../sources.md#src-model-704), [Random cubic graphs admit nonsynchronized stable Kuramoto equilibria](../sources.md#src-model-705), [Infection patterns in simple and complex contagion processes on networks](../sources.md#src-model-804).
 
 **Primary tasks in this branch and its descendants**
 
@@ -209,7 +210,7 @@ Recovering and reducing interaction models.
 
 **Representative objects:** communities, graph limits, network reconstruction.
 
-**Direct source entries:** [Hypergraphs and simplicial complexes in focus: a roadmap for future research in higher-order interactions](../sources.md#src-cross-403).
+**Direct source entries:** [Hypergraphs and simplicial complexes in focus: a roadmap for future research in higher-order interactions](../sources.md#src-cross-403), [Infection patterns in simple and complex contagion processes on networks](../sources.md#src-model-804).
 
 **Primary tasks in this branch and its descendants**
 

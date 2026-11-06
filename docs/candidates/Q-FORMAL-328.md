@@ -10,27 +10,27 @@ Determine the Shannon capacity C(d) in bits per input bit of the binary channel 
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Source reports open. **Last checked:** 2026-10-20.
+**Current status:** Source reports open. **Last checked:** 2026-11-06.
 
-**Status basis:** The September 2026 preprint retains the exact-capacity question. A focused later-work search found no resolution. Its numerical bounds remain reported results with incomplete replay availability, not independently verified project benchmarks.
+**Status basis:** The inspected September 2026 run-length paper retains the exact-capacity question and reports additional lower bounds. These results and the previously indexed enclosure remain source-reported computations, not independently replayed project benchmarks.
 
 **Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** Primary sources and maintained records inspected on 2026-10-20; publication and revision dates are recorded in the source entries.
+**Source date and freshness:** Run-length paper first submitted 21 September 2026; inspected version 2, 26 September 2026, which corrects the VTR chain penalty and replaces double-precision evaluation with reported interval enclosures. Prior enclosure and replay limitations retain their 20 October 2026 scope.
 
-**Scope limits:** Retains the canonical question for C(d). The source's d=1/2 case is a bounded entry point; improvement there is partial progress, not the exact capacity function.
+**Scope limits:** Retains the exact no-feedback capacity C(d). Compared the newer run-length lower bounds with the existing enclosure; source-family optimization gives achievable rates, not a converse or exact capacity.
 
 **Information still needed**
 
-- Independent scrutiny of the recent preprint and complete numerical replay.
-- Actual availability and reuse permission for all external proof inputs.
-- A fresh check of precise bounds before reporting an improvement.
+- Independent scrutiny of both recent preprints and complete numerical replay.
+- Availability and reuse permission for all required numerical inputs.
+- Check full-precision bounds at the chosen deletion probability before claiming an improvement.
 
 **Primary branch:** [Classical information theory](../domains/info.md#info-shannon). **Related branches:** None recorded.
 
-**Sources:** [Binary Deletion Channel Capacity to Within One Hundredth of a Bit](../sources.md#src-formal-318); [Binary deletion-channel capacity: verification materials](../sources.md#src-impact-009).
+**Sources:** [Binary Deletion Channel Capacity to Within One Hundredth of a Bit](../sources.md#src-formal-318); [Binary deletion-channel capacity: verification materials](../sources.md#src-impact-009); [Improved Lower Bounds on the Capacity of the Binary Deletion Channel via a Learning Approach to Run-Length Inputs](../sources.md#src-math-810).
 
-**Exact locator:** SRC-FORMAL-318 sections 1.2, 2 and 14.3; SRC-IMPACT-009 README.
+**Exact locator:** SRC-FORMAL-318, Sections 1.2, 2 and 14.3; SRC-IMPACT-009 README; Khodaiemehr-Feng-Duman v2, Theorems 1-2, Lemma 8, Section VI-C and Table IV
 
 **Potential difficulty:** High. The source leaves both source optimality and converse tightness unsettled.
 
@@ -47,6 +47,35 @@ Determine the Shannon capacity C(d) in bits per input bit of the binary channel 
 ## Literature checks
 
 These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-06
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Source reports open → Source reports open.
+
+Add the second numerical approach while retaining the existing half-deletion benchmark and its replay limitations.
+
+**Search scope:** Retains the exact no-feedback capacity C(d). Compared the newer run-length lower bounds with the existing enclosure; source-family optimization gives achievable rates, not a converse or exact capacity. Checked the arXiv version history and the September 26 correction rather than carrying forward the original numerical method.
+
+**Inspected evidence**
+
+- [Improved Lower Bounds on the Capacity of the Binary Deletion Channel via a Learning Approach to Run-Length Inputs](../sources.md#src-math-810) — Version 2: Section I revision comparison; Theorems 1-2; Lemma 8; Section VI-C and Table IV. Reports run-length achievable rates after a chain-penalty correction and interval evaluation; the half-deletion rate remains below the previously indexed lower endpoint.
+
+**Limits and remaining work**
+
+- The search is scoped, not exhaustive.
+- No independent proof, numerical replay or formal verification was performed.
+- Human review remains pending.
+
+<details>
+<summary>Search queries</summary>
+
+- "binary deletion channel" "capacity" "2026"
+- "2609.24908" correction OR capacity
+
+
+</details>
 
 ### 2026-10-20
 

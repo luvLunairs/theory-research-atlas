@@ -10,25 +10,26 @@ In ZF+AD+DC_R, is every Turing-invariant f:2^ω→2^ω either constant in Turing
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Source reports open. **Last checked:** 2026-10-14.
+**Current status:** Source reports open. **Last checked:** 2026-11-06.
 
-**Status basis:** Order-preserving and measure-preserving cases are proved, but the unrestricted conjecture is retained by the later 2025 source.
+**Status basis:** The expert-maintained problem page labels the unrestricted Turing-invariant dichotomy open. Yu's October 2026 preprint still assumes order preservation. The indexed ZF+AD+DC_R assumptions follow Lutz-Siskind; the directory's stronger DC convention does not replace them.
 
-**Statement check:** Source located. **Status check:** Source report only.
+**Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** Recorded source years: SRC-FORMAL-315: 2024, SRC-FORMAL-316: 2025. The last-checked date records the scope described in the status basis; it is not a comprehensive literature-search date.
+**Source date and freshness:** Lutz-Siskind v3: 5 April 2024; living directory inspected 6 November 2026; Yu v1: 10 October 2026.
 
-**Scope limits:** The statement and locator identify the candidate. A full assumption set and verification protocol remain to be documented.
+**Scope limits:** Compared the unrestricted invariant target with monotone special cases and checked foundational assumptions. The Borel ZFC version is a related formulation, not an unrestricted ZFC assertion.
 
 **Information still needed**
 
-- Specify the assumptions, candidate methods, resource requirements and independent verification steps for a concrete research task.
+- Independent assessment of the October 2026 preprint.
+- Any proposed extension must justify removing order preservation without silently strengthening the axioms.
 
 **Primary branch:** [Computability and degree theory](../domains/logic.md#logic-recur). **Related branches:** [Set theory and independence](../domains/logic.md#logic-set).
 
-**Sources:** [Part 1 of Martin's Conjecture for order-preserving and measure-preserving functions](../sources.md#src-formal-315); [Computable learning of natural hypothesis classes](../sources.md#src-formal-316).
+**Sources:** [Part 1 of Martin's Conjecture for order-preserving and measure-preserving functions](../sources.md#src-formal-315); [Computable learning of natural hypothesis classes](../sources.md#src-formal-316); [Martin's Conjecture — Open Problems in Mathematical Logic](../sources.md#src-math-807); [Order-preserving maps of the Turing degrees: regularity and consistency strength](../sources.md#src-math-808).
 
-**Exact locator:** Lutz–Siskind, section 1.1 formal conjecture (1); Akbari–Harrison-Trainor, section 1.3 footnote 2.
+**Exact locator:** Lutz-Siskind v3, Sections 1.1 and 1.4; Open Problems in Mathematical Logic, Problem 2; Yu, Theorem 1.2 and Remark 1.3
 
 **Potential difficulty:** Frontier. The unrestricted invariant case lacks the monotonicity used by the established results.
 
@@ -41,6 +42,41 @@ In ZF+AD+DC_R, is every Turing-invariant f:2^ω→2^ω either constant in Turing
 **Assessment:** 2026-10-14; untested forecast. **Uncertainty:** No named model has been evaluated. These are possible research-support roles, not evidence that current AI can resolve the general problem.
 
 **Further work:** define a scoped target, resource requirements and a verification plan before developing a full card. **Human review:** Pending.
+
+## Literature checks
+
+These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-06
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Source reports open → Source reports open.
+
+Add a current expert entry and a recent special-case reference while preserving the exact foundation and unresolved general scope.
+
+**Search scope:** Compared the unrestricted invariant target with monotone special cases and checked foundational assumptions. The Borel ZFC version is a related formulation, not an unrestricted ZFC assertion.
+
+**Inspected evidence**
+
+- [Part 1 of Martin's Conjecture for order-preserving and measure-preserving functions](../sources.md#src-formal-315) — Sections 1.1 and 1.4. States the DC_R formulation and distinguishes stronger uniformization principles.
+- [Martin's Conjecture — Open Problems in Mathematical Logic](../sources.md#src-math-807) — Problem 2, statement and status. Retains the unrestricted conjecture and distinguishes the Borel variant.
+- [Order-preserving maps of the Turing degrees: regularity and consistency strength](../sources.md#src-math-808) — Theorem 1.2; Remark 1.3. The later result retains the order-preserving hypothesis.
+
+**Limits and remaining work**
+
+- The search is scoped, not exhaustive.
+- No independent proof, numerical replay or formal verification was performed.
+- Human review remains pending.
+
+<details>
+<summary>Search queries</summary>
+
+- "Martin's conjecture" 2026
+- "Martin's conjecture" "2026" Turing solved
+
+
+</details>
 
 <details>
 <summary>Structured records</summary>

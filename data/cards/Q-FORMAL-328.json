@@ -7,12 +7,13 @@
   "statement": "Determine the Shannon capacity C(d) in bits per input bit of the binary channel that independently deletes each input bit with probability d∈(0,1), preserves the order of surviving bits and does not reveal deletion locations, without feedback.",
   "source_ids": [
     "SRC-FORMAL-318",
-    "SRC-IMPACT-009"
+    "SRC-IMPACT-009",
+    "SRC-MATH-810"
   ],
-  "source_locator": "SRC-FORMAL-318 sections 1.2, 2 and 14.3; SRC-IMPACT-009 README.",
+  "source_locator": "SRC-FORMAL-318, Sections 1.2, 2 and 14.3; SRC-IMPACT-009 README; Khodaiemehr-Feng-Duman v2, Theorems 1-2, Lemma 8, Section VI-C and Table IV",
   "status": "source_reports_open",
-  "status_basis": "The September 2026 preprint retains the exact-capacity question. A focused later-work search found no resolution. Its numerical bounds remain reported results with incomplete replay availability, not independently verified project benchmarks.",
-  "last_checked": "2026-10-20",
+  "status_basis": "The inspected September 2026 run-length paper retains the exact-capacity question and reports additional lower bounds. These results and the previously indexed enclosure remain source-reported computations, not independently replayed project benchmarks.",
+  "last_checked": "2026-11-06",
   "curator_origin": false,
   "duplicate_key": "information:binary-deletion-channel:exact-capacity",
   "proposed_card": true,
@@ -26,7 +27,7 @@
     "Use Shannon capacity without feedback, normalized per input bit, and vanishing error as block length grows.",
     "Allow arbitrary input distributions when claiming an upper bound on capacity. A bound restricted to one source family is not a general converse."
   ],
-  "scope": "Retains the canonical question for C(d). The source's d=1/2 case is a bounded entry point; improvement there is partial progress, not the exact capacity function.",
+  "scope": "The target is the exact no-feedback capacity function C(d). The d=1/2 case is a bounded entry point; an improved bound there is partial progress. Optimizing a restricted source family gives achievable rates, not exact capacity.",
   "target": "Determine capacity, or establish a rigorously stronger achievable-rate or converse bound at an explicitly fixed deletion probability.",
   "success_criteria": [
     "State the exact parameter, normalization, inequalities and theorem connecting the certificate to unrestricted channel capacity.",
@@ -36,7 +37,8 @@
   "known_results": [
     "SRC-FORMAL-318 Table 1 reports 0.114540<=C(1/2)<=0.130162 bits per input bit, rounded outward. These are claimed certified enclosures, not ordinary floating-point estimates; the project has not replayed them.",
     "The source distinguishes an achievable lower endpoint from a midpoint estimate, and leaves source and converse optimization open.",
-    "SRC-IMPACT-009 lists portable checks but says the full large-input collection is not yet downloadable in full. Those checks do not rerun the numerical inequalities."
+    "SRC-IMPACT-009 lists portable checks but says the full large-input collection is not yet downloadable in full. Those checks do not rerun the numerical inequalities.",
+    "Khodaiemehr, Feng and Duman v2 report interval-enclosed run-length lower bounds after correcting the VTR chain penalty. Table IV gives stronger high-deletion rates, while its half-deletion lower endpoint remains below the enclosure recorded above. No computation was replayed here."
   ],
   "prerequisites": [
     "Information theory and coding theorems",
@@ -126,32 +128,39 @@
     "statement_alignment": "A source-specific rate, numerical optimizer output or midpoint is not exact channel capacity."
   },
   "known_attempts": [
-    "Papailiopoulos reports an AI-assisted bound construction; its paper and verification materials are linked. No project research attempt is recorded."
+    "Papailiopoulos reports an AI-assisted bound construction; its paper and verification materials are linked. No project research attempt is recorded.",
+    "Khodaiemehr, Feng and Duman optimize finite-support run-length input laws, then report interval-arithmetic evaluations in version 2; global optimality is not established."
   ],
   "unresolved_checks": [
-    "Independent scrutiny of the recent preprint and complete numerical replay.",
-    "Actual availability and reuse permission for all external proof inputs.",
-    "A fresh check of precise bounds before reporting an improvement."
+    "Independent scrutiny of both recent preprints and complete numerical replay.",
+    "Availability and reuse permission for all required numerical inputs.",
+    "Check full-precision bounds at the chosen deletion probability before claiming an improvement."
   ],
   "attribution": {
     "original_authors": [
-      "Dimitris Papailiopoulos"
+      "Dimitris Papailiopoulos",
+      "Hassan Khodaiemehr",
+      "Chen Feng",
+      "Tolga M. Duman"
     ],
-    "citation": "Papailiopoulos, Binary Deletion Channel Capacity to Within One Hundredth of a Bit, arXiv:2609.19412v1 (2026), especially sections 1.2, 2 and 12-14. This is a recent reference for a classical problem, not an attribution of its origin.",
+    "citation": "Papailiopoulos, Binary Deletion Channel Capacity to Within One Hundredth of a Bit, arXiv:2609.19412v1 (2026), especially sections 1.2, 2 and 12-14. This is a recent reference for a classical problem, not an attribution of its origin. Also cite Khodaiemehr, Feng and Duman, arXiv:2609.24908v2 (2026), for the run-length bounds.",
     "curator_credit": "Compiled for Theory Research Atlas with Codex assistance."
   },
   "status_search": {
     "queries": [
       "\"binary deletion channel\" \"capacity\" \"2026\" \"October\"",
       "\"deletion channel capacity\" \"Papailiopoulos\" correction",
-      "\"2609.19412\" correction"
+      "\"2609.19412\" correction",
+      "\"binary deletion channel\" \"capacity\" \"2026\"",
+      "\"2609.24908\" correction OR capacity"
     ],
     "checked_sources": [
       "SRC-FORMAL-318",
-      "SRC-IMPACT-009"
+      "SRC-IMPACT-009",
+      "SRC-MATH-810"
     ],
-    "result": "No exact-capacity resolution or correction was located in the focused search; the author's repository exposes a replay-availability limitation.",
-    "limitations": "Search coverage is bounded. No mathematical proof, code or numerical certificate was independently verified."
+    "result": "The inspected new preprint retains exact capacity as unresolved and reports additional achievable rates. Earlier enclosure and replay-availability findings are retained with their original scope.",
+    "limitations": "The 2026-11-06 update inspected the run-length paper; it did not recheck the earlier repository availability, replay numerical inequalities or audit proofs."
   },
   "epistemic_layers": {
     "formal_validity": "Any theorem is conditional on the explicitly stated deletion-channel model.",
@@ -180,6 +189,10 @@
     {
       "date": "2026-10-20",
       "change": "Expanded the existing capacity entry with a half-deletion entry point, reported bounds and replay limitations."
+    },
+    {
+      "date": "2026-11-06",
+      "change": "Added version 2 of the run-length lower-bound paper, its corrected evaluation method and the distinction from exact capacity and the half-deletion enclosure."
     }
   ]
 }

@@ -6,7 +6,7 @@ Models of molecular structure, reactions and material behavior.
 
 **Boundary:** A model calculation cannot certify a real compound or reaction without evidence.
 
-**Research sources: 12 · Primary tasks: 22 · Full cards: 1 · Cross-linked tasks: 2.**
+**Research sources: 14 · Primary tasks: 22 · Full cards: 1 · Cross-linked tasks: 2.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -62,6 +62,8 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [Some Problems in Density Functional Theory](../sources.md#src-model-402) | Research entry | 2023 |
 | [What makes a reaction network chemical?](../sources.md#src-model-410) | Research entry | 2022 |
 | [Local-Density Correlation Functional from the Force-Balance Equation](../sources.md#src-model-619) | Research entry | 2025 |
+| [Results and publications — ConStRAINeD](../sources.md#src-phys-802) | Research entry | Not verified |
+| [Upper bound to the gradient-based kinetic energy density of noninteracting electrons in an external potential](../sources.md#src-phys-803) | Research entry | 2019 |
 
 <a id="branches"></a>
 
@@ -122,7 +124,7 @@ Approximate or exact molecular electronic models.
 
 **Representative objects:** wave functions, density functionals, correlation.
 
-**Direct source entries:** [Predictive Power of the Exact Constraints and Appropriate Norms in Density Functional Theory](../sources.md#src-model-009), [Some Problems in Density Functional Theory](../sources.md#src-model-402), [Local-Density Correlation Functional from the Force-Balance Equation](../sources.md#src-model-619).
+**Direct source entries:** [Predictive Power of the Exact Constraints and Appropriate Norms in Density Functional Theory](../sources.md#src-model-009), [Some Problems in Density Functional Theory](../sources.md#src-model-402), [Local-Density Correlation Functional from the Force-Balance Equation](../sources.md#src-model-619), [Upper bound to the gradient-based kinetic energy density of noninteracting electrons in an external potential](../sources.md#src-phys-803).
 
 **Primary tasks in this branch and its descendants**
 
@@ -175,7 +177,7 @@ Mathematical structure of chemical reaction systems.
 
 **Representative objects:** mass-action ODEs, stoichiometry, detailed balance.
 
-**Direct source entries:** [Chemical Reaction Network Theory](../sources.md#src-model-005), [Network Theory Part 24](../sources.md#src-model-006), [Product-form stationary distributions for deficiency zero chemical reaction networks](../sources.md#src-model-016), [Mathematical Biology: Spatial Variations](../sources.md#src-model-107), [Stochastically modeled weakly reversible reaction networks with a single linkage class](../sources.md#src-model-303), [Solving the chemical recurrence conjecture in two dimensions](../sources.md#src-model-304), [What makes a reaction network chemical?](../sources.md#src-model-410).
+**Direct source entries:** [Chemical Reaction Network Theory](../sources.md#src-model-005), [Network Theory Part 24](../sources.md#src-model-006), [Product-form stationary distributions for deficiency zero chemical reaction networks](../sources.md#src-model-016), [Mathematical Biology: Spatial Variations](../sources.md#src-model-107), [Stochastically modeled weakly reversible reaction networks with a single linkage class](../sources.md#src-model-303), [Solving the chemical recurrence conjecture in two dimensions](../sources.md#src-model-304), [What makes a reaction network chemical?](../sources.md#src-model-410), [Results and publications — ConStRAINeD](../sources.md#src-phys-802).
 
 **Primary tasks in this branch and its descendants**
 

@@ -6,7 +6,7 @@ Formal models of living systems across scales.
 
 **Boundary:** Biological realism and empirical identification require separate review.
 
-**Research sources: 17 · Primary tasks: 29 · Full cards: 1 · Cross-linked tasks: 7.**
+**Research sources: 20 · Primary tasks: 29 · Full cards: 1 · Cross-linked tasks: 7.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -75,6 +75,9 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [Systematizing cellular complexity: A Hilbertian approach to biological problems](../sources.md#src-model-409) | Research entry | 2024 |
 | [Spaces of ranked tree-child networks](../sources.md#src-model-614) | Research entry | 2025 |
 | [A complexity drain on cells in the evolution of multicellularity](../sources.md#src-model-617) | Research entry | 2002 |
+| [Maintaining diversity in structured populations](../sources.md#src-model-800) | Research entry | 2025 |
+| [EL-Shellability of the poset of ranked cactuses](../sources.md#src-model-801) | Research entry | 2026 |
+| [Results and publications — ConStRAINeD](../sources.md#src-phys-802) | Research entry | Not verified |
 
 <a id="branches"></a>
 
@@ -137,7 +140,7 @@ Formal models of inheritance, selection and descent.
 
 **Representative objects:** fitness landscapes, genealogies, phylogenetic trees.
 
-**Direct source entries:** [Open Problems in Mathematical Biology](../sources.md#src-model-008), [Formal properties of the probability of fixation: identities, inequalities and approximations](../sources.md#src-model-101), [Universality of fixation probabilities in randomly structured populations](../sources.md#src-model-102), [Maintaining diversity in structured populations](../sources.md#src-model-301), [Open Problems and Conjectures in the Evolutionary Periodic Ricker Competition Model](../sources.md#src-model-302), [Spaces of ranked tree-child networks](../sources.md#src-model-408), [Spaces of ranked tree-child networks](../sources.md#src-model-614).
+**Direct source entries:** [Open Problems in Mathematical Biology](../sources.md#src-model-008), [Formal properties of the probability of fixation: identities, inequalities and approximations](../sources.md#src-model-101), [Universality of fixation probabilities in randomly structured populations](../sources.md#src-model-102), [Maintaining diversity in structured populations](../sources.md#src-model-301), [Open Problems and Conjectures in the Evolutionary Periodic Ricker Competition Model](../sources.md#src-model-302), [Spaces of ranked tree-child networks](../sources.md#src-model-408), [Spaces of ranked tree-child networks](../sources.md#src-model-614), [Maintaining diversity in structured populations](../sources.md#src-model-800), [EL-Shellability of the poset of ranked cactuses](../sources.md#src-model-801).
 
 **Primary tasks in this branch and its descendants**
 
@@ -230,7 +233,7 @@ Formal dynamics of cellular regulation and reactions.
 
 **Representative objects:** gene regulation, biochemical networks, feedback.
 
-**Direct source entries:** [Chemical Reaction Network Theory](../sources.md#src-model-005), [Network Theory Part 24](../sources.md#src-model-006), [Open Problems in Mathematical Biology](../sources.md#src-model-008), [Product-form stationary distributions for deficiency zero chemical reaction networks](../sources.md#src-model-016), [Stochastically modeled weakly reversible reaction networks with a single linkage class](../sources.md#src-model-303), [Open problems in synthetic multicellularity](../sources.md#src-model-406), [Systematizing cellular complexity: A Hilbertian approach to biological problems](../sources.md#src-model-409).
+**Direct source entries:** [Chemical Reaction Network Theory](../sources.md#src-model-005), [Network Theory Part 24](../sources.md#src-model-006), [Open Problems in Mathematical Biology](../sources.md#src-model-008), [Product-form stationary distributions for deficiency zero chemical reaction networks](../sources.md#src-model-016), [Stochastically modeled weakly reversible reaction networks with a single linkage class](../sources.md#src-model-303), [Open problems in synthetic multicellularity](../sources.md#src-model-406), [Systematizing cellular complexity: A Hilbertian approach to biological problems](../sources.md#src-model-409), [Results and publications — ConStRAINeD](../sources.md#src-phys-802).
 
 **Primary tasks in this branch and its descendants**
 
