@@ -10,27 +10,25 @@ If a finite group G has trivial solvable radical and H1,...,H5 are solvable subg
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Source reports open. **Last checked:** 2026-10-14.
+**Current status:** Source reports open. **Last checked:** 2026-11-26.
 
-**Status basis:** The October 2026 Kourovka Notebook entry (Problem 21.4; M. Anagnostopoulou-Merkouri, T. C. Burness) was inspected together with its local comments and adjacent resolution markers. This selected question is presented without a confirmed-solution marker. This records the editors' dated presentation, not an exhaustive current-status search.
+**Status basis:** The November Notebook lists Problem 21.4. Anagnostopoulou-Merkouri and Burness prove a stronger three-subgroup result for almost simple sporadic groups. Their five-subgroup bound for all finite groups with trivial solvable radical remains a conjecture in the cited sources.
 
-**Statement check:** Source located. **Status check:** Source report only.
+**Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** Inspected source years: SRC-MATH-301: 2026. Checked on 2026-10-14 within the scope recorded in the literature check.
+**Source date and freshness:** The research preprint was revised in October 2024. The November 2026 Notebook retains the question.
 
-**Scope limits:** The current collection presents this target as unresolved. No independent, exhaustive later-literature check is claimed. One source-stated conjecture, classification target or independently posed subquestion is indexed. Known special cases are background, not additional open records.
+**Scope limits:** Each of the five solvable subgroups may be different. The ambient group may be any finite group with trivial solvable radical.
 
 **Information still needed**
 
-- Searches outside the collection were not performed for this entry.
-- The source's absence of a solution annotation is not a proof of current openness.
-- The mathematical proof or counterexample, if proposed, still requires expert review.
+- A general result extending the soluble-subgroup bound beyond the established families.
 
 **Primary branch:** [Algebra](../domains/math.md#math-alg). **Related branches:** None recorded.
 
-**Sources:** [The Kourovka Notebook: Unsolved Problems in Group Theory, 21st edition, October 2026 update](../sources.md#src-math-301).
+**Sources:** [The Kourovka Notebook: Unsolved Problems in Group Theory, 21st edition, October 2026 update](../sources.md#src-math-301); [Unsolved Problems in Group Theory: The Kourovka Notebook (21st edition, November 2026 update)](../sources.md#src-math-900); [On the regularity number of a finite group and other base-related invariants](../sources.md#src-math-902).
 
-**Exact locator:** Problem 21.4; M. Anagnostopoulou-Merkouri, T. C. Burness.
+**Exact locator:** Kourovka Problem 21.4 and Anagnostopoulou-Merkouri–Burness, Conjecture 1(iii)
 
 **Potential difficulty:** Unknown. The statement is source-located, but a current difficulty assessment and comparison with the latest partial results have not been completed. A simple formulation is not evidence of tractability.
 
@@ -47,6 +45,34 @@ If a finite group G has trivial solvable radical and H1,...,H5 are solvable subg
 ## Literature checks
 
 These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-26
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Source reports open → Source reports open.
+
+The November Notebook lists Problem 21.4. Anagnostopoulou-Merkouri and Burness prove a stronger three-subgroup result for almost simple sporadic groups. Their five-subgroup bound for all finite groups with trivial solvable radical remains a conjecture in the cited sources.
+
+**Search scope:** Each of the five solvable subgroups may be different. The ambient group may be any finite group with trivial solvable radical.
+
+**Inspected evidence**
+
+- [Unsolved Problems in Group Theory: The Kourovka Notebook (21st edition, November 2026 update)](../sources.md#src-math-900) — Problem 21.4, printed p. 178. Asks whether five given solvable subgroups can be conjugated separately to have trivial total intersection.
+- [On the regularity number of a finite group and other base-related invariants](../sources.md#src-math-902) — Conjecture 1(iii), abstract and sporadic-group results. Poses the general bound and proves regularity for triples of soluble subgroups in almost simple sporadic groups.
+
+**Limits and remaining work**
+
+- A general result extending the soluble-subgroup bound beyond the established families.
+- This is a literature check. The cited proofs and computational certificates have not been independently reproduced.
+
+<details>
+<summary>Search queries</summary>
+
+- regularity number solvable subgroups five Anagnostopoulou-Merkouri Burness radical free 2025 2026
+
+
+</details>
 
 ### 2026-10-14
 

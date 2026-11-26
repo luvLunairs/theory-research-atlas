@@ -10,41 +10,68 @@ Can a committee in the approval-election core be found in polynomial time on ins
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Unverified. **Last checked:** 2026-10-14.
+**Current status:** Unverified. **Last checked:** 2026-11-26.
 
-**Status basis:** The claimed algorithm would answer the historical promised search problem. Keep unverified pending independent acceptance and verification.
+**Status basis:** The revised preprint reports a polynomial-time construction at the ordinary Hare quota. Theorem 7.2 has polynomial dependence on the input size and 1/delta, where delta = q - n/(k+1). Its bound does not cover the Droop core+ endpoint delta = 0.
 
 **Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** Sources: SRC-MODEL-403: 2022; SRC-MODEL-602: 2026. The 2026-10-14 check covers the scope recorded in the linked literature check.
+**Source date and freshness:** 2022 book and arXiv:2609.11912v2, 3 November 2026.
 
-**Scope limits:** A finite approval-election model with fixed rule and axiom definitions from the book. An axiomatic result does not establish that voter preferences or welfare are represented adequately.
+**Scope limits:** At the Hare quota q = n/k, delta = n/[k(k+1)] is positive. Finding one core committee and deciding whether a supplied committee belongs to the core are different tasks.
 
 **Information still needed**
 
-- Independent acceptance and bit-complexity details remain unverified; search and recognition of arbitrary core committees are distinct.
+- Check the rational linear programs and their size in the search algorithm. The reported Hare existence formalization does not certify the runtime.
 
 **Primary branch:** [Social choice and collective decisions](../domains/econ.md#econ-social). **Related branches:** [Algorithms and data structures](../domains/cs.md#cs-alg).
 
 **Sources:** [Outlook and Research Directions, in Multi-Winner Voting with Approval Preferences](../sources.md#src-model-403); [Existence of the Core in Approval-Based Committee Elections](../sources.md#src-model-602).
 
-**Exact locator:** §7.2, Q11 and footnote 1
+**Exact locator:** Lackner and Skowron, Chapter 7, Q11; Becker, Greger and Peters v2, Sections 7–8, Theorem 7.2.
 
 **Potential difficulty:** High. The target quantifies over unrestricted approval profiles or asks for a general algorithmic guarantee.
 
-**Possible AI role:** A directly relevant resolution claim exists. AI could assist specialist comparison of definitions, dependencies and proof steps; reviewing the claim takes priority over treating the target as untouched.
+**Possible AI role:** Audit the polynomial dependence on the quota gap and the input representation for the ordinary Hare search problem.
 
 **Verification burden:** High. Independent expert review of the claim is needed. Abstracts, model confidence, producer checks and publication metadata alone do not verify a proof.
 
 **Resource expectations:** Exact small-election searches may use SAT or integer programming on a workstation. Exhaustive instance size grows quickly; general claims require proofs or independently checked counterexamples.
 
-**Assessment:** 2026-10-14; untested forecast. **Uncertainty:** No named model has been evaluated. This forecasts conditional assistance with literature and proof review, not measured capability or a probability that the claim is correct.
+**Assessment:** 2026-11-26; untested forecast. **Uncertainty:** The algorithm and bit-complexity proof have not been independently verified.
 
 **Further work:** resolve the statement and status questions above before planning an attempt. **Human review:** Pending.
 
 ## Literature checks
 
 These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-26
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Unverified → Unverified.
+
+The revised preprint reports a polynomial-time construction at the ordinary Hare quota. Theorem 7.2 has polynomial dependence on the input size and 1/delta, where delta = q - n/(k+1). Its bound does not cover the Droop core+ endpoint delta = 0.
+
+**Search scope:** Checked the book questions, arXiv version history and revised theorem statements; searched for a publication or correction.
+
+**Inspected evidence**
+
+- [Outlook and Research Directions, in Multi-Winner Voting with Approval Preferences](../sources.md#src-model-403) — Chapter 7, Q11 and footnote. Separates search for a core committee from recognition.
+- [Existence of the Core in Approval-Based Committee Elections](../sources.md#src-model-602) — Section 7, Theorem 7.2 and its proof; Section 8. Bounds the number of swaps and the size of the rational linear programs; treats the Droop endpoint separately.
+
+**Limits and remaining work**
+
+- The algorithm and bit-complexity proof have not been independently verified.
+
+<details>
+<summary>Search queries</summary>
+
+- "Existence of the Core in Approval-Based Committee Elections" Becker Greger Peters 2026 accepted conference November core Droop Hare Theorem
+
+
+</details>
 
 ### 2026-10-14
 

@@ -42,17 +42,20 @@
     "title": "Navier-Stokes",
     "scope": "Existence and regularity alternatives for three-dimensional incompressible flow.",
     "status": "claimed_resolution_under_review",
-    "status_basis": "Clay reports an apparent settlement under evaluation; final acceptance is not recorded.",
+    "status_basis": "Clay acknowledged an apparent settlement in September. The September construction uses an external force. An October preprint questions whether its written argument matches its formalization. In November Alpöge and Buckmaster claimed blow-up without forcing. Their release omits the computational certificate. The inspected Clay records give no final prize decision.",
     "problem_ids": [
       "Q-LAND-305"
     ],
     "source_ids": [
       "SRC-LAND-301",
       "SRC-LAND-306",
-      "SRC-MATH-015"
+      "SRC-MATH-015",
+      "SRC-LAND-904",
+      "SRC-LAND-905",
+      "SRC-LAND-906"
     ],
-    "source_locator": "Clay collection status list; linked official description where applicable.",
-    "last_checked": "2026-10-14"
+    "source_locator": "Fefferman, alternatives A–D. Clay, 11 September notice. OpenAI, 8 September announcement. Bastounis and coauthors, abstract. Alpöge and Buckmaster, 20 November release notes.",
+    "last_checked": "2026-11-26"
   },
   {
     "id": "MILLENNIUM-04",
@@ -209,14 +212,15 @@
     "title": "Axiomatization of physics",
     "scope": "Axioms and limiting relations for physical theories.",
     "status": "broad_program",
-    "status_basis": "No single theorem exhausts this program.",
+    "status_basis": "Hilbert proposed a broad program. Deng, Hani and Ma derive fluid equations from a hard-sphere model in specified scaling limits, addressing the kinetic-theory part of the program.",
     "problem_ids": [],
     "source_ids": [
       "SRC-LAND-307",
-      "SRC-LAND-308"
+      "SRC-LAND-308",
+      "SRC-LAND-900"
     ],
-    "source_locator": "Hilbert, Problem 6; recent overview, matching numbered paragraph. Additional scope qualifications use the linked specialist source.",
-    "last_checked": "2026-10-14"
+    "source_locator": "Hilbert, Problem 6. Simons Foundation, item 6. Deng, Hani and Ma, abstract and Section 1.",
+    "last_checked": "2026-11-26"
   },
   {
     "id": "HILBERT-07",
@@ -277,14 +281,17 @@
     "title": "Diophantine decidability over the integers",
     "scope": "A general algorithm for integer solutions of polynomial equations.",
     "status": "resolved",
-    "status_basis": "Undecidability answers the original integer question.",
+    "status_basis": "The Davis–Putnam–Robinson–Matiyasevich theorem rules out an algorithm for integer solutions. Koymans and Pagano extend undecidability to infinite rings finitely generated over the integers. Alpöge, Bhargava, Ho and Shnidman independently treat rings of integers of number fields. A separate October 2026 preprint claims undecidability over the rational field; its proof awaits independent assessment here.",
     "problem_ids": [],
     "source_ids": [
       "SRC-LAND-307",
-      "SRC-LAND-308"
+      "SRC-LAND-308",
+      "SRC-LAND-901",
+      "SRC-LAND-902",
+      "SRC-LAND-903"
     ],
-    "source_locator": "Hilbert, Problem 10; recent overview, matching numbered paragraph. Additional scope qualifications use the linked specialist source.",
-    "last_checked": "2026-10-14"
+    "source_locator": "Hilbert, Problem 10. Koymans and Pagano, Theorems 1.1–1.2. Alpöge and coauthors, abstract. OpenAI, 6 October preprint, abstract.",
+    "last_checked": "2026-11-26"
   },
   {
     "id": "HILBERT-11",

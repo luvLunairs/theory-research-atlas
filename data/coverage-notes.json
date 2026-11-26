@@ -39,7 +39,7 @@
       "coverage": "The directory includes classical analytic conjectures, dynamical questions, spectral problems and systems governed by differential equations.",
       "gaps": "Harmonic analysis, operator algebras, nonlinear PDE and rigorous numerics need more full research cards and systematic status review.",
       "reason": "Convergence, regularity and boundary assumptions must be explicit; numerical evidence does not establish a general existence theorem.",
-      "status_limits": "Caustic integrability has an explicit target. The Hilbert invariant-subspace problem retains conflicting proof claims, without a judgment of their correctness."
+      "status_limits": "Caustic integrability has an explicit target. The Hilbert invariant-subspace problem retains conflicting proof claims, without a judgment of their correctness. The Navier–Stokes entry distinguishes the September forced claim from the November unforced claim and records the missing certificate for the latter."
     }
   },
   {
@@ -98,7 +98,7 @@
       "coverage": "Coding, entropy inequalities, source coding, distributed testing and channel-capacity questions have individual records and source locations. The deletion-channel capacity card includes the d=1/2 benchmark and the provenance of the reported 2026 enclosure.",
       "gaps": "Network information theory, finite-blocklength analysis and source coding still need broader extraction and detailed cards.",
       "reason": "Channel assumptions, blocklength limits and allowed encoders determine whether a claimed bound addresses the target.",
-      "status_limits": "The latest inspected bounds are preprint claims. Complete numerical replay depends on large proof inputs whose availability is unresolved; this project has not run the certificates."
+      "status_limits": "The deletion-channel enclosure rests on numerical certificates that still need independent replay. For general relay channels, a counterexample targets the first version of a proposed capacity formula. Its scope against the revised formula remains unsettled. A counterexample to the one-letter Marton sum rate also leaves the general broadcast capacity region undetermined."
     }
   },
   {
@@ -106,7 +106,8 @@
     "note": {
       "coverage": "Candidates cover DNF Fourier structure, data selection, private learning, statistical queries, tensor methods, bandits and reinforcement learning.",
       "gaps": "Many are brief source-based records. Precise assumptions, current partial results and practical research plans need specialist review.",
-      "reason": "A statistical guarantee, a computational guarantee and empirical performance are distinct claims."
+      "reason": "A statistical guarantee, a computational guarantee and empirical performance are distinct claims.",
+      "status_limits": "The two heavy-tailed bandit questions now have direct responses. The rates in the assumption-free setting and the conditions for oracle-rate adaptation use different benchmarks. The latter result requires specified visibility constants."
     }
   },
   {
@@ -115,7 +116,7 @@
       "coverage": "Bell-correlation calibrations and entanglement candidates now include detailed cards for the three-copy Werner endpoint and initialization of a specified 3D passive quantum memory.",
       "source_ids": [
         "SRC-MODEL-001",
-        "SRC-MODEL-002",
+        "SRC-BASE-005",
         "SRC-MODEL-004",
         "SRC-MODEL-018",
         "SRC-MODEL-019",
@@ -185,7 +186,7 @@
       "coverage": "Candidates cover cosmic censorship, black-hole geometry, cosmological singularities, approximation limits and cosmological mechanisms. Nonlinear stationary axisymmetric Kerr tidal response has a detailed card distinguishing quadrupolar progress from all-multipole EFT matching.",
       "source_ids": [
         "SRC-MODEL-001",
-        "SRC-MODEL-002",
+        "SRC-BASE-005",
         "SRC-MODEL-015",
         "SRC-MODEL-017",
         "SRC-MODEL-405",
@@ -209,11 +210,12 @@
         "SRC-MODEL-104",
         "SRC-MODEL-318",
         "SRC-MODEL-319",
-        "SRC-MODEL-401"
+        "SRC-MODEL-404",
+        "SRC-MODEL-615"
       ],
       "scope": "Newtonian few-body dynamics and selected cosmological research targets.",
       "remaining": "Many questions in the historical celestial-mechanics collection need later-literature checks. Nonlinear stability, resonances, collisions, stellar and galactic dynamics, radiative processes and cosmological perturbations need more detailed cards. No observational dataset has received a task-specific audit.",
-      "status_limits": "The all-positive-mass planar five-body finiteness claim is a status-change lead, not an independently audited theorem. The six-body question remains a separate target."
+      "status_limits": "The all-positive-mass five-body claim awaits independent assessment here. For six bodies, later work gives generic-mass results and restrictions on exceptional masses. Finiteness for every choice of positive masses remains a separate question."
     }
   },
   {
@@ -260,10 +262,9 @@
     "note": {
       "coverage": "Candidates address visual processing, neural readout, working memory, developmental organization, biological model selection and cellular regulation.",
       "source_ids": [
-        "SRC-MODEL-002",
+        "SRC-BASE-005",
         "SRC-MODEL-008",
         "SRC-MODEL-406",
-        "SRC-MODEL-407",
         "SRC-MODEL-408",
         "SRC-MODEL-409"
       ],
@@ -276,7 +277,7 @@
     "note": {
       "coverage": "Bimatrix equilibrium calibration and a quitting-game candidate cover finite games and one stochastic-game question.",
       "source_ids": [
-        "SRC-MODEL-003",
+        "SRC-BASE-004",
         "SRC-MODEL-007"
       ],
       "scope": "Equilibrium computation, best-response geometry and approximate equilibrium in quitting games.",
@@ -288,8 +289,8 @@
     "note": {
       "coverage": "Fair-division and approval-based committee questions cover allocation, proportionality, core existence, incentives and monotonicity. A detailed card separates the open EFX-plus-integral-Pareto target for personalized bi-valued goods from established fairness results.",
       "source_ids": [
-        "SRC-MODEL-002",
-        "SRC-MODEL-003",
+        "SRC-BASE-005",
+        "SRC-BASE-004",
         "SRC-MODEL-403",
         "SRC-MODEL-412",
         "SRC-MODEL-601",
@@ -359,9 +360,10 @@
       "coverage": "Spectral and non-selfadjoint operator questions supplement quantum, statistical and relativistic model problems. The historical operator collection supplies identifiable questions and named proposers.",
       "gaps": "Integrable systems, constructive field theory, semiclassical limits and many-body spectral estimates need broader specialist coverage.",
       "reason": "A numerical spectrum is not a spectral theorem; domains of unbounded operators and limiting procedures matter.",
-      "remaining": "Historical open labels require later-literature checks; source age alone cannot establish present status.",
+      "remaining": "The conference directory links individual problem sheets from the 2015 AIM workshop and later meetings. The original compiled PDF has been unavailable. Check each problem for subsequent results.",
       "source_ids": [
-        "SRC-MODEL-404"
+        "SRC-PHYS-808",
+        "SRC-MODEL-401"
       ]
     }
   },

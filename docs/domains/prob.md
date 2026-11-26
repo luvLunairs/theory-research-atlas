@@ -6,7 +6,7 @@ Mathematical laws of random objects and processes.
 
 **Boundary:** Distributional assumptions are distinct from empirical fit.
 
-**Research sources: 35 · Primary tasks: 15 · Full cards: 1 · Cross-linked tasks: 22.**
+**Research sources: 40 · Primary tasks: 15 · Full cards: 1 · Cross-linked tasks: 22.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -79,6 +79,11 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [Maintaining diversity in structured populations](../sources.md#src-model-800) | Research entry | 2025 |
 | [The proportion of permutations fixing a k-set](../sources.md#src-model-802) | Research entry | 2026 |
 | [Results and publications — ConStRAINeD](../sources.md#src-phys-802) | Research entry | Not verified |
+| [On the coalescence time of reversible random walks](../sources.md#src-model-902) | Research entry | 2010 |
+| [An Improved Lower Bound on the Largest Common Subtree of Random Leaf-Labeled Binary Trees](../sources.md#src-model-903) | Research entry | 2024 |
+| [Bounds on the Expected Size of the Maximum Agreement Subtree](../sources.md#src-model-904) | Research entry | 2015 |
+| [Estimating the Relative Order of Speciation or Coalescence Events on a Given Phylogeny](../sources.md#src-model-905) | Research entry | 2007 |
+| [A tight upper bound on the cover time for random walks on graphs](../sources.md#src-model-907) | Research entry | 1995 |
 
 <a id="branches"></a>
 
@@ -236,7 +241,7 @@ Random combinatorial objects and their phase behavior.
 
 **Representative objects:** random graphs, percolation, random walks.
 
-**Direct source entries:** [Open Problems in Analysis of Boolean Functions](../sources.md#src-formal-005), [Proof of Tomaszewski's Conjecture on Randomly Signed Sums](../sources.md#src-formal-006), [Statistical Mechanics of Lattice Systems: The Ising Model](../sources.md#src-math-103), [100 Open Problems, December 2025 revision](../sources.md#src-math-302), [Maintaining diversity in structured populations](../sources.md#src-model-301), [Largest common substructures in probabilistic combinatorics](../sources.md#src-math-402), [Online Random Weight Minimal Spanning Trees and a Stochastic Coalescent](../sources.md#src-math-403), [Problems involving largest common substructures](../sources.md#src-math-406), [Maximum Agreement Subtrees and Hölder homeomorphisms between Brownian trees](../sources.md#src-math-603), [The Odlyzko–Poonen conjecture on irreducibility of random polynomials](../sources.md#src-math-606), [Online purchasing under uncertainty](../sources.md#src-math-604), [Corrigendum to Online purchasing under uncertainty](../sources.md#src-math-605), [Odlyzko–Poonen Lean formalization](../sources.md#src-review-704), [Random cubic graphs are not globally synchronizing with probability at least 1 - exp(-2)](../sources.md#src-model-704), [Random cubic graphs admit nonsynchronized stable Kuramoto equilibria](../sources.md#src-model-705), [Maintaining diversity in structured populations](../sources.md#src-model-800), [The proportion of permutations fixing a k-set](../sources.md#src-model-802).
+**Direct source entries:** [Open Problems in Analysis of Boolean Functions](../sources.md#src-formal-005), [Proof of Tomaszewski's Conjecture on Randomly Signed Sums](../sources.md#src-formal-006), [Statistical Mechanics of Lattice Systems: The Ising Model](../sources.md#src-math-103), [100 Open Problems, December 2025 revision](../sources.md#src-math-302), [Maintaining diversity in structured populations](../sources.md#src-model-301), [Largest common substructures in probabilistic combinatorics](../sources.md#src-math-402), [Online Random Weight Minimal Spanning Trees and a Stochastic Coalescent](../sources.md#src-math-403), [Problems involving largest common substructures](../sources.md#src-math-406), [Maximum Agreement Subtrees and Hölder homeomorphisms between Brownian trees](../sources.md#src-math-603), [The Odlyzko–Poonen conjecture on irreducibility of random polynomials](../sources.md#src-math-606), [Online purchasing under uncertainty](../sources.md#src-math-604), [Corrigendum to Online purchasing under uncertainty](../sources.md#src-math-605), [Odlyzko–Poonen Lean formalization](../sources.md#src-review-704), [Random cubic graphs are not globally synchronizing with probability at least 1 - exp(-2)](../sources.md#src-model-704), [Random cubic graphs admit nonsynchronized stable Kuramoto equilibria](../sources.md#src-model-705), [Maintaining diversity in structured populations](../sources.md#src-model-800), [The proportion of permutations fixing a k-set](../sources.md#src-model-802), [On the coalescence time of reversible random walks](../sources.md#src-model-902), [An Improved Lower Bound on the Largest Common Subtree of Random Leaf-Labeled Binary Trees](../sources.md#src-model-903), [Bounds on the Expected Size of the Maximum Agreement Subtree](../sources.md#src-model-904), [Estimating the Relative Order of Speciation or Coalescence Events on a Given Phylogeny](../sources.md#src-model-905), [A tight upper bound on the cover time for random walks on graphs](../sources.md#src-model-907).
 
 **Primary tasks in this branch and its descendants**
 
@@ -358,7 +363,7 @@ These retain their primary record in another domain and are not added to this do
 | [Exact birth–death diversity time on star graphs](../candidates/Q-MODEL-301.md) | High | Literature-origin question | Source reports open | Outline · Q-MODEL-301 |
 | [Largest neutral birth–death diversity time on undirected graphs](../candidates/Q-MODEL-302.md) | High | Literature-origin question | Source reports open | Outline · Q-MODEL-302 |
 | [Smallest neutral birth–death diversity time on undirected graphs](../candidates/Q-MODEL-303.md) | High | Literature-origin question | Source reports open | Outline · Q-MODEL-303 |
-| [Largest neutral death–birth diversity time on undirected graphs](../candidates/Q-MODEL-304.md) | High | Literature-origin question | Source reports open | Outline · Q-MODEL-304 |
+| [Largest neutral death–birth diversity time on undirected graphs](../candidates/Q-MODEL-304.md) | High | Literature-origin question | Unverified | Outline · Q-MODEL-304 |
 | [Chemical recurrence for weakly reversible stochastic reaction networks](../candidates/Q-MODEL-308.md) | Frontier | Literature-origin question | Source reports open | Outline · Q-MODEL-308 |
 | [Approximate equilibrium in quitting games with at least four players](../candidates/Q-MODEL-309.md) | Frontier | Literature-origin question | Source reports open | Outline · Q-MODEL-309 |
 

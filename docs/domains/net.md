@@ -6,7 +6,7 @@ Collective behavior arising from interactions and structure.
 
 **Boundary:** Application-specific claims link to biology, economics or physics.
 
-**Research sources: 15 · Primary tasks: 12 · Full cards: 2 · Cross-linked tasks: 7.**
+**Research sources: 19 · Primary tasks: 12 · Full cards: 2 · Cross-linked tasks: 7.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -55,6 +55,10 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [Random cubic graphs are not globally synchronizing with probability at least 1 - exp(-2)](../sources.md#src-model-704) | Research entry | 2026 |
 | [Random cubic graphs admit nonsynchronized stable Kuramoto equilibria](../sources.md#src-model-705) | Research entry | 2026 |
 | [Infection patterns in simple and complex contagion processes on networks](../sources.md#src-model-804) | Research entry | 2024 |
+| [On the coalescence time of reversible random walks](../sources.md#src-model-902) | Research entry | 2010 |
+| [A tight upper bound on the cover time for random walks on graphs](../sources.md#src-model-907) | Research entry | 1995 |
+| [Random walks and Laplacians on hypergraphs: When do they match?](../sources.md#src-net-900) | Research entry | 2022 |
+| [Higher-order interactions shape collective dynamics differently in hypergraphs and simplicial complexes](../sources.md#src-net-901) | Research entry | 2023 |
 
 <a id="branches"></a>
 
@@ -115,7 +119,7 @@ Combinatorial and statistical organization of interactions.
 
 **Representative objects:** degree sequences, motifs, random graph models.
 
-**Direct source entries:** [Universality of fixation probabilities in randomly structured populations](../sources.md#src-model-102), [Hypergraphs and simplicial complexes in focus: a roadmap for future research in higher-order interactions](../sources.md#src-cross-403).
+**Direct source entries:** [Universality of fixation probabilities in randomly structured populations](../sources.md#src-model-102), [Hypergraphs and simplicial complexes in focus: a roadmap for future research in higher-order interactions](../sources.md#src-cross-403), [Random walks and Laplacians on hypergraphs: When do they match?](../sources.md#src-net-900).
 
 **Primary tasks in this branch and its descendants**
 
@@ -155,7 +159,7 @@ Emergent behavior of interacting units.
 
 **Representative objects:** synchronization, cascades, contagion.
 
-**Direct source entries:** [Epidemic processes in complex networks](../sources.md#src-model-010), [Dense networks that do not synchronize and sparse ones that do](../sources.md#src-formal-104), [Sufficiently dense Kuramoto networks are globally synchronizing](../sources.md#src-formal-105), [Benign landscapes for synchronization on spheres via normalized Laplacian matrices](../sources.md#src-formal-106), [Randomstrasse101: Open Problems of 2024](../sources.md#src-model-210), [Maintaining diversity in structured populations](../sources.md#src-model-301), [Hypergraphs and simplicial complexes in focus: a roadmap for future research in higher-order interactions](../sources.md#src-cross-403), [Congestion in networks: SOC, HOT and the percolation-fragmentation phase transition](../sources.md#src-cross-405), [Graphs with connectivity 3/4 - epsilon are globally synchronizing](../sources.md#src-formal-619), [Beyond 11/16: dense Kuramoto networks that resist synchrony](../sources.md#src-formal-620), [Random cubic graphs are not globally synchronizing with probability at least 1 - exp(-2)](../sources.md#src-model-704), [Random cubic graphs admit nonsynchronized stable Kuramoto equilibria](../sources.md#src-model-705), [Infection patterns in simple and complex contagion processes on networks](../sources.md#src-model-804).
+**Direct source entries:** [Epidemic processes in complex networks](../sources.md#src-model-010), [Dense networks that do not synchronize and sparse ones that do](../sources.md#src-formal-104), [Sufficiently dense Kuramoto networks are globally synchronizing](../sources.md#src-formal-105), [Benign landscapes for synchronization on spheres via normalized Laplacian matrices](../sources.md#src-formal-106), [Randomstrasse101: Open Problems of 2024](../sources.md#src-model-210), [Maintaining diversity in structured populations](../sources.md#src-model-301), [Hypergraphs and simplicial complexes in focus: a roadmap for future research in higher-order interactions](../sources.md#src-cross-403), [Congestion in networks: SOC, HOT and the percolation-fragmentation phase transition](../sources.md#src-cross-405), [Graphs with connectivity 3/4 - epsilon are globally synchronizing](../sources.md#src-formal-619), [Beyond 11/16: dense Kuramoto networks that resist synchrony](../sources.md#src-formal-620), [Random cubic graphs are not globally synchronizing with probability at least 1 - exp(-2)](../sources.md#src-model-704), [Random cubic graphs admit nonsynchronized stable Kuramoto equilibria](../sources.md#src-model-705), [Infection patterns in simple and complex contagion processes on networks](../sources.md#src-model-804), [On the coalescence time of reversible random walks](../sources.md#src-model-902), [A tight upper bound on the cover time for random walks on graphs](../sources.md#src-model-907), [Higher-order interactions shape collective dynamics differently in hypergraphs and simplicial complexes](../sources.md#src-net-901).
 
 **Primary tasks in this branch and its descendants**
 
@@ -295,7 +299,7 @@ These retain their primary record in another domain and are not added to this do
 | [Exact birth–death diversity time on star graphs](../candidates/Q-MODEL-301.md) | High | Literature-origin question | Source reports open | Outline · Q-MODEL-301 |
 | [Largest neutral birth–death diversity time on undirected graphs](../candidates/Q-MODEL-302.md) | High | Literature-origin question | Source reports open | Outline · Q-MODEL-302 |
 | [Smallest neutral birth–death diversity time on undirected graphs](../candidates/Q-MODEL-303.md) | High | Literature-origin question | Source reports open | Outline · Q-MODEL-303 |
-| [Largest neutral death–birth diversity time on undirected graphs](../candidates/Q-MODEL-304.md) | High | Literature-origin question | Source reports open | Outline · Q-MODEL-304 |
+| [Largest neutral death–birth diversity time on undirected graphs](../candidates/Q-MODEL-304.md) | High | Literature-origin question | Unverified | Outline · Q-MODEL-304 |
 | [Irreducible higher-order dependencies in neural populations](../candidates/Q-CROSS-447.md) | High | Literature-origin question | Source reports open | Outline · Q-CROSS-447 |
 | [Memory stored in topological synchronization attractors](../candidates/Q-CROSS-448.md) | High | Literature-origin question | Source reports open | Outline · Q-CROSS-448 |
 

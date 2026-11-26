@@ -10,25 +10,25 @@ Does every convex three-dimensional polytope have a tetrahedralization using its
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Unverified. **Last checked:** 2026-10-14.
+**Current status:** Source reports open. **Last checked:** 2026-11-26.
 
-**Status basis:** The inspected source poses this question. A comprehensive search for later resolutions has not been completed; current openness is not asserted.
+**Status basis:** The Open Problems Project labels the unrestricted question open. Chin, Ding and Wang rule out pulling as a universal construction. Escalona, Fabila-Monroy and Urrutia prove a positive case for general-position point sets with at most 20 hull vertices and a broader bound allowing added points.
 
-**Statement check:** Source located. **Status check:** Source report only.
+**Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** Latest displayed substantive revision: 2007.
+**Source date and freshness:** The directory records updates through September 2007. The inspected research texts date from 2005 and 2012.
 
-**Scope limits:** This is a source-defined research question, not a claim that a solution or a manageable research route is known.
+**Scope limits:** A tetrahedron is adjacent to another when they share a face. The requested tetrahedralization may be chosen freely and must use only vertices of the polytope.
 
 **Information still needed**
 
-- Later results without Steiner points; allowing Steiner points changes the question.
+- A later resolution for arbitrary convex three-dimensional polytopes without additional vertices.
 
 **Primary branch:** [Computational geometry and topology](../domains/cs.md#cs-geom). **Related branches:** None recorded.
 
-**Sources:** [The Open Problems Project: Problem 29](../sources.md#src-formal-416).
+**Sources:** [The Open Problems Project: Problem 29](../sources.md#src-formal-416); [On Hamiltonian Tetrahedralizations of Convex Polyhedra](../sources.md#src-math-904); [Hamiltonian Tetrahedralizations with Steiner Points](../sources.md#src-math-905).
 
-**Exact locator:** TOPP Problem 29: Statement; Partial and Related Results
+**Exact locator:** TOPP Problem 29, Chin–Ding–Wang section 2, and Escalona–Fabila-Monroy–Urrutia Theorem 1 and section 3
 
 **Potential difficulty:** Unknown. The source identifies an unresolved research target; its present difficulty has not been independently assessed.
 
@@ -40,11 +40,40 @@ Does every convex three-dimensional polytope have a tetrahedralization using its
 
 **Assessment:** 2026-10-14; untested forecast. **Uncertainty:** No model has been tested. Current status, useful subcases and feasible computational scale require further review.
 
-**Further work:** resolve the statement and status questions above before planning an attempt. **Human review:** Pending.
+**Further work:** define a scoped target, resource requirements and a verification plan before developing a full card. **Human review:** Pending.
 
 ## Literature checks
 
 These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-26
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Unverified → Source reports open.
+
+The Open Problems Project labels the unrestricted question open. Chin, Ding and Wang rule out pulling as a universal construction. Escalona, Fabila-Monroy and Urrutia prove a positive case for general-position point sets with at most 20 hull vertices and a broader bound allowing added points.
+
+**Search scope:** A tetrahedron is adjacent to another when they share a face. The requested tetrahedralization may be chosen freely and must use only vertices of the polytope.
+
+**Inspected evidence**
+
+- [The Open Problems Project: Problem 29](../sources.md#src-formal-416) — Statement, status and related results. Asks whether the tetrahedra can be ordered along a Hamiltonian path in the dual graph.
+- [On Hamiltonian Tetrahedralizations of Convex Polyhedra](../sources.md#src-math-904) — Abstract and section 2. Its counterexample concerns a particular class of tetrahedralizations.
+- [Hamiltonian Tetrahedralizations with Steiner Points](../sources.md#src-math-905) — Theorem 1 and section 3. Under general position, at most 20 hull vertices need no extra points. In general the construction allows interior Steiner points.
+
+**Limits and remaining work**
+
+- A later resolution for arbitrary convex three-dimensional polytopes without additional vertices.
+- This is a literature check. The cited proofs and computational certificates have not been independently reproduced.
+
+<details>
+<summary>Search queries</summary>
+
+- Hamiltonian tetrahedralizations convex polytopes Chin Ding Wang pulling counterexamples Hamiltonian Steiner points
+
+
+</details>
 
 ### 2026-10-14
 

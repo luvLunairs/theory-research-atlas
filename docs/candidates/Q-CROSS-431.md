@@ -6,30 +6,30 @@
 
 [Suggest a correction](https://github.com/luvLunairs/theory-research-atlas/issues/new?template=correction.yml&title=%5BCorrection%5D+Q-CROSS-431%3A+Choosing+spectral+operators+for+higher-order+networks&target=Q-CROSS-431) · [Share progress](https://github.com/luvLunairs/theory-research-atlas/issues/new?template=research-progress.yml&title=%5BResearch%5D+Q-CROSS-431%3A+Choosing+spectral+operators+for+higher-order+networks&target=Q-CROSS-431)
 
-Determine which assumptions justify a given hypergraph or simplicial spectral operator.
+For the analysis of data or dynamics on hypergraphs and simplicial complexes, which assumptions support choosing one spectral operator over another? Identify when different operators capture complementary information.
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Source reports open. **Last checked:** 2026-10-14.
+**Current status:** Source reports open. **Last checked:** 2026-11-26.
 
-**Status basis:** The April 2026 roadmap explicitly identifies this question or research gap. Evidence is limited to that source; later work has not been systematically checked.
+**Status basis:** Mulas et al. give an exact graph representation for their vertex random walks and distinguish the oriented hypergraph Laplacian. The later roadmap asks for guidance across operators and applications.
 
-**Statement check:** Needs clarification. **Status check:** Source report only.
+**Statement check:** Source located. **Status check:** Source report only.
 
-**Source date and freshness:** The question is documented in a 2026 source. Inspection on 2026-10-14 confirms the located text, not an up-to-date resolution search.
+**Source date and freshness:** The 2026 roadmap reports the research direction. The earlier primary paper supplies an explicit case and was rechecked on 2026-11-26.
 
-**Scope limits:** A source-proposed research direction. Fix a model, observables and success criterion before starting. Formal validity under assumptions and empirical support are separate judgments.
+**Scope limits:** Specify the carrier of the signal and what the operator should represent. A vertex transition matrix and an operator encoding oriented sets of inputs and outputs need not describe the same process.
 
 **Information still needed**
 
-- Specify the data-generating model and comparison criterion; avoid treating different operators as interchangeable.
-- Review later papers for this exact formulation and distinguish partial results from a complete answer.
+- Identify a signal, dynamics or inference task and state how to judge whether a candidate operator preserves its relevant information.
+- Check subsequent work for the chosen operator class.
 
 **Primary branch:** [Network structure and random networks](../domains/net.md#net-struct). **Related branches:** None recorded.
 
-**Sources:** [Hypergraphs and simplicial complexes in focus: a roadmap for future research in higher-order interactions](../sources.md#src-cross-403).
+**Sources:** [Hypergraphs and simplicial complexes in focus: a roadmap for future research in higher-order interactions](../sources.md#src-cross-403); [Random walks and Laplacians on hypergraphs: When do they match?](../sources.md#src-net-900).
 
-**Exact locator:** Section 3, final paragraph, p. 12
+**Exact locator:** Abiad et al. (2026), section 3, closing paragraph. Mulas et al. (2022), Theorem 4.5 and section 5.
 
 **Potential difficulty:** High. The target involves model choice, competing mechanisms or extrapolation; a narrow instance may be manageable, but the full research direction has no established cost bound.
 
@@ -42,6 +42,46 @@ Determine which assumptions justify a given hypergraph or simplicial spectral op
 **Assessment:** 2026-10-14; untested forecast. **Uncertainty:** No model-specific attempt has been run. Later results, a more precise formulation and expert assessment may substantially change difficulty and relevance.
 
 **Further work:** define a scoped target, resource requirements and a verification plan before developing a full card. **Human review:** Pending.
+
+## Literature checks
+
+These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-26
+
+**Coverage:** Statement only. **Statement:** Corrected.
+
+**Recorded status:** Source reports open → Source reports open.
+
+Mulas et al. give an exact graph representation for their vertex random walks and distinguish the oriented hypergraph Laplacian. The later roadmap asks for guidance across operators and applications.
+
+**Search scope:** The roadmap formulation and the scope of a published example were checked. Targeted searches for later general results did not yield a verified replacement for the roadmap's assessment.
+
+<details>
+<summary>Previous indexed wording</summary>
+
+Determine which assumptions justify a given hypergraph or simplicial spectral operator.
+
+The current statement appears at the top of this page.
+</details>
+
+**Inspected evidence**
+
+- [Hypergraphs and simplicial complexes in focus: a roadmap for future research in higher-order interactions](../sources.md#src-cross-403) — Section 3, last paragraph. Asks which operator suits a given task, under which hypotheses, and whether the different definitions supply complementary information.
+- [Random walks and Laplacians on hypergraphs: When do they match?](../sources.md#src-net-900) — Theorem 4.5 and section 5. Matches the given vertex-to-vertex walk to a weighted graph, possibly directed. The oriented hypergraph operator can retain information beyond such a walk.
+
+**Limits and remaining work**
+
+- The roadmap describes a research program. No exhaustive contemporary status review or independent replication was performed.
+
+<details>
+<summary>Search queries</summary>
+
+- Mulas Kuehn Böhle Jost Random walks and Laplacians on hypergraphs when do they match 2022 signless Laplacian adjacency graph Markov chain theorem nonnegative coefficients
+- general spectral operators hypergraph Laplacian choice modelling assumptions May 2026 November 2026 random walk comparison simplicial spectral operators Abiad roadmap
+
+
+</details>
 
 <details>
 <summary>Structured records</summary>

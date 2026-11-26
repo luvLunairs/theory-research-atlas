@@ -10,25 +10,26 @@ Which underlying mass-generation mechanism explains the observed nonzero neutrin
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Source reports open. **Last checked:** 2026-10-14.
+**Current status:** Source reports open. **Last checked:** 2026-11-26.
 
-**Status basis:** Both the named problem and multiple viable mass-model alternatives are documented. No empirical selection among the broad mechanisms is established by the inspected sources.
+**Status basis:** The PDG review describes several distinct ways to obtain neutrino masses. KATRIN's five-campaign tritium spectrum gives an upper bound on the effective electron-neutrino mass. This observable alone does not select a mass-generation model.
 
-**Statement check:** Source located. **Status check:** Source report only.
+**Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** Recorded source years: SRC-MODEL-311: 2024, SRC-MODEL-312: 2025. The last-checked date records the scope described in the status basis; it is not a comprehensive literature-search date.
+**Source date and freshness:** The 2026-11-26 literature check identifies the publications, versions and limits covered.
 
-**Scope limits:** The statement and locator identify the candidate. A full assumption set and verification protocol remain to be documented.
+**Scope limits:** Oscillation parameters and a direct kinematic mass bound constrain different quantities. Comparing mass-generation models requires stating their new fields, couplings and additional predicted observables.
 
 **Information still needed**
 
-- Specify the assumptions, candidate methods, resource requirements and independent verification steps for a concrete research task.
+- Specify two mass models, their parameter ranges and an observable on which their predictions can differ.
+- Check later experimental releases before using this five-campaign result as a numerical input.
 
 **Primary branch:** [Quantum field, particle and nuclear theory](../domains/phys.md#phys-field). **Related branches:** [Cosmology and gravitational astrophysics](../domains/astro.md#astro-cosmo).
 
-**Sources:** [Addressing Six Standard Model Problems with Technically Natural Higgs Models](../sources.md#src-model-311); [Neutrino Masses, Mixing, and Oscillations](../sources.md#src-model-312).
+**Sources:** [Addressing Six Standard Model Problems with Technically Natural Higgs Models](../sources.md#src-model-311); [Neutrino Masses, Mixing, and Oscillations](../sources.md#src-model-312); [Direct neutrino-mass measurement based on 259 days of KATRIN data](../sources.md#src-phys-902).
 
-**Exact locator:** Rosenlyst introduction problem 2 and section 5; PDG chapter 14.2.
+**Exact locator:** Rosenlyst, problem 2 and section 5. PDG chapter 14.2. KATRIN five-campaign analysis, abstract and Discussion.
 
 **Potential difficulty:** Frontier. Oscillation observables constrain combinations of parameters while many ultraviolet models remain degenerate.
 
@@ -41,6 +42,38 @@ Which underlying mass-generation mechanism explains the observed nonzero neutrin
 **Assessment:** 2026-10-14; untested forecast. **Uncertainty:** No AI capability or novelty was measured. This is a literature-defined scientific question, not a unique theorem with a universally agreed success test; any proposed model needs a separate hypothesis, consistency and empirical review.
 
 **Further work:** define a scoped target, resource requirements and a verification plan before developing a full card. **Human review:** Pending.
+
+## Literature checks
+
+These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-26
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Source reports open → Source reports open.
+
+Retain the model-selection question and distinguish the measured constraint from its interpretation.
+
+**Search scope:** Oscillation parameters and a direct kinematic mass bound constrain different quantities. Comparing mass-generation models requires stating their new fields, couplings and additional predicted observables.
+
+**Inspected evidence**
+
+- [Neutrino Masses, Mixing, and Oscillations](../sources.md#src-model-312) — Chapter 14.2.1–14.2.4. Presents distinct Dirac, Majorana and other mass-generating extensions.
+- [Direct neutrino-mass measurement based on 259 days of KATRIN data](../sources.md#src-phys-902) — Abstract and Discussion. Reports a 90% confidence bound of 0.45 eV on the effective mass from 259 measurement days.
+
+**Limits and remaining work**
+
+- The five-campaign result is a dated benchmark. No global fit or model comparison was performed.
+
+<details>
+<summary>Search queries</summary>
+
+- 2025 2026 LEGEND-200 first results neutrinoless double beta decay KATRIN direct neutrino mass 0.45 eV Nature 2025 experiment
+- KATRIN Direct neutrino-mass measurement based on 259 days of KATRIN data Karlsruhe tritium April 2025 collaboration direct arxiv neutrino 0.45 eV
+
+
+</details>
 
 <details>
 <summary>Structured records</summary>

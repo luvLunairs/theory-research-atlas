@@ -10,43 +10,68 @@ Determine when task-optimized models explain nonvisual sensory cortex.
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Unverified. **Last checked:** 2026-10-15.
+**Current status:** Unverified. **Last checked:** 2026-11-26.
 
-**Status basis:** This is a broad research direction. Kell et al. (2018) provide substantial auditory-model progress, but no single criterion specifies when the entire direction is solved. Its remaining scope requires a chosen modality, task and evaluation target.
+**Status basis:** Tuckute et al. compared audio-trained models on two independent human fMRI datasets using the same 165 natural sounds. Most tested models improved on the spectrotemporal baseline, with differences across models and cortical regions. The broader nonvisual question remains a research direction.
 
-**Statement check:** Needs clarification. **Status check:** Later literature checked.
+**Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** The research agenda dates to 2016; the added auditory study dates to 2018. The model repository was inspected on 2026-10-15, without executing it.
+**Source date and freshness:** Yamins and DiCarlo, 2016; Kell et al., 2018; Tuckute et al., 2023.
 
-**Scope limits:** A successful prediction on one dataset does not establish a unique neural mechanism or resolve every nonvisual modality.
+**Scope limits:** The two datasets cover different participants and the same sounds. Predicting regional fMRI responses tests a defined auditory benchmark; identifying a causal cortical mechanism requires other evidence.
 
 **Information still needed**
 
-- Specify a modality, behavior, neural measurement and success criterion before selecting a research task.
-- Confirm rights and access for weights, stimuli and neural measurements separately.
-- Review more recent auditory-model comparisons before making a novelty claim.
+- Choose the auditory region, stimulus generalization target and baseline for a specific follow-up.
 
 **Primary branch:** [Theoretical neuroscience](../domains/cog.md#cog-neuro). **Related branches:** None recorded.
 
-**Sources:** [Eight open questions in the computational modeling of higher sensory cortex](../sources.md#src-cross-404); [A Task-Optimized Neural Network Replicates Human Auditory Behavior, Predicts Brain Responses, and Reveals a Cortical Processing Hierarchy](../sources.md#src-review-801); [kelletal2018: auditory network parameters and demonstration](../sources.md#src-review-802).
+**Sources:** [Eight open questions in the computational modeling of higher sensory cortex](../sources.md#src-cross-404); [A Task-Optimized Neural Network Replicates Human Auditory Behavior, Predicts Brain Responses, and Reveals a Cortical Processing Hierarchy](../sources.md#src-review-801); [kelletal2018: auditory network parameters and demonstration](../sources.md#src-review-802); [Many but not all deep neural network audio models capture brain responses and exhibit correspondence between model stages and brain regions](../sources.md#src-model-906).
 
-**Exact locator:** Heading 7, pp. 117–118; Yamins and DiCarlo (2016).
+**Exact locator:** Yamins and DiCarlo, Question 7; Tuckute et al., Results, Discussion and Data Availability.
 
 **Potential difficulty:** Unknown. The direction spans several modalities and has no common completion test. Difficulty depends on the proposed comparison or theoretical claim.
 
-**Possible AI role:** Help compare stated model assumptions, prepare reproducible analyses and find cases where rival models make different predictions. A neuroscientist must define the explanatory claim and assess its empirical support.
+**Possible AI role:** Use the archived activations and responses to compare a specified region and held-out sounds across models.
 
 **Verification burden:** High. Separate training, model selection and held-out evaluation. Report uncertainty, noise ceilings and controls for alternative explanations; prediction quality alone does not identify causation.
 
 **Resource expectations:** The author repository offers model parameters and an inference notebook. Data access and licensing need a separate audit. Training, inference and neural-data collection have different costs; none has been measured for a proposed task.
 
-**Assessment:** 2026-10-15; untested forecast. **Uncertainty:** No model was executed. Later literature, resource permissions and the choice of empirical target may change both feasibility and novelty.
+**Assessment:** 2026-11-26; untested forecast. **Uncertainty:** The numerical results were not rerun; this study tests auditory prediction, not every nonvisual system.
 
 **Further work:** resolve the statement and status questions above before planning an attempt. **Human review:** Pending.
 
 ## Literature checks
 
 These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-26
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Unverified → Unverified.
+
+Tuckute et al. compared audio-trained models on two independent human fMRI datasets using the same 165 natural sounds. Most tested models improved on the spectrotemporal baseline, with differences across models and cortical regions. The broader nonvisual question remains a research direction.
+
+**Search scope:** Reopened the original review and the multisystem auditory comparison, including its stimulus design and data availability.
+
+**Inspected evidence**
+
+- [Eight open questions in the computational modeling of higher sensory cortex](../sources.md#src-cross-404) — Question 7. Extends the modeling question beyond vision.
+- [Many but not all deep neural network audio models capture brain responses and exhibit correspondence between model stages and brain regions](../sources.md#src-model-906) — Results, Discussion and Data Availability. Provides model comparisons, two fMRI datasets and an archive with activations, data and analysis code.
+
+**Limits and remaining work**
+
+- The numerical results were not rerun; this study tests auditory prediction, not every nonvisual system.
+
+<details>
+<summary>Search queries</summary>
+
+- many but not all deep neural network audio models capture brain responses and exhibit correspondence between model stages and brain regions auditory cortex 2023 primary nature reproducibility
+
+
+</details>
 
 ### 2026-10-15
 

@@ -10,25 +10,25 @@ Determine the capacity region of an arbitrary two-receiver discrete memoryless b
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Unverified. **Last checked:** 2026-10-14.
+**Current status:** Source reports open. **Last checked:** 2026-11-26.
 
-**Status basis:** The inspected source poses this question. A comprehensive search for later resolutions has not been completed; current openness is not asserted.
+**Status basis:** Huang, Liu and Liu describe the general capacity region as open and report a finite channel where coding over two uses improves the one-letter Marton sum rate. Their counterexample concerns the inner bound and leaves the general characterization open.
 
-**Statement check:** Source located. **Status check:** Source report only.
+**Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** The source dates from 2011.
+**Source date and freshness:** The 2011 ISIT tutorial sets out the problem. The new preprint was posted on 20 August 2026.
 
-**Scope limits:** This is a source-defined research question, not a claim that a solution or a manageable research route is known.
+**Scope limits:** The target is the full region for two receivers with independent private messages. A strict gain in an achievable sum rate need not determine the boundary of that region.
 
 **Information still needed**
 
-- Review later capacity theorems; establish which channel classes remain unresolved.
+- Independent replication of the preprint's certificate and a characterization of the general region.
 
 **Primary branch:** [Classical information theory](../domains/info.md#info-shannon). **Related branches:** None recorded.
 
-**Sources:** [Elements of Network Information Theory: ISIT 2011 tutorial](../sources.md#src-formal-446).
+**Sources:** [Elements of Network Information Theory: ISIT 2011 tutorial](../sources.md#src-formal-446); [Sub-optimality of Marton's Inner Bound for the Two-Receiver Broadcast Channel](../sources.md#src-math-906).
 
-**Exact locator:** PDF pp. 37–38
+**Exact locator:** El Gamal–Kim, broadcast channel slides, and Huang–Liu–Liu, introduction and section III
 
 **Potential difficulty:** Unknown. The source identifies an unresolved research target; its present difficulty has not been independently assessed.
 
@@ -40,11 +40,39 @@ Determine the capacity region of an arbitrary two-receiver discrete memoryless b
 
 **Assessment:** 2026-10-14; untested forecast. **Uncertainty:** No model has been tested. Current status, useful subcases and feasible computational scale require further review.
 
-**Further work:** resolve the statement and status questions above before planning an attempt. **Human review:** Pending.
+**Further work:** define a scoped target, resource requirements and a verification plan before developing a full card. **Human review:** Pending.
 
 ## Literature checks
 
 These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-26
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Unverified → Source reports open.
+
+Huang, Liu and Liu describe the general capacity region as open and report a finite channel where coding over two uses improves the one-letter Marton sum rate. Their counterexample concerns the inner bound and leaves the general characterization open.
+
+**Search scope:** The target is the full region for two receivers with independent private messages. A strict gain in an achievable sum rate need not determine the boundary of that region.
+
+**Inspected evidence**
+
+- [Elements of Network Information Theory: ISIT 2011 tutorial](../sources.md#src-formal-446) — Broadcast channel: model and capacity region, PDF pp. 38–39 (Stanford copy). Defines achievability for two private messages and records the historical general problem.
+- [Sub-optimality of Marton's Inner Bound for the Two-Receiver Broadcast Channel](../sources.md#src-math-906) — Introduction and section III, especially III-C. Reports strict nonadditivity of the one-letter Marton sum rate for an unconstrained finite channel.
+
+**Limits and remaining work**
+
+- Independent replication of the preprint's certificate and a characterization of the general region.
+- This is a literature check. The cited proofs and computational certificates have not been independently reproduced.
+
+<details>
+<summary>Search queries</summary>
+
+- general discrete memoryless broadcast channel Marton private messages capacity remains open 2026
+
+
+</details>
 
 ### 2026-10-14
 

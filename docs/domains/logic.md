@@ -6,7 +6,7 @@ Formal reasoning, definability and foundational systems.
 
 **Boundary:** Metamathematical claims specify their ambient logic and axioms.
 
-**Research sources: 18 · Primary tasks: 24 · Full cards: 1 · Cross-linked tasks: 8.**
+**Research sources: 23 · Primary tasks: 24 · Full cards: 1 · Cross-linked tasks: 8.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -73,6 +73,11 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [Random (log n)-CNF Formulas Are Hard for Depth-2 Frege with Modular Gates](../sources.md#src-math-806) | Research entry | 2026 |
 | [Martin's Conjecture — Open Problems in Mathematical Logic](../sources.md#src-math-807) | Research entry | Not verified |
 | [Order-preserving maps of the Turing degrees: regularity and consistency strength](../sources.md#src-math-808) | Research entry | 2026 |
+| [Hilbert's tenth problem via additive combinatorics](../sources.md#src-land-901) | Research entry | 2024 |
+| [Rank stability in quadratic extensions and Hilbert’s tenth problem for the ring of integers of a number field](../sources.md#src-land-902) | Research entry | 2025 |
+| [Hilbert's tenth problem over the rational numbers](../sources.md#src-land-903) | Research entry | 2026 |
+| [Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs](../sources.md#src-land-906) | Research entry | 2026 |
+| [Vaught's Conjecture for Sums of Products of Rooted Trees](../sources.md#src-math-910) | Research entry | 2026 |
 
 <a id="branches"></a>
 
@@ -100,7 +105,7 @@ Formal reasoning, definability and foundational systems.
 
 **Representative objects:** theories, proofs, models, types.
 
-**Direct source entries:** [Mathematics Subject Classification 2020: editorial introduction](../sources.md#src-base-001), [arXiv Category Taxonomy](../sources.md#src-base-005), [ACM Computing Classification System 2012 — institutional mirror](../sources.md#src-formal-001), [Mathematics Subject Classification 2020: classification list](../sources.md#src-base-015), [Mathematical Problems](../sources.md#src-land-307), [Solved, Unsolved and Unsolvable: The Status of Hilbert's 23 Problems in Mathematics](../sources.md#src-land-308).
+**Direct source entries:** [Mathematics Subject Classification 2020: editorial introduction](../sources.md#src-base-001), [arXiv Category Taxonomy](../sources.md#src-base-005), [ACM Computing Classification System 2012 — institutional mirror](../sources.md#src-formal-001), [Mathematics Subject Classification 2020: classification list](../sources.md#src-base-015), [Mathematical Problems](../sources.md#src-land-307), [Solved, Unsolved and Unsolvable: The Status of Hilbert's 23 Problems in Mathematics](../sources.md#src-land-308), [Hilbert's tenth problem via additive combinatorics](../sources.md#src-land-901), [Rank stability in quadratic extensions and Hilbert’s tenth problem for the ring of integers of a number field](../sources.md#src-land-902), [Hilbert's tenth problem over the rational numbers](../sources.md#src-land-903), [Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs](../sources.md#src-land-906).
 
 [View all primary tasks](#tasks) · [View cross-domain tasks](#cross-domain-tasks)
 
@@ -181,7 +186,7 @@ Structures defined by formal theories.
 
 **Representative objects:** definability, stability, valued fields.
 
-**Direct source entries:** [Trakhtenbrot's Theorem in Coq: Finite Model Theory through the Constructive Lens](../sources.md#src-math-101), [Mathematics Subject Classification 2020: classification list](../sources.md#src-base-015), [The Kourovka Notebook: Unsolved Problems in Group Theory, 21st edition, October 2026 update](../sources.md#src-math-301), [Scott Analysis below the Vaught Ordinal](../sources.md#src-formal-314).
+**Direct source entries:** [Trakhtenbrot's Theorem in Coq: Finite Model Theory through the Constructive Lens](../sources.md#src-math-101), [Mathematics Subject Classification 2020: classification list](../sources.md#src-base-015), [The Kourovka Notebook: Unsolved Problems in Group Theory, 21st edition, October 2026 update](../sources.md#src-math-301), [Scott Analysis below the Vaught Ordinal](../sources.md#src-formal-314), [Vaught's Conjecture for Sums of Products of Rooted Trees](../sources.md#src-math-910).
 
 **Primary tasks in this branch and its descendants**
 

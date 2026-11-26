@@ -67,7 +67,7 @@ Use this index to compare targets and their evidence status. **552 records inclu
 | [Birch and Swinnerton-Dyer rank conjecture over Q](#q-land-302) | [Number theory and arithmetic geometry](domains/math.md#math-num) | Frontier | Source reports open | Outline |
 | [Rational Hodge conjecture](#q-land-303) | [Algebraic geometry](domains/math.md#math-geom-alg) | Frontier | Source reports open | Outline |
 | [P versus NP](#q-land-304) | [Computational complexity](domains/cs.md#cs-complex) | Frontier | Source reports open | Outline |
-| [Three-dimensional Navier-Stokes global regularity](#q-land-305) | [Differential equations and variational analysis](domains/math.md#math-anal-pde) | Frontier | Unverified | Outline |
+| [Three-dimensional Navier–Stokes global regularity without forcing](#q-land-305) | [Differential equations and variational analysis](domains/math.md#math-anal-pde) | Frontier | Unverified | Outline |
 | [Even Goldbach conjecture](#q-land-306) | [Analytic number theory](domains/math.md#math-num-analytic) | Frontier | Source reports open | Outline |
 | [Twin prime conjecture](#q-land-307) | [Analytic number theory](domains/math.md#math-num-analytic) | Frontier | Source reports open | Outline |
 | [Resolvent degree of the general sextic polynomial](#q-land-308) | [Algebra](domains/math.md#math-alg) | Frontier | Source reports open | Outline |
@@ -132,7 +132,7 @@ Use this index to compare targets and their evidence status. **552 records inclu
 | [Exact birth–death diversity time on star graphs](#q-model-301) | [Evolution, population genetics and phylogenetics](domains/bio.md#bio-evol) | High | Source reports open | Outline |
 | [Largest neutral birth–death diversity time on undirected graphs](#q-model-302) | [Evolution, population genetics and phylogenetics](domains/bio.md#bio-evol) | High | Source reports open | Outline |
 | [Smallest neutral birth–death diversity time on undirected graphs](#q-model-303) | [Evolution, population genetics and phylogenetics](domains/bio.md#bio-evol) | High | Source reports open | Outline |
-| [Largest neutral death–birth diversity time on undirected graphs](#q-model-304) | [Evolution, population genetics and phylogenetics](domains/bio.md#bio-evol) | High | Source reports open | Outline |
+| [Largest neutral death–birth diversity time on undirected graphs](#q-model-304) | [Evolution, population genetics and phylogenetics](domains/bio.md#bio-evol) | High | Unverified | Outline |
 | [Slow-evolution global stability in the autonomous evolutionary Ricker model](#q-model-305) | [Ecology and population dynamics](domains/bio.md#bio-eco) | High | Source reports open | Outline |
 | [Local-to-global stability for periodic evolutionary Ricker dynamics](#q-model-306) | [Ecology and population dynamics](domains/bio.md#bio-eco) | High | Source reports open | Outline |
 | [Bifurcations of the periodically forced evolutionary Ricker model](#q-model-307) | [Ecology and population dynamics](domains/bio.md#bio-eco) | High | Source reports open | Outline |
@@ -294,9 +294,9 @@ Use this index to compare targets and their evidence status. **552 records inclu
 | [When abelian p-subgroups force normal abelian subgroups of the same size](#q-math-490) | [Algebra](domains/math.md#math-alg) | Unknown | Source reports open | Outline |
 | [When elementary abelian subgroups force normal ones of the same size](#q-math-491) | [Algebra](domains/math.md#math-alg) | Unknown | Source reports open | Outline |
 | [Recovering a simple group from its involution product-order coloring](#q-math-492) | [Algebra](domains/math.md#math-alg) | Unknown | Source reports open | Outline |
-| [Asymptotic p-length of p-solvable linear groups](#q-math-493) | [Algebra](domains/math.md#math-alg) | Unknown | Source reports open | Outline |
+| [Asymptotic p-length of p-solvable linear groups](#q-math-493) | [Algebra](domains/math.md#math-alg) | Unknown | Unverified | Outline |
 | [A linear Fitting-height bound from a nilpotent automorphism group](#q-math-494) | [Algebra](domains/math.md#math-alg) | Unknown | Source reports open | Outline |
-| [Intersection of an X-maximal subgroup with a normal subgroup](#q-math-495) | [Algebra](domains/math.md#math-alg) | Unknown | Source reports open | Outline |
+| [Intersection of an X-maximal subgroup with a normal subgroup](#q-math-495) | [Algebra](domains/math.md#math-alg) | Unknown | Unverified | Outline |
 | [Almost-simple groups determined by character-degree multisets](#q-math-496) | [Groups and representation theory](domains/math.md#math-alg-rep) | Unknown | Source reports open | Outline |
 | [Finite-dimensional cohomology versus finite generation of pro-p cohomology](#q-math-497) | [Algebra](domains/math.md#math-alg) | Unknown | Source reports open | Outline |
 | [Ivanov's virtual-abelianization conjecture](#q-math-498) | [Low-dimensional topology](domains/math.md#math-top-low) | High | Source reports open | Outline |
@@ -342,7 +342,7 @@ Use this index to compare targets and their evidence status. **552 records inclu
 | [Minimum-facet approximation between offset convex polytopes](#q-formal-413) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
 | [Geometric hexahedral meshing with planar faces](#q-formal-414) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
 | [Connectivity of geometric tetrahedralization flip graphs](#q-formal-415) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Source reports open | Outline |
-| [Hamiltonian tetrahedralizations of convex polytopes](#q-formal-416) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
+| [Hamiltonian tetrahedralizations of convex polytopes](#q-formal-416) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Source reports open | Outline |
 | [Polynomial separation bounds for sums of square roots](#q-formal-417) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Open after scoped check | Outline |
 | [Sublogarithmic approximation for metric freeze-tag](#q-formal-418) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
 | [Compatible triangulations of equal-size planar point sets](#q-formal-419) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
@@ -382,8 +382,8 @@ Use this index to compare targets and their evidence status. **552 records inclu
 | [Interactive distributed-testing exponent](#q-formal-453) | [Classical information theory](domains/info.md#info-shannon) | Unknown | Unverified | Outline |
 | [Mismatch-capacity formula](#q-formal-454) | [Classical information theory](domains/info.md#info-shannon) | Unknown | Source reports open | Outline |
 | [Channel reliability function](#q-formal-455) | [Classical information theory](domains/info.md#info-shannon) | Unknown | Unverified | Outline |
-| [General broadcast-channel capacity](#q-formal-456) | [Classical information theory](domains/info.md#info-shannon) | Unknown | Unverified | Outline |
-| [General relay-channel capacity](#q-formal-457) | [Classical information theory](domains/info.md#info-shannon) | Unknown | Unverified | Outline |
+| [General broadcast-channel capacity](#q-formal-456) | [Classical information theory](domains/info.md#info-shannon) | Unknown | Source reports open | Outline |
+| [General relay-channel capacity](#q-formal-457) | [Classical information theory](domains/info.md#info-shannon) | Unknown | Conflicting evidence | Outline |
 | [Exact Gaussian interference-channel capacity](#q-formal-458) | [Classical information theory](domains/info.md#info-shannon) | Unknown | Unverified | Outline |
 | [Direct lambda definability](#q-formal-459) | [Programming languages and verification theory](domains/cs.md#cs-semantics) | Unknown | Unverified | Outline |
 | [Reduction spectra of orthogonal rewriting](#q-formal-460) | [Programming languages and verification theory](domains/cs.md#cs-semantics) | Unknown | Unverified | Outline |
@@ -943,7 +943,7 @@ Each record has its own page with the statement, source locator, information gap
 
 <a id="q-land-305"></a>
 
-[Q-LAND-305 · Three-dimensional Navier-Stokes global regularity](candidates/Q-LAND-305.md) — Unverified.
+[Q-LAND-305 · Three-dimensional Navier–Stokes global regularity without forcing](candidates/Q-LAND-305.md) — Unverified.
 
 <a id="q-land-306"></a>
 
@@ -1203,7 +1203,7 @@ Each record has its own page with the statement, source locator, information gap
 
 <a id="q-model-304"></a>
 
-[Q-MODEL-304 · Largest neutral death–birth diversity time on undirected graphs](candidates/Q-MODEL-304.md) — Source reports open.
+[Q-MODEL-304 · Largest neutral death–birth diversity time on undirected graphs](candidates/Q-MODEL-304.md) — Unverified.
 
 <a id="q-model-305"></a>
 
@@ -1851,7 +1851,7 @@ Each record has its own page with the statement, source locator, information gap
 
 <a id="q-math-493"></a>
 
-[Q-MATH-493 · Asymptotic p-length of p-solvable linear groups](candidates/Q-MATH-493.md) — Source reports open.
+[Q-MATH-493 · Asymptotic p-length of p-solvable linear groups](candidates/Q-MATH-493.md) — Unverified.
 
 <a id="q-math-494"></a>
 
@@ -1859,7 +1859,7 @@ Each record has its own page with the statement, source locator, information gap
 
 <a id="q-math-495"></a>
 
-[Q-MATH-495 · Intersection of an X-maximal subgroup with a normal subgroup](candidates/Q-MATH-495.md) — Source reports open.
+[Q-MATH-495 · Intersection of an X-maximal subgroup with a normal subgroup](candidates/Q-MATH-495.md) — Unverified.
 
 <a id="q-math-496"></a>
 
@@ -2043,7 +2043,7 @@ Each record has its own page with the statement, source locator, information gap
 
 <a id="q-formal-416"></a>
 
-[Q-FORMAL-416 · Hamiltonian tetrahedralizations of convex polytopes](candidates/Q-FORMAL-416.md) — Unverified.
+[Q-FORMAL-416 · Hamiltonian tetrahedralizations of convex polytopes](candidates/Q-FORMAL-416.md) — Source reports open.
 
 <a id="q-formal-417"></a>
 
@@ -2203,11 +2203,11 @@ Each record has its own page with the statement, source locator, information gap
 
 <a id="q-formal-456"></a>
 
-[Q-FORMAL-456 · General broadcast-channel capacity](candidates/Q-FORMAL-456.md) — Unverified.
+[Q-FORMAL-456 · General broadcast-channel capacity](candidates/Q-FORMAL-456.md) — Source reports open.
 
 <a id="q-formal-457"></a>
 
-[Q-FORMAL-457 · General relay-channel capacity](candidates/Q-FORMAL-457.md) — Unverified.
+[Q-FORMAL-457 · General relay-channel capacity](candidates/Q-FORMAL-457.md) — Conflicting evidence.
 
 <a id="q-formal-458"></a>
 

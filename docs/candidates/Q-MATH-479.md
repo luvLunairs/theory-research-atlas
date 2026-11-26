@@ -10,27 +10,25 @@ Does every finite nonabelian simple transitive permutation group have at least a
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Source reports open. **Last checked:** 2026-10-14.
+**Current status:** Source reports open. **Last checked:** 2026-11-26.
 
-**Status basis:** The October 2026 Kourovka Notebook entry (Problem 21.28; T. C. Burness, M. Fusari) was inspected together with its local comments and adjacent resolution markers. This selected question is presented without a confirmed-solution marker. This records the editors' dated presentation, not an exhaustive current-status search.
+**Status basis:** The November Notebook asks for the bound in all finite nonabelian simple transitive groups. Burness and Fusari prove it for primitive actions with soluble point stabilisers and give an action of the Tits group attaining equality.
 
-**Statement check:** Source located. **Status check:** Source report only.
+**Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** Inspected source years: SRC-MATH-301: 2026. Checked on 2026-10-14 within the scope recorded in the literature check.
+**Source date and freshness:** The article appeared in 2025. The November 2026 Notebook cites its equality example.
 
-**Scope limits:** The current collection presents this target as unresolved. No independent, exhaustive later-literature check is claimed. One source-stated conjecture, classification target or independently posed subquestion is indexed. Known special cases are background, not additional open records.
+**Scope limits:** The sharp example fixes the greatest possible universal lower bound if the conjecture holds. The theorem proves that lower bound on a restricted class of actions.
 
 **Information still needed**
 
-- Searches outside the collection were not performed for this entry.
-- The source's absence of a solution annotation is not a proof of current openness.
-- The mathematical proof or counterexample, if proposed, still requires expert review.
+- A proof for all transitive actions or an example with a smaller proportion.
 
 **Primary branch:** [Algebra](../domains/math.md#math-alg). **Related branches:** None recorded.
 
-**Sources:** [The Kourovka Notebook: Unsolved Problems in Group Theory, 21st edition, October 2026 update](../sources.md#src-math-301).
+**Sources:** [The Kourovka Notebook: Unsolved Problems in Group Theory, 21st edition, October 2026 update](../sources.md#src-math-301); [Unsolved Problems in Group Theory: The Kourovka Notebook (21st edition, November 2026 update)](../sources.md#src-math-900); [On derangements in simple permutation groups](../sources.md#src-math-903).
 
-**Exact locator:** Problem 21.28; T. C. Burness, M. Fusari.
+**Exact locator:** Kourovka Problem 21.28 and Burness–Fusari, Theorem B and Remark 1.3
 
 **Potential difficulty:** Unknown. The statement is source-located, but a current difficulty assessment and comparison with the latest partial results have not been completed. A simple formulation is not evidence of tractability.
 
@@ -47,6 +45,34 @@ Does every finite nonabelian simple transitive permutation group have at least a
 ## Literature checks
 
 These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-26
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Source reports open → Source reports open.
+
+The November Notebook asks for the bound in all finite nonabelian simple transitive groups. Burness and Fusari prove it for primitive actions with soluble point stabilisers and give an action of the Tits group attaining equality.
+
+**Search scope:** The sharp example fixes the greatest possible universal lower bound if the conjecture holds. The theorem proves that lower bound on a restricted class of actions.
+
+**Inspected evidence**
+
+- [Unsolved Problems in Group Theory: The Kourovka Notebook (21st edition, November 2026 update)](../sources.md#src-math-900) — Problem 21.28, printed p. 183. Asks about the uniform fraction and records the Tits group action with equality.
+- [On derangements in simple permutation groups](../sources.md#src-math-903) — Theorem B and Remark 1.3. Establishes the sharp fraction in the primitive soluble-stabiliser case and distinguishes further possible extensions.
+
+**Limits and remaining work**
+
+- A proof for all transitive actions or an example with a smaller proportion.
+- This is a literature check. The cited proofs and computational certificates have not been independently reproduced.
+
+<details>
+<summary>Search queries</summary>
+
+- 89/325 derangements simple groups Burness Fusari conjecture alternating groups 2026
+
+
+</details>
 
 ### 2026-10-14
 

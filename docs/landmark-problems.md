@@ -12,7 +12,7 @@ A reported resolution awaiting scrutiny is kept distinct from an accepted soluti
 | --- | --- | --- | --- |
 | 1 | [Birch and Swinnerton-Dyer](#millennium-01) | Open | [Birch and Swinnerton-Dyer rank conjecture over Q](candidates/Q-LAND-302.md) |
 | 2 | [Hodge](#millennium-02) | Open | [Rational Hodge conjecture](candidates/Q-LAND-303.md) |
-| 3 | [Navier-Stokes](#millennium-03) | Claimed resolution under review | [Three-dimensional Navier-Stokes global regularity](candidates/Q-LAND-305.md) |
+| 3 | [Navier-Stokes](#millennium-03) | Claimed resolution under review | [Three-dimensional Navier–Stokes global regularity without forcing](candidates/Q-LAND-305.md) |
 | 4 | [P versus NP](#millennium-04) | Open | [P versus NP](candidates/Q-LAND-304.md) |
 | 5 | [Poincare](#millennium-05) | Resolved | Historical context; no separate candidate yet |
 | 6 | [Riemann hypothesis](#millennium-06) | Open | [Riemann hypothesis](candidates/Q-LAND-301.md) |
@@ -59,13 +59,13 @@ Algebraic cycles representing rational Hodge classes.
 
 Existence and regularity alternatives for three-dimensional incompressible flow.
 
-**Status:** Claimed resolution under review. Clay reports an apparent settlement under evaluation; final acceptance is not recorded.
+**Status:** Claimed resolution under review. Clay acknowledged an apparent settlement in September. The September construction uses an external force. An October preprint questions whether its written argument matches its formalization. In November Alpöge and Buckmaster claimed blow-up without forcing. Their release omits the computational certificate. The inspected Clay records give no final prize decision.
 
-**Sources:** [The Millennium Prize Problems](sources.md#src-land-301); [Existence and Smoothness of the Navier-Stokes Equation](sources.md#src-land-306); [Navier-Stokes Announcement](sources.md#src-math-015).
+**Sources:** [The Millennium Prize Problems](sources.md#src-land-301); [Existence and Smoothness of the Navier-Stokes Equation](sources.md#src-land-306); [Navier-Stokes Announcement](sources.md#src-math-015); [On the Navier–Stokes Millennium Prize Problem](sources.md#src-land-904); [Finite-time blow-up for the Navier–Stokes equations](sources.md#src-land-905); [Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs](sources.md#src-land-906).
 
-**Locator:** Clay collection status list; linked official description where applicable.
+**Locator:** Fefferman, alternatives A–D. Clay, 11 September notice. OpenAI, 8 September announcement. Bastounis and coauthors, abstract. Alpöge and Buckmaster, 20 November release notes.
 
-**Checked:** 2026-10-14.
+**Checked:** 2026-11-26.
 
 </details>
 
@@ -257,13 +257,13 @@ Relations between topological groups and Lie groups.
 
 Axioms and limiting relations for physical theories.
 
-**Status:** Broad program. No single theorem exhausts this program.
+**Status:** Broad program. Hilbert proposed a broad program. Deng, Hani and Ma derive fluid equations from a hard-sphere model in specified scaling limits, addressing the kinetic-theory part of the program.
 
-**Sources:** [Mathematical Problems](sources.md#src-land-307); [Solved, Unsolved and Unsolvable: The Status of Hilbert's 23 Problems in Mathematics](sources.md#src-land-308).
+**Sources:** [Mathematical Problems](sources.md#src-land-307); [Solved, Unsolved and Unsolvable: The Status of Hilbert's 23 Problems in Mathematics](sources.md#src-land-308); [Hilbert's sixth problem: derivation of fluid equations via Boltzmann's kinetic theory](sources.md#src-land-900).
 
-**Locator:** Hilbert, Problem 6; recent overview, matching numbered paragraph. Additional scope qualifications use the linked specialist source.
+**Locator:** Hilbert, Problem 6. Simons Foundation, item 6. Deng, Hani and Ma, abstract and Section 1.
 
-**Checked:** 2026-10-14.
+**Checked:** 2026-11-26.
 
 </details>
 
@@ -325,13 +325,13 @@ Reciprocity across algebraic number fields.
 
 A general algorithm for integer solutions of polynomial equations.
 
-**Status:** Resolved. Undecidability answers the original integer question.
+**Status:** Resolved. The Davis–Putnam–Robinson–Matiyasevich theorem rules out an algorithm for integer solutions. Koymans and Pagano extend undecidability to infinite rings finitely generated over the integers. Alpöge, Bhargava, Ho and Shnidman independently treat rings of integers of number fields. A separate October 2026 preprint claims undecidability over the rational field; its proof awaits independent assessment here.
 
-**Sources:** [Mathematical Problems](sources.md#src-land-307); [Solved, Unsolved and Unsolvable: The Status of Hilbert's 23 Problems in Mathematics](sources.md#src-land-308).
+**Sources:** [Mathematical Problems](sources.md#src-land-307); [Solved, Unsolved and Unsolvable: The Status of Hilbert's 23 Problems in Mathematics](sources.md#src-land-308); [Hilbert's tenth problem via additive combinatorics](sources.md#src-land-901); [Rank stability in quadratic extensions and Hilbert’s tenth problem for the ring of integers of a number field](sources.md#src-land-902); [Hilbert's tenth problem over the rational numbers](sources.md#src-land-903).
 
-**Locator:** Hilbert, Problem 10; recent overview, matching numbered paragraph. Additional scope qualifications use the linked specialist source.
+**Locator:** Hilbert, Problem 10. Koymans and Pagano, Theorems 1.1–1.2. Alpöge and coauthors, abstract. OpenAI, 6 October preprint, abstract.
 
-**Checked:** 2026-10-14.
+**Checked:** 2026-11-26.
 
 </details>
 

@@ -10,43 +10,69 @@ Generate two independent rooted labelled trees by repeatedly merging a uniformly
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Unverified. **Last checked:** 2026-10-14.
+**Current status:** Unverified. **Last checked:** 2026-11-26.
 
-**Status basis:** The coalescent statement is identifiable in Aldous's 2003 source. The exact exponent remains unverified: recent uniform-cladogram bounds cannot be transferred to the coalescent law without a model comparison.
+**Status basis:** For independent Yule–Harding topologies, Bernstein et al. bound the expected agreement size below by order n^(a-epsilon) for every epsilon > 0, with a about 0.344184, and above by O(sqrt(n)). These bounds apply to the coalescent topology and leave the strict exponent conjecture undecided.
 
 **Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** Inspected source years: SRC-MATH-402: 2003, SRC-MATH-603: 2023. Checked on 2026-10-14 within the scope recorded in the literature check.
+**Source date and freshness:** Aldous, 2003; Gernhard et al., 2007; Bernstein et al., 2015.
 
-**Scope limits:** The coalescent statement is identifiable in Aldous's 2003 source. The exact exponent remains unverified: recent uniform-cladogram bounds cannot be transferred to the coalescent law without a model comparison. One explicitly stated stochastic model or separately posed question is indexed; related models do not share a result automatically.
+**Scope limits:** Ignore coalescence times and retain the leaf labels on rooted trees. The coalescent law on topologies equals the Yule–Harding law; it differs from the uniform law on cladograms.
 
 **Information still needed**
 
-- An explicit equivalence between the relevant labelled rooted tree laws and the Yule–Harding convention is still needed.
-- No complete later-literature survey for the coalescent exponent was performed.
-- The mathematical proof or counterexample, if proposed, still requires expert review.
+- Check for sharper bounds specific to independent coalescent trees before selecting a target exponent.
 
 **Primary branch:** [Discrete probability and random structures](../domains/prob.md#prob-discrete). **Related branches:** None recorded.
 
-**Sources:** [Largest common substructures in probabilistic combinatorics](../sources.md#src-math-402); [Maximum Agreement Subtrees and Hölder homeomorphisms between Brownian trees](../sources.md#src-math-603).
+**Sources:** [Largest common substructures in probabilistic combinatorics](../sources.md#src-math-402); [Maximum Agreement Subtrees and Hölder homeomorphisms between Brownian trees](../sources.md#src-math-603); [Bounds on the Expected Size of the Maximum Agreement Subtree](../sources.md#src-model-904); [Estimating the Relative Order of Speciation or Coalescence Events on a Given Phylogeny](../sources.md#src-model-905).
 
-**Exact locator:** Example 3(b), page 2.
+**Exact locator:** Aldous, Example 3(b); Bernstein et al., Theorems 3.1 and 4.3; Gernhard et al., discussion of ranked tree distributions.
 
 **Potential difficulty:** Unknown. The statement is source-located, but a current difficulty assessment and comparison with the latest partial results have not been completed. A simple formulation is not evidence of tractability.
 
-**Possible AI role:** After checking current status, AI with the relevant mathematical background and tools could develop distributional recurrences using the coalescent structure. Specialist review remains necessary; no named model has been evaluated.
+**Possible AI role:** Work with the Yule–Harding recursion and check any proposed improvement against the published two-sided expectation bounds.
 
 **Verification burden:** High. An asymptotic, distributional or mixing claim needs an analytic proof with the model and limit fixed. Simulations and exact small-instance computations are evidence only.
 
 **Resource expectations:** No physical experiment or empirical dataset is required. Literature review and proof development are the principal tasks. Any exact search, simulation or symbolic calculation needs an explicit finite scope; its compute and memory requirements have not been estimated.
 
-**Assessment:** 2026-10-14; untested forecast. **Uncertainty:** Current resolution status, practical resource needs and AI usefulness remain unmeasured. The exponent for this law must not be transferred from uniform cladograms.
+**Assessment:** 2026-11-26; untested forecast. **Uncertainty:** The exact exponent has not been established by the sources examined. Distinct random tree laws have different available bounds.
 
 **Further work:** resolve the statement and status questions above before planning an attempt. **Human review:** Pending.
 
 ## Literature checks
 
 These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-26
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Unverified → Unverified.
+
+For independent Yule–Harding topologies, Bernstein et al. bound the expected agreement size below by order n^(a-epsilon) for every epsilon > 0, with a about 0.344184, and above by O(sqrt(n)). These bounds apply to the coalescent topology and leave the strict exponent conjecture undecided.
+
+**Search scope:** Checked the topology correspondence and the Yule–Harding expectation bounds against the original pairwise-merger model.
+
+**Inspected evidence**
+
+- [Largest common substructures in probabilistic combinatorics](../sources.md#src-math-402) — Example 3(b). Defines the process by uniform pairwise mergers.
+- [Bounds on the Expected Size of the Maximum Agreement Subtree](../sources.md#src-model-904) — Theorems 3.1 and 4.3. Gives lower and upper bounds in expectation for the Yule–Harding model.
+- [Estimating the Relative Order of Speciation or Coalescence Events on a Given Phylogeny](../sources.md#src-model-905) — Model discussion, comparison of the coalescent and Yule models. Identifies the corresponding distributions on ranked binary tree topologies.
+
+**Limits and remaining work**
+
+- The exact exponent has not been established by the sources examined. Distinct random tree laws have different available bounds.
+
+<details>
+<summary>Search queries</summary>
+
+- maximum agreement subtree two random Yule Harding trees improved lower bound exponent 2026 independent trees Bernstein Hough Yule
+
+
+</details>
 
 ### 2026-10-14
 

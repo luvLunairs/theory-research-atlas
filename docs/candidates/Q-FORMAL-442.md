@@ -6,46 +6,80 @@
 
 [Suggest a correction](https://github.com/luvLunairs/theory-research-atlas/issues/new?template=correction.yml&title=%5BCorrection%5D+Q-FORMAL-442%3A+Assumptions+permitting+optimal+heavy-tail+adaptation&target=Q-FORMAL-442) · [Share progress](https://github.com/luvLunairs/theory-research-atlas/issues/new?template=research-progress.yml&title=%5BResearch%5D+Q-FORMAL-442%3A+Assumptions+permitting+optimal+heavy-tail+adaptation&target=Q-FORMAL-442)
 
-Characterize distributional assumptions sufficient and necessary to avoid the extra regret cost of adapting to unknown heavy-tail moment order and bound in stochastic bandits.
+For stochastic bandits with unknown moment order and bound, can one distributional assumption encompass all instances on which a learner can match the known-parameter regret rate at no additional cost?
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Unverified. **Last checked:** 2026-10-14.
+**Current status:** Unverified. **Last checked:** 2026-11-26.
 
-**Status basis:** The inspected source poses this question. A comprehensive search for later resolutions has not been completed; current openness is not asserted.
+**Status basis:** The COLT question asks whether a single assumption can cover the distributions permitting adaptation at oracle cost. Do and Nguyen give a characterization for an explicit central-moment benchmark. Its dependence on the benchmark and known visibility constants limits a general resolution claim.
 
-**Statement check:** Needs clarification. **Status check:** Source report only.
+**Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** COLT 2025 problem note.
+**Source date and freshness:** COLT 2025; arXiv:2611.12140v2, 11 November 2026.
 
-**Scope limits:** This is a source-defined research question, not a claim that a solution or a manageable research route is known.
+**Scope limits:** The structural condition concerns the optimal arm. The upper bound takes the horizon and visibility constants as inputs; the converse constrains strategies with a specified exploration budget.
 
 **Information still needed**
 
-- A formal ordering of admissible assumptions and later necessity results are missing.
-- Inspect the full problem note before selecting a concrete research task.
+- Compare the 2025 raw-moment oracle guarantees with the central-moment budget in the November preprint, including the allowed side information.
 
 **Primary branch:** [Statistical learning and high-dimensional theory](../domains/stat.md#stat-learn). **Related branches:** None recorded.
 
-**Sources:** [Open Problem: Regret Minimization in Heavy-Tailed Bandits with Unknown Distributional Parameters](../sources.md#src-formal-439).
+**Sources:** [Open Problem: Regret Minimization in Heavy-Tailed Bandits with Unknown Distributional Parameters](../sources.md#src-formal-439); [Visible Tails: Characterizing Adaptation to Unknown Moments in Heavy-Tailed Bandits](../sources.md#src-model-901).
 
-**Exact locator:** Abstract, second open question
+**Exact locator:** COLT Open Question 3; Do and Nguyen (2026), Sections 2–5.
 
-**Potential difficulty:** Unknown. The source identifies an unresolved research target; its present difficulty has not been independently assessed.
+**Potential difficulty:** Unknown. A benchmark-specific preprint supplies both an upper bound and a converse; the scope of the original structural question still needs comparison.
 
-**Possible AI role:** After the statistical model is recovered, help manipulate risk bounds, compare lower-bound constructions and design simulations that challenge proposed assumptions. Simulation does not establish minimax optimality.
+**Possible AI role:** Check which original oracle guarantees the visibility theorem recovers and what side information its learner uses.
 
 **Verification burden:** High. Upper and lower bounds must use identical distribution classes, loss, privacy or oracle conditions and quantifiers; statistical counterexamples need exact arguments.
 
 **Resource expectations:** The formal target needs no new physical experiment. Simulations may use synthetic samples; necessary sample counts and computational costs have not been estimated.
 
-**Assessment:** 2026-10-14; untested forecast. **Uncertainty:** No model has been tested. Current status, useful subcases and feasible computational scale require further review.
+**Assessment:** 2026-11-26; untested forecast. **Uncertainty:** The proof and equivalence of benchmarks have not been independently checked.
 
 **Further work:** resolve the statement and status questions above before planning an attempt. **Human review:** Pending.
 
 ## Literature checks
 
 These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-26
+
+**Coverage:** Statement and later literature. **Statement:** Corrected.
+
+**Recorded status:** Unverified → Unverified.
+
+The COLT question asks whether a single assumption can cover the distributions permitting adaptation at oracle cost. Do and Nguyen give a characterization for an explicit central-moment benchmark. Its dependence on the benchmark and known visibility constants limits a general resolution claim.
+
+**Search scope:** Compared Question 3 in the proceedings PDF with both arXiv versions; the record follows the revised theorem statements of 11 November.
+
+<details>
+<summary>Previous indexed wording</summary>
+
+Characterize distributional assumptions sufficient and necessary to avoid the extra regret cost of adapting to unknown heavy-tail moment order and bound in stochastic bandits.
+
+The current statement appears at the top of this page.
+</details>
+
+**Inspected evidence**
+
+- [Open Problem: Regret Minimization in Heavy-Tailed Bandits with Unknown Distributional Parameters](../sources.md#src-formal-439) — Open Question 3. Asks whether a structural assumption can encompass the distributions allowing cost-free adaptation.
+- [Visible Tails: Characterizing Adaptation to Unknown Moments in Heavy-Tailed Bandits](../sources.md#src-model-901) — Sections 2–5. States a one-sided visibility criterion, an algorithm informed of its constants and a converse indexed by the exploration budget.
+
+**Limits and remaining work**
+
+- The proof and equivalence of benchmarks have not been independently checked.
+
+<details>
+<summary>Search queries</summary>
+
+- 2026 heavy-tailed bandits Genalti adaptation price 2025 COLT open problem tail assumptions Pareto regret frontier heavy tailed bandits
+
+
+</details>
 
 ### 2026-10-14
 

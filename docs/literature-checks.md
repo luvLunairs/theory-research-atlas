@@ -4,20 +4,21 @@
 
 Each check records what was read, which formulation was compared, and what remains uncertain. A statement-only check does not establish present-day open status. A reported resolution is attributed to its source; it does not mean this project has independently verified the proof. Human review remains separate.
 
-**390 distinct questions · 436 dated literature checks.** Latest-check counts appear below; earlier findings remain in each question's history.
+**399 distinct questions · 464 dated literature checks.** Latest-check counts appear below; earlier findings remain in each question's history.
 
 | Latest check coverage | Questions |
 | --- | --- |
-| Statement and later literature | 134 |
-| Statement only | 250 |
-| Access limited | 6 |
+| Statement and later literature | 152 |
+| Statement only | 243 |
+| Access limited | 4 |
 
 | Resulting evidence status | Questions |
 | --- | --- |
+| Conflicting evidence | 1 |
 | Disproved | 1 |
 | Open after scoped check | 8 |
 | Reported resolved | 7 |
-| Source reports open | 145 |
+| Source reports open | 153 |
 | Unverified | 229 |
 
 ## Resolutions and counterexamples to review
@@ -41,6 +42,11 @@ Read the source comparison before reusing these formulations.
 
 | Question | Date | Scope of correction |
 | --- | --- | --- |
+| [Q-MODEL-416](candidates/Q-MODEL-416.md#literature-checks) | 2026-11-26 | Clarify the hypotheses and a known special case. The available dated formulations leave the contemporary general status unverified. |
+| [Q-FORMAL-442](candidates/Q-FORMAL-442.md#literature-checks) | 2026-11-26 | The COLT question asks whether a single assumption can cover the distributions permitting adaptation at oracle cost. Do and Nguyen give a characterization for an explicit central-moment benchmark. Its dependence on the benchmark and known visibility constants limits a general resolution claim. |
+| [Q-CROSS-432](candidates/Q-CROSS-432.md#literature-checks) | 2026-11-26 | A published comparison finds different trends in local synchronization stability as the balance of pairwise and three-body coupling changes in the studied random hypergraphs and simplicial complexes. The roadmap also asks about directionality and other collective behaviors. |
+| [Q-CROSS-431](candidates/Q-CROSS-431.md#literature-checks) | 2026-11-26 | Mulas et al. give an exact graph representation for their vertex random walks and distinguish the oriented hypergraph Laplacian. The later roadmap asks for guidance across operators and applications. |
+| [Q-CROSS-405](candidates/Q-CROSS-405.md#literature-checks) | 2026-11-26 | Restore the input class and success criterion and distinguish the restricted-order result. |
 | [Q-MODEL-444](candidates/Q-MODEL-444.md#literature-checks) | 2026-11-06 | Manurangsi and Sornat give a polynomial-time algorithm for generalized Thiele winner computation on voter-interval profiles. Their institutional record lists NeurIPS 2026, and Dong independently cites the algorithm. The historical entry also asks about Monroe's rule, which is outside the inspected result; its current status remains unverified. |
 | [Q-MODEL-435](candidates/Q-MODEL-435.md#literature-checks) | 2026-11-06 | Dong's September 2026 preprint states NP-hardness of constructing a committee satisfying even JR and Pareto optimality on unrestricted profiles. Its explicit PJR consequence is conditional on P differing from NP. The full theorem and model are now located, but independent acceptance and correctness of the reduction remain unverified. |
 | [Q-MODEL-425](candidates/Q-MODEL-425.md#literature-checks) | 2026-11-06 | Make the intended approximation question explicit and avoid presenting a known false local bound as an open universal conjecture. |
@@ -84,7 +90,7 @@ Read the source comparison before reusing these formulations.
 | [Q-MATH-107 · Independent audit of the Fano quadratic-Gröbner obstruction](candidates/Q-MATH-107.md#literature-checks) | 2026-10-14 | Statement only | Matched | Unverified |
 | [Q-MATH-203 · The exact ten-point Heilbronn number in the unit square](candidates/Q-MATH-203.md#literature-checks) | 2026-10-17 | Statement and later literature | Matched | Open after scoped check |
 | [Q-MATH-207 · Two points on each side in every optimal ten-point Heilbronn configuration](candidates/Q-MATH-207.md#literature-checks) | 2026-10-14 | Statement and later literature | Matched | Unverified |
-| [Q-LAND-305 · Three-dimensional Navier-Stokes global regularity](candidates/Q-LAND-305.md#literature-checks) | 2026-10-14 | Statement and later literature | Matched | Unverified |
+| [Q-LAND-305 · Three-dimensional Navier–Stokes global regularity without forcing](candidates/Q-LAND-305.md#literature-checks) | 2026-11-26 | Statement and later literature | Matched | Unverified |
 | [Q-MATH-426 · Extremal product-free subsets across finite groups](candidates/Q-MATH-426.md#literature-checks) | 2026-10-14 | Statement only | Matched | Source reports open |
 | [Q-MATH-427 · Asymptotic density of sum-free subsets of integer grids](candidates/Q-MATH-427.md#literature-checks) | 2026-10-14 | Statement only | Corrected | Source reports open |
 | [Q-MATH-428 · Positive density of the classical Ulam sequence](candidates/Q-MATH-428.md#literature-checks) | 2026-10-15 | Statement and later literature | Matched | Unverified |
@@ -129,7 +135,7 @@ Read the source comparison before reusing these formulations.
 | [Q-MATH-468 · A brace of finite additive rank containing a multiplicative free subgroup](candidates/Q-MATH-468.md#literature-checks) | 2026-10-14 | Statement only | Matched | Source reports open |
 | [Q-MATH-469 · Simplicity from a bijection comparing element orders](candidates/Q-MATH-469.md#literature-checks) | 2026-10-14 | Statement only | Matched | Source reports open |
 | [Q-MATH-470 · Disjoint conjugates of solvable permutation subgroups from degree 21](candidates/Q-MATH-470.md#literature-checks) | 2026-10-14 | Statement only | Matched | Source reports open |
-| [Q-MATH-471 · Five solvable subgroups with trivial conjugate intersection](candidates/Q-MATH-471.md#literature-checks) | 2026-10-14 | Statement only | Matched | Source reports open |
+| [Q-MATH-471 · Five solvable subgroups with trivial conjugate intersection](candidates/Q-MATH-471.md#literature-checks) | 2026-11-26 | Statement and later literature | Matched | Source reports open |
 | [Q-MATH-472 · Lifting the IYB property from Sylow subgroups](candidates/Q-MATH-472.md#literature-checks) | 2026-10-14 | Statement only | Matched | Source reports open |
 | [Q-MATH-473 · Hopficity of restricted wreath products](candidates/Q-MATH-473.md#literature-checks) | 2026-10-14 | Statement only | Matched | Source reports open |
 | [Q-MATH-474 · Induced-cycle classification of enhanced power graphs of simple groups](candidates/Q-MATH-474.md#literature-checks) | 2026-10-14 | Statement only | Matched | Source reports open |
@@ -137,7 +143,7 @@ Read the source comparison before reusing these formulations.
 | [Q-MATH-476 · Generating a finite simple group with two prescribed Sylow types](candidates/Q-MATH-476.md#literature-checks) | 2026-10-14 | Statement only | Matched | Source reports open |
 | [Q-MATH-477 · Simultaneously minimal Sylow intersections](candidates/Q-MATH-477.md#literature-checks) | 2026-10-14 | Statement only | Matched | Source reports open |
 | [Q-MATH-478 · Two derangements for every element of a simple permutation group](candidates/Q-MATH-478.md#literature-checks) | 2026-10-14 | Statement only | Matched | Source reports open |
-| [Q-MATH-479 · A universal derangement proportion of 89/325](candidates/Q-MATH-479.md#literature-checks) | 2026-10-14 | Statement only | Matched | Source reports open |
+| [Q-MATH-479 · A universal derangement proportion of 89/325](candidates/Q-MATH-479.md#literature-checks) | 2026-11-26 | Statement and later literature | Matched | Source reports open |
 | [Q-MATH-480 · The Haagerup property for one-relator groups](candidates/Q-MATH-480.md#literature-checks) | 2026-10-14 | Statement only | Matched | Source reports open |
 | [Q-MATH-481 · Solvability of regular subgroups of a solvable group's holomorph](candidates/Q-MATH-481.md#literature-checks) | 2026-10-14 | Statement only | Matched | Source reports open |
 | [Q-MATH-482 · A Dunwoody theorem for totally disconnected locally compact groups](candidates/Q-MATH-482.md#literature-checks) | 2026-10-14 | Statement only | Matched | Source reports open |
@@ -151,9 +157,9 @@ Read the source comparison before reusing these formulations.
 | [Q-MATH-490 · When abelian p-subgroups force normal abelian subgroups of the same size](candidates/Q-MATH-490.md#literature-checks) | 2026-10-14 | Statement only | Matched | Source reports open |
 | [Q-MATH-491 · When elementary abelian subgroups force normal ones of the same size](candidates/Q-MATH-491.md#literature-checks) | 2026-10-14 | Statement only | Matched | Source reports open |
 | [Q-MATH-492 · Recovering a simple group from its involution product-order coloring](candidates/Q-MATH-492.md#literature-checks) | 2026-10-14 | Statement only | Matched | Source reports open |
-| [Q-MATH-493 · Asymptotic p-length of p-solvable linear groups](candidates/Q-MATH-493.md#literature-checks) | 2026-10-14 | Statement only | Matched | Source reports open |
+| [Q-MATH-493 · Asymptotic p-length of p-solvable linear groups](candidates/Q-MATH-493.md#literature-checks) | 2026-11-26 | Statement and later literature | Matched | Unverified |
 | [Q-MATH-494 · A linear Fitting-height bound from a nilpotent automorphism group](candidates/Q-MATH-494.md#literature-checks) | 2026-10-14 | Statement only | Matched | Source reports open |
-| [Q-MATH-495 · Intersection of an X-maximal subgroup with a normal subgroup](candidates/Q-MATH-495.md#literature-checks) | 2026-10-14 | Statement only | Matched | Source reports open |
+| [Q-MATH-495 · Intersection of an X-maximal subgroup with a normal subgroup](candidates/Q-MATH-495.md#literature-checks) | 2026-11-26 | Statement and later literature | Matched | Unverified |
 | [Q-MATH-496 · Almost-simple groups determined by character-degree multisets](candidates/Q-MATH-496.md#literature-checks) | 2026-10-14 | Statement only | Matched | Source reports open |
 | [Q-MATH-497 · Finite-dimensional cohomology versus finite generation of pro-p cohomology](candidates/Q-MATH-497.md#literature-checks) | 2026-10-14 | Statement only | Matched | Source reports open |
 | [Q-MATH-498 · Ivanov's virtual-abelianization conjecture](candidates/Q-MATH-498.md#literature-checks) | 2026-10-14 | Statement only | Matched | Source reports open |
@@ -191,6 +197,7 @@ Read the source comparison before reusing these formulations.
 | Question and evidence | Date | Coverage | Statement | Status |
 | --- | --- | --- | --- | --- |
 | [Q-FORMAL-313 · Superpolynomial AC0[2]-Frege lower bounds for known tautologies](candidates/Q-FORMAL-313.md#literature-checks) | 2026-11-06 | Statement and later literature | Corrected | Source reports open |
+| [Q-FORMAL-322 · Vaught's conjecture for complete first-order theories](candidates/Q-FORMAL-322.md#literature-checks) | 2026-11-26 | Statement and later literature | Matched | Source reports open |
 | [Q-FORMAL-324 · Martin's conjecture, part 1, under determinacy](candidates/Q-FORMAL-324.md#literature-checks) | 2026-11-06 | Statement and later literature | Matched | Source reports open |
 | [Q-MATH-401 · A finitely presented simple group with no primitive-recursive word-problem solver](candidates/Q-MATH-401.md#literature-checks) | 2026-10-14 | Statement only | Matched | Source reports open |
 | [Q-MATH-402 · Recognizing metabelian finitely presented solvable groups](candidates/Q-MATH-402.md#literature-checks) | 2026-10-14 | Statement only | Matched | Source reports open |
@@ -224,7 +231,7 @@ Read the source comparison before reusing these formulations.
 | [Q-FORMAL-413 · Minimum-facet approximation between offset convex polytopes](candidates/Q-FORMAL-413.md#literature-checks) | 2026-10-14 | Statement only | Matched | Unverified |
 | [Q-FORMAL-414 · Geometric hexahedral meshing with planar faces](candidates/Q-FORMAL-414.md#literature-checks) | 2026-10-14 | Statement only | Matched | Unverified |
 | [Q-FORMAL-415 · Connectivity of geometric tetrahedralization flip graphs](candidates/Q-FORMAL-415.md#literature-checks) | 2026-11-06 | Statement and later literature | Matched | Source reports open |
-| [Q-FORMAL-416 · Hamiltonian tetrahedralizations of convex polytopes](candidates/Q-FORMAL-416.md#literature-checks) | 2026-10-14 | Statement only | Matched | Unverified |
+| [Q-FORMAL-416 · Hamiltonian tetrahedralizations of convex polytopes](candidates/Q-FORMAL-416.md#literature-checks) | 2026-11-26 | Statement and later literature | Matched | Source reports open |
 | [Q-FORMAL-417 · Polynomial separation bounds for sums of square roots](candidates/Q-FORMAL-417.md#literature-checks) | 2026-11-06 | Statement and later literature | Matched | Open after scoped check |
 | [Q-FORMAL-418 · Sublogarithmic approximation for metric freeze-tag](candidates/Q-FORMAL-418.md#literature-checks) | 2026-10-14 | Statement only | Matched | Unverified |
 | [Q-FORMAL-419 · Compatible triangulations of equal-size planar point sets](candidates/Q-FORMAL-419.md#literature-checks) | 2026-10-14 | Statement and later literature | Matched | Unverified |
@@ -298,8 +305,8 @@ Read the source comparison before reusing these formulations.
 | --- | --- | --- | --- | --- |
 | [Q-MATH-413 · Relaxation time of the polygon triangulation flip walk](candidates/Q-MATH-413.md#literature-checks) | 2026-10-14 | Statement and later literature | Matched | Open after scoped check |
 | [Q-MATH-414 · Relaxation time of the cladogram branch-rotation chain](candidates/Q-MATH-414.md#literature-checks) | 2026-10-14 | Statement only | Matched | Unverified |
-| [Q-MATH-415 · Largest labelled agreement subtree of two uniform cladograms](candidates/Q-MATH-415.md#literature-checks) | 2026-10-14 | Statement and later literature | Matched | Source reports open |
-| [Q-MATH-416 · Largest labelled agreement subtree of two coalescent trees](candidates/Q-MATH-416.md#literature-checks) | 2026-10-14 | Statement and later literature | Matched | Unverified |
+| [Q-MATH-415 · Largest labelled agreement subtree of two uniform cladograms](candidates/Q-MATH-415.md#literature-checks) | 2026-11-26 | Statement and later literature | Matched | Source reports open |
+| [Q-MATH-416 · Largest labelled agreement subtree of two coalescent trees](candidates/Q-MATH-416.md#literature-checks) | 2026-11-26 | Statement and later literature | Matched | Unverified |
 | [Q-MATH-417 · Largest common induced two-dimensional random order](candidates/Q-MATH-417.md#literature-checks) | 2026-10-14 | Statement only | Matched | Unverified |
 | [Q-MATH-418 · Limiting cost of an online random-weight spanning tree](candidates/Q-MATH-418.md#literature-checks) | 2026-10-14 | Statement and later literature | Matched | Source reports open |
 | [Q-MATH-419 · Stationary law of the one-dimensional drift-jump process](candidates/Q-MATH-419.md#literature-checks) | 2026-11-06 | Statement only | Matched | Unverified |
@@ -321,8 +328,8 @@ Read the source comparison before reusing these formulations.
 | [Q-FORMAL-438 · Noninteractive one-bit mean estimation over finite-moment classes](candidates/Q-FORMAL-438.md#literature-checks) | 2026-11-06 | Statement and later literature | Matched | Reported resolved |
 | [Q-FORMAL-439 · Sample complexity of approximately private PAC learning](candidates/Q-FORMAL-439.md#literature-checks) | 2026-10-14 | Access limited | Needs clarification | Unverified |
 | [Q-FORMAL-440 · Instance-optimal sampling for approximate matrix-game equilibria](candidates/Q-FORMAL-440.md#literature-checks) | 2026-10-14 | Access limited | Needs clarification | Unverified |
-| [Q-FORMAL-441 · Optimal adaptation cost in heavy-tailed bandits](candidates/Q-FORMAL-441.md#literature-checks) | 2026-10-14 | Access limited | Needs clarification | Unverified |
-| [Q-FORMAL-442 · Assumptions permitting optimal heavy-tail adaptation](candidates/Q-FORMAL-442.md#literature-checks) | 2026-10-14 | Access limited | Needs clarification | Unverified |
+| [Q-FORMAL-441 · Optimal adaptation cost in heavy-tailed bandits](candidates/Q-FORMAL-441.md#literature-checks) | 2026-11-26 | Statement and later literature | Matched | Unverified |
+| [Q-FORMAL-442 · Assumptions permitting optimal heavy-tail adaptation](candidates/Q-FORMAL-442.md#literature-checks) | 2026-11-26 | Statement and later literature | Corrected | Unverified |
 | [Q-FORMAL-443 · Overparameterization needed by alternating least squares for tensors](candidates/Q-FORMAL-443.md#literature-checks) | 2026-10-14 | Access limited | Needs clarification | Unverified |
 | [Q-FORMAL-444 · Distribution-independent statistical queries versus dimension complexity](candidates/Q-FORMAL-444.md#literature-checks) | 2026-10-14 | Access limited | Needs clarification | Unverified |
 | [Q-FORMAL-445 · Tight instance-optimal identity testing](candidates/Q-FORMAL-445.md#literature-checks) | 2026-11-06 | Statement and later literature | Corrected | Unverified |
@@ -347,8 +354,8 @@ Read the source comparison before reusing these formulations.
 | [Q-FORMAL-453 · Interactive distributed-testing exponent](candidates/Q-FORMAL-453.md#literature-checks) | 2026-10-14 | Statement only | Needs clarification | Unverified |
 | [Q-FORMAL-454 · Mismatch-capacity formula](candidates/Q-FORMAL-454.md#literature-checks) | 2026-11-06 | Statement and later literature | Corrected | Source reports open |
 | [Q-FORMAL-455 · Channel reliability function](candidates/Q-FORMAL-455.md#literature-checks) | 2026-10-14 | Statement only | Matched | Unverified |
-| [Q-FORMAL-456 · General broadcast-channel capacity](candidates/Q-FORMAL-456.md#literature-checks) | 2026-10-14 | Statement only | Matched | Unverified |
-| [Q-FORMAL-457 · General relay-channel capacity](candidates/Q-FORMAL-457.md#literature-checks) | 2026-10-14 | Statement only | Matched | Unverified |
+| [Q-FORMAL-456 · General broadcast-channel capacity](candidates/Q-FORMAL-456.md#literature-checks) | 2026-11-26 | Statement and later literature | Matched | Source reports open |
+| [Q-FORMAL-457 · General relay-channel capacity](candidates/Q-FORMAL-457.md#literature-checks) | 2026-11-26 | Statement and later literature | Matched | Conflicting evidence |
 | [Q-FORMAL-458 · Exact Gaussian interference-channel capacity](candidates/Q-FORMAL-458.md#literature-checks) | 2026-10-14 | Statement and later literature | Matched | Unverified |
 | [Q-MODEL-493 · Three-copy undistillability of the Werner endpoint](candidates/Q-MODEL-493.md#literature-checks) | 2026-11-06 | Statement and later literature | Matched | Unverified |
 | [Q-MODEL-496 · Efficient passive initialization of a three-dimensional quantum memory](candidates/Q-MODEL-496.md#literature-checks) | 2026-10-20 | Statement and later literature | Matched | Source reports open |
@@ -357,6 +364,8 @@ Read the source comparison before reusing these formulations.
 
 | Question and evidence | Date | Coverage | Statement | Status |
 | --- | --- | --- | --- | --- |
+| [Q-MODEL-318 · The mechanism that generates neutrino masses and flavor mixing](candidates/Q-MODEL-318.md#literature-checks) | 2026-11-26 | Statement and later literature | Matched | Source reports open |
+| [Q-MODEL-321 · Are the light neutrinos Dirac or Majorana particles?](candidates/Q-MODEL-321.md#literature-checks) | 2026-11-26 | Statement and later literature | Matched | Source reports open |
 | [Q-MODEL-456 · Weak cosmic censorship for generic collapse](candidates/Q-MODEL-456.md#literature-checks) | 2026-10-14 | Statement only | Needs clarification | Unverified |
 | [Q-MODEL-457 · Strong cosmic censorship for generic vacuum initial data](candidates/Q-MODEL-457.md#literature-checks) | 2026-10-14 | Statement and later literature | Needs clarification | Unverified |
 | [Q-MODEL-458 · The general non-time-symmetric Penrose inequality](candidates/Q-MODEL-458.md#literature-checks) | 2026-11-06 | Statement and later literature | Needs clarification | Unverified |
@@ -396,7 +405,7 @@ Read the source comparison before reusing these formulations.
 | [Q-MODEL-413 · Projection enclosures respecting J-self-adjoint structure](candidates/Q-MODEL-413.md#literature-checks) | 2026-10-14 | Statement only | Needs clarification | Unverified |
 | [Q-MODEL-414 · Distinguishing complex isoresonant potentials](candidates/Q-MODEL-414.md#literature-checks) | 2026-10-14 | Statement only | Needs clarification | Unverified |
 | [Q-MODEL-415 · Semiclassical inverse spectra for non-self-adjoint symbols](candidates/Q-MODEL-415.md#literature-checks) | 2026-10-14 | Statement only | Needs clarification | Unverified |
-| [Q-MODEL-416 · Critical versus subcritical heat-kernel decay](candidates/Q-MODEL-416.md#literature-checks) | 2026-10-14 | Statement only | Needs clarification | Unverified |
+| [Q-MODEL-416 · Critical versus subcritical heat-kernel decay](candidates/Q-MODEL-416.md#literature-checks) | 2026-11-26 | Statement only | Corrected | Unverified |
 | [Q-MODEL-417 · Multiplicity defect for complex periodic Schrödinger potentials](candidates/Q-MODEL-417.md#literature-checks) | 2026-10-14 | Statement only | Matched | Unverified |
 
 ## Theoretical chemistry and materials
@@ -407,7 +416,7 @@ Read the source comparison before reusing these formulations.
 | [Q-MODEL-418 · Physical consequences of the Hohenberg–Kohn function-space gap](candidates/Q-MODEL-418.md#literature-checks) | 2026-10-14 | Statement only | Needs clarification | Unverified |
 | [Q-MODEL-419 · Thermal counterpart of Hohenberg–Kohn domain restrictions](candidates/Q-MODEL-419.md#literature-checks) | 2026-10-14 | Statement only | Needs clarification | Unverified |
 | [Q-MODEL-420 · Operational derivatives for conventional Kohn–Sham calculations](candidates/Q-MODEL-420.md#literature-checks) | 2026-10-14 | Statement only | Needs clarification | Unverified |
-| [Q-MODEL-421 · Connecting regularized quasi-densities to physical densities](candidates/Q-MODEL-421.md#literature-checks) | 2026-10-14 | Statement only | Needs clarification | Unverified |
+| [Q-MODEL-421 · Connecting regularized quasi-densities to physical densities](candidates/Q-MODEL-421.md#literature-checks) | 2026-11-26 | Statement and later literature | Matched | Unverified |
 | [Q-MODEL-422 · Derivative-order limits for one-point kinetic functionals](candidates/Q-MODEL-422.md#literature-checks) | 2026-10-14 | Statement only | Needs clarification | Unverified |
 | [Q-MODEL-423 · Atomic shell structure in semilocal orbital-free functionals](candidates/Q-MODEL-423.md#literature-checks) | 2026-10-14 | Statement only | Needs clarification | Unverified |
 | [Q-MODEL-424 · Thomas–Fermi plus von Weizsäcker kinetic upper bound](candidates/Q-MODEL-424.md#literature-checks) | 2026-11-06 | Statement and later literature | Matched | Unverified |
@@ -429,6 +438,9 @@ Read the source comparison before reusing these formulations.
 | [Q-MODEL-011 · Characterize observational equivalence in small biological ODE models](candidates/Q-MODEL-011.md#literature-checks) | 2026-10-14 | Statement only | Needs clarification | Unverified |
 | [Q-MODEL-014 · Bound structural perturbations in a selected biological model](candidates/Q-MODEL-014.md#literature-checks) | 2026-10-14 | Statement only | Needs clarification | Unverified |
 | [Q-MODEL-301 · Exact birth–death diversity time on star graphs](candidates/Q-MODEL-301.md#literature-checks) | 2026-11-06 | Statement and later literature | Matched | Source reports open |
+| [Q-MODEL-302 · Largest neutral birth–death diversity time on undirected graphs](candidates/Q-MODEL-302.md#literature-checks) | 2026-11-26 | Statement and later literature | Matched | Source reports open |
+| [Q-MODEL-303 · Smallest neutral birth–death diversity time on undirected graphs](candidates/Q-MODEL-303.md#literature-checks) | 2026-11-26 | Statement and later literature | Matched | Source reports open |
+| [Q-MODEL-304 · Largest neutral death–birth diversity time on undirected graphs](candidates/Q-MODEL-304.md#literature-checks) | 2026-11-26 | Statement and later literature | Matched | Unverified |
 | [Q-MODEL-471 · A generative toolkit for multicellular developmental forms](candidates/Q-MODEL-471.md#literature-checks) | 2026-10-14 | Statement only | Needs clarification | Unverified |
 | [Q-MODEL-472 · Synthetic multicellular life cycles](candidates/Q-MODEL-472.md#literature-checks) | 2026-10-14 | Statement only | Needs clarification | Unverified |
 | [Q-MODEL-473 · Predictive principles for constructing functional organs](candidates/Q-MODEL-473.md#literature-checks) | 2026-10-14 | Statement only | Needs clarification | Unverified |
@@ -452,12 +464,12 @@ Read the source comparison before reusing these formulations.
 | Question and evidence | Date | Coverage | Statement | Status |
 | --- | --- | --- | --- | --- |
 | [Q-MODEL-204 · EFX and Pareto optimality for personalized bi-valued goods](candidates/Q-MODEL-204.md#literature-checks) | 2026-10-20 | Statement and later literature | Matched | Source reports open |
-| [Q-MODEL-433 · Nonempty core in approval-based committee elections](candidates/Q-MODEL-433.md#literature-checks) | 2026-10-14 | Statement and later literature | Matched | Unverified |
+| [Q-MODEL-433 · Nonempty core in approval-based committee elections](candidates/Q-MODEL-433.md#literature-checks) | 2026-11-26 | Statement and later literature | Matched | Unverified |
 | [Q-MODEL-434 · Polynomial-time full justified representation](candidates/Q-MODEL-434.md#literature-checks) | 2026-11-06 | Statement and later literature | Matched | Reported resolved |
 | [Q-MODEL-435 · Efficient proportional and Pareto-optimal committees](candidates/Q-MODEL-435.md#literature-checks) | 2026-11-06 | Statement and later literature | Corrected | Unverified |
 | [Q-MODEL-436 · Proportionality degree of reverse sequential PAV](candidates/Q-MODEL-436.md#literature-checks) | 2026-10-14 | Statement and later literature | Matched | Unverified |
 | [Q-MODEL-437 · Priceability together with Pareto efficiency](candidates/Q-MODEL-437.md#literature-checks) | 2026-10-14 | Statement only | Matched | Unverified |
-| [Q-MODEL-438 · Core committee construction when the core exists](candidates/Q-MODEL-438.md#literature-checks) | 2026-10-14 | Statement and later literature | Matched | Unverified |
+| [Q-MODEL-438 · Core committee construction when the core exists](candidates/Q-MODEL-438.md#literature-checks) | 2026-11-26 | Statement and later literature | Matched | Unverified |
 | [Q-MODEL-439 · Strategyproof proportional irresolute rules with weak efficiency](candidates/Q-MODEL-439.md#literature-checks) | 2026-10-14 | Statement only | Needs clarification | Unverified |
 | [Q-MODEL-440 · Justified representation and support monotonicity](candidates/Q-MODEL-440.md#literature-checks) | 2026-10-14 | Statement only | Needs clarification | Unverified |
 | [Q-MODEL-441 · Strong proportionality with candidate monotonicity](candidates/Q-MODEL-441.md#literature-checks) | 2026-10-14 | Statement only | Needs clarification | Unverified |
@@ -472,6 +484,8 @@ Read the source comparison before reusing these formulations.
 | --- | --- | --- | --- | --- |
 | [Q-FORMAL-104 · Determine the sharp connectivity threshold for homogeneous Kuramoto synchronization](candidates/Q-FORMAL-104.md#literature-checks) | 2026-11-05 | Statement and later literature | Matched | Source reports open |
 | [Q-MODEL-207 · Global synchronization of random cubic graphs](candidates/Q-MODEL-207.md#literature-checks) | 2026-11-06 | Statement and later literature | Matched | Unverified |
+| [Q-CROSS-431 · Choosing spectral operators for higher-order networks](candidates/Q-CROSS-431.md#literature-checks) | 2026-11-26 | Statement only | Corrected | Source reports open |
+| [Q-CROSS-432 · Dynamics induced by higher-order representations](candidates/Q-CROSS-432.md#literature-checks) | 2026-11-26 | Statement only | Corrected | Source reports open |
 | [Q-CROSS-434 · Intrinsic versus effective higher-order dynamics](candidates/Q-CROSS-434.md#literature-checks) | 2026-11-06 | Statement only | Corrected | Source reports open |
 | [Q-CROSS-437 · Identifying contagion mechanisms from observations](candidates/Q-CROSS-437.md#literature-checks) | 2026-11-06 | Statement only | Corrected | Source reports open |
 | [Q-CROSS-438 · A solvable congestion-fragmentation model](candidates/Q-CROSS-438.md#literature-checks) | 2026-10-14 | Statement and later literature | Matched | Unverified |
@@ -490,7 +504,7 @@ Read the source comparison before reusing these formulations.
 | [Q-CROSS-420 · Rapid stream response with old water](candidates/Q-CROSS-420.md#literature-checks) | 2026-11-06 | Statement and later literature | Matched | Unverified |
 | [Q-CROSS-421 · Clustering of hydrological extremes](candidates/Q-CROSS-421.md#literature-checks) | 2026-10-14 | Statement only | Needs clarification | Unverified |
 | [Q-CROSS-422 · Unequal sensitivity of runoff extremes](candidates/Q-CROSS-422.md#literature-checks) | 2026-10-14 | Statement only | Needs clarification | Unverified |
-| [Q-CROSS-423 · Exceptional runoff from rain on snow](candidates/Q-CROSS-423.md#literature-checks) | 2026-10-14 | Statement only | Needs clarification | Unverified |
+| [Q-CROSS-423 · Exceptional runoff from rain on snow](candidates/Q-CROSS-423.md#literature-checks) | 2026-11-26 | Statement and later literature | Matched | Unverified |
 | [Q-CROSS-424 · Connectivity among hydrological compartments](candidates/Q-CROSS-424.md#literature-checks) | 2026-10-14 | Statement and later literature | Needs clarification | Unverified |
 | [Q-CROSS-425 · Groundwater exchange across boundaries](candidates/Q-CROSS-425.md#literature-checks) | 2026-10-14 | Statement and later literature | Needs clarification | Unverified |
 | [Q-CROSS-426 · Persistence of water-quality sources](candidates/Q-CROSS-426.md#literature-checks) | 2026-10-14 | Statement only | Needs clarification | Unverified |
@@ -504,6 +518,7 @@ Read the source comparison before reusing these formulations.
 | Question and evidence | Date | Coverage | Statement | Status |
 | --- | --- | --- | --- | --- |
 | [Q-MODEL-323 · The mechanism of late-time cosmic acceleration](candidates/Q-MODEL-323.md#literature-checks) | 2026-11-06 | Statement and later literature | Matched | Source reports open |
+| [Q-MODEL-326 · Finiteness of planar six-body central configurations for fixed positive masses](candidates/Q-MODEL-326.md#literature-checks) | 2026-11-26 | Statement and later literature | Matched | Source reports open |
 | [Q-MODEL-446 · Exchange-orbit approach to the Hill-stability threshold](candidates/Q-MODEL-446.md#literature-checks) | 2026-10-14 | Statement only | Needs clarification | Unverified |
 | [Q-MODEL-447 · Transit orbits throughout barbell Hill regions](candidates/Q-MODEL-447.md#literature-checks) | 2026-10-14 | Statement only | Needs clarification | Unverified |
 | [Q-MODEL-448 · Periodic three-body minimizers with prescribed winding numbers](candidates/Q-MODEL-448.md#literature-checks) | 2026-10-14 | Statement only | Needs clarification | Unverified |
@@ -523,7 +538,7 @@ Read the source comparison before reusing these formulations.
 | [Q-CROSS-402 · An algebraic test for time-controllability](candidates/Q-CROSS-402.md#literature-checks) | 2026-11-06 | Statement and later literature | Corrected | Unverified |
 | [Q-CROSS-403 · Regular feedback implementability of behaviors](candidates/Q-CROSS-403.md#literature-checks) | 2026-10-14 | Statement and later literature | Corrected | Unverified |
 | [Q-CROSS-404 · Dwell-time dependence of switched-system gain](candidates/Q-CROSS-404.md#literature-checks) | 2026-10-14 | Statement and later literature | Matched | Unverified |
-| [Q-CROSS-405 · Optimal reduced-order H-infinity approximation](candidates/Q-CROSS-405.md#literature-checks) | 2026-10-14 | Statement and later literature | Matched | Unverified |
+| [Q-CROSS-405 · Optimal reduced-order H-infinity approximation](candidates/Q-CROSS-405.md#literature-checks) | 2026-11-26 | Statement and later literature | Corrected | Unverified |
 | [Q-CROSS-406 · Exact optimal attenuation in general H-infinity control](candidates/Q-CROSS-406.md#literature-checks) | 2026-10-14 | Statement and later literature | Corrected | Unverified |
 | [Q-CROSS-407 · Strong stabilization of time-varying systems](candidates/Q-CROSS-407.md#literature-checks) | 2026-10-14 | Statement and later literature | Matched | Unverified |
 | [Q-CROSS-408 · A Lyapunov characterization of measurement-to-error stability](candidates/Q-CROSS-408.md#literature-checks) | 2026-11-06 | Statement only | Corrected | Unverified |
@@ -542,7 +557,7 @@ Read the source comparison before reusing these formulations.
 | [Q-CROSS-442 · Mechanisms of downstream neural readout](candidates/Q-CROSS-442.md#literature-checks) | 2026-10-14 | Statement and later literature | Needs clarification | Unverified |
 | [Q-CROSS-443 · Combining recognition with generative inference](candidates/Q-CROSS-443.md#literature-checks) | 2026-10-14 | Statement and later literature | Needs clarification | Unverified |
 | [Q-CROSS-444 · Biological implementation of visual learning](candidates/Q-CROSS-444.md#literature-checks) | 2026-10-14 | Statement and later literature | Needs clarification | Unverified |
-| [Q-CROSS-445 · Goal-driven models beyond vision](candidates/Q-CROSS-445.md#literature-checks) | 2026-10-15 | Statement and later literature | Needs clarification | Unverified |
+| [Q-CROSS-445 · Goal-driven models beyond vision](candidates/Q-CROSS-445.md#literature-checks) | 2026-11-26 | Statement and later literature | Matched | Unverified |
 | [Q-CROSS-446 · Connecting sensory models to working memory](candidates/Q-CROSS-446.md#literature-checks) | 2026-11-06 | Statement and later literature | Corrected | Unverified |
 
 [Structured literature checks](../data/literature-checks.json) · [Evidence policy](evidence-policy.md)

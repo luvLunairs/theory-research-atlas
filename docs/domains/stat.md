@@ -6,7 +6,7 @@ Guarantees for inference, decisions and learning from observations.
 
 **Boundary:** Benchmarks alone do not establish general statistical guarantees.
 
-**Research sources: 31 · Primary tasks: 19 · Full cards: 2 · Cross-linked tasks: 5.**
+**Research sources: 33 · Primary tasks: 19 · Full cards: 2 · Cross-linked tasks: 5.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -79,6 +79,8 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [Weighted Data Selection: Sharp Upper-Half and Five-Dimensional Laws](../sources.md#src-model-703) | Research entry | 2026 |
 | [On the optimality of coin-betting for mean estimation](../sources.md#src-model-707) | Research entry | 2025 |
 | [Sequential testing of conditionally constrained hypotheses](../sources.md#src-model-708) | Research entry | 2026 |
+| [Parameter-Free Heavy-Tailed Bandits](../sources.md#src-model-900) | Research entry | 2026 |
+| [Visible Tails: Characterizing Adaptation to Unknown Moments in Heavy-Tailed Bandits](../sources.md#src-model-901) | Research entry | 2026 |
 
 <a id="branches"></a>
 
@@ -271,7 +273,7 @@ Generalization and inference in complex models.
 
 **Representative objects:** regression, generalization, sparsity.
 
-**Direct source entries:** [Dual VC Dimension Obstructs Sample Compression by Embeddings](../sources.md#src-formal-012), [The Probably Approximately Correct Learning Model in Computational Learning Theory](../sources.md#src-formal-307), [Sample Compression Scheme Reductions](../sources.md#src-formal-310), [The No-Clash Teaching Dimension is Bounded by VC Dimension [withdrawn]](../sources.md#src-formal-311), [Learning DNF in Time 2^{O-tilde(n^{1/3})}](../sources.md#src-formal-322), [Learning Juntas under Markov Random Fields](../sources.md#src-formal-323), [Open Problem: Data Selection for Regression Tasks](../sources.md#src-formal-435), [Invited Open Problem: Does Differential Privacy Make PAC Learning Much Harder?](../sources.md#src-formal-437), [Open Problem: Regret Minimization in Heavy-Tailed Bandits with Unknown Distributional Parameters](../sources.md#src-formal-439), [Invited Open Problem: Is the Power of Deep Learning over Linear Models Inherently Distribution Dependent?](../sources.md#src-formal-441), [Open Problem: Optimal Rates for Stochastic Decision-Theoretic Online Learning Under Differentially Privacy](../sources.md#src-formal-443), [Open Problem: Order Optimal Regret Bounds for Kernel-Based Reinforcement Learning](../sources.md#src-formal-444), [Data Selection for ERMs](../sources.md#src-formal-610), [Exact Risk Ratios for Weighted Data Selection in Linear Regression](../sources.md#src-model-702), [Weighted Data Selection: Sharp Upper-Half and Five-Dimensional Laws](../sources.md#src-model-703).
+**Direct source entries:** [Dual VC Dimension Obstructs Sample Compression by Embeddings](../sources.md#src-formal-012), [The Probably Approximately Correct Learning Model in Computational Learning Theory](../sources.md#src-formal-307), [Sample Compression Scheme Reductions](../sources.md#src-formal-310), [The No-Clash Teaching Dimension is Bounded by VC Dimension [withdrawn]](../sources.md#src-formal-311), [Learning DNF in Time 2^{O-tilde(n^{1/3})}](../sources.md#src-formal-322), [Learning Juntas under Markov Random Fields](../sources.md#src-formal-323), [Open Problem: Data Selection for Regression Tasks](../sources.md#src-formal-435), [Invited Open Problem: Does Differential Privacy Make PAC Learning Much Harder?](../sources.md#src-formal-437), [Open Problem: Regret Minimization in Heavy-Tailed Bandits with Unknown Distributional Parameters](../sources.md#src-formal-439), [Invited Open Problem: Is the Power of Deep Learning over Linear Models Inherently Distribution Dependent?](../sources.md#src-formal-441), [Open Problem: Optimal Rates for Stochastic Decision-Theoretic Online Learning Under Differentially Privacy](../sources.md#src-formal-443), [Open Problem: Order Optimal Regret Bounds for Kernel-Based Reinforcement Learning](../sources.md#src-formal-444), [Data Selection for ERMs](../sources.md#src-formal-610), [Exact Risk Ratios for Weighted Data Selection in Linear Regression](../sources.md#src-model-702), [Weighted Data Selection: Sharp Upper-Half and Five-Dimensional Laws](../sources.md#src-model-703), [Parameter-Free Heavy-Tailed Bandits](../sources.md#src-model-900), [Visible Tails: Characterizing Adaptation to Unknown Moments in Heavy-Tailed Bandits](../sources.md#src-model-901).
 
 **Primary tasks in this branch and its descendants**
 
