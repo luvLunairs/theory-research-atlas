@@ -6,7 +6,7 @@ Abstract structures, spaces, quantities and transformations.
 
 **Boundary:** Formal questions; applications cross-link to their model domain.
 
-**Research sources: 117 · Primary tasks: 158 · Full cards: 9 · Cross-linked tasks: 66.**
+**Research sources: 140 · Primary tasks: 158 · Full cards: 9 · Cross-linked tasks: 66.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -43,7 +43,7 @@ Abstract structures, spaces, quantities and transformations.
 | [Riemann hypothesis](../candidates/Q-LAND-301.md) | Frontier | Literature-origin question | Source reports open | Outline · Q-LAND-301 |
 | [Birch and Swinnerton-Dyer rank conjecture over Q](../candidates/Q-LAND-302.md) | Frontier | Literature-origin question | Source reports open | Outline · Q-LAND-302 |
 | [Rational Hodge conjecture](../candidates/Q-LAND-303.md) | Frontier | Literature-origin question | Source reports open | Outline · Q-LAND-303 |
-| [Three-dimensional Navier-Stokes global regularity](../candidates/Q-LAND-305.md) | Frontier | Literature-origin question | Unverified | Outline · Q-LAND-305 |
+| [Three-dimensional Navier–Stokes global regularity without forcing](../candidates/Q-LAND-305.md) | Frontier | Literature-origin question | Unverified | Outline · Q-LAND-305 |
 | [Even Goldbach conjecture](../candidates/Q-LAND-306.md) | Frontier | Literature-origin question | Source reports open | Outline · Q-LAND-306 |
 | [Twin prime conjecture](../candidates/Q-LAND-307.md) | Frontier | Literature-origin question | Source reports open | Outline · Q-LAND-307 |
 | [Resolvent degree of the general sextic polynomial](../candidates/Q-LAND-308.md) | Frontier | Literature-origin question | Source reports open | Outline · Q-LAND-308 |
@@ -112,7 +112,7 @@ Abstract structures, spaces, quantities and transformations.
 | [Minimum norms of a nonnegative autoconvolution](../candidates/Q-MATH-460.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-460 |
 | [Dense simultaneous sumset encodings for matrix multiplication](../candidates/Q-MATH-461.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-461 |
 | [Polynomially many rotations for the pyjama covering](../candidates/Q-MATH-462.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-462 |
-| [Sharp Cohn–Elkies bounds for planar circle packing](../candidates/Q-MATH-463.md) | High | Literature-origin question | Source reports open | Outline · Q-MATH-463 |
+| [Sharp Cohn–Elkies bounds for planar circle packing](../candidates/Q-MATH-463.md) | High | Literature-origin question | Unverified | Outline · Q-MATH-463 |
 | [Carbery's large-rectangle problem](../candidates/Q-MATH-464.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-464 |
 | [The three-dimensional box-free grid problem](../candidates/Q-MATH-465.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-465 |
 | [Rota–Baxter image equal to a free-group commutator subgroup](../candidates/Q-MATH-466.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-466 |
@@ -122,9 +122,9 @@ Abstract structures, spaces, quantities and transformations.
 | [Disjoint conjugates of solvable permutation subgroups from degree 21](../candidates/Q-MATH-470.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-470 |
 | [Five solvable subgroups with trivial conjugate intersection](../candidates/Q-MATH-471.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-471 |
 | [Lifting the IYB property from Sylow subgroups](../candidates/Q-MATH-472.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-472 |
-| [Hopficity of restricted wreath products](../candidates/Q-MATH-473.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-473 |
+| [Hopficity of restricted wreath products](../candidates/Q-MATH-473.md) | Unknown | Literature-origin question | Unverified | Outline · Q-MATH-473 |
 | [Induced-cycle classification of enhanced power graphs of simple groups](../candidates/Q-MATH-474.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-474 |
-| [Chordal enhanced power graphs of finite simple groups](../candidates/Q-MATH-475.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-475 |
+| [Chordal enhanced power graphs of finite simple groups](../candidates/Q-MATH-475.md) | Unknown | Literature-origin question | Unverified | Outline · Q-MATH-475 |
 | [Generating a finite simple group with two prescribed Sylow types](../candidates/Q-MATH-476.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-476 |
 | [Simultaneously minimal Sylow intersections](../candidates/Q-MATH-477.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-477 |
 | [Two derangements for every element of a simple permutation group](../candidates/Q-MATH-478.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-478 |
@@ -142,9 +142,9 @@ Abstract structures, spaces, quantities and transformations.
 | [When abelian p-subgroups force normal abelian subgroups of the same size](../candidates/Q-MATH-490.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-490 |
 | [When elementary abelian subgroups force normal ones of the same size](../candidates/Q-MATH-491.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-491 |
 | [Recovering a simple group from its involution product-order coloring](../candidates/Q-MATH-492.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-492 |
-| [Asymptotic p-length of p-solvable linear groups](../candidates/Q-MATH-493.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-493 |
+| [Asymptotic p-length of p-solvable linear groups](../candidates/Q-MATH-493.md) | Unknown | Literature-origin question | Unverified | Outline · Q-MATH-493 |
 | [A linear Fitting-height bound from a nilpotent automorphism group](../candidates/Q-MATH-494.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-494 |
-| [Intersection of an X-maximal subgroup with a normal subgroup](../candidates/Q-MATH-495.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-495 |
+| [Intersection of an X-maximal subgroup with a normal subgroup](../candidates/Q-MATH-495.md) | Unknown | Literature-origin question | Unverified | Outline · Q-MATH-495 |
 | [Almost-simple groups determined by character-degree multisets](../candidates/Q-MATH-496.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-496 |
 | [Finite-dimensional cohomology versus finite generation of pro-p cohomology](../candidates/Q-MATH-497.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-MATH-497 |
 | [Ivanov's virtual-abelianization conjecture](../candidates/Q-MATH-498.md) | High | Literature-origin question | Source reports open | Outline · Q-MATH-498 |
@@ -271,7 +271,7 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [The Probably Approximately Correct Learning Model in Computational Learning Theory](../sources.md#src-formal-307) | Research entry | 2025 |
 | [Open Problems and Conjectures in the Evolutionary Periodic Ricker Competition Model](../sources.md#src-model-302) | Research entry | 2024 |
 | [Toward Finiteness of Central Configurations for the Planar Six-Body Problem by Symbolic Computations. (II) Determine Mass Relations](../sources.md#src-model-318) | Research entry | 2025 |
-| [Finiteness of planar central configurations of five bodies for all positive masses](../sources.md#src-model-319) | Research entry | 2026 |
+| [Smale's sixth problem for five bodies in the plane, with a proof formalized in Lean](../sources.md#src-model-319) | Research entry | 2026 |
 | [On Unique Sums in Abelian Groups](../sources.md#src-math-407) | Research entry | 2023 |
 | [Monochromatic finite sums and products in the positive integers](../sources.md#src-math-408) | Research entry | 2026 |
 | [Ulam numbers have zero density (version 12)](../sources.md#src-math-409) | Research entry | 2026 |
@@ -305,6 +305,29 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [R(5,5) <= 46](../sources.md#src-math-802) | Research entry | 2024 |
 | [EL-Shellability of the poset of ranked cactuses](../sources.md#src-model-801) | Research entry | 2026 |
 | [The proportion of permutations fixing a k-set](../sources.md#src-model-802) | Research entry | 2026 |
+| [Hilbert's tenth problem via additive combinatorics](../sources.md#src-land-901) | Research entry | 2024 |
+| [Rank stability in quadratic extensions and Hilbert’s tenth problem for the ring of integers of a number field](../sources.md#src-land-902) | Research entry | 2025 |
+| [Hilbert's tenth problem over the rational numbers](../sources.md#src-land-903) | Research entry | 2026 |
+| [On the Navier–Stokes Millennium Prize Problem](../sources.md#src-land-904) | Research entry | 2026 |
+| [Finite-time blow-up for the Navier–Stokes equations](../sources.md#src-land-905) | Research entry | 2026 |
+| [Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs](../sources.md#src-land-906) | Research entry | 2026 |
+| [Unsolved Problems in Group Theory: The Kourovka Notebook (21st edition, November 2026 update)](../sources.md#src-math-900) | Research entry | 2026 |
+| [The p-length of finite linear groups and Kourovka Problem 21.55](../sources.md#src-math-901) | Research entry | 2026 |
+| [On the regularity number of a finite group and other base-related invariants](../sources.md#src-math-902) | Research entry | 2024 |
+| [On derangements in simple permutation groups](../sources.md#src-math-903) | Research entry | 2025 |
+| [What Is a Scissors Congruence?](../sources.md#src-land-923) | Research entry | 2012 |
+| [On Hilbert's construction of positive polynomials](../sources.md#src-land-924) | Research entry | 2007 |
+| [The Kepler conjecture](../sources.md#src-land-925) | Research entry | 1998 |
+| [Dense crystalline dimer packings of regular tetrahedra](../sources.md#src-land-926) | Research entry | 2010 |
+| [Chordality of Enhanced Power Graphs of Finite Simple Groups: A Resolution of a Conjecture](../sources.md#src-math-920) | Research entry | 2026 |
+| [Enhanced power graphs of finite groups with cograph structure](../sources.md#src-math-921) | Research entry | 2025 |
+| [Hopfian wreath products and the stable finiteness conjecture](../sources.md#src-math-922) | Research entry | 2024 |
+| [Two consequences of group-algebra and planar Fourier certificates: wreath products and triangle bounds](../sources.md#src-math-923) | Research entry | 2026 |
+| [A Torsion-Free Group Algebra That Is Not Directly Finite](../sources.md#src-math-924) | Research entry | 2026 |
+| [A Note on the OpenAI Construction of Counterexamples to the Kaplansky Direct-Finiteness Conjecture](../sources.md#src-math-925) | Research entry | 2026 |
+| [A sharp Fourier certificate for planar circle packing](../sources.md#src-math-926) | Research entry | 2026 |
+| [Computational progress on the unfair 0-1 polynomial Conjecture](../sources.md#src-model-929) | Research entry | 2023 |
+| [Structural Results on the Unfair 0-1 Polynomial Conjecture](../sources.md#src-model-930) | Research entry | 2026 |
 
 <a id="branches"></a>
 
@@ -346,7 +369,7 @@ Abstract structures, spaces, quantities and transformations.
 
 **Representative objects:** groups, manifolds, equations, graphs.
 
-**Direct source entries:** [Mathematics Subject Classification 2020: editorial introduction](../sources.md#src-base-001), [Frascati Manual 2015](../sources.md#src-base-003), [AIM Problem Lists](../sources.md#src-math-004), [Mathematics Subject Classification 2020: classification list](../sources.md#src-base-015), [The Millennium Prize Problems](../sources.md#src-land-301), [Mathematical Problems](../sources.md#src-land-307), [Solved, Unsolved and Unsolvable: The Status of Hilbert's 23 Problems in Mathematics](../sources.md#src-land-308).
+**Direct source entries:** [Mathematics Subject Classification 2020: editorial introduction](../sources.md#src-base-001), [Frascati Manual 2015](../sources.md#src-base-003), [AIM Problem Lists](../sources.md#src-math-004), [Mathematics Subject Classification 2020: classification list](../sources.md#src-base-015), [The Millennium Prize Problems](../sources.md#src-land-301), [Mathematical Problems](../sources.md#src-land-307), [Solved, Unsolved and Unsolvable: The Status of Hilbert's 23 Problems in Mathematics](../sources.md#src-land-308), [Hilbert's tenth problem via additive combinatorics](../sources.md#src-land-901), [Rank stability in quadratic extensions and Hilbert’s tenth problem for the ring of integers of a number field](../sources.md#src-land-902), [Hilbert's tenth problem over the rational numbers](../sources.md#src-land-903), [On Hilbert's construction of positive polynomials](../sources.md#src-land-924), [Computational progress on the unfair 0-1 polynomial Conjecture](../sources.md#src-model-929), [Structural Results on the Unfair 0-1 Polynomial Conjecture](../sources.md#src-model-930).
 
 [View all primary tasks](#tasks) · [View cross-domain tasks](#cross-domain-tasks)
 
@@ -381,7 +404,7 @@ Operations, symmetries and algebraic structures.
 
 **Representative objects:** groups, rings, modules, representations.
 
-**Direct source entries:** [Open Questions From AIM Workshop: The Computational Complexity of Polynomial Factorization](../sources.md#src-math-006), [Hilbert's 13th problem in prime characteristic](../sources.md#src-land-309), [The Kourovka Notebook: Unsolved Problems in Group Theory, 21st edition, October 2026 update](../sources.md#src-math-301), [The Rank of the 4x4 Matrix-Multiplication Tensor](../sources.md#src-impact-006), [A non-commutative algorithm for multiplying 4x4 matrices using 48 non-complex multiplications](../sources.md#src-impact-007), [Cloudroom Math: new matrix multiplication algorithms found by AI agents](../sources.md#src-impact-008), [Description of fast matrix multiplication algorithm: 4 x 4 x 4](../sources.md#src-impact-010).
+**Direct source entries:** [Open Questions From AIM Workshop: The Computational Complexity of Polynomial Factorization](../sources.md#src-math-006), [Hilbert's 13th problem in prime characteristic](../sources.md#src-land-309), [The Kourovka Notebook: Unsolved Problems in Group Theory, 21st edition, October 2026 update](../sources.md#src-math-301), [The Rank of the 4x4 Matrix-Multiplication Tensor](../sources.md#src-impact-006), [A non-commutative algorithm for multiplying 4x4 matrices using 48 non-complex multiplications](../sources.md#src-impact-007), [Cloudroom Math: new matrix multiplication algorithms found by AI agents](../sources.md#src-impact-008), [Description of fast matrix multiplication algorithm: 4 x 4 x 4](../sources.md#src-impact-010), [Unsolved Problems in Group Theory: The Kourovka Notebook (21st edition, November 2026 update)](../sources.md#src-math-900), [The p-length of finite linear groups and Kourovka Problem 21.55](../sources.md#src-math-901), [On the regularity number of a finite group and other base-related invariants](../sources.md#src-math-902), [On derangements in simple permutation groups](../sources.md#src-math-903), [Chordality of Enhanced Power Graphs of Finite Simple Groups: A Resolution of a Conjecture](../sources.md#src-math-920), [Enhanced power graphs of finite groups with cograph structure](../sources.md#src-math-921), [Hopfian wreath products and the stable finiteness conjecture](../sources.md#src-math-922), [Two consequences of group-algebra and planar Fourier certificates: wreath products and triangle bounds](../sources.md#src-math-923), [A Torsion-Free Group Algebra That Is Not Directly Finite](../sources.md#src-math-924), [A Note on the OpenAI Construction of Counterexamples to the Kaplansky Direct-Finiteness Conjecture](../sources.md#src-math-925).
 
 **Primary tasks in this branch and its descendants**
 
@@ -681,7 +704,7 @@ Metric, differential and algebraic structures on spaces.
 
 **Representative objects:** varieties, metrics, curvature.
 
-**Direct source entries:** [Problems on q-Analogs in Coding Theory](../sources.md#src-formal-008), [Convex algebraic geometry, optimization and applications — Workshop Summary](../sources.md#src-math-008), [Problems from the workshop 'Mahler's conjecture and duality in convex geometry'](../sources.md#src-math-011), [A Complete Characterization of the Gap between Convexity and SOS-Convexity](../sources.md#src-math-012), [The No-Three-in-Line Problem](../sources.md#src-math-201), [Solving the Heilbronn Triangle Problem using Global Optimization Methods](../sources.md#src-math-204), [From Computational Certification to Exact Coordinates: Heilbronn's Triangle Problem on the Unit Square Using Mixed-Integer Optimization](../sources.md#src-math-205), [From Computational Certification to Exact Coordinates: Heilbronn's Triangle Problem on the Unit Square Using Mixed-Integer Optimization](../sources.md#src-review-901), [Constructions and bounds for subspace codes](../sources.md#src-phys-702), [The order of the automorphism group of a binary q-analog of the Fano plane is at most two](../sources.md#src-phys-703), [The binary q-analogue of the Fano plane has a trivial automorphism group (withdrawn)](../sources.md#src-phys-704).
+**Direct source entries:** [Problems on q-Analogs in Coding Theory](../sources.md#src-formal-008), [Convex algebraic geometry, optimization and applications — Workshop Summary](../sources.md#src-math-008), [Problems from the workshop 'Mahler's conjecture and duality in convex geometry'](../sources.md#src-math-011), [A Complete Characterization of the Gap between Convexity and SOS-Convexity](../sources.md#src-math-012), [The No-Three-in-Line Problem](../sources.md#src-math-201), [Solving the Heilbronn Triangle Problem using Global Optimization Methods](../sources.md#src-math-204), [From Computational Certification to Exact Coordinates: Heilbronn's Triangle Problem on the Unit Square Using Mixed-Integer Optimization](../sources.md#src-math-205), [From Computational Certification to Exact Coordinates: Heilbronn's Triangle Problem on the Unit Square Using Mixed-Integer Optimization](../sources.md#src-review-901), [Constructions and bounds for subspace codes](../sources.md#src-phys-702), [The order of the automorphism group of a binary q-analog of the Fano plane is at most two](../sources.md#src-phys-703), [The binary q-analogue of the Fano plane has a trivial automorphism group (withdrawn)](../sources.md#src-phys-704), [What Is a Scissors Congruence?](../sources.md#src-land-923), [The Kepler conjecture](../sources.md#src-land-925), [Dense crystalline dimer packings of regular tetrahedra](../sources.md#src-land-926).
 
 **Primary tasks in this branch and its descendants**
 
@@ -1235,7 +1258,7 @@ Limits, functions, operators and continuous structures.
 **Primary tasks in this branch and its descendants**
 
 - [Dirichlet interval eigenfunctions and completeness](../candidates/Q-MATH-105.md)
-- [Three-dimensional Navier-Stokes global regularity](../candidates/Q-LAND-305.md)
+- [Three-dimensional Navier–Stokes global regularity without forcing](../candidates/Q-LAND-305.md)
 - [The invariant subspace problem on complex Hilbert space](../candidates/Q-MATH-324.md)
 - [The sharp asymptotic Littlewood inequality for exponential sums](../candidates/Q-MATH-326.md)
 - [Minimum norms of a nonnegative autoconvolution](../candidates/Q-MATH-460.md)
@@ -1288,11 +1311,11 @@ Existence, regularity and structure of ODE/PDE solutions.
 
 **Representative objects:** weak solutions, boundary problems, energies.
 
-**Direct source entries:** [New connections between dynamical systems and PDE's](../sources.md#src-math-007), [Navier-Stokes Announcement](../sources.md#src-math-015), [Ordinary Differential Equations and Dynamical Systems](../sources.md#src-math-106), [Mathematical Biology: Spatial Variations](../sources.md#src-model-107), [Existence and Smoothness of the Navier-Stokes Equation](../sources.md#src-land-306).
+**Direct source entries:** [New connections between dynamical systems and PDE's](../sources.md#src-math-007), [Navier-Stokes Announcement](../sources.md#src-math-015), [Ordinary Differential Equations and Dynamical Systems](../sources.md#src-math-106), [Mathematical Biology: Spatial Variations](../sources.md#src-model-107), [Existence and Smoothness of the Navier-Stokes Equation](../sources.md#src-land-306), [On the Navier–Stokes Millennium Prize Problem](../sources.md#src-land-904), [Finite-time blow-up for the Navier–Stokes equations](../sources.md#src-land-905), [Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs](../sources.md#src-land-906).
 
 **Primary tasks in this branch and its descendants**
 
-- [Three-dimensional Navier-Stokes global regularity](../candidates/Q-LAND-305.md)
+- [Three-dimensional Navier–Stokes global regularity without forcing](../candidates/Q-LAND-305.md)
 
 **Additional cross-linked tasks**
 
@@ -1334,7 +1357,7 @@ Transforms, analytic functions and analytic inequalities.
 
 **Representative objects:** Fourier transforms, holomorphic functions, measures.
 
-**Direct source entries:** [Unsolved Problems in Function Theory](../sources.md#src-math-010), [100 Open Problems, December 2025 revision](../sources.md#src-math-302).
+**Direct source entries:** [Unsolved Problems in Function Theory](../sources.md#src-math-010), [100 Open Problems, December 2025 revision](../sources.md#src-math-302), [Two consequences of group-algebra and planar Fourier certificates: wreath products and triangle bounds](../sources.md#src-math-923), [A sharp Fourier certificate for planar circle packing](../sources.md#src-math-926).
 
 **Primary tasks in this branch and its descendants**
 
@@ -1422,7 +1445,7 @@ Long-term behavior under repeated evolution.
 
 **Representative objects:** flows, maps, invariant measures.
 
-**Direct source entries:** [SIAM Journals](../sources.md#src-base-007), [New connections between dynamical systems and PDE's](../sources.md#src-math-007), [Extreme Sensitivity and Climate Tipping Points](../sources.md#src-model-011), [Dense networks that do not synchronize and sparse ones that do](../sources.md#src-formal-104), [Sufficiently dense Kuramoto networks are globally synchronizing](../sources.md#src-formal-105), [Introduction to Celestial Mechanics, 2nd Edition: Stability of Lagrange points](../sources.md#src-model-103), [Randomstrasse101: Open Problems of 2024](../sources.md#src-model-210), [Uniform bounds for planar polynomial limit cycles: claim record](../sources.md#src-land-312), [K3: A New Problem List in Low-Dimensional Topology](../sources.md#src-math-303), [On the exceptional set in Littlewood's discrete conjecture](../sources.md#src-math-306), [Integrable Billiards and Related Topics](../sources.md#src-math-308), [On Complex Algebraic Caustics in Planar and Projective Billiards](../sources.md#src-math-309), [Open Problems and Conjectures in the Evolutionary Periodic Ricker Competition Model](../sources.md#src-model-302), [Toward Finiteness of Central Configurations for the Planar Six-Body Problem by Symbolic Computations. (II) Determine Mass Relations](../sources.md#src-model-318), [Finiteness of planar central configurations of five bodies for all positive masses](../sources.md#src-model-319), [On the Hausdorff Dimension of the Mather Quotient](../sources.md#src-math-613), [Graphs with connectivity 3/4 - epsilon are globally synchronizing](../sources.md#src-formal-619), [Beyond 11/16: dense Kuramoto networks that resist synchrony](../sources.md#src-formal-620).
+**Direct source entries:** [SIAM Journals](../sources.md#src-base-007), [New connections between dynamical systems and PDE's](../sources.md#src-math-007), [Extreme Sensitivity and Climate Tipping Points](../sources.md#src-model-011), [Dense networks that do not synchronize and sparse ones that do](../sources.md#src-formal-104), [Sufficiently dense Kuramoto networks are globally synchronizing](../sources.md#src-formal-105), [Introduction to Celestial Mechanics, 2nd Edition: Stability of Lagrange points](../sources.md#src-model-103), [Randomstrasse101: Open Problems of 2024](../sources.md#src-model-210), [Uniform bounds for planar polynomial limit cycles: claim record](../sources.md#src-land-312), [K3: A New Problem List in Low-Dimensional Topology](../sources.md#src-math-303), [On the exceptional set in Littlewood's discrete conjecture](../sources.md#src-math-306), [Integrable Billiards and Related Topics](../sources.md#src-math-308), [On Complex Algebraic Caustics in Planar and Projective Billiards](../sources.md#src-math-309), [Open Problems and Conjectures in the Evolutionary Periodic Ricker Competition Model](../sources.md#src-model-302), [Toward Finiteness of Central Configurations for the Planar Six-Body Problem by Symbolic Computations. (II) Determine Mass Relations](../sources.md#src-model-318), [Smale's sixth problem for five bodies in the plane, with a proof formalized in Lean](../sources.md#src-model-319), [On the Hausdorff Dimension of the Mather Quotient](../sources.md#src-math-613), [Graphs with connectivity 3/4 - epsilon are globally synchronizing](../sources.md#src-formal-619), [Beyond 11/16: dense Kuramoto networks that resist synchrony](../sources.md#src-formal-620).
 
 **Primary tasks in this branch and its descendants**
 

@@ -10,37 +10,68 @@ Determine the asymptotic order of min_G E[T] over connected simple undirected N-
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Source reports open. **Last checked:** 2026-10-14.
+**Current status:** Source reports open. **Last checked:** 2026-11-26.
 
-**Status basis:** The 2025 paper explicitly leaves this target open. Searches for the title and subsequent conjecture resolutions found no settling source; this negative search is limited.
+**Status basis:** The paper bounds the minimum between order N log N and order N^2. On the loopless complete graph the expected time is exactly (N-1)^2. The star reaches order N log N under the opposite update rule.
 
-**Statement check:** Source located. **Status check:** Source report only.
+**Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** Recorded source years: SRC-MODEL-301: 2025. The last-checked date records the scope described in the status basis; it is not a comprehensive literature-search date.
+**Source date and freshness:** PNAS Nexus, August 2025; arXiv v2, September 2025; mixed-update comparison, September 2026.
 
-**Scope limits:** The statement and locator identify the candidate. A full assumption set and verification protocol remain to be documented.
+**Scope limits:** Use a uniform sender and a uniform neighbour as receiver. The complete-graph example uses no self-loops; the all-graphs lower bound counts distinct replacement sites.
 
 **Information still needed**
 
-- Specify the assumptions, candidate methods, resource requirements and independent verification steps for a concrete research task.
+- Find an attaining family or a stronger universal lower bound for the sender-first rule.
 
 **Primary branch:** [Evolution, population genetics and phylogenetics](../domains/bio.md#bio-evol). **Related branches:** [Dynamics on networks and collective behavior](../domains/net.md#net-dynamics), [Discrete probability and random structures](../domains/prob.md#prob-discrete).
 
-**Sources:** [Maintaining diversity in structured populations](../sources.md#src-model-301).
+**Sources:** [Maintaining diversity in structured populations](../sources.md#src-model-301); [Maintaining diversity in structured populations](../sources.md#src-model-800).
 
-**Exact locator:** Discussion, lower-bound gap for birth–death updating.
+**Exact locator:** Brewster et al., Table 1, Well-mixed populations, Discussion and Supplementary Section 9.2.
 
 **Potential difficulty:** High. The finite Markov chain is explicit, but a statement for every population size needs structure beyond finite enumeration.
 
-**Possible AI role:** A tool-using assistant could derive exact recurrences, search for potential functions and generate independently checkable symbolic identities.
+**Possible AI role:** Check any candidate fast family against the update order and benchmark it against the loopless complete graph.
 
 **Verification burden:** High. Check the update order, null updates, initial partition and the recurrence proof; simulations do not establish an asymptotic theorem.
 
 **Resource expectations:** Experiment: none for the stated mathematical model. Data: public definitions and any generated certificates. Computation: small examples may fit ordinary hardware; the general proof has no defensible runtime or cost estimate. Mathematical validity would not establish empirical adequacy.
 
-**Assessment:** 2026-10-14; untested forecast. **Uncertainty:** No named model was evaluated. This is a method-based forecast, not a measured success rate; a narrower task and a specialist literature check are required before a research attempt.
+**Assessment:** 2026-11-26; untested forecast. **Uncertainty:** The later mixed-update comparison does not settle this minimum; no matching result was identified in the scoped search.
 
 **Further work:** define a scoped target, resource requirements and a verification plan before developing a full card. **Human review:** Pending.
+
+## Literature checks
+
+These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-26
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Source reports open → Source reports open.
+
+The paper bounds the minimum between order N log N and order N^2. On the loopless complete graph the expected time is exactly (N-1)^2. The star reaches order N log N under the opposite update rule.
+
+**Search scope:** Compared the published article and its September preprint with the later mixed-update model (Brewster et al., 2026, DOI 10.1371/journal.pcbi.1014829), which changes the update rule and initial labels.
+
+**Inspected evidence**
+
+- [Maintaining diversity in structured populations](../sources.md#src-model-301) — Well-mixed populations, following equation (6); Supplementary Section 9.2. Separates loopless and looped complete graphs and bounds the minimum from below.
+- [Maintaining diversity in structured populations](../sources.md#src-model-800) — Table 1 and Discussion. The order-matching star example applies to receiver-first updating.
+
+**Limits and remaining work**
+
+- The later mixed-update comparison does not settle this minimum; no matching result was identified in the scoped search.
+
+<details>
+<summary>Search queries</summary>
+
+- "Brewster" "absorption time" birth-death 2026 double star diversity times sharp upper bound Moran process neutral diversity time open problem
+
+
+</details>
 
 <details>
 <summary>Structured records</summary>

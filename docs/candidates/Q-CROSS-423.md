@@ -10,26 +10,26 @@ Determine the conditions under which rainfall on snow generates unusually large 
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Unverified. **Last checked:** 2026-10-14.
+**Current status:** Unverified. **Last checked:** 2026-11-26.
 
-**Status basis:** The numbered IAHS question is a broad research direction. Its source statement is identifiable, but a single current solved/open verdict is not established without a specified model and outcome.
+**Status basis:** UPH 11 asks about mechanisms and timing. Two studies of the February 2017 Oroville event inferred different melt contributions. Both concern water delivered to the surface. Antecedent soil moisture and routing also affect how much of that water reaches the river.
 
-**Statement check:** Needs clarification. **Status check:** Source report only.
+**Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** Recorded source years: SRC-CROSS-402: 2019. Later evidence is limited to the passages in the dated literature check; an access date does not refresh a historical claim.
+**Source date and freshness:** The 2026-11-26 literature check identifies the publications, versions and limits covered.
 
-**Scope limits:** The numbered IAHS question is a broad research direction. Its source statement is identifiable, but a single current solved/open verdict is not established without a specified model and outcome.
+**Scope limits:** Distinguish the rainfall-plus-melt input at the land surface, runoff volume at the catchment outlet and peak discharge. Define the basin, event window and threshold for an exceptional response.
 
 **Information still needed**
 
-- Set snow-state, energy-balance and rainfall regimes; specify an exceptional-runoff threshold.
-- Specialist assessment of the exact formulation and remaining novelty is pending.
+- Compare precipitation phase, snow-water-equivalent reconstruction and antecedent soil storage for a declared catchment.
+- Specify whether the target is event volume or peak flow and give its local reference distribution.
 
 **Primary branch:** [Environmental systems and resource models](../domains/earth.md#earth-env). **Related branches:** None recorded.
 
-**Sources:** [The 23 Unsolved Problems in Hydrology](../sources.md#src-cross-402).
+**Sources:** [The 23 Unsolved Problems in Hydrology](../sources.md#src-cross-402); [Extreme Runoff Generation From Atmospheric River Driven Snowmelt During the 2017 Oroville Dam Spillways Incident](../sources.md#src-phys-904); [Watershed memory amplified the Oroville rain-on-snow flood of February 2017](../sources.md#src-phys-905).
 
-**Exact locator:** IAHS UPH question 11; 2019 community list.
+**Exact locator:** IAHS UPH 11. Henn et al. (2020), abstract and basin water balance. Haleakala et al. (2023 issue), abstract.
 
 **Potential difficulty:** High. The target involves model choice, competing mechanisms or extrapolation; a narrow instance may be manageable, but the full research direction has no established cost bound.
 
@@ -46,6 +46,35 @@ Determine the conditions under which rainfall on snow generates unusually large 
 ## Literature checks
 
 These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-26
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Unverified → Unverified.
+
+Preserve the different event-scale reconstructions and the broader research direction.
+
+**Search scope:** Distinguish the rainfall-plus-melt input at the land surface, runoff volume at the catchment outlet and peak discharge. Define the basin, event window and threshold for an exceptional response.
+
+**Inspected evidence**
+
+- [The 23 Unsolved Problems in Hydrology](../sources.md#src-cross-402) — Question 11. Asks why, how and when rain-on-snow produces exceptional runoff.
+- [Extreme Runoff Generation From Atmospheric River Driven Snowmelt During the 2017 Oroville Dam Spillways Incident](../sources.md#src-phys-904) — Abstract and basin water balance. Estimated that melt added 37% to the water supplied by rain alone across the watershed.
+- [Watershed memory amplified the Oroville rain-on-snow flood of February 2017](../sources.md#src-phys-905) — Abstract. Estimated a 21% augmentation of terrestrial water input and found that wetter soils could increase runoff efficiency.
+
+**Limits and remaining work**
+
+- Neither event reconstruction provides a universal runoff threshold or an observed snowmelt fraction of reservoir inflow.
+
+<details>
+<summary>Search queries</summary>
+
+- rain on snow terrestrial water input catchment runoff observation Henn Musselman Oroville 37% original paper runoff water input
+- Watershed memory amplified the Oroville rain-on-snow flood authors abstract 2017 soil moisture 2023 rainfall snowmelt model Haleakala
+
+
+</details>
 
 ### 2026-10-14
 

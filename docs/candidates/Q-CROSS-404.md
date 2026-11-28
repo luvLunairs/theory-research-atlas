@@ -6,30 +6,29 @@
 
 [Suggest a correction](https://github.com/luvLunairs/theory-research-atlas/issues/new?template=correction.yml&title=%5BCorrection%5D+Q-CROSS-404%3A+Dwell-time+dependence+of+switched-system+gain&target=Q-CROSS-404) · [Share progress](https://github.com/luvLunairs/theory-research-atlas/issues/new?template=research-progress.yml&title=%5BResearch%5D+Q-CROSS-404%3A+Dwell-time+dependence+of+switched-system+gain&target=Q-CROSS-404)
 
-Determine the worst-case L2 gain as a function of minimum switching dwell time.
+Given continuous-time switched linear realizations with Hurwitz mode matrices, start at zero state and allow all piecewise-constant signals with minimum time τ between consecutive switches. Determine the induced L² gain g(τ), the supremum of the output-to-input L² norm ratio over these signals and nonzero inputs, allowing infinite gain.
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Unverified. **Last checked:** 2026-10-14.
+**Current status:** Unverified. **Last checked:** 2026-11-28.
 
-**Status basis:** Theorem 25 of the later paper gives a gain-finiteness criterion, with observability qualifications. It does not compute the full optimal dwell-time/gain curve requested by this entry.
+**Status basis:** Hespanha gives a method for the slow-switching limit, which can exceed the largest single-mode gain. Chitour, Mason and Sigalotti give a finiteness criterion under their hypotheses and prove right-continuity of the gain for bounded mode families with output y = Cx. These results leave computation of the full finite-dwell-time curve unresolved in the inspected sources.
 
 **Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** Recorded source years: SRC-CROSS-401: 2002; SRC-CROSS-603: 2015. Later evidence is limited to the passages in the dated literature check; an access date does not refresh a historical claim.
+**Source date and freshness:** The 28 November 2026 check covers the works and passages listed in the literature record.
 
-**Scope limits:** Theorem 25 of the later paper gives a gain-finiteness criterion, with observability qualifications. It does not compute the full optimal dwell-time/gain curve requested by this entry.
+**Scope limits:** The original realizations may contain direct feedthrough. Proposition 32 is stated for y = Cx with bounded mode triples. The slow-switching limit, a bound at one dwell time and the exact curve are distinct objectives.
 
 **Information still needed**
 
-- Check later algorithms for the exact gain curve and boundary cases where uniform observability fails.
-- Specialist assessment of the exact formulation and remaining novelty is pending.
+- Check any proposed algorithm on the original class, including the allowed output feedthrough and cases of infinite gain.
 
 **Primary branch:** [Robust design and verification](../domains/eng.md#eng-robust). **Related branches:** None recorded.
 
-**Sources:** [2002 MTNS Problem Book: Open Problems on the Mathematical Theory of Systems](../sources.md#src-cross-401); [A characterization of switched linear control systems with finite L2-gain](../sources.md#src-cross-603).
+**Sources:** [2002 MTNS Problem Book: Open Problems on the Mathematical Theory of Systems](../sources.md#src-cross-401); [A characterization of switched linear control systems with finite L2-gain](../sources.md#src-cross-603); [Root-Mean-Square Gains of Switched Linear Systems](../sources.md#src-phys-921).
 
-**Exact locator:** Problem 28, section 28.2, pp. 45–47; João P. Hespanha
+**Exact locator:** Hespanha, MTNS Problem 28, sections 28.1–28.2. Chitour, Mason and Sigalotti, Theorem 25 and Proposition 32. Hespanha, slow-switching report.
 
 **Potential difficulty:** High. The general formulation requires specialist control or operator theory, and local computations do not settle the universal claim.
 
@@ -46,6 +45,42 @@ Determine the worst-case L2 gain as a function of minimum switching dwell time.
 ## Literature checks
 
 These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-28
+
+**Coverage:** Statement and later literature. **Statement:** Corrected.
+
+**Recorded status:** Unverified → Unverified.
+
+Hespanha gives a method for the slow-switching limit, which can exceed the largest single-mode gain. Chitour, Mason and Sigalotti give a finiteness criterion under their hypotheses and prove right-continuity of the gain for bounded mode families with output y = Cx. These results leave computation of the full finite-dwell-time curve unresolved in the inspected sources.
+
+**Search scope:** The original realizations may contain direct feedthrough. Proposition 32 is stated for y = Cx with bounded mode triples. The slow-switching limit, a bound at one dwell time and the exact curve are distinct objectives.
+
+<details>
+<summary>Previous indexed wording</summary>
+
+Determine the worst-case L2 gain as a function of minimum switching dwell time.
+
+The current statement appears at the top of this page.
+</details>
+
+**Inspected evidence**
+
+- [2002 MTNS Problem Book: Open Problems on the Mathematical Theory of Systems](../sources.md#src-cross-401) — Problem 28, sections 28.1–28.2, equations (28.1)–(28.2). Specifies Hurwitz mode matrices, zero initial state, arbitrary square-integrable inputs and the minimum time between switches.
+- [Root-Mean-Square Gains of Switched Linear Systems](../sources.md#src-phys-921) — Report dated 24 September 2002, abstract and sections 1 and 5. Provides a procedure for the slow-switching limit and relates it to the gain for a single switch.
+- [A characterization of switched linear control systems with finite L2-gain](../sources.md#src-cross-603) — Theorem 25 and section IV-C, Proposition 32. Treats finiteness under additional hypotheses and proves right-continuity of the extended-valued gain for the stated bounded mode triples.
+
+**Limits and remaining work**
+
+- Check any proposed algorithm on the original class, including the allowed output feedthrough and cases of infinite gain.
+
+<details>
+<summary>Search queries</summary>
+
+- Hespanha switched systems induced L2 gain minimum dwell time exact gain curve slow switching right continuity Proposition 32
+
+
+</details>
 
 ### 2026-10-14
 

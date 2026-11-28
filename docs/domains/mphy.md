@@ -6,7 +6,7 @@ Rigorous analysis of structures and models motivated by physics.
 
 **Boundary:** Primary placement follows the theorem target; physics relevance is cross-linked.
 
-**Research sources: 24 · Primary tasks: 19 · Full cards: 1 · Cross-linked tasks: 41.**
+**Research sources: 29 · Primary tasks: 19 · Full cards: 1 · Cross-linked tasks: 41.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -74,6 +74,11 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [The Bianchi IX Attractor in Modified Gravity](../sources.md#src-phys-805) | Research entry | 2026 |
 | [Tensor trick for perturbed operators](../sources.md#src-phys-807) | Research entry | 2015 |
 | [Open problems in non-self-adjoint spectral theory](../sources.md#src-phys-808) | Research entry | Not verified |
+| [Hilbert's sixth problem: derivation of fluid equations via Boltzmann's kinetic theory](../sources.md#src-land-900) | Research entry | 2025 |
+| [Large-time behavior of the heat equation: subcriticality versus criticality](../sources.md#src-phys-908) | Research entry | 2015 |
+| [The large-time behaviour of the heat kernel: subcriticality versus criticality](../sources.md#src-phys-909) | Research entry | 2010 |
+| [Schauder basis for Schrödinger operators with periodic boundary conditions](../sources.md#src-phys-923) | Research entry | 2015 |
+| [Convergence of spectral decompositions of Hill operators with trigonometric polynomial potentials](../sources.md#src-phys-924) | Research entry | 2009 |
 
 <a id="branches"></a>
 
@@ -99,7 +104,7 @@ Rigorous analysis of structures and models motivated by physics.
 
 **Representative objects:** operators, measures, Hamiltonians.
 
-**Direct source entries:** [About PhySH](../sources.md#src-base-002), [arXiv Category Taxonomy](../sources.md#src-base-005), [PhySH: Physics Subject Headings](../sources.md#src-model-001), [Mathematics Subject Classification 2020: classification list](../sources.md#src-base-015), [Love numbers of black holes and compact objects](../sources.md#src-phys-006), [The Vanishing of the Non-linear Static Love Number of Kerr Black Holes and the Role of Symmetries](../sources.md#src-phys-007), [Vanishing Love Numbers of Kerr-Newman Black Holes](../sources.md#src-phys-008), [Open problems in non-self-adjoint spectral theory](../sources.md#src-phys-808).
+**Direct source entries:** [About PhySH](../sources.md#src-base-002), [arXiv Category Taxonomy](../sources.md#src-base-005), [PhySH: Physics Subject Headings](../sources.md#src-model-001), [Mathematics Subject Classification 2020: classification list](../sources.md#src-base-015), [Love numbers of black holes and compact objects](../sources.md#src-phys-006), [The Vanishing of the Non-linear Static Love Number of Kerr Black Holes and the Role of Symmetries](../sources.md#src-phys-007), [Vanishing Love Numbers of Kerr-Newman Black Holes](../sources.md#src-phys-008), [Open problems in non-self-adjoint spectral theory](../sources.md#src-phys-808), [Hilbert's sixth problem: derivation of fluid equations via Boltzmann's kinetic theory](../sources.md#src-land-900).
 
 [View all primary tasks](#tasks) · [View cross-domain tasks](#cross-domain-tasks)
 
@@ -134,7 +139,7 @@ Rigorous properties of physical operators and spectra.
 
 **Representative objects:** Schrodinger operators, spectral gaps.
 
-**Direct source entries:** [Ordinary Differential Equations and Dynamical Systems](../sources.md#src-math-106), [Mathematical aspects of physics with non-self-adjoint operators: list of open problems](../sources.md#src-model-401), [Some Problems in Density Functional Theory](../sources.md#src-model-402), [Completeness theorem for the system of eigenfunctions of the complex Schrödinger operator L=-d²/dx²+cx^(2/3)](../sources.md#src-model-607), [Systems of Dilated Functions: completeness, minimality, basisness](../sources.md#src-model-608), [Pseudomodes for Schrödinger operators with complex potentials](../sources.md#src-model-609), [A proof of the Davies–Levitin lens conjecture for the indefinite tridiagonal pencil](../sources.md#src-model-618), [Completeness theorem for the system of eigenfunctions of the complex Schrödinger operator L_c = -d²/dx² + cx^α](../sources.md#src-phys-800), [Variation of discrete spectra for non-selfadjoint perturbations of selfadjoint operators](../sources.md#src-phys-801), [Upper bound to the gradient-based kinetic energy density of noninteracting electrons in an external potential](../sources.md#src-phys-803), [Tensor trick for perturbed operators](../sources.md#src-phys-807), [Open problems in non-self-adjoint spectral theory](../sources.md#src-phys-808).
+**Direct source entries:** [Ordinary Differential Equations and Dynamical Systems](../sources.md#src-math-106), [Mathematical aspects of physics with non-self-adjoint operators: list of open problems](../sources.md#src-model-401), [Some Problems in Density Functional Theory](../sources.md#src-model-402), [Completeness theorem for the system of eigenfunctions of the complex Schrödinger operator L=-d²/dx²+cx^(2/3)](../sources.md#src-model-607), [Systems of Dilated Functions: completeness, minimality, basisness](../sources.md#src-model-608), [Pseudomodes for Schrödinger operators with complex potentials](../sources.md#src-model-609), [A proof of the Davies–Levitin lens conjecture for the indefinite tridiagonal pencil](../sources.md#src-model-618), [Completeness theorem for the system of eigenfunctions of the complex Schrödinger operator L_c = -d²/dx² + cx^α](../sources.md#src-phys-800), [Variation of discrete spectra for non-selfadjoint perturbations of selfadjoint operators](../sources.md#src-phys-801), [Upper bound to the gradient-based kinetic energy density of noninteracting electrons in an external potential](../sources.md#src-phys-803), [Tensor trick for perturbed operators](../sources.md#src-phys-807), [Open problems in non-self-adjoint spectral theory](../sources.md#src-phys-808), [Large-time behavior of the heat equation: subcriticality versus criticality](../sources.md#src-phys-908), [The large-time behaviour of the heat kernel: subcriticality versus criticality](../sources.md#src-phys-909), [Schauder basis for Schrödinger operators with periodic boundary conditions](../sources.md#src-phys-923), [Convergence of spectral decompositions of Hill operators with trigonometric polynomial potentials](../sources.md#src-phys-924).
 
 **Primary tasks in this branch and its descendants**
 
@@ -381,7 +386,7 @@ These retain their primary record in another domain and are not added to this do
 | [Smooth stationary black-hole uniqueness without analyticity](../candidates/Q-MODEL-459.md) | Frontier | Literature-origin question | Unverified | Outline · Q-MODEL-459 |
 | [Penrose's final-state conjecture](../candidates/Q-MODEL-460.md) | Frontier | Literature-origin question | Unverified | Outline · Q-MODEL-460 |
 | [Domains of validity of post-Newtonian expansions](../candidates/Q-MODEL-461.md) | Frontier | Literature-origin question | Unverified | Outline · Q-MODEL-461 |
-| [A rigorous negligible-mass limit for geodesic motion](../candidates/Q-MODEL-462.md) | Frontier | Literature-origin question | Unverified | Outline · Q-MODEL-462 |
+| [A rigorous negligible-mass limit for geodesic motion](../candidates/Q-MODEL-462.md) | Unknown | Literature-origin question | Reported resolved | Outline · Q-MODEL-462 |
 | [Criteria for constant-mean-curvature slices](../candidates/Q-MODEL-463.md) | Frontier | Literature-origin question | Unverified | Outline · Q-MODEL-463 |
 | [Minimal scalar-invariant descriptions of Kundt geometry](../candidates/Q-MODEL-464.md) | Frontier | Literature-origin question | Unverified | Outline · Q-MODEL-464 |
 | [Nonspherical anti-de Sitter nonlinear instability](../candidates/Q-MODEL-465.md) | Frontier | Literature-origin question | Unverified | Outline · Q-MODEL-465 |

@@ -10,41 +10,70 @@ Does every convex polyhedron have a nonoverlapping planar unfolding from a singl
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Unverified. **Last checked:** 2026-10-14.
+**Current status:** Source reports open. **Last checked:** 2026-11-28.
 
-**Status basis:** The inspected source poses this question. A comprehensive search for later resolutions has not been completed; current openness is not asserted.
+**Status basis:** The collection lists the unrestricted question as open. Known obstructions concern either edge-only cuts on a closed surface or unrestricted cuts on a cap with boundary. Each changes a different hypothesis of the original problem.
 
-**Statement check:** Source located. **Status check:** Source report only.
+**Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** Latest displayed substantive revision: 2012.
+**Source date and freshness:** The original collection entry and the dated research results cited in the literature check were inspected on 28 November 2026.
 
-**Scope limits:** This is a source-defined research question, not a claim that a solution or a manageable research route is known.
+**Scope limits:** The collection lists the unrestricted question as open. Known obstructions concern either edge-only cuts on a closed surface or unrestricted cuts on a cap with boundary. Each changes a different hypothesis of the original problem.
 
 **Information still needed**
 
-- Later results for unrestricted surface paths; edge-only zipper cuts differ.
+- The inspected papers do not decide the unrestricted question for closed convex polyhedra.
 
 **Primary branch:** [Computational geometry and topology](../domains/cs.md#cs-geom). **Related branches:** None recorded.
 
-**Sources:** [The Open Problems Project: Problem 77](../sources.md#src-formal-433).
+**Sources:** [The Open Problems Project: Problem 77](../sources.md#src-formal-433); [Zipper Unfolding of Domes and Prismoids](../sources.md#src-land-921); [Un-unzippable Convex Caps](../sources.md#src-land-922).
 
-**Exact locator:** TOPP Problem 77: Statement
+**Exact locator:** Open Problems Project 77, statement and status. Demaine, Demaine and Uehara, abstract. O’Rourke, abstract.
 
 **Potential difficulty:** Unknown. The source identifies an unresolved research target; its present difficulty has not been independently assessed.
 
-**Possible AI role:** After the computational model and current status are checked, generate small geometric instances, inspect exact witnesses and assist with combinatorial or algebraic lemmas. Finite tests do not establish asymptotic complexity or universal existence.
+**Possible AI role:** Test a proposed path on a specified closed polyhedron using exact planar coordinates and overlap checks, allowing path segments across faces.
 
 **Verification burden:** High. Review geometric degeneracies, exact arithmetic, admissible constructions and model-dependent running time; floating-point drawings alone are not certificates.
 
 **Resource expectations:** No physical experiment or external dataset is intrinsic. Exact geometry and combinatorial enumeration may be expensive; useful instance sizes remain unestimated.
 
-**Assessment:** 2026-10-14; untested forecast. **Uncertainty:** No model has been tested. Current status, useful subcases and feasible computational scale require further review.
+**Assessment:** 2026-11-28; untested forecast. **Uncertainty:** The inspected papers do not decide the unrestricted question for closed convex polyhedra. No model has been tested on this target.
 
-**Further work:** resolve the statement and status questions above before planning an attempt. **Human review:** Pending.
+**Further work:** define a scoped target, resource requirements and a verification plan before developing a full card. **Human review:** Pending.
 
 ## Literature checks
 
 These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-28
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Unverified → Source reports open.
+
+The collection lists the unrestricted question as open. Known obstructions concern either edge-only cuts on a closed surface or unrestricted cuts on a cap with boundary. Each changes a different hypothesis of the original problem.
+
+**Search scope:** Compared the problem collection with the cited authors’ statements and searched for extensions or counterexamples to the unrestricted target.
+
+**Inspected evidence**
+
+- [The Open Problems Project: Problem 77](../sources.md#src-formal-433) — Problem 77, statement. The single path visits all vertices and may cross face interiors.
+- [Zipper Unfolding of Domes and Prismoids](../sources.md#src-land-921) — Author abstract, both paragraphs. Negative and positive results are for edge-only zippers.
+- [Un-unzippable Convex Caps](../sources.md#src-land-922) — Abstract. Some caps have no zipper even with cuts through faces. The examples have a boundary.
+
+**Limits and remaining work**
+
+- The inspected papers do not decide the unrestricted question for closed convex polyhedra.
+
+<details>
+<summary>Search queries</summary>
+
+- general zipper paths closed convex polyhedra unresolved 2026
+- zipper unfolding prismoids edges convex caps nonoverlap
+
+
+</details>
 
 ### 2026-10-14
 

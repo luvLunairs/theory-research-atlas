@@ -10,25 +10,25 @@ Identify the fundamental component or components responsible for the non-baryoni
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Source reports open. **Last checked:** 2026-10-14.
+**Current status:** Source reports open. **Last checked:** 2026-11-28.
 
-**Status basis:** The 2025 review explicitly calls the dominant component unknown. Scoped 2026 searches returned model proposals rather than an established identification.
+**Status basis:** The PDG review identifies the dominant component as unknown. In September 2026 LZ reported one candidate recoil in an extended energy window. Its likelihood test gave a global significance of 2.6 standard deviations after accounting for the models searched, compared with a maximum local significance of 3.4. The collaboration did not identify a dark matter particle.
 
-**Statement check:** Source located. **Status check:** Source report only.
+**Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** Recorded source years: SRC-MODEL-314: 2025. The last-checked date records the scope described in the status basis; it is not a comprehensive literature-search date.
+**Source date and freshness:** The 28 November 2026 check covers the works and passages listed in the literature record.
 
-**Scope limits:** The statement and locator identify the candidate. A full assumption set and verification protocol remain to be documented.
+**Scope limits:** The cosmological composition question and a likelihood test for a xenon recoil use different observables and assumptions.
 
 **Information still needed**
 
-- Specify the assumptions, candidate methods, resource requirements and independent verification steps for a concrete research task.
+- Compare a specified particle model with independent searches and astrophysical constraints. Background estimates and trials factors must accompany any interpretation of the LZ event.
 
 **Primary branch:** [Cosmology and gravitational astrophysics](../domains/astro.md#astro-cosmo). **Related branches:** [Quantum field, particle and nuclear theory](../domains/phys.md#phys-field), [Gravitation and spacetime theory](../domains/phys.md#phys-grav).
 
-**Sources:** [Dark Matter](../sources.md#src-model-314).
+**Sources:** [Dark Matter](../sources.md#src-model-314); [Search for dark matter particle interactions in an extended nuclear recoil energy window with the LUX-ZEPLIN (LZ) experiment](../sources.md#src-phys-920).
 
-**Exact locator:** PDG chapter 27.1 and candidate/search discussions.
+**Exact locator:** PDG, chapter 27.1. LUX-ZEPLIN, extended recoil-energy analysis, abstract.
 
 **Potential difficulty:** Frontier. Several observational signatures and many candidate microphysical models remain degenerate.
 
@@ -41,6 +41,37 @@ Identify the fundamental component or components responsible for the non-baryoni
 **Assessment:** 2026-10-14; untested forecast. **Uncertainty:** No AI capability or novelty was measured. This is a literature-defined scientific question, not a unique theorem with a universally agreed success test; any proposed model needs a separate hypothesis, consistency and empirical review.
 
 **Further work:** define a scoped target, resource requirements and a verification plan before developing a full card. **Human review:** Pending.
+
+## Literature checks
+
+These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-28
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Source reports open → Source reports open.
+
+The PDG review identifies the dominant component as unknown. In September 2026 LZ reported one candidate recoil in an extended energy window. Its likelihood test gave a global significance of 2.6 standard deviations after accounting for the models searched, compared with a maximum local significance of 3.4. The collaboration did not identify a dark matter particle.
+
+**Search scope:** The cosmological composition question and a likelihood test for a xenon recoil use different observables and assumptions.
+
+**Inspected evidence**
+
+- [Dark Matter](../sources.md#src-model-314) — Chapter 27.1, first two paragraphs. Separates the measured matter budget under ΛCDM from the unknown identity of the dominant component.
+- [Search for dark matter particle interactions in an extended nuclear recoil energy window with the LUX-ZEPLIN (LZ) experiment](../sources.md#src-phys-920) — Abstract and data-release link, 2 September 2026. Reports a high-energy recoil in 2.84 tonne-years of xenon exposure and distinguishes local from global significance.
+
+**Limits and remaining work**
+
+- Compare a specified particle model with independent searches and astrophysical constraints. Background estimates and trials factors must accompany any interpretation of the LZ event.
+
+<details>
+<summary>Search queries</summary>
+
+- LUX-ZEPLIN extended nuclear recoil energy window 248 keV global significance background September November 2026
+
+
+</details>
 
 <details>
 <summary>Structured records</summary>

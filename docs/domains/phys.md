@@ -6,7 +6,7 @@ Mathematical models and principles proposed for physical systems.
 
 **Boundary:** Derivation under assumptions is separate from empirical confirmation.
 
-**Research sources: 49 · Primary tasks: 30 · Full cards: 6 · Cross-linked tasks: 34.**
+**Research sources: 58 · Primary tasks: 30 · Full cards: 6 · Cross-linked tasks: 34.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -35,7 +35,7 @@ Mathematical models and principles proposed for physical systems.
 | [Smooth stationary black-hole uniqueness without analyticity](../candidates/Q-MODEL-459.md) | Frontier | Literature-origin question | Unverified | Outline · Q-MODEL-459 |
 | [Penrose's final-state conjecture](../candidates/Q-MODEL-460.md) | Frontier | Literature-origin question | Unverified | Outline · Q-MODEL-460 |
 | [Domains of validity of post-Newtonian expansions](../candidates/Q-MODEL-461.md) | Frontier | Literature-origin question | Unverified | Outline · Q-MODEL-461 |
-| [A rigorous negligible-mass limit for geodesic motion](../candidates/Q-MODEL-462.md) | Frontier | Literature-origin question | Unverified | Outline · Q-MODEL-462 |
+| [A rigorous negligible-mass limit for geodesic motion](../candidates/Q-MODEL-462.md) | Unknown | Literature-origin question | Reported resolved | Outline · Q-MODEL-462 |
 | [Criteria for constant-mean-curvature slices](../candidates/Q-MODEL-463.md) | Frontier | Literature-origin question | Unverified | Outline · Q-MODEL-463 |
 | [Minimal scalar-invariant descriptions of Kundt geometry](../candidates/Q-MODEL-464.md) | Frontier | Literature-origin question | Unverified | Outline · Q-MODEL-464 |
 | [Nonspherical anti-de Sitter nonlinear instability](../candidates/Q-MODEL-465.md) | Frontier | Literature-origin question | Unverified | Outline · Q-MODEL-465 |
@@ -110,6 +110,15 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [Proof of the Penrose Conjecture for Maximally Parameterized Initial Data Sets](../sources.md#src-phys-708) | Research entry | 2026 |
 | [DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints](../sources.md#src-phys-804) | Research entry | 2025 |
 | [The Bianchi IX Attractor in Modified Gravity](../sources.md#src-phys-805) | Research entry | 2026 |
+| [Hilbert's sixth problem: derivation of fluid equations via Boltzmann's kinetic theory](../sources.md#src-land-900) | Research entry | 2025 |
+| [On the Navier–Stokes Millennium Prize Problem](../sources.md#src-land-904) | Research entry | 2026 |
+| [Finite-time blow-up for the Navier–Stokes equations](../sources.md#src-land-905) | Research entry | 2026 |
+| [Direct neutrino-mass measurement based on 259 days of KATRIN data](../sources.md#src-phys-902) | Research entry | 2025 |
+| [First Results on the Search for Lepton Number Violating Neutrinoless Double-β Decay with the LEGEND-200 Experiment](../sources.md#src-phys-903) | Research entry | 2026 |
+| [Vacuum cosmological spacetimes without CMC Cauchy surfaces](../sources.md#src-phys-927) | Research entry | 2024 |
+| [A Rigorous Derivation of Gravitational Self-force](../sources.md#src-phys-928) | Research entry | 2008 |
+| [Equation of Motion of Small Bodies in Relativity](../sources.md#src-phys-929) | Research entry | 2003 |
+| [Black hole perturbation theory and gravitational self-force](../sources.md#src-phys-930) | Research entry | 2021 |
 
 <a id="branches"></a>
 
@@ -219,7 +228,7 @@ Models for fluids, turbulence and charged media.
 
 **Representative objects:** Navier-Stokes, MHD, kinetic plasma models.
 
-**Direct source entries:** [David Tong: Lecture Notes](../sources.md#src-base-011), [Navier-Stokes Announcement](../sources.md#src-math-015), [Existence and Smoothness of the Navier-Stokes Equation](../sources.md#src-land-306), [Dynamo theories](../sources.md#src-model-309), [Strong and Weak Dynamo Regimes in Taylor-Couette Flows](../sources.md#src-model-310), [Joint multifractal description of small-scale turbulence: Unifying longitudinal and transverse velocity intermittency](../sources.md#src-phys-009), [Turbulence intermittency and velocity gradients](../sources.md#src-phys-010).
+**Direct source entries:** [David Tong: Lecture Notes](../sources.md#src-base-011), [Navier-Stokes Announcement](../sources.md#src-math-015), [Existence and Smoothness of the Navier-Stokes Equation](../sources.md#src-land-306), [Dynamo theories](../sources.md#src-model-309), [Strong and Weak Dynamo Regimes in Taylor-Couette Flows](../sources.md#src-model-310), [Joint multifractal description of small-scale turbulence: Unifying longitudinal and transverse velocity intermittency](../sources.md#src-phys-009), [Turbulence intermittency and velocity gradients](../sources.md#src-phys-010), [Hilbert's sixth problem: derivation of fluid equations via Boltzmann's kinetic theory](../sources.md#src-land-900), [On the Navier–Stokes Millennium Prize Problem](../sources.md#src-land-904), [Finite-time blow-up for the Navier–Stokes equations](../sources.md#src-land-905).
 
 **Primary tasks in this branch and its descendants**
 
@@ -228,7 +237,7 @@ Models for fluids, turbulence and charged media.
 
 **Additional cross-linked tasks**
 
-- [Three-dimensional Navier-Stokes global regularity](../candidates/Q-LAND-305.md)
+- [Three-dimensional Navier–Stokes global regularity without forcing](../candidates/Q-LAND-305.md)
 - [Low-Prandtl transition of the zero-net-flux MRI dynamo](../candidates/Q-MODEL-315.md)
 - [A controlled asymptotic bridge from numerical dynamos to Earth's core](../candidates/Q-MODEL-316.md)
 
@@ -330,7 +339,7 @@ Field-based models of elementary and composite matter.
 
 **Representative objects:** gauge theories, scattering, effective theories.
 
-**Direct source entries:** [David Tong: Lecture Notes](../sources.md#src-base-011), [Yang-Mills and the Mass Gap](../sources.md#src-model-012), [Quantum Yang-Mills Theory](../sources.md#src-model-013), [Lectures on the Cosmological Constant Problem](../sources.md#src-model-017), [Addressing Six Standard Model Problems with Technically Natural Higgs Models](../sources.md#src-model-311), [Neutrino Masses, Mixing, and Oscillations](../sources.md#src-model-312), [Axions and Other Similar Particles](../sources.md#src-model-313), [Dark Matter](../sources.md#src-model-314).
+**Direct source entries:** [David Tong: Lecture Notes](../sources.md#src-base-011), [Yang-Mills and the Mass Gap](../sources.md#src-model-012), [Quantum Yang-Mills Theory](../sources.md#src-model-013), [Lectures on the Cosmological Constant Problem](../sources.md#src-model-017), [Addressing Six Standard Model Problems with Technically Natural Higgs Models](../sources.md#src-model-311), [Neutrino Masses, Mixing, and Oscillations](../sources.md#src-model-312), [Axions and Other Similar Particles](../sources.md#src-model-313), [Dark Matter](../sources.md#src-model-314), [Direct neutrino-mass measurement based on 259 days of KATRIN data](../sources.md#src-phys-902), [First Results on the Search for Lepton Number Violating Neutrinoless Double-β Decay with the LEGEND-200 Experiment](../sources.md#src-phys-903).
 
 **Primary tasks in this branch and its descendants**
 
@@ -478,7 +487,7 @@ Geometric and field models of gravitating systems.
 
 **Representative objects:** Einstein equations, horizons, perturbations.
 
-**Direct source entries:** [David Tong: Lecture Notes](../sources.md#src-base-011), [Lectures on the Cosmological Constant Problem](../sources.md#src-model-017), [Dark Energy](../sources.md#src-model-315), [Mathematical General Relativity](../sources.md#src-model-405), [Nonlinear stability of subextremal Kerr black holes](../sources.md#src-model-411), [Cosmology, the big bang and the BKL conjecture](../sources.md#src-model-610), [Black holes galore in D>4](../sources.md#src-model-611), [A CMC existence result for expanding cosmological spacetimes](../sources.md#src-model-612), [Proof the Spacetime Penrose Inequality](../sources.md#src-model-613), [Love numbers of black holes and compact objects](../sources.md#src-phys-006), [The Vanishing of the Non-linear Static Love Number of Kerr Black Holes and the Role of Symmetries](../sources.md#src-phys-007), [Vanishing Love Numbers of Kerr-Newman Black Holes](../sources.md#src-phys-008), [The Spacetime Penrose Inequality: Conditional Results for Stable MOTS and General Trapped Surfaces](../sources.md#src-phys-701), [Nonexistence of Multiple Black Holes in Stationary Analytic Vacuum Spacetimes](../sources.md#src-phys-705), [Electrovacuum Black Hole Uniqueness](../sources.md#src-phys-706), [Proof of the Penrose Conjecture for Maximally Parameterized Initial Data Sets](../sources.md#src-phys-708), [DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints](../sources.md#src-phys-804), [The Bianchi IX Attractor in Modified Gravity](../sources.md#src-phys-805).
+**Direct source entries:** [David Tong: Lecture Notes](../sources.md#src-base-011), [Lectures on the Cosmological Constant Problem](../sources.md#src-model-017), [Dark Energy](../sources.md#src-model-315), [Mathematical General Relativity](../sources.md#src-model-405), [Nonlinear stability of subextremal Kerr black holes](../sources.md#src-model-411), [Cosmology, the big bang and the BKL conjecture](../sources.md#src-model-610), [Black holes galore in D>4](../sources.md#src-model-611), [A CMC existence result for expanding cosmological spacetimes](../sources.md#src-model-612), [Proof the Spacetime Penrose Inequality](../sources.md#src-model-613), [Love numbers of black holes and compact objects](../sources.md#src-phys-006), [The Vanishing of the Non-linear Static Love Number of Kerr Black Holes and the Role of Symmetries](../sources.md#src-phys-007), [Vanishing Love Numbers of Kerr-Newman Black Holes](../sources.md#src-phys-008), [The Spacetime Penrose Inequality: Conditional Results for Stable MOTS and General Trapped Surfaces](../sources.md#src-phys-701), [Nonexistence of Multiple Black Holes in Stationary Analytic Vacuum Spacetimes](../sources.md#src-phys-705), [Electrovacuum Black Hole Uniqueness](../sources.md#src-phys-706), [Proof of the Penrose Conjecture for Maximally Parameterized Initial Data Sets](../sources.md#src-phys-708), [DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints](../sources.md#src-phys-804), [The Bianchi IX Attractor in Modified Gravity](../sources.md#src-phys-805), [Vacuum cosmological spacetimes without CMC Cauchy surfaces](../sources.md#src-phys-927), [A Rigorous Derivation of Gravitational Self-force](../sources.md#src-phys-928), [Equation of Motion of Small Bodies in Relativity](../sources.md#src-phys-929), [Black hole perturbation theory and gravitational self-force](../sources.md#src-phys-930).
 
 **Primary tasks in this branch and its descendants**
 
@@ -583,7 +592,7 @@ These retain their primary record in another domain and are not added to this do
 | [Recover the linear stability threshold of triangular Lagrange points](../cards/Q-MODEL-102.md) | Medium | Known-result calibration | Known result in literature | Full card · Q-MODEL-102 |
 | [Verify Jacobi conservation and certified forbidden regions](../candidates/Q-MODEL-105.md) | Unknown | Known-result calibration | Known result in literature | Outline · Q-MODEL-105 |
 | [Verify equilibrium for an overdamped quartic potential](../candidates/Q-MODEL-106.md) | Unknown | Known-result calibration | Known result in literature | Outline · Q-MODEL-106 |
-| [Three-dimensional Navier-Stokes global regularity](../candidates/Q-LAND-305.md) | Frontier | Literature-origin question | Unverified | Outline · Q-LAND-305 |
+| [Three-dimensional Navier–Stokes global regularity without forcing](../candidates/Q-LAND-305.md) | Frontier | Literature-origin question | Unverified | Outline · Q-LAND-305 |
 | [Low-Prandtl transition of the zero-net-flux MRI dynamo](../candidates/Q-MODEL-315.md) | Frontier | Literature-origin question | Source reports open | Outline · Q-MODEL-315 |
 | [A controlled asymptotic bridge from numerical dynamos to Earth's core](../candidates/Q-MODEL-316.md) | Frontier | Literature-origin question | Source reports open | Outline · Q-MODEL-316 |
 | [The origin of the cosmic baryon asymmetry](../candidates/Q-MODEL-319.md) | Frontier | Literature-origin question | Source reports open | Outline · Q-MODEL-319 |

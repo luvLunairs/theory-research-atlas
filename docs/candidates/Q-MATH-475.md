@@ -10,42 +10,69 @@ Classify finite nonabelian simple groups whose enhanced power graphs are chordal
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Source reports open. **Last checked:** 2026-10-14.
+**Current status:** Unverified. **Last checked:** 2026-11-28.
 
-**Status basis:** The October 2026 Kourovka Notebook entry (Problem 21.23(b); D. Bubboloni, F. Fumagalli, C. E. Praeger) was inspected together with its local comments and adjacent resolution markers. This selected question is presented without a confirmed-solution marker. This records the editors' dated presentation, not an exhaustive current-status search.
+**Status basis:** Manna’s 3 November preprint claims the full classification. Among nonabelian simple groups its list consists of Alt(7), PSL₂(q) for prime powers q ≥ 4, the Suzuki groups Sz(q) for q = 2^(2m+1) ≥ 8, and PSL₃(4). The paper attributes sufficiency to earlier work and supplies a necessity argument. The claim awaits independent assessment here.
 
-**Statement check:** Source located. **Status check:** Source report only.
+**Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** Inspected source years: SRC-MATH-301: 2026. Checked on 2026-10-14 within the scope recorded in the literature check.
+**Source date and freshness:** The problem statement and references listed in the 28 November 2026 literature check were inspected.
 
-**Scope limits:** The current collection presents this target as unresolved. No independent, exhaustive later-literature check is claimed. Kourovka Problem 21.23(b) is the simultaneous, all-cycle-length classification associated with Q-MATH-474; it is not an unrelated conjecture.
+**Scope limits:** Kourovka 21.23(b). Bubboloni, Fumagalli and Praeger, Open Problem 1. Manna, Theorem 1.1.
 
 **Information still needed**
 
-- The additional search did not provide a checked primary resolution; absence of such a result is not evidence proving openness.
-- The mathematical proof or counterexample, if proposed, still requires expert review.
+- Check the exclusions for the remaining simple families and whether independent mathematical review of Theorem 1.1 has appeared.
 
 **Primary branch:** [Algebra](../domains/math.md#math-alg). **Related branches:** None recorded.
 
-**Sources:** [The Kourovka Notebook: Unsolved Problems in Group Theory, 21st edition, October 2026 update](../sources.md#src-math-301).
+**Sources:** [The Kourovka Notebook: Unsolved Problems in Group Theory, 21st edition, October 2026 update](../sources.md#src-math-301); [Unsolved Problems in Group Theory: The Kourovka Notebook (21st edition, November 2026 update)](../sources.md#src-math-900); [Enhanced power graphs of finite groups with cograph structure](../sources.md#src-math-921); [Chordality of Enhanced Power Graphs of Finite Simple Groups: A Resolution of a Conjecture](../sources.md#src-math-920).
 
-**Exact locator:** Problem 21.23(b); D. Bubboloni, F. Fumagalli, C. E. Praeger.
+**Exact locator:** Kourovka 21.23(b). Bubboloni, Fumagalli and Praeger, Open Problem 1. Manna, Theorem 1.1.
 
 **Potential difficulty:** Unknown. The statement is source-located, but a current difficulty assessment and comparison with the latest partial results have not been completed. A simple formulation is not evidence of tractability.
 
-**Possible AI role:** After checking current status, AI with the relevant mathematical background and tools could compare subgroup structure with induced-cycle obstructions. Specialist review remains necessary; no named model has been evaluated.
+**Possible AI role:** Compare the exclusions in Sections 4–6 with the classification statement, including small isomorphisms.
 
 **Verification burden:** High. A general proof or classification needs expert checking of hypotheses, reductions and completeness. A finite construction can support a restricted result only unless it certifies a counterexample to the exact statement.
 
 **Resource expectations:** No physical experiment or empirical dataset is required. Literature review and proof development are the principal tasks. Any exact search, simulation or symbolic calculation needs an explicit finite scope; its compute and memory requirements have not been estimated.
 
-**Assessment:** 2026-10-14; untested forecast. **Uncertainty:** Current resolution status, practical resource needs and AI usefulness remain unmeasured. This all-length condition is distinct from classification for a specified cycle length.
+**Assessment:** 2026-11-28; untested forecast. **Uncertainty:** Check the exclusions for the remaining simple families and whether independent mathematical review of Theorem 1.1 has appeared. Model performance on this task has not been measured.
 
-**Further work:** define a scoped target, resource requirements and a verification plan before developing a full card. **Human review:** Pending.
+**Further work:** resolve the statement and status questions above before planning an attempt. **Human review:** Pending.
 
 ## Literature checks
 
 These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-28
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Source reports open → Unverified.
+
+Manna’s 3 November preprint claims the full classification. Among nonabelian simple groups its list consists of Alt(7), PSL₂(q) for prime powers q ≥ 4, the Suzuki groups Sz(q) for q = 2^(2m+1) ≥ 8, and PSL₃(4). The paper attributes sufficiency to earlier work and supplies a necessity argument. The claim awaits independent assessment here.
+
+**Search scope:** Kourovka 21.23(b). Bubboloni, Fumagalli and Praeger, Open Problem 1. Manna, Theorem 1.1.
+
+**Inspected evidence**
+
+- [Unsolved Problems in Group Theory: The Kourovka Notebook (21st edition, November 2026 update)](../sources.md#src-math-900) — Problem 21.23(b). Asks for all finite nonabelian simple groups with a chordal enhanced power graph.
+- [Enhanced power graphs of finite groups with cograph structure](../sources.md#src-math-921) — Theorem B, Open Problem 1 and Proposition 4.14. Poses the fixed-length and chordal classifications separately and characterizes the absence of an induced four-cycle in terms of subgroup structure.
+- [Chordality of Enhanced Power Graphs of Finite Simple Groups: A Resolution of a Conjecture](../sources.md#src-math-920) — Theorem 1.1 and the paragraph separating necessity from sufficiency. Claims an exhaustive list of finite simple groups whose enhanced power graphs are chordal.
+
+**Limits and remaining work**
+
+- Check the exclusions for the remaining simple families and whether independent mathematical review of Theorem 1.1 has appeared.
+
+<details>
+<summary>Search queries</summary>
+
+- chordality enhanced power graph finite simple groups Manna November 2026 proof correction 21.23
+
+
+</details>
 
 ### 2026-10-14
 

@@ -10,41 +10,68 @@ Does every approval election admit a size-k committee unblocked by every coaliti
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Unverified. **Last checked:** 2026-10-14.
+**Current status:** Unverified. **Last checked:** 2026-11-26.
 
-**Status basis:** A matching general resolution claim exists; publication/acceptance and the proof or formalization remain to be checked.
+**Status basis:** The revised preprint retains the ordinary Hare-core existence claim and also gives existence for Droop core+. Its report of formalization specifically covers Hare-quota core existence. The atlas has not independently checked that formalization.
 
 **Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** Sources: SRC-MODEL-403: 2022; SRC-MODEL-602: 2026. The 2026-10-14 check covers the scope recorded in the linked literature check.
+**Source date and freshness:** 2022 book and arXiv:2609.11912v2, 3 November 2026.
 
-**Scope limits:** A finite approval-election model with fixed rule and axiom definitions from the book. An axiomatic result does not establish that voter preferences or welfare are represented adequately.
+**Scope limits:** There are n voters and k seats. Blocking the Hare committee requires an affordable deviation that gives every coalition member strictly more approved winners.
 
 **Information still needed**
 
-- Publication or independent acceptance and the proof/formalization of the 2026 claim remain unverified; retain strict blocking and Hare quotas.
+- Independently check the formal target and the proof for the stated Hare model.
 
 **Primary branch:** [Social choice and collective decisions](../domains/econ.md#econ-social). **Related branches:** [Algorithms and data structures](../domains/cs.md#cs-alg).
 
 **Sources:** [Outlook and Research Directions, in Multi-Winner Voting with Approval Preferences](../sources.md#src-model-403); [Existence of the Core in Approval-Based Committee Elections](../sources.md#src-model-602).
 
-**Exact locator:** §7.1, Q3; core definition 4.10
+**Exact locator:** Lackner and Skowron, Chapter 7, Q3; Becker, Greger and Peters v2, Sections 2–3, 6 and 8.
 
 **Potential difficulty:** High. The target quantifies over unrestricted approval profiles or asks for a general algorithmic guarantee.
 
-**Possible AI role:** A directly relevant resolution claim exists. AI could assist specialist comparison of definitions, dependencies and proof steps; reviewing the claim takes priority over treating the target as untouched.
+**Possible AI role:** Check the Hare blocking inequalities against the revised theorem and the exact statement attributed to the Lean project.
 
 **Verification burden:** High. Independent expert review of the claim is needed. Abstracts, model confidence, producer checks and publication metadata alone do not verify a proof.
 
 **Resource expectations:** Exact small-election searches may use SAT or integer programming on a workstation. Exhaustive instance size grows quickly; general claims require proofs or independently checked counterexamples.
 
-**Assessment:** 2026-10-14; untested forecast. **Uncertainty:** No named model has been evaluated. This forecasts conditional assistance with literature and proof review, not measured capability or a probability that the claim is correct.
+**Assessment:** 2026-11-26; untested forecast. **Uncertainty:** The later source is a preprint. Its external formalization was not rerun and no atlas review is recorded.
 
 **Further work:** resolve the statement and status questions above before planning an attempt. **Human review:** Pending.
 
 ## Literature checks
 
 These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-26
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Unverified → Unverified.
+
+The revised preprint retains the ordinary Hare-core existence claim and also gives existence for Droop core+. Its report of formalization specifically covers Hare-quota core existence. The atlas has not independently checked that formalization.
+
+**Search scope:** Checked the book questions, arXiv version history and revised theorem statements; searched for a publication or correction.
+
+**Inspected evidence**
+
+- [Outlook and Research Directions, in Multi-Winner Voting with Approval Preferences](../sources.md#src-model-403) — Chapter 7, Q3. Records the historical question of ordinary approval-core existence.
+- [Existence of the Core in Approval-Based Committee Elections](../sources.md#src-model-602) — Section 2, Theorem 6.5, and Section 8. Reports existence for Hare core+ and distinguishes the Droop endpoint.
+
+**Limits and remaining work**
+
+- The later source is a preprint. Its external formalization was not rerun and no atlas review is recorded.
+
+<details>
+<summary>Search queries</summary>
+
+- "Existence of the Core in Approval-Based Committee Elections" Becker Greger Peters 2026 accepted conference November core Droop Hare Theorem
+
+
+</details>
 
 ### 2026-10-14
 

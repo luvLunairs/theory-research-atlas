@@ -10,42 +10,68 @@ For stochastic bandit rewards with absolute moments of order 1+epsilon bounded b
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Unverified. **Last checked:** 2026-10-14.
+**Current status:** Unverified. **Last checked:** 2026-11-26.
 
-**Status basis:** The inspected source poses this question. A comprehensive search for later resolutions has not been completed; current openness is not asserted.
+**Status basis:** The original authors report a resolution of the assumption-free rate and algorithm questions up to logarithmic factors. Their results describe trade-offs between guarantees, including a lower bound across moment orders. The preprint awaits independent assessment here.
 
-**Statement check:** Needs clarification. **Status check:** Source report only.
+**Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** COLT 2025 problem note.
+**Source date and freshness:** COLT 2025; arXiv:2607.29460v1, 31 July 2026.
 
-**Scope limits:** This is a source-defined research question, not a claim that a solution or a manageable research route is known.
+**Scope limits:** Each arm has a bounded absolute raw moment of order 1+epsilon, with 0 < epsilon <= 1. Distinguish distribution-dependent and worst-case regret. Sublinear regret at each fixed epsilon differs from uniform sublinearity over all positive epsilon.
 
 **Information still needed**
 
-- The uniformity of the adaptation benchmark and later upper/lower bounds require checking.
-- Inspect the full problem note before selecting a concrete research task.
+- Check the matching bounds and the endpoint guarantee used in Theorems 7–8 before treating the reported resolution as settled.
 
 **Primary branch:** [Statistical learning and high-dimensional theory](../domains/stat.md#stat-learn). **Related branches:** None recorded.
 
-**Sources:** [Open Problem: Regret Minimization in Heavy-Tailed Bandits with Unknown Distributional Parameters](../sources.md#src-formal-439).
+**Sources:** [Open Problem: Regret Minimization in Heavy-Tailed Bandits with Unknown Distributional Parameters](../sources.md#src-formal-439); [Parameter-Free Heavy-Tailed Bandits](../sources.md#src-model-900).
 
-**Exact locator:** Abstract, first open question
+**Exact locator:** COLT Definition 1 and Open Questions 1–2; Genalti and Metelli (2026), Sections 4–7.
 
-**Potential difficulty:** Unknown. The source identifies an unresolved research target; its present difficulty has not been independently assessed.
+**Potential difficulty:** Unknown. A published problem statement and a matching preprint claim make proof and scope review the immediate task.
 
-**Possible AI role:** After the statistical model is recovered, help manipulate risk bounds, compare lower-bound constructions and design simulations that challenge proposed assumptions. Simulation does not establish minimax optimality.
+**Possible AI role:** Compare the rate normalizations and quantifiers in the COLT questions with the July theorems before pursuing a new bound.
 
 **Verification burden:** High. Upper and lower bounds must use identical distribution classes, loss, privacy or oracle conditions and quantifiers; statistical counterexamples need exact arguments.
 
 **Resource expectations:** The formal target needs no new physical experiment. Simulations may use synthetic samples; necessary sample counts and computational costs have not been estimated.
 
-**Assessment:** 2026-10-14; untested forecast. **Uncertainty:** No model has been tested. Current status, useful subcases and feasible computational scale require further review.
+**Assessment:** 2026-11-26; untested forecast. **Uncertainty:** The later proof was not independently audited. Logarithmic terms and horizon knowledge matter when choosing a sharper target.
 
 **Further work:** resolve the statement and status questions above before planning an attempt. **Human review:** Pending.
 
 ## Literature checks
 
 These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-26
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Unverified → Unverified.
+
+The original authors report a resolution of the assumption-free rate and algorithm questions up to logarithmic factors. Their results describe trade-offs between guarantees, including a lower bound across moment orders. The preprint awaits independent assessment here.
+
+**Search scope:** Compared the original full paper with the July preprint's upper and lower bounds and conclusion. Checked the arXiv version record.
+
+**Inspected evidence**
+
+- [Open Problem: Regret Minimization in Heavy-Tailed Bandits with Unknown Distributional Parameters](../sources.md#src-formal-439) — Definition 1 and Open Questions 1–2. Asks for attainable regret and an algorithm without knowledge of either moment parameter.
+- [Parameter-Free Heavy-Tailed Bandits](../sources.md#src-model-900) — Sections 4–7, Theorems 7–8 and Corollary 9. Gives matching scale trade-offs up to logarithms and compares performance at different fixed moment orders.
+
+**Limits and remaining work**
+
+- The later proof was not independently audited. Logarithmic terms and horizon knowledge matter when choosing a sharper target.
+
+<details>
+<summary>Search queries</summary>
+
+- 2026 heavy-tailed bandits Genalti adaptation price 2025 COLT open problem tail assumptions Pareto regret frontier heavy tailed bandits
+
+
+</details>
 
 ### 2026-10-14
 

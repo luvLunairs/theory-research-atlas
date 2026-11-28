@@ -10,43 +10,68 @@ Let X be a nonempty class of finite odd-order groups closed under subgroups, quo
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Source reports open. **Last checked:** 2026-10-14.
+**Current status:** Unverified. **Last checked:** 2026-11-26.
 
-**Status basis:** The October 2026 Kourovka Notebook entry (Problem 21.57; W. Guo, D. O. Revin) was inspected together with its local comments and adjacent resolution markers. This selected question is presented without a confirmed-solution marker. This records the editors' dated presentation, not an exhaustive current-status search.
+**Status basis:** The November Kourovka Notebook marks Problem 21.57 with a proposed negative answer. The editors attribute it to Di Siena and explicitly mark the AI-assisted solution as unverified.
 
-**Statement check:** Source located. **Status check:** Source report only.
+**Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** Inspected source years: SRC-MATH-301: 2026. Checked on 2026-10-14 within the scope recorded in the literature check.
+**Source date and freshness:** The November 2026 Notebook identifies a proposed counterexample submitted in October.
 
-**Scope limits:** The current collection presents this target as unresolved. No independent, exhaustive later-literature check is claimed. One source-stated conjecture, classification target or independently posed subquestion is indexed. Known special cases are background, not additional open records.
+**Scope limits:** The reported counterexample concerns X-maximality after intersection with a normal subgroup. The problem concerns extension-closed classes of odd-order groups.
 
 **Information still needed**
 
-- Searches outside the collection were not performed for this entry.
-- The source's absence of a solution annotation is not a proof of current openness.
-- The mathematical proof or counterexample, if proposed, still requires expert review.
+- An independent check of the proposed example and any later change to the editorial marker.
 
 **Primary branch:** [Algebra](../domains/math.md#math-alg). **Related branches:** None recorded.
 
-**Sources:** [The Kourovka Notebook: Unsolved Problems in Group Theory, 21st edition, October 2026 update](../sources.md#src-math-301).
+**Sources:** [The Kourovka Notebook: Unsolved Problems in Group Theory, 21st edition, October 2026 update](../sources.md#src-math-301); [Unsolved Problems in Group Theory: The Kourovka Notebook (21st edition, November 2026 update)](../sources.md#src-math-900).
 
-**Exact locator:** Problem 21.57; W. Guo, D. O. Revin.
+**Exact locator:** Kourovka Problem 21.57, November edition, printed p. 187
 
 **Potential difficulty:** Unknown. The statement is source-located, but a current difficulty assessment and comparison with the latest partial results have not been completed. A simple formulation is not evidence of tractability.
 
-**Possible AI role:** After checking current status, AI with the relevant mathematical background and tools could explore formation-theoretic reductions and exact finite counterexamples. Specialist review remains necessary; no named model has been evaluated.
+**Possible AI role:** Locate and check the reported example against every closure and maximality condition before beginning a fresh search.
 
 **Verification burden:** High. A general proof or classification needs expert checking of hypotheses, reductions and completeness. A finite construction can support a restricted result only unless it certifies a counterexample to the exact statement.
 
 **Resource expectations:** No physical experiment or empirical dataset is required. Literature review and proof development are the principal tasks. Any exact search, simulation or symbolic calculation needs an explicit finite scope; its compute and memory requirements have not been estimated.
 
-**Assessment:** 2026-10-14; untested forecast. **Uncertainty:** Current resolution status, practical resource needs and AI usefulness remain unmeasured. X-maximal means maximal among subgroups belonging to X, not maximal proper subgroup.
+**Assessment:** 2026-11-26; untested forecast. **Uncertainty:** An independent check of the proposed example and any later change to the editorial marker. No AI performance has been measured on this task.
 
-**Further work:** define a scoped target, resource requirements and a verification plan before developing a full card. **Human review:** Pending.
+**Further work:** resolve the statement and status questions above before planning an attempt. **Human review:** Pending.
 
 ## Literature checks
 
 These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-26
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Source reports open → Unverified.
+
+The November Kourovka Notebook marks Problem 21.57 with a proposed negative answer. The editors attribute it to Di Siena and explicitly mark the AI-assisted solution as unverified.
+
+**Search scope:** The reported counterexample concerns X-maximality after intersection with a normal subgroup. The problem concerns extension-closed classes of odd-order groups.
+
+**Inspected evidence**
+
+- [Unsolved Problems in Group Theory: The Kourovka Notebook (21st edition, November 2026 update)](../sources.md#src-math-900) — Problem 21.57 and its attached sharp sign, printed p. 187. The editors report a negative solution attributed to B. G. Di Siena and label it unverified.
+
+**Limits and remaining work**
+
+- An independent check of the proposed example and any later change to the editorial marker.
+- This is a literature check. The cited proofs and computational certificates have not been independently reproduced.
+
+<details>
+<summary>Search queries</summary>
+
+- Kourovka problem 21.57 Guo Revin Di Siena X maximal intersection counterexample confirmation November 2026
+
+
+</details>
 
 ### 2026-10-14
 

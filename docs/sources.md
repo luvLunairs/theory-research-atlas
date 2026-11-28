@@ -176,7 +176,7 @@ Find literature by [domain](README.md), or scan the complete directory below. **
 | [Cosmological Parameters](sources.md#src-model-316) | Research entry | 2025 |
 | [The Hubble tension: A decade review](sources.md#src-model-317) | Research entry | 2026 |
 | [Toward Finiteness of Central Configurations for the Planar Six-Body Problem by Symbolic Computations. (II) Determine Mass Relations](sources.md#src-model-318) | Research entry | 2025 |
-| [Finiteness of planar central configurations of five bodies for all positive masses](sources.md#src-model-319) | Research entry | 2026 |
+| [Smale's sixth problem for five bodies in the plane, with a proof formalized in Lean](sources.md#src-model-319) | Research entry | 2026 |
 | [Anomalous transport in U(1)-symmetric quantum circuits](sources.md#src-model-320) | Research entry | 2026 |
 | [Learning DNF in Time 2^{O-tilde(n^{1/3})}](sources.md#src-formal-322) | Research entry | 2004 |
 | [Learning Juntas under Markov Random Fields](sources.md#src-formal-323) | Research entry | 2025 |
@@ -454,6 +454,87 @@ Find literature by [domain](README.md), or scan the complete directory below. **
 | [Catchment hydrological response and transport are affected differently by precipitation intensity and antecedent wetness](sources.md#src-phys-806) | Research entry | 2025 |
 | [Tensor trick for perturbed operators](sources.md#src-phys-807) | Research entry | 2015 |
 | [Open problems in non-self-adjoint spectral theory](sources.md#src-phys-808) | Research entry | Not verified |
+| [Hilbert's sixth problem: derivation of fluid equations via Boltzmann's kinetic theory](sources.md#src-land-900) | Research entry | 2025 |
+| [Hilbert's tenth problem via additive combinatorics](sources.md#src-land-901) | Research entry | 2024 |
+| [Rank stability in quadratic extensions and Hilbert’s tenth problem for the ring of integers of a number field](sources.md#src-land-902) | Research entry | 2025 |
+| [Hilbert's tenth problem over the rational numbers](sources.md#src-land-903) | Research entry | 2026 |
+| [On the Navier–Stokes Millennium Prize Problem](sources.md#src-land-904) | Research entry | 2026 |
+| [Finite-time blow-up for the Navier–Stokes equations](sources.md#src-land-905) | Research entry | 2026 |
+| [Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs](sources.md#src-land-906) | Research entry | 2026 |
+| [Unsolved Problems in Group Theory: The Kourovka Notebook (21st edition, November 2026 update)](sources.md#src-math-900) | Research entry | 2026 |
+| [The p-length of finite linear groups and Kourovka Problem 21.55](sources.md#src-math-901) | Research entry | 2026 |
+| [On the regularity number of a finite group and other base-related invariants](sources.md#src-math-902) | Research entry | 2024 |
+| [On derangements in simple permutation groups](sources.md#src-math-903) | Research entry | 2025 |
+| [On Hamiltonian Tetrahedralizations of Convex Polyhedra](sources.md#src-math-904) | Research entry | 2005 |
+| [Hamiltonian Tetrahedralizations with Steiner Points](sources.md#src-math-905) | Research entry | 2012 |
+| [Sub-optimality of Marton's Inner Bound for the Two-Receiver Broadcast Channel](sources.md#src-math-906) | Research entry | 2026 |
+| [The Capacity of the Relay Channel](sources.md#src-math-907) | Research entry | 2026 |
+| [Counterexample to a Proposed Capacity Characterization of the Relay Channel](sources.md#src-math-908) | Research entry | 2026 |
+| [Parameter-Free Heavy-Tailed Bandits](sources.md#src-model-900) | Research entry | 2026 |
+| [Visible Tails: Characterizing Adaptation to Unknown Moments in Heavy-Tailed Bandits](sources.md#src-model-901) | Research entry | 2026 |
+| [On the coalescence time of reversible random walks](sources.md#src-model-902) | Research entry | 2010 |
+| [An Improved Lower Bound on the Largest Common Subtree of Random Leaf-Labeled Binary Trees](sources.md#src-model-903) | Research entry | 2024 |
+| [Bounds on the Expected Size of the Maximum Agreement Subtree](sources.md#src-model-904) | Research entry | 2015 |
+| [Estimating the Relative Order of Speciation or Coalescence Events on a Given Phylogeny](sources.md#src-model-905) | Research entry | 2007 |
+| [Many but not all deep neural network audio models capture brain responses and exhibit correspondence between model stages and brain regions](sources.md#src-model-906) | Research entry | 2023 |
+| [A tight upper bound on the cover time for random walks on graphs](sources.md#src-model-907) | Research entry | 1995 |
+| [Finiteness of planar central configurations of six bodies for all positive masses: Part I, exceptional-mass first limits](sources.md#src-phys-900) | Research entry | 2026 |
+| [Smale's sixth problem for six bodies in the plane: finiteness of central configurations for generic masses, with a proof formalized in Lean](sources.md#src-phys-901) | Research entry | 2026 |
+| [Direct neutrino-mass measurement based on 259 days of KATRIN data](sources.md#src-phys-902) | Research entry | 2025 |
+| [First Results on the Search for Lepton Number Violating Neutrinoless Double-β Decay with the LEGEND-200 Experiment](sources.md#src-phys-903) | Research entry | 2026 |
+| [Extreme Runoff Generation From Atmospheric River Driven Snowmelt During the 2017 Oroville Dam Spillways Incident](sources.md#src-phys-904) | Research entry | 2020 |
+| [Watershed memory amplified the Oroville rain-on-snow flood of February 2017](sources.md#src-phys-905) | Research entry | 2023 |
+| [Density-potential inversion from Moreau–Yosida regularization](sources.md#src-phys-906) | Research entry | 2023 |
+| [Perspective on Moreau–Yosida regularization in density-functional theory](sources.md#src-phys-907) | Research entry | 2026 |
+| [Large-time behavior of the heat equation: subcriticality versus criticality](sources.md#src-phys-908) | Research entry | 2015 |
+| [The large-time behaviour of the heat kernel: subcriticality versus criticality](sources.md#src-phys-909) | Research entry | 2010 |
+| [On H-Infinity Model Reduction for Discrete-Time LTI Systems Using LMIs](sources.md#src-phys-910) | Research entry | 2006 |
+| [Vaught's Conjecture for Sums of Products of Rooted Trees](sources.md#src-math-910) | Research entry | 2026 |
+| [Random walks and Laplacians on hypergraphs: When do they match?](sources.md#src-net-900) | Research entry | 2022 |
+| [Higher-order interactions shape collective dynamics differently in hypergraphs and simplicial complexes](sources.md#src-net-901) | Research entry | 2023 |
+| [Vertex-Unfoldings of Simplicial Manifolds](sources.md#src-land-920) | Research entry | 2002 |
+| [Zipper Unfolding of Domes and Prismoids](sources.md#src-land-921) | Research entry | 2013 |
+| [Un-unzippable Convex Caps](sources.md#src-land-922) | Research entry | 2018 |
+| [What Is a Scissors Congruence?](sources.md#src-land-923) | Research entry | 2012 |
+| [On Hilbert's construction of positive polynomials](sources.md#src-land-924) | Research entry | 2007 |
+| [The Kepler conjecture](sources.md#src-land-925) | Research entry | 1998 |
+| [Dense crystalline dimer packings of regular tetrahedra](sources.md#src-land-926) | Research entry | 2010 |
+| [Chordality of Enhanced Power Graphs of Finite Simple Groups: A Resolution of a Conjecture](sources.md#src-math-920) | Research entry | 2026 |
+| [Enhanced power graphs of finite groups with cograph structure](sources.md#src-math-921) | Research entry | 2025 |
+| [Hopfian wreath products and the stable finiteness conjecture](sources.md#src-math-922) | Research entry | 2024 |
+| [Two consequences of group-algebra and planar Fourier certificates: wreath products and triangle bounds](sources.md#src-math-923) | Research entry | 2026 |
+| [A Torsion-Free Group Algebra That Is Not Directly Finite](sources.md#src-math-924) | Research entry | 2026 |
+| [A Note on the OpenAI Construction of Counterexamples to the Kaplansky Direct-Finiteness Conjecture](sources.md#src-math-925) | Research entry | 2026 |
+| [A sharp Fourier certificate for planar circle packing](sources.md#src-math-926) | Research entry | 2026 |
+| [Optimal Proof Systems for Complex Sets are Hard to Find](sources.md#src-math-927) | Research entry | 2024 |
+| [The Geometric Maximum Traveling Salesman Problem](sources.md#src-math-928) | Research entry | 2003 |
+| [Efficient PTAS for the Maximum Traveling Salesman Problem in a Metric Space of Fixed Doubling Dimension](sources.md#src-math-929) | Research entry | 2020 |
+| [Maximum Scatter TSP in Doubling Metrics](sources.md#src-math-930) | Research entry | 2016 |
+| [The Computability of the Channel Reliability Function and Related Bounds](sources.md#src-math-931) | Research entry | 2025 |
+| [Distance distribution of binary codes and the error probability of decoding](sources.md#src-math-932) | Research entry | 2005 |
+| [An Upper Bound on the Reliability Function of the DMC](sources.md#src-math-933) | Research entry | 2022 |
+| [Random 3-regular graphs are not globally synchronizing](sources.md#src-model-920) | Research entry | 2026 |
+| [Multiplayer Stopping Games with a Conditionally Atomless Filtration](sources.md#src-model-921) | Research entry | 2026 |
+| [A Separation Between Distribution-Free SQ Learning and Dimension Complexity](sources.md#src-model-922) | Research entry | 2026 |
+| [Distribution-independent SQ learning does not imply low dimension complexity](sources.md#src-model-923) | Research entry | 2026 |
+| [Optimal Gap-Dependent Regret for Private Stochastic Decision-Theoretic Online Learning](sources.md#src-model-924) | Research entry | 2026 |
+| [SODA27 Accepted Papers](sources.md#src-model-925) | Research entry | Not verified |
+| [Nearly Linear Private Learning of Littlestone Classes](sources.md#src-model-926) | Research entry | 2026 |
+| [Perceptography unveils the causal contribution of inferior temporal cortex to visual perception](sources.md#src-model-927) | Research entry | 2024 |
+| [Simple Learned Weighted Sums of Inferior Temporal Neuronal Firing Rates Accurately Predict Human Core Object Recognition Performance](sources.md#src-model-928) | Research entry | 2015 |
+| [Computational progress on the unfair 0-1 polynomial Conjecture](sources.md#src-model-929) | Research entry | 2023 |
+| [Structural Results on the Unfair 0-1 Polynomial Conjecture](sources.md#src-model-930) | Research entry | 2026 |
+| [Search for dark matter particle interactions in an extended nuclear recoil energy window with the LUX-ZEPLIN (LZ) experiment](sources.md#src-phys-920) | Research entry | 2026 |
+| [Root-Mean-Square Gains of Switched Linear Systems](sources.md#src-phys-921) | Research entry | 2002 |
+| [Fresh groundwater discharge insignificant for the world’s oceans but important for coastal ecosystems](sources.md#src-phys-922) | Research entry | 2020 |
+| [Schauder basis for Schrödinger operators with periodic boundary conditions](sources.md#src-phys-923) | Research entry | 2015 |
+| [Convergence of spectral decompositions of Hill operators with trigonometric polynomial potentials](sources.md#src-phys-924) | Research entry | 2009 |
+| [Global fixed point proof of time-dependent density-functional theory](sources.md#src-phys-925) | Research entry | 2010 |
+| [V-Representability Beyond Singular Times in Time-Dependent Density Functional Theory: The Hubbard Dimer Case](sources.md#src-phys-926) | Research entry | 2026 |
+| [Vacuum cosmological spacetimes without CMC Cauchy surfaces](sources.md#src-phys-927) | Research entry | 2024 |
+| [A Rigorous Derivation of Gravitational Self-force](sources.md#src-phys-928) | Research entry | 2008 |
+| [Equation of Motion of Small Bodies in Relativity](sources.md#src-phys-929) | Research entry | 2003 |
+| [Black hole perturbation theory and gravitational self-force](sources.md#src-phys-930) | Research entry | 2021 |
 
 ## Classification references
 
@@ -1969,7 +2050,7 @@ No candidate has been extracted from this entry yet.
 
 **Authors / responsible organization:** Clay Mathematics Institute.
 
-**Publication year:** 2026. **Access / attempt date:** 2026-10-13.
+**Publication year:** 2026. **Access / attempt date:** 2026-11-26.
 
 **Type:** Institutional status statement. **Purpose:** Research entry. **Inspection:** Opened.
 
@@ -1979,7 +2060,7 @@ No candidate has been extracted from this entry yet.
 
 - Announces an apparent settlement and describes an ongoing, deliberately unhurried evaluation process.
 
-**Limits:** This is not final prize certification or an independent proof audit. Older problem pages and static lists may lag; precise alternatives and proof-review state need a dedicated update.
+**Limits:** Clay's September announcement predates Alpöge and Buckmaster’s November release. It records the institute’s position at the time. It does not certify either manuscript or adjudicate the unforced case.
 
 **Related subjects:** [Differential equations and variational analysis](domains/math.md#math-anal-pde), [Fluid and plasma theory](domains/phys.md#phys-fluid).
 
@@ -1987,7 +2068,7 @@ No candidate has been extracted from this entry yet.
 
 **Indexed tasks using this source**
 
-- [Three-dimensional Navier-Stokes global regularity](candidates/Q-LAND-305.md)
+- [Three-dimensional Navier–Stokes global regularity without forcing](candidates/Q-LAND-305.md)
 
 [Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
 
@@ -4395,7 +4476,7 @@ No candidate has been extracted from this entry yet.
 - [Birch and Swinnerton-Dyer rank conjecture over Q](candidates/Q-LAND-302.md)
 - [Rational Hodge conjecture](candidates/Q-LAND-303.md)
 - [P versus NP](candidates/Q-LAND-304.md)
-- [Three-dimensional Navier-Stokes global regularity](candidates/Q-LAND-305.md)
+- [Three-dimensional Navier–Stokes global regularity without forcing](candidates/Q-LAND-305.md)
 
 [Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
 
@@ -4560,7 +4641,7 @@ No candidate has been extracted from this entry yet.
 
 **Indexed tasks using this source**
 
-- [Three-dimensional Navier-Stokes global regularity](candidates/Q-LAND-305.md)
+- [Three-dimensional Navier–Stokes global regularity without forcing](candidates/Q-LAND-305.md)
 
 [Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
 
@@ -4605,11 +4686,11 @@ No candidate has been extracted from this entry yet.
 <details>
 <summary>SRC-LAND-308 · Solved, Unsolved and Unsolvable: The Status of Hilbert&#x27;s 23 Problems in Mathematics</summary>
 
-[Solved, Unsolved and Unsolvable: The Status of Hilbert's 23 Problems in Mathematics](https://www.simonsfoundation.org/2026/06/18/solved-unsolved-and-unsolvable-the-status-of-hilberts-23-problems-in-mathematics/)
+[Solved, Unsolved and Unsolvable: The Status of Hilbert's 23 Problems in Mathematics](https://www.simonsfoundation.org/news/solved-unsolved-and-unsolvable-the-status-of-hilberts-23-problems-in-mathematics/)
 
 **Authors / responsible organization:** Evelyn Lamb.
 
-**Publication year:** 2026. **Access / attempt date:** 2026-10-14.
+**Publication year:** 2026. **Access / attempt date:** 2026-11-26.
 
 **Type:** Institutional historical overview. **Purpose:** Research entry. **Inspection:** Opened.
 
@@ -6699,17 +6780,17 @@ No candidate has been extracted from this entry yet.
 <a id="src-model-319"></a>
 
 <details>
-<summary>SRC-MODEL-319 · Finiteness of planar central configurations of five bodies for all positive masses</summary>
+<summary>SRC-MODEL-319 · Smale&#x27;s sixth problem for five bodies in the plane, with a proof formalized in Lean</summary>
 
-[Finiteness of planar central configurations of five bodies for all positive masses](https://arxiv.org/abs/2610.13100)
+[Smale's sixth problem for five bodies in the plane, with a proof formalized in Lean](https://arxiv.org/abs/2610.13100v2)
 
 **Authors / responsible organization:** Tejasvi Singh Tomar.
 
-**Publication year:** 2026. **Access / attempt date:** 2026-10-14.
+**Publication year:** 2026. **Access / attempt date:** 2026-11-26.
 
 **Type:** Research paper. **Purpose:** Research entry. **Inspection:** Opened.
 
-**Inspected location:** Preprint submitted 9 October 2026; abstract.
+**Inspected location:** arXiv:2610.13100v2, 15 October 2026. The 9 October v1 title was Finiteness of planar central configurations of five bodies for all positive masses.
 
 **Supports**
 
@@ -8634,17 +8715,17 @@ No candidate has been extracted from this entry yet.
 
 **Authors / responsible organization:** Gianmarco Genalti; Alberto Maria Metelli.
 
-**Publication year:** 2025. **Access / attempt date:** 2026-10-14.
+**Publication year:** 2025. **Access / attempt date:** 2026-11-26.
 
 **Type:** Author-maintained research problem source. **Purpose:** Research entry. **Inspection:** Opened.
 
-**Inspected location:** Abstract, first open question
+**Inspected location:** COLT 2025, Definition 1 and Open Questions 1–2 (rate and algorithm) and 3 (structural assumption). Full paper linked in PMLR, https://raw.githubusercontent.com/mlresearch/v291/main/assets/genalti25a/genalti25a.pdf.
 
 **Supports**
 
 - Explicit statement of the indexed research question.
 
-**Limits:** The source poses the question; later literature is not comprehensively reviewed. The author-written abstract was inspected; detailed model extraction remains pending.
+**Limits:** The 2025 article documents the questions as posed. Later preprints address the rate trade-offs and specific structural benchmarks.
 
 **Related subjects:** [Statistical learning and high-dimensional theory](domains/stat.md#stat-learn).
 
@@ -8869,21 +8950,21 @@ No candidate has been extracted from this entry yet.
 <details>
 <summary>SRC-FORMAL-446 · Elements of Network Information Theory: ISIT 2011 tutorial</summary>
 
-[Elements of Network Information Theory: ISIT 2011 tutorial](https://www-isl.stanford.edu/~abbas/enit.pdf)
+[Elements of Network Information Theory: ISIT 2011 tutorial](https://isl.stanford.edu/~abbas/presentations/enit.pdf)
 
 **Authors / responsible organization:** Abbas El Gamal; Young-Han Kim.
 
-**Publication year:** 2011. **Access / attempt date:** 2026-10-14.
+**Publication year:** 2011. **Access / attempt date:** 2026-11-26.
 
 **Type:** Author-maintained research problem source. **Purpose:** Research entry. **Inspection:** Opened.
 
-**Inspected location:** PDF pp. 37–38 and 78–79
+**Inspected location:** Stanford copy, PDF pp. 38–39 (broadcast) and 79–80 (relay)
 
 **Supports**
 
 - Explicit statement of the indexed research question.
 
-**Limits:** These general capacity questions are reported in a 2011 tutorial; recent special cases and any claimed general resolution need review.
+**Limits:** The tutorial supplies historical statements from 2011. See the 2026 research papers linked from the broadcast and relay entries for subsequent findings.
 
 **Related subjects:** [Classical information theory](domains/info.md#info-shannon).
 
@@ -10835,17 +10916,17 @@ No candidate has been extracted from this entry yet.
 
 **Authors / responsible organization:** Yacine Chitour; Paolo Mason; Mario Sigalotti.
 
-**Publication year:** 2015. **Access / attempt date:** 2026-10-14.
+**Publication year:** 2015. **Access / attempt date:** 2026-11-28.
 
 **Type:** Research article. **Purpose:** Research entry. **Inspection:** Opened.
 
-**Inspected location:** Theorem 25 and Example 31; journal version IEEE TAC 62 (2017), DOI 10.1109/TAC.2016.2593678
+**Inspected location:** Theorem 25, Example 31 and Proposition 32. IEEE Transactions on Automatic Control 62 (2017), DOI 10.1109/TAC.2016.2593678.
 
 **Supports**
 
-- Relates finite gain to growth of a minimal realization, with a special role for uniform observability.
+- Relates finite gain to growth of a minimal realization under the stated observability hypotheses. Proposition 32 proves right-continuity of the gain for bounded families of mode triples.
 
-**Limits:** This is a finiteness criterion with hypotheses, not a formula for the entire dwell-time/gain function.
+**Limits:** Finiteness and right-continuity do not give a formula for the entire dwell-time/gain curve. Proposition 32 uses the output equation y = Cx.
 
 **Related subjects:** [Control and theoretical engineering](domains/eng.md).
 
@@ -12333,21 +12414,21 @@ No candidate has been extracted from this entry yet.
 <details>
 <summary>SRC-MODEL-602 · Existence of the Core in Approval-Based Committee Elections</summary>
 
-[Existence of the Core in Approval-Based Committee Elections](https://arxiv.org/html/2609.11912v1)
+[Existence of the Core in Approval-Based Committee Elections](https://arxiv.org/html/2609.11912v2)
 
 **Authors / responsible organization:** Patrick Becker; Matthias Greger; Dominik Peters.
 
-**Publication year:** 2026. **Access / attempt date:** 2026-10-14.
+**Publication year:** 2026. **Access / attempt date:** 2026-11-26.
 
 **Type:** Research preprint. **Purpose:** Research entry. **Inspection:** Opened.
 
-**Inspected location:** §§2–3 for the Hare-core definition; §6 existence and §7.1 Theorem 7.1.
+**Inspected location:** arXiv v2, 3 November 2026. Sections 2–3, Theorem 6.5, Section 7 Theorem 7.2 and Section 8. Earlier version cited in the October checks: https://arxiv.org/html/2609.11912v1.
 
 **Supports**
 
 - Reports general core existence and polynomial-time computation in approval-based committee elections.
 
-**Limits:** Preprint; the claimed Lean verification was not independently compiled or audited, and acceptance was not established.
+**Limits:** The authors report Lean formalization of Hare-quota core existence. The polynomial-time theorem is a separate claim. Independent proof review, formal replay and publication status were not established.
 
 **Related subjects:** [Social choice and collective decisions](domains/econ.md#econ-social).
 
@@ -15525,17 +15606,18 @@ No candidate has been extracted from this entry yet.
 
 **Authors / responsible organization:** David A. Brewster; Jakub Svoboda; Dylan Roscow; Krishnendu Chatterjee; Josef Tkadlec; Martin A. Nowak.
 
-**Publication year:** 2025. **Access / attempt date:** 2026-11-06.
+**Publication year:** 2025. **Access / attempt date:** 2026-11-26.
 
 **Type:** Journal article. **Purpose:** Research entry. **Inspection:** Opened.
 
-**Inspected location:** PNAS Nexus 4(8), pgaf252; published 8 August 2025, corrected and typeset 19 August 2025. Stars, equation (9); Discussion; Methods: Model and Dynamics details. DOI 10.1093/pnasnexus/pgaf252.
+**Inspected location:** PNAS Nexus 4(8), pgaf252, August 2025. Equations (1)–(2), Table 1, Stars (equation 9), Time bounds on any two-way population structure and Discussion.
 
 **Supports**
 
-- The published article retains the exact neutral birth-death star absorption-time formula as a conjecture, while proving cubic order.
+- States the exact star birth–death formula as a conjecture and proves cubic order.
+- Gives separate minimum and maximum bounds in event counts for the two neutral update rules on undirected graphs.
 
-**Limits:** The journal version predates the indexed September arXiv revision. It confirms publication and scope, not a later resolution; no proof or simulation was independently checked.
+**Limits:** The article gives source-reported gaps and small-graph evidence. Comparison with voter-model results requires matching the direction of copying, the initial labels and the clock.
 
 **Related subjects:** [Evolution, population genetics and phylogenetics](domains/bio.md#bio-evol), [Discrete probability and random structures](domains/prob.md#prob-discrete).
 
@@ -15544,6 +15626,9 @@ No candidate has been extracted from this entry yet.
 **Indexed tasks using this source**
 
 - [Exact birth–death diversity time on star graphs](candidates/Q-MODEL-301.md)
+- [Largest neutral birth–death diversity time on undirected graphs](candidates/Q-MODEL-302.md)
+- [Smallest neutral birth–death diversity time on undirected graphs](candidates/Q-MODEL-303.md)
+- [Largest neutral death–birth diversity time on undirected graphs](candidates/Q-MODEL-304.md)
 
 [Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
 
@@ -16040,6 +16125,2690 @@ No candidate has been extracted from this entry yet.
 **Indexed tasks using this source**
 
 - [Completeness for slowly growing imaginary potentials](candidates/Q-MODEL-401.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-land-900"></a>
+
+<details>
+<summary>SRC-LAND-900 · Hilbert&#x27;s sixth problem: derivation of fluid equations via Boltzmann&#x27;s kinetic theory</summary>
+
+[Hilbert's sixth problem: derivation of fluid equations via Boltzmann's kinetic theory](https://arxiv.org/abs/2503.01800)
+
+**Authors / responsible organization:** Yu Deng; Zaher Hani; Xiao Ma.
+
+**Publication year:** 2025. **Access / attempt date:** 2026-11-26.
+
+**Type:** Primary research paper. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Version 1, abstract and Section 1 on the particle, kinetic and fluid limits.
+
+**Supports**
+
+- The authors derive compressible Euler and incompressible Navier–Stokes–Fourier dynamics from elastic hard spheres in the respective scaling limits.
+
+**Limits:** These are mathematical limits for the stated particle model. Their applicability to a particular fluid requires separate physical evidence.
+
+**Related subjects:** [Mathematical physics](domains/mphy.md), [Fluid and plasma theory](domains/phys.md#phys-fluid).
+
+**Connection to these subjects:** The authors derive compressible Euler and incompressible Navier–Stokes–Fourier dynamics from elastic hard spheres in the respective scaling limits.
+
+**Indexed tasks using this source**
+
+No candidate has been extracted from this entry yet.
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-land-901"></a>
+
+<details>
+<summary>SRC-LAND-901 · Hilbert&#x27;s tenth problem via additive combinatorics</summary>
+
+[Hilbert's tenth problem via additive combinatorics](https://arxiv.org/abs/2412.01768)
+
+**Authors / responsible organization:** Peter Koymans; Carlo Pagano.
+
+**Publication year:** 2024. **Access / attempt date:** 2026-11-26.
+
+**Type:** Primary research paper. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Version 3, Theorems 1.1 and 1.2. First posted in 2024 and revised in 2025.
+
+**Supports**
+
+- Theorem 1.1 proves undecidability for infinite rings finitely generated over the integers. Theorem 1.2 treats rings of integers of number fields.
+
+**Limits:** The finite-generation condition excludes the field of rational numbers.
+
+**Related subjects:** [Mathematics](domains/math.md), [Logic and foundations](domains/logic.md).
+
+**Connection to these subjects:** Theorem 1.1 proves undecidability for infinite rings finitely generated over the integers. Theorem 1.2 treats rings of integers of number fields.
+
+**Indexed tasks using this source**
+
+No candidate has been extracted from this entry yet.
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-land-902"></a>
+
+<details>
+<summary>SRC-LAND-902 · Rank stability in quadratic extensions and Hilbert’s tenth problem for the ring of integers of a number field</summary>
+
+[Rank stability in quadratic extensions and Hilbert’s tenth problem for the ring of integers of a number field](https://link.springer.com/article/10.1007/s00222-025-01392-3)
+
+**Authors / responsible organization:** Levent Alpöge; Manjul Bhargava; Wei Ho; Ari Shnidman.
+
+**Publication year:** 2025. **Access / attempt date:** 2026-11-26.
+
+**Type:** Peer-reviewed research paper. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Abstract and introduction, published online 1 December 2025.
+
+**Supports**
+
+- A rank-stability theorem for abelian varieties gives an independent proof of undecidability over the ring of integers of every number field.
+
+**Limits:** The domain of the Diophantine equations is the ring of integers of the field.
+
+**Related subjects:** [Mathematics](domains/math.md), [Logic and foundations](domains/logic.md).
+
+**Connection to these subjects:** A rank-stability theorem for abelian varieties gives an independent proof of undecidability over the ring of integers of every number field.
+
+**Indexed tasks using this source**
+
+No candidate has been extracted from this entry yet.
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-land-903"></a>
+
+<details>
+<summary>SRC-LAND-903 · Hilbert&#x27;s tenth problem over the rational numbers</summary>
+
+[Hilbert's tenth problem over the rational numbers](https://github.com/openai/math/tree/main/preprints/Hilberts-tenth-problem-over-the-rational-numbers-October-6-2026)
+
+**Authors / responsible organization:** OpenAI.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-11-26.
+
+**Type:** Author preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** 6 October manuscript, README version note and abstract in build/main.tex.
+
+**Supports**
+
+- The manuscript claims undecidability for finding a rational zero of an integer-coefficient polynomial.
+
+**Limits:** The released text establishes what its author claims. Its proof and independent acceptance have not been checked here.
+
+**Related subjects:** [Mathematics](domains/math.md), [Logic and foundations](domains/logic.md).
+
+**Connection to these subjects:** The manuscript claims undecidability for finding a rational zero of an integer-coefficient polynomial.
+
+**Indexed tasks using this source**
+
+No candidate has been extracted from this entry yet.
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-land-904"></a>
+
+<details>
+<summary>SRC-LAND-904 · On the Navier–Stokes Millennium Prize Problem</summary>
+
+[On the Navier–Stokes Millennium Prize Problem](https://openai.com/index/navier-stokes-solution/)
+
+**Authors / responsible organization:** OpenAI.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-11-26.
+
+**Type:** Author research announcement. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** 8 September announcement, paragraphs describing the smooth external force and Fefferman alternatives.
+
+**Supports**
+
+- OpenAI reports finite-time blow-up from rest under a smooth applied force, targeting alternatives C and D.
+
+**Limits:** A construction with this force does not decide whole-space alternative A with zero forcing.
+
+**Related subjects:** [Differential equations and variational analysis](domains/math.md#math-anal-pde), [Fluid and plasma theory](domains/phys.md#phys-fluid).
+
+**Connection to these subjects:** OpenAI reports finite-time blow-up from rest under a smooth applied force, targeting alternatives C and D.
+
+**Indexed tasks using this source**
+
+- [Three-dimensional Navier–Stokes global regularity without forcing](candidates/Q-LAND-305.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-land-905"></a>
+
+<details>
+<summary>SRC-LAND-905 · Finite-time blow-up for the Navier–Stokes equations</summary>
+
+[Finite-time blow-up for the Navier–Stokes equations](https://github.com/tristanbuckmaster/navier-stokes)
+
+**Authors / responsible organization:** Levent Alpöge; Tristan Buckmaster.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-11-26.
+
+**Type:** Author preprint and formalization. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** 20 November release, repository README on the certificate and lean/README.md under Theorem 1.1.
+
+**Supports**
+
+- The authors claim unforced blow-up for smooth compactly supported data on three-dimensional Euclidean space and for smooth periodic data.
+
+**Limits:** The authors say the release omits the certificate and its interval-arithmetic check, and that the patched Lean package had not been rebuilt at release. No proof or certificate has been independently checked here.
+
+**Related subjects:** [Differential equations and variational analysis](domains/math.md#math-anal-pde), [Fluid and plasma theory](domains/phys.md#phys-fluid).
+
+**Connection to these subjects:** The authors claim unforced blow-up for smooth compactly supported data on three-dimensional Euclidean space and for smooth periodic data.
+
+**Indexed tasks using this source**
+
+- [Three-dimensional Navier–Stokes global regularity without forcing](candidates/Q-LAND-305.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-land-906"></a>
+
+<details>
+<summary>SRC-LAND-906 · Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs</summary>
+
+[Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs](https://arxiv.org/abs/2610.08144)
+
+**Authors / responsible organization:** Alexander Bastounis; Fabian Circelli; Anders C. Hansen.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-11-26.
+
+**Type:** Research preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Abstract, discussion of the OpenAI natural-language argument and its formalization.
+
+**Supports**
+
+- The authors dispute the correspondence between the September written argument and its formalization.
+
+**Limits:** This objection concerns the forced construction. It does not assess the later unforced manuscript.
+
+**Related subjects:** [Differential equations and variational analysis](domains/math.md#math-anal-pde), [Logic and foundations](domains/logic.md).
+
+**Connection to these subjects:** The authors dispute the correspondence between the September written argument and its formalization.
+
+**Indexed tasks using this source**
+
+- [Three-dimensional Navier–Stokes global regularity without forcing](candidates/Q-LAND-305.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-math-900"></a>
+
+<details>
+<summary>SRC-MATH-900 · Unsolved Problems in Group Theory: The Kourovka Notebook (21st edition, November 2026 update)</summary>
+
+[Unsolved Problems in Group Theory: The Kourovka Notebook (21st edition, November 2026 update)](https://arxiv.org/pdf/1401.0300v50)
+
+**Authors / responsible organization:** E. I. Khukhro; V. D. Mazurov.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-11-28.
+
+**Type:** Editor-maintained problem collection, version 50. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** 2 November 2026, Problems 21.4, 21.22–21.23, 21.28, 21.55 and 21.57.
+
+**Supports**
+
+- Records the editors’ problem statements, attributions, comments on special cases and solution markers at the listed locations.
+
+**Limits:** This edition predates the 3 November chordality manuscript and the 10 November manuscript on Problem 21.55. Check later claims against the exact numbered question.
+
+**Related subjects:** [Algebra](domains/math.md#math-alg).
+
+**Connection to these subjects:** Records the editors' November statements, attributions and solution markers for four group theory problems.
+
+**Indexed tasks using this source**
+
+- [Five solvable subgroups with trivial conjugate intersection](candidates/Q-MATH-471.md)
+- [Hopficity of restricted wreath products](candidates/Q-MATH-473.md)
+- [Induced-cycle classification of enhanced power graphs of simple groups](candidates/Q-MATH-474.md)
+- [Chordal enhanced power graphs of finite simple groups](candidates/Q-MATH-475.md)
+- [A universal derangement proportion of 89/325](candidates/Q-MATH-479.md)
+- [Asymptotic p-length of p-solvable linear groups](candidates/Q-MATH-493.md)
+- [Intersection of an X-maximal subgroup with a normal subgroup](candidates/Q-MATH-495.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-math-901"></a>
+
+<details>
+<summary>SRC-MATH-901 · The p-length of finite linear groups and Kourovka Problem 21.55</summary>
+
+[The p-length of finite linear groups and Kourovka Problem 21.55](https://www.proofforum.org/abs/PF:2026.000033)
+
+**Authors / responsible organization:** Giuseppe Bernardo Di Siena.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-11-26.
+
+**Type:** Primary research manuscript, version 1. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** 10 November 2026, Theorem 1.1, pp. 1–2
+
+**Supports**
+
+- Reports a negative answer to Problem 21.55 in every characteristic.
+
+**Limits:** ProofForum credits Di Siena and identifies Marco Trombetti as the uploader. Independent confirmation of Theorem 1.1 was not located.
+
+**Related subjects:** [Algebra](domains/math.md#math-alg).
+
+**Connection to these subjects:** Reports a negative answer to Problem 21.55 in every characteristic.
+
+**Indexed tasks using this source**
+
+- [Asymptotic p-length of p-solvable linear groups](candidates/Q-MATH-493.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-math-902"></a>
+
+<details>
+<summary>SRC-MATH-902 · On the regularity number of a finite group and other base-related invariants</summary>
+
+[On the regularity number of a finite group and other base-related invariants](https://arxiv.org/pdf/2405.15300v2)
+
+**Authors / responsible organization:** Marina Anagnostopoulou-Merkouri; Timothy C. Burness.
+
+**Publication year:** 2024. **Access / attempt date:** 2026-11-26.
+
+**Type:** Authors' research preprint, version 2. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Conjecture 1(iii), abstract and section 4 on almost simple sporadic groups
+
+**Supports**
+
+- States the five-subgroup conjecture and proves that triples of soluble subgroups are regular in almost simple sporadic groups.
+
+**Limits:** The sporadic theorem covers a restricted class of ambient groups.
+
+**Related subjects:** [Algebra](domains/math.md#math-alg).
+
+**Connection to these subjects:** States the five-subgroup conjecture and proves that triples of soluble subgroups are regular in almost simple sporadic groups.
+
+**Indexed tasks using this source**
+
+- [Five solvable subgroups with trivial conjugate intersection](candidates/Q-MATH-471.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-math-903"></a>
+
+<details>
+<summary>SRC-MATH-903 · On derangements in simple permutation groups</summary>
+
+[On derangements in simple permutation groups](https://www.cambridge.org/core/journals/forum-of-mathematics-sigma/article/on-derangements-in-simple-permutation-groups/789C0F1DA9E6D0C08D9C930CFA5771AD)
+
+**Authors / responsible organization:** Timothy C. Burness; Marco Fusari.
+
+**Publication year:** 2025. **Access / attempt date:** 2026-11-26.
+
+**Type:** Peer-reviewed research article. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Forum of Mathematics, Sigma 13, e98, Theorem B and Remark 1.3
+
+**Supports**
+
+- Proves the fraction 89/325 for primitive simple groups with soluble point stabilisers and records the equality case.
+
+**Limits:** Theorem B assumes primitivity and a soluble stabiliser.
+
+**Related subjects:** [Algebra](domains/math.md#math-alg).
+
+**Connection to these subjects:** Proves the fraction 89/325 for primitive simple groups with soluble point stabilisers and records the equality case.
+
+**Indexed tasks using this source**
+
+- [A universal derangement proportion of 89/325](candidates/Q-MATH-479.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-math-904"></a>
+
+<details>
+<summary>SRC-MATH-904 · On Hamiltonian Tetrahedralizations of Convex Polyhedra</summary>
+
+[On Hamiltonian Tetrahedralizations of Convex Polyhedra](https://www.aporc.org/LNOR/5/ISORA2005F16.pdf)
+
+**Authors / responsible organization:** Francis Chin; Qing-Huai Ding; Cao An Wang.
+
+**Publication year:** 2005. **Access / attempt date:** 2026-11-26.
+
+**Type:** Research conference paper. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** ISORA 2005, pp. 206–216, abstract and section 2
+
+**Supports**
+
+- Gives a convex polyhedron for which pulling fails to produce a Hamiltonian tetrahedralization.
+
+**Limits:** The restriction to pulling is essential to the negative result.
+
+**Related subjects:** [Computational geometry and topology](domains/cs.md#cs-geom).
+
+**Connection to these subjects:** Gives a convex polyhedron for which pulling fails to produce a Hamiltonian tetrahedralization.
+
+**Indexed tasks using this source**
+
+- [Hamiltonian tetrahedralizations of convex polytopes](candidates/Q-FORMAL-416.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-math-905"></a>
+
+<details>
+<summary>SRC-MATH-905 · Hamiltonian Tetrahedralizations with Steiner Points</summary>
+
+[Hamiltonian Tetrahedralizations with Steiner Points](https://arxiv.org/pdf/1210.5484)
+
+**Authors / responsible organization:** Francisco Escalona; Ruy Fabila-Monroy; Jorge Urrutia.
+
+**Publication year:** 2012. **Access / attempt date:** 2026-11-26.
+
+**Type:** Authors' research preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Theorem 1 and section 3, especially the general-position convention in the introduction
+
+**Supports**
+
+- Establishes a bounded-hull case without added points and an upper bound on the number of additional points for general-position inputs.
+
+**Limits:** The unlimited-size positive construction allows additional interior vertices.
+
+**Related subjects:** [Computational geometry and topology](domains/cs.md#cs-geom).
+
+**Connection to these subjects:** Establishes a bounded-hull case without added points and an upper bound on the number of additional points for general-position inputs.
+
+**Indexed tasks using this source**
+
+- [Hamiltonian tetrahedralizations of convex polytopes](candidates/Q-FORMAL-416.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-math-906"></a>
+
+<details>
+<summary>SRC-MATH-906 · Sub-optimality of Marton&#x27;s Inner Bound for the Two-Receiver Broadcast Channel</summary>
+
+[Sub-optimality of Marton's Inner Bound for the Two-Receiver Broadcast Channel](https://arxiv.org/html/2608.19869v1)
+
+**Authors / responsible organization:** Mian Huang; Yanxiao Liu; Yi Liu.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-11-26.
+
+**Type:** Primary research preprint, version 1. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** 20 August 2026, introduction and sections II–III
+
+**Supports**
+
+- Reports an unconstrained finite broadcast channel for which the two-letter Marton sum rate exceeds twice the one-letter value.
+
+**Limits:** The witness and interval calculations have not been independently reproduced here. The paper gives no capacity formula for arbitrary channels.
+
+**Related subjects:** [Classical information theory](domains/info.md#info-shannon).
+
+**Connection to these subjects:** Reports an unconstrained finite broadcast channel for which the two-letter Marton sum rate exceeds twice the one-letter value.
+
+**Indexed tasks using this source**
+
+- [General broadcast-channel capacity](candidates/Q-FORMAL-456.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-math-907"></a>
+
+<details>
+<summary>SRC-MATH-907 · The Capacity of the Relay Channel</summary>
+
+[The Capacity of the Relay Channel](https://arxiv.org/html/2609.15709v2)
+
+**Authors / responsible organization:** Jonathan Ponniah.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-11-26.
+
+**Type:** Primary research preprint, version 2. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Versions of 14 and 20 September 2026, Theorem 4 and section V
+
+**Supports**
+
+- Claims a general capacity characterization using three relaying schemes.
+
+**Limits:** The first version drew a published counterexample preprint. Whether revision 2 addresses that objection requires independent review.
+
+**Related subjects:** [Classical information theory](domains/info.md#info-shannon).
+
+**Connection to these subjects:** Claims a general capacity characterization using three relaying schemes.
+
+**Indexed tasks using this source**
+
+- [General relay-channel capacity](candidates/Q-FORMAL-457.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-math-908"></a>
+
+<details>
+<summary>SRC-MATH-908 · Counterexample to a Proposed Capacity Characterization of the Relay Channel</summary>
+
+[Counterexample to a Proposed Capacity Characterization of the Relay Channel](https://arxiv.org/html/2609.18727v1)
+
+**Authors / responsible organization:** Chun Hei Michael Shiu.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-11-26.
+
+**Type:** Primary research preprint, version 1. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** 16 September 2026, sections 2–4
+
+**Supports**
+
+- Exhibits a binary relay channel and an achievable rate exceeding the earlier proposed general formula.
+
+**Limits:** Predates revision 2 of the disputed paper. The author discloses AI assistance. The calculations have not been independently repeated here.
+
+**Related subjects:** [Classical information theory](domains/info.md#info-shannon).
+
+**Connection to these subjects:** Exhibits a binary relay channel and an achievable rate exceeding the earlier proposed general formula.
+
+**Indexed tasks using this source**
+
+- [General relay-channel capacity](candidates/Q-FORMAL-457.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-model-900"></a>
+
+<details>
+<summary>SRC-MODEL-900 · Parameter-Free Heavy-Tailed Bandits</summary>
+
+[Parameter-Free Heavy-Tailed Bandits](https://arxiv.org/html/2607.29460v1)
+
+**Authors / responsible organization:** Gianmarco Genalti; Alberto Maria Metelli.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-11-26.
+
+**Type:** Research preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** arXiv:2607.29460v1, 31 July 2026. Sections 4–7, especially Theorems 7–8 and Corollary 9.
+
+**Supports**
+
+- The authors of the COLT problem give a regret frontier and a horizon-dependent algorithm for unknown moment parameters.
+
+**Limits:** Rates match up to logarithmic factors under the stated trade-offs. The preprint does not claim simultaneous oracle rates for all moment orders.
+
+**Related subjects:** [Statistical learning and high-dimensional theory](domains/stat.md#stat-learn).
+
+**Connection to these subjects:** The authors of the COLT problem give a regret frontier and a horizon-dependent algorithm for unknown moment parameters.
+
+**Indexed tasks using this source**
+
+- [Optimal adaptation cost in heavy-tailed bandits](candidates/Q-FORMAL-441.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-model-901"></a>
+
+<details>
+<summary>SRC-MODEL-901 · Visible Tails: Characterizing Adaptation to Unknown Moments in Heavy-Tailed Bandits</summary>
+
+[Visible Tails: Characterizing Adaptation to Unknown Moments in Heavy-Tailed Bandits](https://arxiv.org/html/2611.12140v2)
+
+**Authors / responsible organization:** Tuan Ngoc Do; Hai Duc Nguyen.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-11-26.
+
+**Type:** Research preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** arXiv:2611.12140v2, 11 November 2026. Sections 2–5 define the budget, optimal-arm visibility and converse.
+
+**Supports**
+
+- Gives sufficient visibility conditions and a converse for specified arm-specific central-moment exploration budgets.
+
+**Limits:** The learner receives the visibility constants and the horizon. The converse and its quantifiers depend on the chosen benchmark.
+
+**Related subjects:** [Statistical learning and high-dimensional theory](domains/stat.md#stat-learn).
+
+**Connection to these subjects:** Gives sufficient visibility conditions and a converse for specified arm-specific central-moment exploration budgets.
+
+**Indexed tasks using this source**
+
+- [Assumptions permitting optimal heavy-tail adaptation](candidates/Q-FORMAL-442.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-model-902"></a>
+
+<details>
+<summary>SRC-MODEL-902 · On the coalescence time of reversible random walks</summary>
+
+[On the coalescence time of reversible random walks](https://www.stat.berkeley.edu/users/aldous/260-FMIE/Papers/oliveira_10.pdf)
+
+**Authors / responsible organization:** Roberto Imbuzeiro Oliveira.
+
+**Publication year:** 2010. **Access / attempt date:** 2026-11-26.
+
+**Type:** Research preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** September 2010 manuscript, Theorem 1.1, Section 1.1 and Corollary 1.1. Journal DOI 10.1090/S0002-9947-2011-05523-6.
+
+**Supports**
+
+- Bounds continuous-time voter consensus by a constant times the maximum one-walker hitting time, for arbitrary initial opinions.
+
+**Limits:** The clock rings once per vertex per unit time on average. The theorem is expressed in elapsed time.
+
+**Related subjects:** [Discrete probability and random structures](domains/prob.md#prob-discrete), [Dynamics on networks and collective behavior](domains/net.md#net-dynamics).
+
+**Connection to these subjects:** Bounds continuous-time voter consensus by a constant times the maximum one-walker hitting time, for arbitrary initial opinions.
+
+**Indexed tasks using this source**
+
+- [Largest neutral death–birth diversity time on undirected graphs](candidates/Q-MODEL-304.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-model-903"></a>
+
+<details>
+<summary>SRC-MODEL-903 · An Improved Lower Bound on the Largest Common Subtree of Random Leaf-Labeled Binary Trees</summary>
+
+[An Improved Lower Bound on the Largest Common Subtree of Random Leaf-Labeled Binary Trees](https://epubs.siam.org/doi/abs/10.1137/22M1522346)
+
+**Authors / responsible organization:** Ali Khezeli.
+
+**Publication year:** 2024. **Access / attempt date:** 2026-11-26.
+
+**Type:** Journal article. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** SIAM Journal on Discrete Mathematics 38, 2530–2541. Theorems 1.1 and 3.1 in the author's text at https://arxiv.org/abs/2208.05148.
+
+**Supports**
+
+- Constructs a common subtree in independent uniform trees and proves an expectation lower bound for every exponent below an explicit beta between 0.4464 and 0.4465; the construction covers rooted trees.
+
+**Limits:** The exponent describes a lower bound for this construction. It gives neither the exact maximum agreement exponent nor the corresponding bound for the Yule–Harding model.
+
+**Related subjects:** [Discrete probability and random structures](domains/prob.md#prob-discrete).
+
+**Connection to these subjects:** Constructs a common subtree in independent uniform trees and proves an expectation lower bound for every exponent below an explicit beta between 0.4464 and 0.4465; the construction covers rooted trees.
+
+**Indexed tasks using this source**
+
+- [Largest labelled agreement subtree of two uniform cladograms](candidates/Q-MATH-415.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-model-904"></a>
+
+<details>
+<summary>SRC-MODEL-904 · Bounds on the Expected Size of the Maximum Agreement Subtree</summary>
+
+[Bounds on the Expected Size of the Maximum Agreement Subtree](https://www.math.canterbury.ac.nz/~m.steel/Non_UC/files/research/siam_agree.pdf)
+
+**Authors / responsible organization:** Daniel Irving Bernstein; Lam Si Tung Ho; Colby Long; Mike Steel; Katherine St. John; Seth Sullivant.
+
+**Publication year:** 2015. **Access / attempt date:** 2026-11-26.
+
+**Type:** Journal article. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** SIAM Journal on Discrete Mathematics 29, 2065–2074. Theorems 3.1 and 4.3. DOI 10.1137/140997750.
+
+**Supports**
+
+- Gives a polynomial lower bound specific to Yule–Harding trees and a square-root upper bound applicable to independent trees under that law.
+
+**Limits:** The exponents in the two bounds differ.
+
+**Related subjects:** [Discrete probability and random structures](domains/prob.md#prob-discrete).
+
+**Connection to these subjects:** Gives a polynomial lower bound specific to Yule–Harding trees and a square-root upper bound applicable to independent trees under that law.
+
+**Indexed tasks using this source**
+
+- [Largest labelled agreement subtree of two coalescent trees](candidates/Q-MATH-416.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-model-905"></a>
+
+<details>
+<summary>SRC-MODEL-905 · Estimating the Relative Order of Speciation or Coalescence Events on a Given Phylogeny</summary>
+
+[Estimating the Relative Order of Speciation or Coalescence Events on a Given Phylogeny](https://pmc.ncbi.nlm.nih.gov/articles/PMC2674681/)
+
+**Authors / responsible organization:** Tanja Gernhard; Daniel Ford; Rutger Vos; Mike Steel.
+
+**Publication year:** 2007. **Access / attempt date:** 2026-11-26.
+
+**Type:** Journal article. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Models and tree rankings, discussion of the Yule and coalescent distributions.
+
+**Supports**
+
+- Identifies the common ranked-topology distribution of the Yule and coalescent models.
+
+**Limits:** The agreement-subtree statistic uses leaf-labelled topology and discards event times.
+
+**Related subjects:** [Discrete probability and random structures](domains/prob.md#prob-discrete).
+
+**Connection to these subjects:** Identifies the common ranked-topology distribution of the Yule and coalescent models.
+
+**Indexed tasks using this source**
+
+- [Largest labelled agreement subtree of two coalescent trees](candidates/Q-MATH-416.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-model-906"></a>
+
+<details>
+<summary>SRC-MODEL-906 · Many but not all deep neural network audio models capture brain responses and exhibit correspondence between model stages and brain regions</summary>
+
+[Many but not all deep neural network audio models capture brain responses and exhibit correspondence between model stages and brain regions](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002366)
+
+**Authors / responsible organization:** Greta Tuckute; Jenelle Feather; Dana Boebinger; Josh H. McDermott.
+
+**Publication year:** 2023. **Access / attempt date:** 2026-11-26.
+
+**Type:** Journal article. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** PLOS Biology 21, e3002366. Results, Discussion and Data Availability. Code and data archive DOI 10.5281/zenodo.8349726.
+
+**Supports**
+
+- Compares audio-model predictions across two independent human auditory fMRI datasets using the same 165 natural sounds.
+
+**Limits:** Both datasets use one stimulus set. Predictive performance is specific to the tested models, regions and measurements.
+
+**Related subjects:** [Theoretical neuroscience](domains/cog.md#cog-neuro).
+
+**Connection to these subjects:** Compares audio-model predictions across two independent human auditory fMRI datasets using the same 165 natural sounds.
+
+**Indexed tasks using this source**
+
+- [Goal-driven models beyond vision](candidates/Q-CROSS-445.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-model-907"></a>
+
+<details>
+<summary>SRC-MODEL-907 · A tight upper bound on the cover time for random walks on graphs</summary>
+
+[A tight upper bound on the cover time for random walks on graphs](https://onlinelibrary.wiley.com/doi/10.1002/rsa.3240060106)
+
+**Authors / responsible organization:** Uriel Feige.
+
+**Publication year:** 1995. **Access / attempt date:** 2026-11-26.
+
+**Type:** Journal article. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Random Structures & Algorithms 6, 51–54. Abstract, main bound. DOI 10.1002/rsa.3240060106.
+
+**Supports**
+
+- Gives an O(N^3) upper bound on the expected number of simple random-walk steps needed to visit every vertex of a connected N-vertex graph.
+
+**Limits:** This is a single-walker bound. Relating it to consensus uses a separate voter-model theorem and a change of clock.
+
+**Related subjects:** [Discrete probability and random structures](domains/prob.md#prob-discrete), [Dynamics on networks and collective behavior](domains/net.md#net-dynamics).
+
+**Connection to these subjects:** Provides a cover-time bound relevant to hitting-time comparisons for consensus.
+
+**Indexed tasks using this source**
+
+- [Largest neutral death–birth diversity time on undirected graphs](candidates/Q-MODEL-304.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-900"></a>
+
+<details>
+<summary>SRC-PHYS-900 · Finiteness of planar central configurations of six bodies for all positive masses: Part I, exceptional-mass first limits</summary>
+
+[Finiteness of planar central configurations of six bodies for all positive masses: Part I, exceptional-mass first limits](https://arxiv.org/abs/2610.23329)
+
+**Authors / responsible organization:** Zhe Chen; Zhicheng Tong.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-11-26.
+
+**Type:** Research preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** arXiv:2610.23329, abstract (16 October 2026).
+
+**Supports**
+
+- Reports necessary mass conditions from first-limit diagrams and defers finiteness on exceptional positive mass loci.
+
+**Limits:** The title describes a program. Part I does not establish finiteness for every fixed positive mass vector.
+
+**Related subjects:** [Celestial dynamics](domains/astro.md#astro-dyn).
+
+**Connection to these subjects:** Reports necessary mass conditions from first-limit diagrams and defers finiteness on exceptional positive mass loci.
+
+**Indexed tasks using this source**
+
+- [Finiteness of planar six-body central configurations for fixed positive masses](candidates/Q-MODEL-326.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-901"></a>
+
+<details>
+<summary>SRC-PHYS-901 · Smale&#x27;s sixth problem for six bodies in the plane: finiteness of central configurations for generic masses, with a proof formalized in Lean</summary>
+
+[Smale's sixth problem for six bodies in the plane: finiteness of central configurations for generic masses, with a proof formalized in Lean](https://www.mefyi.com/papers/smale-6-six-body-generic/)
+
+**Authors / responsible organization:** Tejasvi Singh Tomar.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-11-26.
+
+**Type:** Author preprint page. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Author's preprint page, abstract and plain-language summary, October 2026.
+
+**Supports**
+
+- Reports planar six-body finiteness outside a proper algebraic subset of the positive mass vectors.
+
+**Limits:** The exception set is described only in part. The formalization is an author report and was not run here.
+
+**Related subjects:** [Celestial dynamics](domains/astro.md#astro-dyn).
+
+**Connection to these subjects:** Reports planar six-body finiteness outside a proper algebraic subset of the positive mass vectors.
+
+**Indexed tasks using this source**
+
+- [Finiteness of planar six-body central configurations for fixed positive masses](candidates/Q-MODEL-326.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-902"></a>
+
+<details>
+<summary>SRC-PHYS-902 · Direct neutrino-mass measurement based on 259 days of KATRIN data</summary>
+
+[Direct neutrino-mass measurement based on 259 days of KATRIN data](https://arxiv.org/abs/2406.13516)
+
+**Authors / responsible organization:** KATRIN Collaboration.
+
+**Publication year:** 2025. **Access / attempt date:** 2026-11-26.
+
+**Type:** Research paper. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Science (2025), DOI 10.1126/science.adq9592. Author manuscript, abstract and Discussion.
+
+**Supports**
+
+- Reports a 90% confidence upper limit of 0.45 eV on the effective electron-neutrino mass from five tritium endpoint measurement campaigns.
+
+**Limits:** The bound constrains a kinematic observable. It does not identify the source of the mass terms.
+
+**Related subjects:** [Quantum field, particle and nuclear theory](domains/phys.md#phys-field).
+
+**Connection to these subjects:** Reports a 90% confidence upper limit of 0.45 eV on the effective electron-neutrino mass from five tritium endpoint measurement campaigns.
+
+**Indexed tasks using this source**
+
+- [The mechanism that generates neutrino masses and flavor mixing](candidates/Q-MODEL-318.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-903"></a>
+
+<details>
+<summary>SRC-PHYS-903 · First Results on the Search for Lepton Number Violating Neutrinoless Double-β Decay with the LEGEND-200 Experiment</summary>
+
+[First Results on the Search for Lepton Number Violating Neutrinoless Double-β Decay with the LEGEND-200 Experiment](https://journals.aps.org/prl/abstract/10.1103/25tk-nctn)
+
+**Authors / responsible organization:** LEGEND Collaboration.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-11-26.
+
+**Type:** Research paper. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Physical Review Letters 136, 022701 (2026), abstract.
+
+**Supports**
+
+- Combining three germanium experiments yields an observed lower limit of 1.9 × 10²⁶ years on the ⁷⁶Ge neutrinoless-decay half-life at 90% confidence.
+
+**Limits:** The effective Majorana mass interpretation assumes a decay mechanism and depends on nuclear matrix elements.
+
+**Related subjects:** [Quantum field, particle and nuclear theory](domains/phys.md#phys-field).
+
+**Connection to these subjects:** Combining three germanium experiments yields an observed lower limit of 1.9 × 10²⁶ years on the ⁷⁶Ge neutrinoless-decay half-life at 90% confidence.
+
+**Indexed tasks using this source**
+
+- [Are the light neutrinos Dirac or Majorana particles?](candidates/Q-MODEL-321.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-904"></a>
+
+<details>
+<summary>SRC-PHYS-904 · Extreme Runoff Generation From Atmospheric River Driven Snowmelt During the 2017 Oroville Dam Spillways Incident</summary>
+
+[Extreme Runoff Generation From Atmospheric River Driven Snowmelt During the 2017 Oroville Dam Spillways Incident](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020GL088189)
+
+**Authors / responsible organization:** Brian Henn; Keith N. Musselman; Leanne Lestak; F. Martin Ralph; Noah P. Molotch.
+
+**Publication year:** 2020. **Access / attempt date:** 2026-11-26.
+
+**Type:** Research paper. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Geophysical Research Letters 47, e2020GL088189. Abstract and event water balance.
+
+**Supports**
+
+- The authors estimate a 37% increase over rainfall alone in water available for runoff during the February 2017 Lake Oroville event.
+
+**Limits:** This event-specific estimate concerns water input. It is not the fraction of discharge attributable to snowmelt.
+
+**Related subjects:** [Environmental systems and resource models](domains/earth.md#earth-env).
+
+**Connection to these subjects:** The authors estimate a 37% increase over rainfall alone in water available for runoff during the February 2017 Lake Oroville event.
+
+**Indexed tasks using this source**
+
+- [Exceptional runoff from rain on snow](candidates/Q-CROSS-423.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-905"></a>
+
+<details>
+<summary>SRC-PHYS-905 · Watershed memory amplified the Oroville rain-on-snow flood of February 2017</summary>
+
+[Watershed memory amplified the Oroville rain-on-snow flood of February 2017](https://pubmed.ncbi.nlm.nih.gov/36712942/)
+
+**Authors / responsible organization:** Kayden Haleakala; W. Tyler Brandt; Benjamin J. Hatchett; Dongyue Li; Dennis P. Lettenmaier; Mekonnen Gebremichael.
+
+**Publication year:** 2023. **Access / attempt date:** 2026-11-26.
+
+**Type:** Research paper. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** PNAS Nexus 2(1), pgac295, January 2023 issue. First published 16 December 2022. Author abstract.
+
+**Supports**
+
+- For the same California event, observations and model experiments support a smaller estimated melt contribution and an important role for antecedent soil moisture.
+
+**Limits:** The inferred melt contribution depends on the reconstruction. The case study does not provide a general threshold for exceptional runoff.
+
+**Related subjects:** [Environmental systems and resource models](domains/earth.md#earth-env).
+
+**Connection to these subjects:** For the same California event, observations and model experiments support a smaller estimated melt contribution and an important role for antecedent soil moisture.
+
+**Indexed tasks using this source**
+
+- [Exceptional runoff from rain on snow](candidates/Q-CROSS-423.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-906"></a>
+
+<details>
+<summary>SRC-PHYS-906 · Density-potential inversion from Moreau–Yosida regularization</summary>
+
+[Density-potential inversion from Moreau–Yosida regularization](https://oda.oslomet.no/oda-xmlui/bitstream/handle/11250/3063027/Penz_2023_Electron._Struct._5_014009.pdf?sequence=2)
+
+**Authors / responsible organization:** Markus Penz; Mihály A. Csirik; Andre Laestadius.
+
+**Publication year:** 2023. **Access / attempt date:** 2026-11-26.
+
+**Type:** Research paper. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Electronic Structure 5, 014009, equations (6)–(9) and the discussion following equation (9).
+
+**Supports**
+
+- At fixed external potential, the paper gives an explicit duality-map formula recovering a physical ground-state density from a minimizer of the regularized problem.
+
+**Limits:** The algebraic relation uses the specified space, duality map and potential. It does not make every quasidensity positive or normalized.
+
+**Related subjects:** [Quantum chemistry and electronic structure](domains/chem.md#chem-quant).
+
+**Connection to these subjects:** At fixed external potential, the paper gives an explicit duality-map formula recovering a physical ground-state density from a minimizer of the regularized problem.
+
+**Indexed tasks using this source**
+
+- [Connecting regularized quasi-densities to physical densities](candidates/Q-MODEL-421.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-907"></a>
+
+<details>
+<summary>SRC-PHYS-907 · Perspective on Moreau–Yosida regularization in density-functional theory</summary>
+
+[Perspective on Moreau–Yosida regularization in density-functional theory](https://pure.mpg.de/rest/items/item_3703703_1/component/file_3703704/content)
+
+**Authors / responsible organization:** Markus Penz; Michael F. Herbst; Trygve Helgaker; Andre Laestadius.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-11-26.
+
+**Type:** Research perspective. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Electronic Structure 8, 022001 (2026), equation (57) and the discussion immediately following it.
+
+**Supports**
+
+- Separates v-representable densities from mixed densities and gives an electrostatic interpretation for a particular choice of spaces and duality map.
+
+**Limits:** Its interpretation of an external charge distribution depends on that choice of topology and sign convention.
+
+**Related subjects:** [Quantum chemistry and electronic structure](domains/chem.md#chem-quant).
+
+**Connection to these subjects:** Separates v-representable densities from mixed densities and gives an electrostatic interpretation for a particular choice of spaces and duality map.
+
+**Indexed tasks using this source**
+
+- [Connecting regularized quasi-densities to physical densities](candidates/Q-MODEL-421.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-908"></a>
+
+<details>
+<summary>SRC-PHYS-908 · Large-time behavior of the heat equation: subcriticality versus criticality</summary>
+
+[Large-time behavior of the heat equation: subcriticality versus criticality](https://nsa.fjfi.cvut.cz/problems/04_AIM_2015/2015-18/2015-18_AIM_Krejcirik_2.pdf)
+
+**Authors / responsible organization:** David Krejčiřík.
+
+**Publication year:** 2015. **Access / attempt date:** 2026-11-26.
+
+**Type:** Author problem statement. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** AIM 2015 problem sheet, page 1, assumptions and Conjecture 2.
+
+**Supports**
+
+- States the locally uniform heat-kernel ratio limit separately from a weighted semigroup-norm conjecture.
+
+**Limits:** The sheet reports the question in 2015 and does not establish its contemporary status.
+
+**Related subjects:** [Spectral and operator theory in physics](domains/mphy.md#mphy-spectral).
+
+**Connection to these subjects:** States the locally uniform heat-kernel ratio limit separately from a weighted semigroup-norm conjecture.
+
+**Indexed tasks using this source**
+
+- [Critical versus subcritical heat-kernel decay](candidates/Q-MODEL-416.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-909"></a>
+
+<details>
+<summary>SRC-PHYS-909 · The large-time behaviour of the heat kernel: subcriticality versus criticality</summary>
+
+[The large-time behaviour of the heat kernel: subcriticality versus criticality](https://nsa.fjfi.cvut.cz/problems/01_ESF_2010/2010-08/2010-08_ESF_Krejcirik_2.pdf)
+
+**Authors / responsible organization:** David Krejčiřík.
+
+**Publication year:** 2010. **Access / attempt date:** 2026-11-26.
+
+**Type:** Author problem statement. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** October 2010 workshop problem, Conjecture 1 and Theorem 1.
+
+**Supports**
+
+- Reports the ratio limit for a nonzero nonnegative potential perturbation of a symmetric critical operator under the stated elliptic hypotheses.
+
+**Limits:** The perturbation result concerns a pair linked by a multiplication potential. It does not cover arbitrary pairs.
+
+**Related subjects:** [Spectral and operator theory in physics](domains/mphy.md#mphy-spectral).
+
+**Connection to these subjects:** Reports the ratio limit for a nonzero nonnegative potential perturbation of a symmetric critical operator under the stated elliptic hypotheses.
+
+**Indexed tasks using this source**
+
+- [Critical versus subcritical heat-kernel decay](candidates/Q-MODEL-416.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-910"></a>
+
+<details>
+<summary>SRC-PHYS-910 · On H-Infinity Model Reduction for Discrete-Time LTI Systems Using LMIs</summary>
+
+[On H-Infinity Model Reduction for Discrete-Time LTI Systems Using LMIs](https://mathweb.ucsd.edu/~helton/MTNSHISTORY/CONTENTS/2006KYOTO/CONFERENCEWEBSITE/papers/0176.pdf)
+
+**Authors / responsible organization:** Yoshio Ebihara; Yoshito Hirai; Tomomichi Hagiwara.
+
+**Publication year:** 2006. **Access / attempt date:** 2026-11-26.
+
+**Type:** Conference paper. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** MTNS Kyoto (2006), abstract and section I.
+
+**Supports**
+
+- The authors construct an optimal discrete-time reduced model when the order drops by the multiplicity of the smallest Hankel singular value.
+
+**Limits:** The result specifies the order drop. It cannot justify an arbitrary-order global solution to the MTNS question.
+
+**Related subjects:** [Control, estimation and systems theory](domains/eng.md#eng-control).
+
+**Connection to these subjects:** The authors construct an optimal discrete-time reduced model when the order drops by the multiplicity of the smallest Hankel singular value.
+
+**Indexed tasks using this source**
+
+- [Optimal reduced-order H-infinity approximation](candidates/Q-CROSS-405.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-math-910"></a>
+
+<details>
+<summary>SRC-MATH-910 · Vaught&#x27;s Conjecture for Sums of Products of Rooted Trees</summary>
+
+[Vaught's Conjecture for Sums of Products of Rooted Trees](https://arxiv.org/html/2609.28606v1)
+
+**Authors / responsible organization:** Miloš S. Kurilić.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-11-26.
+
+**Type:** Primary research preprint, version 1. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Introduction and Theorem 4.1(a)
+
+**Supports**
+
+- Establishes Vaught's model-counting dichotomy for complete theories of lexicographic sums of finite products of rooted trees under a finite index order.
+
+**Limits:** The construction restricts the underlying structures. The result does not cover all partial orders or all complete first-order theories.
+
+**Related subjects:** [Model theory](domains/logic.md#logic-model).
+
+**Connection to these subjects:** Establishes Vaught's model-counting dichotomy for complete theories of lexicographic sums of finite products of rooted trees under a finite index order.
+
+**Indexed tasks using this source**
+
+- [Vaught's conjecture for complete first-order theories](candidates/Q-FORMAL-322.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-net-900"></a>
+
+<details>
+<summary>SRC-NET-900 · Random walks and Laplacians on hypergraphs: When do they match?</summary>
+
+[Random walks and Laplacians on hypergraphs: When do they match?](https://arxiv.org/abs/2106.11663)
+
+**Authors / responsible organization:** Raffaella Mulas; Christian Kuehn; Tobias Böhle; Jürgen Jost.
+
+**Publication year:** 2022. **Access / attempt date:** 2026-11-26.
+
+**Type:** Research paper. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Discrete Applied Mathematics 317, 26–41 (2022), DOI 10.1016/j.dam.2022.04.009. Author manuscript, Theorem 4.5 and section 5.
+
+**Supports**
+
+- The vertex random walks in Theorem 4.5 have weighted, possibly directed graph representations. Section 5 distinguishes the oriented hypergraph Laplacian.
+
+**Limits:** The theorem applies to the specified transitions between vertices. Its graph representation does not cover every spectral operator on higher-order networks.
+
+**Related subjects:** [Network structure and random networks](domains/net.md#net-struct).
+
+**Connection to these subjects:** The vertex random walks in Theorem 4.5 have weighted, possibly directed graph representations. Section 5 distinguishes the oriented hypergraph Laplacian.
+
+**Indexed tasks using this source**
+
+- [Choosing spectral operators for higher-order networks](candidates/Q-CROSS-431.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-net-901"></a>
+
+<details>
+<summary>SRC-NET-901 · Higher-order interactions shape collective dynamics differently in hypergraphs and simplicial complexes</summary>
+
+[Higher-order interactions shape collective dynamics differently in hypergraphs and simplicial complexes](https://www.nature.com/articles/s41467-023-37190-9.pdf)
+
+**Authors / responsible organization:** Yuanzhao Zhang; Maxime Lucas; Federico Battiston.
+
+**Publication year:** 2023. **Access / attempt date:** 2026-11-26.
+
+**Type:** Research paper. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Nature Communications 14, 1605 (2023), equations (1)–(5) and figures 1–2.
+
+**Supports**
+
+- Studies how pairwise and three-body coupling affect the local stability of the in-phase state in specified hypergraph and simplicial-complex ensembles.
+
+**Limits:** The transverse exponent characterizes the recovery of synchrony from small perturbations. The reported trends do not determine global attraction or apply to every hypergraph.
+
+**Related subjects:** [Dynamics on networks and collective behavior](domains/net.md#net-dynamics).
+
+**Connection to these subjects:** Studies how pairwise and three-body coupling affect the local stability of the in-phase state in specified hypergraph and simplicial-complex ensembles.
+
+**Indexed tasks using this source**
+
+- [Dynamics induced by higher-order representations](candidates/Q-CROSS-432.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-land-920"></a>
+
+<details>
+<summary>SRC-LAND-920 · Vertex-Unfoldings of Simplicial Manifolds</summary>
+
+[Vertex-Unfoldings of Simplicial Manifolds](https://erikdemaine.org/papers/VertexUnfolding_SoCG2002/paper.pdf)
+
+**Authors / responsible organization:** Erik D. Demaine; David Eppstein; Jeff Erickson; George W. Hart; Joseph O’Rourke.
+
+**Publication year:** 2002. **Access / attempt date:** 2026-11-28.
+
+**Type:** Conference paper. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Abstract and introduction, p. 1, particularly the discussion of nonsimplicial faces.
+
+**Supports**
+
+- A triangulated surface admits a connected planar layout in linear time when triangles may meet at vertices.
+
+**Limits:** Inserting diagonals into polygonal faces changes which edges may be cut.
+
+**Related subjects:** [Computational geometry and topology](domains/cs.md#cs-geom).
+
+**Connection to these subjects:** A triangulated surface admits a connected planar layout in linear time when triangles may meet at vertices.
+
+**Indexed tasks using this source**
+
+- [Vertex unfolding of nonsimplicial polyhedra](candidates/Q-FORMAL-421.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-land-921"></a>
+
+<details>
+<summary>SRC-LAND-921 · Zipper Unfolding of Domes and Prismoids</summary>
+
+[Zipper Unfolding of Domes and Prismoids](https://erikdemaine.org/papers/ZipperDomes_CCCG2013/)
+
+**Authors / responsible organization:** Erik D. Demaine; Martin L. Demaine; Ryuhei Uehara.
+
+**Publication year:** 2013. **Access / attempt date:** 2026-11-28.
+
+**Type:** Conference paper. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Author abstract, paragraphs on domes and nested prismoids.
+
+**Supports**
+
+- Every nested prismoid admits an edge zipper. Some convex domes have Hamiltonian graphs but every Hamiltonian edge unfolding overlaps.
+
+**Limits:** Paths that cross face interiors lie outside the negative result.
+
+**Related subjects:** [Computational geometry and topology](domains/cs.md#cs-geom).
+
+**Connection to these subjects:** Every nested prismoid admits an edge zipper. Some convex domes have Hamiltonian graphs but every Hamiltonian edge unfolding overlaps.
+
+**Indexed tasks using this source**
+
+- [Zipper unfoldings of convex polyhedra](candidates/Q-FORMAL-434.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-land-922"></a>
+
+<details>
+<summary>SRC-LAND-922 · Un-unzippable Convex Caps</summary>
+
+[Un-unzippable Convex Caps](https://arxiv.org/abs/1802.01621)
+
+**Authors / responsible organization:** Joseph O’Rourke.
+
+**Publication year:** 2018. **Access / attempt date:** 2026-11-28.
+
+**Type:** Research preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Abstract, definition of a cap and distinction between caps and closed polyhedra.
+
+**Supports**
+
+- Nearly flat convex caps can lack any zipper, including one allowed to cross faces.
+
+**Limits:** These caps have boundary. Closing a cap with a base changes the available paths.
+
+**Related subjects:** [Computational geometry and topology](domains/cs.md#cs-geom).
+
+**Connection to these subjects:** Nearly flat convex caps can lack any zipper, including one allowed to cross faces.
+
+**Indexed tasks using this source**
+
+- [Zipper unfoldings of convex polyhedra](candidates/Q-FORMAL-434.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-land-923"></a>
+
+<details>
+<summary>SRC-LAND-923 · What Is a Scissors Congruence?</summary>
+
+[What Is a Scissors Congruence?](https://pure.au.dk/ws/files/51849055/noti898.pdf)
+
+**Authors / responsible organization:** Johan L. Dupont.
+
+**Publication year:** 2012. **Access / attempt date:** 2026-11-28.
+
+**Type:** Specialist exposition. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Opening page, definition and historical account of the Dehn and Sydler theorems.
+
+**Supports**
+
+- For polyhedra in Euclidean three-space, volume and the Dehn invariant together classify finite scissors congruence.
+
+**Limits:** The characterization cited here concerns Euclidean three-space.
+
+**Related subjects:** [Geometry](domains/math.md#math-geom).
+
+**Connection to these subjects:** For polyhedra in Euclidean three-space, volume and the Dehn invariant together classify finite scissors congruence.
+
+**Indexed tasks using this source**
+
+No candidate has been extracted from this entry yet.
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-land-924"></a>
+
+<details>
+<summary>SRC-LAND-924 · On Hilbert&#x27;s construction of positive polynomials</summary>
+
+[On Hilbert's construction of positive polynomials](https://arxiv.org/abs/0707.2156)
+
+**Authors / responsible organization:** Bruce Reznick.
+
+**Publication year:** 2007. **Access / attempt date:** 2026-11-28.
+
+**Type:** Research paper. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Abstract and introduction, relation to Hilbert’s examples.
+
+**Supports**
+
+- Reznick constructs explicit multivariate polynomials that are nonnegative on real inputs yet have no representation as sums of squares of polynomials.
+
+**Limits:** Polynomial squares and rational-function squares are different representation classes.
+
+**Related subjects:** [Mathematics](domains/math.md).
+
+**Connection to these subjects:** Reznick constructs explicit multivariate polynomials that are nonnegative on real inputs yet have no representation as sums of squares of polynomials.
+
+**Indexed tasks using this source**
+
+No candidate has been extracted from this entry yet.
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-land-925"></a>
+
+<details>
+<summary>SRC-LAND-925 · The Kepler conjecture</summary>
+
+[The Kepler conjecture](https://arxiv.org/abs/math/9811078)
+
+**Authors / responsible organization:** Thomas C. Hales.
+
+**Publication year:** 1998. **Access / attempt date:** 2026-11-28.
+
+**Type:** Research preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Version 2 (2002), Section 1, Theorem 1.1. The preprint first appeared in 1998.
+
+**Supports**
+
+- The face-centered cubic packing attains the maximal density π/√18 for congruent balls in Euclidean three-space.
+
+**Limits:** The bound depends on the shape of the packed body.
+
+**Related subjects:** [Geometry](domains/math.md#math-geom).
+
+**Connection to these subjects:** The face-centered cubic packing attains the maximal density π/√18 for congruent balls in Euclidean three-space.
+
+**Indexed tasks using this source**
+
+No candidate has been extracted from this entry yet.
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-land-926"></a>
+
+<details>
+<summary>SRC-LAND-926 · Dense crystalline dimer packings of regular tetrahedra</summary>
+
+[Dense crystalline dimer packings of regular tetrahedra](https://arxiv.org/abs/1001.0586)
+
+**Authors / responsible organization:** Elizabeth R. Chen; Michael Engel; Sharon C. Glotzer.
+
+**Publication year:** 2010. **Access / attempt date:** 2026-11-28.
+
+**Type:** Research paper. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Abstract, four-tetrahedron unit cell and three-parameter dimer family.
+
+**Supports**
+
+- A periodic packing of regular tetrahedra has density 4000/4671 and maximizes density in the three-parameter family studied.
+
+**Limits:** The construction supplies a lower bound on the unrestricted packing density. Its within-family optimization gives no unrestricted upper bound.
+
+**Related subjects:** [Geometry](domains/math.md#math-geom).
+
+**Connection to these subjects:** A periodic packing of regular tetrahedra has density 4000/4671 and maximizes density in the three-parameter family studied.
+
+**Indexed tasks using this source**
+
+No candidate has been extracted from this entry yet.
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-math-920"></a>
+
+<details>
+<summary>SRC-MATH-920 · Chordality of Enhanced Power Graphs of Finite Simple Groups: A Resolution of a Conjecture</summary>
+
+[Chordality of Enhanced Power Graphs of Finite Simple Groups: A Resolution of a Conjecture](https://arxiv.org/html/2611.05068v1)
+
+**Authors / responsible organization:** Pallabi Manna.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-11-28.
+
+**Type:** Research preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Theorem 1.1 and the paragraph separating necessity from sufficiency.
+
+**Supports**
+
+- Claims an exhaustive list of finite simple groups whose enhanced power graphs are chordal.
+
+**Limits:** The paper addresses chordality. Avoidance of a specified cycle length is a different classification. Independent review of the proof was not established.
+
+**Related subjects:** [Algebra](domains/math.md#math-alg).
+
+**Connection to these subjects:** Claims an exhaustive list of finite simple groups whose enhanced power graphs are chordal.
+
+**Indexed tasks using this source**
+
+- [Induced-cycle classification of enhanced power graphs of simple groups](candidates/Q-MATH-474.md)
+- [Chordal enhanced power graphs of finite simple groups](candidates/Q-MATH-475.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-math-921"></a>
+
+<details>
+<summary>SRC-MATH-921 · Enhanced power graphs of finite groups with cograph structure</summary>
+
+[Enhanced power graphs of finite groups with cograph structure](https://arxiv.org/html/2510.18073v1)
+
+**Authors / responsible organization:** Daniela Bubboloni; Francesco Fumagalli; Cheryl E. Praeger.
+
+**Publication year:** 2025. **Access / attempt date:** 2026-11-28.
+
+**Type:** Research preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Theorem B, Open Problem 1 and Proposition 4.14.
+
+**Supports**
+
+- Poses the fixed-length and chordal classifications separately and characterizes the absence of an induced four-cycle in terms of subgroup structure.
+
+**Limits:** A criterion in subgroup language does not enumerate all simple groups for each cycle length.
+
+**Related subjects:** [Algebra](domains/math.md#math-alg).
+
+**Connection to these subjects:** Poses the fixed-length and chordal classifications separately and characterizes the absence of an induced four-cycle in terms of subgroup structure.
+
+**Indexed tasks using this source**
+
+- [Induced-cycle classification of enhanced power graphs of simple groups](candidates/Q-MATH-474.md)
+- [Chordal enhanced power graphs of finite simple groups](candidates/Q-MATH-475.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-math-922"></a>
+
+<details>
+<summary>SRC-MATH-922 · Hopfian wreath products and the stable finiteness conjecture</summary>
+
+[Hopfian wreath products and the stable finiteness conjecture](https://www.repository.cam.ac.uk/items/0f95f613-8809-44a4-ac92-ec54a577b3a9)
+
+**Authors / responsible organization:** Henry Bradford; Francesco Fournier-Facio.
+
+**Publication year:** 2024. **Access / attempt date:** 2026-11-28.
+
+**Type:** Accepted journal manuscript. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Repository abstract, characterization for a finitely generated abelian base and a finitely generated Hopfian acting group.
+
+**Supports**
+
+- Relates Hopficity for all wreath products in the abelian-base case to Kaplansky’s stable finiteness conjecture.
+
+**Limits:** The equivalence alone gives no counterexample. Its use in a negative answer depends on a group-algebra example.
+
+**Related subjects:** [Algebra](domains/math.md#math-alg).
+
+**Connection to these subjects:** Relates Hopficity for all wreath products in the abelian-base case to Kaplansky’s stable finiteness conjecture.
+
+**Indexed tasks using this source**
+
+- [Hopficity of restricted wreath products](candidates/Q-MATH-473.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-math-923"></a>
+
+<details>
+<summary>SRC-MATH-923 · Two consequences of group-algebra and planar Fourier certificates: wreath products and triangle bounds</summary>
+
+[Two consequences of group-algebra and planar Fourier certificates: wreath products and triangle bounds](https://aleckriebel.com/research/wreath-products-planar-triangle-bounds/)
+
+**Authors / responsible organization:** Alec Kriebel.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-11-28.
+
+**Type:** Author preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** 6 October, version 1.0.0, sections on Hopfian factors and planar packing.
+
+**Supports**
+
+- Derives a group with Hopfian factors and a non-Hopfian wreath product from an external group-algebra theorem, and derives a planar bound from a separate Fourier certificate.
+
+**Limits:** The author identifies both external inputs. These conditional deductions supply no independent verification of the inputs.
+
+**Related subjects:** [Algebra](domains/math.md#math-alg), [Harmonic, real and complex analysis](domains/math.md#math-anal-harm).
+
+**Connection to these subjects:** Derives a group with Hopfian factors and a non-Hopfian wreath product from an external group-algebra theorem, and derives a planar bound from a separate Fourier certificate.
+
+**Indexed tasks using this source**
+
+- [Sharp Cohn–Elkies bounds for planar circle packing](candidates/Q-MATH-463.md)
+- [Hopficity of restricted wreath products](candidates/Q-MATH-473.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-math-924"></a>
+
+<details>
+<summary>SRC-MATH-924 · A Torsion-Free Group Algebra That Is Not Directly Finite</summary>
+
+[A Torsion-Free Group Algebra That Is Not Directly Finite](https://github.com/openai/math/tree/main/preprints/A-Torsion-Free-Group-Algebra-That-Is-Not-Directly-Finite-October-4-2026)
+
+**Authors / responsible organization:** OpenAI.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-11-28.
+
+**Type:** Author preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** 4 October release, build/sections/introduction.tex, Theorem 1.1.
+
+**Supports**
+
+- Reports a finitely presented torsion-free group whose group algebra over the field of two elements contains a one-sided inverse that is not two-sided.
+
+**Limits:** This is the group-algebra input to the wreath-product claim. Its proof has not been audited here.
+
+**Related subjects:** [Algebra](domains/math.md#math-alg).
+
+**Connection to these subjects:** Reports a finitely presented torsion-free group whose group algebra over the field of two elements contains a one-sided inverse that is not two-sided.
+
+**Indexed tasks using this source**
+
+- [Hopficity of restricted wreath products](candidates/Q-MATH-473.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-math-925"></a>
+
+<details>
+<summary>SRC-MATH-925 · A Note on the OpenAI Construction of Counterexamples to the Kaplansky Direct-Finiteness Conjecture</summary>
+
+[A Note on the OpenAI Construction of Counterexamples to the Kaplansky Direct-Finiteness Conjecture](https://arxiv.org/abs/2611.08268)
+
+**Authors / responsible organization:** Andrei Jaikin-Zapirain.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-11-28.
+
+**Type:** Research preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** 5 November, abstract.
+
+**Supports**
+
+- Presents a subsequent exposition of the characteristic-two construction and an adaptation to hyperbolic groups in each positive characteristic.
+
+**Limits:** The paper addresses the group-algebra construction. It does not assess the specific wreath-product deduction.
+
+**Related subjects:** [Algebra](domains/math.md#math-alg).
+
+**Connection to these subjects:** Presents a subsequent exposition of the characteristic-two construction and an adaptation to hyperbolic groups in each positive characteristic.
+
+**Indexed tasks using this source**
+
+- [Hopficity of restricted wreath products](candidates/Q-MATH-473.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-math-926"></a>
+
+<details>
+<summary>SRC-MATH-926 · A sharp Fourier certificate for planar circle packing</summary>
+
+[A sharp Fourier certificate for planar circle packing](https://github.com/openai/math/tree/main/preprints/A-sharp-Fourier-certificate-for-planar-circle-packing-September-23-2026)
+
+**Authors / responsible organization:** OpenAI.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-11-28.
+
+**Type:** Author preprint and supporting material. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** 23 September release, build/sections/introduction.tex, Theorem 1.1 and the normalization following it.
+
+**Supports**
+
+- Claims a radial Schwartz function with nonnegative Fourier transform and sharp origin ratio for a unit sign radius in the plane.
+
+**Limits:** The analytic proof and finite checks have not been replayed here. The geometric packing theorem alone does not supply the required function.
+
+**Related subjects:** [Harmonic, real and complex analysis](domains/math.md#math-anal-harm).
+
+**Connection to these subjects:** Claims a radial Schwartz function with nonnegative Fourier transform and sharp origin ratio for a unit sign radius in the plane.
+
+**Indexed tasks using this source**
+
+- [Sharp Cohn–Elkies bounds for planar circle packing](candidates/Q-MATH-463.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-math-927"></a>
+
+<details>
+<summary>SRC-MATH-927 · Optimal Proof Systems for Complex Sets are Hard to Find</summary>
+
+[Optimal Proof Systems for Complex Sets are Hard to Find](https://arxiv.org/abs/2408.07408)
+
+**Authors / responsible organization:** Fabian Egidy; Christian Glaßer.
+
+**Publication year:** 2024. **Access / attempt date:** 2026-11-28.
+
+**Type:** Conference paper and author preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Version 3, revised in 2025, abstract, oracle O₁.
+
+**Supports**
+
+- Constructs an oracle with an infinite polynomial hierarchy and no optimal proof systems for languages in PSPACE outside NP.
+
+**Limits:** These are relativized results. The optimality criterion in the negative result already allows nonconstructive polynomial simulation.
+
+**Related subjects:** [Proof theory and constructive logic](domains/logic.md#logic-proof).
+
+**Connection to these subjects:** Constructs an oracle with an infinite polynomial hierarchy and no optimal proof systems for languages in PSPACE outside NP.
+
+**Indexed tasks using this source**
+
+- [Existence of a p-optimal propositional proof system](candidates/Q-FORMAL-315.md)
+- [Existence of a p-optimal proof system for true quantified Boolean formulas](candidates/Q-FORMAL-316.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-math-928"></a>
+
+<details>
+<summary>SRC-MATH-928 · The Geometric Maximum Traveling Salesman Problem</summary>
+
+[The Geometric Maximum Traveling Salesman Problem](https://arxiv.org/abs/cs/0204024)
+
+**Authors / responsible organization:** Alexander Barvinok; Sándor P. Fekete; David S. Johnson; Arie Tamir; Gerhard J. Woeginger; Russ Woodroofe.
+
+**Publication year:** 2003. **Access / attempt date:** 2026-11-28.
+
+**Type:** Journal paper and author preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** 2003 revision, abstract, results on polyhedral norms and dimensions greater than two.
+
+**Supports**
+
+- Provides exact algorithms for polyhedral norms in fixed dimension and Euclidean NP-hardness in dimension at least three.
+
+**Limits:** The planar Euclidean norm falls outside both results. Time bounds in the paper specify the model for arithmetic operations.
+
+**Related subjects:** [Computational geometry and topology](domains/cs.md#cs-geom).
+
+**Connection to these subjects:** Provides exact algorithms for polyhedral norms in fixed dimension and Euclidean NP-hardness in dimension at least three.
+
+**Indexed tasks using this source**
+
+- [Complexity of planar Euclidean maximum TSP](candidates/Q-FORMAL-425.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-math-929"></a>
+
+<details>
+<summary>SRC-MATH-929 · Efficient PTAS for the Maximum Traveling Salesman Problem in a Metric Space of Fixed Doubling Dimension</summary>
+
+[Efficient PTAS for the Maximum Traveling Salesman Problem in a Metric Space of Fixed Doubling Dimension](https://arxiv.org/abs/2012.08379)
+
+**Authors / responsible organization:** Vladimir Shenmaier.
+
+**Publication year:** 2020. **Access / attempt date:** 2026-11-28.
+
+**Type:** Research paper. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** First posted in 2020, version 5 revised in 2021, abstract and introduction.
+
+**Supports**
+
+- Gives an efficient approximation scheme for maximum total tour length in metrics of fixed doubling dimension.
+
+**Limits:** The approximation guarantee permits a nonzero loss and supplies no exact optimizer.
+
+**Related subjects:** [Computational geometry and topology](domains/cs.md#cs-geom).
+
+**Connection to these subjects:** Gives an efficient approximation scheme for maximum total tour length in metrics of fixed doubling dimension.
+
+**Indexed tasks using this source**
+
+- [Complexity of planar Euclidean maximum TSP](candidates/Q-FORMAL-425.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-math-930"></a>
+
+<details>
+<summary>SRC-MATH-930 · Maximum Scatter TSP in Doubling Metrics</summary>
+
+[Maximum Scatter TSP in Doubling Metrics](https://www.lkozma.net/MSTSP.pdf)
+
+**Authors / responsible organization:** László Kozma; Tobias Mömke.
+
+**Publication year:** 2016. **Access / attempt date:** 2026-11-28.
+
+**Type:** Conference paper. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Abstract and the “Open question” on p. 3 of the PDF.
+
+**Supports**
+
+- Gives an efficient approximation scheme for maximizing the shortest edge in fixed doubling dimension and explicitly leaves exact planar Euclidean optimization open.
+
+**Limits:** The discussion of exact planar complexity is dated. The shortest-edge objective differs from maximum total length.
+
+**Related subjects:** [Computational geometry and topology](domains/cs.md#cs-geom).
+
+**Connection to these subjects:** Gives an efficient approximation scheme for maximizing the shortest edge in fixed doubling dimension and explicitly leaves exact planar Euclidean optimization open.
+
+**Indexed tasks using this source**
+
+- [Complexity of planar Euclidean maximum TSP](candidates/Q-FORMAL-425.md)
+- [Complexity of planar Euclidean maximum-scatter TSP](candidates/Q-FORMAL-426.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-math-931"></a>
+
+<details>
+<summary>SRC-MATH-931 · The Computability of the Channel Reliability Function and Related Bounds</summary>
+
+[The Computability of the Channel Reliability Function and Related Bounds](https://www.mdpi.com/1999-4893/18/6/361)
+
+**Authors / responsible organization:** Holger Boche; Christian Deppe.
+
+**Publication year:** 2025. **Access / attempt date:** 2026-11-28.
+
+**Type:** Journal article. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Introduction and discussion after Theorem 3 on the critical rate and known reliability intervals.
+
+**Supports**
+
+- Describes the unresolved low-rate characterization and studies computability as a function of the channel and rate.
+
+**Limits:** Uniform computability and evaluation at one specified channel are different questions.
+
+**Related subjects:** [Classical information theory](domains/info.md#info-shannon).
+
+**Connection to these subjects:** Describes the unresolved low-rate characterization and studies computability as a function of the channel and rate.
+
+**Indexed tasks using this source**
+
+- [Channel reliability function](candidates/Q-FORMAL-455.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-math-932"></a>
+
+<details>
+<summary>SRC-MATH-932 · Distance distribution of binary codes and the error probability of decoding</summary>
+
+[Distance distribution of binary codes and the error probability of decoding](https://arxiv.org/abs/cs/0407011)
+
+**Authors / responsible organization:** Alexander Barg; Andrew McGregor.
+
+**Publication year:** 2005. **Access / attempt date:** 2026-11-28.
+
+**Type:** Journal paper and author preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Version 3, abstract on binary symmetric channels and maximum-likelihood decoding.
+
+**Supports**
+
+- Identifies an interval immediately below the critical rate where the random-coding exponent gives the reliability function for the binary symmetric channels covered by the theorem.
+
+**Limits:** The binary-channel result does not give the full low-rate function for arbitrary discrete memoryless channels.
+
+**Related subjects:** [Classical information theory](domains/info.md#info-shannon).
+
+**Connection to these subjects:** Identifies an interval immediately below the critical rate where the random-coding exponent gives the reliability function for the binary symmetric channels covered by the theorem.
+
+**Indexed tasks using this source**
+
+- [Channel reliability function](candidates/Q-FORMAL-455.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-math-933"></a>
+
+<details>
+<summary>SRC-MATH-933 · An Upper Bound on the Reliability Function of the DMC</summary>
+
+[An Upper Bound on the Reliability Function of the DMC](https://arxiv.org/abs/2209.00968)
+
+**Authors / responsible organization:** Anelia Somekh-Baruch.
+
+**Publication year:** 2022. **Access / attempt date:** 2026-11-28.
+
+**Type:** Research preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Abstract on the genie-receiver converse.
+
+**Supports**
+
+- Gives a channel-coding converse that improves on the sphere-packing bound in examples.
+
+**Limits:** The paper specifies a zero-error-capacity hypothesis in its treatment of general decoding metrics. An upper bound needs a matching achievable exponent to give an exact expression.
+
+**Related subjects:** [Classical information theory](domains/info.md#info-shannon).
+
+**Connection to these subjects:** Gives a channel-coding converse that improves on the sphere-packing bound in examples.
+
+**Indexed tasks using this source**
+
+- [Channel reliability function](candidates/Q-FORMAL-455.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-model-920"></a>
+
+<details>
+<summary>SRC-MODEL-920 · Random 3-regular graphs are not globally synchronizing</summary>
+
+[Random 3-regular graphs are not globally synchronizing](https://arxiv.org/abs/2610.09135v2)
+
+**Authors / responsible organization:** Ciro Carvallo; Pablo Groisman; Dieter Mitsche.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-11-28.
+
+**Type:** Withdrawal notice and preprint version history. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Version 2, author withdrawal comment dated 10 October 2026. Version 1, Theorem 1.2 and Section 3.
+
+**Supports**
+
+- Version 1 states that a uniform random simple cubic graph has a nonsynchronized local minimum with high probability. The authors withdrew the manuscript after finding a solution on GitHub.
+
+**Limits:** The notice attributes withdrawal to overlap. It does not identify a mathematical error or certify either argument.
+
+**Related subjects:** [Dynamics on networks and collective behavior](domains/net.md#net-dynamics), [Discrete probability and random structures](domains/prob.md#prob-discrete).
+
+**Connection to these subjects:** Version 1 states that a uniform random simple cubic graph has a nonsynchronized local minimum with high probability. The authors withdrew the manuscript after finding a solution on GitHub.
+
+**Indexed tasks using this source**
+
+- [Global synchronization of random cubic graphs](candidates/Q-MODEL-207.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-model-921"></a>
+
+<details>
+<summary>SRC-MODEL-921 · Multiplayer Stopping Games with a Conditionally Atomless Filtration</summary>
+
+[Multiplayer Stopping Games with a Conditionally Atomless Filtration](https://arxiv.org/html/2611.07184v1)
+
+**Authors / responsible organization:** Robert Samuel Simon; Eilon Solan; Grzegorz Tomkowicz.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-11-28.
+
+**Type:** Research preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Section 2.4, Theorems 2.11 and 2.12 and the following paragraph.
+
+**Supports**
+
+- For discrete-time stopping games with integrable payoffs, the first theorem assumes a conditionally atomless filtration. For three players, the second permits any filtration.
+
+**Limits:** The multiplayer theorem relies on randomness in the observations. Ordinary quitting games allow the players to randomize independently without a public signal.
+
+**Related subjects:** [Game and equilibrium theory](domains/econ.md#econ-game), [Stochastic processes and stochastic analysis](domains/prob.md#prob-process).
+
+**Connection to these subjects:** For discrete-time stopping games with integrable payoffs, the first theorem assumes a conditionally atomless filtration. For three players, the second permits any filtration.
+
+**Indexed tasks using this source**
+
+- [Approximate equilibrium in quitting games with at least four players](candidates/Q-MODEL-309.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-model-922"></a>
+
+<details>
+<summary>SRC-MODEL-922 · A Separation Between Distribution-Free SQ Learning and Dimension Complexity</summary>
+
+[A Separation Between Distribution-Free SQ Learning and Dimension Complexity](https://arxiv.org/html/2609.19780v1)
+
+**Authors / responsible organization:** Shyamal Patel.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-11-28.
+
+**Type:** Research preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Version 1, introduction, main theorem and Section 2.1.
+
+**Supports**
+
+- For a Boolean class on n-bit inputs, the paper reports efficient distribution-free SQ learning to error 0.01 alongside superpolynomial exact dimension complexity.
+
+**Limits:** The stated theorem concerns fixed learning error and deterministic dimension complexity. It does not compare every neural-network and linear training algorithm.
+
+**Related subjects:** [Statistical learning and high-dimensional theory](domains/stat.md#stat-learn), [Theoretical computer science](domains/cs.md).
+
+**Connection to these subjects:** For a Boolean class on n-bit inputs, the paper reports efficient distribution-free SQ learning to error 0.01 alongside superpolynomial exact dimension complexity.
+
+**Indexed tasks using this source**
+
+- [Distribution-independent statistical queries versus dimension complexity](candidates/Q-FORMAL-444.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-model-923"></a>
+
+<details>
+<summary>SRC-MODEL-923 · Distribution-independent SQ learning does not imply low dimension complexity</summary>
+
+[Distribution-independent SQ learning does not imply low dimension complexity](https://sammausberg.com/research/papers/sq-dimension)
+
+**Authors / responsible organization:** Samuel Mausberg.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-11-28.
+
+**Type:** Author preprint record. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Author’s October 8 preprint record, abstract and linked release citation.
+
+**Supports**
+
+- The author reports a separation on a domain of size 2N³, with logarithmically many queries at fixed error and linear dimension for the stated deterministic and probabilistic variants.
+
+**Limits:** The abstract records the author’s claims. Equivalence of approximation conventions and independent proof review remain outstanding.
+
+**Related subjects:** [Statistical learning and high-dimensional theory](domains/stat.md#stat-learn), [Theoretical computer science](domains/cs.md).
+
+**Connection to these subjects:** The author reports a separation on a domain of size 2N³, with logarithmically many queries at fixed error and linear dimension for the stated deterministic and probabilistic variants.
+
+**Indexed tasks using this source**
+
+- [Distribution-independent statistical queries versus dimension complexity](candidates/Q-FORMAL-444.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-model-924"></a>
+
+<details>
+<summary>SRC-MODEL-924 · Optimal Gap-Dependent Regret for Private Stochastic Decision-Theoretic Online Learning</summary>
+
+[Optimal Gap-Dependent Regret for Private Stochastic Decision-Theoretic Online Learning](https://arxiv.org/html/2605.29148v1)
+
+**Authors / responsible organization:** Tommaso Cesari; Roberto Colomboni.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-11-28.
+
+**Type:** Research paper, accepted at soda 2027. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Version 1, Theorem 1 and the comparison with the known lower bound immediately afterward.
+
+**Supports**
+
+- The pure event-level private algorithm attains worst-case gap-dependent pseudo-regret of order (log K)/Δ + (log K)/ε uniformly in the horizon, matching the cited lower bound in its applicable regime.
+
+**Limits:** Assumes i.i.d. full-information loss vectors, bounded coordinates and a unique best action. The uniform upper rate is not a matching lower bound at every short horizon.
+
+**Related subjects:** [Statistical learning and high-dimensional theory](domains/stat.md#stat-learn), [Theoretical computer science](domains/cs.md).
+
+**Connection to these subjects:** The pure event-level private algorithm attains worst-case gap-dependent pseudo-regret of order (log K)/Δ + (log K)/ε uniformly in the horizon, matching the cited lower bound in its applicable regime.
+
+**Indexed tasks using this source**
+
+- [Optimal private stochastic full-information regret](candidates/Q-FORMAL-447.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-model-925"></a>
+
+<details>
+<summary>SRC-MODEL-925 · SODA27 Accepted Papers</summary>
+
+[SODA27 Accepted Papers](https://www.siam.org/conferences-events/siam-conferences/soda27/program/accepted-papers/)
+
+**Authors / responsible organization:** Society for Industrial and Applied Mathematics.
+
+**Publication year:** Not verified. **Access / attempt date:** 2026-11-28.
+
+**Type:** Official conference acceptance record. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Accepted-papers list, entry under the title of the Cesari–Colomboni paper.
+
+**Supports**
+
+- SIAM lists the matching title and both authors among papers accepted at SODA 2027.
+
+**Limits:** The list records acceptance. The theorem and its assumptions are in the authors’ manuscript.
+
+**Related subjects:** [Statistical learning and high-dimensional theory](domains/stat.md#stat-learn), [Theoretical computer science](domains/cs.md).
+
+**Connection to these subjects:** SIAM lists the matching title and both authors among papers accepted at SODA 2027.
+
+**Indexed tasks using this source**
+
+- [Optimal private stochastic full-information regret](candidates/Q-FORMAL-447.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-model-926"></a>
+
+<details>
+<summary>SRC-MODEL-926 · Nearly Linear Private Learning of Littlestone Classes</summary>
+
+[Nearly Linear Private Learning of Littlestone Classes](https://arxiv.org/html/2610.23160v1)
+
+**Authors / responsible organization:** Shay Moran; Chao Yan.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-11-28.
+
+**Type:** Research preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Introduction, theorem for general Littlestone classes and the following paragraph on the log-star question.
+
+**Supports**
+
+- The authors obtain O(d log d) sample complexity at fixed learning and privacy parameters for Littlestone dimension d. They explicitly retain the question about a polynomial in the VC dimension and log-star d.
+
+**Limits:** The nearly linear bound in d alone may be much larger than the proposed bound for a class of small VC dimension.
+
+**Related subjects:** [Statistical learning and high-dimensional theory](domains/stat.md#stat-learn), [Theoretical computer science](domains/cs.md).
+
+**Connection to these subjects:** The authors obtain O(d log d) sample complexity at fixed learning and privacy parameters for Littlestone dimension d. They explicitly retain the question about a polynomial in the VC dimension and log-star d.
+
+**Indexed tasks using this source**
+
+- [Sample complexity of approximately private PAC learning](candidates/Q-FORMAL-439.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-model-927"></a>
+
+<details>
+<summary>SRC-MODEL-927 · Perceptography unveils the causal contribution of inferior temporal cortex to visual perception</summary>
+
+[Perceptography unveils the causal contribution of inferior temporal cortex to visual perception](https://pubmed.ncbi.nlm.nih.gov/38637553/)
+
+**Authors / responsible organization:** Elia Shahbazi; Timothy Ma; Martin Pernuš; Walter Scheirer; Arash Afraz.
+
+**Publication year:** 2024. **Access / attempt date:** 2026-11-28.
+
+**Type:** Peer-reviewed experimental study. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Abstract and Figure 1, cortical perturbation detection task in macaques.
+
+**Supports**
+
+- The study found image changes that macaques had difficulty distinguishing from stimulation in inferior temporal cortex. The inferred change depended on the image, site and stimulation intensity.
+
+**Limits:** Behavioral discrimination provides an indirect measure of the percept and is specific to the task and animals studied.
+
+**Related subjects:** [Theoretical neuroscience](domains/cog.md#cog-neuro).
+
+**Connection to these subjects:** The study found image changes that macaques had difficulty distinguishing from stimulation in inferior temporal cortex. The inferred change depended on the image, site and stimulation intensity.
+
+**Indexed tasks using this source**
+
+- [Predicting perception after neural perturbation](candidates/Q-CROSS-441.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-model-928"></a>
+
+<details>
+<summary>SRC-MODEL-928 · Simple Learned Weighted Sums of Inferior Temporal Neuronal Firing Rates Accurately Predict Human Core Object Recognition Performance</summary>
+
+[Simple Learned Weighted Sums of Inferior Temporal Neuronal Firing Rates Accurately Predict Human Core Object Recognition Performance](https://pmc.ncbi.nlm.nih.gov/articles/PMC4588611/)
+
+**Authors / responsible organization:** Najib J. Majaj; Ha Hong; Ethan A. Solomon; James J. DiCarlo.
+
+**Publication year:** 2015. **Access / attempt date:** 2026-11-28.
+
+**Type:** Peer-reviewed experimental study. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Abstract, Results on the neuronal linking hypotheses and Discussion.
+
+**Supports**
+
+- Learned weighted sums of macaque inferior temporal firing rates predicted the pattern of human performance across 64 object-recognition tests.
+
+**Limits:** The measurements link behavior and population representations across species. They do not identify particular downstream neurons implementing the readout.
+
+**Related subjects:** [Theoretical neuroscience](domains/cog.md#cog-neuro).
+
+**Connection to these subjects:** Learned weighted sums of macaque inferior temporal firing rates predicted the pattern of human performance across 64 object-recognition tests.
+
+**Indexed tasks using this source**
+
+- [Mechanisms of downstream neural readout](candidates/Q-CROSS-442.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-model-929"></a>
+
+<details>
+<summary>SRC-MODEL-929 · Computational progress on the unfair 0-1 polynomial Conjecture</summary>
+
+[Computational progress on the unfair 0-1 polynomial Conjecture](https://arxiv.org/abs/2307.07363)
+
+**Authors / responsible organization:** Kevin G. Hare.
+
+**Publication year:** 2023. **Access / attempt date:** 2026-11-28.
+
+**Type:** Research paper, preprint version. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Abstract, monic-factor convention and results for candidate factors of degree at most 15.
+
+**Supports**
+
+- The computational search excluded all but 975 of 7,141,686 candidate coefficient patterns in the stated range.
+
+**Limits:** A remaining pattern is an unresolved case of that test, not a realized factor or a counterexample.
+
+**Related subjects:** [Discrete probability and random structures](domains/prob.md#prob-discrete), [Mathematics](domains/math.md).
+
+**Connection to these subjects:** The computational search excluded all but 975 of 7,141,686 candidate coefficient patterns in the stated range.
+
+**Indexed tasks using this source**
+
+- [Uniform independent summands of a uniform integer sum](candidates/Q-MATH-422.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-model-930"></a>
+
+<details>
+<summary>SRC-MODEL-930 · Structural Results on the Unfair 0-1 Polynomial Conjecture</summary>
+
+[Structural Results on the Unfair 0-1 Polynomial Conjecture](https://arxiv.org/html/2611.14596v1)
+
+**Authors / responsible organization:** Emina Hasanbegović.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-11-28.
+
+**Type:** Research preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Introduction, theorem on two separated coefficient blocks, and hypotheses on the lower block.
+
+**Supports**
+
+- The paper establishes fairness for certain two-block supports when the lower block is fair and the spacing meets its degree bounds.
+
+**Limits:** The separation and lower-block assumptions limit the theorem to a subclass of finite supports.
+
+**Related subjects:** [Discrete probability and random structures](domains/prob.md#prob-discrete), [Mathematics](domains/math.md).
+
+**Connection to these subjects:** The paper establishes fairness for certain two-block supports when the lower block is fair and the spacing meets its degree bounds.
+
+**Indexed tasks using this source**
+
+- [Uniform independent summands of a uniform integer sum](candidates/Q-MATH-422.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-920"></a>
+
+<details>
+<summary>SRC-PHYS-920 · Search for dark matter particle interactions in an extended nuclear recoil energy window with the LUX-ZEPLIN (LZ) experiment</summary>
+
+[Search for dark matter particle interactions in an extended nuclear recoil energy window with the LUX-ZEPLIN (LZ) experiment](https://arxiv.org/abs/2609.02823)
+
+**Authors / responsible organization:** D. S. Akerib and the LUX-ZEPLIN Collaboration.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-11-28.
+
+**Type:** Collaboration research preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Abstract and data-release link, 2 September 2026.
+
+**Supports**
+
+- Reports a high-energy recoil in 2.84 tonne-years of xenon exposure and distinguishes local from global significance.
+
+**Limits:** The profile-likelihood comparison depends on the tested interaction models and background model. One recoil does not identify the dominant cosmological component.
+
+**Related subjects:** [Cosmology and gravitational astrophysics](domains/astro.md#astro-cosmo).
+
+**Connection to these subjects:** Reports a high-energy recoil in 2.84 tonne-years of xenon exposure and distinguishes local from global significance.
+
+**Indexed tasks using this source**
+
+- [The fundamental composition of non-baryonic dark matter](candidates/Q-MODEL-322.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-921"></a>
+
+<details>
+<summary>SRC-PHYS-921 · Root-Mean-Square Gains of Switched Linear Systems</summary>
+
+[Root-Mean-Square Gains of Switched Linear Systems](https://web.ece.ucsb.edu/~hespanha/published/tr-hespanha-rms.pdf)
+
+**Authors / responsible organization:** João P. Hespanha.
+
+**Publication year:** 2002. **Access / attempt date:** 2026-11-28.
+
+**Type:** Author technical report. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Report dated 24 September 2002, abstract and sections 1 and 5.
+
+**Supports**
+
+- Provides a procedure for the slow-switching limit and relates it to the gain for a single switch.
+
+**Limits:** The limiting calculation does not give the full curve at finite dwell times.
+
+**Related subjects:** [Robust design and verification](domains/eng.md#eng-robust).
+
+**Connection to these subjects:** Provides a procedure for the slow-switching limit and relates it to the gain for a single switch.
+
+**Indexed tasks using this source**
+
+- [Dwell-time dependence of switched-system gain](candidates/Q-CROSS-404.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-922"></a>
+
+<details>
+<summary>SRC-PHYS-922 · Fresh groundwater discharge insignificant for the world’s oceans but important for coastal ecosystems</summary>
+
+[Fresh groundwater discharge insignificant for the world’s oceans but important for coastal ecosystems](https://www.nature.com/articles/s41467-020-15064-8)
+
+**Authors / responsible organization:** Elco Luijendijk; Tom Gleeson; Nils Moosdorf.
+
+**Publication year:** 2020. **Access / attempt date:** 2026-11-28.
+
+**Type:** Peer-reviewed research article. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Abstract, Introduction and Methods, especially the coastal watershed and permeability descriptions.
+
+**Supports**
+
+- A spatially resolved global model estimates fresh groundwater discharge, distinguishes it from recirculated seawater and finds strong variation among coastal environments.
+
+**Limits:** The totals are model estimates subject to aquifer properties and watershed boundaries. The study covers the coastal component of the broader hydrology question.
+
+**Related subjects:** [Environmental systems and resource models](domains/earth.md#earth-env).
+
+**Connection to these subjects:** A spatially resolved global model estimates fresh groundwater discharge, distinguishes it from recirculated seawater and finds strong variation among coastal environments.
+
+**Indexed tasks using this source**
+
+- [Groundwater exchange across boundaries](candidates/Q-CROSS-425.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-923"></a>
+
+<details>
+<summary>SRC-PHYS-923 · Schauder basis for Schrödinger operators with periodic boundary conditions</summary>
+
+[Schauder basis for Schrödinger operators with periodic boundary conditions](https://nsa.fjfi.cvut.cz/problems/04_AIM_2015/2015-23/2015-23_AIM_Mityagin.pdf)
+
+**Authors / responsible organization:** Boris Mityagin.
+
+**Publication year:** 2015. **Access / attempt date:** 2026-11-28.
+
+**Type:** Author problem sheet. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** 2015 AIM sheet 23, Open Problem and Known Case.
+
+**Supports**
+
+- Asks for a coefficient test for eigenfunctions under periodic boundary conditions and identifies a two-term potential with an exact criterion.
+
+**Limits:** The sheet gives a historical question and one solved family. It does not establish the present status of the general coefficient classification.
+
+**Related subjects:** [Spectral and operator theory in physics](domains/mphy.md#mphy-spectral).
+
+**Connection to these subjects:** Asks for a coefficient test for eigenfunctions under periodic boundary conditions and identifies a two-term potential with an exact criterion.
+
+**Indexed tasks using this source**
+
+- [Schauder bases for periodic trigonometric Schrödinger potentials](candidates/Q-MODEL-410.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-924"></a>
+
+<details>
+<summary>SRC-PHYS-924 · Convergence of spectral decompositions of Hill operators with trigonometric polynomial potentials</summary>
+
+[Convergence of spectral decompositions of Hill operators with trigonometric polynomial potentials](https://arxiv.org/abs/0911.3218)
+
+**Authors / responsible organization:** Plamen Djakov; Boris Mityagin.
+
+**Publication year:** 2009. **Access / attempt date:** 2026-11-28.
+
+**Type:** Primary research paper. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Abstract, cases (i)–(iii) and the periodic-boundary conclusion for case (ii).
+
+**Supports**
+
+- For the potential a exp(−2ix) + B exp(4ix) with both coefficients nonzero, the system of root functions is complete but fails to be a basis under periodic boundary conditions.
+
+**Limits:** The paper treats selected Fourier supports. Its treatment of root functions includes associated functions where needed.
+
+**Related subjects:** [Spectral and operator theory in physics](domains/mphy.md#mphy-spectral).
+
+**Connection to these subjects:** For the potential a exp(−2ix) + B exp(4ix) with both coefficients nonzero, the system of root functions is complete but fails to be a basis under periodic boundary conditions.
+
+**Indexed tasks using this source**
+
+- [Schauder bases for periodic trigonometric Schrödinger potentials](candidates/Q-MODEL-410.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-925"></a>
+
+<details>
+<summary>SRC-PHYS-925 · Global fixed point proof of time-dependent density-functional theory</summary>
+
+[Global fixed point proof of time-dependent density-functional theory](https://arxiv.org/abs/1011.3375)
+
+**Authors / responsible organization:** Michael Ruggenthaler; Robert van Leeuwen.
+
+**Publication year:** 2010. **Access / attempt date:** 2026-11-28.
+
+**Type:** Primary research paper. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Abstract and existence argument in the manuscript, including the uniform bound for the iteration.
+
+**Supports**
+
+- Formulates density-to-potential inversion as a fixed-point problem and gives an iterative argument subject to bounds on the response.
+
+**Limits:** Existence and uniqueness depend on the chosen function spaces and bounds. The later problem collection questions whether the required contraction estimate is available in its general setting.
+
+**Related subjects:** [Quantum chemistry and electronic structure](domains/chem.md#chem-quant).
+
+**Connection to these subjects:** Formulates density-to-potential inversion as a fixed-point problem and gives an iterative argument subject to bounds on the response.
+
+**Indexed tasks using this source**
+
+- [Existence and uniqueness in the TDDFT force equation](candidates/Q-MODEL-431.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-926"></a>
+
+<details>
+<summary>SRC-PHYS-926 · V-Representability Beyond Singular Times in Time-Dependent Density Functional Theory: The Hubbard Dimer Case</summary>
+
+[V-Representability Beyond Singular Times in Time-Dependent Density Functional Theory: The Hubbard Dimer Case](https://arxiv.org/abs/2610.33837)
+
+**Authors / responsible organization:** Éric Cancès; Théo Duez.
+
+**Publication year:** 2026. **Access / attempt date:** 2026-11-28.
+
+**Type:** Research preprint. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Abstract, October 2026, two-particle spin-singlet Hubbard dimer.
+
+**Supports**
+
+- The authors obtain global representability in the conventional and geometric dimer formulations and report nonuniqueness of the effective potential at singular times.
+
+**Limits:** The result applies to a finite two-site model. The continuum force equation has different analytic assumptions.
+
+**Related subjects:** [Quantum chemistry and electronic structure](domains/chem.md#chem-quant).
+
+**Connection to these subjects:** The authors obtain global representability in the conventional and geometric dimer formulations and report nonuniqueness of the effective potential at singular times.
+
+**Indexed tasks using this source**
+
+- [Existence and uniqueness in the TDDFT force equation](candidates/Q-MODEL-431.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-927"></a>
+
+<details>
+<summary>SRC-PHYS-927 · Vacuum cosmological spacetimes without CMC Cauchy surfaces</summary>
+
+[Vacuum cosmological spacetimes without CMC Cauchy surfaces](https://arxiv.org/abs/2407.21524)
+
+**Authors / responsible organization:** Eric Ling; Argam Ohanyan.
+
+**Publication year:** 2024. **Access / attempt date:** 2026-11-28.
+
+**Type:** Primary research paper. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Version 2, abstract and introduction, allowed connected-sum topologies.
+
+**Supports**
+
+- Constructs vacuum cosmological spacetimes with no constant-mean-curvature Cauchy surface on spatial topologies M # M for closed, oriented, irreducible, nonspherical three-manifolds M.
+
+**Limits:** Existence of examples on these topologies does not show that every solution on one of them lacks such a surface.
+
+**Related subjects:** [Gravitation and spacetime theory](domains/phys.md#phys-grav).
+
+**Connection to these subjects:** Constructs vacuum cosmological spacetimes with no constant-mean-curvature Cauchy surface on spatial topologies M # M for closed, oriented, irreducible, nonspherical three-manifolds M.
+
+**Indexed tasks using this source**
+
+- [Criteria for constant-mean-curvature slices](candidates/Q-MODEL-463.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-928"></a>
+
+<details>
+<summary>SRC-PHYS-928 · A Rigorous Derivation of Gravitational Self-force</summary>
+
+[A Rigorous Derivation of Gravitational Self-force](https://arxiv.org/abs/0806.3293v5)
+
+**Authors / responsible organization:** Samuel E. Gralla; Robert M. Wald.
+
+**Publication year:** 2008. **Access / attempt date:** 2026-11-28.
+
+**Type:** Primary research paper. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Abstract and corrected version 5 (29 April 2011), analysis of a one-parameter family of metrics.
+
+**Supports**
+
+- For families satisfying the stated scaling, smoothness and limit conditions, the limiting worldline is a background geodesic. The paper derives first-order self-force and spin-curvature corrections.
+
+**Limits:** The theorem assumes a suitable family. It neither builds that family for every matter model nor controls every higher-order correction.
+
+**Related subjects:** [Gravitation and spacetime theory](domains/phys.md#phys-grav).
+
+**Connection to these subjects:** For families satisfying the stated scaling, smoothness and limit conditions, the limiting worldline is a background geodesic. The paper derives first-order self-force and spin-curvature corrections.
+
+**Indexed tasks using this source**
+
+- [A rigorous negligible-mass limit for geodesic motion](candidates/Q-MODEL-462.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-929"></a>
+
+<details>
+<summary>SRC-PHYS-929 · Equation of Motion of Small Bodies in Relativity</summary>
+
+[Equation of Motion of Small Bodies in Relativity](https://arxiv.org/abs/gr-qc/0309074)
+
+**Authors / responsible organization:** Jürgen Ehlers; Robert Geroch.
+
+**Publication year:** 2003. **Access / attempt date:** 2026-11-28.
+
+**Type:** Primary research paper. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Abstract and theorem, assumptions (i)–(iii).
+
+**Supports**
+
+- A concentration theorem with a dominant energy condition and nearby metrics yields geodesic motion in the small-body limit.
+
+**Limits:** The result uses its particular local hypotheses and does not compute first-order self-force corrections.
+
+**Related subjects:** [Gravitation and spacetime theory](domains/phys.md#phys-grav).
+
+**Connection to these subjects:** A concentration theorem with a dominant energy condition and nearby metrics yields geodesic motion in the small-body limit.
+
+**Indexed tasks using this source**
+
+- [A rigorous negligible-mass limit for geodesic motion](candidates/Q-MODEL-462.md)
+
+[Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
+
+</details>
+
+<a id="src-phys-930"></a>
+
+<details>
+<summary>SRC-PHYS-930 · Black hole perturbation theory and gravitational self-force</summary>
+
+[Black hole perturbation theory and gravitational self-force](https://arxiv.org/pdf/2101.04592)
+
+**Authors / responsible organization:** Adam Pound; Barry Wardell.
+
+**Publication year:** 2021. **Access / attempt date:** 2026-11-28.
+
+**Type:** Specialist review. **Purpose:** Research entry. **Inspection:** Opened.
+
+**Inspected location:** Introduction, PDF p. 4, and discussion of effective motion near PDF p. 49.
+
+**Supports**
+
+- Reviews the small-body expansion and the later extension of gravitational self-force calculations to second perturbative order.
+
+**Limits:** The review concerns perturbative methods and compact bodies. It does not establish the validity of a chosen limit for arbitrary matter or initial data.
+
+**Related subjects:** [Gravitation and spacetime theory](domains/phys.md#phys-grav).
+
+**Connection to these subjects:** Reviews the small-body expansion and the later extension of gravitational self-force calculations to second perturbative order.
+
+**Indexed tasks using this source**
+
+- [A rigorous negligible-mass limit for geodesic motion](candidates/Q-MODEL-462.md)
 
 [Structured source data](../data/sources.json) · [Back to the directory](#source-directory)
 

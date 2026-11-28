@@ -6,7 +6,7 @@ Explicit computational or mathematical models of cognition and language.
 
 **Boundary:** Unconstrained speculation and clinical claims are outside the current index.
 
-**Research sources: 13 · Primary tasks: 11 · Full cards: 1 · Cross-linked tasks: 0.**
+**Research sources: 16 · Primary tasks: 11 · Full cards: 1 · Cross-linked tasks: 0.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -52,6 +52,9 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [A Task-Optimized Neural Network Replicates Human Auditory Behavior, Predicts Brain Responses, and Reveals a Cortical Processing Hierarchy](../sources.md#src-review-801) | Research entry | 2018 |
 | [kelletal2018: auditory network parameters and demonstration](../sources.md#src-review-802) | Research entry | Not verified |
 | [Scaling models of visual working memory to natural images](../sources.md#src-model-803) | Research entry | 2024 |
+| [Many but not all deep neural network audio models capture brain responses and exhibit correspondence between model stages and brain regions](../sources.md#src-model-906) | Research entry | 2023 |
+| [Perceptography unveils the causal contribution of inferior temporal cortex to visual perception](../sources.md#src-model-927) | Research entry | 2024 |
+| [Simple Learned Weighted Sums of Inferior Temporal Neuronal Firing Rates Accurately Predict Human Core Object Recognition Performance](../sources.md#src-model-928) | Research entry | 2015 |
 
 <a id="branches"></a>
 
@@ -111,7 +114,7 @@ Formal models of neurons, coding and learning dynamics.
 
 **Representative objects:** spiking models, population codes, plasticity.
 
-**Direct source entries:** [Theoretical Neuroscience: Computational and Mathematical Modeling of Neural Systems](../sources.md#src-base-009), [Hypergraphs and simplicial complexes in focus: a roadmap for future research in higher-order interactions](../sources.md#src-cross-403), [Eight open questions in the computational modeling of higher sensory cortex](../sources.md#src-cross-404), [A Task-Optimized Neural Network Replicates Human Auditory Behavior, Predicts Brain Responses, and Reveals a Cortical Processing Hierarchy](../sources.md#src-review-801), [kelletal2018: auditory network parameters and demonstration](../sources.md#src-review-802), [Scaling models of visual working memory to natural images](../sources.md#src-model-803).
+**Direct source entries:** [Theoretical Neuroscience: Computational and Mathematical Modeling of Neural Systems](../sources.md#src-base-009), [Hypergraphs and simplicial complexes in focus: a roadmap for future research in higher-order interactions](../sources.md#src-cross-403), [Eight open questions in the computational modeling of higher sensory cortex](../sources.md#src-cross-404), [A Task-Optimized Neural Network Replicates Human Auditory Behavior, Predicts Brain Responses, and Reveals a Cortical Processing Hierarchy](../sources.md#src-review-801), [kelletal2018: auditory network parameters and demonstration](../sources.md#src-review-802), [Scaling models of visual working memory to natural images](../sources.md#src-model-803), [Many but not all deep neural network audio models capture brain responses and exhibit correspondence between model stages and brain regions](../sources.md#src-model-906), [Perceptography unveils the causal contribution of inferior temporal cortex to visual perception](../sources.md#src-model-927), [Simple Learned Weighted Sums of Inferior Temporal Neuronal Firing Rates Accurately Predict Human Core Object Recognition Performance](../sources.md#src-model-928).
 
 **Primary tasks in this branch and its descendants**
 

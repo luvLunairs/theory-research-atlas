@@ -6,7 +6,7 @@ Models of astronomical systems and cosmic evolution.
 
 **Boundary:** Observational adequacy is distinct from analytical solvability.
 
-**Research sources: 19 · Primary tasks: 20 · Full cards: 1 · Cross-linked tasks: 4.**
+**Research sources: 22 · Primary tasks: 20 · Full cards: 1 · Cross-linked tasks: 4.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -62,12 +62,15 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [Cosmological Parameters](../sources.md#src-model-316) | Research entry | 2025 |
 | [The Hubble tension: A decade review](../sources.md#src-model-317) | Research entry | 2026 |
 | [Toward Finiteness of Central Configurations for the Planar Six-Body Problem by Symbolic Computations. (II) Determine Mass Relations](../sources.md#src-model-318) | Research entry | 2025 |
-| [Finiteness of planar central configurations of five bodies for all positive masses](../sources.md#src-model-319) | Research entry | 2026 |
+| [Smale's sixth problem for five bodies in the plane, with a proof formalized in Lean](../sources.md#src-model-319) | Research entry | 2026 |
 | [Variational Methods in Celestial Mechanics](../sources.md#src-model-404) | Research entry | 2003 |
 | [Mathematical General Relativity](../sources.md#src-model-405) | Research entry | 2018 |
 | [Equal masses results for choreographies n-body problems](../sources.md#src-model-615) | Research entry | 2020 |
 | [Oscillating about coplanarity in the 4 body problem](../sources.md#src-model-616) | Research entry | 2018 |
 | [DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints](../sources.md#src-phys-804) | Research entry | 2025 |
+| [Finiteness of planar central configurations of six bodies for all positive masses: Part I, exceptional-mass first limits](../sources.md#src-phys-900) | Research entry | 2026 |
+| [Smale's sixth problem for six bodies in the plane: finiteness of central configurations for generic masses, with a proof formalized in Lean](../sources.md#src-phys-901) | Research entry | 2026 |
+| [Search for dark matter particle interactions in an extended nuclear recoil energy window with the LUX-ZEPLIN (LZ) experiment](../sources.md#src-phys-920) | Research entry | 2026 |
 
 <a id="branches"></a>
 
@@ -127,7 +130,7 @@ Gravitational motion and stability of astronomical systems.
 
 **Representative objects:** N-body systems, orbital resonances, stability.
 
-**Direct source entries:** [Introduction to Celestial Mechanics, 2nd Edition: Stability of Lagrange points](../sources.md#src-model-103), [Introduction to Celestial Mechanics, 2nd Edition: Co-rotating frame](../sources.md#src-model-104), [Toward Finiteness of Central Configurations for the Planar Six-Body Problem by Symbolic Computations. (II) Determine Mass Relations](../sources.md#src-model-318), [Finiteness of planar central configurations of five bodies for all positive masses](../sources.md#src-model-319), [Variational Methods in Celestial Mechanics](../sources.md#src-model-404), [Equal masses results for choreographies n-body problems](../sources.md#src-model-615), [Oscillating about coplanarity in the 4 body problem](../sources.md#src-model-616).
+**Direct source entries:** [Introduction to Celestial Mechanics, 2nd Edition: Stability of Lagrange points](../sources.md#src-model-103), [Introduction to Celestial Mechanics, 2nd Edition: Co-rotating frame](../sources.md#src-model-104), [Toward Finiteness of Central Configurations for the Planar Six-Body Problem by Symbolic Computations. (II) Determine Mass Relations](../sources.md#src-model-318), [Smale's sixth problem for five bodies in the plane, with a proof formalized in Lean](../sources.md#src-model-319), [Variational Methods in Celestial Mechanics](../sources.md#src-model-404), [Equal masses results for choreographies n-body problems](../sources.md#src-model-615), [Oscillating about coplanarity in the 4 body problem](../sources.md#src-model-616), [Finiteness of planar central configurations of six bodies for all positive masses: Part I, exceptional-mass first limits](../sources.md#src-phys-900), [Smale's sixth problem for six bodies in the plane: finiteness of central configurations for generic masses, with a proof formalized in Lean](../sources.md#src-phys-901).
 
 **Primary tasks in this branch and its descendants**
 
@@ -178,7 +181,7 @@ Models of cosmic evolution and compact gravitating objects.
 
 **Representative objects:** perturbations, black holes, cosmological models.
 
-**Direct source entries:** [David Tong: Lecture Notes](../sources.md#src-base-011), [Lectures on the Cosmological Constant Problem](../sources.md#src-model-017), [Addressing Six Standard Model Problems with Technically Natural Higgs Models](../sources.md#src-model-311), [Axions and Other Similar Particles](../sources.md#src-model-313), [Dark Matter](../sources.md#src-model-314), [Dark Energy](../sources.md#src-model-315), [Cosmological Parameters](../sources.md#src-model-316), [The Hubble tension: A decade review](../sources.md#src-model-317), [Mathematical General Relativity](../sources.md#src-model-405), [DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints](../sources.md#src-phys-804).
+**Direct source entries:** [David Tong: Lecture Notes](../sources.md#src-base-011), [Lectures on the Cosmological Constant Problem](../sources.md#src-model-017), [Addressing Six Standard Model Problems with Technically Natural Higgs Models](../sources.md#src-model-311), [Axions and Other Similar Particles](../sources.md#src-model-313), [Dark Matter](../sources.md#src-model-314), [Dark Energy](../sources.md#src-model-315), [Cosmological Parameters](../sources.md#src-model-316), [The Hubble tension: A decade review](../sources.md#src-model-317), [Mathematical General Relativity](../sources.md#src-model-405), [DESI DR2 Results II: Measurements of Baryon Acoustic Oscillations and Cosmological Constraints](../sources.md#src-phys-804), [Search for dark matter particle interactions in an extended nuclear recoil energy window with the LUX-ZEPLIN (LZ) experiment](../sources.md#src-phys-920).
 
 **Primary tasks in this branch and its descendants**
 

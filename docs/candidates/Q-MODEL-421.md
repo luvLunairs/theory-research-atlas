@@ -10,26 +10,26 @@ Relate the quasi-densities used to regularize density functional theory systemat
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Unverified. **Last checked:** 2026-10-14.
+**Current status:** Unverified. **Last checked:** 2026-11-26.
 
-**Status basis:** The historical source matches the indexed question. Targeted keyword searches did not establish a later primary result resolving its full scope; present-day openness remains unverified.
+**Status basis:** An explicit reconstruction is already available for Moreau–Yosida regularization at fixed potential. The 2026 perspective explains which representability properties belong to the physical density and gives a choice-dependent interpretation of the mixed density. The broader transfer of constraints to approximate functionals remains to be specified.
 
-**Statement check:** Needs clarification. **Status check:** Source report only.
+**Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** Sources: SRC-MODEL-402: 2023. The 2026-10-14 check covers the scope recorded in the linked literature check.
+**Source date and freshness:** The 2026-11-26 literature check identifies the publications, versions and limits covered.
 
-**Scope limits:** A formal question about nonrelativistic electronic Hamiltonians or a stated density-functional approximation. Mathematical validity and agreement with molecular measurements are separate tests.
+**Scope limits:** For a regularized minimizer x, potential v, parameter ε and the specified duality map J, the physical density is x + εJ⁻¹(v). Positivity and particle-number normalization of the reconstructed density need not hold for x.
 
 **Information still needed**
 
-- Specify regularization, topology and reconstruction error; the paper's cited regularization construction requires closer review.
-- Only the recorded search terms were covered; later results, different terminology, corrections and exact-scope resolutions may have been missed.
+- Name the density and potential spaces, external potential and exact constraint to be transferred.
+- Identify which proposed constraint or approximation goes beyond the published reconstruction and its physical interpretation.
 
 **Primary branch:** [Quantum chemistry and electronic structure](../domains/chem.md#chem-quant). **Related branches:** [Spectral and operator theory in physics](../domains/mphy.md#mphy-spectral).
 
-**Sources:** [Some Problems in Density Functional Theory](../sources.md#src-model-402).
+**Sources:** [Some Problems in Density Functional Theory](../sources.md#src-model-402); [Density-potential inversion from Moreau–Yosida regularization](../sources.md#src-phys-906); [Perspective on Moreau–Yosida regularization in density-functional theory](../sources.md#src-phys-907).
 
-**Exact locator:** §III B, Question 2.2
+**Exact locator:** Wrighton et al., Question 2.2 and remark. Penz, Csirik and Laestadius (2023), equations (6)–(9). Penz et al. (2026), equation (57) and following discussion.
 
 **Potential difficulty:** High. The questions concern unresolved functional-analytic or approximation foundations of electronic-structure theory.
 
@@ -39,13 +39,42 @@ Relate the quasi-densities used to regularize density functional theory systemat
 
 **Resource expectations:** Proof work and small electronic examples may fit a workstation; accurate correlated-electron reference calculations can be expensive. No general resource bound is established.
 
-**Assessment:** 2026-10-14; untested forecast. **Uncertainty:** Specify regularization, topology and reconstruction error; the paper's cited regularization construction requires closer review.
+**Assessment:** 2026-11-26; untested forecast. **Uncertainty:** The published reconstruction assumes a fixed potential and duality map. Whether an exact constraint can guide a practical approximation still depends on the spaces and functional chosen.
 
 **Further work:** resolve the statement and status questions above before planning an attempt. **Human review:** Pending.
 
 ## Literature checks
 
 These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-26
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Unverified → Unverified.
+
+Record the exact reconstruction as known and retain the broader program with unverified overall status.
+
+**Search scope:** For a regularized minimizer x, potential v, parameter ε and the specified duality map J, the physical density is x + εJ⁻¹(v). Positivity and particle-number normalization of the reconstructed density need not hold for x.
+
+**Inspected evidence**
+
+- [Some Problems in Density Functional Theory](../sources.md#src-model-402) — Question 2.2 and its remark. Asks for a systematic connection with physical densities and their properties used in approximate functionals.
+- [Density-potential inversion from Moreau–Yosida regularization](../sources.md#src-phys-906) — Equation (9) and following paragraph. Gives the physical density associated with a specified regularized minimizer and potential.
+- [Perspective on Moreau–Yosida regularization in density-functional theory](../sources.md#src-phys-907) — Equation (57) and following discussion. Explains which representability conditions can fail for the mixed density and how an electrostatic interpretation depends on the topology.
+
+**Limits and remaining work**
+
+- No comprehensive classification of transferred constraints or experimental test was located.
+
+<details>
+<summary>Search queries</summary>
+
+- 2025 2026 Moreau Yosida physical densities quasidensities electron density Legendre regularization Kvaal Wrighton question 2.2 density representability exact constraints Penz
+- 2025 2026 density-potential Moreau–Yosida Penz quasi densities physical densities regularization constraints direct physical interpretation 022001
+
+
+</details>
 
 ### 2026-10-14
 

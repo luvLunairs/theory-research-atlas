@@ -10,42 +10,69 @@ Can an admissible radial auxiliary function f on R^2 satisfy f(x)<=0 for |x|>=2,
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Source reports open. **Last checked:** 2026-10-14.
+**Current status:** Unverified. **Last checked:** 2026-11-28.
 
-**Status basis:** Green's author-maintained collection, last updated December 2025, poses this target at Problem 42. The normalization uses sign radius two and f(0)/fhat(0)=sqrt(3)/6, which matches the source's circle-packing formulation. The numbered entry and local updates were inspected on 2026-10-14; the source date alone does not establish present openness.
+**Status basis:** The September manuscript claims a sharp radial Schwartz witness. It uses sign radius one and origin ratio 2/√3. Rescaling the argument by one half gives Green’s sign radius two and divides the ratio by four, yielding √3/6. Kriebel’s October deduction uses the same certificate. The existence claim awaits independent assessment here.
 
-**Statement check:** Source located. **Status check:** Source report only.
+**Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** Inspected source years: SRC-MATH-302: 2025. Checked on 2026-10-14 within the scope recorded in the literature check.
+**Source date and freshness:** The problem statement and references listed in the 28 November 2026 literature check were inspected.
 
-**Scope limits:** The collection reports this precise target as open at its stated update date. One source-stated conjecture, classification target or independently posed subquestion is indexed. Known special cases are background, not additional open records.
+**Scope limits:** Green, Problem 42. OpenAI, Theorem 1.1 with unit sign radius. Kriebel, section on planar packing.
 
 **Information still needed**
 
-- No exhaustive later-literature search or proof audit was performed for this record.
-- The mathematical proof or counterexample, if proposed, still requires expert review.
+- Verify the infinite-range sign arguments and the finite certificate against the declared function and Fourier-transform conventions.
 
 **Primary branch:** [Harmonic, real and complex analysis](../domains/math.md#math-anal-harm). **Related branches:** None recorded.
 
-**Sources:** [100 Open Problems, December 2025 revision](../sources.md#src-math-302).
+**Sources:** [100 Open Problems, December 2025 revision](../sources.md#src-math-302); [A sharp Fourier certificate for planar circle packing](../sources.md#src-math-926); [Two consequences of group-algebra and planar Fourier certificates: wreath products and triangle bounds](../sources.md#src-math-923).
 
-**Exact locator:** Problem 42.
+**Exact locator:** Green, Problem 42. OpenAI, Theorem 1.1 with unit sign radius. Kriebel, section on planar packing.
 
 **Potential difficulty:** High. The source records a longstanding unrestricted question with substantial partial theory. Its general quantifiers and known methodological barriers justify a high provisional rating, conditional on the target still being unresolved.
 
-**Possible AI role:** After checking current status, AI with the relevant mathematical background and tools could explore radial Fourier interpolation and interval-certified sign constraints. Specialist review remains necessary; no named model has been evaluated.
+**Possible AI role:** Compare the two normalizations, then audit the analytic sign lemmas and the exact arithmetic certificates separately.
 
 **Verification burden:** High. A general proof or classification needs expert checking of hypotheses, reductions and completeness. A finite construction can support a restricted result only unless it certifies a counterexample to the exact statement.
 
 **Resource expectations:** No physical experiment or empirical dataset is required. Literature review and proof development are the principal tasks. Any exact search, simulation or symbolic calculation needs an explicit finite scope; its compute and memory requirements have not been estimated.
 
-**Assessment:** 2026-10-14; untested forecast. **Uncertainty:** Current resolution status, practical resource needs and AI usefulness remain unmeasured. The admissibility and Fourier-transform conventions must be imported precisely from the original Cohn–Elkies theorem.
+**Assessment:** 2026-11-28; untested forecast. **Uncertainty:** Verify the infinite-range sign arguments and the finite certificate against the declared function and Fourier-transform conventions. Model performance on this task has not been measured.
 
-**Further work:** define a scoped target, resource requirements and a verification plan before developing a full card. **Human review:** Pending.
+**Further work:** resolve the statement and status questions above before planning an attempt. **Human review:** Pending.
 
 ## Literature checks
 
 These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-28
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Source reports open → Unverified.
+
+The September manuscript claims a sharp radial Schwartz witness. It uses sign radius one and origin ratio 2/√3. Rescaling the argument by one half gives Green’s sign radius two and divides the ratio by four, yielding √3/6. Kriebel’s October deduction uses the same certificate. The existence claim awaits independent assessment here.
+
+**Search scope:** Green, Problem 42. OpenAI, Theorem 1.1 with unit sign radius. Kriebel, section on planar packing.
+
+**Inspected evidence**
+
+- [100 Open Problems, December 2025 revision](../sources.md#src-math-302) — Problem 42, printed p. 21. Specifies a radial function, sign radius two, nonnegative Fourier transform and origin ratio √3/6.
+- [A sharp Fourier certificate for planar circle packing](../sources.md#src-math-926) — 23 September release, build/sections/introduction.tex, Theorem 1.1 and the normalization following it. Claims a radial Schwartz function with nonnegative Fourier transform and sharp origin ratio for a unit sign radius in the plane.
+- [Two consequences of group-algebra and planar Fourier certificates: wreath products and triangle bounds](../sources.md#src-math-923) — Planar packing section. Identifies the September theorem as the input to a consequence for a planar three-point program.
+
+**Limits and remaining work**
+
+- Verify the infinite-range sign arguments and the finite certificate against the declared function and Fourier-transform conventions.
+
+<details>
+<summary>Search queries</summary>
+
+- Ben Green problem 42 sharp planar Cohn Elkies Fourier certificate 2026 proof review
+
+
+</details>
 
 ### 2026-10-14
 

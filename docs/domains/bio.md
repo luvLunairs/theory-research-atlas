@@ -26,7 +26,7 @@ Formal models of living systems across scales.
 | [Exact birth–death diversity time on star graphs](../candidates/Q-MODEL-301.md) | High | Literature-origin question | Source reports open | Outline · Q-MODEL-301 |
 | [Largest neutral birth–death diversity time on undirected graphs](../candidates/Q-MODEL-302.md) | High | Literature-origin question | Source reports open | Outline · Q-MODEL-302 |
 | [Smallest neutral birth–death diversity time on undirected graphs](../candidates/Q-MODEL-303.md) | High | Literature-origin question | Source reports open | Outline · Q-MODEL-303 |
-| [Largest neutral death–birth diversity time on undirected graphs](../candidates/Q-MODEL-304.md) | High | Literature-origin question | Source reports open | Outline · Q-MODEL-304 |
+| [Largest neutral death–birth diversity time on undirected graphs](../candidates/Q-MODEL-304.md) | High | Literature-origin question | Unverified | Outline · Q-MODEL-304 |
 | [Slow-evolution global stability in the autonomous evolutionary Ricker model](../candidates/Q-MODEL-305.md) | High | Literature-origin question | Source reports open | Outline · Q-MODEL-305 |
 | [Local-to-global stability for periodic evolutionary Ricker dynamics](../candidates/Q-MODEL-306.md) | High | Literature-origin question | Source reports open | Outline · Q-MODEL-306 |
 | [Bifurcations of the periodically forced evolutionary Ricker model](../candidates/Q-MODEL-307.md) | High | Literature-origin question | Source reports open | Outline · Q-MODEL-307 |

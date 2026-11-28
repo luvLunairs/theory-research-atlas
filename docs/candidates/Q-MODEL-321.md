@@ -10,25 +10,26 @@ Determine whether the light neutrino mass eigenstates are Dirac or Majorana, and
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Source reports open. **Last checked:** 2026-10-14.
+**Current status:** Source reports open. **Last checked:** 2026-11-26.
 
-**Status basis:** The review retains both mass possibilities and unknown Majorana phases. Oscillation evidence is not sufficient to decide this question; no resolving observation was located in the scoped search.
+**Status basis:** The combined GERDA, Majorana Demonstrator and LEGEND-200 search found no signal in ⁷⁶Ge and set a lower limit on the half-life. Converting that limit to an effective Majorana mass depends on the assumed decay mechanism and nuclear matrix element. The result leaves the Dirac or Majorana question unresolved.
 
-**Statement check:** Source located. **Status check:** Source report only.
+**Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** Recorded source years: SRC-MODEL-312: 2025. The last-checked date records the scope described in the status basis; it is not a comprehensive literature-search date.
+**Source date and freshness:** The 2026-11-26 literature check identifies the publications, versions and limits covered.
 
-**Scope limits:** The statement and locator identify the candidate. A full assumption set and verification protocol remain to be documented.
+**Scope limits:** Distinguish the isotope-specific observed decay limit from an assumed mechanism, a mass limit inferred under it and the underlying identity of the light neutrinos.
 
 **Information still needed**
 
-- Specify the assumptions, candidate methods, resource requirements and independent verification steps for a concrete research task.
+- State the operator and nuclear matrix elements used in any conversion to an effective mass.
+- Check independent isotope searches and later releases for claims extending beyond this germanium result.
 
 **Primary branch:** [Quantum field, particle and nuclear theory](../domains/phys.md#phys-field). **Related branches:** None recorded.
 
-**Sources:** [Neutrino Masses, Mixing, and Oscillations](../sources.md#src-model-312).
+**Sources:** [Neutrino Masses, Mixing, and Oscillations](../sources.md#src-model-312); [First Results on the Search for Lepton Number Violating Neutrinoless Double-β Decay with the LEGEND-200 Experiment](../sources.md#src-phys-903).
 
-**Exact locator:** PDG chapter 14.2 and discussion of neutrinoless double-beta decay.
+**Exact locator:** PDG chapter 14.2 and discussion of neutrinoless double-beta decay. LEGEND Collaboration (2026), abstract.
 
 **Potential difficulty:** Frontier. The distinguishing processes are suppressed and their interpretation can involve several operators.
 
@@ -41,6 +42,37 @@ Determine whether the light neutrino mass eigenstates are Dirac or Majorana, and
 **Assessment:** 2026-10-14; untested forecast. **Uncertainty:** No AI capability or novelty was measured. This is a literature-defined scientific question, not a unique theorem with a universally agreed success test; any proposed model needs a separate hypothesis, consistency and empirical review.
 
 **Further work:** define a scoped target, resource requirements and a verification plan before developing a full card. **Human review:** Pending.
+
+## Literature checks
+
+These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-26
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Source reports open → Source reports open.
+
+Retain the broad question and attach a dated null result with its observable and interpretation.
+
+**Search scope:** Distinguish the isotope-specific observed decay limit from an assumed mechanism, a mass limit inferred under it and the underlying identity of the light neutrinos.
+
+**Inspected evidence**
+
+- [Neutrino Masses, Mixing, and Oscillations](../sources.md#src-model-312) — Chapter 14.2 and discussion of neutrinoless double-beta decay. Explains Dirac and Majorana alternatives and the role of neutrinoless decay.
+- [First Results on the Search for Lepton Number Violating Neutrinoless Double-β Decay with the LEGEND-200 Experiment](../sources.md#src-phys-903) — Abstract, combined germanium analysis. Reports an observed 90% lower half-life limit of 1.9 × 10²⁶ years. The 2.8 × 10²⁶ years quoted separately is the exclusion sensitivity.
+
+**Limits and remaining work**
+
+- No combined fit across isotopes or independent detector-data analysis was undertaken.
+
+<details>
+<summary>Search queries</summary>
+
+- 2025 2026 LEGEND-200 first results neutrinoless double beta decay KATRIN direct neutrino mass 0.45 eV Nature 2025 experiment
+
+
+</details>
 
 <details>
 <summary>Structured records</summary>

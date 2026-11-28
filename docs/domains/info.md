@@ -6,7 +6,7 @@ Limits of communication, representation and information processing.
 
 **Boundary:** Physical implementations link to physics and engineering.
 
-**Research sources: 35 · Primary tasks: 26 · Full cards: 7 · Cross-linked tasks: 2.**
+**Research sources: 41 · Primary tasks: 26 · Full cards: 7 · Cross-linked tasks: 2.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -38,9 +38,9 @@ Limits of communication, representation and information processing.
 | [General distributed-testing exponent](../candidates/Q-FORMAL-452.md) | Unknown | Literature-origin question | Unverified | Outline · Q-FORMAL-452 |
 | [Interactive distributed-testing exponent](../candidates/Q-FORMAL-453.md) | Unknown | Literature-origin question | Unverified | Outline · Q-FORMAL-453 |
 | [Mismatch-capacity formula](../candidates/Q-FORMAL-454.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-FORMAL-454 |
-| [Channel reliability function](../candidates/Q-FORMAL-455.md) | Unknown | Literature-origin question | Unverified | Outline · Q-FORMAL-455 |
-| [General broadcast-channel capacity](../candidates/Q-FORMAL-456.md) | Unknown | Literature-origin question | Unverified | Outline · Q-FORMAL-456 |
-| [General relay-channel capacity](../candidates/Q-FORMAL-457.md) | Unknown | Literature-origin question | Unverified | Outline · Q-FORMAL-457 |
+| [Channel reliability function](../candidates/Q-FORMAL-455.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-FORMAL-455 |
+| [General broadcast-channel capacity](../candidates/Q-FORMAL-456.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-FORMAL-456 |
+| [General relay-channel capacity](../candidates/Q-FORMAL-457.md) | Unknown | Literature-origin question | Conflicting evidence | Outline · Q-FORMAL-457 |
 | [Exact Gaussian interference-channel capacity](../candidates/Q-FORMAL-458.md) | Unknown | Literature-origin question | Unverified | Outline · Q-FORMAL-458 |
 | [Three-copy undistillability of the Werner endpoint](../cards/Q-MODEL-493.md) | High | Literature-origin question | Unverified | Full card · Q-MODEL-493 |
 | [Efficient passive initialization of a three-dimensional quantum memory](../cards/Q-MODEL-496.md) | High | Literature-origin question | Source reports open | Full card · Q-MODEL-496 |
@@ -90,6 +90,12 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [Undistillability of Werner states from three, four and five copies](../sources.md#src-phys-707) | Research entry | 2026 |
 | [Mismatch Capacity under Stochastic Decoding](../sources.md#src-math-809) | Research entry | 2026 |
 | [Improved Lower Bounds on the Capacity of the Binary Deletion Channel via a Learning Approach to Run-Length Inputs](../sources.md#src-math-810) | Research entry | 2026 |
+| [Sub-optimality of Marton's Inner Bound for the Two-Receiver Broadcast Channel](../sources.md#src-math-906) | Research entry | 2026 |
+| [The Capacity of the Relay Channel](../sources.md#src-math-907) | Research entry | 2026 |
+| [Counterexample to a Proposed Capacity Characterization of the Relay Channel](../sources.md#src-math-908) | Research entry | 2026 |
+| [The Computability of the Channel Reliability Function and Related Bounds](../sources.md#src-math-931) | Research entry | 2025 |
+| [Distance distribution of binary codes and the error probability of decoding](../sources.md#src-math-932) | Research entry | 2005 |
+| [An Upper Bound on the Reliability Function of the DMC](../sources.md#src-math-933) | Research entry | 2022 |
 
 <a id="branches"></a>
 
@@ -152,7 +158,7 @@ Limits of reliable communication and compression.
 
 **Representative objects:** capacity, rate-distortion, source coding.
 
-**Direct source entries:** [Binary Deletion Channel Capacity to Within One Hundredth of a Bit](../sources.md#src-formal-318), [New Mathematical Techniques in Information Theory](../sources.md#src-formal-445), [Elements of Network Information Theory: ISIT 2011 tutorial](../sources.md#src-formal-446), [Gaussian Interference Channel Capacity to Within One Bit](../sources.md#src-formal-447), [Mismatch Capacity under Stochastic Decoding](../sources.md#src-formal-614), [On the Optimality of Gaussian Code-books for Signaling over a Two-Users Weak Gaussian Interference Channel](../sources.md#src-formal-616), [Binary deletion-channel capacity: verification materials](../sources.md#src-impact-009), [Mismatch Capacity under Stochastic Decoding](../sources.md#src-math-809), [Improved Lower Bounds on the Capacity of the Binary Deletion Channel via a Learning Approach to Run-Length Inputs](../sources.md#src-math-810).
+**Direct source entries:** [Binary Deletion Channel Capacity to Within One Hundredth of a Bit](../sources.md#src-formal-318), [New Mathematical Techniques in Information Theory](../sources.md#src-formal-445), [Elements of Network Information Theory: ISIT 2011 tutorial](../sources.md#src-formal-446), [Gaussian Interference Channel Capacity to Within One Bit](../sources.md#src-formal-447), [Mismatch Capacity under Stochastic Decoding](../sources.md#src-formal-614), [On the Optimality of Gaussian Code-books for Signaling over a Two-Users Weak Gaussian Interference Channel](../sources.md#src-formal-616), [Binary deletion-channel capacity: verification materials](../sources.md#src-impact-009), [Mismatch Capacity under Stochastic Decoding](../sources.md#src-math-809), [Improved Lower Bounds on the Capacity of the Binary Deletion Channel via a Learning Approach to Run-Length Inputs](../sources.md#src-math-810), [Sub-optimality of Marton's Inner Bound for the Two-Receiver Broadcast Channel](../sources.md#src-math-906), [The Capacity of the Relay Channel](../sources.md#src-math-907), [Counterexample to a Proposed Capacity Characterization of the Relay Channel](../sources.md#src-math-908), [The Computability of the Channel Reliability Function and Related Bounds](../sources.md#src-math-931), [Distance distribution of binary codes and the error probability of decoding](../sources.md#src-math-932), [An Upper Bound on the Reliability Function of the DMC](../sources.md#src-math-933).
 
 **Primary tasks in this branch and its descendants**
 

@@ -3498,5 +3498,591 @@
       "MPHY"
     ],
     "mapping_basis": "Association based on the inspected statement and scope; this source does not establish complete coverage of the branch."
+  },
+  {
+    "source_id": "SRC-LAND-900",
+    "domain_ids": [
+      "MPHY",
+      "PHYS.FLUID"
+    ],
+    "mapping_basis": "The authors derive compressible Euler and incompressible Navier–Stokes–Fourier dynamics from elastic hard spheres in the respective scaling limits."
+  },
+  {
+    "source_id": "SRC-LAND-901",
+    "domain_ids": [
+      "MATH",
+      "LOGIC"
+    ],
+    "mapping_basis": "Theorem 1.1 proves undecidability for infinite rings finitely generated over the integers. Theorem 1.2 treats rings of integers of number fields."
+  },
+  {
+    "source_id": "SRC-LAND-902",
+    "domain_ids": [
+      "MATH",
+      "LOGIC"
+    ],
+    "mapping_basis": "A rank-stability theorem for abelian varieties gives an independent proof of undecidability over the ring of integers of every number field."
+  },
+  {
+    "source_id": "SRC-LAND-903",
+    "domain_ids": [
+      "MATH",
+      "LOGIC"
+    ],
+    "mapping_basis": "The manuscript claims undecidability for finding a rational zero of an integer-coefficient polynomial."
+  },
+  {
+    "source_id": "SRC-LAND-904",
+    "domain_ids": [
+      "MATH.ANAL.PDE",
+      "PHYS.FLUID"
+    ],
+    "mapping_basis": "OpenAI reports finite-time blow-up from rest under a smooth applied force, targeting alternatives C and D."
+  },
+  {
+    "source_id": "SRC-LAND-905",
+    "domain_ids": [
+      "MATH.ANAL.PDE",
+      "PHYS.FLUID"
+    ],
+    "mapping_basis": "The authors claim unforced blow-up for smooth compactly supported data on three-dimensional Euclidean space and for smooth periodic data."
+  },
+  {
+    "source_id": "SRC-LAND-906",
+    "domain_ids": [
+      "MATH.ANAL.PDE",
+      "LOGIC"
+    ],
+    "mapping_basis": "The authors dispute the correspondence between the September written argument and its formalization."
+  },
+  {
+    "source_id": "SRC-MATH-900",
+    "domain_ids": [
+      "MATH.ALG"
+    ],
+    "mapping_basis": "Records the editors' November statements, attributions and solution markers for four group theory problems."
+  },
+  {
+    "source_id": "SRC-MATH-901",
+    "domain_ids": [
+      "MATH.ALG"
+    ],
+    "mapping_basis": "Reports a negative answer to Problem 21.55 in every characteristic."
+  },
+  {
+    "source_id": "SRC-MATH-902",
+    "domain_ids": [
+      "MATH.ALG"
+    ],
+    "mapping_basis": "States the five-subgroup conjecture and proves that triples of soluble subgroups are regular in almost simple sporadic groups."
+  },
+  {
+    "source_id": "SRC-MATH-903",
+    "domain_ids": [
+      "MATH.ALG"
+    ],
+    "mapping_basis": "Proves the fraction 89/325 for primitive simple groups with soluble point stabilisers and records the equality case."
+  },
+  {
+    "source_id": "SRC-MATH-904",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "Gives a convex polyhedron for which pulling fails to produce a Hamiltonian tetrahedralization."
+  },
+  {
+    "source_id": "SRC-MATH-905",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "Establishes a bounded-hull case without added points and an upper bound on the number of additional points for general-position inputs."
+  },
+  {
+    "source_id": "SRC-MATH-906",
+    "domain_ids": [
+      "INFO.SHANNON"
+    ],
+    "mapping_basis": "Reports an unconstrained finite broadcast channel for which the two-letter Marton sum rate exceeds twice the one-letter value."
+  },
+  {
+    "source_id": "SRC-MATH-907",
+    "domain_ids": [
+      "INFO.SHANNON"
+    ],
+    "mapping_basis": "Claims a general capacity characterization using three relaying schemes."
+  },
+  {
+    "source_id": "SRC-MATH-908",
+    "domain_ids": [
+      "INFO.SHANNON"
+    ],
+    "mapping_basis": "Exhibits a binary relay channel and an achievable rate exceeding the earlier proposed general formula."
+  },
+  {
+    "source_id": "SRC-MODEL-900",
+    "domain_ids": [
+      "STAT.LEARN"
+    ],
+    "mapping_basis": "The authors of the COLT problem give a regret frontier and a horizon-dependent algorithm for unknown moment parameters."
+  },
+  {
+    "source_id": "SRC-MODEL-901",
+    "domain_ids": [
+      "STAT.LEARN"
+    ],
+    "mapping_basis": "Gives sufficient visibility conditions and a converse for specified arm-specific central-moment exploration budgets."
+  },
+  {
+    "source_id": "SRC-MODEL-902",
+    "domain_ids": [
+      "PROB.DISCRETE",
+      "NET.DYNAMICS"
+    ],
+    "mapping_basis": "Bounds continuous-time voter consensus by a constant times the maximum one-walker hitting time, for arbitrary initial opinions."
+  },
+  {
+    "source_id": "SRC-MODEL-903",
+    "domain_ids": [
+      "PROB.DISCRETE"
+    ],
+    "mapping_basis": "Constructs a common subtree in independent uniform trees and proves an expectation lower bound for every exponent below an explicit beta between 0.4464 and 0.4465; the construction covers rooted trees."
+  },
+  {
+    "source_id": "SRC-MODEL-904",
+    "domain_ids": [
+      "PROB.DISCRETE"
+    ],
+    "mapping_basis": "Gives a polynomial lower bound specific to Yule–Harding trees and a square-root upper bound applicable to independent trees under that law."
+  },
+  {
+    "source_id": "SRC-MODEL-905",
+    "domain_ids": [
+      "PROB.DISCRETE"
+    ],
+    "mapping_basis": "Identifies the common ranked-topology distribution of the Yule and coalescent models."
+  },
+  {
+    "source_id": "SRC-MODEL-906",
+    "domain_ids": [
+      "COG.NEURO"
+    ],
+    "mapping_basis": "Compares audio-model predictions across two independent human auditory fMRI datasets using the same 165 natural sounds."
+  },
+  {
+    "source_id": "SRC-MODEL-907",
+    "domain_ids": [
+      "PROB.DISCRETE",
+      "NET.DYNAMICS"
+    ],
+    "mapping_basis": "Provides a cover-time bound relevant to hitting-time comparisons for consensus."
+  },
+  {
+    "source_id": "SRC-PHYS-900",
+    "domain_ids": [
+      "ASTRO.DYN"
+    ],
+    "mapping_basis": "Reports necessary mass conditions from first-limit diagrams and defers finiteness on exceptional positive mass loci."
+  },
+  {
+    "source_id": "SRC-PHYS-901",
+    "domain_ids": [
+      "ASTRO.DYN"
+    ],
+    "mapping_basis": "Reports planar six-body finiteness outside a proper algebraic subset of the positive mass vectors."
+  },
+  {
+    "source_id": "SRC-PHYS-902",
+    "domain_ids": [
+      "PHYS.FIELD"
+    ],
+    "mapping_basis": "Reports a 90% confidence upper limit of 0.45 eV on the effective electron-neutrino mass from five tritium endpoint measurement campaigns."
+  },
+  {
+    "source_id": "SRC-PHYS-903",
+    "domain_ids": [
+      "PHYS.FIELD"
+    ],
+    "mapping_basis": "Combining three germanium experiments yields an observed lower limit of 1.9 × 10²⁶ years on the ⁷⁶Ge neutrinoless-decay half-life at 90% confidence."
+  },
+  {
+    "source_id": "SRC-PHYS-904",
+    "domain_ids": [
+      "EARTH.ENV"
+    ],
+    "mapping_basis": "The authors estimate a 37% increase over rainfall alone in water available for runoff during the February 2017 Lake Oroville event."
+  },
+  {
+    "source_id": "SRC-PHYS-905",
+    "domain_ids": [
+      "EARTH.ENV"
+    ],
+    "mapping_basis": "For the same California event, observations and model experiments support a smaller estimated melt contribution and an important role for antecedent soil moisture."
+  },
+  {
+    "source_id": "SRC-PHYS-906",
+    "domain_ids": [
+      "CHEM.QUANT"
+    ],
+    "mapping_basis": "At fixed external potential, the paper gives an explicit duality-map formula recovering a physical ground-state density from a minimizer of the regularized problem."
+  },
+  {
+    "source_id": "SRC-PHYS-907",
+    "domain_ids": [
+      "CHEM.QUANT"
+    ],
+    "mapping_basis": "Separates v-representable densities from mixed densities and gives an electrostatic interpretation for a particular choice of spaces and duality map."
+  },
+  {
+    "source_id": "SRC-PHYS-908",
+    "domain_ids": [
+      "MPHY.SPECTRAL"
+    ],
+    "mapping_basis": "States the locally uniform heat-kernel ratio limit separately from a weighted semigroup-norm conjecture."
+  },
+  {
+    "source_id": "SRC-PHYS-909",
+    "domain_ids": [
+      "MPHY.SPECTRAL"
+    ],
+    "mapping_basis": "Reports the ratio limit for a nonzero nonnegative potential perturbation of a symmetric critical operator under the stated elliptic hypotheses."
+  },
+  {
+    "source_id": "SRC-PHYS-910",
+    "domain_ids": [
+      "ENG.CONTROL"
+    ],
+    "mapping_basis": "The authors construct an optimal discrete-time reduced model when the order drops by the multiplicity of the smallest Hankel singular value."
+  },
+  {
+    "source_id": "SRC-MATH-910",
+    "domain_ids": [
+      "LOGIC.MODEL"
+    ],
+    "mapping_basis": "Establishes Vaught's model-counting dichotomy for complete theories of lexicographic sums of finite products of rooted trees under a finite index order."
+  },
+  {
+    "source_id": "SRC-NET-900",
+    "domain_ids": [
+      "NET.STRUCT"
+    ],
+    "mapping_basis": "The vertex random walks in Theorem 4.5 have weighted, possibly directed graph representations. Section 5 distinguishes the oriented hypergraph Laplacian."
+  },
+  {
+    "source_id": "SRC-NET-901",
+    "domain_ids": [
+      "NET.DYNAMICS"
+    ],
+    "mapping_basis": "Studies how pairwise and three-body coupling affect the local stability of the in-phase state in specified hypergraph and simplicial-complex ensembles."
+  },
+  {
+    "source_id": "SRC-LAND-920",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "A triangulated surface admits a connected planar layout in linear time when triangles may meet at vertices."
+  },
+  {
+    "source_id": "SRC-LAND-921",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "Every nested prismoid admits an edge zipper. Some convex domes have Hamiltonian graphs but every Hamiltonian edge unfolding overlaps."
+  },
+  {
+    "source_id": "SRC-LAND-922",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "Nearly flat convex caps can lack any zipper, including one allowed to cross faces."
+  },
+  {
+    "source_id": "SRC-LAND-923",
+    "domain_ids": [
+      "MATH.GEOM"
+    ],
+    "mapping_basis": "For polyhedra in Euclidean three-space, volume and the Dehn invariant together classify finite scissors congruence."
+  },
+  {
+    "source_id": "SRC-LAND-924",
+    "domain_ids": [
+      "MATH"
+    ],
+    "mapping_basis": "Reznick constructs explicit multivariate polynomials that are nonnegative on real inputs yet have no representation as sums of squares of polynomials."
+  },
+  {
+    "source_id": "SRC-LAND-925",
+    "domain_ids": [
+      "MATH.GEOM"
+    ],
+    "mapping_basis": "The face-centered cubic packing attains the maximal density π/√18 for congruent balls in Euclidean three-space."
+  },
+  {
+    "source_id": "SRC-LAND-926",
+    "domain_ids": [
+      "MATH.GEOM"
+    ],
+    "mapping_basis": "A periodic packing of regular tetrahedra has density 4000/4671 and maximizes density in the three-parameter family studied."
+  },
+  {
+    "source_id": "SRC-MATH-920",
+    "domain_ids": [
+      "MATH.ALG"
+    ],
+    "mapping_basis": "Claims an exhaustive list of finite simple groups whose enhanced power graphs are chordal."
+  },
+  {
+    "source_id": "SRC-MATH-921",
+    "domain_ids": [
+      "MATH.ALG"
+    ],
+    "mapping_basis": "Poses the fixed-length and chordal classifications separately and characterizes the absence of an induced four-cycle in terms of subgroup structure."
+  },
+  {
+    "source_id": "SRC-MATH-922",
+    "domain_ids": [
+      "MATH.ALG"
+    ],
+    "mapping_basis": "Relates Hopficity for all wreath products in the abelian-base case to Kaplansky’s stable finiteness conjecture."
+  },
+  {
+    "source_id": "SRC-MATH-923",
+    "domain_ids": [
+      "MATH.ALG",
+      "MATH.ANAL.HARM"
+    ],
+    "mapping_basis": "Derives a group with Hopfian factors and a non-Hopfian wreath product from an external group-algebra theorem, and derives a planar bound from a separate Fourier certificate."
+  },
+  {
+    "source_id": "SRC-MATH-924",
+    "domain_ids": [
+      "MATH.ALG"
+    ],
+    "mapping_basis": "Reports a finitely presented torsion-free group whose group algebra over the field of two elements contains a one-sided inverse that is not two-sided."
+  },
+  {
+    "source_id": "SRC-MATH-925",
+    "domain_ids": [
+      "MATH.ALG"
+    ],
+    "mapping_basis": "Presents a subsequent exposition of the characteristic-two construction and an adaptation to hyperbolic groups in each positive characteristic."
+  },
+  {
+    "source_id": "SRC-MATH-926",
+    "domain_ids": [
+      "MATH.ANAL.HARM"
+    ],
+    "mapping_basis": "Claims a radial Schwartz function with nonnegative Fourier transform and sharp origin ratio for a unit sign radius in the plane."
+  },
+  {
+    "source_id": "SRC-MATH-927",
+    "domain_ids": [
+      "LOGIC.PROOF"
+    ],
+    "mapping_basis": "Constructs an oracle with an infinite polynomial hierarchy and no optimal proof systems for languages in PSPACE outside NP."
+  },
+  {
+    "source_id": "SRC-MATH-928",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "Provides exact algorithms for polyhedral norms in fixed dimension and Euclidean NP-hardness in dimension at least three."
+  },
+  {
+    "source_id": "SRC-MATH-929",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "Gives an efficient approximation scheme for maximum total tour length in metrics of fixed doubling dimension."
+  },
+  {
+    "source_id": "SRC-MATH-930",
+    "domain_ids": [
+      "CS.GEOM"
+    ],
+    "mapping_basis": "Gives an efficient approximation scheme for maximizing the shortest edge in fixed doubling dimension and explicitly leaves exact planar Euclidean optimization open."
+  },
+  {
+    "source_id": "SRC-MATH-931",
+    "domain_ids": [
+      "INFO.SHANNON"
+    ],
+    "mapping_basis": "Describes the unresolved low-rate characterization and studies computability as a function of the channel and rate."
+  },
+  {
+    "source_id": "SRC-MATH-932",
+    "domain_ids": [
+      "INFO.SHANNON"
+    ],
+    "mapping_basis": "Identifies an interval immediately below the critical rate where the random-coding exponent gives the reliability function for the binary symmetric channels covered by the theorem."
+  },
+  {
+    "source_id": "SRC-MATH-933",
+    "domain_ids": [
+      "INFO.SHANNON"
+    ],
+    "mapping_basis": "Gives a channel-coding converse that improves on the sphere-packing bound in examples."
+  },
+  {
+    "source_id": "SRC-MODEL-920",
+    "domain_ids": [
+      "NET.DYNAMICS",
+      "PROB.DISCRETE"
+    ],
+    "mapping_basis": "Version 1 states that a uniform random simple cubic graph has a nonsynchronized local minimum with high probability. The authors withdrew the manuscript after finding a solution on GitHub."
+  },
+  {
+    "source_id": "SRC-MODEL-921",
+    "domain_ids": [
+      "ECON.GAME",
+      "PROB.PROCESS"
+    ],
+    "mapping_basis": "For discrete-time stopping games with integrable payoffs, the first theorem assumes a conditionally atomless filtration. For three players, the second permits any filtration."
+  },
+  {
+    "source_id": "SRC-MODEL-922",
+    "domain_ids": [
+      "STAT.LEARN",
+      "CS"
+    ],
+    "mapping_basis": "For a Boolean class on n-bit inputs, the paper reports efficient distribution-free SQ learning to error 0.01 alongside superpolynomial exact dimension complexity."
+  },
+  {
+    "source_id": "SRC-MODEL-923",
+    "domain_ids": [
+      "STAT.LEARN",
+      "CS"
+    ],
+    "mapping_basis": "The author reports a separation on a domain of size 2N³, with logarithmically many queries at fixed error and linear dimension for the stated deterministic and probabilistic variants."
+  },
+  {
+    "source_id": "SRC-MODEL-924",
+    "domain_ids": [
+      "STAT.LEARN",
+      "CS"
+    ],
+    "mapping_basis": "The pure event-level private algorithm attains worst-case gap-dependent pseudo-regret of order (log K)/Δ + (log K)/ε uniformly in the horizon, matching the cited lower bound in its applicable regime."
+  },
+  {
+    "source_id": "SRC-MODEL-925",
+    "domain_ids": [
+      "STAT.LEARN",
+      "CS"
+    ],
+    "mapping_basis": "SIAM lists the matching title and both authors among papers accepted at SODA 2027."
+  },
+  {
+    "source_id": "SRC-MODEL-926",
+    "domain_ids": [
+      "STAT.LEARN",
+      "CS"
+    ],
+    "mapping_basis": "The authors obtain O(d log d) sample complexity at fixed learning and privacy parameters for Littlestone dimension d. They explicitly retain the question about a polynomial in the VC dimension and log-star d."
+  },
+  {
+    "source_id": "SRC-MODEL-927",
+    "domain_ids": [
+      "COG.NEURO"
+    ],
+    "mapping_basis": "The study found image changes that macaques had difficulty distinguishing from stimulation in inferior temporal cortex. The inferred change depended on the image, site and stimulation intensity."
+  },
+  {
+    "source_id": "SRC-MODEL-928",
+    "domain_ids": [
+      "COG.NEURO"
+    ],
+    "mapping_basis": "Learned weighted sums of macaque inferior temporal firing rates predicted the pattern of human performance across 64 object-recognition tests."
+  },
+  {
+    "source_id": "SRC-MODEL-929",
+    "domain_ids": [
+      "PROB.DISCRETE",
+      "MATH"
+    ],
+    "mapping_basis": "The computational search excluded all but 975 of 7,141,686 candidate coefficient patterns in the stated range."
+  },
+  {
+    "source_id": "SRC-MODEL-930",
+    "domain_ids": [
+      "PROB.DISCRETE",
+      "MATH"
+    ],
+    "mapping_basis": "The paper establishes fairness for certain two-block supports when the lower block is fair and the spacing meets its degree bounds."
+  },
+  {
+    "source_id": "SRC-PHYS-920",
+    "domain_ids": [
+      "ASTRO.COSMO"
+    ],
+    "mapping_basis": "Reports a high-energy recoil in 2.84 tonne-years of xenon exposure and distinguishes local from global significance."
+  },
+  {
+    "source_id": "SRC-PHYS-921",
+    "domain_ids": [
+      "ENG.ROBUST"
+    ],
+    "mapping_basis": "Provides a procedure for the slow-switching limit and relates it to the gain for a single switch."
+  },
+  {
+    "source_id": "SRC-PHYS-922",
+    "domain_ids": [
+      "EARTH.ENV"
+    ],
+    "mapping_basis": "A spatially resolved global model estimates fresh groundwater discharge, distinguishes it from recirculated seawater and finds strong variation among coastal environments."
+  },
+  {
+    "source_id": "SRC-PHYS-923",
+    "domain_ids": [
+      "MPHY.SPECTRAL"
+    ],
+    "mapping_basis": "Asks for a coefficient test for eigenfunctions under periodic boundary conditions and identifies a two-term potential with an exact criterion."
+  },
+  {
+    "source_id": "SRC-PHYS-924",
+    "domain_ids": [
+      "MPHY.SPECTRAL"
+    ],
+    "mapping_basis": "For the potential a exp(−2ix) + B exp(4ix) with both coefficients nonzero, the system of root functions is complete but fails to be a basis under periodic boundary conditions."
+  },
+  {
+    "source_id": "SRC-PHYS-925",
+    "domain_ids": [
+      "CHEM.QUANT"
+    ],
+    "mapping_basis": "Formulates density-to-potential inversion as a fixed-point problem and gives an iterative argument subject to bounds on the response."
+  },
+  {
+    "source_id": "SRC-PHYS-926",
+    "domain_ids": [
+      "CHEM.QUANT"
+    ],
+    "mapping_basis": "The authors obtain global representability in the conventional and geometric dimer formulations and report nonuniqueness of the effective potential at singular times."
+  },
+  {
+    "source_id": "SRC-PHYS-927",
+    "domain_ids": [
+      "PHYS.GRAV"
+    ],
+    "mapping_basis": "Constructs vacuum cosmological spacetimes with no constant-mean-curvature Cauchy surface on spatial topologies M # M for closed, oriented, irreducible, nonspherical three-manifolds M."
+  },
+  {
+    "source_id": "SRC-PHYS-928",
+    "domain_ids": [
+      "PHYS.GRAV"
+    ],
+    "mapping_basis": "For families satisfying the stated scaling, smoothness and limit conditions, the limiting worldline is a background geodesic. The paper derives first-order self-force and spin-curvature corrections."
+  },
+  {
+    "source_id": "SRC-PHYS-929",
+    "domain_ids": [
+      "PHYS.GRAV"
+    ],
+    "mapping_basis": "A concentration theorem with a dominant energy condition and nearby metrics yields geodesic motion in the small-body limit."
+  },
+  {
+    "source_id": "SRC-PHYS-930",
+    "domain_ids": [
+      "PHYS.GRAV"
+    ],
+    "mapping_basis": "Reviews the small-body expansion and the later extension of gravitational self-force calculations to second perturbative order."
   }
 ]
