@@ -10,26 +10,25 @@ Explain the controls on recharge, inter-catchment exchange and groundwater disch
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Unverified. **Last checked:** 2026-10-14.
+**Current status:** Unverified. **Last checked:** 2026-11-28.
 
-**Status basis:** The numbered IAHS question is a broad research direction. Its source statement is identifiable, but a single current solved/open verdict is not established without a specified model and outcome. The 2026 remote-sensing agenda identifies continuing related limitations; it does not settle the whole UPH direction.
+**Status basis:** IAHS asks about groundwater fluxes at several different hydrologic boundaries. For the coastal part, Luijendijk and coauthors distinguish fresh discharge below mean sea level, nearshore discharge on land and recirculated seawater. Their global model finds substantial local variation in freshwater discharge. General controls on recharge and exchange across catchments require separate evidence.
 
-**Statement check:** Needs clarification. **Status check:** Later literature checked.
+**Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** Recorded source years: SRC-CROSS-402: 2019; SRC-CROSS-609: 2026. Later evidence is limited to the passages in the dated literature check; an access date does not refresh a historical claim.
+**Source date and freshness:** The 28 November 2026 check covers the works and passages listed in the literature record.
 
-**Scope limits:** The numbered IAHS question is a broad research direction. Its source statement is identifiable, but a single current solved/open verdict is not established without a specified model and outcome. The 2026 remote-sensing agenda identifies continuing related limitations; it does not settle the whole UPH direction.
+**Scope limits:** Match each flux estimate to its spatial boundary, water source and averaging period. The coastal model uses modeled watersheds and aquifer properties.
 
 **Information still needed**
 
-- Specify hydraulic boundaries and distinguish inter-basin exchange from coastal submarine discharge.
-- Specialist assessment of the exact formulation and remaining novelty is pending.
+- Choose one exchange boundary and a timescale. Identify independent head, discharge or tracer data and state how the model treats flow across topographic divides.
 
 **Primary branch:** [Environmental systems and resource models](../domains/earth.md#earth-env). **Related branches:** None recorded.
 
-**Sources:** [The 23 Unsolved Problems in Hydrology](../sources.md#src-cross-402); [Remote Sensing Hydrology Revisited: Advances, Persistent Challenges, and a Science-Driven Agenda for the Next Decade](../sources.md#src-cross-609).
+**Sources:** [The 23 Unsolved Problems in Hydrology](../sources.md#src-cross-402); [Remote Sensing Hydrology Revisited: Advances, Persistent Challenges, and a Science-Driven Agenda for the Next Decade](../sources.md#src-cross-609); [Fresh groundwater discharge insignificant for the world’s oceans but important for coastal ecosystems](../sources.md#src-phys-922).
 
-**Exact locator:** IAHS UPH question 13; 2019 community list.
+**Exact locator:** IAHS, question 13. Luijendijk, Gleeson and Moosdorf, abstract, Introduction and Methods.
 
 **Potential difficulty:** High. The target involves model choice, competing mechanisms or extrapolation; a narrow instance may be manageable, but the full research direction has no established cost bound.
 
@@ -46,6 +45,33 @@ Explain the controls on recharge, inter-catchment exchange and groundwater disch
 ## Literature checks
 
 These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-28
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Unverified → Unverified.
+
+IAHS asks about groundwater fluxes at several different hydrologic boundaries. For the coastal part, Luijendijk and coauthors distinguish fresh discharge below mean sea level, nearshore discharge on land and recirculated seawater. Their global model finds substantial local variation in freshwater discharge. General controls on recharge and exchange across catchments require separate evidence.
+
+**Search scope:** Match each flux estimate to its spatial boundary, water source and averaging period. The coastal model uses modeled watersheds and aquifer properties.
+
+**Inspected evidence**
+
+- [The 23 Unsolved Problems in Hydrology](../sources.md#src-cross-402) — Space and variability, question 13. Lists recharge, inter-catchment exchange and discharge to the oceans as examples of the broader boundary-flux question.
+- [Fresh groundwater discharge insignificant for the world’s oceans but important for coastal ecosystems](../sources.md#src-phys-922) — Abstract, Introduction and Methods, especially the coastal watershed and permeability descriptions. A spatially resolved global model estimates fresh groundwater discharge, distinguishes it from recirculated seawater and finds strong variation among coastal environments.
+
+**Limits and remaining work**
+
+- Choose one exchange boundary and a timescale. Identify independent head, discharge or tracer data and state how the model treats flow across topographic divides.
+
+<details>
+<summary>Search queries</summary>
+
+- IAHS unsolved hydrology question 13 intercatchment flux groundwater discharge oceans global coastal groundwater recharge Luijendijk
+
+
+</details>
 
 ### 2026-10-14
 

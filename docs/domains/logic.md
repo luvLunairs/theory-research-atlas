@@ -6,7 +6,7 @@ Formal reasoning, definability and foundational systems.
 
 **Boundary:** Metamathematical claims specify their ambient logic and axioms.
 
-**Research sources: 23 · Primary tasks: 24 · Full cards: 1 · Cross-linked tasks: 8.**
+**Research sources: 24 · Primary tasks: 24 · Full cards: 1 · Cross-linked tasks: 8.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -78,6 +78,7 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [Hilbert's tenth problem over the rational numbers](../sources.md#src-land-903) | Research entry | 2026 |
 | [Navier-Stokes lost in translation: Why Lean verification of AI autoformalisation does not guarantee correct natural language proofs](../sources.md#src-land-906) | Research entry | 2026 |
 | [Vaught's Conjecture for Sums of Products of Rooted Trees](../sources.md#src-math-910) | Research entry | 2026 |
+| [Optimal Proof Systems for Complex Sets are Hard to Find](../sources.md#src-math-927) | Research entry | 2024 |
 
 <a id="branches"></a>
 
@@ -229,7 +230,7 @@ Proof systems and their strength or computational content.
 
 **Representative objects:** sequent calculi, ordinal analyses, constructive proofs.
 
-**Direct source entries:** [Reverse Mathematics](../sources.md#src-formal-009), [SRT^2_2 does not imply RT^2_2 in omega-models](../sources.md#src-formal-011), [AC⁰[p]-Frege Cannot Efficiently Prove That Constant-Depth Algebraic Circuit Lower Bounds Are Hard](../sources.md#src-formal-308), [The SPARSE-Relativization Framework and Applications to Optimal Proof Systems](../sources.md#src-formal-309), [An exponential lower bound for the bit pigeonhole principle in resolution over parities](../sources.md#src-math-805), [Random (log n)-CNF Formulas Are Hard for Depth-2 Frege with Modular Gates](../sources.md#src-math-806).
+**Direct source entries:** [Reverse Mathematics](../sources.md#src-formal-009), [SRT^2_2 does not imply RT^2_2 in omega-models](../sources.md#src-formal-011), [AC⁰[p]-Frege Cannot Efficiently Prove That Constant-Depth Algebraic Circuit Lower Bounds Are Hard](../sources.md#src-formal-308), [The SPARSE-Relativization Framework and Applications to Optimal Proof Systems](../sources.md#src-formal-309), [An exponential lower bound for the bit pigeonhole principle in resolution over parities](../sources.md#src-math-805), [Random (log n)-CNF Formulas Are Hard for Depth-2 Frege with Modular Gates](../sources.md#src-math-806), [Optimal Proof Systems for Complex Sets are Hard to Find](../sources.md#src-math-927).
 
 **Primary tasks in this branch and its descendants**
 

@@ -6,7 +6,7 @@ Mathematical models of Earth and environmental processes.
 
 **Boundary:** Inference about Earth requires observations beyond internal model consistency.
 
-**Research sources: 10 · Primary tasks: 20 · Full cards: 1 · Cross-linked tasks: 0.**
+**Research sources: 11 · Primary tasks: 20 · Full cards: 1 · Cross-linked tasks: 0.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -60,6 +60,7 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [Catchment hydrological response and transport are affected differently by precipitation intensity and antecedent wetness](../sources.md#src-phys-806) | Research entry | 2025 |
 | [Extreme Runoff Generation From Atmospheric River Driven Snowmelt During the 2017 Oroville Dam Spillways Incident](../sources.md#src-phys-904) | Research entry | 2020 |
 | [Watershed memory amplified the Oroville rain-on-snow flood of February 2017](../sources.md#src-phys-905) | Research entry | 2023 |
+| [Fresh groundwater discharge insignificant for the world’s oceans but important for coastal ecosystems](../sources.md#src-phys-922) | Research entry | 2020 |
 
 <a id="branches"></a>
 
@@ -240,7 +241,7 @@ Formal models of coupled environmental processes.
 
 **Representative objects:** hydrology, resource dynamics, biogeochemical cycles.
 
-**Direct source entries:** [The 23 Unsolved Problems in Hydrology](../sources.md#src-cross-402), [Catchment hydrological response and transport are affected differently by precipitation intensity and antecedent wetness](../sources.md#src-phys-806), [Extreme Runoff Generation From Atmospheric River Driven Snowmelt During the 2017 Oroville Dam Spillways Incident](../sources.md#src-phys-904), [Watershed memory amplified the Oroville rain-on-snow flood of February 2017](../sources.md#src-phys-905).
+**Direct source entries:** [The 23 Unsolved Problems in Hydrology](../sources.md#src-cross-402), [Catchment hydrological response and transport are affected differently by precipitation intensity and antecedent wetness](../sources.md#src-phys-806), [Extreme Runoff Generation From Atmospheric River Driven Snowmelt During the 2017 Oroville Dam Spillways Incident](../sources.md#src-phys-904), [Watershed memory amplified the Oroville rain-on-snow flood of February 2017](../sources.md#src-phys-905), [Fresh groundwater discharge insignificant for the world’s oceans but important for coastal ecosystems](../sources.md#src-phys-922).
 
 **Primary tasks in this branch and its descendants**
 

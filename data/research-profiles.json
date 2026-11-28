@@ -999,13 +999,13 @@
     "problem_id": "Q-MODEL-207",
     "difficulty": "unknown",
     "difficulty_basis": "No separate difficulty review of this exact statement is recorded. Its origin or current status does not establish tractability.",
-    "ai_role": "Compare the announced and manuscript targets with the original conjecture and assist a specialist review of the claimed asymptotic obstruction before proposing a fresh attack.",
+    "ai_role": "Trace the two arguments to their precise graph ensembles and stability definitions before treating them as separate evidence.",
     "verification_burden": "high",
     "verification_basis": "Check the random simple labeled graph law, cycle-neighborhood and spectral assumptions, and the construction of genuine local minima modulo rotation. Neither numerical minima nor agent reviews establish independent acceptance.",
     "resource_expectation": "No run estimate is available. Decide data, computation and experiment requirements after selecting a concrete approach.",
-    "assessment_date": "2026-11-06",
+    "assessment_date": "2026-11-28",
     "evidence_level": "untested_forecast",
-    "uncertainty": "The exact-model negative manuscript is a public claim whose external acceptance remains unverified. Its incomplete Lean work is not machine certification."
+    "uncertainty": "Neither the withdrawn version nor the separate manuscript received an independent proof audit here. Check the local-minimum criterion and its correspondence to the claimed dynamics."
   },
   {
     "problem_id": "Q-MODEL-208",
@@ -1623,25 +1623,25 @@
     "problem_id": "Q-FORMAL-315",
     "difficulty": "frontier",
     "difficulty_basis": "Quantification over all polynomial-time proof systems resists ordinary finite comparisons.",
-    "ai_role": "Check proof-translation constructions and identify nonrelativizing steps in a proposed argument.",
+    "ai_role": "Test whether a proposed simulation is uniform and polynomial-time and whether the proof would relativize to the known counterexamples.",
     "verification_burden": "high",
     "verification_basis": "Simulation must be an effective polynomial-time translation, not just a proof-length comparison.",
     "resource_expectation": "No physical experiment or external dataset is required. Main cost is specialist proof development and review; finite searches can grow exponentially and need a separately specified limit.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-28",
     "evidence_level": "untested_forecast",
-    "uncertainty": "No named model has been evaluated. These are possible research-support roles, not evidence that current AI can resolve the general problem."
+    "uncertainty": "A proposed unrelativized argument needs to explain which step avoids the known relativization barrier. Model performance on this task has not been measured."
   },
   {
     "problem_id": "Q-FORMAL-316",
     "difficulty": "frontier",
     "difficulty_basis": "The target concerns a PSPACE-complete language and universal translation among all its proof systems.",
-    "ai_role": "Audit a proposed universal simulation or separate uniform translation from existential short proofs.",
+    "ai_role": "Check that proposed proof translations are uniform algorithms for each simulated system and distinguish relativized formulas from the ordinary language.",
     "verification_burden": "high",
     "verification_basis": "Check the exact language, total proof-system range and polynomial translation bounds.",
     "resource_expectation": "No physical experiment or external dataset is required. Main cost is specialist proof development and review; finite searches can grow exponentially and need a separately specified limit.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-28",
     "evidence_level": "untested_forecast",
-    "uncertainty": "No named model has been evaluated. These are possible research-support roles, not evidence that current AI can resolve the general problem."
+    "uncertainty": "Compare translations for the unrelativized complete language, including how the time bound depends on the system being simulated. Model performance on this task has not been measured."
   },
   {
     "problem_id": "Q-FORMAL-317",
@@ -1911,13 +1911,13 @@
     "problem_id": "Q-MODEL-309",
     "difficulty": "frontier",
     "difficulty_basis": "The action space is infinite and limiting approximate strategies may lose incentive properties.",
-    "ai_role": "An assistant could analyze rational-payoff subclasses and absorption-path constructions, while a game theorist checks their relation to the original independent-strategy game.",
+    "ai_role": "Compare the information available to the players before transferring an equilibrium construction from stopping games.",
     "verification_burden": "high",
     "verification_basis": "Verify every unilateral deviation, tail event and epsilon quantifier; a sunspot equilibrium does not meet this target.",
     "resource_expectation": "Experiment: none for the stated mathematical model. Data: public definitions and any generated certificates. Computation: small examples may fit ordinary hardware; the general proof has no defensible runtime or cost estimate. Mathematical validity would not establish empirical adequacy.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-28",
     "evidence_level": "untested_forecast",
-    "uncertainty": "No named model was evaluated. This is a method-based forecast, not a measured success rate; a narrower task and a specialist literature check are required before a research attempt."
+    "uncertainty": "The two theorems do not establish equilibrium in every ordinary quitting game with at least four players. A reduction would have to preserve the players’ information."
   },
   {
     "problem_id": "Q-MODEL-310",
@@ -2607,25 +2607,25 @@
     "problem_id": "Q-CROSS-441",
     "difficulty": "high",
     "difficulty_basis": "The target involves model choice, competing mechanisms or extrapolation; a narrow instance may be manageable, but the full research direction has no established cost bound.",
-    "ai_role": "AI could derive intervention predictions from existing models and test available public records. This assumes a system capable of reading the relevant literature, writing reproducible code and exposing its calculations for specialist review.",
+    "ai_role": "Assess how well a model predicts condition-specific behavioral reports in a specified dataset and keep extrapolations explicit.",
     "verification_burden": "high",
     "verification_basis": "Check formal deductions and numerical convergence separately from empirical fit, identifiability and causal interpretation. A good fit alone cannot identify the mechanism.",
     "resource_expectation": "Model analysis can begin without new experiments. Simulations or existing data may need substantial computing. Data access, licenses, preprocessing and representativeness remain unaudited; empirical conclusions may require additional observations or complex experiments.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-28",
     "evidence_level": "untested_forecast",
-    "uncertainty": "No model-specific attempt has been run. Later results, a more precise formulation and expert assessment may substantially change difficulty and relevance."
+    "uncertainty": "The task uses behavioral reports to infer perceptual effects. Generalization to other animals, stimuli and neural populations requires new evidence."
   },
   {
     "problem_id": "Q-CROSS-442",
     "difficulty": "high",
     "difficulty_basis": "The target involves model choice, competing mechanisms or extrapolation; a narrow instance may be manageable, but the full research direction has no established cost bound.",
-    "ai_role": "AI could compare decoder families and construct mechanisms with equal predictive accuracy. This assumes a system capable of reading the relevant literature, writing reproducible code and exposing its calculations for specialist review.",
+    "ai_role": "Compare alternative decoders on held-out tasks and identify which measurements could distinguish their proposed implementations.",
     "verification_burden": "high",
     "verification_basis": "Check formal deductions and numerical convergence separately from empirical fit, identifiability and causal interpretation. A good fit alone cannot identify the mechanism.",
     "resource_expectation": "Model analysis can begin without new experiments. Simulations or existing data may need substantial computing. Data access, licenses, preprocessing and representativeness remain unaudited; empirical conclusions may require additional observations or complex experiments.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-28",
     "evidence_level": "untested_forecast",
-    "uncertainty": "No model-specific attempt has been run. Later results, a more precise formulation and expert assessment may substantially change difficulty and relevance."
+    "uncertainty": "The cross-species behavioral fit does not distinguish every decoder with similar predictions or determine which downstream cells implement one."
   },
   {
     "problem_id": "Q-CROSS-443",
@@ -2955,13 +2955,13 @@
     "problem_id": "Q-MATH-422",
     "difficulty": "unknown",
     "difficulty_basis": "The statement is source-located, but a current difficulty assessment and comparison with the latest partial results have not been completed. A simple formulation is not evidence of tractability.",
-    "ai_role": "After checking current status, AI with the relevant mathematical background and tools could use generating-function factorization and exact rational examples to investigate the convolution constraint. Specialist review remains necessary; no named model has been evaluated.",
+    "ai_role": "Match finite-support examples to normalized generating polynomials and compare them with the proven separated-support conditions.",
     "verification_burden": "high",
     "verification_basis": "An asymptotic, distributional or mixing claim needs an analytic proof with the model and limit fixed. Simulations and exact small-instance computations are evidence only.",
     "resource_expectation": "No physical experiment or empirical dataset is required. Literature review and proof development are the principal tasks. Any exact search, simulation or symbolic calculation needs an explicit finite scope; its compute and memory requirements have not been estimated.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-28",
     "evidence_level": "untested_forecast",
-    "uncertainty": "Current resolution status, practical resource needs and AI usefulness remain unmeasured. A current resolution search and assumptions on arbitrary real probabilities remain to be reviewed."
+    "uncertainty": "The degree in Hare’s search refers to a candidate factor. The separated-block theorem needs a fair lower block; neither check covers arbitrary supports."
   },
   {
     "problem_id": "Q-MATH-423",
@@ -3435,13 +3435,13 @@
     "problem_id": "Q-MATH-463",
     "difficulty": "high",
     "difficulty_basis": "The source records a longstanding unrestricted question with substantial partial theory. Its general quantifiers and known methodological barriers justify a high provisional rating, conditional on the target still being unresolved.",
-    "ai_role": "After checking current status, AI with the relevant mathematical background and tools could explore radial Fourier interpolation and interval-certified sign constraints. Specialist review remains necessary; no named model has been evaluated.",
+    "ai_role": "Compare the two normalizations, then audit the analytic sign lemmas and the exact arithmetic certificates separately.",
     "verification_burden": "high",
     "verification_basis": "A general proof or classification needs expert checking of hypotheses, reductions and completeness. A finite construction can support a restricted result only unless it certifies a counterexample to the exact statement.",
     "resource_expectation": "No physical experiment or empirical dataset is required. Literature review and proof development are the principal tasks. Any exact search, simulation or symbolic calculation needs an explicit finite scope; its compute and memory requirements have not been estimated.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-28",
     "evidence_level": "untested_forecast",
-    "uncertainty": "Current resolution status, practical resource needs and AI usefulness remain unmeasured. The admissibility and Fourier-transform conventions must be imported precisely from the original Cohn–Elkies theorem."
+    "uncertainty": "Verify the infinite-range sign arguments and the finite certificate against the declared function and Fourier-transform conventions. Model performance on this task has not been measured."
   },
   {
     "problem_id": "Q-MATH-464",
@@ -3555,37 +3555,37 @@
     "problem_id": "Q-MATH-473",
     "difficulty": "unknown",
     "difficulty_basis": "The statement is source-located, but a current difficulty assessment and comparison with the latest partial results have not been completed. A simple formulation is not evidence of tractability.",
-    "ai_role": "After checking current status, AI with the relevant mathematical background and tools could audit endomorphism decompositions and connections with direct finiteness. Specialist review remains necessary; no named model has been evaluated.",
+    "ai_role": "Compare the hypotheses of the published abelian-base criterion with the group and endomorphism in the October manuscript.",
     "verification_burden": "high",
     "verification_basis": "A general proof or classification needs expert checking of hypotheses, reductions and completeness. A finite construction can support a restricted result only unless it certifies a counterexample to the exact statement.",
     "resource_expectation": "No physical experiment or empirical dataset is required. Literature review and proof development are the principal tasks. Any exact search, simulation or symbolic calculation needs an explicit finite scope; its compute and memory requirements have not been estimated.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-28",
     "evidence_level": "untested_forecast",
-    "uncertainty": "Current resolution status, practical resource needs and AI usefulness remain unmeasured. Special abelian and nilpotent base cases relate to a different major conjecture; latest results need checking."
+    "uncertainty": "Check the input group-algebra theorem, the embedding into a finitely generated Hopfian group and the induced endomorphism together. Model performance on this task has not been measured."
   },
   {
     "problem_id": "Q-MATH-474",
     "difficulty": "unknown",
     "difficulty_basis": "The statement is source-located, but a current difficulty assessment and comparison with the latest partial results have not been completed. A simple formulation is not evidence of tractability.",
-    "ai_role": "After checking current status, AI with the relevant mathematical background and tools could compute graph certificates in selected group families and organize classification reductions. Specialist review remains necessary; no named model has been evaluated.",
+    "ai_role": "Use the published subgroup criterion to test the four-cycle case, keeping the cycle length fixed when comparing examples.",
     "verification_burden": "high",
     "verification_basis": "A general proof or classification needs expert checking of hypotheses, reductions and completeness. A finite construction can support a restricted result only unless it certifies a counterexample to the exact statement.",
     "resource_expectation": "No physical experiment or empirical dataset is required. Literature review and proof development are the principal tasks. Any exact search, simulation or symbolic calculation needs an explicit finite scope; its compute and memory requirements have not been estimated.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-28",
     "evidence_level": "untested_forecast",
-    "uncertainty": "Current resolution status, practical resource needs and AI usefulness remain unmeasured. Known n=4 partial classifications and later cases are not individually indexed."
+    "uncertainty": "Determine which specific lengths and families have subsequently been classified. A nonchordal graph need only contain a cycle of some length. Model performance on this task has not been measured."
   },
   {
     "problem_id": "Q-MATH-475",
     "difficulty": "unknown",
     "difficulty_basis": "The statement is source-located, but a current difficulty assessment and comparison with the latest partial results have not been completed. A simple formulation is not evidence of tractability.",
-    "ai_role": "After checking current status, AI with the relevant mathematical background and tools could compare subgroup structure with induced-cycle obstructions. Specialist review remains necessary; no named model has been evaluated.",
+    "ai_role": "Compare the exclusions in Sections 4–6 with the classification statement, including small isomorphisms.",
     "verification_burden": "high",
     "verification_basis": "A general proof or classification needs expert checking of hypotheses, reductions and completeness. A finite construction can support a restricted result only unless it certifies a counterexample to the exact statement.",
     "resource_expectation": "No physical experiment or empirical dataset is required. Literature review and proof development are the principal tasks. Any exact search, simulation or symbolic calculation needs an explicit finite scope; its compute and memory requirements have not been estimated.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-28",
     "evidence_level": "untested_forecast",
-    "uncertainty": "Current resolution status, practical resource needs and AI usefulness remain unmeasured. This all-length condition is distinct from classification for a specified cycle length."
+    "uncertainty": "Check the exclusions for the remaining simple families and whether independent mathematical review of Theorem 1.1 has appeared. Model performance on this task has not been measured."
   },
   {
     "problem_id": "Q-MATH-476",
@@ -4431,13 +4431,13 @@
     "problem_id": "Q-FORMAL-421",
     "difficulty": "unknown",
     "difficulty_basis": "The source identifies an unresolved research target; its present difficulty has not been independently assessed.",
-    "ai_role": "After the computational model and current status are checked, generate small geometric instances, inspect exact witnesses and assist with combinatorial or algebraic lemmas. Finite tests do not establish asymptotic complexity or universal existence.",
+    "ai_role": "Enumerate vertex connections on a small nonsimplicial surface, using only the given edges and checking planar connectedness and interior overlap separately.",
     "verification_burden": "high",
     "verification_basis": "Review geometric degeneracies, exact arithmetic, admissible constructions and model-dependent running time; floating-point drawings alone are not certificates.",
     "resource_expectation": "No physical experiment or external dataset is intrinsic. Exact geometry and combinatorial enumeration may be expensive; useful instance sizes remain unestimated.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-28",
     "evidence_level": "untested_forecast",
-    "uncertainty": "No model has been tested. Current status, useful subcases and feasible computational scale require further review."
+    "uncertainty": "A modern general resolution or counterexample for the original polygonal faces was not found in this search. No model has been tested on this target."
   },
   {
     "problem_id": "Q-FORMAL-422",
@@ -4479,25 +4479,25 @@
     "problem_id": "Q-FORMAL-425",
     "difficulty": "unknown",
     "difficulty_basis": "The source identifies an unresolved research target; its present difficulty has not been independently assessed.",
-    "ai_role": "After the computational model and current status are checked, generate small geometric instances, inspect exact witnesses and assist with combinatorial or algebraic lemmas. Finite tests do not establish asymptotic complexity or universal existence.",
+    "ai_role": "Review whether an exact reduction or running-time claim assumes real arithmetic or exact comparisons of sums of radicals.",
     "verification_burden": "high",
     "verification_basis": "Review geometric degeneracies, exact arithmetic, admissible constructions and model-dependent running time; floating-point drawings alone are not certificates.",
     "resource_expectation": "No physical experiment or external dataset is intrinsic. Exact geometry and combinatorial enumeration may be expensive; useful instance sizes remain unestimated.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-28",
     "evidence_level": "untested_forecast",
-    "uncertainty": "No model has been tested. Current status, useful subcases and feasible computational scale require further review."
+    "uncertainty": "A new exact algorithm or reduction must specify how Euclidean lengths and their sums are represented and compared. Model performance on this task has not been measured."
   },
   {
     "problem_id": "Q-FORMAL-426",
     "difficulty": "unknown",
     "difficulty_basis": "The source identifies an unresolved research target; its present difficulty has not been independently assessed.",
-    "ai_role": "After the computational model and current status are checked, generate small geometric instances, inspect exact witnesses and assist with combinatorial or algebraic lemmas. Finite tests do not establish asymptotic complexity or universal existence.",
+    "ai_role": "Study the distance-threshold decision problem or the unit-disk-complement formulation when investigating exact complexity.",
     "verification_burden": "high",
     "verification_basis": "Review geometric degeneracies, exact arithmetic, admissible constructions and model-dependent running time; floating-point drawings alone are not certificates.",
     "resource_expectation": "No physical experiment or external dataset is intrinsic. Exact geometry and combinatorial enumeration may be expensive; useful instance sizes remain unestimated.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-28",
     "evidence_level": "untested_forecast",
-    "uncertainty": "No model has been tested. Current status, useful subcases and feasible computational scale require further review."
+    "uncertainty": "Check for subsequent exact algorithms or hardness results in the planar case. The published scheme permits a positive relative error. Model performance on this task has not been measured."
   },
   {
     "problem_id": "Q-FORMAL-427",
@@ -4587,13 +4587,13 @@
     "problem_id": "Q-FORMAL-434",
     "difficulty": "unknown",
     "difficulty_basis": "The source identifies an unresolved research target; its present difficulty has not been independently assessed.",
-    "ai_role": "After the computational model and current status are checked, generate small geometric instances, inspect exact witnesses and assist with combinatorial or algebraic lemmas. Finite tests do not establish asymptotic complexity or universal existence.",
+    "ai_role": "Test a proposed path on a specified closed polyhedron using exact planar coordinates and overlap checks, allowing path segments across faces.",
     "verification_burden": "high",
     "verification_basis": "Review geometric degeneracies, exact arithmetic, admissible constructions and model-dependent running time; floating-point drawings alone are not certificates.",
     "resource_expectation": "No physical experiment or external dataset is intrinsic. Exact geometry and combinatorial enumeration may be expensive; useful instance sizes remain unestimated.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-28",
     "evidence_level": "untested_forecast",
-    "uncertainty": "No model has been tested. Current status, useful subcases and feasible computational scale require further review."
+    "uncertainty": "The inspected papers do not decide the unrestricted question for closed convex polyhedra. No model has been tested on this target."
   },
   {
     "problem_id": "Q-FORMAL-435",
@@ -4647,13 +4647,13 @@
     "problem_id": "Q-FORMAL-439",
     "difficulty": "unknown",
     "difficulty_basis": "The source identifies an unresolved research target; its present difficulty has not been independently assessed.",
-    "ai_role": "After the statistical model is recovered, help manipulate risk bounds, compare lower-bound constructions and design simulations that challenge proposed assumptions. Simulation does not establish minimax optimality.",
+    "ai_role": "Compare known upper and lower bounds on classes where the VC and Littlestone dimensions grow at different rates.",
     "verification_burden": "high",
     "verification_basis": "Upper and lower bounds must use identical distribution classes, loss, privacy or oracle conditions and quantifiers; statistical counterexamples need exact arguments.",
     "resource_expectation": "The formal target needs no new physical experiment. Simulations may use synthetic samples; necessary sample counts and computational costs have not been estimated.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-28",
     "evidence_level": "untested_forecast",
-    "uncertainty": "No model has been tested. Current status, useful subcases and feasible computational scale require further review."
+    "uncertainty": "A worst-case dependence on Littlestone dimension does not settle the sharper joint dependence. The published open-problem statement and October preprint concern approximate privacy."
   },
   {
     "problem_id": "Q-FORMAL-440",
@@ -4706,14 +4706,14 @@
   {
     "problem_id": "Q-FORMAL-444",
     "difficulty": "unknown",
-    "difficulty_basis": "The source identifies an unresolved research target; its present difficulty has not been independently assessed.",
-    "ai_role": "After the statistical model is recovered, help manipulate risk bounds, compare lower-bound constructions and design simulations that challenge proposed assumptions. Simulation does not establish minimax optimality.",
+    "difficulty_basis": "Assessing the two reported separations requires specialist review of the statistical-query and representation models.",
+    "ai_role": "Compare the learning error, query tolerance and choice of deterministic or random feature maps in the two separation claims.",
     "verification_burden": "high",
     "verification_basis": "Upper and lower bounds must use identical distribution classes, loss, privacy or oracle conditions and quantifiers; statistical counterexamples need exact arguments.",
     "resource_expectation": "The formal target needs no new physical experiment. Simulations may use synthetic samples; necessary sample counts and computational costs have not been estimated.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-28",
     "evidence_level": "untested_forecast",
-    "uncertainty": "No model has been tested. Current status, useful subcases and feasible computational scale require further review."
+    "uncertainty": "The two separation arguments and their accuracy and dimension conventions have not been independently reviewed here."
   },
   {
     "problem_id": "Q-FORMAL-445",
@@ -4742,14 +4742,14 @@
   {
     "problem_id": "Q-FORMAL-447",
     "difficulty": "unknown",
-    "difficulty_basis": "The source identifies an unresolved research target; its present difficulty has not been independently assessed.",
-    "ai_role": "After the statistical model is recovered, help manipulate risk bounds, compare lower-bound constructions and design simulations that challenge proposed assumptions. Simulation does not establish minimax optimality.",
+    "difficulty_basis": "The literature gives matching upper and lower rates. The difficulty of independently reproducing the upper-bound argument has not been assessed.",
+    "ai_role": "Reproduce the theorem and the lower-bound parameter regime when using this historical question as a benchmark.",
     "verification_burden": "high",
     "verification_basis": "Upper and lower bounds must use identical distribution classes, loss, privacy or oracle conditions and quantifiers; statistical counterexamples need exact arguments.",
     "resource_expectation": "The formal target needs no new physical experiment. Simulations may use synthetic samples; necessary sample counts and computational costs have not been estimated.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-28",
     "evidence_level": "untested_forecast",
-    "uncertainty": "No model has been tested. Current status, useful subcases and feasible computational scale require further review."
+    "uncertainty": "This is a literature resolution of the unique-best-action problem. The bound does not assert that this much regret is necessary at every horizon or on each individual instance."
   },
   {
     "problem_id": "Q-FORMAL-448",
@@ -4839,13 +4839,13 @@
     "problem_id": "Q-FORMAL-455",
     "difficulty": "unknown",
     "difficulty_basis": "The source identifies an unresolved research target; its present difficulty has not been independently assessed.",
-    "ai_role": "After operational conventions are fixed, explore small-alphabet examples, compare inner and outer bounds and assist with entropy calculations. Numerical optimization cannot establish a capacity formula.",
+    "ai_role": "Compare upper and achievable lower exponents on a fixed input alphabet and rate interval, retaining the optimal-code and blocklength limits.",
     "verification_burden": "high",
     "verification_basis": "Achievability and converse arguments must match channel, coding, error and asymptotic conventions; local numerical extrema are insufficient.",
     "resource_expectation": "No physical channel experiment is required for the formal question. Alphabet optimization and symbolic calculations may be costly; no resource bound is established.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-28",
     "evidence_level": "untested_forecast",
-    "uncertainty": "No model has been tested. Current status, useful subcases and feasible computational scale require further review."
+    "uncertainty": "For any proposed formula specify the channel, rate range and decoding metric, and show matching achievability and converse exponents. Model performance on this task has not been measured."
   },
   {
     "problem_id": "Q-FORMAL-456",
@@ -5563,9 +5563,9 @@
     "verification_burden": "high",
     "verification_basis": "A proposed proof needs operator-domain and limiting-argument review. Finite spectral calculations require an independent implementation and cannot certify an infinite-dimensional claim.",
     "resource_expectation": "Analytic work may use a workstation for symbolic or spectral exploration. Numerical spectra cannot establish infinite-dimensional or uniform bounds.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-28",
     "evidence_level": "untested_forecast",
-    "uncertainty": "Root vectors versus eigenvectors and multiple eigenvalues require clarification; subsequent basis criteria need checking."
+    "uncertainty": "A comparison with root-function criteria must account for any associated functions and multiplicities. The named special cases already have answers."
   },
   {
     "problem_id": "Q-MODEL-411",
@@ -6181,15 +6181,15 @@
   },
   {
     "problem_id": "Q-MODEL-462",
-    "difficulty": "frontier",
-    "difficulty_basis": "The question concerns a major unresolved formulation or generalization in nonlinear gravitational geometry.",
-    "ai_role": "A tool-using AI could compare stress-energy conservation arguments with self-force expansions. This is a forecast; no named model has been evaluated on the task.",
+    "difficulty": "unknown",
+    "difficulty_basis": "Following the published argument requires graduate general relativity and perturbation theory. Extending its range requires a new choice of hypotheses.",
+    "ai_role": "A mathematical assistant could trace the scaling assumptions and identify where self-force and spin enter the first-order equations.",
     "verification_burden": "high",
     "verification_basis": "Review gauge, initial-data class, causal and asymptotic definitions, regularity and PDE estimates. Numerical evolution is evidence within its discretization and cannot establish a generic continuum theorem.",
     "resource_expectation": "Special cases may permit symbolic analysis or workstation calculations. General nonlinear PDE results require expert proof review, and numerical-relativity exploration may require substantial computing.",
-    "assessment_date": "2026-10-14",
+    "assessment_date": "2026-11-28",
     "evidence_level": "untested_forecast",
-    "uncertainty": "Existing geodesic principles cover specific assumptions; matter regularity, body size and mass scaling must be fixed."
+    "uncertainty": "The controlled limit has a published derivation. The difficulty of a stronger claim depends on the matter class, scaling and order of the proposed error bound."
   },
   {
     "problem_id": "Q-MODEL-463",

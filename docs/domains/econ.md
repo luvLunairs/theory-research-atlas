@@ -6,7 +6,7 @@ Formal models of allocation, incentives, strategic behavior and institutions.
 
 **Boundary:** Model theorems do not establish behavioral or policy validity.
 
-**Research sources: 25 · Primary tasks: 22 · Full cards: 4 · Cross-linked tasks: 0.**
+**Research sources: 26 · Primary tasks: 22 · Full cards: 4 · Cross-linked tasks: 0.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -76,6 +76,7 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [Strengthening Full Justified Representation: Efficient Verification and Computation](../sources.md#src-model-706) | Research entry | 2026 |
 | [Polynomial-Time Algorithm for Thiele Voting Rules with Voter Interval Preferences](../sources.md#src-model-805) | Research entry | 2026 |
 | [Polynomial-Time Algorithm for Thiele Voting Rules on Voter Interval Domain](../sources.md#src-model-806) | Research entry | 2026 |
+| [Multiplayer Stopping Games with a Conditionally Atomless Filtration](../sources.md#src-model-921) | Research entry | 2026 |
 
 <a id="branches"></a>
 
@@ -139,7 +140,7 @@ Strategic interactions and equilibrium concepts.
 
 **Representative objects:** finite games, repeated games, equilibria.
 
-**Direct source entries:** [Ariel Rubinstein: Books](../sources.md#src-base-012), [Finding Nash Equilibria of Two-Player Games](../sources.md#src-model-007), [Solved and unsolved problems: Equilibrium in Quitting Games](../sources.md#src-model-305), [The APS approach for undiscounted quitting games](../sources.md#src-model-306).
+**Direct source entries:** [Ariel Rubinstein: Books](../sources.md#src-base-012), [Finding Nash Equilibria of Two-Player Games](../sources.md#src-model-007), [Solved and unsolved problems: Equilibrium in Quitting Games](../sources.md#src-model-305), [The APS approach for undiscounted quitting games](../sources.md#src-model-306), [Multiplayer Stopping Games with a Conditionally Atomless Filtration](../sources.md#src-model-921).
 
 **Primary tasks in this branch and its descendants**
 

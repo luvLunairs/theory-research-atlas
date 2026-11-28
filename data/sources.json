@@ -6909,13 +6909,13 @@
     "domains": [
       "ENG"
     ],
-    "locator": "Theorem 25 and Example 31; journal version IEEE TAC 62 (2017), DOI 10.1109/TAC.2016.2593678",
-    "accessed": "2026-10-14",
+    "locator": "Theorem 25, Example 31 and Proposition 32. IEEE Transactions on Automatic Control 62 (2017), DOI 10.1109/TAC.2016.2593678.",
+    "accessed": "2026-11-28",
     "verification": "opened",
     "supports": [
-      "Relates finite gain to growth of a minimal realization, with a special role for uniform observability."
+      "Relates finite gain to growth of a minimal realization under the stated observability hypotheses. Proposition 32 proves right-continuity of the gain for bounded families of mode triples."
     ],
-    "limitations": "This is a finiteness criterion with hypotheses, not a formula for the entire dwell-time/gain function.",
+    "limitations": "Finiteness and right-continuity do not give a formula for the entire dwell-time/gain curve. Proposition 32 uses the output equation y = Cx.",
     "role": "research_entry"
   },
   {
@@ -10672,13 +10672,13 @@
     "domains": [
       "Finite group theory"
     ],
-    "locator": "2 November 2026, Problems 21.4, 21.28, 21.55 and 21.57",
-    "accessed": "2026-11-26",
+    "locator": "2 November 2026, Problems 21.4, 21.22–21.23, 21.28, 21.55 and 21.57.",
+    "accessed": "2026-11-28",
     "verification": "opened",
     "supports": [
-      "Records the editors' November statements, attributions and solution markers for four group theory problems."
+      "Records the editors’ problem statements, attributions, comments on special cases and solution markers at the listed locations."
     ],
-    "limitations": "The edition predates the 10 November manuscript on Problem 21.55.",
+    "limitations": "This edition predates the 3 November chordality manuscript and the 10 November manuscript on Problem 21.55. Check later claims against the exact numbered question.",
     "role": "research_entry"
   },
   {
@@ -11360,6 +11360,962 @@
       "Studies how pairwise and three-body coupling affect the local stability of the in-phase state in specified hypergraph and simplicial-complex ensembles."
     ],
     "limitations": "The transverse exponent characterizes the recovery of synchrony from small perturbations. The reported trends do not determine global attraction or apply to every hypergraph.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-LAND-920",
+    "title": "Vertex-Unfoldings of Simplicial Manifolds",
+    "authors": [
+      "Erik D. Demaine",
+      "David Eppstein",
+      "Jeff Erickson",
+      "George W. Hart",
+      "Joseph O’Rourke"
+    ],
+    "year": 2002,
+    "url": "https://erikdemaine.org/papers/VertexUnfolding_SoCG2002/paper.pdf",
+    "source_type": "conference paper",
+    "domains": [
+      "Computational geometry"
+    ],
+    "locator": "Abstract and introduction, p. 1, particularly the discussion of nonsimplicial faces.",
+    "supports": [
+      "A triangulated surface admits a connected planar layout in linear time when triangles may meet at vertices."
+    ],
+    "limitations": "Inserting diagonals into polygonal faces changes which edges may be cut.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-LAND-921",
+    "title": "Zipper Unfolding of Domes and Prismoids",
+    "authors": [
+      "Erik D. Demaine",
+      "Martin L. Demaine",
+      "Ryuhei Uehara"
+    ],
+    "year": 2013,
+    "url": "https://erikdemaine.org/papers/ZipperDomes_CCCG2013/",
+    "source_type": "conference paper",
+    "domains": [
+      "Computational geometry"
+    ],
+    "locator": "Author abstract, paragraphs on domes and nested prismoids.",
+    "supports": [
+      "Every nested prismoid admits an edge zipper. Some convex domes have Hamiltonian graphs but every Hamiltonian edge unfolding overlaps."
+    ],
+    "limitations": "Paths that cross face interiors lie outside the negative result.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-LAND-922",
+    "title": "Un-unzippable Convex Caps",
+    "authors": [
+      "Joseph O’Rourke"
+    ],
+    "year": 2018,
+    "url": "https://arxiv.org/abs/1802.01621",
+    "source_type": "research preprint",
+    "domains": [
+      "Computational geometry"
+    ],
+    "locator": "Abstract, definition of a cap and distinction between caps and closed polyhedra.",
+    "supports": [
+      "Nearly flat convex caps can lack any zipper, including one allowed to cross faces."
+    ],
+    "limitations": "These caps have boundary. Closing a cap with a base changes the available paths.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-LAND-923",
+    "title": "What Is a Scissors Congruence?",
+    "authors": [
+      "Johan L. Dupont"
+    ],
+    "year": 2012,
+    "url": "https://pure.au.dk/ws/files/51849055/noti898.pdf",
+    "source_type": "specialist exposition",
+    "domains": [
+      "Euclidean geometry"
+    ],
+    "locator": "Opening page, definition and historical account of the Dehn and Sydler theorems.",
+    "supports": [
+      "For polyhedra in Euclidean three-space, volume and the Dehn invariant together classify finite scissors congruence."
+    ],
+    "limitations": "The characterization cited here concerns Euclidean three-space.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-LAND-924",
+    "title": "On Hilbert's construction of positive polynomials",
+    "authors": [
+      "Bruce Reznick"
+    ],
+    "year": 2007,
+    "url": "https://arxiv.org/abs/0707.2156",
+    "source_type": "research paper",
+    "domains": [
+      "Real algebraic geometry"
+    ],
+    "locator": "Abstract and introduction, relation to Hilbert’s examples.",
+    "supports": [
+      "Reznick constructs explicit multivariate polynomials that are nonnegative on real inputs yet have no representation as sums of squares of polynomials."
+    ],
+    "limitations": "Polynomial squares and rational-function squares are different representation classes.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-LAND-925",
+    "title": "The Kepler conjecture",
+    "authors": [
+      "Thomas C. Hales"
+    ],
+    "year": 1998,
+    "url": "https://arxiv.org/abs/math/9811078",
+    "source_type": "research preprint",
+    "domains": [
+      "Discrete geometry"
+    ],
+    "locator": "Version 2 (2002), Section 1, Theorem 1.1. The preprint first appeared in 1998.",
+    "supports": [
+      "The face-centered cubic packing attains the maximal density π/√18 for congruent balls in Euclidean three-space."
+    ],
+    "limitations": "The bound depends on the shape of the packed body.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-LAND-926",
+    "title": "Dense crystalline dimer packings of regular tetrahedra",
+    "authors": [
+      "Elizabeth R. Chen",
+      "Michael Engel",
+      "Sharon C. Glotzer"
+    ],
+    "year": 2010,
+    "url": "https://arxiv.org/abs/1001.0586",
+    "source_type": "research paper",
+    "domains": [
+      "Discrete geometry"
+    ],
+    "locator": "Abstract, four-tetrahedron unit cell and three-parameter dimer family.",
+    "supports": [
+      "A periodic packing of regular tetrahedra has density 4000/4671 and maximizes density in the three-parameter family studied."
+    ],
+    "limitations": "The construction supplies a lower bound on the unrestricted packing density. Its within-family optimization gives no unrestricted upper bound.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MATH-920",
+    "title": "Chordality of Enhanced Power Graphs of Finite Simple Groups: A Resolution of a Conjecture",
+    "authors": [
+      "Pallabi Manna"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/html/2611.05068v1",
+    "source_type": "Research preprint",
+    "domains": [
+      "Finite group theory"
+    ],
+    "locator": "Theorem 1.1 and the paragraph separating necessity from sufficiency.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "Claims an exhaustive list of finite simple groups whose enhanced power graphs are chordal."
+    ],
+    "limitations": "The paper addresses chordality. Avoidance of a specified cycle length is a different classification. Independent review of the proof was not established.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MATH-921",
+    "title": "Enhanced power graphs of finite groups with cograph structure",
+    "authors": [
+      "Daniela Bubboloni",
+      "Francesco Fumagalli",
+      "Cheryl E. Praeger"
+    ],
+    "year": 2025,
+    "url": "https://arxiv.org/html/2510.18073v1",
+    "source_type": "Research preprint",
+    "domains": [
+      "Finite group theory"
+    ],
+    "locator": "Theorem B, Open Problem 1 and Proposition 4.14.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "Poses the fixed-length and chordal classifications separately and characterizes the absence of an induced four-cycle in terms of subgroup structure."
+    ],
+    "limitations": "A criterion in subgroup language does not enumerate all simple groups for each cycle length.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MATH-922",
+    "title": "Hopfian wreath products and the stable finiteness conjecture",
+    "authors": [
+      "Henry Bradford",
+      "Francesco Fournier-Facio"
+    ],
+    "year": 2024,
+    "url": "https://www.repository.cam.ac.uk/items/0f95f613-8809-44a4-ac92-ec54a577b3a9",
+    "source_type": "Accepted journal manuscript",
+    "domains": [
+      "Group theory"
+    ],
+    "locator": "Repository abstract, characterization for a finitely generated abelian base and a finitely generated Hopfian acting group.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "Relates Hopficity for all wreath products in the abelian-base case to Kaplansky’s stable finiteness conjecture."
+    ],
+    "limitations": "The equivalence alone gives no counterexample. Its use in a negative answer depends on a group-algebra example.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MATH-923",
+    "title": "Two consequences of group-algebra and planar Fourier certificates: wreath products and triangle bounds",
+    "authors": [
+      "Alec Kriebel"
+    ],
+    "year": 2026,
+    "url": "https://aleckriebel.com/research/wreath-products-planar-triangle-bounds/",
+    "source_type": "Author preprint",
+    "domains": [
+      "Group theory and harmonic analysis"
+    ],
+    "locator": "6 October, version 1.0.0, sections on Hopfian factors and planar packing.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "Derives a group with Hopfian factors and a non-Hopfian wreath product from an external group-algebra theorem, and derives a planar bound from a separate Fourier certificate."
+    ],
+    "limitations": "The author identifies both external inputs. These conditional deductions supply no independent verification of the inputs.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MATH-924",
+    "title": "A Torsion-Free Group Algebra That Is Not Directly Finite",
+    "authors": [
+      "OpenAI"
+    ],
+    "year": 2026,
+    "url": "https://github.com/openai/math/tree/main/preprints/A-Torsion-Free-Group-Algebra-That-Is-Not-Directly-Finite-October-4-2026",
+    "source_type": "Author preprint",
+    "domains": [
+      "Group rings"
+    ],
+    "locator": "4 October release, build/sections/introduction.tex, Theorem 1.1.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "Reports a finitely presented torsion-free group whose group algebra over the field of two elements contains a one-sided inverse that is not two-sided."
+    ],
+    "limitations": "This is the group-algebra input to the wreath-product claim. Its proof has not been audited here.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MATH-925",
+    "title": "A Note on the OpenAI Construction of Counterexamples to the Kaplansky Direct-Finiteness Conjecture",
+    "authors": [
+      "Andrei Jaikin-Zapirain"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2611.08268",
+    "source_type": "Research preprint",
+    "domains": [
+      "Group rings"
+    ],
+    "locator": "5 November, abstract.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "Presents a subsequent exposition of the characteristic-two construction and an adaptation to hyperbolic groups in each positive characteristic."
+    ],
+    "limitations": "The paper addresses the group-algebra construction. It does not assess the specific wreath-product deduction.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MATH-926",
+    "title": "A sharp Fourier certificate for planar circle packing",
+    "authors": [
+      "OpenAI"
+    ],
+    "year": 2026,
+    "url": "https://github.com/openai/math/tree/main/preprints/A-sharp-Fourier-certificate-for-planar-circle-packing-September-23-2026",
+    "source_type": "Author preprint and supporting material",
+    "domains": [
+      "Harmonic analysis"
+    ],
+    "locator": "23 September release, build/sections/introduction.tex, Theorem 1.1 and the normalization following it.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "Claims a radial Schwartz function with nonnegative Fourier transform and sharp origin ratio for a unit sign radius in the plane."
+    ],
+    "limitations": "The analytic proof and finite checks have not been replayed here. The geometric packing theorem alone does not supply the required function.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MATH-927",
+    "title": "Optimal Proof Systems for Complex Sets are Hard to Find",
+    "authors": [
+      "Fabian Egidy",
+      "Christian Glaßer"
+    ],
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2408.07408",
+    "source_type": "Conference paper and author preprint",
+    "domains": [
+      "Proof complexity"
+    ],
+    "locator": "Version 3, revised in 2025, abstract, oracle O₁.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "Constructs an oracle with an infinite polynomial hierarchy and no optimal proof systems for languages in PSPACE outside NP."
+    ],
+    "limitations": "These are relativized results. The optimality criterion in the negative result already allows nonconstructive polynomial simulation.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MATH-928",
+    "title": "The Geometric Maximum Traveling Salesman Problem",
+    "authors": [
+      "Alexander Barvinok",
+      "Sándor P. Fekete",
+      "David S. Johnson",
+      "Arie Tamir",
+      "Gerhard J. Woeginger",
+      "Russ Woodroofe"
+    ],
+    "year": 2003,
+    "url": "https://arxiv.org/abs/cs/0204024",
+    "source_type": "Journal paper and author preprint",
+    "domains": [
+      "Computational geometry"
+    ],
+    "locator": "2003 revision, abstract, results on polyhedral norms and dimensions greater than two.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "Provides exact algorithms for polyhedral norms in fixed dimension and Euclidean NP-hardness in dimension at least three."
+    ],
+    "limitations": "The planar Euclidean norm falls outside both results. Time bounds in the paper specify the model for arithmetic operations.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MATH-929",
+    "title": "Efficient PTAS for the Maximum Traveling Salesman Problem in a Metric Space of Fixed Doubling Dimension",
+    "authors": [
+      "Vladimir Shenmaier"
+    ],
+    "year": 2020,
+    "url": "https://arxiv.org/abs/2012.08379",
+    "source_type": "Research paper",
+    "domains": [
+      "Approximation algorithms"
+    ],
+    "locator": "First posted in 2020, version 5 revised in 2021, abstract and introduction.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "Gives an efficient approximation scheme for maximum total tour length in metrics of fixed doubling dimension."
+    ],
+    "limitations": "The approximation guarantee permits a nonzero loss and supplies no exact optimizer.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MATH-930",
+    "title": "Maximum Scatter TSP in Doubling Metrics",
+    "authors": [
+      "László Kozma",
+      "Tobias Mömke"
+    ],
+    "year": 2016,
+    "url": "https://www.lkozma.net/MSTSP.pdf",
+    "source_type": "Conference paper",
+    "domains": [
+      "Computational geometry"
+    ],
+    "locator": "Abstract and the “Open question” on p. 3 of the PDF.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "Gives an efficient approximation scheme for maximizing the shortest edge in fixed doubling dimension and explicitly leaves exact planar Euclidean optimization open."
+    ],
+    "limitations": "The discussion of exact planar complexity is dated. The shortest-edge objective differs from maximum total length.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MATH-931",
+    "title": "The Computability of the Channel Reliability Function and Related Bounds",
+    "authors": [
+      "Holger Boche",
+      "Christian Deppe"
+    ],
+    "year": 2025,
+    "url": "https://www.mdpi.com/1999-4893/18/6/361",
+    "source_type": "Journal article",
+    "domains": [
+      "Information theory"
+    ],
+    "locator": "Introduction and discussion after Theorem 3 on the critical rate and known reliability intervals.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "Describes the unresolved low-rate characterization and studies computability as a function of the channel and rate."
+    ],
+    "limitations": "Uniform computability and evaluation at one specified channel are different questions.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MATH-932",
+    "title": "Distance distribution of binary codes and the error probability of decoding",
+    "authors": [
+      "Alexander Barg",
+      "Andrew McGregor"
+    ],
+    "year": 2005,
+    "url": "https://arxiv.org/abs/cs/0407011",
+    "source_type": "Journal paper and author preprint",
+    "domains": [
+      "Information theory"
+    ],
+    "locator": "Version 3, abstract on binary symmetric channels and maximum-likelihood decoding.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "Identifies an interval immediately below the critical rate where the random-coding exponent gives the reliability function for the binary symmetric channels covered by the theorem."
+    ],
+    "limitations": "The binary-channel result does not give the full low-rate function for arbitrary discrete memoryless channels.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MATH-933",
+    "title": "An Upper Bound on the Reliability Function of the DMC",
+    "authors": [
+      "Anelia Somekh-Baruch"
+    ],
+    "year": 2022,
+    "url": "https://arxiv.org/abs/2209.00968",
+    "source_type": "Research preprint",
+    "domains": [
+      "Information theory"
+    ],
+    "locator": "Abstract on the genie-receiver converse.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "Gives a channel-coding converse that improves on the sphere-packing bound in examples."
+    ],
+    "limitations": "The paper specifies a zero-error-capacity hypothesis in its treatment of general decoding metrics. An upper bound needs a matching achievable exponent to give an exact expression.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MODEL-920",
+    "title": "Random 3-regular graphs are not globally synchronizing",
+    "authors": [
+      "Ciro Carvallo",
+      "Pablo Groisman",
+      "Dieter Mitsche"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.09135v2",
+    "source_type": "withdrawal notice and preprint version history",
+    "domains": [
+      "Network dynamics",
+      "Random graphs"
+    ],
+    "locator": "Version 2, author withdrawal comment dated 10 October 2026. Version 1, Theorem 1.2 and Section 3.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "Version 1 states that a uniform random simple cubic graph has a nonsynchronized local minimum with high probability. The authors withdrew the manuscript after finding a solution on GitHub."
+    ],
+    "limitations": "The notice attributes withdrawal to overlap. It does not identify a mathematical error or certify either argument.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MODEL-921",
+    "title": "Multiplayer Stopping Games with a Conditionally Atomless Filtration",
+    "authors": [
+      "Robert Samuel Simon",
+      "Eilon Solan",
+      "Grzegorz Tomkowicz"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/html/2611.07184v1",
+    "source_type": "research preprint",
+    "domains": [
+      "Game theory",
+      "Stochastic processes"
+    ],
+    "locator": "Section 2.4, Theorems 2.11 and 2.12 and the following paragraph.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "For discrete-time stopping games with integrable payoffs, the first theorem assumes a conditionally atomless filtration. For three players, the second permits any filtration."
+    ],
+    "limitations": "The multiplayer theorem relies on randomness in the observations. Ordinary quitting games allow the players to randomize independently without a public signal.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MODEL-922",
+    "title": "A Separation Between Distribution-Free SQ Learning and Dimension Complexity",
+    "authors": [
+      "Shyamal Patel"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/html/2609.19780v1",
+    "source_type": "research preprint",
+    "domains": [
+      "Statistical learning theory",
+      "Computational complexity"
+    ],
+    "locator": "Version 1, introduction, main theorem and Section 2.1.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "For a Boolean class on n-bit inputs, the paper reports efficient distribution-free SQ learning to error 0.01 alongside superpolynomial exact dimension complexity."
+    ],
+    "limitations": "The stated theorem concerns fixed learning error and deterministic dimension complexity. It does not compare every neural-network and linear training algorithm.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MODEL-923",
+    "title": "Distribution-independent SQ learning does not imply low dimension complexity",
+    "authors": [
+      "Samuel Mausberg"
+    ],
+    "year": 2026,
+    "url": "https://sammausberg.com/research/papers/sq-dimension",
+    "source_type": "author preprint record",
+    "domains": [
+      "Statistical learning theory",
+      "Computational complexity"
+    ],
+    "locator": "Author’s October 8 preprint record, abstract and linked release citation.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "The author reports a separation on a domain of size 2N³, with logarithmically many queries at fixed error and linear dimension for the stated deterministic and probabilistic variants."
+    ],
+    "limitations": "The abstract records the author’s claims. Equivalence of approximation conventions and independent proof review remain outstanding.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MODEL-924",
+    "title": "Optimal Gap-Dependent Regret for Private Stochastic Decision-Theoretic Online Learning",
+    "authors": [
+      "Tommaso Cesari",
+      "Roberto Colomboni"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/html/2605.29148v1",
+    "source_type": "research paper, accepted at SODA 2027",
+    "domains": [
+      "Statistical learning theory",
+      "Online learning"
+    ],
+    "locator": "Version 1, Theorem 1 and the comparison with the known lower bound immediately afterward.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "The pure event-level private algorithm attains worst-case gap-dependent pseudo-regret of order (log K)/Δ + (log K)/ε uniformly in the horizon, matching the cited lower bound in its applicable regime."
+    ],
+    "limitations": "Assumes i.i.d. full-information loss vectors, bounded coordinates and a unique best action. The uniform upper rate is not a matching lower bound at every short horizon.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MODEL-925",
+    "title": "SODA27 Accepted Papers",
+    "authors": [
+      "Society for Industrial and Applied Mathematics"
+    ],
+    "year": null,
+    "url": "https://www.siam.org/conferences-events/siam-conferences/soda27/program/accepted-papers/",
+    "source_type": "official conference acceptance record",
+    "domains": [
+      "Statistical learning theory",
+      "Algorithms"
+    ],
+    "locator": "Accepted-papers list, entry under the title of the Cesari–Colomboni paper.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "SIAM lists the matching title and both authors among papers accepted at SODA 2027."
+    ],
+    "limitations": "The list records acceptance. The theorem and its assumptions are in the authors’ manuscript.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MODEL-926",
+    "title": "Nearly Linear Private Learning of Littlestone Classes",
+    "authors": [
+      "Shay Moran",
+      "Chao Yan"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/html/2610.23160v1",
+    "source_type": "research preprint",
+    "domains": [
+      "Statistical learning theory",
+      "Computational complexity"
+    ],
+    "locator": "Introduction, theorem for general Littlestone classes and the following paragraph on the log-star question.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "The authors obtain O(d log d) sample complexity at fixed learning and privacy parameters for Littlestone dimension d. They explicitly retain the question about a polynomial in the VC dimension and log-star d."
+    ],
+    "limitations": "The nearly linear bound in d alone may be much larger than the proposed bound for a class of small VC dimension.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MODEL-927",
+    "title": "Perceptography unveils the causal contribution of inferior temporal cortex to visual perception",
+    "authors": [
+      "Elia Shahbazi",
+      "Timothy Ma",
+      "Martin Pernuš",
+      "Walter Scheirer",
+      "Arash Afraz"
+    ],
+    "year": 2024,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38637553/",
+    "source_type": "peer-reviewed experimental study",
+    "domains": [
+      "Computational neuroscience",
+      "Visual perception"
+    ],
+    "locator": "Abstract and Figure 1, cortical perturbation detection task in macaques.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "The study found image changes that macaques had difficulty distinguishing from stimulation in inferior temporal cortex. The inferred change depended on the image, site and stimulation intensity."
+    ],
+    "limitations": "Behavioral discrimination provides an indirect measure of the percept and is specific to the task and animals studied.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MODEL-928",
+    "title": "Simple Learned Weighted Sums of Inferior Temporal Neuronal Firing Rates Accurately Predict Human Core Object Recognition Performance",
+    "authors": [
+      "Najib J. Majaj",
+      "Ha Hong",
+      "Ethan A. Solomon",
+      "James J. DiCarlo"
+    ],
+    "year": 2015,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4588611/",
+    "source_type": "peer-reviewed experimental study",
+    "domains": [
+      "Computational neuroscience",
+      "Visual perception"
+    ],
+    "locator": "Abstract, Results on the neuronal linking hypotheses and Discussion.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "Learned weighted sums of macaque inferior temporal firing rates predicted the pattern of human performance across 64 object-recognition tests."
+    ],
+    "limitations": "The measurements link behavior and population representations across species. They do not identify particular downstream neurons implementing the readout.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MODEL-929",
+    "title": "Computational progress on the unfair 0-1 polynomial Conjecture",
+    "authors": [
+      "Kevin G. Hare"
+    ],
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2307.07363",
+    "source_type": "research paper, preprint version",
+    "domains": [
+      "Discrete probability",
+      "Polynomial factorization"
+    ],
+    "locator": "Abstract, monic-factor convention and results for candidate factors of degree at most 15.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "The computational search excluded all but 975 of 7,141,686 candidate coefficient patterns in the stated range."
+    ],
+    "limitations": "A remaining pattern is an unresolved case of that test, not a realized factor or a counterexample.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-MODEL-930",
+    "title": "Structural Results on the Unfair 0-1 Polynomial Conjecture",
+    "authors": [
+      "Emina Hasanbegović"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/html/2611.14596v1",
+    "source_type": "research preprint",
+    "domains": [
+      "Discrete probability",
+      "Polynomial factorization"
+    ],
+    "locator": "Introduction, theorem on two separated coefficient blocks, and hypotheses on the lower block.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "The paper establishes fairness for certain two-block supports when the lower block is fair and the spacing meets its degree bounds."
+    ],
+    "limitations": "The separation and lower-block assumptions limit the theorem to a subclass of finite supports.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-PHYS-920",
+    "title": "Search for dark matter particle interactions in an extended nuclear recoil energy window with the LUX-ZEPLIN (LZ) experiment",
+    "authors": [
+      "D. S. Akerib and the LUX-ZEPLIN Collaboration"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2609.02823",
+    "source_type": "collaboration research preprint",
+    "domains": [
+      "Dark matter searches"
+    ],
+    "locator": "Abstract and data-release link, 2 September 2026.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "Reports a high-energy recoil in 2.84 tonne-years of xenon exposure and distinguishes local from global significance."
+    ],
+    "limitations": "The profile-likelihood comparison depends on the tested interaction models and background model. One recoil does not identify the dominant cosmological component.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-PHYS-921",
+    "title": "Root-Mean-Square Gains of Switched Linear Systems",
+    "authors": [
+      "João P. Hespanha"
+    ],
+    "year": 2002,
+    "url": "https://web.ece.ucsb.edu/~hespanha/published/tr-hespanha-rms.pdf",
+    "source_type": "author technical report",
+    "domains": [
+      "Robust and switched control"
+    ],
+    "locator": "Report dated 24 September 2002, abstract and sections 1 and 5.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "Provides a procedure for the slow-switching limit and relates it to the gain for a single switch."
+    ],
+    "limitations": "The limiting calculation does not give the full curve at finite dwell times.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-PHYS-922",
+    "title": "Fresh groundwater discharge insignificant for the world’s oceans but important for coastal ecosystems",
+    "authors": [
+      "Elco Luijendijk",
+      "Tom Gleeson",
+      "Nils Moosdorf"
+    ],
+    "year": 2020,
+    "url": "https://www.nature.com/articles/s41467-020-15064-8",
+    "source_type": "peer-reviewed research article",
+    "domains": [
+      "Coastal hydrogeology"
+    ],
+    "locator": "Abstract, Introduction and Methods, especially the coastal watershed and permeability descriptions.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "A spatially resolved global model estimates fresh groundwater discharge, distinguishes it from recirculated seawater and finds strong variation among coastal environments."
+    ],
+    "limitations": "The totals are model estimates subject to aquifer properties and watershed boundaries. The study covers the coastal component of the broader hydrology question.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-PHYS-923",
+    "title": "Schauder basis for Schrödinger operators with periodic boundary conditions",
+    "authors": [
+      "Boris Mityagin"
+    ],
+    "year": 2015,
+    "url": "https://nsa.fjfi.cvut.cz/problems/04_AIM_2015/2015-23/2015-23_AIM_Mityagin.pdf",
+    "source_type": "author problem sheet",
+    "domains": [
+      "Non-self-adjoint spectral theory"
+    ],
+    "locator": "2015 AIM sheet 23, Open Problem and Known Case.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "Asks for a coefficient test for eigenfunctions under periodic boundary conditions and identifies a two-term potential with an exact criterion."
+    ],
+    "limitations": "The sheet gives a historical question and one solved family. It does not establish the present status of the general coefficient classification.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-PHYS-924",
+    "title": "Convergence of spectral decompositions of Hill operators with trigonometric polynomial potentials",
+    "authors": [
+      "Plamen Djakov",
+      "Boris Mityagin"
+    ],
+    "year": 2009,
+    "url": "https://arxiv.org/abs/0911.3218",
+    "source_type": "primary research paper",
+    "domains": [
+      "Non-self-adjoint spectral theory"
+    ],
+    "locator": "Abstract, cases (i)–(iii) and the periodic-boundary conclusion for case (ii).",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "For the potential a exp(−2ix) + B exp(4ix) with both coefficients nonzero, the system of root functions is complete but fails to be a basis under periodic boundary conditions."
+    ],
+    "limitations": "The paper treats selected Fourier supports. Its treatment of root functions includes associated functions where needed.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-PHYS-925",
+    "title": "Global fixed point proof of time-dependent density-functional theory",
+    "authors": [
+      "Michael Ruggenthaler",
+      "Robert van Leeuwen"
+    ],
+    "year": 2010,
+    "url": "https://arxiv.org/abs/1011.3375",
+    "source_type": "primary research paper",
+    "domains": [
+      "Time-dependent density-functional theory"
+    ],
+    "locator": "Abstract and existence argument in the manuscript, including the uniform bound for the iteration.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "Formulates density-to-potential inversion as a fixed-point problem and gives an iterative argument subject to bounds on the response."
+    ],
+    "limitations": "Existence and uniqueness depend on the chosen function spaces and bounds. The later problem collection questions whether the required contraction estimate is available in its general setting.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-PHYS-926",
+    "title": "V-Representability Beyond Singular Times in Time-Dependent Density Functional Theory: The Hubbard Dimer Case",
+    "authors": [
+      "Éric Cancès",
+      "Théo Duez"
+    ],
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2610.33837",
+    "source_type": "research preprint",
+    "domains": [
+      "Time-dependent density-functional theory"
+    ],
+    "locator": "Abstract, October 2026, two-particle spin-singlet Hubbard dimer.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "The authors obtain global representability in the conventional and geometric dimer formulations and report nonuniqueness of the effective potential at singular times."
+    ],
+    "limitations": "The result applies to a finite two-site model. The continuum force equation has different analytic assumptions.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-PHYS-927",
+    "title": "Vacuum cosmological spacetimes without CMC Cauchy surfaces",
+    "authors": [
+      "Eric Ling",
+      "Argam Ohanyan"
+    ],
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2407.21524",
+    "source_type": "primary research paper",
+    "domains": [
+      "Mathematical general relativity"
+    ],
+    "locator": "Version 2, abstract and introduction, allowed connected-sum topologies.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "Constructs vacuum cosmological spacetimes with no constant-mean-curvature Cauchy surface on spatial topologies M # M for closed, oriented, irreducible, nonspherical three-manifolds M."
+    ],
+    "limitations": "Existence of examples on these topologies does not show that every solution on one of them lacks such a surface.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-PHYS-928",
+    "title": "A Rigorous Derivation of Gravitational Self-force",
+    "authors": [
+      "Samuel E. Gralla",
+      "Robert M. Wald"
+    ],
+    "year": 2008,
+    "url": "https://arxiv.org/abs/0806.3293v5",
+    "source_type": "primary research paper",
+    "domains": [
+      "Mathematical general relativity"
+    ],
+    "locator": "Abstract and corrected version 5 (29 April 2011), analysis of a one-parameter family of metrics.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "For families satisfying the stated scaling, smoothness and limit conditions, the limiting worldline is a background geodesic. The paper derives first-order self-force and spin-curvature corrections."
+    ],
+    "limitations": "The theorem assumes a suitable family. It neither builds that family for every matter model nor controls every higher-order correction.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-PHYS-929",
+    "title": "Equation of Motion of Small Bodies in Relativity",
+    "authors": [
+      "Jürgen Ehlers",
+      "Robert Geroch"
+    ],
+    "year": 2003,
+    "url": "https://arxiv.org/abs/gr-qc/0309074",
+    "source_type": "primary research paper",
+    "domains": [
+      "Mathematical general relativity"
+    ],
+    "locator": "Abstract and theorem, assumptions (i)–(iii).",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "A concentration theorem with a dominant energy condition and nearby metrics yields geodesic motion in the small-body limit."
+    ],
+    "limitations": "The result uses its particular local hypotheses and does not compute first-order self-force corrections.",
+    "role": "research_entry"
+  },
+  {
+    "id": "SRC-PHYS-930",
+    "title": "Black hole perturbation theory and gravitational self-force",
+    "authors": [
+      "Adam Pound",
+      "Barry Wardell"
+    ],
+    "year": 2021,
+    "url": "https://arxiv.org/pdf/2101.04592",
+    "source_type": "specialist review",
+    "domains": [
+      "Mathematical general relativity"
+    ],
+    "locator": "Introduction, PDF p. 4, and discussion of effective motion near PDF p. 49.",
+    "accessed": "2026-11-28",
+    "verification": "opened",
+    "supports": [
+      "Reviews the small-body expansion and the later extension of gravitational self-force calculations to second perturbative order."
+    ],
+    "limitations": "The review concerns perturbative methods and compact bodies. It does not establish the validity of a chosen limit for arbitrary matter or initial data.",
     "role": "research_entry"
   }
 ]

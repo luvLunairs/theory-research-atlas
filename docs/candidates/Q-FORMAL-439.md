@@ -10,42 +10,68 @@ Characterize the optimal sample complexity of approximate-differentially-private
 
 **Origin:** Literature-origin question. **Curator-designed scope:** No.
 
-**Current status:** Unverified. **Last checked:** 2026-10-14.
+**Current status:** Source reports open. **Last checked:** 2026-11-28.
 
-**Status basis:** The inspected source poses this question. A comprehensive search for later resolutions has not been completed; current openness is not asserted.
+**Status basis:** At fixed accuracy, confidence and privacy parameters, Moran and Yan obtain an upper bound of order d log d for Littlestone dimension d. They explicitly leave open whether a polynomial in the VC dimension and log-star d suffices. This is the regime in which a finite class can have a large gap between its two dimensions.
 
-**Statement check:** Needs clarification. **Status check:** Source report only.
+**Statement check:** Source located. **Status check:** Later literature checked.
 
-**Source date and freshness:** COLT 2026 problem note.
+**Source date and freshness:** Nissim, Stemmer and Tsfadia, COLT 2026 problem statement. Moran and Yan, October 2026, introduction and the discussion after the general sample bound.
 
-**Scope limits:** This is a source-defined research question, not a claim that a solution or a manageable research route is known.
+**Scope limits:** At fixed accuracy, confidence and privacy parameters, Moran and Yan obtain an upper bound of order d log d for Littlestone dimension d. They explicitly leave open whether a polynomial in the VC dimension and log-star d suffices. This is the regime in which a finite class can have a large gap between its two dimensions.
 
 **Information still needed**
 
-- The precise conjectured dependence on class size and privacy parameters needs extraction; current status beyond this 2026 problem note is unchecked.
-- Inspect the full problem note before selecting a concrete research task.
+- A worst-case dependence on Littlestone dimension does not settle the sharper joint dependence. The published open-problem statement and October preprint concern approximate privacy.
 
 **Primary branch:** [Statistical learning and high-dimensional theory](../domains/stat.md#stat-learn). **Related branches:** None recorded.
 
-**Sources:** [Invited Open Problem: Does Differential Privacy Make PAC Learning Much Harder?](../sources.md#src-formal-437).
+**Sources:** [Invited Open Problem: Does Differential Privacy Make PAC Learning Much Harder?](../sources.md#src-formal-437); [Nearly Linear Private Learning of Littlestone Classes](../sources.md#src-model-926).
 
-**Exact locator:** Abstract
+**Exact locator:** Nissim, Stemmer and Tsfadia, COLT 2026 problem statement. Moran and Yan, October 2026, introduction and the discussion after the general sample bound.
 
 **Potential difficulty:** Unknown. The source identifies an unresolved research target; its present difficulty has not been independently assessed.
 
-**Possible AI role:** After the statistical model is recovered, help manipulate risk bounds, compare lower-bound constructions and design simulations that challenge proposed assumptions. Simulation does not establish minimax optimality.
+**Possible AI role:** Compare known upper and lower bounds on classes where the VC and Littlestone dimensions grow at different rates.
 
 **Verification burden:** High. Upper and lower bounds must use identical distribution classes, loss, privacy or oracle conditions and quantifiers; statistical counterexamples need exact arguments.
 
 **Resource expectations:** The formal target needs no new physical experiment. Simulations may use synthetic samples; necessary sample counts and computational costs have not been estimated.
 
-**Assessment:** 2026-10-14; untested forecast. **Uncertainty:** No model has been tested. Current status, useful subcases and feasible computational scale require further review.
+**Assessment:** 2026-11-28; untested forecast. **Uncertainty:** A worst-case dependence on Littlestone dimension does not settle the sharper joint dependence. The published open-problem statement and October preprint concern approximate privacy.
 
-**Further work:** resolve the statement and status questions above before planning an attempt. **Human review:** Pending.
+**Further work:** define a scoped target, resource requirements and a verification plan before developing a full card. **Human review:** Pending.
 
 ## Literature checks
 
 These are editorial evidence checks, not signed expert reviews or independent proof verification.
+
+### 2026-11-28
+
+**Coverage:** Statement and later literature. **Statement:** Matched.
+
+**Recorded status:** Unverified → Source reports open.
+
+At fixed accuracy, confidence and privacy parameters, Moran and Yan obtain an upper bound of order d log d for Littlestone dimension d. They explicitly leave open whether a polynomial in the VC dimension and log-star d suffices. This is the regime in which a finite class can have a large gap between its two dimensions.
+
+**Search scope:** Compared the indexed question with the passages and later records listed below.
+
+**Inspected evidence**
+
+- [Invited Open Problem: Does Differential Privacy Make PAC Learning Much Harder?](../sources.md#src-formal-437) — Abstract, finite-class comparison. Distinguishes finite-class private complexity from the nonprivate VC benchmark.
+- [Nearly Linear Private Learning of Littlestone Classes](../sources.md#src-model-926) — Introduction, theorem for general Littlestone classes and the following paragraph on the log-star question. The authors obtain O(d log d) sample complexity at fixed learning and privacy parameters for Littlestone dimension d. They explicitly retain the question about a polynomial in the VC dimension and log-star d.
+
+**Limits and remaining work**
+
+- A worst-case dependence on Littlestone dimension does not settle the sharper joint dependence. The published open-problem statement and October preprint concern approximate privacy.
+
+<details>
+<summary>Search queries</summary>
+
+- Nissim Stemmer Tsfadia finite concept classes private PAC log-star Littlestone dimension Moran Yan 2026
+
+
+</details>
 
 ### 2026-10-14
 

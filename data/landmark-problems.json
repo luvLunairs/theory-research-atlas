@@ -164,14 +164,15 @@
     "title": "Scissors congruence of tetrahedra",
     "scope": "Equal volume versus finite dissection and reassembly.",
     "status": "resolved",
-    "status_basis": "Dehn supplied a negative answer.",
+    "status_basis": "Equal-volume polyhedra in Euclidean three-space can have different Dehn invariants and hence admit no common finite dissection. Sydler later proved that equality of volume and Dehn invariant is sufficient as well.",
     "problem_ids": [],
     "source_ids": [
       "SRC-LAND-307",
-      "SRC-LAND-308"
+      "SRC-LAND-308",
+      "SRC-LAND-923"
     ],
-    "source_locator": "Hilbert, Problem 3; recent overview, matching numbered paragraph. Additional scope qualifications use the linked specialist source.",
-    "last_checked": "2026-10-14"
+    "source_locator": "Hilbert, Problem 3. Dupont, opening paragraph and definition of the Dehn invariant.",
+    "last_checked": "2026-11-28"
   },
   {
     "id": "HILBERT-04",
@@ -403,14 +404,15 @@
     "title": "Positive polynomials and sums of squares",
     "scope": "Represent nonnegative real polynomials by sums of squares of rational functions.",
     "status": "resolved",
-    "status_basis": "Artin established the rational-function representation.",
+    "status_basis": "Artin proved that every real polynomial nonnegative on all real inputs is a sum of squares of rational functions. Requiring the summands themselves to be polynomials gives a stronger statement that fails in general.",
     "problem_ids": [],
     "source_ids": [
       "SRC-LAND-307",
-      "SRC-LAND-308"
+      "SRC-LAND-308",
+      "SRC-LAND-924"
     ],
-    "source_locator": "Hilbert, Problem 17; recent overview, matching numbered paragraph. Additional scope qualifications use the linked specialist source.",
-    "last_checked": "2026-10-14"
+    "source_locator": "Hilbert, Problem 17. Simons Foundation, item 17. Reznick, abstract and introduction on nonnegative polynomials.",
+    "last_checked": "2026-11-28"
   },
   {
     "id": "HILBERT-18",
@@ -419,14 +421,16 @@
     "title": "Congruent polyhedra and packing",
     "scope": "Space groups, tilings by congruent polyhedra, and densest packings of equal spheres or more general congruent solids; the original text also names regular tetrahedra.",
     "status": "formulation_dependent",
-    "status_basis": "The standard space-group, non-isohedral tiling and three-dimensional sphere-packing components have established resolutions. Those results do not settle every general-solid packing question in the original wording. Specific remaining packing targets need separate current-source review.",
+    "status_basis": "The space-group and non-isohedral tiling questions have classical solutions. For congruent balls in three dimensions the optimal density is π/√18. For regular tetrahedra, Chen, Engel and Glotzer construct a packing of density 4000/4671 and prove optimality within their dimer family. The cited papers give no unrestricted tetrahedron optimum.",
     "problem_ids": [],
     "source_ids": [
       "SRC-LAND-307",
-      "SRC-LAND-308"
+      "SRC-LAND-308",
+      "SRC-LAND-925",
+      "SRC-LAND-926"
     ],
-    "source_locator": "Hilbert, Problem 18; recent overview, matching numbered paragraph. Additional scope qualifications use the linked specialist source.",
-    "last_checked": "2026-10-14"
+    "source_locator": "Hilbert, Problem 18. Hales, Theorem 1.1. Chen, Engel and Glotzer, abstract and dimer construction.",
+    "last_checked": "2026-11-28"
   },
   {
     "id": "HILBERT-19",

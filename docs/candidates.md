@@ -264,7 +264,7 @@ Use this index to compare targets and their evidence status. **552 records inclu
 | [Minimum norms of a nonnegative autoconvolution](#q-math-460) | [Harmonic, real and complex analysis](domains/math.md#math-anal-harm) | Unknown | Source reports open | Outline |
 | [Dense simultaneous sumset encodings for matrix multiplication](#q-math-461) | [Extremal and Ramsey theory](domains/math.md#math-comb-ext) | Unknown | Source reports open | Outline |
 | [Polynomially many rotations for the pyjama covering](#q-math-462) | [Dynamical systems and ergodic theory](domains/math.md#math-dyn) | Unknown | Source reports open | Outline |
-| [Sharp Cohn–Elkies bounds for planar circle packing](#q-math-463) | [Harmonic, real and complex analysis](domains/math.md#math-anal-harm) | High | Source reports open | Outline |
+| [Sharp Cohn–Elkies bounds for planar circle packing](#q-math-463) | [Harmonic, real and complex analysis](domains/math.md#math-anal-harm) | High | Unverified | Outline |
 | [Carbery's large-rectangle problem](#q-math-464) | [Analysis](domains/math.md#math-anal) | Unknown | Source reports open | Outline |
 | [The three-dimensional box-free grid problem](#q-math-465) | [Extremal and Ramsey theory](domains/math.md#math-comb-ext) | Unknown | Source reports open | Outline |
 | [Rota–Baxter image equal to a free-group commutator subgroup](#q-math-466) | [Algebra](domains/math.md#math-alg) | Unknown | Source reports open | Outline |
@@ -274,9 +274,9 @@ Use this index to compare targets and their evidence status. **552 records inclu
 | [Disjoint conjugates of solvable permutation subgroups from degree 21](#q-math-470) | [Algebra](domains/math.md#math-alg) | Unknown | Source reports open | Outline |
 | [Five solvable subgroups with trivial conjugate intersection](#q-math-471) | [Algebra](domains/math.md#math-alg) | Unknown | Source reports open | Outline |
 | [Lifting the IYB property from Sylow subgroups](#q-math-472) | [Algebra](domains/math.md#math-alg) | Unknown | Source reports open | Outline |
-| [Hopficity of restricted wreath products](#q-math-473) | [Algebra](domains/math.md#math-alg) | Unknown | Source reports open | Outline |
+| [Hopficity of restricted wreath products](#q-math-473) | [Algebra](domains/math.md#math-alg) | Unknown | Unverified | Outline |
 | [Induced-cycle classification of enhanced power graphs of simple groups](#q-math-474) | [Algebra](domains/math.md#math-alg) | Unknown | Source reports open | Outline |
-| [Chordal enhanced power graphs of finite simple groups](#q-math-475) | [Algebra](domains/math.md#math-alg) | Unknown | Source reports open | Outline |
+| [Chordal enhanced power graphs of finite simple groups](#q-math-475) | [Algebra](domains/math.md#math-alg) | Unknown | Unverified | Outline |
 | [Generating a finite simple group with two prescribed Sylow types](#q-math-476) | [Algebra](domains/math.md#math-alg) | Unknown | Source reports open | Outline |
 | [Simultaneously minimal Sylow intersections](#q-math-477) | [Algebra](domains/math.md#math-alg) | Unknown | Source reports open | Outline |
 | [Two derangements for every element of a simple permutation group](#q-math-478) | [Algebra](domains/math.md#math-alg) | Unknown | Source reports open | Outline |
@@ -347,12 +347,12 @@ Use this index to compare targets and their evidence status. **552 records inclu
 | [Sublogarithmic approximation for metric freeze-tag](#q-formal-418) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
 | [Compatible triangulations of equal-size planar point sets](#q-formal-419) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
 | [Quadratic-time sorting of pairwise sums](#q-formal-420) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
-| [Vertex unfolding of nonsimplicial polyhedra](#q-formal-421) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
+| [Vertex unfolding of nonsimplicial polyhedra](#q-formal-421) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Source reports open | Outline |
 | [General unfolding of nonconvex polyhedra](#q-formal-422) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Source reports open | Outline |
 | [Linear-size universal point sets for planar straight-line drawings](#q-formal-423) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Source reports open | Outline |
 | [Two-bend orthogonal drawings of maximum-degree-six graphs](#q-formal-424) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
-| [Complexity of planar Euclidean maximum TSP](#q-formal-425) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
-| [Complexity of planar Euclidean maximum-scatter TSP](#q-formal-426) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
+| [Complexity of planar Euclidean maximum TSP](#q-formal-425) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Source reports open | Outline |
+| [Complexity of planar Euclidean maximum-scatter TSP](#q-formal-426) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Source reports open | Outline |
 | [Minimum-turn tours in solid grid graphs](#q-formal-427) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
 | [Shortest tours in solid grid graphs](#q-formal-428) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
 | [Complexity of pallet loading with a compact input](#q-formal-429) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
@@ -360,12 +360,12 @@ Use this index to compare targets and their evidence status. **552 records inclu
 | [Edge unfolding of genus-zero polycubes](#q-formal-431) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
 | [Complexity of rolling a die across a fully labelled rectangle](#q-formal-432) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
 | [Possibly crossing isosceles drawings of triangulations](#q-formal-433) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
-| [Zipper unfoldings of convex polyhedra](#q-formal-434) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Unverified | Outline |
+| [Zipper unfoldings of convex polyhedra](#q-formal-434) | [Computational geometry and topology](domains/cs.md#cs-geom) | Unknown | Source reports open | Outline |
 | [Structure-agnostic minimax risk in the partial linear model](#q-formal-435) | [Causal inference and identifiability](domains/stat.md#stat-causal) | Unknown | Unverified | Outline |
 | [Data selection for mean estimation](#q-formal-436) | [Inference and decision theory](domains/stat.md#stat-infer) | Unknown | Source reports open | Outline |
 | [Data selection for linear regression](#q-formal-437) | [Statistical learning and high-dimensional theory](domains/stat.md#stat-learn) | Unknown | Source reports open | Outline |
 | [Noninteractive one-bit mean estimation over finite-moment classes](#q-formal-438) | [Inference and decision theory](domains/stat.md#stat-infer) | Unknown | Reported resolved | Outline |
-| [Sample complexity of approximately private PAC learning](#q-formal-439) | [Statistical learning and high-dimensional theory](domains/stat.md#stat-learn) | Unknown | Unverified | Outline |
+| [Sample complexity of approximately private PAC learning](#q-formal-439) | [Statistical learning and high-dimensional theory](domains/stat.md#stat-learn) | Unknown | Source reports open | Outline |
 | [Instance-optimal sampling for approximate matrix-game equilibria](#q-formal-440) | [Inference and decision theory](domains/stat.md#stat-infer) | Unknown | Unverified | Outline |
 | [Optimal adaptation cost in heavy-tailed bandits](#q-formal-441) | [Statistical learning and high-dimensional theory](domains/stat.md#stat-learn) | Unknown | Unverified | Outline |
 | [Assumptions permitting optimal heavy-tail adaptation](#q-formal-442) | [Statistical learning and high-dimensional theory](domains/stat.md#stat-learn) | Unknown | Unverified | Outline |
@@ -373,7 +373,7 @@ Use this index to compare targets and their evidence status. **552 records inclu
 | [Distribution-independent statistical queries versus dimension complexity](#q-formal-444) | [Statistical learning and high-dimensional theory](domains/stat.md#stat-learn) | Unknown | Unverified | Outline |
 | [Tight instance-optimal identity testing](#q-formal-445) | [Inference and decision theory](domains/stat.md#stat-infer) | Unknown | Unverified | Outline |
 | [Direct comparison of identity-testing complexity functionals](#q-formal-446) | [Inference and decision theory](domains/stat.md#stat-infer) | Unknown | Unverified | Outline |
-| [Optimal private stochastic full-information regret](#q-formal-447) | [Statistical learning and high-dimensional theory](domains/stat.md#stat-learn) | Unknown | Unverified | Outline |
+| [Optimal private stochastic full-information regret](#q-formal-447) | [Statistical learning and high-dimensional theory](domains/stat.md#stat-learn) | Unknown | Reported resolved | Outline |
 | [Optimal regret for kernel-based episodic reinforcement learning](#q-formal-448) | [Statistical learning and high-dimensional theory](domains/stat.md#stat-learn) | Unknown | Unverified | Outline |
 | [Local-to-global tensorization](#q-formal-449) | [Entropy inequalities and information geometry](domains/info.md#info-entropy) | Unknown | Unverified | Outline |
 | [Source coding with information masking](#q-formal-450) | [Classical information theory](domains/info.md#info-shannon) | Unknown | Unverified | Outline |
@@ -381,7 +381,7 @@ Use this index to compare targets and their evidence status. **552 records inclu
 | [General distributed-testing exponent](#q-formal-452) | [Classical information theory](domains/info.md#info-shannon) | Unknown | Unverified | Outline |
 | [Interactive distributed-testing exponent](#q-formal-453) | [Classical information theory](domains/info.md#info-shannon) | Unknown | Unverified | Outline |
 | [Mismatch-capacity formula](#q-formal-454) | [Classical information theory](domains/info.md#info-shannon) | Unknown | Source reports open | Outline |
-| [Channel reliability function](#q-formal-455) | [Classical information theory](domains/info.md#info-shannon) | Unknown | Unverified | Outline |
+| [Channel reliability function](#q-formal-455) | [Classical information theory](domains/info.md#info-shannon) | Unknown | Source reports open | Outline |
 | [General broadcast-channel capacity](#q-formal-456) | [Classical information theory](domains/info.md#info-shannon) | Unknown | Source reports open | Outline |
 | [General relay-channel capacity](#q-formal-457) | [Classical information theory](domains/info.md#info-shannon) | Unknown | Conflicting evidence | Outline |
 | [Exact Gaussian interference-channel capacity](#q-formal-458) | [Classical information theory](domains/info.md#info-shannon) | Unknown | Unverified | Outline |
@@ -493,7 +493,7 @@ Use this index to compare targets and their evidence status. **552 records inclu
 | [Smooth stationary black-hole uniqueness without analyticity](#q-model-459) | [Gravitation and spacetime theory](domains/phys.md#phys-grav) | Frontier | Unverified | Outline |
 | [Penrose's final-state conjecture](#q-model-460) | [Gravitation and spacetime theory](domains/phys.md#phys-grav) | Frontier | Unverified | Outline |
 | [Domains of validity of post-Newtonian expansions](#q-model-461) | [Gravitation and spacetime theory](domains/phys.md#phys-grav) | Frontier | Unverified | Outline |
-| [A rigorous negligible-mass limit for geodesic motion](#q-model-462) | [Gravitation and spacetime theory](domains/phys.md#phys-grav) | Frontier | Unverified | Outline |
+| [A rigorous negligible-mass limit for geodesic motion](#q-model-462) | [Gravitation and spacetime theory](domains/phys.md#phys-grav) | Unknown | Reported resolved | Outline |
 | [Criteria for constant-mean-curvature slices](#q-model-463) | [Gravitation and spacetime theory](domains/phys.md#phys-grav) | Frontier | Unverified | Outline |
 | [Minimal scalar-invariant descriptions of Kundt geometry](#q-model-464) | [Gravitation and spacetime theory](domains/phys.md#phys-grav) | Frontier | Unverified | Outline |
 | [Nonspherical anti-de Sitter nonlinear instability](#q-model-465) | [Gravitation and spacetime theory](domains/phys.md#phys-grav) | Frontier | Unverified | Outline |
@@ -1731,7 +1731,7 @@ Each record has its own page with the statement, source locator, information gap
 
 <a id="q-math-463"></a>
 
-[Q-MATH-463 · Sharp Cohn–Elkies bounds for planar circle packing](candidates/Q-MATH-463.md) — Source reports open.
+[Q-MATH-463 · Sharp Cohn–Elkies bounds for planar circle packing](candidates/Q-MATH-463.md) — Unverified.
 
 <a id="q-math-464"></a>
 
@@ -1771,7 +1771,7 @@ Each record has its own page with the statement, source locator, information gap
 
 <a id="q-math-473"></a>
 
-[Q-MATH-473 · Hopficity of restricted wreath products](candidates/Q-MATH-473.md) — Source reports open.
+[Q-MATH-473 · Hopficity of restricted wreath products](candidates/Q-MATH-473.md) — Unverified.
 
 <a id="q-math-474"></a>
 
@@ -1779,7 +1779,7 @@ Each record has its own page with the statement, source locator, information gap
 
 <a id="q-math-475"></a>
 
-[Q-MATH-475 · Chordal enhanced power graphs of finite simple groups](candidates/Q-MATH-475.md) — Source reports open.
+[Q-MATH-475 · Chordal enhanced power graphs of finite simple groups](candidates/Q-MATH-475.md) — Unverified.
 
 <a id="q-math-476"></a>
 
@@ -2063,7 +2063,7 @@ Each record has its own page with the statement, source locator, information gap
 
 <a id="q-formal-421"></a>
 
-[Q-FORMAL-421 · Vertex unfolding of nonsimplicial polyhedra](candidates/Q-FORMAL-421.md) — Unverified.
+[Q-FORMAL-421 · Vertex unfolding of nonsimplicial polyhedra](candidates/Q-FORMAL-421.md) — Source reports open.
 
 <a id="q-formal-422"></a>
 
@@ -2079,11 +2079,11 @@ Each record has its own page with the statement, source locator, information gap
 
 <a id="q-formal-425"></a>
 
-[Q-FORMAL-425 · Complexity of planar Euclidean maximum TSP](candidates/Q-FORMAL-425.md) — Unverified.
+[Q-FORMAL-425 · Complexity of planar Euclidean maximum TSP](candidates/Q-FORMAL-425.md) — Source reports open.
 
 <a id="q-formal-426"></a>
 
-[Q-FORMAL-426 · Complexity of planar Euclidean maximum-scatter TSP](candidates/Q-FORMAL-426.md) — Unverified.
+[Q-FORMAL-426 · Complexity of planar Euclidean maximum-scatter TSP](candidates/Q-FORMAL-426.md) — Source reports open.
 
 <a id="q-formal-427"></a>
 
@@ -2115,7 +2115,7 @@ Each record has its own page with the statement, source locator, information gap
 
 <a id="q-formal-434"></a>
 
-[Q-FORMAL-434 · Zipper unfoldings of convex polyhedra](candidates/Q-FORMAL-434.md) — Unverified.
+[Q-FORMAL-434 · Zipper unfoldings of convex polyhedra](candidates/Q-FORMAL-434.md) — Source reports open.
 
 <a id="q-formal-435"></a>
 
@@ -2135,7 +2135,7 @@ Each record has its own page with the statement, source locator, information gap
 
 <a id="q-formal-439"></a>
 
-[Q-FORMAL-439 · Sample complexity of approximately private PAC learning](candidates/Q-FORMAL-439.md) — Unverified.
+[Q-FORMAL-439 · Sample complexity of approximately private PAC learning](candidates/Q-FORMAL-439.md) — Source reports open.
 
 <a id="q-formal-440"></a>
 
@@ -2167,7 +2167,7 @@ Each record has its own page with the statement, source locator, information gap
 
 <a id="q-formal-447"></a>
 
-[Q-FORMAL-447 · Optimal private stochastic full-information regret](candidates/Q-FORMAL-447.md) — Unverified.
+[Q-FORMAL-447 · Optimal private stochastic full-information regret](candidates/Q-FORMAL-447.md) — Reported resolved.
 
 <a id="q-formal-448"></a>
 
@@ -2199,7 +2199,7 @@ Each record has its own page with the statement, source locator, information gap
 
 <a id="q-formal-455"></a>
 
-[Q-FORMAL-455 · Channel reliability function](candidates/Q-FORMAL-455.md) — Unverified.
+[Q-FORMAL-455 · Channel reliability function](candidates/Q-FORMAL-455.md) — Source reports open.
 
 <a id="q-formal-456"></a>
 
@@ -2647,7 +2647,7 @@ Each record has its own page with the statement, source locator, information gap
 
 <a id="q-model-462"></a>
 
-[Q-MODEL-462 · A rigorous negligible-mass limit for geodesic motion](candidates/Q-MODEL-462.md) — Unverified.
+[Q-MODEL-462 · A rigorous negligible-mass limit for geodesic motion](candidates/Q-MODEL-462.md) — Reported resolved.
 
 <a id="q-model-463"></a>
 

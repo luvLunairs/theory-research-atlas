@@ -206,13 +206,13 @@ Foundations and allowed methods for consistency proofs.
 
 Equal volume versus finite dissection and reassembly.
 
-**Status:** Resolved. Dehn supplied a negative answer.
+**Status:** Resolved. Equal-volume polyhedra in Euclidean three-space can have different Dehn invariants and hence admit no common finite dissection. Sydler later proved that equality of volume and Dehn invariant is sufficient as well.
 
-**Sources:** [Mathematical Problems](sources.md#src-land-307); [Solved, Unsolved and Unsolvable: The Status of Hilbert's 23 Problems in Mathematics](sources.md#src-land-308).
+**Sources:** [Mathematical Problems](sources.md#src-land-307); [Solved, Unsolved and Unsolvable: The Status of Hilbert's 23 Problems in Mathematics](sources.md#src-land-308); [What Is a Scissors Congruence?](sources.md#src-land-923).
 
-**Locator:** Hilbert, Problem 3; recent overview, matching numbered paragraph. Additional scope qualifications use the linked specialist source.
+**Locator:** Hilbert, Problem 3. Dupont, opening paragraph and definition of the Dehn invariant.
 
-**Checked:** 2026-10-14.
+**Checked:** 2026-11-28.
 
 </details>
 
@@ -444,13 +444,13 @@ Classify the topology and arrangements of real algebraic curves and surfaces, an
 
 Represent nonnegative real polynomials by sums of squares of rational functions.
 
-**Status:** Resolved. Artin established the rational-function representation.
+**Status:** Resolved. Artin proved that every real polynomial nonnegative on all real inputs is a sum of squares of rational functions. Requiring the summands themselves to be polynomials gives a stronger statement that fails in general.
 
-**Sources:** [Mathematical Problems](sources.md#src-land-307); [Solved, Unsolved and Unsolvable: The Status of Hilbert's 23 Problems in Mathematics](sources.md#src-land-308).
+**Sources:** [Mathematical Problems](sources.md#src-land-307); [Solved, Unsolved and Unsolvable: The Status of Hilbert's 23 Problems in Mathematics](sources.md#src-land-308); [On Hilbert's construction of positive polynomials](sources.md#src-land-924).
 
-**Locator:** Hilbert, Problem 17; recent overview, matching numbered paragraph. Additional scope qualifications use the linked specialist source.
+**Locator:** Hilbert, Problem 17. Simons Foundation, item 17. Reznick, abstract and introduction on nonnegative polynomials.
 
-**Checked:** 2026-10-14.
+**Checked:** 2026-11-28.
 
 </details>
 
@@ -461,13 +461,13 @@ Represent nonnegative real polynomials by sums of squares of rational functions.
 
 Space groups, tilings by congruent polyhedra, and densest packings of equal spheres or more general congruent solids; the original text also names regular tetrahedra.
 
-**Status:** Formulation dependent. The standard space-group, non-isohedral tiling and three-dimensional sphere-packing components have established resolutions. Those results do not settle every general-solid packing question in the original wording. Specific remaining packing targets need separate current-source review.
+**Status:** Formulation dependent. The space-group and non-isohedral tiling questions have classical solutions. For congruent balls in three dimensions the optimal density is π/√18. For regular tetrahedra, Chen, Engel and Glotzer construct a packing of density 4000/4671 and prove optimality within their dimer family. The cited papers give no unrestricted tetrahedron optimum.
 
-**Sources:** [Mathematical Problems](sources.md#src-land-307); [Solved, Unsolved and Unsolvable: The Status of Hilbert's 23 Problems in Mathematics](sources.md#src-land-308).
+**Sources:** [Mathematical Problems](sources.md#src-land-307); [Solved, Unsolved and Unsolvable: The Status of Hilbert's 23 Problems in Mathematics](sources.md#src-land-308); [The Kepler conjecture](sources.md#src-land-925); [Dense crystalline dimer packings of regular tetrahedra](sources.md#src-land-926).
 
-**Locator:** Hilbert, Problem 18; recent overview, matching numbered paragraph. Additional scope qualifications use the linked specialist source.
+**Locator:** Hilbert, Problem 18. Hales, Theorem 1.1. Chen, Engel and Glotzer, abstract and dimer construction.
 
-**Checked:** 2026-10-14.
+**Checked:** 2026-11-28.
 
 </details>
 

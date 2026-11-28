@@ -30,7 +30,7 @@
       "coverage": "Candidate records include convex and discrete geometry, knots, manifolds, surfaces, mapping classes and geometric algorithms. The K3 selections provide individually numbered topology questions.",
       "gaps": "Higher-dimensional, equivariant and stable homotopy theory remain underrepresented. Many K3 and computational geometry entries still need later-literature checks.",
       "reason": "Distinct notions of equivalence, smoothness and allowed geometric operations must be preserved in each statement.",
-      "status_limits": "The quadratic upper bound for surface 1-systems has a revised resolution claim. The earlier proof was corrected; assessment of the revised proof remains outstanding. The historical candidate is retained under its original ID."
+      "status_limits": "The quadratic upper bound for surface 1-systems has a revised resolution claim. The earlier proof was corrected; assessment of the revised proof remains outstanding. The historical candidate is retained under its original ID. A vertex unfolding of a triangulated surface may meet only at vertices. Allowing cuts across a polygonal face changes the nonsimplicial problem."
     }
   },
   {
@@ -107,7 +107,7 @@
       "coverage": "Candidates cover DNF Fourier structure, data selection, private learning, statistical queries, tensor methods, bandits and reinforcement learning.",
       "gaps": "Many are brief source-based records. Precise assumptions, current partial results and practical research plans need specialist review.",
       "reason": "A statistical guarantee, a computational guarantee and empirical performance are distinct claims.",
-      "status_limits": "The two heavy-tailed bandit questions now have direct responses. The rates in the assumption-free setting and the conditions for oracle-rate adaptation use different benchmarks. The latter result requires specified visibility constants."
+      "status_limits": "The two heavy-tailed bandit questions now have direct responses. The rates in the assumption-free setting and the conditions for oracle-rate adaptation use different benchmarks. The latter result requires specified visibility constants. For full-information stochastic online learning with event-level pure differential privacy and a unique best action, the gap-dependent regret question now has a matching upper bound."
     }
   },
   {
@@ -343,7 +343,8 @@
       "source_ids": [
         "SRC-FORMAL-106",
         "SRC-MODEL-210"
-      ]
+      ],
+      "status_limits": "The negative random cubic graph preprint was withdrawn by its authors after they reported finding an earlier matching argument. The withdrawal notice alone does not decide whether the argument proves the conjecture false."
     }
   },
   {

@@ -6,7 +6,7 @@ Guarantees for inference, decisions and learning from observations.
 
 **Boundary:** Benchmarks alone do not establish general statistical guarantees.
 
-**Research sources: 33 · Primary tasks: 19 · Full cards: 2 · Cross-linked tasks: 5.**
+**Research sources: 38 · Primary tasks: 19 · Full cards: 2 · Cross-linked tasks: 5.**
 
 **Further work:** Extend coverage and review these cards.
 
@@ -27,7 +27,7 @@ Guarantees for inference, decisions and learning from observations.
 | [Data selection for mean estimation](../candidates/Q-FORMAL-436.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-FORMAL-436 |
 | [Data selection for linear regression](../candidates/Q-FORMAL-437.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-FORMAL-437 |
 | [Noninteractive one-bit mean estimation over finite-moment classes](../candidates/Q-FORMAL-438.md) | Unknown | Literature-origin question | Reported resolved | Outline · Q-FORMAL-438 |
-| [Sample complexity of approximately private PAC learning](../candidates/Q-FORMAL-439.md) | Unknown | Literature-origin question | Unverified | Outline · Q-FORMAL-439 |
+| [Sample complexity of approximately private PAC learning](../candidates/Q-FORMAL-439.md) | Unknown | Literature-origin question | Source reports open | Outline · Q-FORMAL-439 |
 | [Instance-optimal sampling for approximate matrix-game equilibria](../candidates/Q-FORMAL-440.md) | Unknown | Literature-origin question | Unverified | Outline · Q-FORMAL-440 |
 | [Optimal adaptation cost in heavy-tailed bandits](../candidates/Q-FORMAL-441.md) | Unknown | Literature-origin question | Unverified | Outline · Q-FORMAL-441 |
 | [Assumptions permitting optimal heavy-tail adaptation](../candidates/Q-FORMAL-442.md) | Unknown | Literature-origin question | Unverified | Outline · Q-FORMAL-442 |
@@ -35,7 +35,7 @@ Guarantees for inference, decisions and learning from observations.
 | [Distribution-independent statistical queries versus dimension complexity](../candidates/Q-FORMAL-444.md) | Unknown | Literature-origin question | Unverified | Outline · Q-FORMAL-444 |
 | [Tight instance-optimal identity testing](../candidates/Q-FORMAL-445.md) | Unknown | Literature-origin question | Unverified | Outline · Q-FORMAL-445 |
 | [Direct comparison of identity-testing complexity functionals](../candidates/Q-FORMAL-446.md) | Unknown | Literature-origin question | Unverified | Outline · Q-FORMAL-446 |
-| [Optimal private stochastic full-information regret](../candidates/Q-FORMAL-447.md) | Unknown | Literature-origin question | Unverified | Outline · Q-FORMAL-447 |
+| [Optimal private stochastic full-information regret](../candidates/Q-FORMAL-447.md) | Unknown | Literature-origin question | Reported resolved | Outline · Q-FORMAL-447 |
 | [Optimal regret for kernel-based episodic reinforcement learning](../candidates/Q-FORMAL-448.md) | Unknown | Literature-origin question | Unverified | Outline · Q-FORMAL-448 |
 
 <a id="sources"></a>
@@ -81,6 +81,11 @@ These are mapped to this domain or a descendant. A source entry does not mean al
 | [Sequential testing of conditionally constrained hypotheses](../sources.md#src-model-708) | Research entry | 2026 |
 | [Parameter-Free Heavy-Tailed Bandits](../sources.md#src-model-900) | Research entry | 2026 |
 | [Visible Tails: Characterizing Adaptation to Unknown Moments in Heavy-Tailed Bandits](../sources.md#src-model-901) | Research entry | 2026 |
+| [A Separation Between Distribution-Free SQ Learning and Dimension Complexity](../sources.md#src-model-922) | Research entry | 2026 |
+| [Distribution-independent SQ learning does not imply low dimension complexity](../sources.md#src-model-923) | Research entry | 2026 |
+| [Optimal Gap-Dependent Regret for Private Stochastic Decision-Theoretic Online Learning](../sources.md#src-model-924) | Research entry | 2026 |
+| [SODA27 Accepted Papers](../sources.md#src-model-925) | Research entry | Not verified |
+| [Nearly Linear Private Learning of Littlestone Classes](../sources.md#src-model-926) | Research entry | 2026 |
 
 <a id="branches"></a>
 
@@ -273,7 +278,7 @@ Generalization and inference in complex models.
 
 **Representative objects:** regression, generalization, sparsity.
 
-**Direct source entries:** [Dual VC Dimension Obstructs Sample Compression by Embeddings](../sources.md#src-formal-012), [The Probably Approximately Correct Learning Model in Computational Learning Theory](../sources.md#src-formal-307), [Sample Compression Scheme Reductions](../sources.md#src-formal-310), [The No-Clash Teaching Dimension is Bounded by VC Dimension [withdrawn]](../sources.md#src-formal-311), [Learning DNF in Time 2^{O-tilde(n^{1/3})}](../sources.md#src-formal-322), [Learning Juntas under Markov Random Fields](../sources.md#src-formal-323), [Open Problem: Data Selection for Regression Tasks](../sources.md#src-formal-435), [Invited Open Problem: Does Differential Privacy Make PAC Learning Much Harder?](../sources.md#src-formal-437), [Open Problem: Regret Minimization in Heavy-Tailed Bandits with Unknown Distributional Parameters](../sources.md#src-formal-439), [Invited Open Problem: Is the Power of Deep Learning over Linear Models Inherently Distribution Dependent?](../sources.md#src-formal-441), [Open Problem: Optimal Rates for Stochastic Decision-Theoretic Online Learning Under Differentially Privacy](../sources.md#src-formal-443), [Open Problem: Order Optimal Regret Bounds for Kernel-Based Reinforcement Learning](../sources.md#src-formal-444), [Data Selection for ERMs](../sources.md#src-formal-610), [Exact Risk Ratios for Weighted Data Selection in Linear Regression](../sources.md#src-model-702), [Weighted Data Selection: Sharp Upper-Half and Five-Dimensional Laws](../sources.md#src-model-703), [Parameter-Free Heavy-Tailed Bandits](../sources.md#src-model-900), [Visible Tails: Characterizing Adaptation to Unknown Moments in Heavy-Tailed Bandits](../sources.md#src-model-901).
+**Direct source entries:** [Dual VC Dimension Obstructs Sample Compression by Embeddings](../sources.md#src-formal-012), [The Probably Approximately Correct Learning Model in Computational Learning Theory](../sources.md#src-formal-307), [Sample Compression Scheme Reductions](../sources.md#src-formal-310), [The No-Clash Teaching Dimension is Bounded by VC Dimension [withdrawn]](../sources.md#src-formal-311), [Learning DNF in Time 2^{O-tilde(n^{1/3})}](../sources.md#src-formal-322), [Learning Juntas under Markov Random Fields](../sources.md#src-formal-323), [Open Problem: Data Selection for Regression Tasks](../sources.md#src-formal-435), [Invited Open Problem: Does Differential Privacy Make PAC Learning Much Harder?](../sources.md#src-formal-437), [Open Problem: Regret Minimization in Heavy-Tailed Bandits with Unknown Distributional Parameters](../sources.md#src-formal-439), [Invited Open Problem: Is the Power of Deep Learning over Linear Models Inherently Distribution Dependent?](../sources.md#src-formal-441), [Open Problem: Optimal Rates for Stochastic Decision-Theoretic Online Learning Under Differentially Privacy](../sources.md#src-formal-443), [Open Problem: Order Optimal Regret Bounds for Kernel-Based Reinforcement Learning](../sources.md#src-formal-444), [Data Selection for ERMs](../sources.md#src-formal-610), [Exact Risk Ratios for Weighted Data Selection in Linear Regression](../sources.md#src-model-702), [Weighted Data Selection: Sharp Upper-Half and Five-Dimensional Laws](../sources.md#src-model-703), [Parameter-Free Heavy-Tailed Bandits](../sources.md#src-model-900), [Visible Tails: Characterizing Adaptation to Unknown Moments in Heavy-Tailed Bandits](../sources.md#src-model-901), [A Separation Between Distribution-Free SQ Learning and Dimension Complexity](../sources.md#src-model-922), [Distribution-independent SQ learning does not imply low dimension complexity](../sources.md#src-model-923), [Optimal Gap-Dependent Regret for Private Stochastic Decision-Theoretic Online Learning](../sources.md#src-model-924), [SODA27 Accepted Papers](../sources.md#src-model-925), [Nearly Linear Private Learning of Littlestone Classes](../sources.md#src-model-926).
 
 **Primary tasks in this branch and its descendants**
 

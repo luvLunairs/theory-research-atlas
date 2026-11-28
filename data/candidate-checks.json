@@ -906,12 +906,11 @@
     "problem_id": "Q-MODEL-207",
     "statement_check": "source_located",
     "status_check": "later_literature_checked",
-    "source_date_note": "2025 conjecture; 2026 conference abstract; Colbrook manuscript dated 11 September 2026.",
+    "source_date_note": "Randomstrasse101, Entry 2, Conjecture 3. Carvallo, Groisman and Mitsche, October 2026 preprint v1, Theorem 1.2, and v2 withdrawal notice. Colbrook, Theorem 1.",
     "missing_information": [
-      "Locate the complete Carvallo-Groisman-Mitsche proof and confirm its graph distribution and stability definition.",
-      "Obtain independent specialist evaluation or scholarly acceptance of the exact-model Colbrook claim."
+      "Neither the withdrawn version nor the separate manuscript received an independent proof audit here. Check the local-minimum criterion and its correspondence to the claimed dynamics."
     ],
-    "scope_note": "Keep the original probability limit and local-minimum statement. A finite nonsynchronized cubic graph alone would not refute an asymptotic high-probability assertion; the new sources make asymptotic claims."
+    "scope_note": "The conference abstract gives a bound away from zero for nonsynchronization. In October the same authors claimed nonsynchronization with probability tending to one, then withdrew the preprint because they found an overlapping solution on GitHub. Colbrook’s separate manuscript also claims this asymptotic conclusion. The withdrawal notice cites overlap rather than a flaw in the proof."
   },
   {
     "problem_id": "Q-MODEL-208",
@@ -1428,22 +1427,22 @@
   {
     "problem_id": "Q-FORMAL-315",
     "statement_check": "source_located",
-    "status_check": "source_report_only",
-    "source_date_note": "Recorded source years: SRC-FORMAL-309: 2026. The last-checked date records the scope described in the status basis; it is not a comprehensive literature-search date.",
+    "status_check": "later_literature_checked",
+    "source_date_note": "The problem statement and references listed in the 28 November 2026 literature check were inspected.",
     "missing_information": [
-      "Specify the assumptions, candidate methods, resource requirements and independent verification steps for a concrete research task."
+      "A proposed unrelativized argument needs to explain which step avoids the known relativization barrier."
     ],
-    "scope_note": "The statement and locator identify the candidate. A full assumption set and verification protocol remain to be documented."
+    "scope_note": "Egidy, questions Q1–Q2 and oracle O₂. Egidy and Glaßer, abstract, oracle O₁."
   },
   {
     "problem_id": "Q-FORMAL-316",
     "statement_check": "source_located",
-    "status_check": "source_report_only",
-    "source_date_note": "Recorded source years: SRC-FORMAL-309: 2026. The last-checked date records the scope described in the status basis; it is not a comprehensive literature-search date.",
+    "status_check": "later_literature_checked",
+    "source_date_note": "The problem statement and references listed in the 28 November 2026 literature check were inspected.",
     "missing_information": [
-      "Specify the assumptions, candidate methods, resource requirements and independent verification steps for a concrete research task."
+      "Compare translations for the unrelativized complete language, including how the time bound depends on the system being simulated."
     ],
-    "scope_note": "The statement and locator identify the candidate. A full assumption set and verification protocol remain to be documented."
+    "scope_note": "Egidy, Q2 and Section 1.2.2. Egidy and Glaßer, abstract, oracle O₁."
   },
   {
     "problem_id": "Q-FORMAL-317",
@@ -1673,12 +1672,12 @@
   {
     "problem_id": "Q-MODEL-309",
     "statement_check": "source_located",
-    "status_check": "source_report_only",
-    "source_date_note": "Recorded source years: SRC-MODEL-305: 2021, SRC-MODEL-306: 2026. The last-checked date records the scope described in the status basis; it is not a comprehensive literature-search date.",
+    "status_check": "later_literature_checked",
+    "source_date_note": "Eilon Solan, EMS Magazine, Problem 251*. Simon, Solan and Tomkowicz, November 2026, Theorems 2.11–2.12.",
     "missing_information": [
-      "Specify the assumptions, candidate methods, resource requirements and independent verification steps for a concrete research task."
+      "The two theorems do not establish equilibrium in every ordinary quitting game with at least four players. A reduction would have to preserve the players’ information."
     ],
-    "scope_note": "The statement and locator identify the candidate. A full assumption set and verification protocol remain to be documented."
+    "scope_note": "The November stopping-game paper gives ε-equilibria with arbitrarily many players under a conditionally atomless filtration, and for three players with any filtration. The ordinary four-or-more-player quitting game allows no extra public randomness. The article leaves unrestricted stopping games with more than three players open."
   },
   {
     "problem_id": "Q-MODEL-310",
@@ -1805,12 +1804,12 @@
   {
     "problem_id": "Q-MODEL-322",
     "statement_check": "source_located",
-    "status_check": "source_report_only",
-    "source_date_note": "Recorded source years: SRC-MODEL-314: 2025. The last-checked date records the scope described in the status basis; it is not a comprehensive literature-search date.",
+    "status_check": "later_literature_checked",
+    "source_date_note": "The 28 November 2026 check covers the works and passages listed in the literature record.",
     "missing_information": [
-      "Specify the assumptions, candidate methods, resource requirements and independent verification steps for a concrete research task."
+      "Compare a specified particle model with independent searches and astrophysical constraints. Background estimates and trials factors must accompany any interpretation of the LZ event."
     ],
-    "scope_note": "The statement and locator identify the candidate. A full assumption set and verification protocol remain to be documented."
+    "scope_note": "The cosmological composition question and a likelihood test for a xenon recoil use different observables and assumptions."
   },
   {
     "problem_id": "Q-MODEL-323",
@@ -1891,12 +1890,11 @@
     "problem_id": "Q-CROSS-404",
     "statement_check": "source_located",
     "status_check": "later_literature_checked",
-    "source_date_note": "Recorded source years: SRC-CROSS-401: 2002; SRC-CROSS-603: 2015. Later evidence is limited to the passages in the dated literature check; an access date does not refresh a historical claim.",
+    "source_date_note": "The 28 November 2026 check covers the works and passages listed in the literature record.",
     "missing_information": [
-      "Check later algorithms for the exact gain curve and boundary cases where uniform observability fails.",
-      "Specialist assessment of the exact formulation and remaining novelty is pending."
+      "Check any proposed algorithm on the original class, including the allowed output feedthrough and cases of infinite gain."
     ],
-    "scope_note": "Theorem 25 of the later paper gives a gain-finiteness criterion, with observability qualifications. It does not compute the full optimal dwell-time/gain curve requested by this entry."
+    "scope_note": "The original realizations may contain direct feedthrough. Proposition 32 is stated for y = Cx with bounded mode triples. The slow-switching limit, a bound at one dwell time and the exact curve are distinct objectives."
   },
   {
     "problem_id": "Q-CROSS-405",
@@ -2121,14 +2119,13 @@
   },
   {
     "problem_id": "Q-CROSS-425",
-    "statement_check": "needs_clarification",
+    "statement_check": "source_located",
     "status_check": "later_literature_checked",
-    "source_date_note": "Recorded source years: SRC-CROSS-402: 2019; SRC-CROSS-609: 2026. Later evidence is limited to the passages in the dated literature check; an access date does not refresh a historical claim.",
+    "source_date_note": "The 28 November 2026 check covers the works and passages listed in the literature record.",
     "missing_information": [
-      "Specify hydraulic boundaries and distinguish inter-basin exchange from coastal submarine discharge.",
-      "Specialist assessment of the exact formulation and remaining novelty is pending."
+      "Choose one exchange boundary and a timescale. Identify independent head, discharge or tracer data and state how the model treats flow across topographic divides."
     ],
-    "scope_note": "The numbered IAHS question is a broad research direction. Its source statement is identifiable, but a single current solved/open verdict is not established without a specified model and outcome. The 2026 remote-sensing agenda identifies continuing related limitations; it does not settle the whole UPH direction."
+    "scope_note": "Match each flux estimate to its spatial boundary, water source and averaging period. The coastal model uses modeled watersheds and aquifer properties."
   },
   {
     "problem_id": "Q-CROSS-426",
@@ -2297,25 +2294,23 @@
   },
   {
     "problem_id": "Q-CROSS-441",
-    "statement_check": "needs_clarification",
+    "statement_check": "source_located",
     "status_check": "later_literature_checked",
-    "source_date_note": "Recorded source years: SRC-CROSS-404: 2016; SRC-CROSS-612: 2019. Later evidence is limited to the passages in the dated literature check; an access date does not refresh a historical claim.",
+    "source_date_note": "Yamins and DiCarlo, Question 3 on perturbing subpopulations. Shahbazi and coauthors, 2024 abstract and Figure 1.",
     "missing_information": [
-      "Specify intervention, neural site and behavioral endpoint; stimulus-driven activation is not a direct neural perturbation.",
-      "Specialist assessment of the exact formulation and remaining novelty is pending."
+      "The task uses behavioral reports to infer perceptual effects. Generalization to other animals, stimuli and neural populations requires new evidence."
     ],
-    "scope_note": "The 2016 heading identifies a research program; the present record lacks a single falsifiable success criterion. Partial predictive success is not a complete mechanistic explanation. The 2019 neural-control result concerns image-induced V4 responses, not a complete neural-intervention-to-perception model."
+    "scope_note": "Shahbazi and coauthors measured which image changes macaques confused with localized stimulation in inferior temporal cortex. Those changes depended on the image and stimulation conditions. This supplies a concrete behavioral comparison within the broader modeling question."
   },
   {
     "problem_id": "Q-CROSS-442",
-    "statement_check": "needs_clarification",
+    "statement_check": "source_located",
     "status_check": "later_literature_checked",
-    "source_date_note": "Recorded source years: SRC-CROSS-404: 2016; SRC-CROSS-613: 2025. Later evidence is limited to the passages in the dated literature check; an access date does not refresh a historical claim.",
+    "source_date_note": "Yamins and DiCarlo, Question 4 on linear readouts, p. 116. Majaj and coauthors, 2015, abstract, Results and Discussion.",
     "missing_information": [
-      "Specify the downstream circuit, task and temporal window; successful linear decoding alone does not identify its readout.",
-      "Specialist assessment of the exact formulation and remaining novelty is pending."
+      "The cross-species behavioral fit does not distinguish every decoder with similar predictions or determine which downstream cells implement one."
     ],
-    "scope_note": "The 2016 heading identifies a research program; the present record lacks a single falsifiable success criterion. Partial predictive success is not a complete mechanistic explanation. The 2025 recurrence study provides relevant temporal context, not a universal downstream readout rule."
+    "scope_note": "Majaj and coauthors compared macaque population activity with human behavior across 64 core object-recognition tests. Weighted sums of inferior temporal firing rates predicted the pattern of human performance. This is evidence for a decoding model on those tasks; identifying the downstream implementation remains a separate empirical question."
   },
   {
     "problem_id": "Q-CROSS-443",
@@ -2621,14 +2616,12 @@
   {
     "problem_id": "Q-MATH-422",
     "statement_check": "source_located",
-    "status_check": "source_report_only",
-    "source_date_note": "Inspected source years: SRC-MATH-302: 2025. Checked on 2026-10-14 within the scope recorded in the literature check.",
+    "status_check": "later_literature_checked",
+    "source_date_note": "Green, Problem 28, attributed to Emmanuel Amlot. Hare, abstract and candidate factor patterns. Hasanbegović, November 2026, theorem on separated blocks.",
     "missing_information": [
-      "No exhaustive later-literature search or proof audit was performed for this record.",
-      "The search result set is not evidence of openness.",
-      "The mathematical proof or counterexample, if proposed, still requires expert review."
+      "The degree in Hare’s search refers to a candidate factor. The separated-block theorem needs a fair lower block; neither check covers arbitrary supports."
     ],
-    "scope_note": "The collection reports this precise target as open at its stated update date. One explicitly stated stochastic model or separately posed question is indexed; related models do not share a result automatically."
+    "scope_note": "Green attributes the question to Emmanuel Amlot. In the monic generating-polynomial formulation, Hare tests candidate coefficient patterns through factor degree 15, with 975 patterns left by that test. Hasanbegović gives a sufficient spacing condition for two-block supports with a fair lower block. Both results allow a general finite support to remain undecided."
   },
   {
     "problem_id": "Q-MATH-423",
@@ -3070,13 +3063,12 @@
   {
     "problem_id": "Q-MATH-463",
     "statement_check": "source_located",
-    "status_check": "source_report_only",
-    "source_date_note": "Inspected source years: SRC-MATH-302: 2025. Checked on 2026-10-14 within the scope recorded in the literature check.",
+    "status_check": "later_literature_checked",
+    "source_date_note": "The problem statement and references listed in the 28 November 2026 literature check were inspected.",
     "missing_information": [
-      "No exhaustive later-literature search or proof audit was performed for this record.",
-      "The mathematical proof or counterexample, if proposed, still requires expert review."
+      "Verify the infinite-range sign arguments and the finite certificate against the declared function and Fourier-transform conventions."
     ],
-    "scope_note": "The collection reports this precise target as open at its stated update date. One source-stated conjecture, classification target or independently posed subquestion is indexed. Known special cases are background, not additional open records."
+    "scope_note": "Green, Problem 42. OpenAI, Theorem 1.1 with unit sign radius. Kriebel, section on planar packing."
   },
   {
     "problem_id": "Q-MATH-464",
@@ -3186,36 +3178,32 @@
   {
     "problem_id": "Q-MATH-473",
     "statement_check": "source_located",
-    "status_check": "source_report_only",
-    "source_date_note": "Inspected source years: SRC-MATH-301: 2026. Checked on 2026-10-14 within the scope recorded in the literature check.",
+    "status_check": "later_literature_checked",
+    "source_date_note": "The problem statement and references listed in the 28 November 2026 literature check were inspected.",
     "missing_information": [
-      "Searches outside the collection were not performed for this entry.",
-      "The source's absence of a solution annotation is not a proof of current openness.",
-      "The mathematical proof or counterexample, if proposed, still requires expert review."
+      "Check the input group-algebra theorem, the embedding into a finitely generated Hopfian group and the induced endomorphism together."
     ],
-    "scope_note": "The current collection presents this target as unresolved. No independent, exhaustive later-literature check is claimed. One source-stated conjecture, classification target or independently posed subquestion is indexed. Known special cases are background, not additional open records."
+    "scope_note": "Kourovka 21.22. Bradford and Fournier-Facio, abelian-base characterization. Kriebel, section on Hopfian factors."
   },
   {
     "problem_id": "Q-MATH-474",
     "statement_check": "source_located",
-    "status_check": "source_report_only",
-    "source_date_note": "Inspected source years: SRC-MATH-301: 2026. Checked on 2026-10-14 within the scope recorded in the literature check.",
+    "status_check": "later_literature_checked",
+    "source_date_note": "The problem statement and references listed in the 28 November 2026 literature check were inspected.",
     "missing_information": [
-      "The additional search did not provide a checked primary resolution; absence of such a result is not evidence proving openness.",
-      "The mathematical proof or counterexample, if proposed, still requires expert review."
+      "Determine which specific lengths and families have subsequently been classified. A nonchordal graph need only contain a cycle of some length."
     ],
-    "scope_note": "The current collection presents this target as unresolved. No independent, exhaustive later-literature check is claimed. Kourovka Problem 21.23(a) asks for the classification at each specified cycle length. The simultaneous exclusion of all lengths is recorded separately as Q-MATH-475."
+    "scope_note": "Kourovka 21.23(a). Bubboloni, Fumagalli and Praeger, Open Problem 1 and Proposition 4.14. Manna, Theorem 1.1."
   },
   {
     "problem_id": "Q-MATH-475",
     "statement_check": "source_located",
-    "status_check": "source_report_only",
-    "source_date_note": "Inspected source years: SRC-MATH-301: 2026. Checked on 2026-10-14 within the scope recorded in the literature check.",
+    "status_check": "later_literature_checked",
+    "source_date_note": "The problem statement and references listed in the 28 November 2026 literature check were inspected.",
     "missing_information": [
-      "The additional search did not provide a checked primary resolution; absence of such a result is not evidence proving openness.",
-      "The mathematical proof or counterexample, if proposed, still requires expert review."
+      "Check the exclusions for the remaining simple families and whether independent mathematical review of Theorem 1.1 has appeared."
     ],
-    "scope_note": "The current collection presents this target as unresolved. No independent, exhaustive later-literature check is claimed. Kourovka Problem 21.23(b) is the simultaneous, all-cycle-length classification associated with Q-MATH-474; it is not an unrelated conjecture."
+    "scope_note": "Kourovka 21.23(b). Bubboloni, Fumagalli and Praeger, Open Problem 1. Manna, Theorem 1.1."
   },
   {
     "problem_id": "Q-MATH-476",
@@ -3990,12 +3978,12 @@
   {
     "problem_id": "Q-FORMAL-421",
     "statement_check": "source_located",
-    "status_check": "source_report_only",
-    "source_date_note": "Latest displayed substantive revision: 2002.",
+    "status_check": "later_literature_checked",
+    "source_date_note": "The original collection entry and the dated research results cited in the literature check were inspected on 28 November 2026.",
     "missing_information": [
-      "Later nonsimplicial results and precise topological conventions."
+      "A modern general resolution or counterexample for the original polygonal faces was not found in this search."
     ],
-    "scope_note": "This is a source-defined research question, not a claim that a solution or a manageable research route is known."
+    "scope_note": "The Open Problems Project lists the question for polygonal faces as open. Demaine and coauthors give a linear-time construction for triangular faces. Their facet-path construction can fail with other face shapes, which leaves open the possibility of a different vertex unfolding."
   },
   {
     "problem_id": "Q-FORMAL-422",
@@ -4031,22 +4019,22 @@
   {
     "problem_id": "Q-FORMAL-425",
     "statement_check": "source_located",
-    "status_check": "source_report_only",
-    "source_date_note": "Latest displayed substantive revision: 2003.",
+    "status_check": "later_literature_checked",
+    "source_date_note": "The problem statement and references listed in the 28 November 2026 literature check were inspected.",
     "missing_information": [
-      "Later exact complexity and bit-model results."
+      "A new exact algorithm or reduction must specify how Euclidean lengths and their sums are represented and compared."
     ],
-    "scope_note": "This is a source-defined research question, not a claim that a solution or a manageable research route is known."
+    "scope_note": "TOPP 49, statement and status. Barvinok et al., abstract. Kozma and Mömke, p. 3. Shenmaier, abstract."
   },
   {
     "problem_id": "Q-FORMAL-426",
     "statement_check": "source_located",
-    "status_check": "source_report_only",
-    "source_date_note": "Latest displayed substantive revision: 2003.",
+    "status_check": "later_literature_checked",
+    "source_date_note": "The problem statement and references listed in the 28 November 2026 literature check were inspected.",
     "missing_information": [
-      "Later planar algorithms or hardness for this bottleneck objective."
+      "Check for subsequent exact algorithms or hardness results in the planar case. The published scheme permits a positive relative error."
     ],
-    "scope_note": "This is a source-defined research question, not a claim that a solution or a manageable research route is known."
+    "scope_note": "TOPP 49, related open problems. Kozma and Mömke, abstract and “Open question,” p. 3."
   },
   {
     "problem_id": "Q-FORMAL-427",
@@ -4121,12 +4109,12 @@
   {
     "problem_id": "Q-FORMAL-434",
     "statement_check": "source_located",
-    "status_check": "source_report_only",
-    "source_date_note": "Latest displayed substantive revision: 2012.",
+    "status_check": "later_literature_checked",
+    "source_date_note": "The original collection entry and the dated research results cited in the literature check were inspected on 28 November 2026.",
     "missing_information": [
-      "Later results for unrestricted surface paths; edge-only zipper cuts differ."
+      "The inspected papers do not decide the unrestricted question for closed convex polyhedra."
     ],
-    "scope_note": "This is a source-defined research question, not a claim that a solution or a manageable research route is known."
+    "scope_note": "The collection lists the unrestricted question as open. Known obstructions concern either edge-only cuts on a closed surface or unrestricted cuts on a cap with boundary. Each changes a different hypothesis of the original problem."
   },
   {
     "problem_id": "Q-FORMAL-435",
@@ -4174,14 +4162,13 @@
   },
   {
     "problem_id": "Q-FORMAL-439",
-    "statement_check": "needs_clarification",
-    "status_check": "source_report_only",
-    "source_date_note": "COLT 2026 problem note.",
+    "statement_check": "source_located",
+    "status_check": "later_literature_checked",
+    "source_date_note": "Nissim, Stemmer and Tsfadia, COLT 2026 problem statement. Moran and Yan, October 2026, introduction and the discussion after the general sample bound.",
     "missing_information": [
-      "The precise conjectured dependence on class size and privacy parameters needs extraction; current status beyond this 2026 problem note is unchecked.",
-      "Inspect the full problem note before selecting a concrete research task."
+      "A worst-case dependence on Littlestone dimension does not settle the sharper joint dependence. The published open-problem statement and October preprint concern approximate privacy."
     ],
-    "scope_note": "This is a source-defined research question, not a claim that a solution or a manageable research route is known."
+    "scope_note": "At fixed accuracy, confidence and privacy parameters, Moran and Yan obtain an upper bound of order d log d for Littlestone dimension d. They explicitly leave open whether a polynomial in the VC dimension and log-star d suffices. This is the regime in which a finite class can have a large gap between its two dimensions."
   },
   {
     "problem_id": "Q-FORMAL-440",
@@ -4227,14 +4214,13 @@
   },
   {
     "problem_id": "Q-FORMAL-444",
-    "statement_check": "needs_clarification",
-    "status_check": "source_report_only",
-    "source_date_note": "COLT 2026 problem note.",
+    "statement_check": "source_located",
+    "status_check": "later_literature_checked",
+    "source_date_note": "Feldman, Kamath and Srebro, COLT 2026, SQ question. Patel, September 2026, main theorem. Mausberg, October 2026 preprint record.",
     "missing_information": [
-      "Quantitative definitions of low dimension and SQ resources need full-statement extraction; no equivalence with a generic deep-learning claim is assumed.",
-      "Inspect the full problem note before selecting a concrete research task."
+      "The two separation arguments and their accuracy and dimension conventions have not been independently reviewed here."
     ],
-    "scope_note": "This is a source-defined research question, not a claim that a solution or a manageable research route is known."
+    "scope_note": "Patel reports a Boolean class with efficient distribution-free SQ learning at fixed error and superpolynomial exact dimension complexity. Mausberg reports a separate separation covering several approximation conventions. These claims directly address the SQ implication; the broader neural-network question has different hypotheses."
   },
   {
     "problem_id": "Q-FORMAL-445",
@@ -4260,12 +4246,12 @@
   {
     "problem_id": "Q-FORMAL-447",
     "statement_check": "source_located",
-    "status_check": "source_report_only",
-    "source_date_note": "COLT 2024 problem note.",
+    "status_check": "later_literature_checked",
+    "source_date_note": "Hu and Mehta, Section 1 and Definition 1. Cesari and Colomboni, Theorem 1 and the matching lower-bound discussion. SIAM, SODA 2027 accepted-papers list.",
     "missing_information": [
-      "Later matching rates and exact privacy adjacency conventions."
+      "This is a literature resolution of the unique-best-action problem. The bound does not assert that this much regret is necessary at every horizon or on each individual instance."
     ],
-    "scope_note": "This is a source-defined research question, not a claim that a solution or a manageable research route is known."
+    "scope_note": "Cesari and Colomboni establish the sharp horizon-uniform rate up to constants, (log K)/Δ + (log K)/ε. Their upper bound holds for every horizon and matches the known worst-case lower bound in its regime. SIAM lists the paper as accepted for SODA 2027."
   },
   {
     "problem_id": "Q-FORMAL-448",
@@ -4341,12 +4327,12 @@
   {
     "problem_id": "Q-FORMAL-455",
     "statement_check": "source_located",
-    "status_check": "source_report_only",
-    "source_date_note": "The source dates from 2022.",
+    "status_check": "later_literature_checked",
+    "source_date_note": "The problem statement and references listed in the 28 November 2026 literature check were inspected.",
     "missing_information": [
-      "Specify matched or mismatched decoding, rate regime and error criterion before selecting a subproblem."
+      "For any proposed formula specify the channel, rate range and decoding metric, and show matching achievability and converse exponents."
     ],
-    "scope_note": "This is a source-defined research question, not a claim that a solution or a manageable research route is known."
+    "scope_note": "The candidate tracks matched decoding. The workshop also poses the wider problem with a prescribed mismatched metric."
   },
   {
     "problem_id": "Q-FORMAL-456",
@@ -4950,12 +4936,11 @@
     "problem_id": "Q-MODEL-410",
     "statement_check": "source_located",
     "status_check": "source_report_only",
-    "source_date_note": "Sources: SRC-MODEL-401: 2015. The 2026-10-14 check covers the scope recorded in the linked literature check.",
+    "source_date_note": "The 28 November 2026 check covers the works and passages listed in the literature record.",
     "missing_information": [
-      "Root vectors versus eigenvectors and multiple eigenvalues require clarification; subsequent basis criteria need checking.",
-      "Only the recorded search terms were covered; later results, different terminology, corrections and exact-scope resolutions may have been missed."
+      "For any proposed general coefficient criterion, specify how multiple eigenvalues are treated and compare its scope with known root-function criteria."
     ],
-    "scope_note": "An operator-theoretic question under the stated domains and boundary conditions; it does not establish that the operator is an empirically adequate physical model."
+    "scope_note": "The problem sheet asks about eigenfunctions. Root-function theorems may add generalized eigenvectors at defective eigenvalues."
   },
   {
     "problem_id": "Q-MODEL-411",
@@ -5178,14 +5163,13 @@
   },
   {
     "problem_id": "Q-MODEL-431",
-    "statement_check": "needs_clarification",
-    "status_check": "source_report_only",
-    "source_date_note": "Sources: SRC-MODEL-402: 2023. The 2026-10-14 check covers the scope recorded in the linked literature check.",
+    "statement_check": "source_located",
+    "status_check": "later_literature_checked",
+    "source_date_note": "The 28 November 2026 check covers the works and passages listed in the literature record.",
     "missing_information": [
-      "Assess the cited fixed-point answer in its precise function spaces, density positivity, boundary and gauge assumptions.",
-      "Only the recorded search terms were covered; later results, different terminology, corrections and exact-scope resolutions may have been missed."
+      "Identify the density and potential spaces in which the response estimate holds and address possible zero modes after gauge fixing."
     ],
-    "scope_note": "A formal question about nonrelativistic electronic Hamiltonians or a stated density-functional approximation. Mathematical validity and agreement with molecular measurements are separate tests."
+    "scope_note": "The continuum question requires compatible initial data, a choice of gauge, boundary conditions and control of the response. The dimer preprint treats a two-site system."
   },
   {
     "problem_id": "Q-MODEL-432",
@@ -5511,24 +5495,23 @@
   },
   {
     "problem_id": "Q-MODEL-462",
-    "statement_check": "needs_clarification",
-    "status_check": "source_report_only",
-    "source_date_note": "Sources: SRC-MODEL-405: 2018. The 2026-10-14 check covers the scope recorded in the linked literature check.",
+    "statement_check": "source_located",
+    "status_check": "later_literature_checked",
+    "source_date_note": "The 28 November 2026 check covers the works and passages listed in the literature record.",
     "missing_information": [
-      "Existing geodesic principles cover specific assumptions; matter regularity, body size and mass scaling must be fixed.",
-      "Only the recorded search terms were covered; later results, different terminology, corrections and exact-scope resolutions may have been missed."
+      "Before proposing an extension, state which scaling or regularity hypothesis would be weakened and which perturbative order would be covered."
     ],
-    "scope_note": "A mathematical question for specified Einstein equations, matter model and asymptotics. A theorem about these equations does not establish the empirical correctness of the assumptions; observational tests are separate."
+    "scope_note": "The indexed question asks for a precise limit exhibiting geodesic motion. Establishing that specific matter evolutions supply the required one-parameter family, or controlling motion beyond first order, requires its own statement."
   },
   {
     "problem_id": "Q-MODEL-463",
-    "statement_check": "needs_clarification",
+    "statement_check": "source_located",
     "status_check": "later_literature_checked",
-    "source_date_note": "Sources: SRC-MODEL-405: 2018; SRC-MODEL-612: 2024. The 2026-10-14 check covers the scope recorded in the linked literature check.",
+    "source_date_note": "The 28 November 2026 check covers the works and passages listed in the literature record.",
     "missing_information": [
-      "The later theorem provides sufficient expansion, completeness and energy conditions, not a genericity classification."
+      "Choose the spatial topology, matter assumptions and notion of genericity before comparing existence and nonexistence results."
     ],
-    "scope_note": "A mathematical question for specified Einstein equations, matter model and asymptotics. A theorem about these equations does not establish the empirical correctness of the assumptions; observational tests are separate."
+    "scope_note": "Existence of one CMC Cauchy surface is the survey's target. A foliation of the entire spacetime requires additional results. A genericity claim needs a class of initial data and a topology."
   },
   {
     "problem_id": "Q-MODEL-464",

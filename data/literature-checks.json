@@ -12452,5 +12452,869 @@
     "limitations": [
       "The roadmap describes a research program. No exhaustive contemporary status review or independent replication was performed."
     ]
+  },
+  {
+    "id": "LC-Q-FORMAL-421-20261128",
+    "problem_id": "Q-FORMAL-421",
+    "checked_on": "2026-11-28",
+    "status_before": "unverified",
+    "status_after": "source_reports_open",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "vertex unfolding nonsimplicial polyhedra simply connected facets",
+      "nonsimplicial polyhedra vertex unfolding facet path counterexample"
+    ],
+    "search_scope": "Compared the problem collection with the cited authors’ statements and searched for extensions or counterexamples to the unrestricted target.",
+    "evidence": [
+      {
+        "source_id": "SRC-FORMAL-421",
+        "locator": "Problem 42, statement and partial results.",
+        "finding": "The surface has no boundary and each facet is simply connected. Layouts may stay joined only at vertices."
+      },
+      {
+        "source_id": "SRC-LAND-920",
+        "locator": "Abstract and introduction.",
+        "finding": "The triangulated case has a linear-time algorithm. Cutting along new face diagonals would change the allowed cuts."
+      }
+    ],
+    "conclusion": "The Open Problems Project lists the question for polygonal faces as open. Demaine and coauthors give a linear-time construction for triangular faces. Their facet-path construction can fail with other face shapes, which leaves open the possibility of a different vertex unfolding.",
+    "limitations": [
+      "A modern general resolution or counterexample for the original polygonal faces was not found in this search."
+    ]
+  },
+  {
+    "id": "LC-Q-FORMAL-434-20261128",
+    "problem_id": "Q-FORMAL-434",
+    "checked_on": "2026-11-28",
+    "status_before": "unverified",
+    "status_after": "source_reports_open",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "general zipper paths closed convex polyhedra unresolved 2026",
+      "zipper unfolding prismoids edges convex caps nonoverlap"
+    ],
+    "search_scope": "Compared the problem collection with the cited authors’ statements and searched for extensions or counterexamples to the unrestricted target.",
+    "evidence": [
+      {
+        "source_id": "SRC-FORMAL-433",
+        "locator": "Problem 77, statement.",
+        "finding": "The single path visits all vertices and may cross face interiors."
+      },
+      {
+        "source_id": "SRC-LAND-921",
+        "locator": "Author abstract, both paragraphs.",
+        "finding": "Negative and positive results are for edge-only zippers."
+      },
+      {
+        "source_id": "SRC-LAND-922",
+        "locator": "Abstract.",
+        "finding": "Some caps have no zipper even with cuts through faces. The examples have a boundary."
+      }
+    ],
+    "conclusion": "The collection lists the unrestricted question as open. Known obstructions concern either edge-only cuts on a closed surface or unrestricted cuts on a cap with boundary. Each changes a different hypothesis of the original problem.",
+    "limitations": [
+      "The inspected papers do not decide the unrestricted question for closed convex polyhedra."
+    ]
+  },
+  {
+    "id": "LC-Q-MATH-473-20261128",
+    "problem_id": "Q-MATH-473",
+    "checked_on": "2026-11-28",
+    "status_before": "source_reports_open",
+    "status_after": "unverified",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "Hopfian wreath product Kourovka 21.22 counterexample finitely generated 2026",
+      "Kaplansky direct finiteness group ring counterexample exposition November 2026"
+    ],
+    "search_scope": "Kourovka 21.22. Bradford and Fournier-Facio, abelian-base characterization. Kriebel, section on Hopfian factors.",
+    "evidence": [
+      {
+        "source_id": "SRC-MATH-900",
+        "locator": "Problem 21.22",
+        "finding": "The original question asks about the standard restricted product of two finitely generated Hopfian groups."
+      },
+      {
+        "source_id": "SRC-MATH-922",
+        "locator": "Repository abstract, characterization for a finitely generated abelian base and a finitely generated Hopfian acting group.",
+        "finding": "Relates Hopficity for all wreath products in the abelian-base case to Kaplansky’s stable finiteness conjecture."
+      },
+      {
+        "source_id": "SRC-MATH-923",
+        "locator": "6 October, version 1.0.0, sections on Hopfian factors and planar packing.",
+        "finding": "Derives a group with Hopfian factors and a non-Hopfian wreath product from an external group-algebra theorem, and derives a planar bound from a separate Fourier certificate."
+      },
+      {
+        "source_id": "SRC-MATH-924",
+        "locator": "4 October release, build/sections/introduction.tex, Theorem 1.1.",
+        "finding": "Reports a finitely presented torsion-free group whose group algebra over the field of two elements contains a one-sided inverse that is not two-sided."
+      },
+      {
+        "source_id": "SRC-MATH-925",
+        "locator": "5 November, abstract.",
+        "finding": "Presents a subsequent exposition of the characteristic-two construction and an adaptation to hyperbolic groups in each positive characteristic."
+      }
+    ],
+    "conclusion": "Kriebel gives a negative answer conditional on a characteristic-two group-algebra construction: both the two-element base group and the finitely generated acting group are Hopfian, but their restricted wreath product is claimed to admit a surjective endomorphism with nontrivial kernel. Jaikin-Zapirain subsequently describes the upstream construction. Independent confirmation of the complete wreath-product argument has not been established here.",
+    "limitations": [
+      "Check the input group-algebra theorem, the embedding into a finitely generated Hopfian group and the induced endomorphism together."
+    ]
+  },
+  {
+    "id": "LC-Q-MATH-474-20261128",
+    "problem_id": "Q-MATH-474",
+    "checked_on": "2026-11-28",
+    "status_before": "source_reports_open",
+    "status_after": "source_reports_open",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "enhanced power graphs simple groups induced cycle specified length C4 classification 21.23"
+    ],
+    "search_scope": "Kourovka 21.23(a). Bubboloni, Fumagalli and Praeger, Open Problem 1 and Proposition 4.14. Manna, Theorem 1.1.",
+    "evidence": [
+      {
+        "source_id": "SRC-MATH-900",
+        "locator": "Problem 21.23(a), comment following (b)",
+        "finding": "Separates avoidance of cycles of a given length from chordality and points to partial results for length four."
+      },
+      {
+        "source_id": "SRC-MATH-921",
+        "locator": "Theorem B, Open Problem 1 and Proposition 4.14.",
+        "finding": "Poses the fixed-length and chordal classifications separately and characterizes the absence of an induced four-cycle in terms of subgroup structure."
+      },
+      {
+        "source_id": "SRC-MATH-920",
+        "locator": "Theorem 1.1 and the paragraph separating necessity from sufficiency.",
+        "finding": "Claims an exhaustive list of finite simple groups whose enhanced power graphs are chordal."
+      }
+    ],
+    "conclusion": "The proposers give a subgroup criterion for excluding an induced four-cycle and ask for the list of simple groups for each specified length. Manna’s November classification claim concerns groups that exclude every induced cycle of length at least four simultaneously. It leaves the separate fixed-length classifications unaccounted for.",
+    "limitations": [
+      "Determine which specific lengths and families have subsequently been classified. A nonchordal graph need only contain a cycle of some length."
+    ]
+  },
+  {
+    "id": "LC-Q-MATH-475-20261128",
+    "problem_id": "Q-MATH-475",
+    "checked_on": "2026-11-28",
+    "status_before": "source_reports_open",
+    "status_after": "unverified",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "chordality enhanced power graph finite simple groups Manna November 2026 proof correction 21.23"
+    ],
+    "search_scope": "Kourovka 21.23(b). Bubboloni, Fumagalli and Praeger, Open Problem 1. Manna, Theorem 1.1.",
+    "evidence": [
+      {
+        "source_id": "SRC-MATH-900",
+        "locator": "Problem 21.23(b)",
+        "finding": "Asks for all finite nonabelian simple groups with a chordal enhanced power graph."
+      },
+      {
+        "source_id": "SRC-MATH-921",
+        "locator": "Theorem B, Open Problem 1 and Proposition 4.14.",
+        "finding": "Poses the fixed-length and chordal classifications separately and characterizes the absence of an induced four-cycle in terms of subgroup structure."
+      },
+      {
+        "source_id": "SRC-MATH-920",
+        "locator": "Theorem 1.1 and the paragraph separating necessity from sufficiency.",
+        "finding": "Claims an exhaustive list of finite simple groups whose enhanced power graphs are chordal."
+      }
+    ],
+    "conclusion": "Manna’s 3 November preprint claims the full classification. Among nonabelian simple groups its list consists of Alt(7), PSL₂(q) for prime powers q ≥ 4, the Suzuki groups Sz(q) for q = 2^(2m+1) ≥ 8, and PSL₃(4). The paper attributes sufficiency to earlier work and supplies a necessity argument. The claim awaits independent assessment here.",
+    "limitations": [
+      "Check the exclusions for the remaining simple families and whether independent mathematical review of Theorem 1.1 has appeared."
+    ]
+  },
+  {
+    "id": "LC-Q-MATH-463-20261128",
+    "problem_id": "Q-MATH-463",
+    "checked_on": "2026-11-28",
+    "status_before": "source_reports_open",
+    "status_after": "unverified",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "Ben Green problem 42 sharp planar Cohn Elkies Fourier certificate 2026 proof review"
+    ],
+    "search_scope": "Green, Problem 42. OpenAI, Theorem 1.1 with unit sign radius. Kriebel, section on planar packing.",
+    "evidence": [
+      {
+        "source_id": "SRC-MATH-302",
+        "locator": "Problem 42, printed p. 21",
+        "finding": "Specifies a radial function, sign radius two, nonnegative Fourier transform and origin ratio √3/6."
+      },
+      {
+        "source_id": "SRC-MATH-926",
+        "locator": "23 September release, build/sections/introduction.tex, Theorem 1.1 and the normalization following it.",
+        "finding": "Claims a radial Schwartz function with nonnegative Fourier transform and sharp origin ratio for a unit sign radius in the plane."
+      },
+      {
+        "source_id": "SRC-MATH-923",
+        "locator": "Planar packing section",
+        "finding": "Identifies the September theorem as the input to a consequence for a planar three-point program."
+      }
+    ],
+    "conclusion": "The September manuscript claims a sharp radial Schwartz witness. It uses sign radius one and origin ratio 2/√3. Rescaling the argument by one half gives Green’s sign radius two and divides the ratio by four, yielding √3/6. Kriebel’s October deduction uses the same certificate. The existence claim awaits independent assessment here.",
+    "limitations": [
+      "Verify the infinite-range sign arguments and the finite certificate against the declared function and Fourier-transform conventions."
+    ]
+  },
+  {
+    "id": "LC-Q-FORMAL-315-20261128",
+    "problem_id": "Q-FORMAL-315",
+    "checked_on": "2026-11-28",
+    "status_before": "source_reports_open",
+    "status_after": "source_reports_open",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "Egidy Glaßer TAUT optimal proof systems relativized infinite polynomial hierarchy"
+    ],
+    "search_scope": "Egidy, questions Q1–Q2 and oracle O₂. Egidy and Glaßer, abstract, oracle O₁.",
+    "evidence": [
+      {
+        "source_id": "SRC-FORMAL-309",
+        "locator": "Abstract, Q1 and O₂, and Section 1.2.2",
+        "finding": "Asks about ordinary TAUT and constructs an oracle with an infinite polynomial hierarchy and p-optimal systems for all PSPACE sets."
+      },
+      {
+        "source_id": "SRC-MATH-927",
+        "locator": "Abstract, first oracle",
+        "finding": "In an oracle with an infinite polynomial hierarchy, no set in PSPACE outside NP has optimal systems. This includes relativized TAUT in that setting."
+      }
+    ],
+    "conclusion": "Egidy asks the unrelativized TAUT question. There are oracles with an infinite polynomial hierarchy where TAUT has a p-optimal proof system and others where it lacks even an optimal one. These conflicting oracle behaviors constrain relativizing approaches. They do not decide the ordinary TAUT question.",
+    "limitations": [
+      "A proposed unrelativized argument needs to explain which step avoids the known relativization barrier."
+    ]
+  },
+  {
+    "id": "LC-Q-FORMAL-316-20261128",
+    "problem_id": "Q-FORMAL-316",
+    "checked_on": "2026-11-28",
+    "status_before": "source_reports_open",
+    "status_after": "source_reports_open",
+    "statement_assessment": "corrected",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "Egidy Glaßer PSPACE QBF p-optimal proof systems oracle infinite polynomial hierarchy"
+    ],
+    "search_scope": "Egidy, Q2 and Section 1.2.2. Egidy and Glaßer, abstract, oracle O₁.",
+    "evidence": [
+      {
+        "source_id": "SRC-FORMAL-309",
+        "locator": "Q2 and Section 1.2.2, oracle O₂",
+        "finding": "States the unrelativized question and gives an oracle relative to which all PSPACE sets have p-optimal systems."
+      },
+      {
+        "source_id": "SRC-MATH-927",
+        "locator": "Abstract, first oracle",
+        "finding": "The negative oracle excludes optimal proof systems for PSPACE languages outside NP while the polynomial hierarchy stays infinite."
+      }
+    ],
+    "conclusion": "Egidy asks about ordinary true quantified Boolean formulas. Under one oracle with an infinite polynomial hierarchy all PSPACE languages have p-optimal systems; under another none of the PSPACE languages outside NP has an optimal system. This gives opposite relativized outcomes for the complete quantified-formula problem while leaving the unrelativized question open in the cited work.",
+    "limitations": [
+      "Compare translations for the unrelativized complete language, including how the time bound depends on the system being simulated."
+    ],
+    "previous_statement": "Does the language of true quantified Boolean formulas have a polynomial-time proof system that polynomial-time simulates every other proof system for that language?"
+  },
+  {
+    "id": "LC-Q-FORMAL-425-20261128",
+    "problem_id": "Q-FORMAL-425",
+    "checked_on": "2026-11-28",
+    "status_before": "unverified",
+    "status_after": "source_reports_open",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "planar Euclidean maximum TSP exact computational complexity polynomial NP-hard",
+      "maximum TSP EPTAS fixed doubling dimension Shenmaier"
+    ],
+    "search_scope": "TOPP 49, statement and status. Barvinok et al., abstract. Kozma and Mömke, p. 3. Shenmaier, abstract.",
+    "evidence": [
+      {
+        "source_id": "SRC-FORMAL-425",
+        "locator": "Problem 49, Statement and Status",
+        "finding": "Poses maximum total Euclidean length in the plane and labels the exact problem open."
+      },
+      {
+        "source_id": "SRC-MATH-928",
+        "locator": "2003 revision, abstract, results on polyhedral norms and dimensions greater than two.",
+        "finding": "Provides exact algorithms for polyhedral norms in fixed dimension and Euclidean NP-hardness in dimension at least three."
+      },
+      {
+        "source_id": "SRC-MATH-929",
+        "locator": "First posted in 2020, version 5 revised in 2021, abstract and introduction.",
+        "finding": "Gives an efficient approximation scheme for maximum total tour length in metrics of fixed doubling dimension."
+      },
+      {
+        "source_id": "SRC-MATH-930",
+        "locator": "p. 3, paragraph following “Open question”",
+        "finding": "Distinguishes exact MaxTSP and the difficulty of comparing sums of square roots."
+      }
+    ],
+    "conclusion": "The Open Problems Project lists the exact planar Euclidean problem as open. Barvinok and coauthors prove hardness in Euclidean dimensions at least three and exact algorithms for fixed polyhedral norms. Shenmaier obtains an efficient approximation scheme for total length in fixed doubling dimension. Kozma and Mömke explicitly distinguish the sum-of-distances precision issue from the shortest-edge problem.",
+    "limitations": [
+      "A new exact algorithm or reduction must specify how Euclidean lengths and their sums are represented and compared."
+    ]
+  },
+  {
+    "id": "LC-Q-FORMAL-426-20261128",
+    "problem_id": "Q-FORMAL-426",
+    "checked_on": "2026-11-28",
+    "status_before": "unverified",
+    "status_after": "source_reports_open",
+    "statement_assessment": "corrected",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "Euclidean plane maximum scatter TSP exact complexity NP-complete Kozma Mömke later results"
+    ],
+    "search_scope": "TOPP 49, related open problems. Kozma and Mömke, abstract and “Open question,” p. 3.",
+    "evidence": [
+      {
+        "source_id": "SRC-FORMAL-425",
+        "locator": "Problem 49, Related Open Problems",
+        "finding": "Distinguishes maximizing the shortest Euclidean edge from maximizing the total tour length."
+      },
+      {
+        "source_id": "SRC-MATH-930",
+        "locator": "Abstract and the “Open question” on p. 3 of the PDF.",
+        "finding": "Gives an efficient approximation scheme for maximizing the shortest edge in fixed doubling dimension and explicitly leaves exact planar Euclidean optimization open."
+      }
+    ],
+    "conclusion": "Kozma and Mömke give a (1−ε)-approximation in fixed doubling dimension, including the Euclidean plane. Their paper explicitly leaves the exact planar problem open and relates it to Hamiltonian cycles in complements of unit disk graphs. This supersedes the directory’s historical note about the lack of geometric approximation bounds.",
+    "limitations": [
+      "Check for subsequent exact algorithms or hardness results in the planar case. The published scheme permits a positive relative error."
+    ],
+    "previous_statement": "Determine the complexity of finding a Hamiltonian tour of a planar point set maximizing its shortest edge length."
+  },
+  {
+    "id": "LC-Q-FORMAL-455-20261128",
+    "problem_id": "Q-FORMAL-455",
+    "checked_on": "2026-11-28",
+    "status_before": "unverified",
+    "status_after": "source_reports_open",
+    "statement_assessment": "corrected",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "reliability function DMC low rates exact single letter expression 2025 2026",
+      "Somekh-Baruch upper bound reliability function Barg McGregor below critical rate"
+    ],
+    "search_scope": "Somekh-Baruch, Oberwolfach report, p. 699, question 2. Boche and Deppe, introduction and discussion of Theorem 3. Barg and McGregor, abstract.",
+    "evidence": [
+      {
+        "source_id": "SRC-FORMAL-445",
+        "locator": "Printed p. 699, open question 2",
+        "finding": "Asks for an exact single-letter expression with average decoding error and explicitly includes matched and mismatched decoding."
+      },
+      {
+        "source_id": "SRC-MATH-933",
+        "locator": "Abstract on the genie-receiver converse.",
+        "finding": "Gives a channel-coding converse that improves on the sphere-packing bound in examples."
+      },
+      {
+        "source_id": "SRC-MATH-931",
+        "locator": "Introduction and discussion after Theorem 3 on the critical rate and known reliability intervals.",
+        "finding": "Describes the unresolved low-rate characterization and studies computability as a function of the channel and rate."
+      },
+      {
+        "source_id": "SRC-MATH-932",
+        "locator": "Version 3, abstract on binary symmetric channels and maximum-likelihood decoding.",
+        "finding": "Identifies an interval immediately below the critical rate where the random-coding exponent gives the reliability function for the binary symmetric channels covered by the theorem."
+      }
+    ],
+    "conclusion": "The workshop asks for an exact single-letter expression for the optimal average-error exponent. Boche and Deppe describe the unresolved low-rate region and study limits on uniform channel-by-channel computation. For binary symmetric channels, Barg and McGregor identify a range below the critical rate where the random-coding exponent is exact. Somekh-Baruch gives a converse for general channels. Gaps remain in the matched-decoding formulation.",
+    "limitations": [
+      "For any proposed formula specify the channel, rate range and decoding metric, and show matching achievability and converse exponents."
+    ],
+    "previous_statement": "Characterize the optimal error exponent of discrete memoryless channels at rates where existing reliability bounds differ."
+  },
+  {
+    "id": "LC-Q-MODEL-207-20261128",
+    "problem_id": "Q-MODEL-207",
+    "checked_on": "2026-11-28",
+    "status_before": "unverified",
+    "status_after": "unverified",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "Carvallo Groisman Mitsche random 3-regular graphs not globally synchronizing arXiv withdrawal"
+    ],
+    "search_scope": "Compared the indexed question with the passages and later records listed below.",
+    "evidence": [
+      {
+        "source_id": "SRC-MODEL-210",
+        "locator": "Entry 2, Conjecture 3.",
+        "finding": "Poses a high-probability local-minimum question for a random cubic graph."
+      },
+      {
+        "source_id": "SRC-MODEL-920",
+        "locator": "Version 2, author withdrawal comment dated 10 October 2026. Version 1, Theorem 1.2 and Section 3.",
+        "finding": "Version 1 states that a uniform random simple cubic graph has a nonsynchronized local minimum with high probability. The authors withdrew the manuscript after finding a solution on GitHub."
+      }
+    ],
+    "conclusion": "The conference abstract gives a bound away from zero for nonsynchronization. In October the same authors claimed nonsynchronization with probability tending to one, then withdrew the preprint because they found an overlapping solution on GitHub. Colbrook’s separate manuscript also claims this asymptotic conclusion. The withdrawal notice cites overlap rather than a flaw in the proof.",
+    "limitations": [
+      "Neither the withdrawn version nor the separate manuscript received an independent proof audit here. Check the local-minimum criterion and its correspondence to the claimed dynamics."
+    ]
+  },
+  {
+    "id": "LC-Q-MODEL-309-20261128",
+    "problem_id": "Q-MODEL-309",
+    "checked_on": "2026-11-28",
+    "status_before": "source_reports_open",
+    "status_after": "source_reports_open",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "Simon Solan Tomkowicz conditionally atomless filtration 2026 four players quitting games equilibrium"
+    ],
+    "search_scope": "Compared the indexed question with the passages and later records listed below.",
+    "evidence": [
+      {
+        "source_id": "SRC-MODEL-305",
+        "locator": "Section II, Problem 251*, contributed by Eilon Solan.",
+        "finding": "Asks about ε-equilibrium existence with independent player randomization."
+      },
+      {
+        "source_id": "SRC-MODEL-921",
+        "locator": "Section 2.4, Theorems 2.11 and 2.12 and the following paragraph.",
+        "finding": "For discrete-time stopping games with integrable payoffs, the first theorem assumes a conditionally atomless filtration. For three players, the second permits any filtration."
+      }
+    ],
+    "conclusion": "The November stopping-game paper gives ε-equilibria with arbitrarily many players under a conditionally atomless filtration, and for three players with any filtration. The ordinary four-or-more-player quitting game allows no extra public randomness. The article leaves unrestricted stopping games with more than three players open.",
+    "limitations": [
+      "The two theorems do not establish equilibrium in every ordinary quitting game with at least four players. A reduction would have to preserve the players’ information."
+    ]
+  },
+  {
+    "id": "LC-Q-FORMAL-439-20261128",
+    "problem_id": "Q-FORMAL-439",
+    "checked_on": "2026-11-28",
+    "status_before": "unverified",
+    "status_after": "source_reports_open",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "Nissim Stemmer Tsfadia finite concept classes private PAC log-star Littlestone dimension Moran Yan 2026"
+    ],
+    "search_scope": "Compared the indexed question with the passages and later records listed below.",
+    "evidence": [
+      {
+        "source_id": "SRC-FORMAL-437",
+        "locator": "Abstract, finite-class comparison.",
+        "finding": "Distinguishes finite-class private complexity from the nonprivate VC benchmark."
+      },
+      {
+        "source_id": "SRC-MODEL-926",
+        "locator": "Introduction, theorem for general Littlestone classes and the following paragraph on the log-star question.",
+        "finding": "The authors obtain O(d log d) sample complexity at fixed learning and privacy parameters for Littlestone dimension d. They explicitly retain the question about a polynomial in the VC dimension and log-star d."
+      }
+    ],
+    "conclusion": "At fixed accuracy, confidence and privacy parameters, Moran and Yan obtain an upper bound of order d log d for Littlestone dimension d. They explicitly leave open whether a polynomial in the VC dimension and log-star d suffices. This is the regime in which a finite class can have a large gap between its two dimensions.",
+    "limitations": [
+      "A worst-case dependence on Littlestone dimension does not settle the sharper joint dependence. The published open-problem statement and October preprint concern approximate privacy."
+    ]
+  },
+  {
+    "id": "LC-Q-FORMAL-444-20261128",
+    "problem_id": "Q-FORMAL-444",
+    "checked_on": "2026-11-28",
+    "status_before": "unverified",
+    "status_after": "unverified",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "distribution-independent SQ learnability dimension complexity Patel Mausberg Feldman Kamath Srebro separation"
+    ],
+    "search_scope": "Compared the indexed question with the passages and later records listed below.",
+    "evidence": [
+      {
+        "source_id": "SRC-FORMAL-441",
+        "locator": "COLT 2026 abstract, first question.",
+        "finding": "Asks for a link between distribution-independent SQ learning and dimension complexity."
+      },
+      {
+        "source_id": "SRC-MODEL-922",
+        "locator": "Version 1, introduction, main theorem and Section 2.1.",
+        "finding": "For a Boolean class on n-bit inputs, the paper reports efficient distribution-free SQ learning to error 0.01 alongside superpolynomial exact dimension complexity."
+      },
+      {
+        "source_id": "SRC-MODEL-923",
+        "locator": "Author’s October 8 preprint record, abstract and linked release citation.",
+        "finding": "The author reports a separation on a domain of size 2N³, with logarithmically many queries at fixed error and linear dimension for the stated deterministic and probabilistic variants."
+      }
+    ],
+    "conclusion": "Patel reports a Boolean class with efficient distribution-free SQ learning at fixed error and superpolynomial exact dimension complexity. Mausberg reports a separate separation covering several approximation conventions. These claims directly address the SQ implication; the broader neural-network question has different hypotheses.",
+    "limitations": [
+      "The two separation arguments and their accuracy and dimension conventions have not been independently reviewed here."
+    ]
+  },
+  {
+    "id": "LC-Q-FORMAL-447-20261128",
+    "problem_id": "Q-FORMAL-447",
+    "checked_on": "2026-11-28",
+    "status_before": "unverified",
+    "status_after": "resolved",
+    "statement_assessment": "corrected",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "optimal gap-dependent regret private stochastic decision-theoretic online learning Cesari Colomboni Hu Mehta SODA 2027 accepted papers"
+    ],
+    "search_scope": "Compared the indexed question with the passages and later records listed below.",
+    "evidence": [
+      {
+        "source_id": "SRC-FORMAL-443",
+        "locator": "Section 1 and Definition 1.",
+        "finding": "Specifies a unique optimal action, stochastic losses, full loss-vector observations and pure privacy."
+      },
+      {
+        "source_id": "SRC-MODEL-924",
+        "locator": "Version 1, Theorem 1 and the comparison with the known lower bound immediately afterward.",
+        "finding": "The pure event-level private algorithm attains worst-case gap-dependent pseudo-regret of order (log K)/Δ + (log K)/ε uniformly in the horizon, matching the cited lower bound in its applicable regime."
+      },
+      {
+        "source_id": "SRC-MODEL-925",
+        "locator": "Accepted-papers list, entry under the title of the Cesari–Colomboni paper.",
+        "finding": "SIAM lists the matching title and both authors among papers accepted at SODA 2027."
+      }
+    ],
+    "conclusion": "Cesari and Colomboni establish the sharp horizon-uniform rate up to constants, (log K)/Δ + (log K)/ε. Their upper bound holds for every horizon and matches the known worst-case lower bound in its regime. SIAM lists the paper as accepted for SODA 2027.",
+    "limitations": [
+      "This is a literature resolution of the unique-best-action problem. The bound does not assert that this much regret is necessary at every horizon or on each individual instance."
+    ],
+    "previous_statement": "Determine matching gap-dependent pseudo-regret bounds for stochastic full-information online learning with K actions, losses in [0,1], horizon T and pure epsilon-differential privacy, as a function of the minimum positive mean-loss gap."
+  },
+  {
+    "id": "LC-Q-CROSS-441-20261128",
+    "problem_id": "Q-CROSS-441",
+    "checked_on": "2026-11-28",
+    "status_before": "unverified",
+    "status_after": "unverified",
+    "statement_assessment": "corrected",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "macaque inferotemporal cortex perturbation perceptual prediction Shahbazi perceptography stimulus dependent visual perception"
+    ],
+    "search_scope": "Compared the indexed question with the passages and later records listed below.",
+    "evidence": [
+      {
+        "source_id": "SRC-CROSS-404",
+        "locator": "Question 3, p. 116.",
+        "finding": "Asks whether models can predict behavioral changes after perturbing particular neural populations."
+      },
+      {
+        "source_id": "SRC-MODEL-927",
+        "locator": "Abstract and Figure 1, cortical perturbation detection task in macaques.",
+        "finding": "The study found image changes that macaques had difficulty distinguishing from stimulation in inferior temporal cortex. The inferred change depended on the image, site and stimulation intensity."
+      }
+    ],
+    "conclusion": "Shahbazi and coauthors measured which image changes macaques confused with localized stimulation in inferior temporal cortex. Those changes depended on the image and stimulation conditions. This supplies a concrete behavioral comparison within the broader modeling question.",
+    "limitations": [
+      "The task uses behavioral reports to infer perceptual effects. Generalization to other animals, stimuli and neural populations requires new evidence."
+    ],
+    "previous_statement": "Predict perceptual changes caused by selective neural perturbations."
+  },
+  {
+    "id": "LC-Q-CROSS-442-20261128",
+    "problem_id": "Q-CROSS-442",
+    "checked_on": "2026-11-28",
+    "status_before": "unverified",
+    "status_after": "unverified",
+    "statement_assessment": "corrected",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "Majaj Hong Solomon DiCarlo learned weighted sums object recognition human behavior macaque downstream mechanisms linear readout"
+    ],
+    "search_scope": "Compared the indexed question with the passages and later records listed below.",
+    "evidence": [
+      {
+        "source_id": "SRC-CROSS-404",
+        "locator": "Question 4, p. 116 and reference 8.",
+        "finding": "Distinguishes predictive decoding, downstream circuitry, learning and task selection."
+      },
+      {
+        "source_id": "SRC-MODEL-928",
+        "locator": "Abstract, Results on the neuronal linking hypotheses and Discussion.",
+        "finding": "Learned weighted sums of macaque inferior temporal firing rates predicted the pattern of human performance across 64 object-recognition tests."
+      }
+    ],
+    "conclusion": "Majaj and coauthors compared macaque population activity with human behavior across 64 core object-recognition tests. Weighted sums of inferior temporal firing rates predicted the pattern of human performance. This is evidence for a decoding model on those tasks; identifying the downstream implementation remains a separate empirical question.",
+    "limitations": [
+      "The cross-species behavioral fit does not distinguish every decoder with similar predictions or determine which downstream cells implement one."
+    ],
+    "previous_statement": "Determine when linear readout explains how downstream regions use visual representations."
+  },
+  {
+    "id": "LC-Q-MATH-422-20261128",
+    "problem_id": "Q-MATH-422",
+    "checked_on": "2026-11-28",
+    "status_before": "source_reports_open",
+    "status_after": "source_reports_open",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "unfair 0-1 polynomial conjecture finite supports uniform independent integer sum Green Problem 28 structural results Hare Hasanbegovic 2026"
+    ],
+    "search_scope": "Compared the indexed question with the passages and later records listed below.",
+    "evidence": [
+      {
+        "source_id": "SRC-MATH-302",
+        "locator": "Problem 28 and comments.",
+        "finding": "Asks whether both integer-valued summands are uniform on their own finite supports and credits Amlot."
+      },
+      {
+        "source_id": "SRC-MODEL-929",
+        "locator": "Abstract, monic-factor convention and results for candidate factors of degree at most 15.",
+        "finding": "The computational search excluded all but 975 of 7,141,686 candidate coefficient patterns in the stated range."
+      },
+      {
+        "source_id": "SRC-MODEL-930",
+        "locator": "Introduction, theorem on two separated coefficient blocks, and hypotheses on the lower block.",
+        "finding": "The paper establishes fairness for certain two-block supports when the lower block is fair and the spacing meets its degree bounds."
+      }
+    ],
+    "conclusion": "Green attributes the question to Emmanuel Amlot. In the monic generating-polynomial formulation, Hare tests candidate coefficient patterns through factor degree 15, with 975 patterns left by that test. Hasanbegović gives a sufficient spacing condition for two-block supports with a fair lower block. Both results allow a general finite support to remain undecided.",
+    "limitations": [
+      "The degree in Hare’s search refers to a candidate factor. The separated-block theorem needs a fair lower block; neither check covers arbitrary supports."
+    ]
+  },
+  {
+    "id": "LC-Q-MODEL-322-20261128",
+    "problem_id": "Q-MODEL-322",
+    "checked_on": "2026-11-28",
+    "status_before": "source_reports_open",
+    "status_after": "source_reports_open",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "LUX-ZEPLIN extended nuclear recoil energy window 248 keV global significance background September November 2026"
+    ],
+    "search_scope": "The cosmological composition question and a likelihood test for a xenon recoil use different observables and assumptions.",
+    "evidence": [
+      {
+        "source_id": "SRC-MODEL-314",
+        "locator": "Chapter 27.1, first two paragraphs.",
+        "finding": "Separates the measured matter budget under ΛCDM from the unknown identity of the dominant component."
+      },
+      {
+        "source_id": "SRC-PHYS-920",
+        "locator": "Abstract and data-release link, 2 September 2026.",
+        "finding": "Reports a high-energy recoil in 2.84 tonne-years of xenon exposure and distinguishes local from global significance."
+      }
+    ],
+    "conclusion": "The PDG review identifies the dominant component as unknown. In September 2026 LZ reported one candidate recoil in an extended energy window. Its likelihood test gave a global significance of 2.6 standard deviations after accounting for the models searched, compared with a maximum local significance of 3.4. The collaboration did not identify a dark matter particle.",
+    "limitations": [
+      "Compare a specified particle model with independent searches and astrophysical constraints. Background estimates and trials factors must accompany any interpretation of the LZ event."
+    ]
+  },
+  {
+    "id": "LC-Q-CROSS-404-20261128",
+    "problem_id": "Q-CROSS-404",
+    "checked_on": "2026-11-28",
+    "status_before": "unverified",
+    "status_after": "unverified",
+    "statement_assessment": "corrected",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "Hespanha switched systems induced L2 gain minimum dwell time exact gain curve slow switching right continuity Proposition 32"
+    ],
+    "search_scope": "The original realizations may contain direct feedthrough. Proposition 32 is stated for y = Cx with bounded mode triples. The slow-switching limit, a bound at one dwell time and the exact curve are distinct objectives.",
+    "evidence": [
+      {
+        "source_id": "SRC-CROSS-401",
+        "locator": "Problem 28, sections 28.1–28.2, equations (28.1)–(28.2).",
+        "finding": "Specifies Hurwitz mode matrices, zero initial state, arbitrary square-integrable inputs and the minimum time between switches."
+      },
+      {
+        "source_id": "SRC-PHYS-921",
+        "locator": "Report dated 24 September 2002, abstract and sections 1 and 5.",
+        "finding": "Provides a procedure for the slow-switching limit and relates it to the gain for a single switch."
+      },
+      {
+        "source_id": "SRC-CROSS-603",
+        "locator": "Theorem 25 and section IV-C, Proposition 32.",
+        "finding": "Treats finiteness under additional hypotheses and proves right-continuity of the extended-valued gain for the stated bounded mode triples."
+      }
+    ],
+    "conclusion": "Hespanha gives a method for the slow-switching limit, which can exceed the largest single-mode gain. Chitour, Mason and Sigalotti give a finiteness criterion under their hypotheses and prove right-continuity of the gain for bounded mode families with output y = Cx. These results leave computation of the full finite-dwell-time curve unresolved in the inspected sources.",
+    "limitations": [
+      "Check any proposed algorithm on the original class, including the allowed output feedthrough and cases of infinite gain."
+    ],
+    "previous_statement": "Determine the worst-case L2 gain as a function of minimum switching dwell time."
+  },
+  {
+    "id": "LC-Q-CROSS-425-20261128",
+    "problem_id": "Q-CROSS-425",
+    "checked_on": "2026-11-28",
+    "status_before": "unverified",
+    "status_after": "unverified",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "IAHS unsolved hydrology question 13 intercatchment flux groundwater discharge oceans global coastal groundwater recharge Luijendijk"
+    ],
+    "search_scope": "Match each flux estimate to its spatial boundary, water source and averaging period. The coastal model uses modeled watersheds and aquifer properties.",
+    "evidence": [
+      {
+        "source_id": "SRC-CROSS-402",
+        "locator": "Space and variability, question 13.",
+        "finding": "Lists recharge, inter-catchment exchange and discharge to the oceans as examples of the broader boundary-flux question."
+      },
+      {
+        "source_id": "SRC-PHYS-922",
+        "locator": "Abstract, Introduction and Methods, especially the coastal watershed and permeability descriptions.",
+        "finding": "A spatially resolved global model estimates fresh groundwater discharge, distinguishes it from recirculated seawater and finds strong variation among coastal environments."
+      }
+    ],
+    "conclusion": "IAHS asks about groundwater fluxes at several different hydrologic boundaries. For the coastal part, Luijendijk and coauthors distinguish fresh discharge below mean sea level, nearshore discharge on land and recirculated seawater. Their global model finds substantial local variation in freshwater discharge. General controls on recharge and exchange across catchments require separate evidence.",
+    "limitations": [
+      "Choose one exchange boundary and a timescale. Identify independent head, discharge or tracer data and state how the model treats flow across topographic divides."
+    ]
+  },
+  {
+    "id": "LC-Q-MODEL-410-20261128",
+    "problem_id": "Q-MODEL-410",
+    "checked_on": "2026-11-28",
+    "status_before": "unverified",
+    "status_after": "unverified",
+    "statement_assessment": "corrected",
+    "coverage": "statement_only",
+    "search_queries": [
+      "Mityagin Schauder basis periodic Schrodinger trigonometric polynomial coefficient classification root functions after 2015"
+    ],
+    "search_scope": "The problem sheet asks about eigenfunctions. Root-function theorems may add generalized eigenvectors at defective eigenvalues.",
+    "evidence": [
+      {
+        "source_id": "SRC-PHYS-923",
+        "locator": "2015 AIM sheet 23, Open Problem and Known Case.",
+        "finding": "Asks for a coefficient test for eigenfunctions under periodic boundary conditions and identifies a two-term potential with an exact criterion."
+      },
+      {
+        "source_id": "SRC-PHYS-924",
+        "locator": "Abstract, cases (i)–(iii) and the periodic-boundary conclusion for case (ii).",
+        "finding": "For the potential a exp(−2ix) + B exp(4ix) with both coefficients nonzero, the system of root functions is complete but fails to be a basis under periodic boundary conditions."
+      }
+    ],
+    "conclusion": "Mityagin gives an exact test for V(x) = exp(−2ix) + b exp(2ix), namely |b| = 1. Earlier work with Djakov proves that for a exp(−2ix) + B exp(4ix), with a and B nonzero, even the root functions fail to form a basis under periodic boundary conditions. The general coefficient classification has no verified current status here.",
+    "limitations": [
+      "For any proposed general coefficient criterion, specify how multiple eigenvalues are treated and compare its scope with known root-function criteria."
+    ],
+    "previous_statement": "Characterize coefficients vk in V(x)=Σ|k|≤m vk e^(2ikx) for which the periodic Schrödinger eigensystem on (0,π) is a Schauder basis of L²."
+  },
+  {
+    "id": "LC-Q-MODEL-431-20261128",
+    "problem_id": "Q-MODEL-431",
+    "checked_on": "2026-11-28",
+    "status_before": "unverified",
+    "status_after": "unverified",
+    "statement_assessment": "corrected",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "TDDFT density potential inverse force equation continuum fixed point contraction singular times Hubbard dimer Cancès Duez"
+    ],
+    "search_scope": "The continuum question requires compatible initial data, a choice of gauge, boundary conditions and control of the response. The dimer preprint treats a two-site system.",
+    "evidence": [
+      {
+        "source_id": "SRC-MODEL-402",
+        "locator": "Section VII, Question 8.2 and Issue 9.",
+        "finding": "Asks for a proof for equation (22) and identifies the missing choice of space and contraction bounds in the proposed answer."
+      },
+      {
+        "source_id": "SRC-PHYS-925",
+        "locator": "Abstract and existence argument in the manuscript, including the uniform bound for the iteration.",
+        "finding": "Formulates density-to-potential inversion as a fixed-point problem and gives an iterative argument subject to bounds on the response."
+      },
+      {
+        "source_id": "SRC-PHYS-926",
+        "locator": "Abstract, October 2026, two-particle spin-singlet Hubbard dimer.",
+        "finding": "The authors obtain global representability in the conventional and geometric dimer formulations and report nonuniqueness of the effective potential at singular times."
+      }
+    ],
+    "conclusion": "Ruggenthaler and van Leeuwen recast the inversion as an iteration on potentials. The problem collection asks which function space and bounds justify contraction in its continuum formulation. For a two-particle spin-singlet Hubbard dimer, Cancès and Duez report global representability with nonunique effective potentials at singular times. That finite-lattice result leaves the continuum question unsettled.",
+    "limitations": [
+      "Identify the density and potential spaces in which the response estimate holds and address possible zero modes after gauge fixing."
+    ],
+    "previous_statement": "Prove suitable existence and uniqueness results for the density-to-potential force equation (22), accounting for the proposed fixed-point answer discussed in §VII A."
+  },
+  {
+    "id": "LC-Q-MODEL-463-20261128",
+    "problem_id": "Q-MODEL-463",
+    "checked_on": "2026-11-28",
+    "status_before": "unverified",
+    "status_after": "unverified",
+    "statement_assessment": "corrected",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "vacuum cosmological spacetimes without CMC Cauchy surfaces Ling Ohanyan expanding cosmological spacetimes Galloway Ling genericity"
+    ],
+    "search_scope": "Existence of one CMC Cauchy surface is the survey's target. A foliation of the entire spacetime requires additional results. A genericity claim needs a class of initial data and a topology.",
+    "evidence": [
+      {
+        "source_id": "SRC-MODEL-405",
+        "locator": "Section 2.5, paragraph ‘Constant mean curvature’, PDF p. 18.",
+        "finding": "Asks how generally spacetimes admit a CMC Cauchy surface and explicitly mentions examples with none."
+      },
+      {
+        "source_id": "SRC-MODEL-612",
+        "locator": "Abstract, version 3.",
+        "finding": "Obtains a CMC Cauchy surface for cosmological spacetimes satisfying the strong energy condition with an expanding slice and future timelike completeness."
+      },
+      {
+        "source_id": "SRC-PHYS-927",
+        "locator": "Version 2, abstract and introduction, allowed connected-sum topologies.",
+        "finding": "Constructs vacuum cosmological spacetimes with no constant-mean-curvature Cauchy surface on spatial topologies M # M for closed, oriented, irreducible, nonspherical three-manifolds M."
+      }
+    ],
+    "conclusion": "Galloway and Ling give sufficient conditions using the strong energy condition, an expanding Cauchy surface and future timelike geodesic completeness. Ling and Ohanyan construct vacuum cosmological examples with no CMC Cauchy surface on a class of connected sums. Neither paper classifies generic initial data in the broader program.",
+    "limitations": [
+      "Choose the spatial topology, matter assumptions and notion of genericity before comparing existence and nonexistence results."
+    ],
+    "previous_statement": "Characterize when cosmological Einstein spacetimes admit constant-mean-curvature slices or foliations and how generic that property is."
+  },
+  {
+    "id": "LC-Q-MODEL-462-20261128",
+    "problem_id": "Q-MODEL-462",
+    "checked_on": "2026-11-28",
+    "status_before": "unverified",
+    "status_after": "resolved",
+    "statement_assessment": "matched",
+    "coverage": "statement_and_later_literature",
+    "search_queries": [
+      "Gralla Wald rigorous derivation gravitational self force small body limit geodesic worldline corrected version Ehlers Geroch"
+    ],
+    "search_scope": "The indexed question asks for a precise limit exhibiting geodesic motion. Establishing that specific matter evolutions supply the required one-parameter family, or controlling motion beyond first order, requires its own statement.",
+    "evidence": [
+      {
+        "source_id": "SRC-MODEL-405",
+        "locator": "Section 2.5, paragraph ‘Geodesic hypothesis’, PDF p. 18.",
+        "finding": "Identifies the need for a precise negligible-mass limit when the test body contributes to the spacetime geometry."
+      },
+      {
+        "source_id": "SRC-PHYS-928",
+        "locator": "Abstract and corrected version 5 (29 April 2011), analysis of a one-parameter family of metrics.",
+        "finding": "For families satisfying the stated scaling, smoothness and limit conditions, the limiting worldline is a background geodesic. The paper derives first-order self-force and spin-curvature corrections."
+      },
+      {
+        "source_id": "SRC-PHYS-929",
+        "locator": "Abstract and theorem, assumptions (i)–(iii).",
+        "finding": "A concentration theorem with a dominant energy condition and nearby metrics yields geodesic motion in the small-body limit."
+      },
+      {
+        "source_id": "SRC-PHYS-930",
+        "locator": "Introduction, PDF p. 4.",
+        "finding": "Reviews the small-body expansion and the later extension of gravitational self-force calculations to second perturbative order."
+      }
+    ],
+    "conclusion": "Gralla and Wald derive geodesic motion for the limiting worldline of a shrinking gravitating body under explicit smoothness and scaling conditions. Their expansion also gives the first-order self-force and spin correction. This answers the indexed request for one controlled limit. Ehlers and Geroch prove a complementary geodesic result under a local energy condition. Extending these hypotheses is a separate research question.",
+    "limitations": [
+      "No encompassing existence theorem for arbitrary matter or uniform nonperturbative control of the self-force was established by this search."
+    ]
   }
 ]
